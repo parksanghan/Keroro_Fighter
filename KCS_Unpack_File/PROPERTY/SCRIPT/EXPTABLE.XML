@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpTable>
+	<Table Lv="1" Name="훈련병" AEXP="0" NEXP="4000"/>
+	<Table Lv="2" Name="이병" AEXP="4000" NEXP="4000"/>
+	<Table Lv="3" Name="일병" AEXP="8000" NEXP="4000"/>
+	<Table Lv="4" Name="상병" AEXP="12000" NEXP="4000"/>
+	<Table Lv="5" Name="병장" AEXP="16000" NEXP="4000"/>
+	<Table Lv="6" Name="하사1" AEXP="20000" NEXP="6000"/>
+	<Table Lv="7" Name="하사2" AEXP="26000" NEXP="6000"/>
+	<Table Lv="8" Name="중사1" AEXP="32000" NEXP="8000"/>
+	<Table Lv="9" Name="중사2" AEXP="40000" NEXP="8000"/>
+	<Table Lv="10" Name="상사1" AEXP="48000" NEXP="10000"/>
+	<Table Lv="11" Name="상사2" AEXP="58000" NEXP="10000"/>
+	<Table Lv="12" Name="소위1" AEXP="68000" NEXP="20000"/>
+	<Table Lv="13" Name="소위2" AEXP="88000" NEXP="20000"/>
+	<Table Lv="14" Name="소위3" AEXP="108000" NEXP="20000"/>
+	<Table Lv="15" Name="중위1" AEXP="128000" NEXP="30000"/>
+	<Table Lv="16" Name="중위2" AEXP="158000" NEXP="30000"/>
+	<Table Lv="17" Name="중위3" AEXP="188000" NEXP="30000"/>
+	<Table Lv="18" Name="대위1" AEXP="218000" NEXP="40000"/>
+	<Table Lv="19" Name="대위2" AEXP="258000" NEXP="40000"/>
+	<Table Lv="20" Name="대위3" AEXP="298000" NEXP="40000"/>
+	<Table Lv="21" Name="소령1" AEXP="338000" NEXP="200000"/>
+	<Table Lv="22" Name="소령2" AEXP="538000" NEXP="200000"/>
+	<Table Lv="23" Name="소령3" AEXP="738000" NEXP="200000"/>
+	<Table Lv="24" Name="소령4" AEXP="938000" NEXP="200000"/>
+	<Table Lv="25" Name="중령1" AEXP="1138000" NEXP="280000"/>
+	<Table Lv="26" Name="중령2" AEXP="1418000" NEXP="280000"/>
+	<Table Lv="27" Name="중령3" AEXP="1698000" NEXP="280000"/>
+	<Table Lv="28" Name="중령4" AEXP="1978000" NEXP="280000"/>
+	<Table Lv="29" Name="대령1" AEXP="2258000" NEXP="400000"/>
+	<Table Lv="30" Name="대령2" AEXP="2658000" NEXP="400000"/>
+	<Table Lv="31" Name="대령3" AEXP="3058000" NEXP="400000"/>
+	<Table Lv="32" Name="대령4" AEXP="3458000" NEXP="400000"/>
+	<Table Lv="33" Name="준장" AEXP="3858000" NEXP="1000000"/>
+	<Table Lv="34" Name="소장" AEXP="4858000" NEXP="1500000"/>
+	<Table Lv="35" Name="중장" AEXP="6358000" NEXP="2000000"/>
+	<Table Lv="36" Name="대장" AEXP="8358000" NEXP="0"/>
+</ExpTable>

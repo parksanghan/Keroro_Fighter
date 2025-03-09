@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="16">
+        <PROPERTYBAG NAME="Starship_Floor_A" FILENAME="Starship_Floor_A.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Floor_B" FILENAME="Starship_Floor_B.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Desk" FILENAME="Starship_Desk.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_MD_Rader" FILENAME="Starship_MD_Rader.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Side_Rader" FILENAME="Starship_Side_Rader.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Wall_A" FILENAME="Starship_Wall_A.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Wall_B" FILENAME="Starship_Wall_B.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Wall_C" FILENAME="Starship_Wall_C.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Z_Arrow" FILENAME="Starship_Arrow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Letter" FILENAME="Starship_Letter.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Neon_Line" FILENAME="Starship_Neon_Line.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Neon01" FILENAME="Starship_Neon01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Room_light" FILENAME="Starship_Room_light.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Glow01" FILENAME="Starship_Glow01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Glow02" FILENAME="Starship_Glow02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starship_Glow03" FILENAME="Starship_Glow03.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Starship_Anteroom_COMMANDS.XML" />
+</GAMEENTITY>

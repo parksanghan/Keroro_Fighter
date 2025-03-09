@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="CosH_ultra_Cap_Pa.VM" />
+    <TextureInfo count="1">
+        <Texture filename="CosH_ultra_Cap.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading_NoOutLine">
+            <Property name="UseAlpha" value="0" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

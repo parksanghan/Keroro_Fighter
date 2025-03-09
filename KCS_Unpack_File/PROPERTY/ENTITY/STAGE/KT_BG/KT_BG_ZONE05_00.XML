@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="kt_bg_Object03" FILENAME="kt_bg_Object03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane30" FILENAME="kt_bg_Plane30.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane01" FILENAME="kt_bg_Plane01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane18" FILENAME="kt_bg_Plane18.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object10" FILENAME="kt_bg_Object10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane32" FILENAME="kt_bg_Plane32.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane13" FILENAME="kt_bg_Plane13.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="kt_ef_water" FILENAME="kt_ef_water.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_ef_water_shadow_a" FILENAME="kt_ef_water_shadow_a.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_ef_water_wave" FILENAME="kt_ef_water_wave.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="kt_bg_ani_cloud_a" FILENAME="kt_bg_ani_cloud_a.xml" />
+        <PROPERTYBAG NAME="kt_bg_ani_cloud_b" FILENAME="kt_bg_ani_cloud_b.xml" />
+        <PROPERTYBAG NAME="kt_bg_ani_cloud_c" FILENAME="kt_bg_ani_cloud_c.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="kt_bg_zone05_00_COMMANDS.XML" />
+</GAMEENTITY>

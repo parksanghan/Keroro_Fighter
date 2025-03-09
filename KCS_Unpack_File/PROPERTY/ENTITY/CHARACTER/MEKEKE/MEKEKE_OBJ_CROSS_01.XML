@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Mekeke_Obj_Cross" FILENAME="Mekeke_Obj_Cross.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="13" VSNAME="Mekeke_Obj_Cross.VS">
+        <PROPERTYBAG NAME="Com_Obj_Emo_Cry_01" FILENAME="Com_Obj_Emo_Cry_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Dance_01" FILENAME="Com_Obj_Emo_Dance_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Despair_01" FILENAME="Com_Obj_Emo_Despair_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Fighting_01" FILENAME="Com_Obj_Emo_Fighting_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Hi_01" FILENAME="Com_Obj_Emo_Hi_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Laugh_01" FILENAME="Com_Obj_Emo_Laugh_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Provo" FILENAME="Com_Obj_Emo_Provo_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Resonance_01" FILENAME="Com_Obj_Emo_Resonance_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Stretching_01" FILENAME="Com_Obj_Emo_Stretching_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_Tease" FILENAME="Com_Obj_Emo_Tease.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Obj_Emo_resent_01" FILENAME="Com_Obj_Emo_resent_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Mekeke_Obj_Jump_Down" FILENAME="Mekeke_Obj_Jump_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Mekeke_Obj_Lose_01" FILENAME="Mekeke_Obj_Lose_01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Mekeke_Obj_Cross_01_COMMANDS.XML" />
+</GAMEENTITY>

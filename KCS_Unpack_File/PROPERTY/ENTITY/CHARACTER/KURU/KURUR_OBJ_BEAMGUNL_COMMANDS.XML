@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="BEAMGUN_L" LOOP="0" TOTALTIME="10.000000" />
+    </COMMAND_LIST>
+</CHARACTER>

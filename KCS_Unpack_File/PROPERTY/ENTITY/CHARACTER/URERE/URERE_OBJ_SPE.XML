@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Urere_Obj_Planet" FILENAME="Urere_Obj_Planet.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Urere_Planet.VS">
+        <PROPERTYBAG NAME="Urere_Obj_Spe01" FILENAME="Urere_Obj_Spe01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Spe02" FILENAME="Urere_Obj_Spe02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Spe03" FILENAME="Urere_Obj_Spe03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Spe04" FILENAME="Urere_Obj_Spe04.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Urere_Obj_SPE_COMMANDS.XML" />
+</GAMEENTITY>

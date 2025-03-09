@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="0" PosY="0" SizeX="1024" SizeY="768" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.890" Show="1">
+            <Element index="0" TextName="GUI_Server_Select.TGA" TextPosX="0" TextPosY="0" TextSizeX="1024" TextSizeY="768" PosX="0" PosY="0" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="EnterServer_Button" ClassName="CKeroroUI_Button" PosX="430" PosY="584" SizeX="179" SizeY="51" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.870" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Server_Select.TGA" TextPosX="436" TextPosY="769" TextSizeX="179" TextSizeY="51" PosX="0" PosY="0" SizeX="179" SizeY="51" />
+                    <Element ControlState="2" index="0" TextName="GUI_Server_Select.TGA" TextPosX="436" TextPosY="821" TextSizeX="179" TextSizeY="51" PosX="0" PosY="0" SizeX="179" SizeY="51" />
+                    <Element ControlState="3" index="0" TextName="GUI_Server_Select.TGA" TextPosX="436" TextPosY="873" TextSizeX="179" TextSizeY="51" PosX="0" PosY="0" SizeX="179" SizeY="51" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

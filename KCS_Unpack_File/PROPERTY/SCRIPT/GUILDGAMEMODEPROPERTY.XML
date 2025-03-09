@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GuildGameModeProperty>
+    <GuildGameMode PropertyID="1" Name="서바이벌" Enable="1" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="1" OnItem="1" UserCnt="6" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="2" Name="타임어택" Enable="1" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="1" OnItem="1" UserCnt="6" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="3" Name="깃발뺏기" Enable="1" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="1" OnItem="1" UserCnt="6" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="4" Name="블럭공성" Enable="0" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<SETTING_INFO_TEAM 	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="0" UserCnt="0" Time="0" Round="0" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="0" UserCnt="0" Time="0" Round="0" SKillEnable="0" WeaponEnable="0" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="0" UserCnt="0" Time="0" Round="0" SKillEnable="0" WeaponEnable="0" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="5" Name="보물찾기" Enable="0" OnPlayGround="1" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="0" UserMIN="1" UserMAX="5"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="1" UserCnt="3" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="6" Name="몬스터 대전" Enable="0" OnPlayGround="1" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="0" UserMIN="1" UserMAX="3"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="6"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="1" UserCnt="3" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="7" Name="몬스터 잡기" Enable="0" OnPlayGround="1" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="0" UserMIN="1" UserMAX="3"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="6"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="1" UserCnt="3" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="8" Name="달리기" Enable="0" OnPlayGround="1" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="0" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="0" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="1" UserCnt="3" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="9" Name="일심동체" Enable="1" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="1" OnItem="1" UserCnt="6" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="10" Name="Ladder" Enable="0" OnPlayGround="0" BlindLobby="1" BlindWaitRoom="1">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="1" OnItem="0" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="2" UserMAX="2"  TimeMIN="3" TimeMAX="3" RoundMIN="3" RoundMAX="3" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<SETTING_INFO_TEAM 	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="0" UserCnt="2" Time="3" Round="3" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="0" UserCnt="2" Time="3" Round="3" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="0" UserCnt="2" Time="3" Round="3" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="11" Name="우주드릴" Enable="0" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="1" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<SETTING_INFO_TEAM 	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="1" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="0" UserCnt="0" Time="0" Round="0" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="0" UserCnt="0" Time="0" Round="0" SKillEnable="0" WeaponEnable="0" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="0" UserCnt="0" Time="0" Round="0" SKillEnable="0" WeaponEnable="0" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="12" Name="대장전" Enable="1" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="4" UserMAX="6"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="1" OnItem="0" UserCnt="6" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="0" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="0" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="13" Name="무한대전" Enable="0" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="1">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="1" OnItem="0" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="0" UserMIN="1" UserMAX="5"  TimeMIN="0" TimeMAX="0" RoundMIN="1" RoundMAX="1" ChangeMode="0" ChangeType="0" ChangeUser="1" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="0" UserCnt="5" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="0" UserCnt="5" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="0" UserCnt="5" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="14" Name="거래방" Enable="0" OnPlayGround="1" BlindLobby="0" BlindWaitRoom="1">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="1" OnItem="1" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="1" UserMIN="20" UserMAX="20"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="1" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="1" />
+    	<SETTING_INFO_TEAM 	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="0" OnItem="1" UserCnt="20" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="20" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="20" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+    <GuildGameMode PropertyID="15" Name="공성전" Enable="1" OnPlayGround="0" BlindLobby="0" BlindWaitRoom="0">
+    	<SETTING_INFO_INDIVISUAL	OnEnable="0" OnItem="0" OnSkill="0" OnWeapon="0" OnlyEvenNumberUser="0" UserMIN="0" UserMAX="0"  TimeMIN="0" TimeMAX="0" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" ChangeWeapon="0" />
+    	<SETTING_INFO_TEAM 	OnEnable="1" OnItem="1" OnSkill="1" OnWeapon="1" OnlyEvenNumberUser="1" UserMIN="4" UserMAX="10"  TimeMIN="2" TimeMAX="5" RoundMIN="1" RoundMAX="5" ChangeMode="1" ChangeType="1" ChangeUser="1" ChangeTime="1" ChangeRound="1" ChangeSkill="1" ChangeWeapon="1" />
+    	<DEFAULT_INFO_LOBBY	OnTeam="1" OnItem="1" UserCnt="6" Time="3" Round="1" />
+    	<DEFAULT_INFO_WAITROOM_INDIVISUAL	OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    	<DEFAULT_INFO_WAITROOM_TEAM		OnItem="1" UserCnt="6" Time="3" Round="1" SKillEnable="1" WeaponEnable="1" />
+    </GuildGameMode>
+</GuildGameModeProperty>
+
+<!--
+
+OnEnable = 현재 사용가능한 모드인가.
+OnPlayGround = 놀이터 에서 가능한 모드인가.
+OnItem = Item 출현 유무
+OnSkill = 스킬 사용 유무
+OnWeapon = 무기 사용 유무
+OnTeam = Team전 가능 유무
+OnIndivisual = 개인전 가능 유무
+OnTeam = 팀전 가능 유무
+OnlyEvenNumberUser = 짝수인원만 설정가능한 방인가
+UserMIN_Indivisual=최소 인원수
+UserMAX_Indivisual=최대 인원수
+UserMIN = 최소 인원수
+UserMAX = 최대 인원수
+TimeMIN = 최소 플레이 시간
+TimeMAX = 최대 플레이 시간
+RoundMIN = 최소 플레이 판 수
+RoundMAX = 최대 플레이 판 수
+ChangeMode = 모드 변경 가능 유무
+ChangeType = 유형 변경 가능 유무
+ChangeUser = 참여 유저수 변경 가능 유무
+ChangeTime = 게임 진행 시간 변경 가능 유무
+ChangeRound = 게임 판수 변경 가능 유무
+ChangeSkill = 스킬 사용 변경 가능 유무
+TeamType = 1 -> 일반 , 2 
+
+-->

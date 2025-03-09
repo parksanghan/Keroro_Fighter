@@ -1,0 +1,3860 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<ComboKey>
+  <ITEMATTACKSMALL_COMICGUN Type ="1">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMICGUN_SHOT" DamageCommand = "HIT_PUSH_01_ITEM_02_HIT" BackDamageCommand = "HIT_FALL_01_AF" />
+    </Combo>
+  </ITEMATTACKSMALL_COMICGUN>
+
+  <ITEMDASHATTACKSMALL_COMICGUN Type ="2">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMICGUN_DASH_ATK_X" DamageCommand = "HIT_FALL_01_ITEM_02_HIT" BackDamageCommand = "HIT_FALL_01_AF" />
+    </Combo>
+  </ITEMDASHATTACKSMALL_COMICGUN>
+
+  <ITEMJUMPATTACKSMALL_COMICGUN Type ="3">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMICGUN_JUMP_ATK_X" DamageCommand = "HIT_PUSH_01_ITEM_02_HIT" BackDamageCommand = "HIT_FALL_01_AF" />
+    </Combo>
+  </ITEMJUMPATTACKSMALL_COMICGUN>
+
+  <ITEMDASHATTACKSMALL_COMICHAMMER Type ="4">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMICHAMMER_DASH_ATK_X" DamageCommand = "HIT_PUSH_01_AB" BackDamageCommand = "HIT_FALL_01_AF" />
+    </Combo>
+  </ITEMDASHATTACKSMALL_COMICHAMMER>
+
+  <ITEMJUMPATTACKSMALL_COMICHAMMER Type ="5">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMICHAMMER_JUMP_ATK_X" DamageCommand = "HIT_PUSH_01_AB" BackDamageCommand = "HIT_FALL_01_AF" />
+    </Combo>
+  </ITEMJUMPATTACKSMALL_COMICHAMMER>
+
+  <ITEMATTACKSMALL_COMICHAMMER Type ="6">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMICHAMMER_COMBO_A" DamageCommand = "HIT_PUSH_01_AB" BackDamageCommand = "HIT_FALL_01_AF" />
+      <Property Key = "0" ComboCommand = "COMICHAMMER_COMBO_B" DamageCommand = "HIT_PUSH_01_AB" BackDamageCommand = "HIT_FALL_01_AF" />
+      <Property Key = "0" ComboCommand = "COMICHAMMER_COMBO_C" DamageCommand = "HIT_FALL_01_AF" BackDamageCommand = "HIT_FALL_01_AF" />
+    </Combo>
+  </ITEMATTACKSMALL_COMICHAMMER>
+
+    <!-- 파리채_P 어택-->
+  <ATTACK_FLYFLAP_P Type = "7">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FLYFLAP_COMB_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_FLYFLAP_P>
+
+  <!-- 파리채_P 대쉬 어택-->
+  <ATTACK_DASH_FLYFLAP_P Type = "8">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FLYFLAP_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_FLYFLAP_P>
+
+ <!-- 파리채_P 점프 어택-->
+  <ATTACK_JUMP_FLYFLAP_P Type = "9">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FLYFLAP_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_FLYFLAP_P>
+
+  <!-- 파리채_K 어택-->
+  <ATTACK_FLYFLAP_K Type = "10">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_FLYFLAP_COMB_K" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_FLYFLAP_K>
+
+  <!-- 파리채 대쉬_K 어택-->
+  <ATTACK_DASH_FLYFLAP_K Type = "11">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FLYFLAP_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_FLYFLAP_K>
+
+  <!-- 파리채 점프_K 어택-->
+  <ATTACK_JUMP_FLYFLAP_K Type = "12">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FLYFLAP_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_FLYFLAP_K>
+
+  <!-- 건_P 어택-->
+  <ATTACK_GUN_P Type = "13">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GUN_COMB_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_GUN_P>
+
+  <!-- 건 대쉬 어택-->
+  <ATTACK_DASH_GUN_P Type = "14">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GUN_COMB_DA_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_DASH_GUN_P>
+
+  <!-- 건_P 점프 어택-->
+  <ATTACK_JUMP_GUN_P Type = "15">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GUN_COMB_JA_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_JUMP_GUN_P>
+
+  <!-- 건_K 어택-->
+  <ATTACK_GUN_K Type = "16">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_GUN_COMB_K" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_GUN_K>
+
+  <!-- 건 대쉬_K 어택-->
+  <ATTACK_DASH_GUN_K Type = "17">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GUN_COMB_DA_K" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_DASH_GUN_K>
+
+  <!-- 건 점프_K 어택-->
+  <ATTACK_JUMP_GUN_K Type = "18">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GUN_COMB_JA_K" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_JUMP_GUN_K>
+  
+  <!-- 목검_P 어택-->
+  <ATTACK_BAMBOO_P Type = "19">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_BAMBOO_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_BAMBOO_P>
+
+  <!-- 목검 대쉬_P 어택-->
+  <ATTACK_DASH_BAMBOO_P Type = "20">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_BAMBOO_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_BAMBOO_P>
+
+  <!-- 목검 점프_P 어택-->
+  <ATTACK_JUMP_BAMBOO_P Type = "21">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_BAMBOO_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_BAMBOO_P>
+    
+  <!-- 목검_K 어택-->
+  <ATTACK_BAMBOO_K Type = "22">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_BAMBOO_COMB_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_BAMBOO_K>
+
+  <!-- 목검 대쉬_K 어택-->
+  <ATTACK_DASH_BAMBOO_K Type = "23">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_BAMBOO_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_BAMBOO_K>
+
+  <!-- 목검 점프_K 어택-->
+  <ATTACK_JUMP_BAMBOO_K Type = "24">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_BAMBOO_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_BAMBOO_K>
+  
+  <!-- 테니스공_P 어택-->
+  <ATTACK_TENNISBALL_P Type = "25">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_TENNISBALL_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_TENNISBALL_P>
+  
+  <!-- 테니스공 대쉬_P 어택-->
+  <ATTACK_DASH_TENNISBALL_P Type = "26">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_TENNISBALL_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_TENNISBALL_P>
+
+  <!-- 테니스공 점프_P 어택-->
+  <ATTACK_JUMP_TENNISBALL_P Type = "27">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_TENNISBALL_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_TENNISBALL_P>
+    
+  <!-- 테니스공_K 어택-->
+  <ATTACK_TENNISBALL_K Type = "28">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_TENNISBALL_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_TENNISBALL_K>
+  
+  <!-- 테니스공 대쉬_K 어택-->
+  <ATTACK_DASH_TENNISBALL_K Type = "29">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_TENNISBALL_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_TENNISBALL_K>
+
+  <!-- 테니스공 점프_K 어택-->
+  <ATTACK_JUMP_TENNISBALL_K Type = "30">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_TENNISBALL_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_TENNISBALL_K>
+  
+    <!-- 닌자_P 어택 -->
+  <ATTACK_NINJA_P Type = "31">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_NINJA_COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_NINJA_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_NINJA_P>
+  
+  <!-- 닌자_K 어택 -->
+  <ATTACK_NINJA_K Type = "32">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_NINJA_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_NINJA_COMB_K_02" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_NINJA_COMB_K_03" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_NINJA_K>
+
+  <!-- 닌자 대시_P 어택-->
+  <ATTACK_DASH_NINJA_P Type = "33">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_NINJA_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_DASH_NINJA_P>
+
+  <!-- 닌자 대시_K 어택-->
+  <ATTACK_DASH_NINJA_K Type = "34">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_NINJA_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_NINJA_K>
+  
+  <!-- 닌자 점프_P 어택-->
+  <ATTACK_JUMP_NINJA_P Type = "35">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_NINJA_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_NINJA_P>
+
+  <!-- 닌자 점프_K 어택-->
+  <ATTACK_JUMP_NINJA_K Type = "36">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_NINJA_COMB_JA_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_NINJA_K>
+  
+  <!-- 기관총_P 어택-->
+  <ATTACK_MUCHINGUN_P Type = "37">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MUCHINGUN_COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_MUCHINGUN_P>
+  
+  <!-- 기관총 대쉬_P 어택-->
+  <ATTACK_DASH_MUCHINGUN_P Type = "38">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MUCHINGUN_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_DASH_MUCHINGUN_P>
+
+  <!-- 기관총 점프_P 어택-->
+  <ATTACK_JUMP_MUCHINGUN_P Type = "39">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MUCHINGUN_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_MUCHINGUN_P>
+    
+  <!-- 기관총_K 어택-->
+  <ATTACK_MUCHINGUN_K Type = "40">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_MUCHINGUN_COMB_K" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_MUCHINGUN_K>
+  
+  <!-- 기관총 대쉬_K 어택-->
+  <ATTACK_DASH_MUCHINGUN_K Type = "41">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MUCHINGUN_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_MUCHINGUN_K>
+
+  <!-- 기관총 점프_K 어택-->
+  <ATTACK_JUMP_MUCHINGUN_K Type = "42">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MUCHINGUN_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_MUCHINGUN_K>
+
+  <!-- 괴수_P 어택 -->
+  <ATTACK_GODZILLA_P Type = "43">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GODZILLA_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_GODZILLA_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_GODZILLA_P>
+  
+  <!-- 괴수_K 어택 -->
+  <ATTACK_GODZILLA_K Type = "44">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_GODZILLA_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_GODZILLA_K>
+
+  <!-- 괴수 대시_P 어택-->
+  <ATTACK_DASH_GODZILLA_P Type = "45">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GODZILLA_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_GODZILLA_P>
+
+  <!-- 괴수 대시_K 어택-->
+  <ATTACK_DASH_GODZILLA_K Type = "46">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GODZILLA_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_GODZILLA_K>
+  
+  <!-- 괴수 점프 착지 공격-->
+  <ATTACK_GODZILLA_JUMP_LAND Type = "47">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GODZILLA_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_GODZILLA_JUMP_LAND>
+
+  <!-- 괴수 특수 공격-->
+  <ATTACK_GODZILLA_TRATK Type = "48">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GODZILLA_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_GODZILLA_TRATK>
+  
+  <!-- 인생총_P 어택 -->
+  <ATTACK_LIFE_P Type = "49">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_LIFE_COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+   </ATTACK_LIFE_P>
+  
+  <!-- 인생총_K 어택 -->
+  <ATTACK_LIFE_K Type = "50">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "WP_LIFE_COMB_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_LIFE_K>
+
+  <!-- 인생총 대시_P 어택-->
+  <ATTACK_DASH_LIFE_P Type = "51">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_LIFE_COMB_DA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_LIFE_P>
+
+  <!-- 인생총 대시_K 어택-->
+  <ATTACK_DASH_LIFE_K Type = "52">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_LIFE_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_LIFE_K>
+  
+  <!-- 인생총 점프 P 공격-->
+  <ATTACK_JUMP_LIFE_P Type = "53">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_LIFE_COMB_JA_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_LIFE_P>
+
+  <!-- 인생총 점프 K 공격-->
+  <ATTACK_JUMP_LIFE_K Type = "54">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_LIFE_COMB_JA_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_LIFE_K>
+
+  <!-- 느려지는 총_P 어택 -->
+  <ATTACK_SLOWGUN_P Type = "55">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SLOWGUN_COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+   </ATTACK_SLOWGUN_P>
+  
+  <!-- 느려지는 총_K 어택 -->
+  <ATTACK_SLOWGUN_K Type = "56">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "WP_SLOWGUN_COMB_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_SLOWGUN_K>
+
+  <!-- 느려지는 총 대시_P 어택-->
+  <ATTACK_DASH_SLOWGUN_P Type = "57">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SLOWGUN_COMB_DA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SLOWGUN_P>
+
+  <!-- 느려지는 총 대시_K 어택-->
+  <ATTACK_DASH_SLOWGUN_K Type = "58">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SLOWGUN_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SLOWGUN_K>
+  
+  <!-- 느려지는 총 점프 P 공격-->
+  <ATTACK_JUMP_SLOWGUN_P Type = "59">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SLOWGUN_COMB_JA_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_SLOWGUN_P>
+
+  <!-- 느려지는 총 점프 K 공격-->
+  <ATTACK_JUMP_SLOWGUN_K Type = "60">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SLOWGUN_COMB_JA_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_SLOWGUN_K>
+
+  <!-- 안킬로 P 어택 -->
+  <ATTACK_ANKYLO_P Type = "61">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ANKYLO_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_ANKYLO_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_ANKYLO_P>
+  
+  <!-- 안킬로_K 어택 -->
+  <ATTACK_ANKYLO_K Type = "62">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_ANKYLO_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_ANKYLO_K>
+
+  <!-- 안킬로 대시_P 어택-->
+  <ATTACK_DASH_ANKYLO_P Type = "63">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ANKYLO_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_ANKYLO_P>
+
+  <!-- 안킬로 대시_K 어택-->
+  <ATTACK_DASH_ANKYLO_K Type = "64">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ANKYLO_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_ANKYLO_K>
+  
+  <!-- 안킬로 점프 착지 공격-->
+  <ATTACK_ANKYLO_JUMP_LAND Type = "65">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ANKYLO_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_ANKYLO_JUMP_LAND>
+
+  <!-- 안킬로 특수 공격-->
+  <ATTACK_ANKYLO_TRATK Type = "66">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ANKYLO_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_ANKYLO_TRATK>
+
+  <!-- 카네이션검_P 어택-->
+  <ATTACK_CARNATION_P Type = "67">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CARNATION_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_CARNATION_P>
+
+  <!-- 카네이션검_대시 P 어택-->
+  <ATTACK_DASH_CARNATION_P Type = "68">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CARNATION_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_CARNATION_P>
+
+  <!-- 카네이션검_점프 P 어택-->
+  <ATTACK_JUMP_CARNATION_P Type = "69">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CARNATION_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_CARNATION_P>
+    
+  <!-- 카네이션검_K 어택-->
+  <ATTACK_CARNATION_K Type = "70">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_CARNATION_COMB_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_CARNATION_K>
+
+  <!-- 카네이션검 대시_K 어택-->
+  <ATTACK_DASH_CARNATION_K Type = "71">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CARNATION_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_CARNATION_K>
+
+  <!-- 카네이션검 점프_K 어택-->
+  <ATTACK_JUMP_CARNATION_K Type = "72">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CARNATION_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_CARNATION_K>
+
+  <!-- 해바라기 건_P 어택-->
+  <ATTACK_SUNFLOWER_P Type = "73">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SUNFLOWER_COMB_P" DamageCommand = "HIT_UKIKI_FUNFACE_PPK" BackDamageCommand = "HIT_UKIKI_FUNFACE_PPK_B" />
+    </Combo>
+  </ATTACK_SUNFLOWER_P>
+
+  <!-- 해바라기 건 대쉬 어택-->
+  <ATTACK_DASH_SUNFLOWER_P Type = "74">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SUNFLOWER_COMB_DA_P" DamageCommand = "HIT_UKIKI_FUNFACE_PPK" BackDamageCommand = "HIT_UKIKI_FUNFACE_PPK_B" />
+    </Combo>
+  </ATTACK_DASH_SUNFLOWER_P>
+
+  <!-- 해바라기 건_P 점프 어택-->
+  <ATTACK_JUMP_SUNFLOWER_P Type = "75">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SUNFLOWER_COMB_JA_P" DamageCommand = "HIT_UKIKI_FUNFACE_PPK" BackDamageCommand = "HIT_UKIKI_FUNFACE_PPK_B" />
+    </Combo>
+  </ATTACK_JUMP_SUNFLOWER_P>
+
+  <!-- 해바라기 건_K 어택-->
+  <ATTACK_SUNFLOWER_K Type = "76">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_SUNFLOWER_COMB_K" DamageCommand = "HIT_FLY_03" BackDamageCommand = "HIT_FLY_03_B" />
+    </Combo>
+  </ATTACK_SUNFLOWER_K>
+
+  <!-- 해바라기 건 대쉬_K 어택-->
+  <ATTACK_DASH_SUNFLOWER_K Type = "77">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SUNFLOWER_COMB_DA_K" DamageCommand = "HIT_FLY_03" BackDamageCommand = "HIT_FLY_03_B" />
+    </Combo>
+  </ATTACK_DASH_SUNFLOWER_K>
+
+  <!-- 해바라기 건 점프_K 어택-->
+  <ATTACK_JUMP_SUNFLOWER_K Type = "78">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SUNFLOWER_COMB_JA_K" DamageCommand = "HIT_FLY_03" BackDamageCommand = "HIT_FLY_03_B" />
+    </Combo>
+  </ATTACK_JUMP_SUNFLOWER_K>
+
+  <!-- 먼지털이_P 어택-->
+  <ATTACK_DUST_P Type = "79">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DUST_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DUST_P>
+
+  <!-- 먼지털이_대시 P 어택-->
+  <ATTACK_DASH_DUST_P Type = "80">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DUST_COMB_DA_P" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_DASH_DUST_P>
+
+  <!-- 먼지털이_점프 P 어택-->
+  <ATTACK_JUMP_DUST_P Type = "81">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DUST_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_DUST_P>
+    
+  <!-- 먼지털이_K 어택-->
+  <ATTACK_DUST_K Type = "82">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_DUST_COMB_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DUST_K>
+
+  <!-- 먼지털이 대시_K 어택-->
+  <ATTACK_DASH_DUST_K Type = "83">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DUST_COMB_DA_K" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_DASH_DUST_K>
+
+  <!-- 먼지털이 점프_K 어택-->
+  <ATTACK_JUMP_DUST_K Type = "84">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DUST_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_DUST_K>
+
+  <!-- 기관총_P 어택-->
+  <ATTACK_MACHINEGUN_P Type = "85">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MACHINEGUN_COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "WP_MACHINEGUN_COMB_P_02" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "WP_MACHINEGUN_COMB_P_03" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_MACHINEGUN_P>
+  
+  <!-- 기관총 대쉬_P 어택-->
+  <ATTACK_DASH_MACHINEGUN_P Type = "86">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MACHINEGUN_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_DASH_MACHINEGUN_P>
+
+  <!-- 기관총 점프_P 어택-->
+  <ATTACK_JUMP_MACHINEGUN_P Type = "87">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MACHINEGUN_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_MACHINEGUN_P>
+    
+  <!-- 기관총_K 어택-->
+  <ATTACK_MACHINEGUN_K Type = "88">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_MACHINEGUN_COMB_K" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_MACHINEGUN_K>
+  
+  <!-- 기관총 대쉬_K 어택-->
+  <ATTACK_DASH_MACHINEGUN_K Type = "89">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MACHINEGUN_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_MACHINEGUN_K>
+
+  <!-- 기관총 점프_K 어택-->
+  <ATTACK_JUMP_MACHINEGUN_K Type = "90">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MACHINEGUN_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_MACHINEGUN_K>
+
+  <!-- 루시퍼 스피어_P 어택-->
+  <ATTACK_RUCIFER_P Type = "91">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RUCIFER_COMB_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_RUCIFER_P>
+
+  <!-- 루시퍼 스피어_P 대쉬 어택-->
+  <ATTACK_DASH_RUCIFER_P Type = "92">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RUCIFER_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_RUCIFER_P>
+
+ <!-- 루시퍼 스피어_P 점프 어택-->
+  <ATTACK_JUMP_RUCIFER_P Type = "93">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RUCIFER_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_RUCIFER_P>
+
+  <!-- 루시퍼 스피어_K 어택-->
+  <ATTACK_RUCIFER_K Type = "94">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_RUCIFER_COMB_K" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_RUCIFER_K>
+
+  <!-- 루시퍼 스피어 대쉬_K 어택-->
+  <ATTACK_DASH_RUCIFER_K Type = "95">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RUCIFER_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_RUCIFER_K>
+
+  <!-- 루시퍼 스피어 점프_K 어택-->
+  <ATTACK_JUMP_RUCIFER_K Type = "96">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RUCIFER_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_RUCIFER_K>
+
+  <!-- 루시퍼 스피어 특수 공격-->
+  <ATTACK_DASH_RUCIFER_TRATK Type = "97">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RUCIFER_COMB_TRATK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_DASH_RUCIFER_TRATK>
+
+  <!-- 물 기관총_P 어택-->
+  <ATTACK_WATERGUN_P Type = "98">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERGUN_COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_WATERGUN_P>
+  
+  <!-- 물 기관총 대쉬_P 어택-->
+  <ATTACK_DASH_WATERGUN_P Type = "99">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERGUN_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_DASH_WATERGUN_P>
+
+  <!-- 물 기관총 점프_P 어택-->
+  <ATTACK_JUMP_WATERGUN_P Type = "100">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERGUN_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_WATERGUN_P>
+    
+  <!-- 물 기관총_K 어택-->
+  <ATTACK_WATERGUN_K Type = "101">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_WATERGUN_COMB_K" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_WATERGUN_K>
+  
+  <!-- 물 기관총 대쉬_K 어택-->
+  <ATTACK_DASH_WATERGUN_K Type = "102">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERGUN_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_WATERGUN_K>
+
+  <!-- 물 기관총 점프_K 어택-->
+  <ATTACK_JUMP_WATERGUN_K Type = "103">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERGUN_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_WATERGUN_K>
+ 
+ <!-- 주술사 막대_P 어택-->
+  <ATTACK_SHAMENSTAFF_P Type = "104">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_PPP" DamageCommand = "BABY" BackDamageCommand = "BABY" />
+    </Combo>
+    <Combo Name ="Comboset2">
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "WP_SHAMENSTAFF_COMB_PPK" DamageCommand = "DRAINAP" BackDamageCommand = "DRAINAP" />
+    </Combo>
+  </ATTACK_SHAMENSTAFF_P>
+
+ <!-- 주술사 막대_K 어택-->
+  <ATTACK_SHAMENSTAFF_K Type = "105">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_SHAMENSTAFF_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "WP_SHAMENSTAFF_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "WP_SHAMENSTAFF_COMB_KKK" DamageCommand = "CHANGEKEY" BackDamageCommand = "CHANGEKEY" />
+    </Combo>
+    <Combo Name ="Comboset2">
+      <Property Key = "1" ComboCommand = "WP_SHAMENSTAFF_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "WP_SHAMENSTAFF_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_KKP" DamageCommand = "BLINDLEAF" BackDamageCommand = "BLINDLEAF" />
+    </Combo>
+  </ATTACK_SHAMENSTAFF_K>
+
+  <!-- 주술사 막대_대시 P 어택-->
+  <ATTACK_DASH_SHAMENSTAFF_P Type = "106">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_DA_P" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_DASH_SHAMENSTAFF_P>
+
+  <!-- 주술사 막대_점프 P 어택-->
+  <ATTACK_JUMP_SHAMENSTAFF_P Type = "107">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_SHAMENSTAFF_P>
+
+  <!-- 주술사 막대 대시_K 어택-->
+  <ATTACK_DASH_SHAMENSTAFF_K Type = "108">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_DA_P" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_DASH_SHAMENSTAFF_K>
+
+  <!-- 주술사 막대 점프_K 어택-->
+  <ATTACK_JUMP_SHAMENSTAFF_K Type = "109">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SHAMENSTAFF_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_SHAMENSTAFF_K>
+
+  <!-- 울트라_P 어택 -->
+  <ATTACK_ULTRA_P Type = "110">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ULTRA_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_ULTRA_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_ULTRA_COMB_PPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_ULTRA_P>
+
+  <!-- 울트라_K 어택 -->
+  <ATTACK_ULTRA_K Type = "111">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_ULTRA_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_ULTRA_K>
+
+  <!-- 울트라 대시_P 어택-->
+  <ATTACK_DASH_ULTRA_P Type = "112">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ULTRA_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>    
+  </ATTACK_DASH_ULTRA_P>
+
+  <!-- 울트라 대시_K 어택-->
+  <ATTACK_DASH_ULTRA_K Type = "113">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ULTRA_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>    
+  </ATTACK_DASH_ULTRA_K>
+  
+  <!-- 울트라 점프 K 공격-->
+  <ATTACK_JUMP_ULTRA_K Type = "114">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ULTRA_JUMP_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_ULTRA_K>
+
+  <!-- 울트라 점프 P 공격-->
+  <ATTACK_JUMP_ULTRA_P Type = "115">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ULTRA_JUMP_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_ULTRA_P>
+
+  <!-- 울트라 특수 공격-->
+  <ATTACK_ULTRA_TRATK Type = "116">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_ULTRA_COMB_AS" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_ULTRA_TRATK>
+
+  <!-- 사랑의매_P 어택-->
+  <ATTACK_LOVESTICK_P Type = "117">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LOVESTICK_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_LOVESTICK_P>
+
+  <!-- 사랑의매 대쉬_P 어택-->
+  <ATTACK_DASH_LOVESTICK_P Type = "118">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LOVESTICK_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_LOVESTICK_P>
+
+  <!-- 사랑의매 점프_P 어택-->
+  <ATTACK_JUMP_LOVESTICK_P Type = "119">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LOVESTICK_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_LOVESTICK_P>
+    
+  <!-- 사랑의매_K 어택-->
+  <ATTACK_LOVESTICK_K Type = "120">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_LOVESTICK_COMB_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_LOVESTICK_K>
+
+  <!-- 사랑의매 대쉬_K 어택-->
+  <ATTACK_DASH_LOVESTICK_K Type = "121">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LOVESTICK_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_LOVESTICK_K>
+
+  <!-- 사랑의매 점프_K 어택-->
+  <ATTACK_JUMP_LOVESTICK_K Type = "122">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LOVESTICK_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_LOVESTICK_K>
+
+  <!-- 아이스검_P 어택-->
+  <ATTACK_ICESWORD_P Type = "123">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ICESWORD_COMB_P" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+    </Combo>
+  </ATTACK_ICESWORD_P>
+
+  <!-- 아이스검 대쉬_P 어택-->
+  <ATTACK_DASH_ICESWORD_P Type = "124">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ICESWORD_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_ICESWORD_P>
+
+  <!-- 아이스검 점프_P 어택-->
+  <ATTACK_JUMP_ICESWORD_P Type = "125">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ICESWORD_COMB_JA_P" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+    </Combo>
+  </ATTACK_JUMP_ICESWORD_P>
+    
+  <!-- 아이스검_K 어택-->
+  <ATTACK_ICESWORD_K Type = "126">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_ICESWORD_COMB_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_ICESWORD_K>
+
+  <!-- 아이스검 대쉬_K 어택-->
+  <ATTACK_DASH_ICESWORD_K Type = "127">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ICESWORD_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_ICESWORD_K>
+
+  <!-- 아이스검 점프_K 어택-->
+  <ATTACK_JUMP_ICESWORD_K Type = "128">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ICESWORD_COMB_JA_K" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+    </Combo>
+  </ATTACK_JUMP_ICESWORD_K>
+
+  <!-- 산타클로스_P 어택 -->
+  <ATTACK_SANTAMAN_P Type = "129">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_COMB_P" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_COMB_PP" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_COMB_PPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_SANTAMAN_P>
+
+  <!-- 산타클로스_K 어택 -->
+  <ATTACK_SANTAMAN_K Type = "130">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_SANTAMAN_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_SANTAMAN_K>
+
+  <!-- 산타클로스_KPP 어택 -->
+  <ATTACK_SANTAMAN_KPP Type = "131">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_KP" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "0" ComboCommand = "COMB_KPP" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "0" ComboCommand = "COMB_KP_01" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "0" ComboCommand = "COMB_KPP_01" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_SANTAMAN_KPP>
+
+  <!-- 산타클로스 대시_P 어택-->
+  <ATTACK_DASH_SANTAMAN_P Type = "132">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SANTAMAN_P>
+
+  <!-- 산타클로스 대시_K 어택-->
+  <ATTACK_DASH_SANTAMAN_K Type = "133">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SANTAMAN_K>
+  
+  <!-- 산타클로스 점프 K 공격-->
+  <ATTACK_JUMP_SANTAMAN_K Type = "134">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_JUMP_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_SANTAMAN_K>
+
+  <!-- 산타클로스 점프 P 공격-->
+  <ATTACK_JUMP_SANTAMAN_P Type = "135">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_JUMP_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_SANTAMAN_P>
+
+  <!-- 산타클로스 특수 공격-->
+  <ATTACK_SANTAMAN_TRATK Type = "136">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SANTAMAN_COMB_AS" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_SANTAMAN_TRATK>
+
+  <!-- L사이즈 눈뭉치_P 어택-->
+  <ATTACK_SNOWBALL_P Type = "137">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_P" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+    </Combo>
+  </ATTACK_SNOWBALL_P>
+  
+  <!-- L사이즈 눈뭉치 대쉬_P 어택-->
+  <ATTACK_DASH_SNOWBALL_P Type = "138">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_SNOWBALL_P>
+
+  <!-- L사이즈 눈뭉치_P 어택-->
+  <ATTACK_JUMP_SNOWBALL_P Type = "139">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_SNOWBALL_P>
+    
+  <!-- L사이즈 눈뭉치_K 어택-->
+  <ATTACK_SNOWBALL_K Type = "140">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_SNOWBALL_COMB_K" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+    </Combo>
+  </ATTACK_SNOWBALL_K>
+  
+  <!-- L사이즈 눈뭉치 대쉬_K 어택-->
+  <ATTACK_DASH_SNOWBALL_K Type = "141">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_SNOWBALL_K>
+
+  <!-- L사이즈 눈뭉치 점프_K 어택-->
+  <ATTACK_JUMP_SNOWBALL_K Type = "142">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_SNOWBALL_K>
+
+  <!-- 시한폭탄 로봇_P 어택-->
+  <ATTACK_MINIROBOT_P Type = "143">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MINIROBOT_COMB_P" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+  </ATTACK_MINIROBOT_P>
+  
+  <!-- 시한폭탄 로봇 대쉬_P 어택-->
+  <ATTACK_DASH_MINIROBOT_P Type = "144">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MINIROBOT_COMB_DA_P" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+  </ATTACK_DASH_MINIROBOT_P>
+
+  <!-- 시한폭탄 로봇 점프_P 어택-->
+  <ATTACK_JUMP_MINIROBOT_P Type = "145">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MINIROBOT_COMB_JA_P" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+  </ATTACK_JUMP_MINIROBOT_P>
+    
+  <!-- 시한폭탄 로봇_K 어택-->
+  <ATTACK_MINIROBOT_K Type = "146">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_MINIROBOT_COMB_K" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+  </ATTACK_MINIROBOT_K>
+  
+  <!-- 시한폭탄 로봇 대쉬_K 어택-->
+  <ATTACK_DASH_MINIROBOT_K Type = "147">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MINIROBOT_COMB_DA_K" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+  </ATTACK_DASH_MINIROBOT_K>
+
+  <!-- 시한폭탄 로봇 점프_K 어택-->
+  <ATTACK_JUMP_MINIROBOT_K Type = "148">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_MINIROBOT_COMB_JA_K" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+  </ATTACK_JUMP_MINIROBOT_K>
+
+    <!-- 해머_P 어택-->
+  <ATTACK_HAMMER_P Type = "149">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HAMMER_COMB_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_HAMMER_P>
+
+  <!-- 해머_P 대쉬 어택-->
+  <ATTACK_DASH_HAMMER_P Type = "150">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HAMMER_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_HAMMER_P>
+
+ <!-- 해머_P 점프 어택-->
+  <ATTACK_JUMP_HAMMER_P Type = "151">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HAMMER_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_HAMMER_P>
+
+  <!-- 해머_K 어택-->
+  <ATTACK_HAMMER_K Type = "152">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_HAMMER_COMB_K" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_HAMMER_K>
+
+  <!-- 해머 대쉬_K 어택-->
+  <ATTACK_DASH_HAMMER_K Type = "153">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HAMMER_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_HAMMER_K>
+
+  <!-- 해머 점프_K 어택-->
+  <ATTACK_JUMP_HAMMER_K Type = "154">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HAMMER_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_HAMMER_K>
+
+  <!-- 전기검_P 어택-->
+  <ATTACK_ELECSWORD_P Type = "155">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ELECSWORD_COMB_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_ELECSWORD_P>
+
+  <!-- 전기검_대시 P 어택-->
+  <ATTACK_DASH_ELECSWORD_P Type = "156">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ELECSWORD_COMB_DA_P" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+  </ATTACK_DASH_ELECSWORD_P>
+
+  <!-- 전기검_점프 P 어택-->
+  <ATTACK_JUMP_ELECSWORD_P Type = "157">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ELECSWORD_COMB_JA_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_JUMP_ELECSWORD_P>
+    
+  <!-- 전기검_K 어택-->
+  <ATTACK_ELECSWORD_K Type = "158">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_ELECSWORD_COMB_K" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+  </ATTACK_ELECSWORD_K>
+
+  <!-- 전기검 대시_K 어택-->
+  <ATTACK_DASH_ELECSWORD_K Type = "159">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ELECSWORD_COMB_DA_K" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+  </ATTACK_DASH_ELECSWORD_K>
+
+  <!-- 전기검 점프_K 어택-->
+  <ATTACK_JUMP_ELECSWORD_K Type = "160">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ELECSWORD_COMB_JA_K" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_JUMP_ELECSWORD_K>
+
+  <!-- 스테고 P 어택 -->
+  <ATTACK_STEGO_P Type = "161">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STEGO_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_STEGO_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_STEGO_P>
+  
+  <!-- 스테고_K 어택 -->
+  <ATTACK_STEGO_K Type = "162">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_STEGO_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_STEGO_K>
+
+  <!-- 스테고 대시_P 어택-->
+  <ATTACK_DASH_STEGO_P Type = "163">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STEGO_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_STEGO_P>
+
+  <!-- 스테고 대시_K 어택-->
+  <ATTACK_DASH_STEGO_K Type = "164">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STEGO_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_STEGO_K>
+  
+  <!-- 스테고 점프 착지 공격-->
+  <ATTACK_STEGO_JUMP_LAND Type = "165">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STEGO_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_STEGO_JUMP_LAND>
+
+  <!-- 스테고 특수 공격-->
+  <ATTACK_STEGO_TRATK Type = "166">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STEGO_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_STEGO_TRATK>
+
+  <!-- 트리가 P 어택 -->
+  <ATTACK_TRIGA_P Type = "167">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TRIGA_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_TRIGA_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_TRIGA_P>
+  
+  <!-- 트리가_K 어택 -->
+  <ATTACK_TRIGA_K Type = "168">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_TRIGA_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_TRIGA_K>
+
+  <!-- 트리가 대시_P 어택-->
+  <ATTACK_DASH_TRIGA_P Type = "169">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TRIGA_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_TRIGA_P>
+
+  <!-- 트리가 대시_K 어택-->
+  <ATTACK_DASH_TRIGA_K Type = "170">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TRIGA_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_TRIGA_K>
+  
+  <!-- 트리가 점프 착지 공격-->
+  <ATTACK_TRIGA_JUMP_LAND Type = "171">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TRIGA_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_TRIGA_JUMP_LAND>
+
+  <!-- 트리가 특수 공격-->
+  <ATTACK_TRIGA_TRATK Type = "172">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TRIGA_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_TRIGA_TRATK>
+
+  <!-- 가스 총_P 어택-->
+  <ATTACK_GASGUN_P Type = "173">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GASGUN_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_GASGUN_P>
+
+  <!-- 가스 총 대쉬 어택-->
+  <ATTACK_DASH_GASGUN_P Type = "174">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GASGUN_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_GASGUN_P>
+
+  <!-- 가스 총_P 점프 어택-->
+  <ATTACK_JUMP_GASGUN_P Type = "175">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GASGUN_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_GASGUN_P>
+
+  <!-- 가스 총_K 어택-->
+  <ATTACK_GASGUN_K Type = "176">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_GASGUN_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_GASGUN_K>
+
+  <!-- 가스 총 대쉬_K 어택-->
+  <ATTACK_DASH_GASGUN_K Type = "177">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GASGUN_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_GASGUN_K>
+
+  <!-- 가스 총 점프_K 어택-->
+  <ATTACK_JUMP_GASGUN_K Type = "178">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_GASGUN_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_GASGUN_K>
+
+  <!-- 작아지는 총_P 어택 -->
+  <ATTACK_SMALLGUN_P Type = "179">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SMALLGUN_COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+   </ATTACK_SMALLGUN_P>
+  
+  <!-- 작아지는 총_K 어택 -->
+  <ATTACK_SMALLGUN_K Type = "180">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "WP_SMALLGUN_COMB_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_SMALLGUN_K>
+
+  <!-- 작아지는 총 대시_P 어택-->
+  <ATTACK_DASH_SMALLGUN_P Type = "181">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SMALLGUN_COMB_DA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SMALLGUN_P>
+
+  <!-- 작아지는 총 대시_K 어택-->
+  <ATTACK_DASH_SMALLGUN_K Type = "182">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SMALLGUN_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SMALLGUN_K>
+  
+  <!-- 작아지는 총 점프 P 공격-->
+  <ATTACK_JUMP_SMALLGUN_P Type = "183">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SMALLGUN_COMB_JA_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_SMALLGUN_P>
+
+  <!-- 작아지는 총 점프 K 공격-->
+  <ATTACK_JUMP_SMALLGUN_K Type = "184">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "WP_SMALLGUN_COMB_JA_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_JUMP_SMALLGUN_K>
+
+  <!-- 물폭탄_P 어택-->
+  <ATTACK_WATERBALL_P Type = "185">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERBALL_COMB_P" DamageCommand = "HIT_WATERBALL" BackDamageCommand = "HIT_WATERBALL_B" />
+    </Combo>
+  </ATTACK_WATERBALL_P>
+  
+  <!-- 물폭탄 대쉬_P 어택-->
+  <ATTACK_DASH_WATERBALL_P Type = "186">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERBALL_COMB_DA_P" DamageCommand = "HIT_WATERBALL" BackDamageCommand = "HIT_WATERBALL_B" />
+    </Combo>
+  </ATTACK_DASH_WATERBALL_P>
+
+  <!-- 물폭탄 점프_P 어택-->
+  <ATTACK_JUMP_WATERBALL_P Type = "187">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERBALL_COMB_JA_P" DamageCommand = "HIT_WATERBALL" BackDamageCommand = "HIT_WATERBALL_B" />
+    </Combo>
+  </ATTACK_JUMP_WATERBALL_P>
+    
+  <!-- 물폭탄_K 어택-->
+  <ATTACK_WATERBALL_K Type = "188">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_WATERBALL_COMB_K" DamageCommand = "HIT_WATERBALL" BackDamageCommand = "HIT_WATERBALL_B" />
+    </Combo>
+  </ATTACK_WATERBALL_K>
+  
+  <!-- 물폭탄 대쉬_K 어택-->
+  <ATTACK_DASH_WATERBALL_K Type = "189">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERBALL_COMB_DA_K" DamageCommand = "HIT_WATERBALL" BackDamageCommand = "HIT_WATERBALL_B" />
+    </Combo>
+  </ATTACK_DASH_WATERBALL_K>
+
+  <!-- 물폭탄 점프_K 어택-->
+  <ATTACK_JUMP_WATERBALL_K Type = "190">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_WATERBALL_COMB_JA_K" DamageCommand = "HIT_WATERBALL" BackDamageCommand = "HIT_WATERBALL_B" />
+    </Combo>
+  </ATTACK_JUMP_WATERBALL_K>
+
+  <!-- 돌도끼_P 어택-->
+  <ATTACK_STONEAXE_P Type = "191">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_STONEAXE_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_STONEAXE_P>
+  
+  <!-- 돌도끼 대쉬_P 어택-->
+  <ATTACK_DASH_STONEAXE_P Type = "192">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_STONEAXE_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_STONEAXE_P>
+
+  <!-- 돌도끼 점프_P 어택-->
+  <ATTACK_JUMP_STONEAXE_P Type = "193">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_STONEAXE_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_STONEAXE_P>
+    
+  <!-- 돌도끼_K 어택-->
+  <ATTACK_STONEAXE_K Type = "194">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_STONEAXE_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_STONEAXE_K>
+  
+  <!-- 돌도끼 대쉬_K 어택-->
+  <ATTACK_DASH_STONEAXE_K Type = "195">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_STONEAXE_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_STONEAXE_K>
+
+  <!-- 돌도끼 점프_K 어택-->
+  <ATTACK_JUMP_STONEAXE_K Type = "196">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_STONEAXE_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_STONEAXE_K>
+
+  <!-- 브라키오 P 어택 -->
+  <ATTACK_BRACHIO_P Type = "197">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BRACHIO_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_BRACHIO_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_BRACHIO_P>
+  
+  <!-- 브라키오_K 어택 -->
+  <ATTACK_BRACHIO_K Type = "198">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_BRACHIO_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_BRACHIO_K>
+
+  <!-- 브라키오 대시_P 어택-->
+  <ATTACK_DASH_BRACHIO_P Type = "199">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BRACHIO_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_BRACHIO_P>
+
+  <!-- 브라키오 대시_K 어택-->
+  <ATTACK_DASH_BRACHIO_K Type = "200">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BRACHIO_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_BRACHIO_K>
+  
+  <!-- 브라키오 점프 착지 공격-->
+  <ATTACK_BRACHIO_JUMP_LAND Type = "201">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BRACHIO_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_BRACHIO_JUMP_LAND>
+
+  <!-- 브라키오 특수 공격-->
+  <ATTACK_BRACHIO_TRATK Type = "202">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BRACHIO_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_BRACHIO_TRATK>
+
+  <!-- 프테라 P 어택 -->
+  <ATTACK_PTERA_P Type = "203">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_PTERA_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_PTERA_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_PTERA_P>
+  
+  <!-- 프테라_K 어택 -->
+  <ATTACK_PTERA_K Type = "204">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_PTERA_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_PTERA_K>
+
+  <!-- 프테라 대시_P 어택-->
+  <ATTACK_DASH_PTERA_P Type = "205">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_PTERA_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_PTERA_P>
+
+  <!-- 프테라 대시_K 어택-->
+  <ATTACK_DASH_PTERA_K Type = "206">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_PTERA_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_PTERA_K>
+  
+  <!-- 프테라 점프 착지 공격-->
+  <ATTACK_PTERA_JUMP_LAND Type = "207">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_PTERA_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_PTERA_JUMP_LAND>
+
+  <!-- 프테라 특수 공격-->
+  <ATTACK_PTERA_TRATK Type = "208">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_PTERA_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_PTERA_TRATK>
+
+  <!-- 칠판지우개_P 어택-->
+  <ATTACK_ERASER_P Type = "209">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ERASER_COMB_P" DamageCommand = "BLINDERASER" BackDamageCommand = "BLINDERASER" />
+    </Combo>
+  </ATTACK_ERASER_P>
+  
+  <!-- 칠판지우개 대쉬_P 어택-->
+  <ATTACK_DASH_ERASER_P Type = "210">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ERASER_COMB_DA_P" DamageCommand = "BLINDERASER" BackDamageCommand = "BLINDERASER" />
+    </Combo>
+  </ATTACK_DASH_ERASER_P>
+
+  <!-- 칠판지우개 점프_P 어택-->
+  <ATTACK_JUMP_ERASER_P Type = "211">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ERASER_COMB_JA_P" DamageCommand = "BLINDERASER" BackDamageCommand = "BLINDERASER" />
+    </Combo>
+  </ATTACK_JUMP_ERASER_P>
+    
+  <!-- 칠판지우개_K 어택-->
+  <ATTACK_ERASER_K Type = "212">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_ERASER_COMB_K" DamageCommand = "BLINDERASER" BackDamageCommand = "BLINDERASER" />
+    </Combo>
+  </ATTACK_ERASER_K>
+  
+  <!-- 칠판지우개 대쉬_K 어택-->
+  <ATTACK_DASH_ERASER_K Type = "213">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ERASER_COMB_DA_K" DamageCommand = "BLINDERASER" BackDamageCommand = "BLINDERASER" />
+    </Combo>
+  </ATTACK_DASH_ERASER_K>
+
+  <!-- 칠판지우개 점프_K 어택-->
+  <ATTACK_JUMP_ERASER_K Type = "214">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_ERASER_COMB_JA_K" DamageCommand = "BLINDERASER" BackDamageCommand = "BLINDERASER" />
+    </Combo>
+  </ATTACK_JUMP_ERASER_K>
+
+  <!-- 확성기_P 어택-->
+  <ATTACK_SPEAKER_P Type = "215">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SPEAKER_COMB_P" DamageCommand = "GUARD_B" BackDamageCommand = "GUARD_B" />
+    </Combo>
+  </ATTACK_SPEAKER_P>
+
+  <!-- 확성기 대쉬 어택-->
+  <ATTACK_DASH_SPEAKER_P Type = "216">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SPEAKER_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_SPEAKER_P>
+
+  <!-- 확성기_P 점프 어택-->
+  <ATTACK_JUMP_SPEAKER_P Type = "217">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SPEAKER_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_SPEAKER_P>
+
+  <!-- 확성기_K 어택-->
+  <ATTACK_SPEAKER_K Type = "218">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_SPEAKER_COMB_K" DamageCommand = "GUARD_B" BackDamageCommand = "GUARD_B" />
+    </Combo>
+  </ATTACK_SPEAKER_K>
+
+  <!-- 확성기 대쉬_K 어택-->
+  <ATTACK_DASH_SPEAKER_K Type = "219">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SPEAKER_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_SPEAKER_K>
+
+  <!-- 확성기 점프_K 어택-->
+  <ATTACK_JUMP_SPEAKER_K Type = "220">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SPEAKER_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_SPEAKER_K>
+
+  <!-- 밤송이_P 어택-->
+  <ATTACK_CHESTNUT_P Type = "221">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CHESTNUT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01" />
+    </Combo>
+  </ATTACK_CHESTNUT_P>
+  
+  <!-- 밤송이 대쉬_P 어택-->
+  <ATTACK_DASH_CHESTNUT_P Type = "222">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CHESTNUT_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01" />
+    </Combo>
+  </ATTACK_DASH_CHESTNUT_P>
+
+  <!-- 밤송이 점프_P 어택-->
+  <ATTACK_JUMP_CHESTNUT_P Type = "223">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CHESTNUT_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01" />
+    </Combo>
+  </ATTACK_JUMP_CHESTNUT_P>
+    
+  <!-- 밤송이_K 어택-->
+  <ATTACK_CHESTNUT_K Type = "224">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_CHESTNUT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01" />
+    </Combo>
+  </ATTACK_CHESTNUT_K>
+  
+  <!-- 밤송이 대쉬_K 어택-->
+  <ATTACK_DASH_CHESTNUT_K Type = "225">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CHESTNUT_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01" />
+    </Combo>
+  </ATTACK_DASH_CHESTNUT_K>
+
+  <!-- 밤송이 점프_K 어택-->
+  <ATTACK_JUMP_CHESTNUT_K Type = "226">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CHESTNUT_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01" />
+    </Combo>
+  </ATTACK_JUMP_CHESTNUT_K>
+
+  <!-- 달토끼_P 어택 -->
+  <ATTACK_RABBIT_P Type = "227">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_RABBIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_RABBIT_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_RABBIT_P>
+  
+  <!-- 달토끼_K 어택 -->
+  <ATTACK_RABBIT_K Type = "228">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_RABBIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_RABBIT_K>
+
+  <!-- 달토끼 대시_P 어택-->
+  <ATTACK_DASH_RABBIT_P Type = "229">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_RABBIT_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_RABBIT_P>
+
+  <!-- 달토끼 대시_K 어택-->
+  <ATTACK_DASH_RABBIT_K Type = "230">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_RABBIT_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_RABBIT_K>
+  
+  <!-- 달토끼 점프 착지 공격-->
+  <ATTACK_RABBIT_JUMP_LAND Type = "231">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_RABBIT_JUMP_LAND" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_RABBIT_JUMP_LAND>
+
+  <!-- 달토끼 특수 공격-->
+  <ATTACK_RABBIT_TRATK Type = "232">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_RABBIT_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_RABBIT_TRATK>
+
+  <!-- 빼빼로_P 어택-->
+  <ATTACK_PEPERO_P Type = "233">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_PEPERO_COMB_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_PEPERO_P>
+
+  <!-- 빼빼로_대시 P 어택-->
+  <ATTACK_DASH_PEPERO_P Type = "234">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_PEPERO_COMB_DA_P" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+  </ATTACK_DASH_PEPERO_P>
+
+  <!-- 빼빼로_점프 P 어택-->
+  <ATTACK_JUMP_PEPERO_P Type = "235">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_PEPERO_COMB_JA_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_JUMP_PEPERO_P>
+    
+  <!-- 빼빼로_K 어택-->
+  <ATTACK_PEPERO_K Type = "236">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_PEPERO_COMB_K" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+  </ATTACK_PEPERO_K>
+
+  <!-- 빼빼로 대시_K 어택-->
+  <ATTACK_DASH_PEPERO_K Type = "237">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_PEPERO_COMB_DA_K" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+  </ATTACK_DASH_PEPERO_K>
+
+  <!-- 빼빼로 점프_K 어택-->
+  <ATTACK_JUMP_PEPERO_K Type = "238">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_PEPERO_COMB_JA_K" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+    </Combo>
+  </ATTACK_JUMP_PEPERO_K>
+
+  <!-- 합격 엿_P 어택-->
+  <ATTACK_RICECANDY_P Type = "239">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RICECANDY_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_RICECANDY_P>
+
+  <!-- 합격 엿_P 어택-->
+  <ATTACK_DASH_RICECANDY_P Type = "240">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RICECANDY_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_RICECANDY_P>
+
+  <!-- 합격 엿_P 어택-->
+  <ATTACK_JUMP_RICECANDY_P Type = "241">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RICECANDY_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_RICECANDY_P>
+    
+  <!-- 합격 엿_K 어택-->
+  <ATTACK_RICECANDY_K Type = "242">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_RICECANDY_COMB_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_RICECANDY_K>
+
+  <!-- 합격 엿 대쉬_K 어택-->
+  <ATTACK_DASH_RICECANDY_K Type = "243">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RICECANDY_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_DASH_RICECANDY_K>
+
+  <!-- 합격 엿 점프_K 어택-->
+  <ATTACK_JUMP_RICECANDY_K Type = "244">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_RICECANDY_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_RICECANDY_K>
+
+  <!-- 플라잉 볼_P 어택 -->
+  <ATTACK_FLYINGBALL_P Type = "245">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_COMB_P" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_COMB_PP" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_COMB_PPP" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+   </ATTACK_FLYINGBALL_P>
+  
+  <!-- 플라잉 볼_K 어택 -->
+  <ATTACK_FLYINGBALL_K Type = "246">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_FLYINGBALL_COMB_K" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+      <Property Key = "1" ComboCommand = "TR_FLYINGBALL_COMB_KK" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+      <Property Key = "1" ComboCommand = "TR_FLYINGBALL_COMB_KKK" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>
+  </ATTACK_FLYINGBALL_K>
+
+  <!-- 플라잉 볼 대시_P 어택-->
+  <ATTACK_DASH_FLYINGBALL_P Type = "247">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_DASH_P" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_DASH_FLYINGBALL_P>
+
+  <!-- 플라잉 볼 대시_K 어택-->
+  <ATTACK_DASH_FLYINGBALL_K Type = "248">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_DASH_K" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_DASH_FLYINGBALL_K>
+  
+  <!-- 플라잉 볼 점프_K 공격-->
+  <ATTACK_JUMP_FLYINGBALL_K Type = "249">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_JUMP_P" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_JUMP_FLYINGBALL_K>
+
+  <!-- 플라잉 점프_P 공격-->
+  <ATTACK_JUMP_FLYINGBALL_P Type = "250">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_JUMP_K" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_JUMP_FLYINGBALL_P>
+
+  <!-- 플라잉 볼 특수 공격-->
+  <ATTACK_FLYINGBALL_TRATK Type = "251">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_FLYINGBALL_COMB_TRATK" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_FLYINGBALL_TRATK>
+
+  <!-- 댄스 총_P 어택-->
+  <ATTACK_DANCEGUN_P Type = "252">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DANCEGUN_COMB_P" DamageCommand = "HIT_DANCE_01" BackDamageCommand = "HIT_DANCE_01" />
+    </Combo>
+  </ATTACK_DANCEGUN_P>
+
+  <!-- 댄스 총 대쉬 P 어택-->
+  <ATTACK_DASH_DANCEGUN_P Type = "253">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DANCEGUN_COMB_DA_P" DamageCommand = "HIT_DANCE_01" BackDamageCommand = "HIT_DANCE_01" />
+    </Combo>
+  </ATTACK_DASH_DANCEGUN_P>
+
+  <!-- 댄스 총_P 점프 어택-->
+  <ATTACK_JUMP_DANCEGUN_P Type = "254">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DANCEGUN_COMB_JA_P" DamageCommand = "HIT_DANCE_01" BackDamageCommand = "HIT_DANCE_01" />
+    </Combo>
+  </ATTACK_JUMP_DANCEGUN_P>
+
+  <!-- 댄스 총_K 어택-->
+  <ATTACK_DANCEGUN_K Type = "255">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_DANCEGUN_COMB_K" DamageCommand = "HIT_DANCE_01" BackDamageCommand = "HIT_DANCE_01" />
+    </Combo>
+  </ATTACK_DANCEGUN_K>
+
+  <!-- 댄스 총 대쉬_K 어택-->
+  <ATTACK_DASH_DANCEGUN_K Type = "256">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DANCEGUN_COMB_DA_K" DamageCommand = "HIT_DANCE_01" BackDamageCommand = "HIT_DANCE_01" />
+    </Combo>
+  </ATTACK_DASH_DANCEGUN_K>
+
+  <!-- 댄스 총 점프_K 어택-->
+  <ATTACK_JUMP_DANCEGUN_K Type = "257">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_DANCEGUN_COMB_JA_K" DamageCommand = "HIT_DANCE_01" BackDamageCommand = "HIT_DANCE_01" />
+    </Combo>
+  </ATTACK_JUMP_DANCEGUN_K>
+
+  <!-- 킹코브라 P 어택 -->
+  <ATTACK_VIPERDOLL_P Type = "258">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_VIPERDOLL_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_VIPERDOLL_COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_VIPERDOLL_P>
+  
+  <!-- 킹코브라_K 어택 -->
+  <ATTACK_VIPERDOLL_K Type = "259">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_VIPERDOLL_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_VIPERDOLL_K>
+
+  <!-- 킹코브라 대시_P 어택-->
+  <ATTACK_DASH_VIPERDOLL_P Type = "260">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_VIPERDOLL_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_VIPERDOLL_P>
+
+  <!-- 킹코브라 대시_K 어택-->
+  <ATTACK_DASH_VIPERDOLL_K Type = "261">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_VIPERDOLL_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_VIPERDOLL_K>
+  
+  <!-- 킹코브라 점프 착지 공격-->
+  <ATTACK_VIPERDOLL_JUMP_LAND Type = "262">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_VIPERDOLL_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_VIPERDOLL_JUMP_LAND>
+
+  <!-- 킹코브라 특수 공격-->
+  <ATTACK_VIPERDOLL_TRATK Type = "263">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_VIPERDOLL_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_VIPERDOLL_TRATK>
+
+  <!-- 눈사람 P 어택 -->
+  <ATTACK_SNOWMAN_P Type = "264">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SNOWMAN_COMB_P" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "0" ComboCommand = "TR_SNOWMAN_COMB_PP" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "0" ComboCommand = "TR_SNOWMAN_COMB_PPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+   </ATTACK_SNOWMAN_P>
+  
+  <!-- 눈사람_K 어택 -->
+  <ATTACK_SNOWMAN_K Type = "265">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_SNOWMAN_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_SNOWMAN_K>
+
+  <!-- 눈사람 대시_P 어택-->
+  <ATTACK_DASH_SNOWMAN_P Type = "266">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SNOWMAN_COMB_DA_P" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_SNOWMAN_P>
+
+  <!-- 눈사람 대시_K 어택-->
+  <ATTACK_DASH_SNOWMAN_K Type = "267">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SNOWMAN_COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_SNOWMAN_K>
+  
+  <!-- 눈사람 점프 착지 공격-->
+  <ATTACK_SNOWMAN_JUMP_LAND Type = "268">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SNOWMAN_JUMP_LAND" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_SNOWMAN_JUMP_LAND>
+
+  <!-- 눈사람 특수 공격-->
+  <ATTACK_SNOWMAN_TRATK Type = "269">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SNOWMAN_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02" />
+    </Combo>    
+  </ATTACK_SNOWMAN_TRATK>
+
+  <!-- S사이즈 눈뭉치_P 어택-->
+  <ATTACK_SNOWBALL_P Type = "270">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_SNOWBALL_P>
+  
+  <!-- S사이즈 눈뭉치 대쉬_P 어택-->
+  <ATTACK_DASH_SNOWBALL_P Type = "271">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_SNOWBALL_P>
+
+  <!-- S사이즈 눈뭉치_P 어택-->
+  <ATTACK_JUMP_SNOWBALL_P Type = "272">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_SNOWBALL_P>
+    
+  <!-- S사이즈 눈뭉치_K 어택-->
+  <ATTACK_SNOWBALL_K Type = "273">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_SNOWBALL_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_SNOWBALL_K>
+  
+  <!-- S사이즈 눈뭉치 대쉬_K 어택-->
+  <ATTACK_DASH_SNOWBALL_K Type = "274">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_SNOWBALL_K>
+
+  <!-- S사이즈 눈뭉치 점프_K 어택-->
+  <ATTACK_JUMP_SNOWBALL_K Type = "275">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_SNOWBALL_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_SNOWBALL_K>
+
+  <!-- 박치기 -->
+  <SLOT_HEADING Type = "276">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_HEADING" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_HEADING>
+
+    <!-- 뿅망치 -->
+  <SLOT_HAMMER Type = "277">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_HAMMER" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_HAMMER>
+
+  <!-- 얍삽이 위성 -->
+  <SLOT_SATELLITE Type = "278">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEF_ROBOT" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </SLOT_SATELLITE>
+
+  <!-- 부비트랩 -->
+  <SLOT_TRAP Type = "279">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_TRAP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_TRAP>
+
+  <!-- 메가입자포 -->
+  <SLOT_MEGACANNON Type = "280">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_MEGACANNON" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_MEGACANNON>
+
+  <!-- 수류탄 -->
+  <SLOT_GRENADE Type = "281">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_GRENADE" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_GRENADE>
+
+  <!-- 케로케로파 -->
+  <SLOT_KEROPA Type = "282">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_KEROPA" DamageCommand = "HIT_SKIL_KEROPA" BackDamageCommand = "HIT_SKIL_KEROPA_B" />
+    </Combo>
+  </SLOT_KEROPA>
+
+  <!-- 선풍각 -->
+  <SLOT_SPIRALKICK Type = "283">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_SUNPUNGAK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_SPIRALKICK>
+
+  <!-- 대장의 외침 -->
+  <SLOT_SHOUTOFCAPTAIN Type = "284">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_CAPSHOUT" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_SHOUTOFCAPTAIN>
+
+  <!-- 철권 -->
+  <SLOT_TEKKEN Type = "285">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_CHULGWUN" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_TEKKEN>
+
+  <!-- 100톤 망치 -->
+  <SLOT_100TONHAMMER Type = "286">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_100TONHAMMER" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_100TONHAMMER>
+
+  <!-- 케론어퍼 -->
+  <SLOT_KERONUPPER Type = "287">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_KEROUNPPER" DamageCommand = "HIT_SKILL_KEROUNPPER" BackDamageCommand = "HIT_SKILL_KEROUNPPER_B" />
+    </Combo>
+  </SLOT_KERONUPPER>
+
+  <!-- 프로그 너클 -->
+  <SLOT_FROGKNUCKLE Type = "288">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_FROGKNUCKLE" DamageCommand = "HIT_SKILL_FROGKNUCKLE" BackDamageCommand = "HIT_SKILL_FROGKNUCKLE_B" />
+    </Combo>
+  </SLOT_FROGKNUCKLE>
+
+  <!-- 포이즌 붐 -->
+  <SLOT_POISONBOMB Type = "289">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_POISONBOOM" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_POISONBOMB>
+
+  <!-- 전진 난무 -->
+  <SLOT_NANMU Type = "290">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_FORWARDATK_01" DamageCommand ="" BackDamageCommand = "" />
+    </Combo>
+  </SLOT_NANMU>
+
+  <!-- 자이언트 스윙 -->
+  <SLOT_GIANTSWING Type = "291">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "" DamageCommand ="" BackDamageCommand = "" />
+    </Combo>
+  </SLOT_GIANTSWING>
+
+  <!-- 보디어택 -->
+  <SLOT_BODYATTACK Type = "292">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CRE_PUSHING" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_BODYATTACK>
+
+  <!-- 바주카 -->
+  <SLOT_BAZOOKA Type = "293">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CRE_BAZOOKA" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </SLOT_BAZOOKA>
+
+  <!-- 아마겟돈 1/10억 -->
+  <SLOT_ARMAGEDDON Type = "294">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CRE_AMAGEDDON" DamageCommand = "HIT_SKILL_AMAGEDDON" BackDamageCommand = "HIT_SKILL_AMAGEDDON" />
+    </Combo>
+  </SLOT_ARMAGEDDON>
+
+  <!-- 로우킥 -->
+  <SLOT_LOWKICK Type = "295">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_LOWKICK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_LOWKICK>
+
+  <!-- 회피기 -->
+  <SLOT_ESCAPEATK Type = "296">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_EVADE" DamageCommand = "HIT_FALL_03" BackDamageCommand = "HIT_FALL_03_B" />
+    </Combo>
+  </SLOT_ESCAPEATK>
+
+  <!-- 기습 트랩 -->
+  <SLOT_TRAP_CASH Type = "297">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEX_TRAP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_TRAP_CASH>
+  
+  <!-- 무쇠 철권 -->
+  <SLOT_TEKKEN_CASH Type = "298">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_ATK_CHULGWUN" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_TEKKEN_CASH>
+  
+  <!-- 더블 케론어퍼 -->
+  <SLOT_KERONUPPER_CASH Type = "299">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_ATK_KEROUNPPER" DamageCommand = "HIT_FLY_DO" BackDamageCommand = "HIT_FLY_DO_B" />
+    </Combo>
+  </SLOT_KERONUPPER_CASH>
+  
+  <!-- 파워 너클 -->
+  <SLOT_FROGKNUCKLE_CASH Type = "300">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_ATK_FROGKNUCKLE" DamageCommand = "HIT_SKILL_FROGKNUCKLE" BackDamageCommand = "HIT_SKILL_FROGKNUCKLE_B" />
+    </Combo>
+  </SLOT_FROGKNUCKLE_CASH>
+  
+  <!-- 메가입자포 플러스-->
+  <SLOT_MEGACANNON_CASH Type = "301">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEX_MEGACANNON" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_MEGACANNON_CASH>
+  
+  <!-- 스페셜 붐 -->
+  <SLOT_POISONBOMB_CASH Type = "302">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEX_POISONBOOM" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_POISONBOMB_CASH>
+  
+  <!-- 백호 난무 -->
+  <SLOT_NANMU_CASH Type = "303">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEX_FORWARDATK_01" DamageCommand ="" BackDamageCommand = "" />
+    </Combo>
+  </SLOT_NANMU_CASH>
+  
+  <!-- 얍삽 쿠루루 로봇 -->
+  <SLOT_SATELLITE_CASH Type = "304">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEF_ROBOT" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </SLOT_SATELLITE_CASH>
+  
+  <!-- 왕 뿅망치 -->
+  <SLOT_HAMMER_PCROOM Type = "305">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PC_COM_HAMMER" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_HAMMER_PCROOM>
+  
+  <!-- 슈퍼 박치기 -->
+  <SLOT_HEADING_PCROOM Type = "306">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PC_COM_HEADING" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_HEADING_PCROOM>
+  
+  <!-- 케론 선풍각 -->
+  <SLOT_SPIRALKICK_PCROOM Type = "307">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PC_COM_SUNPUNGAK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_SPIRALKICK_PCROOM>
+  
+  <!-- 섬광탄 -->
+  <SLOT_GRENADE_PCROOM Type = "308">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PC_COM_GRENADE" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_GRENADE_PCROOM>
+  
+  <!-- 장군의 외침 -->
+  <SLOT_SHOUTOFCAPTAIN_PCROOM Type = "309">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PC_COM_CAPSHOUT" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_SHOUTOFCAPTAIN_PCROOM>
+  
+  <!-- 오리온 수류탄-->
+  <SLOT_GRENADE_ORION Type = "310">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_EVENT_ORIONGRENADE" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+  </SLOT_GRENADE_ORION>
+  
+  <!-- 투니스 트랩 -->
+  <SLOT_TRAP_ORION Type = "311">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_EVENT_TOONISTRAP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_TRAP_ORION>
+  
+  <!-- 고래밥 포-->
+  <SLOT_MEGACANNON_ORION Type = "312">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_EVENT_WHALE" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_MEGACANNON_ORION>
+  
+  <!-- 초코송이 바주카 -->
+  <SLOT_BAZOOKA_ORION Type = "313">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_EVENT_CHOCOPO" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </SLOT_BAZOOKA_ORION>
+  
+  <!-- 고무 펀치 -->
+  <SLOT_RUBBERPUNCH Type = "314">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_RUBBERPUNCH" DamageCommand = "HIT_PUSH_02_B" BackDamageCommand = "HIT_PUSH_02" />
+    </Combo>
+  </SLOT_RUBBERPUNCH>
+  
+  <!-- 흙 뿌리기 -->
+  <SLOT_THROWSOIL Type = "315">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_SOILATK" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </SLOT_THROWSOIL>
+
+  <!-- 일격 100톤 망치 -->
+  <SLOT_100TONHAMMER_CASH Type = "316">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_ATK_100TONHAMMER" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_100TONHAMMER_CASH>  
+  
+  <!-- 케론킥 -->
+  <SLOT_KERONKICK Type = "317">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_KERONKICK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </SLOT_KERONKICK>
+  
+  <!-- 내려차기 -->
+  <SLOT_JUMPKICK Type = "318">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_JUMPKICK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </SLOT_JUMPKICK>
+
+  <!-- 롤링어택 -->  
+  <SLOT_ROLLINGATTACK Type = "319">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEF_ROLINGATK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </SLOT_ROLLINGATTACK>
+
+  <!-- 더블 케로케로파 -->
+  <SLOT_KEROPA_CASH Type = "320">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PC_COM_KEROPA" DamageCommand = "HIT_SKIL_KEROPA" BackDamageCommand = "HIT_SKIL_KEROPA_B" />
+    </Combo>
+  </SLOT_KEROPA_CASH>  
+
+  <!-- 돌려 차기 -->
+  <SLOT_SPINKICK Type = "321">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_COM_SPINKICK" DamageCommand = "HIT_SKILL_SPINKICK" BackDamageCommand = "HIT_SKILL_SPINKICK_B" />
+    </Combo>
+  </SLOT_SPINKICK> 
+
+  <!-- 돌격 -->
+  <SLOT_RUSHATK Type = "322">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_RUSHATK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_RUSHATK> 
+
+  <!-- 가스공격 -->
+  <SLOT_GASATK Type = "323">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEF_GASATK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_GASATK> 
+
+  <!-- 가루 어퍼 -->
+  <SLOT_GARUUPPER Type = "324">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_GARU_UPPER" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "SKILL_GARU_UPPER_02" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_GARUUPPER>
+
+  <!-- 철장 -->
+  <SLOT_IRONSMASH Type = "325">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_TARU_CHULJANG" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_IRONSMASH> 
+
+  <!-- 무쇠 박치기 -->
+  <SLOT_IRONHEADING Type = "326">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_TORO_HEADING" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_IRONHEADING> 
+
+  <!-- 백어택 -->
+  <SLOT_BACKATTACK Type = "327">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_BACKSTEP_01" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </SLOT_BACKATTACK>
+
+  <!-- 크로스어택 -->
+  <SLOT_CROSSATTACK Type = "328">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_CROSSATK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_CROSSATTACK>
+
+  <!-- 타마마 난무 -->
+  <SLOT_TAMANANMU Type = "329">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEX_FORWARDATK_TAMA_01" DamageCommand ="" BackDamageCommand = "" />
+    </Combo>
+  </SLOT_TAMANANMU>
+
+  <!-- 화염 방사 -->
+  <SLOT_FIREATK Type = "330">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEF_FIREATK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "SKILL_DEF_FIREATK_01" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "SKILL_DEF_FIREATK_02" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </SLOT_FIREATK>
+
+  <!-- 독가스 어택 -->
+  <SLOT_KARAGASATK Type = "331">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_KARA_GASATK" DamageCommand ="HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_KARAGASATK>
+
+  <!-- 더블 고무 펀치 -->
+  <SLOT_KERORUBERATK Type = "332">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_KERO_RUBERATK" DamageCommand = "HIT_PUSH_02_B" BackDamageCommand = "HIT_PUSH_02" />
+    </Combo>
+  </SLOT_KERORUBERATK>
+
+  <!-- 도로로 선풍각 -->
+  <SLOT_DOROSUNPUNGAK Type = "333">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DORO_SUNPUNGAK_01" DamageCommand = "HIT_PUSH_02_B" BackDamageCommand = "HIT_PUSH_03" />
+    </Combo>
+  </SLOT_DOROSUNPUNGAK>
+
+  <!-- 회오리 펀치 -->
+  <SLOT_SPINPUNCH Type = "334">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_SIPNPUNCH" DamageCommand = "HIT_SKILL_SPINPUNCH" BackDamageCommand = "HIT_SKILL_SPINPUNCH_B" />
+    </Combo>
+  </SLOT_SPINPUNCH>
+
+  <!-- 회오리 자이언트 스윙 플레이어 광역 -->
+  <SLOT_CYCLONEGIANTSWING Type = "335">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEF_GIANTSWING_02" DamageCommand ="HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_CYCLONEGIANTSWING>
+
+  <!-- 회오리 자이언트 스윙 엔피시 광역 -->
+  <SLOT_CYCLONEGIANTSWING_TRY Type = "336">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CASH_DEF_GIANTSWING_02" DamageCommand ="HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_CYCLONEGIANTSWING_TRY>
+
+  <!-- 회피 난무 -->
+  <SLOT_EVADENANMU Type = "337">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_EVADENANMU" DamageCommand ="" BackDamageCommand = "" />
+    </Combo>
+  </SLOT_EVADENANMU>
+
+  <!-- 슈퍼 철권 -->
+  <SLOT_SUPERCHULGWUN Type = "338">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_STAR_SUPERCHULGWUN" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+      <Property Key = "0" ComboCommand = "SKILL_STAR_SUPERCHULGWUN_02" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_SUPERCHULGWUN>
+
+  <!-- 기로로 수류탄 폭격 -->
+  <SLOT_BOMBINGATK Type = "339">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_GIRO_BOMBING" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+  </SLOT_BOMBINGATK>
+
+  <!-- 거미줄 폭탄 -->
+  <SLOT_SPIDERBOOM Type = "340">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_JIRA_SPIDERBOOM" DamageCommand = "HIT_JIRA_SPE_02" BackDamageCommand = "HIT_JIRA_SPE_02" />
+    </Combo>
+  </SLOT_SPIDERBOOM>
+
+  <!-- 트라이앵글 너클 -->
+  <SLOT_ANGLENUCKLE Type = "341">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_JORU_ANGLENUCKLE" DamageCommand = "HIT_SKILL_FROGKNUCKLE" BackDamageCommand = "HIT_SKILL_FROGKNUCKLE_B" />
+      <Property Key = "0" ComboCommand = "SKILL_JORU_ANGLENUCKLE_01" DamageCommand = "HIT_SKILL_FROGKNUCKLE" BackDamageCommand = "HIT_SKILL_FROGKNUCKLE_B" />
+      <Property Key = "0" ComboCommand = "SKILL_JORU_ANGLENUCKLE_02" DamageCommand = "HIT_SKILL_FROGKNUCKLE" BackDamageCommand = "HIT_SKILL_FROGKNUCKLE_B" />
+    </Combo>
+  </SLOT_ANGLENUCKLE>
+
+  <!-- 고무 크로스 어택 -->
+  <SLOT_RUBBERCROSS Type = "342">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_KIDKERORO_RUBBERCROSS" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_RUBBERCROSS>
+
+  <!-- 공포의 카레 -->
+  <SLOT_CURRYBOMB Type = "343">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_KURURU_CURRYBOMB" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_CURRYBOMB>
+
+  <!-- 설화 페인팅 샷 -->
+  <SLOT_SNOWPAINTING Type = "344">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PUTATA_SNOWPAINTING" DamageCommand = "" BackDamageCommand = "" />
+      <Property Key = "0" ComboCommand = "SKILL_PUTATA_SNOWPAINTING_01" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_SNOWPAINTING>
+
+  <!-- 블리자드 -->
+  <SLOT_BLIZZARD Type = "345">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_UKIKI_BLIZZARD" DamageCommand = "HIT_UKIKI_ICE" BackDamageCommand = "HIT_UKIKI_ICE" />
+    </Combo>
+  </SLOT_BLIZZARD>
+
+  <!-- 퍼렁별 복주머니_P 어택-->
+  <ATTACK_LUCKBAG_P Type = "346">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_P" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_LUCKBAG_P>
+  
+  <!-- 퍼렁별 복주머니 대쉬_P 어택-->
+  <ATTACK_DASH_LUCKBAG_P Type = "347">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_DA_P" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_DASH_LUCKBAG_P>
+
+  <!-- 퍼렁별 복주머니_P 어택-->
+  <ATTACK_JUMP_LUCKBAG_P Type = "348">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_JA_P" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_JUMP_LUCKBAG_P>
+    
+  <!-- 퍼렁별 복주머니_K 어택-->
+  <ATTACK_LUCKBAG_K Type = "349">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_LUCKBAG_COMB_K" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_LUCKBAG_K>
+  
+  <!-- 퍼렁별 복주머니 대쉬_K 어택-->
+  <ATTACK_DASH_LUCKBAG_K Type = "350">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_DA_K" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_DASH_LUCKBAG_K>
+
+  <!-- 퍼렁별 복주머니 점프_K 어택-->
+  <ATTACK_JUMP_LUCKBAG_K Type = "351">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_JA_K" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_JUMP_LUCKBAG_K>
+
+  <!-- 단속 로봇_P 어택 -->
+  <ATTACK_CONTROL_P Type = "352">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CONTROL_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_CONTROL_COMB_PP" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+      <Property Key = "0" ComboCommand = "TR_CONTROL_COMB_PPP" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+   </ATTACK_CONTROL_P>
+  
+  <!-- 단속 로봇_K 어택 -->
+  <ATTACK_CONTROL_K Type = "353">
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_CONTROL_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_CONTROL_COMB_KK" DamageCommand = "HIT_COS_PP" BackDamageCommand = "HIT_COS_PP" />
+      <Property Key = "1" ComboCommand = "TR_CONTROL_COMB_KKK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_CONTROL_K>
+
+  <!-- 단속 로봇 대시_P 어택-->
+  <ATTACK_DASH_CONTROL_P Type = "354">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CONTROL_DASH_P" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>    
+  </ATTACK_DASH_CONTROL_P>
+
+  <!-- 단속 로봇 대시_K 어택-->
+  <ATTACK_DASH_CONTROL_K Type = "355">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CONTROL_DASH_K" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>    
+  </ATTACK_DASH_CONTROL_K>
+  
+  <!-- 단속 로봇 점프_K 공격-->
+  <ATTACK_JUMP_CONTROL_K Type = "356">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CONTROL_JUMP_P" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_JUMP_CONTROL_K>
+
+  <!-- 단속 로봇 점프_P 공격-->
+  <ATTACK_JUMP_CONTROL_P Type = "357">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CONTROL_JUMP_K" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_JUMP_CONTROL_P>
+
+  <!-- 단속 로봇 특수 공격-->
+  <ATTACK_CONTROL_TRATK Type = "358">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CONTROL_COMB_TRATK" DamageCommand = "HIT_RIGID_02" BackDamageCommand = "HIT_RIGID_02_B" />
+    </Combo>    
+  </ATTACK_CONTROL_TRATK>
+
+  <!-- 회피 난무 -->
+  <SLOT_EVADENANMU Type = "359">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_EVADENANMU" DamageCommand ="" BackDamageCommand = "" />
+    </Combo>
+  </SLOT_EVADENANMU>
+
+  <!-- 케론별 복주머니_P 어택-->
+  <ATTACK_LUCKBAG_P Type = "360">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_P" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_LUCKBAG_P>
+  
+  <!-- 케론별 복주머니 대쉬_P 어택-->
+  <ATTACK_DASH_LUCKBAG_P Type = "361">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_DA_P" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_DASH_LUCKBAG_P>
+
+  <!-- 케론별 복주머니_P 어택-->
+  <ATTACK_JUMP_LUCKBAG_P Type = "362">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_JA_P" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_JUMP_LUCKBAG_P>
+    
+  <!-- 케론별 복주머니_K 어택-->
+  <ATTACK_LUCKBAG_K Type = "363">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_LUCKBAG_COMB_K" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_LUCKBAG_K>
+  
+  <!-- 케론별 복주머니 대쉬_K 어택-->
+  <ATTACK_DASH_LUCKBAG_K Type = "364">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_DA_K" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_DASH_LUCKBAG_K>
+
+  <!-- 케론별 복주머니 점프_K 어택-->
+  <ATTACK_JUMP_LUCKBAG_K Type = "365">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_LUCKBAG_COMB_JA_K" DamageCommand = "HIT_LUCKBAG" BackDamageCommand = "HIT_LUCKBAG" />
+    </Combo>
+  </ATTACK_JUMP_LUCKBAG_K>
+
+  <!-- 꼭두각시 -->
+  <SLOT_MEKEMARIONETTE Type = "366">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_MEKEKE_MARIONETTE" DamageCommand = "CHANGEKEY" BackDamageCommand = "CHANGEKEY" />
+      <Property Key = "0" ComboCommand = "SKILL_MEKEKE_MARIONETTE" DamageCommand = "HIT_SKILL_MARIONETTE" BackDamageCommand = "HIT_SKILL_MARIONETTE" />
+    </Combo>
+  </SLOT_MEKEMARIONETTE>
+
+  <!-- 테크노 댄스 -->
+  <SLOT_SUMOTECHNODANCE Type = "367">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_SUMOMO_TECHNODANCE" DamageCommand = "HIT_SKILL_TECHNO" BackDamageCommand = "HIT_SKILL_TECHNO" />
+    </Combo>
+  </SLOT_SUMOTECHNODANCE>
+
+  <!-- 기로로의 오로라 P 콤보 -->
+  <ATTACK_GIROROSUIT_P Type = "368">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_PPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_PK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_PKK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_PPK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+  </ATTACK_GIROROSUIT_P>
+
+  <!-- 기로로의 오로라 K 콤보 -->
+  <ATTACK_GIROROSUIT_K Type = "369">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_KKK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_KKP" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_GIROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_KP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_KPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_GIROROSUIT_K>
+
+  <!-- 기로로의 오로라 대시_P 어택-->
+  <ATTACK_DASH_GIROROSUIT_P Type = "370">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_GIROROSUIT_P>
+
+  <!-- 기로로의 오로라 대시_K 어택-->
+  <ATTACK_DASH_GIROROSUIT_K Type = "371">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_GIROROSUIT_K>
+  
+  <!-- 기로로의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_GIROROSUIT_P Type = "372">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_GIROROSUIT_P>
+
+  <!-- 기로로의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_GIROROSUIT_K Type = "373">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_GIROROSUIT_K>
+
+  <!-- 기로로의 오로라 특수 공격-->
+  <ATTACK_GIROROSUIT_TRATK Type = "374">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GIROROSUIT_COMB_TRATK" DamageCommand = "HIT_GIRO_SPE" BackDamageCommand = "HIT_GIRO_SPE_B" />
+    </Combo>    
+  </ATTACK_GIROROSUIT_TRATK>
+
+  <!-- 케로로의 오로라 P 콤보 -->
+  <ATTACK_KEROROSUIT_P Type = "375">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_PPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_PK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_PKK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_PPK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+  </ATTACK_KEROROSUIT_P>
+
+  <!-- 케로로의 오로라 K 콤보 -->
+  <ATTACK_KEROROSUIT_K Type = "376">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_KKK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_KKP" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_KEROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_KP" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_KPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_KEROROSUIT_K>
+
+  <!-- 케로로의 오로라 대시_P 어택-->
+  <ATTACK_DASH_KEROROSUIT_P Type = "377">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_DA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_KEROROSUIT_P>
+
+  <!-- 케로로의 오로라 대시_K 어택-->
+  <ATTACK_DASH_KEROROSUIT_K Type = "378">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_DA_K" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_KEROROSUIT_K>
+  
+  <!-- 케로로의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_KEROROSUIT_P Type = "379">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_KEROROSUIT_P>
+
+  <!-- 케로로의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_KEROROSUIT_K Type = "380">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_KEROROSUIT_K>
+
+  <!-- 케로로의 오로라 특수 공격-->
+  <ATTACK_KEROROSUIT_TRATK Type = "381">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_TRATK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_TRATK_01" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KEROROSUIT_COMB_TRATK_02" DamageCommand = "HIT_KERO_SPE" BackDamageCommand = "HIT_KERO_SPE_B" />
+    </Combo>    
+  </ATTACK_KEROROSUIT_TRATK>
+
+  <!-- 한별이의 오로라 P 콤보 -->
+  <ATTACK_STARSUIT_P Type = "382">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_P" DamageCommand = "HIT_PUSH_STAR" BackDamageCommand = "HIT_PUSH_STAR_B" />
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_PP" DamageCommand = "HIT_PUSH_STAR" BackDamageCommand = "HIT_PUSH_STAR_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_P" DamageCommand = "HIT_PUSH_STAR" BackDamageCommand = "HIT_PUSH_STAR_B" />
+      <Property Key = "1" ComboCommand = "TR_STARSUIT_COMB_PK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_STARSUIT_P>
+
+  <!-- 한별이의 오로라 K 콤보 -->
+  <ATTACK_STARSUIT_K Type = "383">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_STARSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_STARSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_STARSUIT_COMB_KKK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_STARSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_STARSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_KKP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_STARSUIT_K>
+
+  <!-- 한별이의 오로라 대시_P 어택-->
+  <ATTACK_DASH_STARSUIT_P Type = "384">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_DA_P_01" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_STARSUIT_P>
+
+  <!-- 한별이의 오로라 대시_K 어택-->
+  <ATTACK_DASH_STARSUIT_K Type = "385">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_DA_K" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_STARSUIT_K>
+  
+  <!-- 한별이의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_STARSUIT_P Type = "386">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_STARSUIT_P>
+
+  <!-- 한별이의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_STARSUIT_K Type = "387">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_STARSUIT_K>
+
+  <!-- 한별이의 오로라 특수 공격-->
+  <ATTACK_STARSUIT_TRATK Type = "388">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_TRATK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_TRATK_01" DamageCommand = "HIT_FLY_STAR" BackDamageCommand = "HIT_FLY_STAR_B" />
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_TRATK_02" DamageCommand = "HIT_FLY_STAR" BackDamageCommand = "HIT_FLY_STAR_B" />
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_TRATK_03" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "0" ComboCommand = "TR_STARSUIT_COMB_TRATK_04" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>    
+  </ATTACK_STARSUIT_TRATK>
+
+  <!-- 고무인간 슈트 P 콤보 -->
+  <ATTACK_LUFFYSUIT_P Type = "389">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_PPP" DamageCommand = "HIT_PUSH_STAR" BackDamageCommand = "HIT_PUSH_STAR_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_P" DamageCommand = "HIT_PUSH_STAR" BackDamageCommand = "HIT_PUSH_STAR_B" />
+      <Property Key = "1" ComboCommand = "TR_LUFFYSUIT_COMB_PK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_LUFFYSUIT_P>
+
+  <!-- 고무인간 슈트 K 콤보 -->
+  <ATTACK_LUFFYSUIT_K Type = "390">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_LUFFYSUIT_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_LUFFYSUIT_COMB_KK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_LUFFYSUIT_COMB_KKK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_LUFFYSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_LUFFYSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_KKP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_LUFFYSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_KP" DamageCommand = "HIT_KIRU_PUSH_02" BackDamageCommand = "HIT_KIRU_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_KPP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_LUFFYSUIT_K>
+
+  <!-- 고무인간 슈트 대시_P 어택-->
+  <ATTACK_DASH_LUFFYSUIT_P Type = "391">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </ATTACK_DASH_LUFFYSUIT_P>
+
+  <!-- 고무인간 슈트 대시_K 어택-->
+  <ATTACK_DASH_LUFFYSUIT_K Type = "392">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_DA_K" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_LUFFYSUIT_K>
+  
+  <!-- 고무인간 슈트 점프_P 어택-->
+  <ATTACK_JUMP_LUFFYSUIT_P Type = "393">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_LUFFYSUIT_P>
+
+  <!-- 고무인간 슈트 점프_K 어택-->
+  <ATTACK_JUMP_LUFFYSUIT_K Type = "394">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_LUFFYSUIT_K>
+
+  <!-- 고무인간 슈트 특수 공격-->
+  <ATTACK_LUFFYSUIT_TRATK Type = "395">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_TRATK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_TRATK_01" DamageCommand = "HIT_FLY_STAR" BackDamageCommand = "HIT_FLY_STAR_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_TRATK_02" DamageCommand = "HIT_FLY_STAR" BackDamageCommand = "HIT_FLY_STAR_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_TRATK_03" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "0" ComboCommand = "TR_LUFFYSUIT_COMB_TRATK_04" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>    
+  </ATTACK_LUFFYSUIT_TRATK>
+
+  <!-- 더블 서머 솔트킥 -->
+  <SLOT_SOMERSAULT Type = "396">
+    <Combo Name = "Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_DEX_SOMERSAULT" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </SLOT_SOMERSAULT>
+
+  <!-- 엄마의 잔소리 -->
+  <SLOT_MAMASHOUT Type = "397">
+    <Combo Name = "Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_HONGMINA_MAMASHOUT" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+    </Combo>
+  </SLOT_MAMASHOUT>
+
+  <!-- 꼬마 케로로의 오로라 P 콤보 -->
+  <ATTACK_KIDKEROSUIT_P Type = "398">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_PPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_PPK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_PK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_PKK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_KIDKEROSUIT_P>
+
+  <!-- 꼬마 케로로의 오로라 K 콤보 -->
+  <ATTACK_KIDKEROSUIT_K Type = "399">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_KKK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_KKP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_KIDKEROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_KP" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_KPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_KIDKEROSUIT_K>
+
+  <!-- 꼬마 케로로의 오로라 대시_P 어택-->
+  <ATTACK_DASH_KIDKEROSUIT_P Type = "400">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_DASH_KIDKEROSUIT_P>
+
+  <!-- 꼬마 케로로의 오로라 대시_K 어택-->
+  <ATTACK_DASH_KIDKEROSUIT_K Type = "401">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_DASH_KIDKEROSUIT_K>
+
+  <!-- 꼬마 케로로의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_KIDKEROSUIT_P Type = "402">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_KIDKEROSUIT_P>
+
+  <!-- 꼬마 케로로의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_KIDKEROSUIT_K Type = "403">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_KIDKEROSUIT_K>
+
+  <!-- 꼬마 케로로의 오로라 특수 공격-->
+  <ATTACK_KIDKEROSUIT_TRATK Type = "404">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDKEROSUIT_COMB_TRATK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_KIDKEROSUIT_TRATK>
+
+
+  <!-- 꼬마 기로로의 오로라 P 콤보 -->
+  <ATTACK_KIDGIROSUIT_P Type = "405">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_PPK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "Hit_FLY_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_PK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_PKK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+  </ATTACK_KIDGIROSUIT_P>
+
+  <!-- 꼬마 기로로의 오로라 K 콤보 -->
+  <ATTACK_KIDGIROSUIT_K Type = "406">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_KKK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_KKP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_KIDGIROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_KP" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_KPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_KIDGIROSUIT_K>
+
+  <!-- 꼬마 기로로의 오로라 대시_K 어택-->
+  <ATTACK_DASH_KIDGIROSUIT_K Type = "407">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_DASH_KIDGIROSUIT_K>
+
+  <!-- 꼬마 기로로의 오로라 대시_P 어택-->
+  <ATTACK_DASH_KIDGIROSUIT_P Type = "408">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_DA_P" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_DASH_KIDGIROSUIT_P>
+
+  <!-- 꼬마 기로로의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_KIDGIROSUIT_P Type = "409">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_KIDGIROSUIT_P>
+
+  <!-- 꼬마 기로로의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_KIDGIROSUIT_K Type = "410">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_KIDGIROSUIT_K>
+
+  <!-- 꼬마 기로로의 오로라 필살기 -->
+  <ATTACK_KIDGIROSUIT_TRATK Type = "411">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDGIROSUIT_COMB_TRATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_KIDGIROSUIT_TRATK>
+
+
+  <!-- 제로로의 오로라 P 콤보 -->
+  <ATTACK_KIDDOROSUIT_P Type = "412">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_PPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_PPK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_PK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_PKK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_KIDDOROSUIT_P>
+
+  <!-- 제로로의 오로라 K 콤보 -->
+  <ATTACK_KIDDOROSUIT_K Type = "413">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_KKK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_KKP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_KIDDOROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_KP" DamageCommand = "HIT_FLY_DO" BackDamageCommand = "HIT_FLY_DO_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_KPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_KIDDOROSUIT_K>
+
+  <!-- 제로로의 오로라 대시_K 어택-->
+  <ATTACK_DASH_KIDDOROSUIT_K Type = "414">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_03_B" />
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_DA_K_02" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_DASH_KIDDOROSUIT_K>
+
+  <!-- 제로로의 오로라 대시_P 어택-->
+  <ATTACK_DASH_KIDDOROSUIT_P Type = "415">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_DA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02" />
+    </Combo>
+  </ATTACK_DASH_KIDDOROSUIT_P>
+
+  <!-- 제로로의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_KIDDOROSUIT_K Type = "416">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_KIDDOROSUIT_K>
+
+  <!-- 제로로의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_KIDDOROSUIT_P Type = "417">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_KIDDOROSUIT_P>
+
+  <!-- 제로로의 오로라 특수 공격-->
+  <ATTACK_KIDDOROSUIT_TRATK Type = "418">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_KIDDOROSUIT_COMB_TRATK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+  </ATTACK_KIDDOROSUIT_TRATK>
+
+  <!-- 100t 무쇠 추 -->
+  <SLOT_100TCHOO Type = "419">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_CHIRORO_100TCHOO" DamageCommand = "HIT_CHIRORO_TUMBLE_F" BackDamageCommand = "HIT_CHIRORO_TUMBLE_B" />
+    </Combo>
+  </SLOT_100TCHOO>
+
+  <!-- 축구공_P 어택-->
+  <ATTACK_FOOTBALL_P Type = "420">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FOOTBALL_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_FOOTBALL_P>
+  
+  <!-- 축구공 대쉬_P 어택-->
+  <ATTACK_DASH_FOOTBALL_P Type = "421">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FOOTBALL_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_FOOTBALL_P>
+
+  <!-- 축구공 점프_P 어택-->
+  <ATTACK_JUMP_FOOTBALL_P Type = "422">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FOOTBALL_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_FOOTBALL_P>
+    
+  <!-- 축구공_K 어택-->
+  <ATTACK_FOOTBALL_K Type = "423">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_FOOTBALL_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_FOOTBALL_K>
+  
+  <!-- 축구공 대쉬_K 어택-->
+  <ATTACK_DASH_FOOTBALL_K Type = "424">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FOOTBALL_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_FOOTBALL_K>
+
+  <!-- 축구공 점프_K 어택-->
+  <ATTACK_JUMP_FOOTBALL_K Type = "425">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_FOOTBALL_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_FOOTBALL_K>
+
+  <!-- 클린건_P 어택-->
+  <ATTACK_CLEANGUN_P Type = "426">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CLEANGUN_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_CLEANGUN_P>
+
+  <!-- 클린건 대쉬 어택-->
+  <ATTACK_DASH_CLEANGUN_P Type = "427">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CLEANGUN_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_CLEANGUN_P>
+
+  <!-- 클린건_P 점프 어택-->
+  <ATTACK_JUMP_CLEANGUN_P Type = "428">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CLEANGUN_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_CLEANGUN_P>
+
+  <!-- 클린건_K 어택-->
+  <ATTACK_CLEANGUN_K Type = "429">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_CLEANGUN_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_CLEANGUN_K>
+
+  <!-- 클린건 대쉬_K 어택-->
+  <ATTACK_DASH_CLEANGUN_K Type = "430">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CLEANGUN_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_CLEANGUN_K>
+
+  <!-- 클린건 점프_K 어택-->
+  <ATTACK_JUMP_CLEANGUN_K Type = "431">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_CLEANGUN_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_CLEANGUN_K>
+
+  <!-- 가루루의 오로라 P 콤보 -->
+  <ATTACK_GARURUSUIT_P Type = "432">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_PPP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_PPP_02" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_PPK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_PK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_PKK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_GARURUSUIT_P>
+
+  <!-- 가루루의 오로라 K 콤보 -->
+  <ATTACK_GARURUSUIT_K Type = "433">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_KKK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_KKKK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_KKP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_GARURUSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_KP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_KPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_GARURUSUIT_K>
+
+  <!-- 가루루의 오로라 대시_P 어택-->
+  <ATTACK_DASH_GARURUSUIT_P Type = "434">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_GARURUSUIT_P>
+
+  <!-- 가루루의 오로라 대시_K 어택-->
+  <ATTACK_DASH_GARURUSUIT_K Type = "435">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_GARURUSUIT_K>
+  
+  <!-- 가루루의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_GARURUSUIT_P Type = "436">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_GARURUSUIT_P>
+
+  <!-- 가루루의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_GARURUSUIT_K Type = "437">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_GARURUSUIT_K>
+
+  <!-- 가루루의 오로라 특수 공격-->
+  <ATTACK_GARURUSUIT_TRATK Type = "438">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_GARURUSUIT_COMB_TRATK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>    
+  </ATTACK_GARURUSUIT_TRATK>
+
+  <!-- 타루루의 오로라 P 콤보 -->
+  <ATTACK_TARURUSUIT_P Type = "439">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_PPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_PPK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_KP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_KKP" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_TARURUSUIT_P>
+
+  <!-- 타루루의 오로라 K 콤보 -->
+  <ATTACK_TARURUSUIT_K Type = "440">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_KKK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_KPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_TARURUSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_PK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_PKK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_TARURUSUIT_K>
+
+  <!-- 타루루의 오로라 대시_P 어택-->
+  <ATTACK_DASH_TARURUSUIT_P Type = "441">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_TARURUSUIT_P>
+
+  <!-- 타루루의 오로라 대시_K 어택-->
+  <ATTACK_DASH_TARURUSUIT_K Type = "442">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_TARURUSUIT_K>
+  
+  <!-- 타루루의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_TARURUSUIT_P Type = "443">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_TARURUSUIT_P>
+
+  <!-- 타루루의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_TARURUSUIT_K Type = "444">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_TARURUSUIT_K>
+
+  <!-- 타루루의 오로라 특수 공격-->
+  <ATTACK_TARURUSUIT_TRATK Type = "445">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_TARURUSUIT_COMB_TRATK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>    
+  </ATTACK_TARURUSUIT_TRATK>
+
+  <!-- 홍미나의 오로라 P 콤보 -->
+  <ATTACK_HONGMINASUIT_P Type = "446">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_PPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_PPK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_PK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_PKK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_HONGMINASUIT_P>
+
+  <!-- 홍미나의 오로라 K 콤보 -->
+  <ATTACK_HONGMINASUIT_K Type = "447">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_KK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_KKK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_KK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_KKP" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_HONGMINASUIT_COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_KP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_KPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_HONGMINASUIT_K>
+
+  <!-- 홍미나의 오로라 대시_P 어택-->
+  <ATTACK_DASH_HONGMINASUIT_P Type = "448">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_HONGMINASUIT_P>
+
+  <!-- 홍미나의 오로라 대시_K 어택-->
+  <ATTACK_DASH_HONGMINASUIT_K Type = "449">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_HONGMINASUIT_K>
+  
+  <!-- 홍미나의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_HONGMINASUIT_P Type = "450">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_HONGMINASUIT_P>
+
+  <!-- 홍미나의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_HONGMINASUIT_K Type = "451">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_HONGMINASUIT_K>
+
+  <!-- 홍미나의 오로라 특수 공격-->
+  <ATTACK_HONGMINASUIT_TRATK Type = "452">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_HONGMINASUIT_COMB_TRATK" DamageCommand = "HIT_OOYUK_SPE" BackDamageCommand = "HIT_OOYUK_SPE" />
+    </Combo>    
+  </ATTACK_HONGMINASUIT_TRATK>
+
+  <!-- 거대 슈라라의 오로라 P 콤보 -->
+  <ATTACK_BIGSHURARASUIT_P Type = "453">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_PPP_01" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_PPPP" DamageCommand = "HIT_SHURA_COMB_PPPP" BackDamageCommand = "HIT_SHURA_COMB_PPPP_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_PPK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_PK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02" />
+    </Combo>
+  </ATTACK_BIGSHURARASUIT_P>
+
+  <!-- 거대 슈라라의 오로라 K 콤보 -->
+  <ATTACK_BIGSHURARASUIT_K Type = "454">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_KKK" DamageCommand = "HIT_SHURA_COMB_KKK" BackDamageCommand = "HIT_SHURA_COMB_KKK_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_KKP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_BIGSHURARASUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_KP" DamageCommand = "HIT_RIGID_01" BackDamageCommand = "HIT_RIGID_01_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_KPP" DamageCommand = "HIT_FLY_SHURA" BackDamageCommand = "HIT_FLY_SHURA_B" />
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_KPPP" DamageCommand = "HIT_SHURA_COMB_KPPP" BackDamageCommand = "HIT_SHURA_COMB_KPPP_B" />
+    </Combo>
+  </ATTACK_BIGSHURARASUIT_K>
+
+  <!-- 거대 슈라라의 오로라 대시_P 어택-->
+  <ATTACK_DASH_BIGSHURARASUIT_P Type = "455">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_BIGSHURARASUIT_P>
+
+  <!-- 거대 슈라라의 오로라 대시_K 어택-->
+  <ATTACK_DASH_BIGSHURARASUIT_K Type = "456">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_BIGSHURARASUIT_K>
+  
+  <!-- 거대 슈라라의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_BIGSHURARASUIT_P Type = "457">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_BIGSHURARASUIT_P>
+
+  <!-- 거대 슈라라의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_BIGSHURARASUIT_K Type = "458">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_JA_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_BIGSHURARASUIT_K>
+
+  <!-- 거대 슈라라의 오로라 특수 공격-->
+  <ATTACK_BIGSHURARASUIT_TRATK Type = "459">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_BIGSHURARASUIT_COMB_TRATK" DamageCommand = "HIT_SKILL_TECHNO" BackDamageCommand = "HIT_SKILL_TECHNO" />
+    </Combo>    
+  </ATTACK_BIGSHURARASUIT_TRATK>
+
+  <!-- 다이너마이트 펀치 -->
+  <SLOT_DYNAMITEPUNCH Type = "460">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_DYNAMITEPUNCH" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </SLOT_DYNAMITEPUNCH>
+
+  <!-- 진공 케론파 -->
+  <SLOT_HOLLOWKERONPA Type = "461">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_ATK_HOLLOWKERONPA" DamageCommand = "HIT_FLY_03" BackDamageCommand = "HIT_FLY_03_B" />
+    </Combo>
+  </SLOT_HOLLOWKERONPA>
+
+  <!-- 사빈의 오로라 P 콤보 -->
+  <ATTACK_SABINSUIT_P Type = "462">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_PPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_PP" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_PPK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_PPKK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_PPKKK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_PK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+  </ATTACK_SABINSUIT_P>
+
+  <!-- 사빈의 오로라 K 콤보 -->
+  <ATTACK_SABINSUIT_K Type = "463">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_K" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_KP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_KPP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_KPPP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_KPPPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_K" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_KK" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_KKP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_KKPP" DamageCommand = "HIT_CHIRORO_TUMBLE_F" BackDamageCommand = "HIT_CHIRORO_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_K" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_KK" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_KKK" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_SABINSUIT_COMB_KKKK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </ATTACK_SABINSUIT_K>
+
+  <!-- 사빈의 오로라 대시_P 어택-->
+  <ATTACK_DASH_SABINSUIT_P Type = "464">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_DA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SABINSUIT_P>
+
+  <!-- 사빈의 오로라 대시_K 어택-->
+  <ATTACK_DASH_SABINSUIT_K Type = "465">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_SABINSUIT_K>
+  
+  <!-- 사빈의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_SABINSUIT_P Type = "466">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_SABINSUIT_P>
+
+  <!-- 사빈의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_SABINSUIT_K Type = "467">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_JA_P" DamageCommand = "HIT_SKILL_BAZOOKA" BackDamageCommand = "HIT_SKILL_BAZOOKA_B" />
+    </Combo>
+  </ATTACK_JUMP_SABINSUIT_K>
+
+  <!-- 사빈의 오로라 특수 공격-->
+  <ATTACK_SABINSUIT_TRATK Type = "468">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_TRATK_01" DamageCommand = "HIT_KD" BackDamageCommand = "HIT_KD" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_TRATK_02" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_SABINSUIT_COMB_TRATK_03" DamageCommand = "HIT_CHIRORO_TUMBLE_F" BackDamageCommand = "HIT_CHIRORO_TUMBLE_B" />
+    </Combo>    
+  </ATTACK_SABINSUIT_TRATK>
+
+  <!-- 치로로의 오로라 P 콤보 -->
+  <ATTACK_CHIROROSUIT_P Type = "469">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_PPP" DamageCommand = "HIT_CHIRORO_TUMBLE_F" BackDamageCommand = "HIT_CHIRORO_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_PK" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_PPK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_PPKK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_PPKKK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_CHIROROSUIT_P>
+
+  <!-- 치로로의 오로라 K 콤보 -->
+  <ATTACK_CHIROROSUIT_K Type = "470">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_KKK" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_KP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_KPP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_KPPP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_KPPPP" DamageCommand = "HIT_CHIRORO_TUMBLE_F" BackDamageCommand = "HIT_CHIRORO_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_CHIROROSUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_KKP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </ATTACK_CHIROROSUIT_K>
+
+  <!-- 치로로의 오로라 대시_P 어택-->
+  <ATTACK_DASH_CHIROROSUIT_P Type = "471">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_DA_P" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_CHIROROSUIT_P>
+
+  <!-- 치로로의 오로라 대시_K 어택-->
+  <ATTACK_DASH_CHIROROSUIT_K Type = "472">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_DA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>    
+  </ATTACK_DASH_CHIROROSUIT_K>
+  
+  <!-- 치로로의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_CHIROROSUIT_P Type = "473">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_CHIROROSUIT_P>
+
+  <!-- 치로로의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_CHIROROSUIT_K Type = "474">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_JA_P" DamageCommand = "HIT_CHIRORO_TUMBLE_F" BackDamageCommand = "HIT_CHIRORO_TUMBLE_B" />
+    </Combo>
+  </ATTACK_JUMP_CHIROROSUIT_K>
+
+  <!-- 치로로의 오로라 특수 공격-->
+  <ATTACK_CHIROROSUIT_TRATK Type = "475">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_TRATK" DamageCommand = "HIT_OOYUK_SPE" BackDamageCommand = "HIT_OOYUK_SPE" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_TRATK_02" DamageCommand = "HIT_CHIRORO_SPE" BackDamageCommand = "HIT_CHIRORO_SPE" />
+      <Property Key = "0" ComboCommand = "TR_CHIROROSUIT_COMB_TRATK_03" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>    
+  </ATTACK_CHIROROSUIT_TRATK>
+
+  <!-- 지라라의 오로라 P 콤보 -->
+  <ATTACK_JIRARASUIT_P Type = "476">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_PPP" DamageCommand = "HIT_FLY_01" BackDamageCommand = "HIT_FLY_01_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_PPPP" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_JIRARASUIT_P>
+
+  <!-- 지라라의 오로라 K 콤보 -->
+  <ATTACK_JIRARASUIT_K Type = "477">
+    <Combo Name = "ComboSet1">
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_K" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_KKK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_FLY_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_K" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_KP" DamageCommand = "HIT_PUSH_JIRA" BackDamageCommand = "HIT_PUSH_JIRA_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMBAT_KK_02" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_K" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_KK" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_KP" DamageCommand = "HIT_PUSH_JIRA" BackDamageCommand = "HIT_PUSH_JIRA_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMBAT_KK_02" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet4">
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_K" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_KK" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+      <Property Key = "1" ComboCommand = "TR_JIRARASUIT_COMB_KKK" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_KP" DamageCommand = "HIT_PUSH_JIRA" BackDamageCommand = "HIT_PUSH_JIRA_B" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMBAT_KK_02" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK_JIRARASUIT_K>
+
+  <!-- 지라라의 오로라 대시_P 어택-->
+  <ATTACK_DASH_JIRARASUIT_P Type = "478">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_DA_P" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+    </Combo>    
+  </ATTACK_DASH_JIRARASUIT_P>
+
+  <!-- 지라라의 오로라 대시_K 어택-->
+  <ATTACK_DASH_JIRARASUIT_K Type = "479">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_DA_K" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>    
+  </ATTACK_DASH_JIRARASUIT_K>
+  
+  <!-- 지라라의 오로라 점프_P 어택-->
+  <ATTACK_JUMP_JIRARASUIT_P Type = "480">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ATTACK_JUMP_JIRARASUIT_P>
+
+  <!-- 지라라의 오로라 점프_K 어택-->
+  <ATTACK_JUMP_JIRARASUIT_K Type = "481">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_JA_P" DamageCommand = "HIT_JIRA_K" BackDamageCommand = "HIT_JIRA_K_B" />
+    </Combo>
+  </ATTACK_JUMP_JIRARASUIT_K>
+
+  <!-- 지라라의 오로라 특수 공격-->
+  <ATTACK_JIRARASUIT_TRATK Type = "482">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_TRATK_01" DamageCommand = "HIT_JIRA_SPE" BackDamageCommand = "HIT_JIRA_SPE" />
+      <Property Key = "0" ComboCommand = "TR_JIRARASUIT_COMB_TRATK_02" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>    
+  </ATTACK_JIRARASUIT_TRATK>
+
+  <!-- 우레레의 빅샷 -->
+  <SLOT_BIGSHOT Type = "483">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_URERE_BIGSHOT" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </SLOT_BIGSHOT>
+
+  <!-- 질풍! 인해각! -->
+  <SLOT_INHEGAK Type = "484">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_PAUL_INHEGAK" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_INHEGAK>
+
+  <!-- 할로윈볼_P 어택-->
+  <ATTACK_HALLOWEENBALL_P Type = "485">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HALLOWEENBALL_COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_HALLOWEENBALL_P>
+  
+  <!-- 할로윈볼 대쉬_P 어택-->
+  <ATTACK_DASH_HALLOWEENBALL_P Type = "486">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HALLOWEENBALL_COMB_DA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_HALLOWEENBALL_P>
+
+  <!-- 할로윈볼 점프_P 어택-->
+  <ATTACK_JUMP_HALLOWEENBALL_P Type = "487">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HALLOWEENBALL_COMB_JA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_HALLOWEENBALL_P>
+    
+  <!-- 할로윈볼_K 어택-->
+  <ATTACK_HALLOWEENBALL_K Type = "488">
+    <Combo Name ="Comboset1">
+      <Property Key = "1" ComboCommand = "WP_HALLOWEENBALL_COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_HALLOWEENBALL_K>
+  
+  <!-- 할로윈볼 대쉬_K 어택-->
+  <ATTACK_DASH_HALLOWEENBALL_K Type = "489">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HALLOWEENBALL_COMB_DA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_DASH_HALLOWEENBALL_K>
+
+  <!-- 할로윈볼 점프_K 어택-->
+  <ATTACK_JUMP_HALLOWEENBALL_K Type = "490">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "WP_HALLOWEENBALL_COMB_JA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </ATTACK_JUMP_HALLOWEENBALL_K>
+
+  <!-- 지옥의 메테오 -->
+  <SLOT_HELLMETEO Type = "491">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_MOA_HELLMETEO" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </SLOT_HELLMETEO>
+
+  <!-- 죠리리 목욕 타임! -->
+  <SLOT_BATHTUB Type = "492">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "SKILL_JORIRI_BATHTUB" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "SKILL_JORIRI_BATHTUB_01" DamageCommand = "HIT_TUMBLE_02" BackDamageCommand = "HIT_TUMBLE_02_B" />
+    </Combo>
+  </SLOT_BATHTUB>
+</ComboKey>

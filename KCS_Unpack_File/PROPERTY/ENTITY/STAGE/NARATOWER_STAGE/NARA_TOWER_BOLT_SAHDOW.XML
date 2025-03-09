@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Nara_tower_bolt_sahdow.xml" FILENAME="Nara_tower_bolt_sahdow.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Nara_tower_bolt_sahdow_COMMANDS.XML" />
+</GAMEENTITY>

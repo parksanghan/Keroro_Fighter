@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Garu_Obj_HalfRifle" FILENAME="Garu_Obj_HalfRifle.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Garu_HalfRifle.VS">
+        <PROPERTYBAG NAME="Garu_Obj_HalfRifle_KKP_01" FILENAME="Garu_Obj_HalfRifle_KKP_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Obj_HalfRifle_KKP_02" FILENAME="Garu_Obj_HalfRifle_KKP_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Obj_HalfRifle_SPE_01" FILENAME="Garu_Obj_HalfRifle_SPE_01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Garu_HalfRifle_COMMANDS.XML" />
+</GAMEENTITY>

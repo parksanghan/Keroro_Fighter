@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="0" />
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Qururu_Stage_Light_01.xml" FILENAME="Qururu_Stage_Light_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_02.xml" FILENAME="Qururu_Stage_Light_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_03.xml" FILENAME="Qururu_Stage_Light_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_04.xml" FILENAME="Qururu_Stage_Light_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_05.xml" FILENAME="Qururu_Stage_Light_05.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Qururu_steam_COMMANDS.XML" />
+</GAMEENTITY>

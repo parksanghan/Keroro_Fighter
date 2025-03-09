@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_CommuMenuPopup.xml" PosX="807" PosY="616" SizeX="62" SizeY="74" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.700" Show="1">
+            <Element index="0" TextName="GUI_PlayLobby.tga" TextPosX="890" TextPosY="92" TextSizeX="62" TextSizeY="74" PosX="0" PosY="0" SizeX="62" SizeY="74" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.999" Show="0"> <!-- 알파값 때문에 전체 배경 스킨이 보이지 않아 확인용으로 넣은 스킨 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="62" SizeY="74" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="ViewRank_Button" ClassName="CKeroroUI_Button" PosX="0" PosY="1" SizeX="62" SizeY="21" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.67" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="694" TextPosY="211" TextSizeX="43" TextSizeY="18" PosX="10" PosY="1" SizeX="43" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_PlayLobby.tga" TextPosX="694" TextPosY="190" TextSizeX="43" TextSizeY="18" PosX="10" PosY="1" SizeX="43" SizeY="18" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="843" TextPosY="211" TextSizeX="43" TextSizeY="18" PosX="10" PosY="1" SizeX="43" SizeY="18" />
+                </Property>
+                <Property Index="0" RenderStyle="0" Depth="0.68" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="824" TextPosY="89" TextSizeX="62" TextSizeY="21" PosX="0" PosY="0" SizeX="62" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ViewGuild_Button" ClassName="CKeroroUI_Button" PosX="0" PosY="23" SizeX="62" SizeY="21" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.67" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="694" TextPosY="232" TextSizeX="43" TextSizeY="18" PosX="10" PosY="1" SizeX="43" SizeY="18" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="843" TextPosY="232" TextSizeX="43" TextSizeY="18" PosX="10" PosY="1" SizeX="43" SizeY="18" />
+                </Property>
+                <Property Index="0" RenderStyle="0" Depth="0.68" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="824" TextPosY="89" TextSizeX="62" TextSizeY="21" PosX="0" PosY="0" SizeX="62" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ViewMSN_Button" ClassName="CKeroroUI_Button" PosX="0" PosY="45" SizeX="62" SizeY="21" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.67" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="694" TextPosY="253" TextSizeX="43" TextSizeY="18" PosX="9" PosY="1" SizeX="43" SizeY="18" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="843" TextPosY="253" TextSizeX="43" TextSizeY="18" PosX="9" PosY="1" SizeX="43" SizeY="18" />
+                </Property>
+                <Property Index="0" RenderStyle="0" Depth="0.68" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="824" TextPosY="89" TextSizeX="62" TextSizeY="21" PosX="0" PosY="0" SizeX="62" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

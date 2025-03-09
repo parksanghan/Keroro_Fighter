@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Hongmina_Obj_Bamboo" FILENAME="Hongmina_Obj_Bamboo.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Hongmina_Obj_Bamboo.VS">
+        <PROPERTYBAG NAME="Comb_KKP" FILENAME="Hongmina_Obj_Comb_KKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_KP" FILENAME="Hongmina_Obj_Comb_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_KPP" FILENAME="Hongmina_Obj_Comb_KPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_PKK" FILENAME="Hongmina_Obj_Comb_PKK.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Hongmina_Obj_Bamboo_Comb_COMMANDS.XML" />
+</GAMEENTITY>

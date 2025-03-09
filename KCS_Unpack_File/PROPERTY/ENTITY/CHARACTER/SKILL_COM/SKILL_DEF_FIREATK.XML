@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="35">
+        <PROPERTYBAG NAME="CAP" FILENAME="Pururu_cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Pururu_eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Pururu_hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Pururu_head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Pururu_foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Pururu_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Pururu_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Pururu_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Pururu_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Pururu_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Pururu_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Pururu_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Pururu_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Pururu_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Pururu_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Pururu_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Pururu_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Pururu_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Pururu_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Pururu_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Pururu_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Pururu_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Pururu_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Pururu_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Pururu_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Pururu_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Pururu_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Pururu_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Pururu_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Pururu_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Pururu_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Pururu_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Pururu_Body_top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="TAIL" FILENAME="Pururu_Tail.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FACE" FILENAME="Pururu_Face.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Skil_Def_FireAtk01" FILENAME="Skil_Def_FireAtk01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skil_Def_FireAtk02" FILENAME="Skil_Def_FireAtk02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skil_Def_FireAtk03" FILENAME="Skil_Def_FireAtk03.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Viper_Stone" FILENAME="Viper_Stone.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Viper_Stone_1" FILENAME="Viper_Stone.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_Def_FireAtk_COMMANDS.XML" />
+</GAMEENTITY>

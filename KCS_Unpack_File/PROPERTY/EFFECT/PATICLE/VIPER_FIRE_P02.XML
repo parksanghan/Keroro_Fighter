@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="사본2 - Char_Giro_EscAtk_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="5.000000" Y="5.000000" Z="5.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="0.000000" />
+            <Property Time="0.200000" Value="255.000000" />
+            <Property Time="0.800000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="5.000000" Y="5.000000" Z="0.000000" />
+            <Property Time="1.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Ef_Tuto_Fire.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="2.000000" Max="3.000000" />
+        <RepeatCount Count="-1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.990000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="5.000000" Y="5.000000" Z="0.000000" />
+        <RotScaleMax X="20.000000" Y="20.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="30.000000" Max="40.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="-0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="10.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="7.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="33">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.000000" Y="5.000000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.150000" Y="0.150000" Z="0.150000" />
+            <Alpha Value="38.249996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.850000" Y="4.850000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.300000" />
+            <Alpha Value="76.499992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.700000" Y="4.700000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="114.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.550000" Y="4.550000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="152.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.400000" Y="4.400000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.750000" Y="0.750000" Z="0.750000" />
+            <Alpha Value="191.249985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.250000" Y="4.250000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.100000" Y="4.100000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.050000" Y="1.050000" Z="1.050000" />
+            <Alpha Value="245.437500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.950000" Y="3.950000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="235.875000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.800000" Y="3.800000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="226.312500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.650000" Y="3.650000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.500000" Y="3.500000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.650000" Y="1.650000" Z="1.650000" />
+            <Alpha Value="207.187500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.350000" Y="3.350000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="197.625000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.200000" Y="3.200000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.950000" Y="1.950000" Z="1.950000" />
+            <Alpha Value="188.062500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.050000" Y="3.050000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.100000" Y="2.100000" Z="2.100000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.900000" Y="2.900000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="168.937500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.750000" Y="2.750000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="159.375000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.600000" Y="2.600000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.550000" Y="2.550000" Z="2.550000" />
+            <Alpha Value="149.812500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.450000" Y="2.450000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.300000" Y="2.300000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.850000" Y="2.850000" Z="2.850000" />
+            <Alpha Value="130.687500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.150000" Y="2.150000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="121.125000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.000000" Y="2.000000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="111.562500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.850000" Y="1.850000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.300000" Y="3.300000" Z="3.300000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.700000" Y="1.700000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.450000" Y="3.450000" Z="3.450000" />
+            <Alpha Value="92.437500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.550000" Y="1.550000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="82.875015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.400000" Y="1.400000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.750000" Y="3.750000" Z="3.750000" />
+            <Alpha Value="73.312500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.250000" Y="1.250000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.900000" Y="3.900000" Z="3.900000" />
+            <Alpha Value="63.750015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.100000" Y="1.100000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="54.187515" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.950000" Y="0.950000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="44.625015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.350000" Y="4.350000" Z="4.350000" />
+            <Alpha Value="35.062500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.650000" Y="0.650000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.650000" Y="4.650000" Z="4.650000" />
+            <Alpha Value="15.937500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.350000" Y="0.350000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Fire.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

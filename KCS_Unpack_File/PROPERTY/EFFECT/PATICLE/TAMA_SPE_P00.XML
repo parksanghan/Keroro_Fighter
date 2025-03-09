@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Tama_Spe_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="0.200000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.200000" X="11.000000" Y="11.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Skill_Com_Keropa2_B01.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="2.000000" Max="3.000000" />
+        <RepeatCount Count="5.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.180000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="30.000000" Y="30.000000" Z="0.000000" />
+        <RotScaleMax X="40.000000" Y="40.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="0.000000" Max="0.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="180.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="7.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="6">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Skill_Com_Keropa2_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.650000" Y="1.650000" Z="0.000000" />
+            <Texture Texture="Skill_Com_Keropa2_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.300000" Y="3.300000" Z="0.000000" />
+            <Texture Texture="Skill_Com_Keropa2_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.950000" Y="4.950000" Z="0.000000" />
+            <Texture Texture="Skill_Com_Keropa2_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.599999" Y="6.599999" Z="0.000000" />
+            <Texture Texture="Skill_Com_Keropa2_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="63.750015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="8.249999" Y="8.249999" Z="0.000000" />
+            <Texture Texture="Skill_Com_Keropa2_B01.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

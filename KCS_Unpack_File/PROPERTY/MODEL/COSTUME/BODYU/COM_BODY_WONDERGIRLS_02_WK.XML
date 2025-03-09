@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Com_Body_wondergirls_02.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Com_Body_wondergirls_02_Wk.dds" />
+        <Texture filename="Com_Body_wondergirls_02_Ok.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.80" />
+            <Property name="ColorR" value="0.000000" />
+            <Property name="ColorG" value="0.007843" />
+            <Property name="ColorB" value="0.192157" />
+            <Property name="ColorA" value="1.000000" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

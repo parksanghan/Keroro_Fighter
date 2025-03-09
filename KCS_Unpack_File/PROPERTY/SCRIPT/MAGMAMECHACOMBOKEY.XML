@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<ComboKey>
+  <!-- 메카 기본 공격 -->
+  <NORMALATK Type = "0">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_PP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "COMB_K" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_KP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+  </NORMALATK>
+
+  <!-- 메카 대시 공격-->
+  <DASH Type = "1">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "DASH_ATK" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>    
+  </DASH>
+</ComboKey>

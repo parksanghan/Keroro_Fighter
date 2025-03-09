@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Qururu_rader_B" FILENAME="Qururu_rader_B.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Qururu_rader_B.VS">
+        <PROPERTYBAG NAME="Qururu_rader_B" FILENAME="Qururu_rader_B.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Qururu_rader_B_B00" FILENAME="Qururu_rader_B_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_rader_B_B01" FILENAME="Qururu_rader_B_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_rader_B_B02" FILENAME="Qururu_rader_B_B02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_rader_B_E00" FILENAME="Qururu_rader_B_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_rader_B_E01" FILENAME="Qururu_rader_B_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Qururu_rader_B_COMMANDS.XML" />
+</GAMEENTITY>

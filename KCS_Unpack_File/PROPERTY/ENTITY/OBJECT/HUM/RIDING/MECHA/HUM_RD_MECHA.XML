@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Hum_RD_Mecha" FILENAME="Hum_RD_mecha_00.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="19" VSNAME="RD_Mecha.VS">
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Comb_K" FILENAME="RD_Mecha_Comb_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Comb_P" FILENAME="RD_Mecha_Comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Combat_Wait" FILENAME="RD_Mecha_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Dash01" FILENAME="RD_Mecha_Dash01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Hit_Break" FILENAME="Hum_RD_Mecha_Hit_Break.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Hit_Fly_01_B" FILENAME="RD_Mecha_Hit_Fly_01_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Hit_Fly_01_F" FILENAME="RD_Mecha_Hit_Fly_01_F.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Hit_Fly_02_B" FILENAME="RD_Mecha_Hit_Fly_02_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Hit_Fly_02_F" FILENAME="RD_Mecha_Hit_Fly_02_F.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Jump_Down" FILENAME="RD_Mecha_Jump_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Jump_Land" FILENAME="RD_Mecha_Jump_Land.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Jump_Once" FILENAME="RD_Mecha_Jump_Once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Jump_UP" FILENAME="RD_Mecha_Jump_UP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Leave_Jump" FILENAME="Hum_Com_Mecha_Leave_Jump.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Move_Stop" FILENAME="RD_Mecha_Move_Stop.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Ride_Down" FILENAME="RD_Mecha_Ride_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Ride_IDLE" FILENAME="RD_Mecha_Ride_IDLE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Ride_Land" FILENAME="RD_Mecha_Ride_Land.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_RD_Mecha_Ride_Start" FILENAME="RD_Mecha_Ride_Start.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="12">
+        <PROPERTYBAG NAME="CM_HIT_FALL_1" FILENAME="CM_HIT_FALL_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_FLY_2" FILENAME="CM_HIT_FLY_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_PUSH_A_1" FILENAME="CM_HIT_PUSH_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Cm_Hit_Bomb" FILENAME="Cm_Hit_Bomb.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_ARMAGEDDON_S1" FILENAME="HIT_SKILL_ARMAGEDDON_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK2" FILENAME="HIT_SKILL_FORWARDATK2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_100TONHAMMER_1" FILENAME="SKILL_ATK_100TONHAMMER_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_100TONHAMMER_2" FILENAME="SKILL_ATK_100TONHAMMER_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_100TONHAMMER_3" FILENAME="SKILL_ATK_100TONHAMMER_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_CHULGUN_2" FILENAME="SKILL_ATK_CHULGUN_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_LEAFATK_S1" FILENAME="SKILL_CRE_LEAFATK_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Viper_Stone" FILENAME="Viper_Stone.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="20">
+        <PROPERTYBAG NAME="Comm_Hit_AtkCri_B00" FILENAME="Comm_Hit_AtkCri_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_AtkHeavy_B00" FILENAME="Comm_Hit_AtkHeavy_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_AtkLight_B00" FILENAME="Comm_Hit_AtkLight_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_AtkMidd_B00" FILENAME="Comm_Hit_AtkMidd_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E00" FILENAME="Garu_Comb_ESC_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E01" FILENAME="Garu_Comb_ESC_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E02" FILENAME="Garu_Comb_ESC_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E03" FILENAME="Garu_Comb_ESC_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Giro_SpeHit_B00" FILENAME="Char_Giro_SpeHit_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Mecha_Break_E00" FILENAME="H_Mecha_Break_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Mecha_Break_E01" FILENAME="H_Mecha_Break_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_Break_E00" FILENAME="Mecha_Break_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_IDLE_L00" FILENAME="Mecha_IDLE_L00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_IDLE_R00" FILENAME="Mecha_IDLE_R00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E00" FILENAME="Mecha_JumP_Land_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E01" FILENAME="Mecha_JumP_Land_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E02" FILENAME="Mecha_JumP_Land_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E03" FILENAME="Mecha_JumP_Land_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_K_E00" FILENAME="Mecha_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_K_E01" FILENAME="Mecha_K_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Hum_RD_Mecha_COMMANDS.XML" />
+</GAMEENTITY>

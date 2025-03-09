@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="BODYD" FILENAME="Hongmina_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Hongmina_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Hongmina_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Hongmina_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Hongmina_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Hongmina_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Hongmina_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Hongmina_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Hongmina_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Hongmina_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Hongmina_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Hongmina_Eye07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Hongmina_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Hongmina_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Hongmina_Eye09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Hongmina_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Hongmina_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Hongmina_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Hongmina_Eye07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Hongmina_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Hongmina_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Hongmina_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Hongmina_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Hongmina_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Hongmina_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Hongmina_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Hongmina_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Hongmina_Head09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Hongmina_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Hongmina_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Hongmina_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Hongmina_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP" FILENAME="Hongmina_Hair.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Human.VS">
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Hongmina_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Skill_Hongmina_MamaShout" FILENAME="Hum_Skill_Hongmina_MamaShout.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Mina_SPE_01_V1_1" FILENAME="Mina_SPE_01_V1_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_DORO_SUNPUNGGAK_01_1" FILENAME="SKILL_DORO_SUNPUNGGAK_01_1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Skill_Mina_MamaShout_E00" FILENAME="Skill_Mina_MamaShout_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Mina_MamaShout_E01" FILENAME="Skill_Mina_MamaShout_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Mina_MamaShout_E02" FILENAME="Skill_Mina_MamaShout_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WP_Speaker" FILENAME="WP_Speaker.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Hum_Skill_Hongmina_MAMASHOUT_COMMANDS.XML" />
+</GAMEENTITY>

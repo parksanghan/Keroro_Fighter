@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Com_Bodyd_kerontrainning_0003.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Com_Bodyd_kerontrainning_02_Ur.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="Default">
+            <Property name="UseAlpha" value="0" />
+            <Property name="Lighting" value="0" />
+            <Property name="Outline" value="0" />
+            <Property name="LineWidth" value="1" />
+            <Property name="ColorR" value="0" />
+            <Property name="ColorG" value="0" />
+            <Property name="ColorB" value="0" />
+            <Property name="ColorA" value="1" />
+            <Property name="CullNone" value="0" />
+            <Property name="DisableZ" value="0" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

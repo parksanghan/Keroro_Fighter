@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_NoticeBox.xml" PosX="398" PosY="128" SizeX="0" SizeY="0" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.860" Show="1">
+            <Element index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="1" TextName="GUI_Tutorial.TGA" TextPosX="4" TextPosY="815" TextSizeX="19" TextSizeY="164" PosX="0" PosY="0" SizeX="19" SizeY="164" />
+            <Element index="2" TextName="GUI_Tutorial.TGA" TextPosX="23" TextPosY="815" TextSizeX="1" TextSizeY="164" PosX="19" PosY="0" SizeX="558" SizeY="164" />
+            <Element index="3" TextName="GUI_Tutorial.TGA" TextPosX="62" TextPosY="815" TextSizeX="19" TextSizeY="164" PosX="577" PosY="0" SizeX="19" SizeY="164" />
+            <Element index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="5" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="1" Depth="0.180" Show="1">
+            <Element index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="1" TextName="GUI_gameplay2.TGA" TextPosX="372" TextPosY="4" TextSizeX="20" TextSizeY="128" PosX="18" PosY="18" SizeX="20" SizeY="128" />
+            <Element index="2" TextName="GUI_gameplay2.TGA" TextPosX="393" TextPosY="4" TextSizeX="7" TextSizeY="128" PosX="38" PosY="18" SizeX="314" SizeY="128" />
+            <Element index="3" TextName="GUI_gameplay2.TGA" TextPosX="401" TextPosY="4" TextSizeX="20" TextSizeY="128" PosX="352" PosY="18" SizeX="20" SizeY="128" />
+            <Element index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="5" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="CONTROL_FaceList" ClassName="CKeroroUI_Control" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.177" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay3.TGA" TextPosX="532" TextPosY="3" TextSizeX="244" TextSizeY="281" PosX="329" PosY="-128" SizeX="244" SizeY="281" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.177" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay3.TGA" TextPosX="3" TextPosY="280" TextSizeX="260" TextSizeY="261" PosX="316" PosY="-111" SizeX="260" SizeY="261" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.177" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay3.TGA" TextPosX="267" TextPosY="286" TextSizeX="258" TextSizeY="279" PosX="330" PosY="-129" SizeX="258" SizeY="279" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CONTROL_SpeechList" ClassName="CKeroroUI_Control" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.176" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay3.TGA" TextPosX="779" TextPosY="171" TextSizeX="227" TextSizeY="96" PosX="43" PosY="35" SizeX="227" SizeY="96" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.176" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay3.TGA" TextPosX="798" TextPosY="289" TextSizeX="206" TextSizeY="72" PosX="43" PosY="42" SizeX="206" SizeY="72" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.176" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay3.TGA" TextPosX="530" TextPosY="436" TextSizeX="273" TextSizeY="77" PosX="43" PosY="42" SizeX="273" SizeY="77" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

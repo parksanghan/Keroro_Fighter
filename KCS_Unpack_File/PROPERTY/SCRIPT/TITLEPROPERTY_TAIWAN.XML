@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TitleProperty>
+	<Title PropertyID = "286000026" Name = "LegendOf17vs1"		String = "〈 17司 1骯腌ㄤ 〉" 		Red = "97" 	Green = "200" 	Blue = "95" 	Trade = "1"	/>
+	<Title PropertyID = "286000027" Name = "LegendOfFighter"		String = "〈 司骯腌ㄤ 〉" 		Red = "118" 	Green = "105" 	Blue = "180" 	Trade = "1"	/>
+	<Title PropertyID = "286000029" Name = "NinjaAssasin" 		String = "〈 司骯腌ㄤ 〉" 		Red = "192" 	Green = "192" 	Blue = "192" 	Trade = "1"	/>
+	<Title PropertyID = "286000030" Name = "PowerOfMoon" 		String = "〈 司骯腌ㄤ 〉" 		Red = "109" 	Green = "10" 	Blue = "0" 	Trade = "1"	/>
+	<Title PropertyID = "286000031" Name = "KingOfViper" 		String = "〈 司骯腌ㄤ 〉" 	Red = "251" 	Green = "125" 	Blue = "0" 	Trade = "1"	/>
+	<Title PropertyID = "286000032" Name = "FoolInLove" 		String = "〈 司骯腌ㄤ 〉" 	Red = "242" 	Green = "152" 	Blue = "150" 	Trade = "1"	/>
+	<Title PropertyID = "286000033" Name = "TraumaOn" 		String = "〈 司骯腌ㄤ ON! 〉" 		Red = "128" 	Green = "0" 	Blue = "128" 	Trade = "1"	/>
+	<Title PropertyID = "286000034" Name = "StreetArtist" 		String = "〈 司骯腌ㄤ 〉" 	Red = "109" 	Green = "10" 	Blue = "0" 	Trade = "1"	/>
+	<Title PropertyID = "286000035" Name = "TrueFriend" 		String = "〈 司骯腌ㄤ 〉" 		Red = "3" 	Green = "125" 	Blue = "199" 	Trade = "1"	/>
+	<Title PropertyID = "286000036" Name = "556Virus" 		String = "〈 556 司骯腌ㄤ 〉" 		Red = "128" 	Green = "0" 	Blue = "0" 	Trade = "1"	/>
+	<Title PropertyID = "286000037" Name = "GuardianOfDark" 		String = "〈 司骯腌ㄤ 〉" 		Red = "128" 	Green = "0" 	Blue = "0" 	Trade = "1"	/>
+	<Title PropertyID = "286000038" Name = "MerryChristmas" 		String = "〈 司骯腌ㄤ 〉" 	Red = "192" 	Green = "192" 	Blue = "192" 	Trade = "1"	/>
+	<Title PropertyID = "286000039" Name = "GuardianOfAngel" 	String = "〈 司骯腌ㄤ 〉" 		Red = "250" 	Green = "250" 	Blue = "250" 	Trade = "1"	/>
+	<Title PropertyID = "286000040" Name = "FighterOfSnowFiled" 	String = "〈 司骯腌ㄤ 〉" 		Red = "170" 	Green = "200" 	Blue = "245" 	Trade = "1"	/>
+	<Title PropertyID = "286000041" Name = "MoreHandsomeThanGaruru" String = "〈 司骯腌ㄤ 〉" 	Red = "170" 	Green = "110" 	Blue = "255" 	Trade = "1"	/>
+	<Title PropertyID = "286000042" Name = "MorePrettyThanPururu" 	String = "〈 司骯腌ㄤ 〉" 	Red = "240" 	Green = "150" 	Blue = "250" 	Trade = "1"	/>
+	<Title PropertyID = "286000043" Name = "MoreSpeedThanJoruru" 	String = "〈 司骯腌ㄤ 〉" 	Red = "192" 	Green = "192" 	Blue = "192" 	Trade = "1"	/>
+	<Title PropertyID = "286000044" Name = "MoreCleverThanTororo" 	String = "〈 司骯腌ㄤ 〉" 	Red = "255" 	Green = "100" 	Blue = "20" 	Trade = "1"	/>
+	<Title PropertyID = "286000045" Name = "MoreStrongThanTaruru" 	String = "〈 司骯腌ㄤ 〉" 	Red = "50" 	Green = "180" 	Blue = "250" 	Trade = "1"	/>
+	<Title PropertyID = "286000046" Name = "GM" 			String = "〈 G.M 〉" 			Red = "255" 	Green = "255" 	Blue = "255" 	Trade = "0"	/>
+	<Title PropertyID = "286000047" Name = "HappyNewYear" 		String = "〈 司骯腌ㄤ 〉" 	Red = "255" 	Green = "255" 	Blue = "255" 	Trade = "1"	/>
+	<Title PropertyID = "286000048" Name = "MoreStrongThanNatsumi" 	String = "〈 司骯腌ㄤ 〉" 	Red = "255"	Green = "255" 	Blue = "255" 	Trade = "1"	/>
+	<Title PropertyID = "286000049" Name = "MoreGoodThanFuyuki" 	String = "〈 司骯腌ㄤ 〉" 		Red = "0"	Green = "51" 	Blue = "153" 	Trade = "1"	/>
+	<Title PropertyID = "286000050" Name = "MoreAgileThanKoyuki" 	String = "〈 司骯腌ㄤ 〉" 	Red = "102" 	Green = "255" 	Blue = "255" 	Trade = "1"	/>
+	<Title PropertyID = "286000051" Name = "MoreFunnyThanKogoro" 	String = "〈 556司骯腌ㄤ 〉" 		Red = "239" 	Green = "54" 	Blue = "17" 	Trade = "1"	/>
+	<Title PropertyID = "286000052" Name = "MoreRichThanMomoka" 	String = "〈 司骯腌ㄤ 〉" 	Red = "255" 	Green = "153" 	Blue = "0" 	Trade = "1"	/>
+	<Title PropertyID = "286000056" Name = "Loveyou" 		String = "〈 I Love You 〉" 	        Red = "242" 	Green = "152" 	Blue = "150" 	Trade = "1"	/>
+	<Title PropertyID = "286000060" Name = "EarthDefense" 		String = "〈 司骯腌ㄤ 〉" 		Red = "109" 	Green = "10" 	Blue = "0" 	Trade = "1"	/>
+	<Title PropertyID = "286000059" Name = "Fightgreen"             	String = "〈 司骯腌ㄤ 〉" 	        Red = "170" 	Green = "110" 	Blue = "255" 	Trade = "1"	/>
+	<Title PropertyID = "286000058" Name = "Fightblue" 	        	String = "〈 司骯腌ㄤ 〉" 	        Red = "50" 	Green = "180" 	Blue = "250" 	Trade = "1"	/>
+	<Title PropertyID = "286000057" Name = "Fightyellow" 	        	String = "〈 司骯腌ㄤ 〉" 	        Red = "255" 	Green = "100" 	Blue = "20" 	Trade = "1"	/>
+	<Title PropertyID = "286000053" Name = "GiroPower"             	String = "〈 司骯腌ㄤ 〉" 	        Red = "170" 	Green = "110" 	Blue = "255" 	Trade = "1"	/>
+	<Title PropertyID = "286000054" Name = "DoroPower" 	        	String = "〈 司骯腌ㄤ 〉" 	        Red = "50" 	Green = "180" 	Blue = "250" 	Trade = "1"	/>
+	<Title PropertyID = "286000055" Name = "KeroPower" 	        	String = "〈 司骯腌ㄤ 〉" 	        Red = "255" 	Green = "100" 	Blue = "20" 	Trade = "1"	/>
+	<Title PropertyID = "286000061" Name = "TamaPower"             	String = "〈 司骯腌ㄤ 〉" 	        Red = "170" 	Green = "110" 	Blue = "255" 	Trade = "1"	/>
+	<Title PropertyID = "286000062" Name = "KuruPower" 	        	String = "〈 司骯腌ㄤ 〉" 	        Red = "50" 	Green = "180" 	Blue = "250" 	Trade = "1"	/>
+	<Title PropertyID = "286000063" Name = "Kidsking" 	        	String = "〈 司骯腌ㄤ 〉" 	        Red = "255" 	Green = "100" 	Blue = "20" 	Trade = "1"	/>
+</TitleProperty>
+
+<!--
+PropertyID 아이템 아이디와 동일하게
+Name 칭호 이름(코드 내부에서 사용할 아이디.. 막써도 되지만 가능하면 문법에 맞게 해주세용.+_+)
+String 게임상에 보일 문구
+Red/Green/Blue 게임상에 보일 문구 색상(RGB값)
+Trade 거래 가능 여부
+-->

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="352" PosY="194" SizeX="350" SizeY="396" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.5010" Show="1">
+            <Element index="0" TextName="GUI_community.tga" TextPosX="961" TextPosY="3" TextSizeX="22" TextSizeY="396" PosX="40" PosY="0" SizeX="270" SizeY="396" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_community.tga" TextPosX="921" TextPosY="3" TextSizeX="40" TextSizeY="396" PosX="0" PosY="0" SizeX="40" SizeY="396" />
+            <Element index="5" TextName="GUI_community.tga" TextPosX="983" TextPosY="3" TextSizeX="40" TextSizeY="396" PosX="310" PosY="0" SizeX="40" SizeY="396" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+	<Property Index="1" RenderStyle="0" Depth="0.5009" Show="1"> <!-- 쪽지 내용 Text -->
+            <Element index="0" TextName="GUI_community.tga" TextPosX="730" TextPosY="106" TextSizeX="75" TextSizeY="21" PosX="137" PosY="10" SizeX="75" SizeY="21" />
+        </Property>
+        <Property Index="2" RenderStyle="1" Depth="0.5008" Show="1"> <!-- 쪽지 내용 배경 -->
+            <Element index="0" TextName="GUI_community.tga" TextPosX="443" TextPosY="169" TextSizeX="8" TextSizeY="206" PosX="40" PosY="121" SizeX="268" SizeY="206" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_community.tga" TextPosX="418" TextPosY="169" TextSizeX="24" TextSizeY="206" PosX="16" PosY="121" SizeX="24" SizeY="206" />
+            <Element index="5" TextName="GUI_community.tga" TextPosX="452" TextPosY="169" TextSizeX="24" TextSizeY="206" PosX="308" PosY="121" SizeX="24" SizeY="206" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.5007" Show="1"> <!-- 쪽지 내용 Text -->
+            <Element index="0" TextName="GUI_community.tga" TextPosX="730" TextPosY="106" TextSizeX="75" TextSizeY="21" PosX="137" PosY="128" SizeX="75" SizeY="21" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.5007" Show="1"> <!-- 쪽지 받을 사람 배경  -->
+            <Element index="0" TextName="GUI_community.tga" TextPosX="420" TextPosY="132" TextSizeX="316" TextSizeY="34" PosX="16" PosY="51" SizeX="316" SizeY="34" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.5006" Show="1"> <!-- 쪽지 받을 사람 Text -->
+            <Element index="0" TextName="GUI_community.tga" TextPosX="730" TextPosY="60" TextSizeX="106" TextSizeY="21" PosX="30" PosY="58" SizeX="106" SizeY="21" />
+        </Property>
+
+        <Property Index="6" RenderStyle="0" Depth="0.5007" Show="1"> <!-- 메신져 친구 선택 배경 -->
+            <Element index="0" TextName="GUI_community.tga" TextPosX="420" TextPosY="132" TextSizeX="316" TextSizeY="34" PosX="16" PosY="86" SizeX="316" SizeY="34" />
+        </Property>
+        <Property Index="7" RenderStyle="0" Depth="0.5006" Show="1"> <!-- 쪽지 받을 사람 Text -->
+            <Element index="0" TextName="GUI_community.tga" TextPosX="730" TextPosY="83" TextSizeX="106" TextSizeY="21" PosX="30" PosY="93" SizeX="106" SizeY="21" />
+        </Property>
+
+        <Property Index="8" RenderStyle="0" Depth="0.5011" Show="1"> <!-- 음영 -->
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-352" PosY="-194" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+<!--START - 기본 UI-->
+        <Property Name="BUTTON_Close" ClassName="CKeroroUI_Button" PosX="308" PosY="12" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.5005" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기본 UI-->
+
+        <Property Name="CancelPPaper_Button" ClassName="CKeroroUI_Button" PosX="180" PosY="337" SizeX="92" SizeY="44" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.5" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SendPPaper_Button" ClassName="CKeroroUI_Button" PosX="80" PosY="337" SizeX="92" SizeY="44" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.5" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="522" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="522" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="522" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="FriendList_ComboButton" ClassName="CKeroroUI_ComboBox" PosX="300" PosY="92" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.5" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="179" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="204" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="229" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="NormalUserName_Button" ClassName="CKeroroUI_Button" PosX="148" PosY="52" SizeX="183" SizeY="32" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.5" Show="0">
+		    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="183" SizeY="32" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="MsgArea_Button" ClassName="CKeroroUI_Button" PosX="27" PosY="158" SizeX="294" SizeY="158" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.5" Show="0">
+		    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="294" SizeY="158" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="MsgTexture_Button" ClassName="CKeroroUI_Button" PosX="36" PosY="163" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+    </DialogControl>
+</RootNode>

@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<OctreeInformation>
+    <OctManagerInfo CurSubDivisionCount="0" MaxSubDivisionCount="3" MaxVertPerNode="50" LeafNodeCount="58" MaxIndexOfNode="65" />
+    <OctNodeInfo IndexOfNode="0" SubDevided="1" CenterX="374.905" CenterY="148.584" CenterZ="457.335" Width="4470.448">
+        <Child IndexOfArray="0" IndexOfNode="1" />
+        <Child IndexOfArray="1" IndexOfNode="18" />
+        <Child IndexOfArray="2" IndexOfNode="19" />
+        <Child IndexOfArray="3" IndexOfNode="20" />
+        <Child IndexOfArray="4" IndexOfNode="29" />
+        <Child IndexOfArray="5" IndexOfNode="46" />
+        <Child IndexOfArray="6" IndexOfNode="47" />
+        <Child IndexOfArray="7" IndexOfNode="48" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="1" SubDevided="1" CenterX="-742.707" CenterY="1266.196" CenterZ="-660.277" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Child IndexOfArray="0" IndexOfNode="2" />
+        <Child IndexOfArray="1" IndexOfNode="3" />
+        <Child IndexOfArray="2" IndexOfNode="4" />
+        <Child IndexOfArray="3" IndexOfNode="5" />
+        <Child IndexOfArray="4" IndexOfNode="6" />
+        <Child IndexOfArray="5" IndexOfNode="7" />
+        <Child IndexOfArray="6" IndexOfNode="8" />
+        <Child IndexOfArray="7" IndexOfNode="17" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="2" SubDevided="0" CenterX="-1301.513" CenterY="1825.002" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="17" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="3" SubDevided="0" CenterX="-1301.513" CenterY="1825.002" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Sibling IndexOfNode="2" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="18" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="4" SubDevided="0" CenterX="-183.901" CenterY="1825.002" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Sibling IndexOfNode="2" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="5" SubDevided="0" CenterX="-183.901" CenterY="1825.002" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Sibling IndexOfNode="2" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="6" SubDevided="0" CenterX="-1301.513" CenterY="707.390" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Sibling IndexOfNode="2" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="41" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="7" SubDevided="0" CenterX="-1301.513" CenterY="707.390" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Sibling IndexOfNode="2" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="46" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="10" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="8" SubDevided="1" CenterX="-183.901" CenterY="707.390" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Child IndexOfArray="0" IndexOfNode="9" />
+        <Child IndexOfArray="1" IndexOfNode="10" />
+        <Child IndexOfArray="2" IndexOfNode="11" />
+        <Child IndexOfArray="3" IndexOfNode="12" />
+        <Child IndexOfArray="4" IndexOfNode="13" />
+        <Child IndexOfArray="5" IndexOfNode="14" />
+        <Child IndexOfArray="6" IndexOfNode="15" />
+        <Child IndexOfArray="7" IndexOfNode="16" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="9" SubDevided="0" CenterX="-463.304" CenterY="986.793" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="2" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="11" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="10" SubDevided="0" CenterX="-463.304" CenterY="986.793" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="18" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="11" SubDevided="0" CenterX="95.502" CenterY="986.793" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="26" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="12" SubDevided="0" CenterX="95.502" CenterY="986.793" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="13" SubDevided="0" CenterX="-463.304" CenterY="427.987" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="41" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="14" SubDevided="0" CenterX="-463.304" CenterY="427.987" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="46" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="15" SubDevided="0" CenterX="95.502" CenterY="427.987" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="12" />
+        <POLYINDEX INDEX="13" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="18" />
+        <POLYINDEX INDEX="19" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="12" />
+        <WALLINDEX INDEX="13" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+        <WALLINDEX INDEX="18" />
+        <WALLINDEX INDEX="19" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="16" SubDevided="0" CenterX="95.502" CenterY="427.987" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="8" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="12" />
+        <POLYINDEX INDEX="13" />
+        <POLYINDEX INDEX="14" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="18" />
+        <POLYINDEX INDEX="19" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="12" />
+        <WALLINDEX INDEX="13" />
+        <WALLINDEX INDEX="14" />
+        <WALLINDEX INDEX="15" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+        <WALLINDEX INDEX="18" />
+        <WALLINDEX INDEX="19" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="17" SubDevided="0" CenterX="-183.901" CenterY="707.390" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="1" />
+        <Sibling IndexOfNode="2" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="9" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="15" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="18" SubDevided="0" CenterX="-742.707" CenterY="1266.196" CenterZ="1574.947" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Sibling IndexOfNode="3" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="10" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="52" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="16" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="19" SubDevided="0" CenterX="1492.517" CenterY="1266.196" CenterZ="1574.947" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="59" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="20" SubDevided="1" CenterX="1492.517" CenterY="1266.196" CenterZ="-660.277" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Child IndexOfArray="0" IndexOfNode="21" />
+        <Child IndexOfArray="1" IndexOfNode="22" />
+        <Child IndexOfArray="2" IndexOfNode="23" />
+        <Child IndexOfArray="3" IndexOfNode="24" />
+        <Child IndexOfArray="4" IndexOfNode="25" />
+        <Child IndexOfArray="5" IndexOfNode="26" />
+        <Child IndexOfArray="6" IndexOfNode="27" />
+        <Child IndexOfArray="7" IndexOfNode="28" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="21" SubDevided="0" CenterX="933.711" CenterY="1825.002" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="24" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="22" SubDevided="0" CenterX="933.711" CenterY="1825.002" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="24" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="23" SubDevided="0" CenterX="2051.323" CenterY="1825.002" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="24" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="24" SubDevided="0" CenterX="2051.323" CenterY="1825.002" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="25" SubDevided="0" CenterX="933.711" CenterY="707.390" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="24" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <POLYINDEX INDEX="2" />
+        <POLYINDEX INDEX="3" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="14" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="2" />
+        <WALLINDEX INDEX="3" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="14" />
+        <WALLINDEX INDEX="15" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="26" SubDevided="0" CenterX="933.711" CenterY="707.390" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="4" />
+        <Sibling IndexOfNode="5" />
+        <Sibling IndexOfNode="11" />
+        <Sibling IndexOfNode="12" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="24" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <POLYINDEX INDEX="2" />
+        <POLYINDEX INDEX="3" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="12" />
+        <POLYINDEX INDEX="13" />
+        <POLYINDEX INDEX="14" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="18" />
+        <POLYINDEX INDEX="19" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="2" />
+        <WALLINDEX INDEX="3" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="12" />
+        <WALLINDEX INDEX="13" />
+        <WALLINDEX INDEX="14" />
+        <WALLINDEX INDEX="15" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+        <WALLINDEX INDEX="18" />
+        <WALLINDEX INDEX="19" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="27" SubDevided="0" CenterX="2051.323" CenterY="707.390" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="24" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="28" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="28" SubDevided="0" CenterX="2051.323" CenterY="707.390" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="20" />
+        <Sibling IndexOfNode="21" />
+        <Sibling IndexOfNode="22" />
+        <Sibling IndexOfNode="23" />
+        <Sibling IndexOfNode="24" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="29" SubDevided="1" CenterX="-742.707" CenterY="-969.028" CenterZ="-660.277" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Child IndexOfArray="0" IndexOfNode="30" />
+        <Child IndexOfArray="1" IndexOfNode="31" />
+        <Child IndexOfArray="2" IndexOfNode="32" />
+        <Child IndexOfArray="3" IndexOfNode="41" />
+        <Child IndexOfArray="4" IndexOfNode="42" />
+        <Child IndexOfArray="5" IndexOfNode="43" />
+        <Child IndexOfArray="6" IndexOfNode="44" />
+        <Child IndexOfArray="7" IndexOfNode="45" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="30" SubDevided="0" CenterX="-1301.513" CenterY="-410.222" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="42" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="31" SubDevided="0" CenterX="-1301.513" CenterY="-410.222" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="42" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="46" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="10" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="32" SubDevided="1" CenterX="-183.901" CenterY="-410.222" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Child IndexOfArray="0" IndexOfNode="33" />
+        <Child IndexOfArray="1" IndexOfNode="34" />
+        <Child IndexOfArray="2" IndexOfNode="35" />
+        <Child IndexOfArray="3" IndexOfNode="36" />
+        <Child IndexOfArray="4" IndexOfNode="37" />
+        <Child IndexOfArray="5" IndexOfNode="38" />
+        <Child IndexOfArray="6" IndexOfNode="39" />
+        <Child IndexOfArray="7" IndexOfNode="40" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="33" SubDevided="0" CenterX="-463.304" CenterY="-130.819" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="34" SubDevided="0" CenterX="-463.304" CenterY="-130.819" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="46" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="35" SubDevided="0" CenterX="95.502" CenterY="-130.819" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="12" />
+        <POLYINDEX INDEX="13" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="18" />
+        <POLYINDEX INDEX="19" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="12" />
+        <WALLINDEX INDEX="13" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+        <WALLINDEX INDEX="18" />
+        <WALLINDEX INDEX="19" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="36" SubDevided="0" CenterX="95.502" CenterY="-130.819" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="12" />
+        <POLYINDEX INDEX="13" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="18" />
+        <POLYINDEX INDEX="19" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="12" />
+        <WALLINDEX INDEX="13" />
+        <WALLINDEX INDEX="15" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+        <WALLINDEX INDEX="18" />
+        <WALLINDEX INDEX="19" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="37" SubDevided="0" CenterX="-463.304" CenterY="-689.625" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="42" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="38" SubDevided="0" CenterX="-463.304" CenterY="-689.625" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="46" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="39" SubDevided="0" CenterX="95.502" CenterY="-689.625" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="16" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="40" SubDevided="0" CenterX="95.502" CenterY="-689.625" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="32" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="9" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="41" SubDevided="0" CenterX="-183.901" CenterY="-410.222" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Sibling IndexOfNode="6" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="13" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="33" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="42" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="10" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="14" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="10" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="14" />
+        <WALLINDEX INDEX="15" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="42" SubDevided="0" CenterX="-1301.513" CenterY="-1527.834" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="43" SubDevided="0" CenterX="-1301.513" CenterY="-1527.834" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="42" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="46" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="44" SubDevided="0" CenterX="-183.901" CenterY="-1527.834" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="42" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="45" SubDevided="0" CenterX="-183.901" CenterY="-1527.834" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="29" />
+        <Sibling IndexOfNode="30" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="37" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="42" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="46" SubDevided="0" CenterX="-742.707" CenterY="-969.028" CenterZ="1574.947" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Sibling IndexOfNode="7" />
+        <Sibling IndexOfNode="14" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="31" />
+        <Sibling IndexOfNode="34" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="38" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="43" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="11" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="11" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="47" SubDevided="0" CenterX="1492.517" CenterY="-969.028" CenterZ="1574.947" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="48" SubDevided="1" CenterX="1492.517" CenterY="-969.028" CenterZ="-660.277" Width="2235.224">
+        <Parent IndexOfNode="0" />
+        <Child IndexOfArray="0" IndexOfNode="49" />
+        <Child IndexOfArray="1" IndexOfNode="50" />
+        <Child IndexOfArray="2" IndexOfNode="59" />
+        <Child IndexOfArray="3" IndexOfNode="60" />
+        <Child IndexOfArray="4" IndexOfNode="61" />
+        <Child IndexOfArray="5" IndexOfNode="62" />
+        <Child IndexOfArray="6" IndexOfNode="63" />
+        <Child IndexOfArray="7" IndexOfNode="64" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="49" SubDevided="0" CenterX="933.711" CenterY="-410.222" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <Sibling IndexOfNode="64" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="2" />
+        <POLYINDEX INDEX="3" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="14" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="2" />
+        <WALLINDEX INDEX="3" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="14" />
+        <WALLINDEX INDEX="15" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="50" SubDevided="1" CenterX="933.711" CenterY="-410.222" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Child IndexOfArray="0" IndexOfNode="51" />
+        <Child IndexOfArray="1" IndexOfNode="52" />
+        <Child IndexOfArray="2" IndexOfNode="53" />
+        <Child IndexOfArray="3" IndexOfNode="54" />
+        <Child IndexOfArray="4" IndexOfNode="55" />
+        <Child IndexOfArray="5" IndexOfNode="56" />
+        <Child IndexOfArray="6" IndexOfNode="57" />
+        <Child IndexOfArray="7" IndexOfNode="58" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="51" SubDevided="0" CenterX="654.308" CenterY="-130.819" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="17" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="2" />
+        <POLYINDEX INDEX="3" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <POLYINDEX INDEX="12" />
+        <POLYINDEX INDEX="13" />
+        <POLYINDEX INDEX="14" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="18" />
+        <POLYINDEX INDEX="19" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="0" />
+        <WALLINDEX INDEX="1" />
+        <WALLINDEX INDEX="2" />
+        <WALLINDEX INDEX="3" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+        <WALLINDEX INDEX="12" />
+        <WALLINDEX INDEX="13" />
+        <WALLINDEX INDEX="14" />
+        <WALLINDEX INDEX="15" />
+        <WALLINDEX INDEX="17" />
+        <WALLINDEX INDEX="18" />
+        <WALLINDEX INDEX="19" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="52" SubDevided="0" CenterX="654.308" CenterY="-130.819" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="15" />
+        <Sibling IndexOfNode="16" />
+        <Sibling IndexOfNode="18" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <POLYINDEX INDEX="3" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="12" />
+        <POLYINDEX INDEX="13" />
+        <POLYINDEX INDEX="16" />
+        <POLYINDEX INDEX="17" />
+        <POLYINDEX INDEX="18" />
+        <POLYINDEX INDEX="19" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="3" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="12" />
+        <WALLINDEX INDEX="13" />
+        <WALLINDEX INDEX="16" />
+        <WALLINDEX INDEX="17" />
+        <WALLINDEX INDEX="18" />
+        <WALLINDEX INDEX="19" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="53" SubDevided="0" CenterX="1213.114" CenterY="-130.819" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="54" SubDevided="0" CenterX="1213.114" CenterY="-130.819" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <POLYINDEX INDEX="2" />
+        <POLYINDEX INDEX="3" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="14" />
+        <POLYINDEX INDEX="15" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="2" />
+        <WALLINDEX INDEX="3" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="14" />
+        <WALLINDEX INDEX="15" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="55" SubDevided="0" CenterX="654.308" CenterY="-689.625" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+        <WALLINDEX INDEX="5" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="56" SubDevided="0" CenterX="654.308" CenterY="-689.625" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="35" />
+        <Sibling IndexOfNode="36" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="62" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="57" SubDevided="0" CenterX="1213.114" CenterY="-689.625" CenterZ="177.932" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="58" SubDevided="0" CenterX="1213.114" CenterY="-689.625" CenterZ="-380.874" Width="558.806">
+        <Parent IndexOfNode="50" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="51" />
+        <Sibling IndexOfNode="52" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <Sibling IndexOfNode="64" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="59" SubDevided="0" CenterX="2051.323" CenterY="-410.222" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Sibling IndexOfNode="19" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="53" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="60" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <Sibling IndexOfNode="64" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="60" SubDevided="0" CenterX="2051.323" CenterY="-410.222" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Sibling IndexOfNode="25" />
+        <Sibling IndexOfNode="26" />
+        <Sibling IndexOfNode="27" />
+        <Sibling IndexOfNode="28" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="54" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <Sibling IndexOfNode="64" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="61" SubDevided="0" CenterX="933.711" CenterY="-1527.834" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <Sibling IndexOfNode="64" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="62" SubDevided="0" CenterX="933.711" CenterY="-1527.834" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Sibling IndexOfNode="39" />
+        <Sibling IndexOfNode="40" />
+        <Sibling IndexOfNode="41" />
+        <Sibling IndexOfNode="44" />
+        <Sibling IndexOfNode="45" />
+        <Sibling IndexOfNode="46" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="55" />
+        <Sibling IndexOfNode="56" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="63" />
+        <Sibling IndexOfNode="64" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="63" SubDevided="0" CenterX="2051.323" CenterY="-1527.834" CenterZ="-101.471" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Sibling IndexOfNode="47" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="57" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="64" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+    <OctNodeInfo IndexOfNode="64" SubDevided="0" CenterX="2051.323" CenterY="-1527.834" CenterZ="-1219.083" Width="1117.612">
+        <Parent IndexOfNode="48" />
+        <Sibling IndexOfNode="49" />
+        <Sibling IndexOfNode="58" />
+        <Sibling IndexOfNode="59" />
+        <Sibling IndexOfNode="60" />
+        <Sibling IndexOfNode="61" />
+        <Sibling IndexOfNode="62" />
+        <Sibling IndexOfNode="63" />
+        <POLYINDEX INDEX="20" />
+        <FLATINDEX INDEX="20" />
+    </OctNodeInfo>
+</OctreeInformation>

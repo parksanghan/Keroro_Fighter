@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="333" PosY="230" SizeX="360" SizeY="217" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<!--기본 배경-->
+        <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+            <Element index="0" TextName="GUI_LevelUp.tga" TextPosX="1" TextPosY="1" TextSizeX="360" TextSizeY="217" PosX="0" PosY="0" SizeX="360" SizeY="217" />
+        </Property>
+	<!--계급 Texture - 사전 로드용-->
+	<Property Index="1" RenderStyle="0" Depth="0.999" Show="0">
+            <Element index="0" TextName="GUI_Class.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+<!--START - Button-->
+	<!--계급마크-->
+	<Property Name="ResultAlert_GradeMark_Button" ClassName="CKeroroUI_Button" PosX="161" PosY="133" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Class.TGA" TextPosX="61" TextPosY="7" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - Button-->
+	<!--계급명-->
+	<Property Name="ResultAlert_STATIC_GradeName" ClassName="CKeroroUI_Static" PosX="190" PosY="139" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+	<!--메세지-->
+	<Property Name="ResultAlert_STATIC_Message" ClassName="CKeroroUI_Static" PosX="194" PosY="183" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+    </DialogControl>
+</RootNode>

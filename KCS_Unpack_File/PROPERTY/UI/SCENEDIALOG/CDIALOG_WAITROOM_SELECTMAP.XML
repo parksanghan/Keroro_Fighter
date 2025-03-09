@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="4" PosY="172" SizeX="215" SizeY="221" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<Property Index="0" RenderStyle="1" Depth="0.890" Show="1"> <!-- 기본 배경 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="29" PosY="29" SizeX="157" SizeY="163" /> <!-- 중 -->
+            <Element index="1" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="0" PosY="0" SizeX="29" SizeY="29" /> <!-- 상좌 -->
+            <Element index="2" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="29" PosY="0" SizeX="157" SizeY="29" /> <!-- 상중 -->
+            <Element index="3" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="186" PosY="0" SizeX="29" SizeY="29" /> <!-- 상우 -->
+	    <Element index="4" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="0" PosY="29" SizeX="29" SizeY="163" /> <!-- 좌 -->
+            <Element index="5" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="186" PosY="29" SizeX="29" SizeY="163" /> <!-- 우 -->
+            <Element index="6" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="0" PosY="192" SizeX="29" SizeY="29" /> <!-- 하좌 -->
+            <Element index="7" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="29" PosY="192" SizeX="157" SizeY="29" /> <!-- 하중 -->
+            <Element index="8" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="186" PosY="192" SizeX="29" SizeY="29" /> <!-- 하우 -->
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.889" Show="1"> <!-- 타이틀 하단 라인 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="4" TextPosY="498" TextSizeX="212" TextSizeY="2" PosX="0" PosY="35" SizeX="212" SizeY="2" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.889" Show="1"> <!-- 타이틀 Text -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="395" TextPosY="130" TextSizeX="102" TextSizeY="23" PosX="55" PosY="8" SizeX="102" SizeY="23" />
+        </Property>
+
+    </DialogSkin>
+    <DialogControl>
+
+<!--START - 맵 선택 버튼 -->
+        <Property Name="SelectMap1_Button" ClassName="CKeroroUI_ComboBox" PosX="175" PosY="47" SizeX="24" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="4" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="29" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="54" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.851" Show="1"> <!-- 스테이지 선택 배경 1 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="164" TextPosY="5" TextSizeX="205" TextSizeY="34" PosX="-170" PosY="-6" SizeX="205" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SelectMap2_Button" ClassName="CKeroroUI_ComboBox" PosX="175" PosY="82" SizeX="24" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="4" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="29" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="54" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.851" Show="1"> <!-- 스테이지 선택 배경 2 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="164" TextPosY="5" TextSizeX="205" TextSizeY="34" PosX="-170" PosY="-6" SizeX="205" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SelectMap3_Button" ClassName="CKeroroUI_ComboBox" PosX="175" PosY="117" SizeX="24" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="4" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="29" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="54" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.851" Show="1"> <!-- 스테이지 선택 배경 3 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="164" TextPosY="5" TextSizeX="205" TextSizeY="34" PosX="-170" PosY="-6" SizeX="205" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SelectMap4_Button" ClassName="CKeroroUI_ComboBox" PosX="175" PosY="152" SizeX="24" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="4" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="29" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="54" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.851" Show="1"> <!-- 스테이지 선택 배경 4 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="164" TextPosY="5" TextSizeX="205" TextSizeY="34" PosX="-170" PosY="-6" SizeX="205" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SelectMap5_Button" ClassName="CKeroroUI_ComboBox" PosX="175" PosY="187" SizeX="24" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="4" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="29" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room.TGA" TextPosX="374" TextPosY="54" TextSizeX="24" TextSizeY="22" PosX="0" PosY="0" SizeX="24" SizeY="22" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.851" Show="1"> <!-- 스테이지 선택 배경 5 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="164" TextPosY="5" TextSizeX="205" TextSizeY="34" PosX="-170" PosY="-6" SizeX="205" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END --- 맵 선택 버튼 -->
+
+<!--START - 선택된 맵 Static -->
+        <Property Name="Map1_Static" ClassName="CKeroroUI_Static" PosX="26" PosY="51" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="스테이지를 선택하세요" FontDepth="0.649" FontTextureName="Map0_Static" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+        <Property Name="Map2_Static" ClassName="CKeroroUI_Static" PosX="26" PosY="86" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="스테이지를 선택하세요" FontDepth="0.649" FontTextureName="Map1_Static" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+        <Property Name="Map3_Static" ClassName="CKeroroUI_Static" PosX="26" PosY="121" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="스테이지를 선택하세요" FontDepth="0.649" FontTextureName="Map2_Static" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+        <Property Name="Map4_Static" ClassName="CKeroroUI_Static" PosX="26" PosY="156" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="스테이지를 선택하세요" FontDepth="0.649" FontTextureName="Map3_Static" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+        <Property Name="Map5_Static" ClassName="CKeroroUI_Static" PosX="26" PosY="191" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="스테이지를 선택하세요" FontDepth="0.649" FontTextureName="Map4_Static" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+<!--END --- 선택된 맵 Static -->
+
+<!--START - 맵 선택 버튼 -->
+<!--END --- 맵 선택 버튼 -->
+    </DialogControl>
+</RootNode>

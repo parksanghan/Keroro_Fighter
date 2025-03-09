@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="IDLE" LOOP="0" TOTALTIME="10">
+            <ACTIONEVENT CLASSNAME="CActionEvent_LoopAni" EVENTNAME="Shop_machine_right" TYPENAME="LoopAnimation" ANIMATIONNAME="Shop_machine_right" WEIGHT="1" DELAY="0.1" EVENTTIME="0" EVENTENDTIME="0" />
+            <ACTIONEVENT CLASSNAME="CActionEvent_Scale" EVENTNAME="SCALE" TYPENAME="Scale" SCALE="1.5" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

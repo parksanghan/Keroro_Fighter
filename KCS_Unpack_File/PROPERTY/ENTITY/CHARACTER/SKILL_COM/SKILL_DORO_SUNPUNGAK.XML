@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="CAP" FILENAME="Dororo_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Dororo_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Dororo_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Dororo_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Dororo_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Dororo_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Dororo_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Dororo_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Dororo_Eye07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Dororo_Eye08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Dororo_Eye09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Dororo_Eye10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Dororo_Eye11.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Dororo_Eye12.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Dororo_Eye13.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Dororo_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Dororo_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Dororo_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Dororo_Head07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Dororo_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Dororo_Head08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Dororo_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Dororo_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Dororo_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Dororo_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Dororo_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Dororo_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Dororo_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Dororo_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Dororo_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Dororo_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Dororo_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Dororo_Body_top.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="8" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Doro_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_01" FILENAME="Skill_Doro_Sunpungak_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_02" FILENAME="Skill_Doro_Sunpungak_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_03" FILENAME="Skill_Doro_Sunpungak_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_04" FILENAME="Skill_Doro_Sunpungak_04.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_05" FILENAME="Skill_Doro_Sunpungak_05.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_06" FILENAME="Skill_Doro_Sunpungak_06.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_07" FILENAME="Skill_Doro_Sunpungak_07.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_E00" FILENAME="Skill_Doro_Sunpungak_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Doro_Sunpungak_E01" FILENAME="Skill_Doro_Sunpungak_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_Doro_Sunpungak_COMMANDS.XML" />
+</GAMEENTITY>

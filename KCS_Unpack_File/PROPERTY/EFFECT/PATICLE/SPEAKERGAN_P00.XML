@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="speakerGan_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.300000" X="10.000000" Y="10.000000" Z="10.000000" />
+            <Property Time="0.300000" X="15.000000" Y="15.000000" Z="15.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="0.300000" Value="255.000000" />
+            <Property Time="0.300000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.600000" X="1.000000" Y="1.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="speakerGan_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="1.000000" Max="1.000000" />
+        <RepeatCount Count="1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.600000" />
+        <RegenTime Min="1.000000" Max="1.000000" />
+        <RotScaleMin X="50.000000" Y="50.000000" Z="0.000000" />
+        <RotScaleMax X="50.000000" Y="50.000000" Z="0.000000" />
+        <RandPosMin X="-20.000000" Y="80.000000" Z="-150.000000" />
+        <RandPosMax X="-20.000000" Y="80.000000" Z="-150.000000" />
+        <ComboList RefOrder="1.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="50.000000" Max="50.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="20">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.000000" Y="1.000000" Z="1.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.050000" Y="0.050000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.000000" Y="2.000000" Z="2.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.000000" Y="4.000000" Z="4.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.000000" Y="5.000000" Z="5.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.250000" Y="0.250000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.000000" Y="6.000000" Z="6.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.999999" Y="6.999999" Z="6.999999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.350000" Y="0.350000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.000000" Y="8.000000" Z="8.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.999999" Y="8.999999" Z="8.999999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.000000" Y="10.000000" Z="10.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.500000" Y="10.500000" Z="10.500000" />
+            <Alpha Value="229.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.550000" Y="0.550000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.000000" Y="11.000000" Z="11.000000" />
+            <Alpha Value="204.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.500000" Y="11.500000" Z="11.500000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.650000" Y="0.650000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.000000" Y="12.000000" Z="12.000000" />
+            <Alpha Value="153.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.500000" Y="12.500000" Z="12.500000" />
+            <Alpha Value="127.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.000000" Y="13.000000" Z="13.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.500000" Y="13.500000" Z="13.500000" />
+            <Alpha Value="76.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.850000" Y="0.850000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.000000" Y="14.000000" Z="14.000000" />
+            <Alpha Value="51.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.500000" Y="14.500000" Z="14.500000" />
+            <Alpha Value="25.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.950000" Y="0.950000" Z="0.000000" />
+            <Texture Texture="speakerGan_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

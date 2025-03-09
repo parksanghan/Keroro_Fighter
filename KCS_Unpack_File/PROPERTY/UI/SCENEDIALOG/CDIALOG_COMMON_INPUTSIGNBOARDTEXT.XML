@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_InputSignBoardText.xml" PosX="261" PosY="267" SizeX="502" SizeY="159" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.580" Show="1">
+            <Element index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="448" TextPosY="699" TextSizeX="15" TextSizeY="159" PosX="35" PosY="0" SizeX="432" SizeY="159" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="412" TextPosY="699" TextSizeX="35" TextSizeY="159" PosX="0" PosY="0" SizeX="35" SizeY="159" />
+            <Element index="5" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="464" TextPosY="699" TextSizeX="35" TextSizeY="159" PosX="467" PosY="0" SizeX="35" SizeY="159" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="1" Depth="0.579" Show="1">
+            <Element index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="1" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="208" TextPosY="655" TextSizeX="135" TextSizeY="34" PosX="17" PosY="56" SizeX="135" SizeY="34" />
+            <Element index="2" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="344" TextPosY="655" TextSizeX="23" TextSizeY="34" PosX="152" PosY="56" SizeX="302" SizeY="34" />
+            <Element index="3" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="368" TextPosY="655" TextSizeX="31" TextSizeY="34" PosX="454" PosY="56" SizeX="31" SizeY="34" />
+            <Element index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="5" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.579" Show="1">
+            <Element index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="661" TextPosY="79" TextSizeX="142" TextSizeY="22" PosX="181" PosY="16" SizeX="142" SizeY="22" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.581" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-261" PosY="-267" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Button_Common_InputSignBoardText_Close" ClassName="CKeroroUI_Button" PosX="463" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.579" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Common_InputSignBoardText_OK" ClassName="CKeroroUI_Button" PosX="155" PosY="102" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.579" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="238" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Common_InputSignBoardText_Cancel" ClassName="CKeroroUI_Button" PosX="255" PosY="102" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.579" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

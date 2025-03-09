@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="TempStart" PosX="679" PosY="588" SizeX="267" SizeY="115" ClientLeft="-679" ClientTop="-588" ClientRight="-946" ClientBottom="-703" />
+    </Dialog>
+    <DialogSkin />
+    <DialogControl>
+        <Property Name="Emoticon_Button" ClassName="CKeroroUI_Button" PosX="0" PosY="0" SizeX="87" SizeY="103" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="0" TextPosY="70" TextSizeX="87" TextSizeY="103" PosX="0" PosY="0" SizeX="87" SizeY="103" />
+                    <Element ControlState="1" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="1" TextPosY="290" TextSizeX="87" TextSizeY="114" PosX="0" PosY="0" SizeX="87" SizeY="114" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="0" TextPosY="174" TextSizeX="87" TextSizeY="114" PosX="0" PosY="-11" SizeX="87" SizeY="114" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="1" TextPosY="290" TextSizeX="87" TextSizeY="114" PosX="0" PosY="-10" SizeX="87" SizeY="114" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Skill_Button" ClassName="CKeroroUI_Button" PosX="90" PosY="-3" SizeX="87" SizeY="103" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="90" TextPosY="70" TextSizeX="87" TextSizeY="103" PosX="0" PosY="0" SizeX="87" SizeY="103" />
+                    <Element ControlState="1" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="90" TextPosY="290" TextSizeX="87" TextSizeY="114" PosX="0" PosY="0" SizeX="87" SizeY="114" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="90" TextPosY="174" TextSizeX="87" TextSizeY="114" PosX="0" PosY="-11" SizeX="87" SizeY="114" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="90" TextPosY="290" TextSizeX="87" TextSizeY="114" PosX="-1" PosY="-10" SizeX="87" SizeY="114" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.840" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitRoom_SkillButton.TGA" TextPosX="0" TextPosY="0" TextSizeX="128" TextSizeY="128" PosX="-20" PosY="-11" SizeX="128" SizeY="128" />
+                    <Element ControlState="1" index="0" TextName="GUI_WaitRoom_SkillButton.TGA" TextPosX="0" TextPosY="0" TextSizeX="128" TextSizeY="128" PosX="-20" PosY="-14" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitRoom_SkillButton.TGA" TextPosX="0" TextPosY="0" TextSizeX="128" TextSizeY="128" PosX="-20" PosY="-14" SizeX="0" SizeY="0" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitRoom_SkillButton.TGA" TextPosX="0" TextPosY="0" TextSizeX="128" TextSizeY="128" PosX="-20" PosY="-14" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="RoomOut_Button" ClassName="CKeroroUI_Button" PosX="179" PosY="-1" SizeX="87" SizeY="103" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="180" TextPosY="70" TextSizeX="87" TextSizeY="103" PosX="0" PosY="0" SizeX="87" SizeY="103" />
+                    <Element ControlState="1" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="180" TextPosY="290" TextSizeX="87" TextSizeY="114" PosX="0" PosY="0" SizeX="87" SizeY="114" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="180" TextPosY="174" TextSizeX="87" TextSizeY="114" PosX="0" PosY="-11" SizeX="87" SizeY="114" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="180" TextPosY="290" TextSizeX="87" TextSizeY="114" PosX="-1" PosY="-10" SizeX="87" SizeY="114" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Joriri_Obj_FootHold01" FILENAME="Joriri_Obj_FootHold01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="5" VSNAME="Joriri_Obj_Foothold01.VS">
+        <PROPERTYBAG NAME="COMB_KP_Foothold01" FILENAME="Joriri_Comb_KP_Obj_Foothold01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Idle_02_Obj_Foothold01" FILENAME="Joriri_Idle_02_Obj_Foothold01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Comb_KP_Obj_Foothold02" FILENAME="Joriri_Comb_KP_Obj_Foothold02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Obj_Jump_P_Foothold01" FILENAME="Joriri_Obj_Jump_P_Foothold01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Lose_Obj_Foothold01" FILENAME="Joriri_Lose_Obj_Foothold01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Joriri_Obj_FootHold01_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Nara_tower_mf_05" FILENAME="Nara_tower_mf_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_mf_line_05" FILENAME="Nara_tower_mf_line_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_mf_line_leaf_05" FILENAME="Nara_tower_mf_line_leaf_05.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Nara_tower_mf_05.VS">
+        <PROPERTYBAG NAME="Nara_tower_mf_05" FILENAME="Nara_tower_mf_05.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Nara_tower_mf_05_COMMANDS.XML" />
+</GAMEENTITY>

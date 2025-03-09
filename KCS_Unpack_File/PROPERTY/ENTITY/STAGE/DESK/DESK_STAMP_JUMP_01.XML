@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Desk_Stamp_Jump_M" FILENAME="Desk_Stamp_Jump_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Desk_Stamp_Jump.VS">
+        <PROPERTYBAG NAME="Desk_Stamp_Jump" FILENAME="Desk_Stamp_Jump.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Playground_Trapolyn" FILENAME="Playground_Trapolyn.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Desk_Stamp_Jump_01_COMMANDS.XML" />
+</GAMEENTITY>

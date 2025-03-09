@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="355" PosY="257" SizeX="310" SizeY="176" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.530" Show="1">
+            <Element index="0" TextName="kt_ui_PresentReceive_ItemToolTip.TGA" TextPosX="0" TextPosY="0" TextSizeX="372" TextSizeY="263" PosX="0" PosY="0" SizeX="372" SizeY="263" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="NoticeOK_Button" ClassName="CKeroroUI_Button" PosX="64" PosY="130" SizeX="88" SizeY="30" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.529" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Messenger.tga" TextPosX="509" TextPosY="744" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                    <Element ControlState="2" index="0" TextName="GUI_Messenger.tga" TextPosX="509" TextPosY="775" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                    <Element ControlState="3" index="0" TextName="GUI_Messenger.tga" TextPosX="509" TextPosY="806" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NoticeCANCEL_Button" ClassName="CKeroroUI_Button" PosX="168" PosY="130" SizeX="88" SizeY="30" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.529" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Messenger.tga" TextPosX="420" TextPosY="744" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                    <Element ControlState="2" index="0" TextName="GUI_Messenger.tga" TextPosX="420" TextPosY="775" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                    <Element ControlState="3" index="0" TextName="GUI_Messenger.tga" TextPosX="420" TextPosY="806" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NoticeDone_Button" ClassName="CKeroroUI_Button" PosX="117" PosY="130" SizeX="88" SizeY="30" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.529" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Messenger.tga" TextPosX="509" TextPosY="744" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                    <Element ControlState="2" index="0" TextName="GUI_Messenger.tga" TextPosX="509" TextPosY="775" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                    <Element ControlState="3" index="0" TextName="GUI_Messenger.tga" TextPosX="509" TextPosY="806" TextSizeX="88" TextSizeY="30" PosX="0" PosY="0" SizeX="88" SizeY="30" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

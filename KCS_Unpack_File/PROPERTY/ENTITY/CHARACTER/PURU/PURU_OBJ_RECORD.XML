@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Puru_Obj_Record" FILENAME="Puru_Obj_Record.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Prur_Obj_record.VS">
+        <PROPERTYBAG NAME="Puru_Obj_Comb_KP" FILENAME="Puru_Obj_Comb_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_Comb_KPP" FILENAME="Puru_Obj_Comb_KPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_IDLE_02" FILENAME="Puru_Obj_IDLE_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Puru_Obj_Record_COMMANDS.XML" />
+</GAMEENTITY>

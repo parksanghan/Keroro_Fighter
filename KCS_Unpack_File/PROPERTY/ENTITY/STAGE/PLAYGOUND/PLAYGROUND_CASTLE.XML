@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Playground_CastleSha" FILENAME="Playground_CastleSha_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_Castle" FILENAME="Playground_castle.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Playground_castle.VS">
+        <PROPERTYBAG NAME="CASTLE" FILENAME="Playground_castle.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Playground_castle_COMMANDS.XML" />
+</GAMEENTITY>

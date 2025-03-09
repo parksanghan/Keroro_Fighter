@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="29">
+        <PROPERTYBAG NAME="Board_Afro01" FILENAME="Board_Afro01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Afro02" FILENAME="Board_Afro02_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Base" FILENAME="Board_Base_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Bg" FILENAME="Board_Bg_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_BushN" FILENAME="Board_BushN_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_BushW" FILENAME="Board_BushW_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_CaseE" FILENAME="Board_CaseE_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_CaseW" FILENAME="Board_CaseW_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Dice" FILENAME="Board_Dice_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_House01" FILENAME="Board_House01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_PalmTreeE" FILENAME="Board_PalmTreeE_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Stone01" FILENAME="Board_Stone01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Stone02" FILENAME="Board_Stone02_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileBig" FILENAME="Board_TileBig_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileCenter" FILENAME="Board_TileCenter_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileE" FILENAME="Board_TileE_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileS" FILENAME="Board_TileS_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileWarp" FILENAME="Board_TileWarp_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Tower" FILENAME="Board_Tower_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TreeN" FILENAME="Board_TreeN_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TreeNW" FILENAME="Board_TreeNW_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TreeS" FILENAME="Board_TreeS_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Tunnel" FILENAME="Board_Tunnel_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileNE" FILENAME="Board_TileNE_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileNW" FILENAME="Board_TileNW_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Pond" FILENAME="Board_Pond_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_Alpha" FILENAME="Board_Alpha_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_CaseW_FWheel" FILENAME="Board_CaseW_FWheel_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_TileE_Bridge" FILENAME="Board_TileE_Bridge_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Board_light_B00" FILENAME="Board_light_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_light_B01" FILENAME="Board_light_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_light_B02" FILENAME="Board_light_B02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_wave_E00" FILENAME="Board_wave_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Board_COMMANDS.XML" />
+</GAMEENTITY>

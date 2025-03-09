@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Sababa_Obj_Sandman_Body" FILENAME="Sababa_Obj_Sandman_Body.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sababa_Obj_Sandman_Hand" FILENAME="Sababa_Obj_Sandman_Hand.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Sababa_Obj_Comb_KKP" FILENAME="Sababa_Obj_Comb_KKP.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sababa_Obj_Sandman_02_COMMANDS.XML" />
+</GAMEENTITY>

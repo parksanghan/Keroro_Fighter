@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Starland_Obj_UFO" FILENAME="Starland_Obj_UFO_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starland_Obj_UFOLight" FILENAME="Starland_Obj_UFOLight_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starland_Obj_UFO_Floor" FILENAME="Starland_Obj_UFO_Floor_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Starland_Obj_UFOLight_01" FILENAME="Starland_Obj_UFOLight_01_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Starland_Obj_UFOLight.VS">
+        <PROPERTYBAG NAME="Starland_Obj_UFOLight" FILENAME="Starland_Obj_UFOLight.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Starland_Obj_UFOLight_COMMANDS.XML" />
+</GAMEENTITY>

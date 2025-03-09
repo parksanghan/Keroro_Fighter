@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_MyBag_CardErasePiece_Popup.xml" PosX="2" PosY="0" SizeX="1024" SizeY="768" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth = "0.446" Show="1">
+            <Element index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="612" TextPosY="804" TextSizeX="13" TextSizeY="192" PosX="434" PosY="256" SizeX="180" SizeY="192" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="GUI_Inventory_tab.TGA" TextPosX="581" TextPosY="804" TextSizeX="30" TextSizeY="192" PosX="404" PosY="256" SizeX="30" SizeY="192" />
+            <Element index="4" TextName="GUI_Inventory_tab.TGA" TextPosX="628" TextPosY="804" TextSizeX="29" TextSizeY="192" PosX="614" PosY="256" SizeX="29" SizeY="192" />
+            <Element index="5" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+		<!--'제거할 카드 선택' 이미지-->
+        <Property Index = "1" RenderStyle = "0" Depth = "0.445" Show = "1">
+            <Element index = "0" TextName = "GUI_Inventory_tab.TGA" TextPosX = "682" TextPosY = "733" TextSizeX = "144" TextSizeY = "22" PosX = "451" PosY = "265" SizeX = "144" SizeY = "22" />
+        </Property>
+		<!--상단 카드 이미지들..카드 슬롯은 컨트롤에 버튼으로 생성-->
+		<!--세로 라인 -->
+		<Property Index = "3" RenderStyle = "0" Depth = "0.445" Show = "1">
+			<Element index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "434" TextPosY = "245" TextSizeX = "5" TextSizeY = "66" PosX = "485" PosY = "309" SizeX = "5" SizeY = "66" />
+		</Property>
+		<!--세로 라인 -->
+		<Property Index = "4" RenderStyle = "0" Depth = "0.445" Show = "1">
+			<Element index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "434" TextPosY = "245" TextSizeX = "5" TextSizeY = "66" PosX = "556" PosY = "309" SizeX = "5" SizeY = "66" />
+		</Property>
+		<!--뒷 배경 어둡게-->
+		<Property Index = "5" RenderStyle = "0" Depth = "0.447" Show = "1">
+			<Element index = "0" TextName = "GUI_BackBase.TGA" TextPosX = "0" TextPosY = "0" TextSizeX = "16" TextSizeY = "16" PosX = "0" PosY = "0" SizeX = "1027" SizeY = "768" />
+		</Property>
+    </DialogSkin>
+    <DialogControl>
+		<!--카드 슬롯 1-->
+		<Property Name = "Button_MyBag_EraseCardPiece_CardSlot1" ClassName = "CKeroroUI_Button" PosX = "426" PosY = "313" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<!--슬롯 바탕-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.445" Show = "1" >
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "441" TextPosY = "248" TextSizeX = "52" TextSizeY = "52" PosX = "0" PosY = "0" SizeX = "52" SizeY = "52" />
+				</Property>
+				<!--장착 카드 이미지-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.443" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "860" TextPosY = "683" TextSizeX = "48" TextSizeY = "48" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<Property Name = "Control_MyBag_EraseCardPiece_CardSlotEnable1" ClassName = "CKeroroUI_Control" PosX = "426" PosY = "313" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+			<ControlSkin>
+				<!--X이미지-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.442" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "496" TextPosY = "251" TextSizeX = "46" TextSizeY = "46" PosX = "3" PosY = "3" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>		
+		</Property>
+
+		<!--카드 슬롯 2-->
+		<Property Name = "Button_MyBag_EraseCardPiece_CardSlot2" ClassName = "CKeroroUI_Button" PosX = "498" PosY = "313" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<!--슬롯 바탕-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.445" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "441" TextPosY = "248" TextSizeX = "52" TextSizeY = "52" PosX = "0" PosY = "0" SizeX = "52" SizeY = "52" />
+				</Property>
+				<!--장착 카드 이미지-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.443" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "860" TextPosY = "683" TextSizeX = "48" TextSizeY = "48" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<Property Name = "Control_MyBag_EraseCardPiece_CardSlotEnable2" ClassName = "CKeroroUI_Control" PosX = "498" PosY = "313" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+			<ControlSkin>
+				<!--X이미지-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.442" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "496" TextPosY = "251" TextSizeX = "46" TextSizeY = "46" PosX = "3" PosY = "3" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>		
+		</Property>
+
+		<!--카드 슬롯 3-->
+		<Property Name = "Button_MyBag_EraseCardPiece_CardSlot3" ClassName = "CKeroroUI_Button" PosX = "569" PosY = "313" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<!--슬롯 바탕-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.445" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "441" TextPosY = "248" TextSizeX = "52" TextSizeY = "52" PosX = "0" PosY = "0" SizeX = "52" SizeY = "52" />
+				</Property>
+				<!--장착 카드 이미지-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.443" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "860" TextPosY = "683" TextSizeX = "48" TextSizeY = "48" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<Property Name = "Control_MyBag_EraseCardPiece_CardSlotEnable3" ClassName = "CKeroroUI_Control" PosX = "566" PosY = "313" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+			<ControlSkin>
+				<!--X이미지-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.442" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "496" TextPosY = "251" TextSizeX = "46" TextSizeY = "46" PosX = "3" PosY = "3" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>		
+		</Property>
+		<!--선택 활성 테두리-->
+		<Property Name = "Control_MyBag_EraseCardPiece_CardSelectBorder" ClassName = "CKeroroUI_Control" PosX = "426" PosY = "313" SizeX = "145" SizeY = "163" Disable = "0" OverSound = "0">
+				<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<!--
+				<Property Index="0" RenderStyle="1" Depth="0.441" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="210" TextPosY="819" TextSizeX="7" TextSizeY="158" PosX="19" PosY="1" SizeX="107" SizeY="158" />
+					<Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState="0" index="3" TextName="GUI_Inventory_tab.TGA" TextPosX="679" TextPosY="761" TextSizeX="19" TextSizeY="158" PosX="0" PosY="1" SizeX="19" SizeY="158" />
+					<Element ControlState="0" index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState="0" index="5" TextName="GUI_Inventory_tab.TGA" TextPosX="218" TextPosY="819" TextSizeX="19" TextSizeY="158" PosX="125" PosY="1" SizeX="19" SizeY="158" />
+					<Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				</Property>	
+				//-->
+				<Property Index="0" RenderStyle="0" Depth="0.441" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="679" TextPosY="762" TextSizeX="52" TextSizeY="52" PosX="0" PosY="1" SizeX="52" SizeY="52" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--삭제버튼-->
+		<Property Name = "Button_MyBag_EraseCardPiece_Delete" ClassName = "CKeroroUI_Button" PosX = "427" PosY = "393" SizeX = "92" SizeY = "44" Disable = "0" OverSound = "1">
+				<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.444" Show = "1">
+					<Element ControlState="0" index="0" TextName="GUI_Inventory_tab.tga" TextPosX="668" TextPosY="819" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+					<Element ControlState="1" index="0" TextName="GUI_Inventory_tab.tga" TextPosX="668" TextPosY="923" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+					<Element ControlState="2" index="0" TextName="GUI_Inventory_tab.tga" TextPosX="668" TextPosY="871" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+					<Element ControlState="3" index="0" TextName="GUI_Inventory_tab.tga" TextPosX="668" TextPosY="923" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+				</Property>
+			</ControlSkin>		
+		</Property>
+		<!--취소버튼-->
+		<Property Name = "Button_MyBag_EraseCardPiece_Cancel" ClassName = "CKeroroUI_Button" PosX = "528" PosY = "393" SizeX = "92" SizeY = "44" Disable = "0" OverSound = "1">
+				<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.444" Show = "1">
+					<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+					<Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+					<Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+				</Property>
+			</ControlSkin>		
+		</Property>
+    </DialogControl>
+</RootNode>

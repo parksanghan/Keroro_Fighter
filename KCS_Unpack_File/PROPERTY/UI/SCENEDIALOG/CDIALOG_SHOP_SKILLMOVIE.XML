@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Shop_SkillMovie.xml" PosX="0" PosY="0" SizeX="1024" SizeY="768" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<!--테두리-->
+	<Property Index = "0" RenderStyle = "1" Depth = "0.7" Show = "1">
+		<Element index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="473" TextPosY="585" TextSizeX="7" TextSizeY="320" PosX="366" PosY="135" SizeX="304" SizeY="320" />
+		<Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="4" TextName="GUI_ItemShop_Popup.tga" TextPosX="444" TextPosY="585" TextSizeX="28" TextSizeY="320" PosX="338" PosY="135" SizeX="28" SizeY="320" />
+		<Element index="5" TextName="GUI_ItemShop_Popup.tga" TextPosX="481" TextPosY="585" TextSizeX="28" TextSizeY="320" PosX="670" PosY="135" SizeX="28" SizeY="320" />
+		<Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	</Property>
+	<!--제목-->
+	<Property Index = "1" RenderStyle = "0" Depth = "0.69" Show = "1">
+		<Element index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="276" TextPosY="704" TextSizeX="98" TextSizeY="20" PosX="470" PosY="150" SizeX="98" SizeY="20" />
+	</Property>
+    </DialogSkin>
+    <DialogControl/>
+</RootNode>

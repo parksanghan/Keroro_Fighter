@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_SPE_OBJ_HAM" LOOP="0" TOTALTIME="1">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Comb_SPE_Obj_hamburger" TYPENAME="ActionAnimation" ANIMATIONNAME="Comb_SPE_Obj_hamburger" FADEIN="0.1" FADEOUT="0" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_SPE_OBJ_HAM01" LOOP="0" TOTALTIME="1">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Comb_SPE_Obj_hambeger_01" TYPENAME="ActionAnimation" ANIMATIONNAME="Comb_SPE_Obj_hambeger_01" FADEIN="0" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

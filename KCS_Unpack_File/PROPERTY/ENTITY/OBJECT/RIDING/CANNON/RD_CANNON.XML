@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="RD_Cannon_Body" FILENAME="RD_Cannon_Body.xml" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Cannon_Footing" FILENAME="RD_Cannon_Footing.xml" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Cannon_Handle" FILENAME="RD_Cannon_Handle.xml" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Cannon_Reg" FILENAME="RD_Cannon_Reg.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="6" VSNAME="RW_Cannon.VS">
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Cannon_obj_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_P" FILENAME="Cannon_obj_Comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hit" FILENAME="Cannon_obj_Hit_Push_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="RIDE_IDLE" FILENAME="Cannon_obj_Ride.VA" COMMENT="" />
+        <PROPERTYBAG NAME="TURN_LEFT" FILENAME="Cannon_obj_Dash01_L.VA" COMMENT="" />
+        <PROPERTYBAG NAME="TURN_RIGHT" FILENAME="Cannon_obj_Dash01_R.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Cannon_P_E00" FILENAME="Cannon_P_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cannon_P_E01" FILENAME="Cannon_P_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cannon_P_E02" FILENAME="Cannon_P_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="RD_Cannon_COMMANDS.XML" />
+</GAMEENTITY>

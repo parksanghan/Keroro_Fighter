@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Viper_iron_hammer_03" FILENAME="Viper_iron_hammer_03_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Viper_iron_hammer_03.VS">
+        <PROPERTYBAG NAME="Viper_iron_hammer_03" FILENAME="Viper_iron_hammer_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Viper_iron_hammer_03_A" FILENAME="Viper_iron_hammer_03_A.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Viper_iron_hammer_03_B" FILENAME="Viper_iron_hammer_03_B.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Viper_iron_hammer_03_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<GamePropertyList>
+    <Property Name="Character" Filename="CharacterProperty.xml"/>
+    <Property Name="Skill" Filename="SkillProperty.xml"/>
+    <Property Name="Item" Filename="ItemProperty.xml"/>
+    <Property Name="Combo" Filename="ComboProperty.xml"/>
+    <Property Name="MyRoom" Filename="MyRoomProperty.xml"/>
+    <Property Name="Shop" Filename="ShopProperty.xml"/>
+    <Property Name="BuffAttribute" Filename=""/>
+    <Property Name="TargetBox" Filename=""/>
+    <Property Name="Card" Filename="CardProperty.xml"/>
+    <Property Name="Package" Filename="PackageProperty.xml"/>
+    <Property Name="Weapon" Filename="WeaponProperty.xml"/>
+    <Property Name="Riding" Filename="RidingProperty.xml"/>
+    <Property Name="FishingItem" Filename=""/>
+    <Property Name="FishingChange" Filename=""/>
+    <Property Name="AddCharacter" Filename="AddCharacterProperty.xml"/>
+    <Property Name="AddMonster" Filename="AddMonsterProperty.xml"/>
+    <Property Name="EndlessWarNPCStatusBonus" Filename="EndlessWarNPCStatusBonusProperty.xml"/>
+    <Property Name="Title" Filename="TitleProperty.xml"/>
+    <Property Name="SignBoard" Filename="SignBoardProperty.xml"/>
+    <Property Name="Jewelry" Filename="JewelryProperty.xml"/>
+
+    <Property Name="CreateItem" Filename="CreateItemProperty.xml"/>
+    <Property Name="CreateJewelry" Filename="CreateJewelryProperty.xml"/>
+
+    <Property Name="Map" Filename="MapProperty.xml"/>
+
+    <Property Name="GameMode" Filename="GameModeProperty.xml"/>
+    <Property Name="GuildGameMode" Filename="GuildGameModeProperty.xml"/>
+    <Property Name = "Coupon" Filename = "CouponProperty.xml"/>
+
+</GamePropertyList>

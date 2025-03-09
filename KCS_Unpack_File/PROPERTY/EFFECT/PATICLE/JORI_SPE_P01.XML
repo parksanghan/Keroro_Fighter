@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Jori_Spe_P01" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.5" X="25" Y="25" Z="25" />
+            <Property Time="1" X="40" Y="40" Z="40" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="0" />
+            <Property Time="0.2" Value="150" />
+            <Property Time="1" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.3" X="0.5" Y="0.5" Z="0.5" />
+            <Property Time="1" X="0" Y="0" Z="1.5" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Skill_Comb_0002.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="70" Max="80" />
+        <RepeatCount Count="30" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="1.5" />
+        <RegenTime Min="0.1" Max="0.1" />
+        <RotScaleMin X="50" Y="0" Z="0" />
+        <RotScaleMax X="70" Y="0" Z="360" />
+        <RandPosMin X="0" Y="0" Z="0" />
+        <RandPosMax X="0" Y="0" Z="0" />
+        <ComboList RefOrder="5" ScaleType="1" PositionType="0" />
+        <Speed Min="17" Max="20" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0" Y="0" Z="90" />
+        <JetDirMax X="180" Y="0" Z="0" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="50">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="0" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.5" Y="1.5" Z="1.5" />
+            <Alpha Value="22.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.05" Y="0.05" Z="0.05" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3" Y="3" Z="3" />
+            <Alpha Value="45" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.1" Y="0.1" Z="0.1" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.5" Y="4.5" Z="4.5" />
+            <Alpha Value="67.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.15" Y="0.15" Z="0.15" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6" Y="6" Z="6" />
+            <Alpha Value="90" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.2" Y="0.2" Z="0.2" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.5" Y="7.5" Z="7.5" />
+            <Alpha Value="112.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.25" Y="0.25" Z="0.25" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9" Y="9" Z="9" />
+            <Alpha Value="150" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.3" Y="0.3" Z="0.3" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.5" Y="10.5" Z="10.5" />
+            <Alpha Value="145.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.35" Y="0.35" Z="0.35" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12" Y="12" Z="12" />
+            <Alpha Value="141" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.4" Y="0.4" Z="0.4" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.5" Y="13.5" Z="13.5" />
+            <Alpha Value="136.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.45" Y="0.45" Z="0.45" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15" Y="15" Z="15" />
+            <Alpha Value="132" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.5" Y="0.5" Z="0.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.5" Y="16.5" Z="16.5" />
+            <Alpha Value="127.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.485" Y="0.485" Z="0.53" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18" Y="18" Z="18" />
+            <Alpha Value="123" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.47" Y="0.47" Z="0.56" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.5" Y="19.5" Z="19.5" />
+            <Alpha Value="118.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.455" Y="0.455" Z="0.59" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21" Y="21" Z="21" />
+            <Alpha Value="114" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.44" Y="0.44" Z="0.62" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.5" Y="22.5" Z="22.5" />
+            <Alpha Value="109.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.425" Y="0.425" Z="0.65" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="105" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.41" Y="0.41" Z="0.68" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.45" Y="25.45" Z="25.45" />
+            <Alpha Value="100.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.395" Y="0.395" Z="0.71" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.9" Y="25.9" Z="25.9" />
+            <Alpha Value="96" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.38" Y="0.38" Z="0.74" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.35" Y="26.35" Z="26.35" />
+            <Alpha Value="91.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.365" Y="0.365" Z="0.77" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.8" Y="26.8" Z="26.8" />
+            <Alpha Value="87" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.35" Y="0.35" Z="0.8" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.25" Y="27.25" Z="27.25" />
+            <Alpha Value="82.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.335" Y="0.335" Z="0.83" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.7" Y="27.7" Z="27.7" />
+            <Alpha Value="78" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.32" Y="0.32" Z="0.86" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.15" Y="28.15" Z="28.15" />
+            <Alpha Value="73.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.305" Y="0.305" Z="0.89" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.6" Y="28.6" Z="28.6" />
+            <Alpha Value="69" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.29" Y="0.29" Z="0.92" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.05" Y="29.05" Z="29.05" />
+            <Alpha Value="64.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.275" Y="0.275" Z="0.95" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.5" Y="29.5" Z="29.5" />
+            <Alpha Value="60" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.26" Y="0.26" Z="0.98" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.95" Y="29.95" Z="29.95" />
+            <Alpha Value="55.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.245" Y="0.245" Z="1.01" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.4" Y="30.4" Z="30.4" />
+            <Alpha Value="51" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.23" Y="0.23" Z="1.04" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.85" Y="30.85" Z="30.85" />
+            <Alpha Value="46.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.215" Y="0.215" Z="1.07" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.3" Y="31.3" Z="31.3" />
+            <Alpha Value="42" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.2" Y="0.2" Z="1.1" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.75" Y="31.75" Z="31.75" />
+            <Alpha Value="37.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.185" Y="0.185" Z="1.13" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.2" Y="32.2" Z="32.2" />
+            <Alpha Value="33" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.17" Y="0.17" Z="1.16" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.65" Y="32.65" Z="32.65" />
+            <Alpha Value="28.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.155" Y="0.155" Z="1.19" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.1" Y="33.1" Z="33.1" />
+            <Alpha Value="24" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.14" Y="0.14" Z="1.22" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.55" Y="33.55" Z="33.55" />
+            <Alpha Value="19.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.125" Y="0.125" Z="1.25" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34" Y="34" Z="34" />
+            <Alpha Value="15" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.11" Y="0.11" Z="1.28" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.45" Y="34.45" Z="34.45" />
+            <Alpha Value="10.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.095" Y="0.095" Z="1.31" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.9" Y="34.9" Z="34.9" />
+            <Alpha Value="6" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.08" Y="0.08" Z="1.34" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="35.35" Y="35.35" Z="35.35" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.065" Y="0.065" Z="1.37" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="35.8" Y="35.8" Z="35.8" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.05" Y="0.05" Z="1.4" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="36.25" Y="36.25" Z="36.25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.035" Y="0.035" Z="1.43" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="36.7" Y="36.7" Z="36.7" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.02" Y="0.02" Z="1.46" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="37.15" Y="37.15" Z="37.15" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="1.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="37.6" Y="37.6" Z="37.6" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="1.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="38.05" Y="38.05" Z="38.05" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="1.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="38.5" Y="38.5" Z="38.5" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="1.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="38.95" Y="38.95" Z="38.95" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="1.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="39.4" Y="39.4" Z="39.4" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="1.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="40" Y="40" Z="40" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="1.5" />
+            <Texture Texture="Skill_Comb_0002.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

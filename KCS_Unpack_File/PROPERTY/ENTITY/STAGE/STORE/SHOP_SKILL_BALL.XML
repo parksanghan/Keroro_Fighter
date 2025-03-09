@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Shop_Skill_Ball" FILENAME="Shop_Skill_Ball_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Shop_Skill_Ball.VS">
+        <PROPERTYBAG NAME="Shop_Skill_Ball" FILENAME="Shop_Skill_Ball.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Shop_Skill_Ball_light" FILENAME="Shop_Skill_Ball_light.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Skill_Ball_lightning" FILENAME="Shop_Skill_Ball_lightning.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Shop_Skill_Ball_COMMANDS.XML" />
+</GAMEENTITY>

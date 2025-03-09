@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="17">
+        <PROPERTYBAG NAME="Qururu_big_face" FILENAME="Qururu_big_face.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_ground_01" FILENAME="Qururu_ground_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_ground_02" FILENAME="Qururu_ground_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_rader_01" FILENAME="Qururu_rader_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_wall_01" FILENAME="Qururu_wall_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_wall_02" FILENAME="Qururu_wall_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_wall_glow_01" FILENAME="Qururu_wall_glow_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_arrow_light_01" FILENAME="Qururu_arrow_light_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_arrow_light_02" FILENAME="Qururu_arrow_light_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_arrow_light_03" FILENAME="Qururu_arrow_light_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_pipe_shadow" FILENAME="Qururu_pipe_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_rader_shadow" FILENAME="Qururu_rader_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_wall_shadow_A" FILENAME="Qururu_wall_shadow_A.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_wall_shadow_B" FILENAME="Qururu_wall_shadow_B.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_wall_shadow_D" FILENAME="Qururu_wall_shadow_D.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_big_face_shadow" FILENAME="Qururu_big_face_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_mark" FILENAME="Qururu_mark.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Qururu_Stage_Light_01.xml" FILENAME="Qururu_Stage_Light_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_02.xml" FILENAME="Qururu_Stage_Light_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_03.xml" FILENAME="Qururu_Stage_Light_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_04.xml" FILENAME="Qururu_Stage_Light_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Qururu_Stage_Light_05.xml" FILENAME="Qururu_Stage_Light_05.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Qururu_stage_COMMANDS.XML" />
+</GAMEENTITY>

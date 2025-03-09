@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="17">
+        <PROPERTYBAG NAME="Shop_Ch_face_M" FILENAME="Shop_Ch_face_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Floor_M" FILENAME="Shop_Floor_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Guird01_M" FILENAME="Shop_Guird01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Guird02_M" FILENAME="Shop_Guird02_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Guird03_M" FILENAME="Shop_Guird03_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Item_give01_M" FILENAME="Shop_Item_give01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Item_give02_M" FILENAME="Shop_Item_give02_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Outside_Floor_M" FILENAME="Shop_Outside_Floor_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Sky_M" FILENAME="Shop_Sky_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Small_tree01_M" FILENAME="Shop_Small_tree01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Small_tree02_M" FILENAME="Shop_Small_tree02_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Small_tree03_M" FILENAME="Shop_Small_tree03_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Small_tree04_M" FILENAME="Shop_Small_tree04_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Small_tree05_M" FILENAME="Shop_Small_tree05_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Grass01_M" FILENAME="Shop_Grass01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Grass02_M" FILENAME="Shop_Grass02_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Bigtree_M" FILENAME="Shop_Bigtree_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Shop_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<EXTENDEDENTITY_LIST>
+    <EXTENTITY NAME="Gun_01" FILENAME="Giro_Gun.xml" />
+    <EXTENTITY NAME="Gun_02" FILENAME="Giro_Gun.xml" />
+    <EXTENTITY NAME="Bazooka" FILENAME="Giro_Bazooka.xml" />
+    <EXTENTITY NAME="GunDuster" FILENAME="Giro_Gunduster.xml" />
+    <EXTENTITY NAME="Launcher_01" FILENAME="Giro_Rocket-launcher.xml" />
+    <EXTENTITY NAME="Launcher_02" FILENAME="Giro_Rocket-launcher.xml" />
+</EXTENDEDENTITY_LIST>

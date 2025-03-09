@@ -1,0 +1,2396 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="kt_bg_ef_flower" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="10.000000" X="1.000000" Y="1.000000" Z="0.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="8.000000" Value="255.000000" />
+            <Property Time="2.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="kt_ef_flower_jh.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="50.000000" Max="60.000000" />
+        <RepeatCount Count="-1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="9.990000" Value="9.990000" />
+        <RegenTime Min="0.100000" Max="1.000000" />
+        <RotScaleMin X="10.000000" Y="10.000000" Z="-360.000000" />
+        <RotScaleMax X="30.000000" Y="10.000000" Z="360.000000" />
+        <RandPosMin X="-6000.000000" Y="2000.000000" Z="-7000.000000" />
+        <RandPosMax X="10000.000000" Y="1800.000000" Z="10000.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="3000.000000" Max="3000.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="135.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="15.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="333">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.003000" Y="0.003000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.006000" Y="0.006000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.009000" Y="0.009000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.012000" Y="0.012000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.015000" Y="0.015000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.018000" Y="0.018000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.021000" Y="0.021000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.024000" Y="0.024000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.027000" Y="0.027000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.030000" Y="0.030000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.033000" Y="0.033000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.036000" Y="0.036000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.039000" Y="0.039000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.042000" Y="0.042000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.045000" Y="0.045000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.048000" Y="0.048000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.051000" Y="0.051000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.054000" Y="0.054000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.057000" Y="0.057000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.060000" Y="0.060000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.063000" Y="0.063000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.066000" Y="0.066000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.069000" Y="0.069000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.072000" Y="0.072000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.075000" Y="0.075000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.078000" Y="0.078000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.081000" Y="0.081000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.084000" Y="0.084000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.087000" Y="0.087000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.090000" Y="0.090000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.093000" Y="0.093000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.096000" Y="0.096000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.099000" Y="0.099000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.102000" Y="0.102000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.105000" Y="0.105000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.108000" Y="0.108000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.111000" Y="0.111000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.114000" Y="0.114000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.117000" Y="0.117000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.120000" Y="0.120000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.123000" Y="0.123000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.126000" Y="0.126000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.129000" Y="0.129000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.132000" Y="0.132000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.135000" Y="0.135000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.138000" Y="0.138000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.141000" Y="0.141000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.144000" Y="0.144000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.147000" Y="0.147000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.150000" Y="0.150000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.153000" Y="0.153000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.156000" Y="0.156000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.159000" Y="0.159000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.162000" Y="0.162000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.165000" Y="0.165000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.168000" Y="0.168000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.171000" Y="0.171000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.174000" Y="0.174000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.177000" Y="0.177000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.180000" Y="0.180000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.183000" Y="0.183000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.186000" Y="0.186000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.189000" Y="0.189000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.192000" Y="0.192000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.195000" Y="0.195000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.198000" Y="0.198000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.201000" Y="0.201000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.204000" Y="0.204000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.207000" Y="0.207000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.210000" Y="0.210000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.213000" Y="0.213000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.216000" Y="0.216000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.219000" Y="0.219000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.222000" Y="0.222000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.225000" Y="0.225000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.228000" Y="0.228000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.231000" Y="0.231000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.234000" Y="0.234000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.237000" Y="0.237000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.240000" Y="0.240000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.243000" Y="0.243000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.246000" Y="0.246000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.249000" Y="0.249000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.252000" Y="0.252000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.255000" Y="0.255000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.258000" Y="0.258000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.261000" Y="0.261000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.264000" Y="0.264000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.267000" Y="0.267000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.270000" Y="0.270000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.273000" Y="0.273000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.276000" Y="0.276000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.279000" Y="0.279000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.282000" Y="0.282000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.285000" Y="0.285000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.288000" Y="0.288000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.291000" Y="0.291000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.294000" Y="0.294000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.297000" Y="0.297000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.303000" Y="0.303000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.306000" Y="0.306000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.309000" Y="0.309000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.312000" Y="0.312000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.315000" Y="0.315000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.318000" Y="0.318000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.321000" Y="0.321000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.324000" Y="0.324000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.327000" Y="0.327000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.330000" Y="0.330000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.333000" Y="0.333000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.336000" Y="0.336000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.339000" Y="0.339000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.342000" Y="0.342000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.345000" Y="0.345000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.348000" Y="0.348000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.351000" Y="0.351000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.354000" Y="0.354000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.357000" Y="0.357000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.360000" Y="0.360000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.363000" Y="0.363000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.366000" Y="0.366000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.369000" Y="0.369000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.372000" Y="0.372000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.375000" Y="0.375000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.378000" Y="0.378000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.381000" Y="0.381000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.384000" Y="0.384000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.387000" Y="0.387000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.390000" Y="0.390000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.393000" Y="0.393000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.396000" Y="0.396000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.399000" Y="0.399000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.402000" Y="0.402000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.405000" Y="0.405000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.408000" Y="0.408000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.411000" Y="0.411000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.414000" Y="0.414000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.417000" Y="0.417000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.420000" Y="0.420000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.423000" Y="0.423000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.426000" Y="0.426000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.429000" Y="0.429000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.432000" Y="0.432000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.435000" Y="0.435000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.438000" Y="0.438000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.441000" Y="0.441000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.444000" Y="0.444000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.447000" Y="0.447000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.453000" Y="0.453000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.456000" Y="0.456000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.459000" Y="0.459000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.462000" Y="0.462000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.465000" Y="0.465000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.468000" Y="0.468000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.471000" Y="0.471000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.474000" Y="0.474000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.477000" Y="0.477000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.480000" Y="0.480000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.483000" Y="0.483000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.486000" Y="0.486000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.489000" Y="0.489000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.492000" Y="0.492000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.495000" Y="0.495000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.498000" Y="0.498000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.501000" Y="0.501000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.504000" Y="0.504000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.507000" Y="0.507000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.510000" Y="0.510000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.513000" Y="0.513000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.516000" Y="0.516000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.519000" Y="0.519000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.522000" Y="0.522000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.525000" Y="0.525000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.528000" Y="0.528000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.531000" Y="0.531000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.534000" Y="0.534000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.537000" Y="0.537000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.540000" Y="0.540000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.543000" Y="0.543000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.546000" Y="0.546000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.549000" Y="0.549000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.552000" Y="0.552000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.555000" Y="0.555000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.558000" Y="0.558000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.561000" Y="0.561000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.564000" Y="0.564000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.567000" Y="0.567000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.570000" Y="0.570000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.573000" Y="0.573000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.576000" Y="0.576000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.579000" Y="0.579000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.582000" Y="0.582000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.585000" Y="0.585000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.588000" Y="0.588000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.591000" Y="0.591000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.594000" Y="0.594000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.597000" Y="0.597000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.603000" Y="0.603000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.606000" Y="0.606000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.609000" Y="0.609000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.612000" Y="0.612000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.615000" Y="0.615000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.618000" Y="0.618000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.621000" Y="0.621000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.624000" Y="0.624000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.627000" Y="0.627000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.630000" Y="0.630000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.633000" Y="0.633000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.636000" Y="0.636000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.639000" Y="0.639000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.642000" Y="0.642000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.645000" Y="0.645000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.648000" Y="0.648000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.651000" Y="0.651000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.654000" Y="0.654000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.657000" Y="0.657000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.660000" Y="0.660000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.663000" Y="0.663000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.666000" Y="0.666000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.669000" Y="0.669000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.672000" Y="0.672000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.675000" Y="0.675000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.678000" Y="0.678000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.681000" Y="0.681000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.684000" Y="0.684000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.687000" Y="0.687000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.690000" Y="0.690000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.693000" Y="0.693000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.696000" Y="0.696000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.699000" Y="0.699000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.702000" Y="0.702000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.705000" Y="0.705000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.708000" Y="0.708000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.711000" Y="0.711000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.714000" Y="0.714000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.717000" Y="0.717000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.720000" Y="0.720000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.723000" Y="0.723000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.726000" Y="0.726000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.729000" Y="0.729000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.732000" Y="0.732000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.735000" Y="0.735000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.738000" Y="0.738000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.741000" Y="0.741000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.744000" Y="0.744000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.747000" Y="0.747000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.750000" Y="0.750000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.753000" Y="0.753000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.756000" Y="0.756000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.759000" Y="0.759000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.762000" Y="0.762000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.765000" Y="0.765000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.768000" Y="0.768000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.771000" Y="0.771000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.774000" Y="0.774000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.777000" Y="0.777000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.780000" Y="0.780000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.783000" Y="0.783000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.786000" Y="0.786000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.789000" Y="0.789000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.792000" Y="0.792000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.795000" Y="0.795000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.798000" Y="0.798000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.801000" Y="0.801000" Z="0.000000" />
+            <Alpha Value="251.175003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.804000" Y="0.804000" Z="0.000000" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.807000" Y="0.807000" Z="0.000000" />
+            <Alpha Value="243.524994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.810000" Y="0.810000" Z="0.000000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.813000" Y="0.813000" Z="0.000000" />
+            <Alpha Value="235.875000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.816000" Y="0.816000" Z="0.000000" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.819000" Y="0.819000" Z="0.000000" />
+            <Alpha Value="228.225006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.822000" Y="0.822000" Z="0.000000" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.825000" Y="0.825000" Z="0.000000" />
+            <Alpha Value="220.574997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.828000" Y="0.828000" Z="0.000000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.831000" Y="0.831000" Z="0.000000" />
+            <Alpha Value="212.925003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.834000" Y="0.834000" Z="0.000000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.837000" Y="0.837000" Z="0.000000" />
+            <Alpha Value="205.274994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.840000" Y="0.840000" Z="0.000000" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.843000" Y="0.843000" Z="0.000000" />
+            <Alpha Value="197.625000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.846000" Y="0.846000" Z="0.000000" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.849000" Y="0.849000" Z="0.000000" />
+            <Alpha Value="189.975006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.852000" Y="0.852000" Z="0.000000" />
+            <Alpha Value="186.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.855000" Y="0.855000" Z="0.000000" />
+            <Alpha Value="182.325012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.858000" Y="0.858000" Z="0.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.861000" Y="0.861000" Z="0.000000" />
+            <Alpha Value="174.675003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.864000" Y="0.864000" Z="0.000000" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.867000" Y="0.867000" Z="0.000000" />
+            <Alpha Value="167.024994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.870000" Y="0.870000" Z="0.000000" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.873000" Y="0.873000" Z="0.000000" />
+            <Alpha Value="159.375000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.876000" Y="0.876000" Z="0.000000" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.879000" Y="0.879000" Z="0.000000" />
+            <Alpha Value="151.725006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.882000" Y="0.882000" Z="0.000000" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.885000" Y="0.885000" Z="0.000000" />
+            <Alpha Value="144.074997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.888000" Y="0.888000" Z="0.000000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.891000" Y="0.891000" Z="0.000000" />
+            <Alpha Value="136.424988" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.894000" Y="0.894000" Z="0.000000" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.897000" Y="0.897000" Z="0.000000" />
+            <Alpha Value="128.775009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.000000" />
+            <Alpha Value="124.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.903000" Y="0.903000" Z="0.000000" />
+            <Alpha Value="121.125000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.906000" Y="0.906000" Z="0.000000" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.909000" Y="0.909000" Z="0.000000" />
+            <Alpha Value="113.474991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.912000" Y="0.912000" Z="0.000000" />
+            <Alpha Value="109.650009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.915000" Y="0.915000" Z="0.000000" />
+            <Alpha Value="105.825012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.918000" Y="0.918000" Z="0.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.921000" Y="0.921000" Z="0.000000" />
+            <Alpha Value="98.175003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.924000" Y="0.924000" Z="0.000000" />
+            <Alpha Value="94.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.927000" Y="0.927000" Z="0.000000" />
+            <Alpha Value="90.525009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.930000" Y="0.930000" Z="0.000000" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.933000" Y="0.933000" Z="0.000000" />
+            <Alpha Value="82.875000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.936000" Y="0.936000" Z="0.000000" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.939000" Y="0.939000" Z="0.000000" />
+            <Alpha Value="75.225006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.942000" Y="0.942000" Z="0.000000" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.945000" Y="0.945000" Z="0.000000" />
+            <Alpha Value="67.575012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.948000" Y="0.948000" Z="0.000000" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.951000" Y="0.951000" Z="0.000000" />
+            <Alpha Value="59.925003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.954000" Y="0.954000" Z="0.000000" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.957000" Y="0.957000" Z="0.000000" />
+            <Alpha Value="52.275009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.960000" Y="0.960000" Z="0.000000" />
+            <Alpha Value="48.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.963000" Y="0.963000" Z="0.000000" />
+            <Alpha Value="44.625000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.966000" Y="0.966000" Z="0.000000" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.969000" Y="0.969000" Z="0.000000" />
+            <Alpha Value="36.975006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.972000" Y="0.972000" Z="0.000000" />
+            <Alpha Value="33.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.975000" Y="0.975000" Z="0.000000" />
+            <Alpha Value="29.324997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.978000" Y="0.978000" Z="0.000000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.981000" Y="0.981000" Z="0.000000" />
+            <Alpha Value="21.675003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.984000" Y="0.984000" Z="0.000000" />
+            <Alpha Value="17.849991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.987000" Y="0.987000" Z="0.000000" />
+            <Alpha Value="14.025009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.990000" Y="0.990000" Z="0.000000" />
+            <Alpha Value="10.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.993000" Y="0.993000" Z="0.000000" />
+            <Alpha Value="6.375015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.996000" Y="0.996000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_flower_jh.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

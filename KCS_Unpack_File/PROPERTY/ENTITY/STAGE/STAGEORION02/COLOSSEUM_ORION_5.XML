@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="29">
+        <PROPERTYBAG NAME="Colosseum_banner" FILENAME="Colosseum_banner.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_bench_01" FILENAME="Colosseum_bench_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_bench_02" FILENAME="Colosseum_bench_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_cloud" FILENAME="Colosseum_cloud.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_fire" FILENAME="Colosseum_fire.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_gate_02" FILENAME="Colosseum_gate_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_ground_01" FILENAME="Colosseum_ground_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_ground_02" FILENAME="Colosseum_ground_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_ground_03" FILENAME="Colosseum_ground_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_logo" FILENAME="Colosseum_logo.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_ring" FILENAME="Colosseum_ring.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_signboard_01" FILENAME="Colosseum_signboard_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_signboard_02" FILENAME="Colosseum_signboard_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_sky" FILENAME="Colosseum_sky.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_stand" FILENAME="Colosseum_stand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_stones" FILENAME="Colosseum_stones.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_tent" FILENAME="Colosseum_tent.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_tile" FILENAME="Colosseum_tile.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_tree" FILENAME="Colosseum_tree.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_window_02" FILENAME="Colosseum_window_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_window_03" FILENAME="Colosseum_window_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_back" FILENAME="Colosseum_castle_back.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_left_01" FILENAME="Colosseum_castle_left_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_left_02" FILENAME="Colosseum_castle_left_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_right_01" FILENAME="Colosseum_castle_right_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_right_02" FILENAME="Colosseum_castle_right_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_01.xml" FILENAME="Colosseum_castle_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_03.xml" FILENAME="Colosseum_castle_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_02.xml" FILENAME="Colosseum_castle_02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Sphinx_Wind_E01" FILENAME="Sphinx_Wind_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Wind_E02" FILENAME="Sphinx_Wind_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Wind_E03" FILENAME="Sphinx_Wind_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Wind_E04" FILENAME="Sphinx_Wind_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Colosseum_Orion_5_COMMANDS.XML" />
+</GAMEENTITY>

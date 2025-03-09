@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <DialogBox>
+        <Dialog name="GameUIUpBar" posX="0" posY="0" sizeX="800" sizeY="50" alpha="0.75" rendStyle="0" />
+        <Texture name="UI/Common_TestMask100.tga" TposX="0" TposY="0" />
+
+	<Control name="" posX="30" posY="20" sizeX="0" sizeY="0" controlType="Static" controlState="0" />
+        <ControlTexture name="" TNorPosX="0" TNorPosY="0" TPrePosX="0" TPrePosY="0" TDisPosX="0" TDisPosY="0" TMouPosX="0" TMouPosY="0" />
+
+        <Control name="UpBarButton1" posX="650" posY="10" sizeX="51" sizeY="37" controlType="Button" controlState="0" />
+        <ControlTexture name="CommonUI.tga" TNorPosX="0" TNorPosY="133" TPrePosX="102" TPrePosY="133" TDisPosX="153" TDisPosY="133" TMouPosX="51" TMouPosY="133" />
+
+        <Control name="UpBarButton2" posX="700" posY="10" sizeX="51" sizeY="37" controlType="Button" controlState="0" />
+        <ControlTexture name="CommonUI.tga" TNorPosX="0" TNorPosY="133" TPrePosX="102" TPrePosY="133" TDisPosX="153" TDisPosY="133" TMouPosX="51" TMouPosY="133" />
+
+    </DialogBox>
+</RootNode>

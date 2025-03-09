@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Keroro_robot_body" FILENAME="Keroro_robot_body.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_hand" FILENAME="Keroro_robot_hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_hat" FILENAME="Keroro_robot_hat.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_head" FILENAME="Keroro_robot_head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_leg" FILENAME="Keroro_robot_leg.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="LOSE" FILENAME="Kero_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Kero_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="KE_COMBO_BB_3" FILENAME="KE_COMBO_BB_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_LOSE_1" FILENAME="KE_LOSE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_LOSE_2" FILENAME="KE_LOSE_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_WIN_1" FILENAME="KE_WIN_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_WIN_2" FILENAME="KE_WIN_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_WIN_4" FILENAME="KE_WIN_4.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_WIN_5" FILENAME="KE_WIN_5.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_WIN_6" FILENAME="KE_WIN_6.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="EVENT" FILENAME="Event.xml" COMMENT="" />
+        <PROPERTYBAG NAME="LEVEL_UP" FILENAME="Playground_Warp_Y00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kero_robot_Result_COMMANDS.XML" />
+</GAMEENTITY>

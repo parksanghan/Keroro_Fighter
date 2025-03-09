@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Starship_Glow02.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Starship_Glow.dds" />
+        <Texture filename="Starship_Glow_Paid.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureFader">
+            <Property name="UseAlpha" value="1" />
+            <Property name="TextureCount" value="2" />
+            <Property name="FadeSpeed" value="1.00" />
+            <Property name="FadeDelay" value="1.00" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

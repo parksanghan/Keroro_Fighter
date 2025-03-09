@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="Bottom" FILENAME="Moa_Body_Bottom.xml" COMMENT="" />
+        <PROPERTYBAG NAME="foot" FILENAME="Moa_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="hair" FILENAME="Moa_Hair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="hand" FILENAME="Moa_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="head" FILENAME="Moa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="top" FILENAME="Moa_Body_Top.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="8" VSNAME="moa_skeleton.VS">
+        <PROPERTYBAG NAME="explain01" FILENAME="moa_explain_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="explain02" FILENAME="moa_explain_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="fighting01" FILENAME="moa_fighting_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="greet01" FILENAME="moa_greet_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="greet02" FILENAME="moa_greet_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="happy01" FILENAME="moa_happy_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="wait01" FILENAME="moa_wait_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="wait02" FILENAME="moa_wait_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Tutorial_Moa_COMMANDS.XML" />
+</GAMEENTITY>

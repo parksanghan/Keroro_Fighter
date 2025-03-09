@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Spa_water01" FILENAME="Spa_water01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_sign" FILENAME="Spa_sign.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Spa_waterfall_E01" FILENAME="Spa_waterfall_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_waterfall_E03" FILENAME="Spa_waterfall_E03.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Spa_KururuRock_waterfall_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="19">
+        <PROPERTYBAG NAME="Anteroom_badak" FILENAME="Anteroom_badak.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_badakk" FILENAME="Anteroom_badakk.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_badakkobject" FILENAME="Anteroom_badakkobject.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_chair" FILENAME="Anteroom_chair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_front" FILENAME="Anteroom_front.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_sky01" FILENAME="Anteroom_sky01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_sky02" FILENAME="Anteroom_sky02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_sky03" FILENAME="Anteroom_sky03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_sky04" FILENAME="Anteroom_sky04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_skywin" FILENAME="Anteroom_skywin.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_table" FILENAME="Anteroom_table.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_tablee" FILENAME="Anteroom_tablee.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_tablestar01" FILENAME="Anteroom_tablestar01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_tablestar02" FILENAME="Anteroom_tablestar02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_top" FILENAME="Anteroom_top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_topp" FILENAME="Anteroom_topp.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_wall" FILENAME="Anteroom_wall.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_win" FILENAME="Anteroom_win.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_badakwin" FILENAME="Anteroom_badakwin.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="Anteroom_E00" FILENAME="Anteroom_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_E01" FILENAME="Anteroom_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_E02" FILENAME="Anteroom_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_E03" FILENAME="Anteroom_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_E04" FILENAME="Anteroom_E04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_E05" FILENAME="Anteroom_E05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_E06" FILENAME="Anteroom_E06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Anteroom_E07" FILENAME="Anteroom_E07.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Anteroom_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Tutorial_Blue_DSS.xml" FILENAME="Tutorial_Blue_DSS.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Tuto_Box_Hit.VS">
+        <PROPERTYBAG NAME="Tuto_Box_Hit.VA" FILENAME="Tuto_Box_Hit.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="CM_HIT_PUSH_A_1" FILENAME="CM_HIT_PUSH_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_PUSH_B_1" FILENAME="CM_HIT_PUSH_B_1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Comm_Hit_AtkHeavy_B00" FILENAME="Comm_Hit_AtkHeavy_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_AtkMidd_B00.xml" FILENAME="Comm_Hit_AtkMidd_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_BoxEnd_B01.xml" FILENAME="Sphinx_BoxEnd_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_BoxEnd_E01.xml" FILENAME="Sphinx_BoxEnd_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Tutorial_Blue_DSS_COMMANDS.XML" />
+</GAMEENTITY>

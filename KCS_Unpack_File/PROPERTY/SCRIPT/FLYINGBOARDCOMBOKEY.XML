@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<ComboKey>
+  <!-- 호버 기본 공격 -->
+  <NORMALATK Type = "0">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "1" ComboCommand = "COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </NORMALATK>
+
+  <!-- 호버 이동 공격 약-->
+  <MOVEATKSMALL Type = "1">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_MA_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </MOVEATKSMALL>
+
+  <!-- 호버 이동 공격 강-->
+  <MOVEATKLARGE Type = "2">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_MA_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>    
+  </MOVEATKLARGE>
+</ComboKey>

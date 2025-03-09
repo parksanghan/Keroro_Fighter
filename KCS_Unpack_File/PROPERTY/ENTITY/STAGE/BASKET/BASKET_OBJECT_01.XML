@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="basket_object_01" FILENAME="basket_object_01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Basket_Billboard_E00" FILENAME="Basket_Billboard_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Basket_Billboard_E01" FILENAME="Basket_Billboard_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Basket_water_E00" FILENAME="Basket_water_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="basket_object_01_COMMANDS.XML" />
+</GAMEENTITY>

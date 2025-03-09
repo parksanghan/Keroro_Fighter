@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!-- Taiwan IME Combination View Dialog -->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_IMETaiwanIESCombination.xml" PosX="150" PosY="100" SizeX="133" SizeY="100" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+ <!--   기본배경 -->
+        <Property Index="0" RenderStyle="0" Depth="0.079" Show="1">
+            <Element index="0" TextName="GUI_WaitingRoom.tga" TextPosX="3" TextPosY="136" TextSizeX="133" TextSizeY="100" PosX="0" PosY="0" SizeX="133" SizeY="100" />
+        </Property> 
+ <!--   조합에러배경 -->
+        <Property Index="1" RenderStyle="0" Depth="0.079" Show="1">
+            <Element index="0" TextName="GUI_WaitingRoom.tga" TextPosX="53" TextPosY="186" TextSizeX="133" TextSizeY="100" PosX="0" PosY="0" SizeX="133" SizeY="100" />
+        </Property> 
+    </DialogSkin>
+    <DialogControl>
+ <!--   조합텍스트(텍스트 CKeroroUI_Static)  Start    -->
+        <Property Name="Static_Combination_Text1" ClassName="CKeroroUI_Static" PosX="10" PosY="10" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="" FontDepth="0.054" FontTextureName="Static_Combination_Line1" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_Combination_Text2" ClassName="CKeroroUI_Static" PosX="10" PosY="30" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="" FontDepth="0.054" FontTextureName="Static_Combination_Line2" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_Combination_Text3" ClassName="CKeroroUI_Static" PosX="10" PosY="50" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="" FontDepth="0.054" FontTextureName="Static_Combination_Line3" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_Combination_Text4" ClassName="CKeroroUI_Static" PosX="10" PosY="70" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="" FontDepth="0.054" FontTextureName="Static_Combination_Line4" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>        
+    </DialogControl>
+</RootNode>

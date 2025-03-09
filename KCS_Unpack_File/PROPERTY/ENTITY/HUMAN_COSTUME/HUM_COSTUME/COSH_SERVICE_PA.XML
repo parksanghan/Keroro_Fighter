@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="CosH_service_Bodyd_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="CosH_service_Bodyu_Pa.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="CosH_service_Foot_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="CosH_service_Pa_COMMANDS.XML" />
+</GAMEENTITY>

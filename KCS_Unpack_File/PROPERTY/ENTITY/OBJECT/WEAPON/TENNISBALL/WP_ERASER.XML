@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WP_Eraser" FILENAME="WP_Eraser.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="12" VSNAME="WP_throw.VS">
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_DP" FILENAME="WP_Throw_obj_Dash_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Dash01" FILENAME="WP_Throw_obj_Dash01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Dash02" FILENAME="WP_Throw_obj_Dash02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Idle01" FILENAME="WP_Throw_obj_IDLE01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_JP" FILENAME="WP_Throw_Jump_obj_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Jump_Down" FILENAME="WP_Throw_obj_Jump_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Jump_Land" FILENAME="WP_Throw_obj_Jump_Land.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Jump_Once" FILENAME="WP_Throw_obj_Jump_Once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Jump_Twice" FILENAME="WP_Throw_obj_Jump_Twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Jump_Up" FILENAME="WP_Throw_obj_Jump_Up.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_P" FILENAME="WP_Throw_obj_Comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Tennisball_Wait" FILENAME="WP_Throw_obj_Combat_Wait.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_Eraser_COMMANDS.XML" />
+</GAMEENTITY>

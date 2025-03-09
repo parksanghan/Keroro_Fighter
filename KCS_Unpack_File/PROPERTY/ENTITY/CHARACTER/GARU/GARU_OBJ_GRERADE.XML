@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Garu_Obj_Grenade" FILENAME="Giro_Obj_Grenade.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Giro_Obj_Grenade.VS">
+        <PROPERTYBAG NAME="Garu_Obj_Grenade_PPK" FILENAME="Garu_Obj_Grenade_PPK.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Garu_Comb_PPK_E01" FILENAME="Garu_Comb_PPK_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Garu_Obj_Grerade_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="15">
+        <PROPERTYBAG NAME="Ship_01" FILENAME="Ship_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_02" FILENAME="Ship_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_prop01" FILENAME="Ship_prop01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_prop02" FILENAME="Ship_prop02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_prop03" FILENAME="Ship_prop03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_ship_deck" FILENAME="Ship_ship_deck.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_center" FILENAME="Ship_center.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_shadow02" FILENAME="Ship_shadow02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_ship_door" FILENAME="Ship_ship_door.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_ship_etc" FILENAME="Ship_ship_etc.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_ship_stair" FILENAME="Ship_ship_stair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_sky" FILENAME="Ship_sky.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_island" FILENAME="Ship_island.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_ship_sail" FILENAME="Ship_ship_sail.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_nettt" FILENAME="Ship_nettt.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Ship_Wave_E00" FILENAME="Ship_Wave_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Ship_COMMANDS.XML" />
+</GAMEENTITY>

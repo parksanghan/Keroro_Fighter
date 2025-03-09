@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<RootNode>
+	<Dialog>
+		<Property Name = "CDialog_Lohbby_CompositionPopUp.xml" PosX = "0" PosY = "0" SizeX = "1024" SizeY = "768" ClientLeft = "0" ClientTop = "0" ClientRight = "0" ClientBottom = "0" />
+	</Dialog>
+	<DialogSkin>
+		<Property Index="0" RenderStyle="1" Depth="0.689" Show="1">
+	            <Element index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="536" TextPosY="459" TextSizeX="12" TextSizeY="93" PosX="412" PosY="335" SizeX="200" SizeY="93" />
+        	    <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="433" PosY="335" SizeX="0" SizeY="0" />
+	            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="433" PosY="335" SizeX="0" SizeY="0" />
+	            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="433" PosY="335" SizeX="0" SizeY="0" />
+	            <Element index="4" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="506" TextPosY="459" TextSizeX="29" TextSizeY="93" PosX="383" PosY="335" SizeX="29" SizeY="93" />
+	            <Element index="5" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="549" TextPosY="459" TextSizeX="29" TextSizeY="93" PosX="612" PosY="335" SizeX="29" SizeY="93" />
+	            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="433" PosY="335" SizeX="0" SizeY="0" />
+	            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="433" PosY="335" SizeX="0" SizeY="0" />
+	            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="433" PosY="335" SizeX="0" SizeY="0" />
+	        </Property>
+		<Property Index="1" RenderStyle="0" Depth="0.688" Show="1">
+	            <Element index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="660" TextPosY="57" TextSizeX="71" TextSizeY="19" PosX="483" PosY="350" SizeX="71" SizeY="19" />
+		</Property>
+	</DialogSkin>
+	<DialogControl>
+		<Property Name = "Static_Lobby_CompositionPopUp_GaugeNumber" ClassName = "CKeroroUI_Static" PosX = "420" PosY = "389" SizeX = "120" SizeY = "20" Disable = "0" OverSound = "1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin />
+		</Property>
+	</DialogControl>
+</RootNode>

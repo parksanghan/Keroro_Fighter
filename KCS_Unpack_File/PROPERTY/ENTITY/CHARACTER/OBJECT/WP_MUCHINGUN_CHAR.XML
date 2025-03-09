@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="CAP" FILENAME="Keroro_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Keroro_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Keroro_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Keroro_Eye08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Keroro_Eye12.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Keroro_Eye10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Keroro_Eye10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Keroro_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Keroro_Eye07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Keroro_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Keroro_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Keroro_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Keroro_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Keroro_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Keroro_Eye11.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Keroro_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Keroro_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Keroro_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Keroro_Head07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Keroro_Head08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Keroro_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Keroro_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Keroro_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Keroro_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Keroro_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Keroro_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Keroro_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Keroro_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Keroro_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Keroro_Body_top.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="15" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Com_PICK_UP_01" FILENAME="Com_PICK_UP_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_PICK_UP_02" FILENAME="Com_PICK_UP_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Comb_K" FILENAME="muchingun_com_comb_k.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Comb_P" FILENAME="muchingun_com_comb_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Combat_Wait" FILENAME="muchingun_com_combat_wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Dash_01" FILENAME="muchingun_com_dash01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Dash_02" FILENAME="muchingun_com_dash02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Dash_P" FILENAME="muchingun_com_dash_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Idle_01" FILENAME="muchingun_com_idle_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Down" FILENAME="muchingun_com_jump_down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Land" FILENAME="muchingun_com_jump_landing.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Once" FILENAME="muchingun_com_jump_once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_P" FILENAME="muchingun_com_jump_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Twice" FILENAME="muchingun_com_jump_twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Up" FILENAME="muchingun_com_jump_up.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="12">
+        <PROPERTYBAG NAME="CM_COMICGUN_DASH_ATK_X_01" FILENAME="CM_COMICGUN_DASH_ATK_X_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_COMMICHAMMER_COMBO_C_2" FILENAME="CM_COMMICHAMMER_COMBO_C_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_DASH_01" FILENAME="CM_DASH_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_DASH_02" FILENAME="CM_DASH_02.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HOLD_ATK_B_1" FILENAME="CM_HOLD_ATK_B_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_JUMP_ONCE_1" FILENAME="CM_JUMP_ONCE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_JUMP_TWICE_1" FILENAME="CM_JUMP_TWICE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_COMBO_BB_3" FILENAME="KE_COMBO_BB_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_JA_P_1" FILENAME="WP_MUCHINGUN_COMB_JA_P_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_P_1" FILENAME="WP_MUCHINGUN_COMB_P_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_P_2" FILENAME="WP_MUCHINGUN_COMB_P_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_P_3" FILENAME="WP_MUCHINGUN_COMB_P_1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="10">
+        <PROPERTYBAG NAME="Muchingun_COMB_DP_E00" FILENAME="Muchingun_COMB_DP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_DP_E01" FILENAME="Muchingun_COMB_DP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_JP_E00" FILENAME="Muchingun_COMB_JP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_JP_E01" FILENAME="Muchingun_COMB_JP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_JP_E02" FILENAME="Muchingun_COMB_JP_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_K_E00" FILENAME="Muchingun_COMB_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_K_E01" FILENAME="Muchingun_COMB_K_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_P_E00" FILENAME="Muchingun_COMB_P_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_P_E01" FILENAME="Muchingun_COMB_P_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_P_E02" FILENAME="Muchingun_COMB_P_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_Muchingun_Char_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<EndlessWarNPCStatusBonusProperty>
+    <StatusBonus PropertyID="1" VITAL_Max="1.0" ATK_Max="1.0" ATK_Min="1.0" DEF="1.0" RANGE="1.0" CRIDAM="1.0"  CRIPER="1.0" MOVE_Speed="1.0" />
+    <StatusBonus PropertyID="3" VITAL_Max="5.0" ATK_Max="2.0" ATK_Min="2.0" DEF="1.0" RANGE="2.0" CRIDAM="1.0"  CRIPER="1.0" MOVE_Speed="1.0" />
+    <StatusBonus PropertyID="5" VITAL_Max="15.0" ATK_Max="3.5" ATK_Min="3.5" DEF="1.0" RANGE="3.0" CRIDAM="1.0"  CRIPER="1.0" MOVE_Speed="1.0" />
+</EndlessWarNPCStatusBonusProperty>

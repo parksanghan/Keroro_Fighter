@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_SPE_01" LOOP="0" TOTALTIME="1">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Shurara_Obj_SPE_KeroMat_01" TYPENAME="ActionAnimation" ANIMATIONNAME="Shurara_Obj_SPE_KeroMat_01" FADEIN="0.1" FADEOUT="0" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_SPE_02" LOOP="0" TOTALTIME="0.57">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Shurara_Obj_SPE_KeroMat_02" TYPENAME="ActionAnimation" ANIMATIONNAME="Shurara_Obj_SPE_KeroMat_02" FADEIN="0" FADEOUT="0" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_SPE_03" LOOP="0" TOTALTIME="1.2">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Shurara_Obj_SPE_KeroMat_03" TYPENAME="ActionAnimation" ANIMATIONNAME="Shurara_Obj_SPE_KeroMat_03" FADEIN="0" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

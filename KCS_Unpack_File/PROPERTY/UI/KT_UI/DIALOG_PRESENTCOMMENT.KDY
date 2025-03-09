@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<UIXMLFile>
+    <DialogCount DialogNum="1">
+        <DialogDetailInfo0 DialogName="Dialog_PresentComment" DialogChildCount="6">
+            <DialogSizeInfo DialogPosX="376" DialogPosY="236" DialogSizeX="359" DialogSizeY="212">
+                <CONTROLINFO0 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="1" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_ToolTip" CONTROLPOSX="0" CONTROLPOSY="0" CONTROLSIZEX="359" CONTROLSIZEY="212" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="376.000000" POSTION_Y="236.000000" POSTION_Z="0.000100" SCALE_X="179.500000" SCLAE_Y="106.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="tooltip_02.tga" RECT_LEFT="0" RECT_TOP="289" RECT_RIGHT="355" RECT_BOTTOM="498" POSTION_X="376.000000" POSTION_Y="238.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO0>
+                <CONTROLINFO1 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_ToolTipName" CONTROLPOSX="217" CONTROLPOSY="19" CONTROLSIZEX="123" CONTROLSIZEY="16" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="593.000000" POSTION_Y="255.000000" POSTION_Z="0.000100" SCALE_X="61.500000" SCLAE_Y="8.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO1>
+                <CONTROLINFO2 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_ToolTipSendPerson" CONTROLPOSX="217" CONTROLPOSY="40" CONTROLSIZEX="123" CONTROLSIZEY="16" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="593.000000" POSTION_Y="276.000000" POSTION_Z="0.000100" SCALE_X="61.500000" SCLAE_Y="8.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO2>
+                <CONTROLINFO3 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_ToolTipDay" CONTROLPOSX="168" CONTROLPOSY="95" CONTROLSIZEX="165" CONTROLSIZEY="16" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="544.000000" POSTION_Y="331.000000" POSTION_Z="0.000100" SCALE_X="82.500000" SCLAE_Y="8.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO3>
+                <CONTROLINFO4 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_ToolTipMessage" CONTROLPOSX="72" CONTROLPOSY="146" CONTROLSIZEX="250" CONTROLSIZEY="61" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="448.000000" POSTION_Y="382.000000" POSTION_Z="0.000100" SCALE_X="125.000000" SCLAE_Y="30.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO4>
+                <CONTROLINFO5 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_ToolTipPhoto" CONTROLPOSX="21" CONTROLPOSY="21" CONTROLSIZEX="115" CONTROLSIZEY="105" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="397.000000" POSTION_Y="257.000000" POSTION_Z="0.000100" SCALE_X="57.500000" SCLAE_Y="52.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO5>
+            </DialogSizeInfo>
+        </DialogDetailInfo0>
+    </DialogCount>
+    <DIALOGSOUNDINFO SOUNDCOUNT="2">
+        <SoundDetailInfo0 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="OK" />
+        <SoundDetailInfo1 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="ok" />
+    </DIALOGSOUNDINFO>
+</UIXMLFile>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="kt_ef_popcorn" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.800000" X="50.000000" Y="50.000000" Z="50.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="2.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="1.000000" Y="1.000000" Z="1.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="kt_ef_popcorn_jh.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="12.000000" Max="16.000000" />
+        <RepeatCount Count="-1.000000" />
+        <Gravity Value="-1200.000000" />
+        <Life Life_Min="1.000000" Value="1.980000" />
+        <RegenTime Min="0.500000" Max="1.000000" />
+        <RotScaleMin X="20.000000" Y="20.000000" Z="0.000000" />
+        <RotScaleMax X="40.000000" Y="40.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="15.000000" Max="20.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="-0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="20.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="10.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="66">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.875000" Y="1.875000" Z="1.875000" />
+            <Alpha Value="251.175003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.030000" Y="0.030000" Z="0.030000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.750000" Y="3.750000" Z="3.750000" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.060000" Y="0.060000" Z="0.060000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.625000" Y="5.625000" Z="5.625000" />
+            <Alpha Value="243.524994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.090000" Y="0.090000" Z="0.090000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.500000" Y="7.500000" Z="7.500000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.120000" Y="0.120000" Z="0.120000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.374999" Y="9.374999" Z="9.374999" />
+            <Alpha Value="235.875000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.150000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.250000" Y="11.250000" Z="11.250000" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.180000" Y="0.180000" Z="0.180000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.124999" Y="13.124999" Z="13.124999" />
+            <Alpha Value="228.225006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.210000" Y="0.210000" Z="0.210000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.999999" Y="14.999999" Z="14.999999" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.240000" Y="0.240000" Z="0.240000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.874998" Y="16.874998" Z="16.874998" />
+            <Alpha Value="220.574997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.270000" Y="0.270000" Z="0.270000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.749998" Y="18.749998" Z="18.749998" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.300000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.624998" Y="20.624998" Z="20.624998" />
+            <Alpha Value="212.925003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.330000" Y="0.330000" Z="0.330000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.500000" Y="22.500000" Z="22.500000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.360000" Y="0.360000" Z="0.360000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.375000" Y="24.375000" Z="24.375000" />
+            <Alpha Value="205.275009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.390000" Y="0.390000" Z="0.390000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.249998" Y="26.249998" Z="26.249998" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="0.420000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.125000" Y="28.125000" Z="28.125000" />
+            <Alpha Value="197.625000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.450000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.999998" Y="29.999998" Z="29.999998" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.480000" Y="0.480000" Z="0.480000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.875000" Y="31.875000" Z="31.875000" />
+            <Alpha Value="189.975006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.510000" Y="0.510000" Z="0.510000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.749996" Y="33.749996" Z="33.749996" />
+            <Alpha Value="186.150009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.540000" Y="0.540000" Z="0.540000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="35.625000" Y="35.625000" Z="35.625000" />
+            <Alpha Value="182.324997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.570000" Y="0.570000" Z="0.570000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="37.499996" Y="37.499996" Z="37.499996" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.600000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="39.375000" Y="39.375000" Z="39.375000" />
+            <Alpha Value="174.675003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.630000" Y="0.630000" Z="0.630000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="41.249996" Y="41.249996" Z="41.249996" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.660000" Y="0.660000" Z="0.660000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="43.125000" Y="43.125000" Z="43.125000" />
+            <Alpha Value="167.024994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.690000" Y="0.690000" Z="0.690000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="45.000000" Y="45.000000" Z="45.000000" />
+            <Alpha Value="163.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.720000" Y="0.720000" Z="0.720000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="46.875000" Y="46.875000" Z="46.875000" />
+            <Alpha Value="159.375000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.750000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.780000" Y="0.780000" Z="0.780000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="151.725006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.810000" Y="0.810000" Z="0.810000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="147.900009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="0.840000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="144.074997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.870000" Y="0.870000" Z="0.870000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.900000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="136.425003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.930000" Y="0.930000" Z="0.930000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.960000" Y="0.960000" Z="0.960000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="128.775009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="124.950005" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="121.125008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="117.300011" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="113.474998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="109.650002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="105.825005" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="102.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="98.174995" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="94.349998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="90.525002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="82.875000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="75.225006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="67.575012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="59.925003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="52.275009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="48.450001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="44.625004" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="40.800007" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="36.975010" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="33.149998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="29.325003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="25.500006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="21.675011" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="17.849998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="14.025002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="10.200006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="50.000000" Y="50.000000" Z="50.000000" />
+            <Alpha Value="6.375009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_popcorn_jh.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

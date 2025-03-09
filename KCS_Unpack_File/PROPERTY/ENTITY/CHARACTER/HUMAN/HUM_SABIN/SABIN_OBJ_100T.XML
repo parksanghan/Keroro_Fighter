@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Skill_Obj_100tonhammer" FILENAME="Skill_Obj_100tonhammer.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Skill_Obj_100tonhammer.VS">
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KKPP_100t" FILENAME="Sabin_Obj_Comb_KKPP_100t.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KKP_100t" FILENAME="Sabin_Obj_Comb_KKP_100t.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sabin_Obj_100T_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="kt_bg_earth" FILENAME="kt_bg_earth.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_ani_earth" FILENAME="kt_bg_ani_earth.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="kt_bg_ani_earth.VS">
+        <PROPERTYBAG NAME="kt_bg_ani_earth" FILENAME="kt_ef_earth.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="kt_bg_ef_fountain_jh" FILENAME="kt_bg_ef_fountain_jh.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_ef_fountain_smoke_jh" FILENAME="kt_bg_ef_fountain_smoke_jh.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_ef_world_jh" FILENAME="kt_ef_world_jh.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="kt_bg_zone02_00_earth_COMMANDS.XML" />
+</GAMEENTITY>

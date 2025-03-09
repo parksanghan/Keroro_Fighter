@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<UIXMLFile>
+    <DialogCount DialogNum="1">
+        <DialogDetailInfo0 DialogName="Dialog_NicNameCh" DialogChildCount="4">
+            <DialogSizeInfo DialogPosX="355" DialogPosY="249" DialogSizeX="344" DialogSizeY="210">
+                <CONTROLINFO0 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="1" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Background" CONTROLPOSX="0" CONTROLPOSY="0" CONTROLSIZEX="344" CONTROLSIZEY="210" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="355.000000" POSTION_Y="249.000000" POSTION_Z="0.000100" SCALE_X="172.000000" SCLAE_Y="105.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="GUI_MyInfo.tga" RECT_LEFT="3" RECT_TOP="616" RECT_RIGHT="347" RECT_BOTTOM="827" POSTION_X="355.000000" POSTION_Y="249.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO0>
+                <CONTROLINFO1 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_OK" CONTROLPOSX="61" CONTROLPOSY="163" CONTROLSIZEX="93" CONTROLSIZEY="32" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="416.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="46.500000" SCLAE_Y="16.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="GUI_MyInfo.tga" RECT_LEFT="357" RECT_TOP="625" RECT_RIGHT="449" RECT_BOTTOM="654" POSTION_X="416.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="GUI_MyInfo.tga" RECT_LEFT="357" RECT_TOP="655" RECT_RIGHT="449" RECT_BOTTOM="684" POSTION_X="416.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="GUI_MyInfo.tga" RECT_LEFT="357" RECT_TOP="685" RECT_RIGHT="449" RECT_BOTTOM="714" POSTION_X="416.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO1>
+                <CONTROLINFO2 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_Cancle" CONTROLPOSX="182" CONTROLPOSY="163" CONTROLSIZEX="93" CONTROLSIZEY="32" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="537.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="46.500000" SCLAE_Y="16.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO1 DRAW="0" ID="10003" TextureFileName="GUI_MyInfo.tga" RECT_LEFT="466" RECT_TOP="684" RECT_RIGHT="558" RECT_BOTTOM="714" POSTION_X="537.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO2 DRAW="1" ID="10001" TextureFileName="GUI_MyInfo.tga" RECT_LEFT="466" RECT_TOP="624" RECT_RIGHT="558" RECT_BOTTOM="654" POSTION_X="537.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10002" TextureFileName="GUI_MyInfo.tga" RECT_LEFT="466" RECT_TOP="654" RECT_RIGHT="558" RECT_BOTTOM="684" POSTION_X="537.000000" POSTION_Y="412.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO2>
+                <CONTROLINFO3 MoveControl="0" SkinControl="0" ButtonControl="0" ListBoxControl="0" InputBoxControl="1" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_InputNic" CONTROLPOSX="141" CONTROLPOSY="71" CONTROLSIZEX="160" CONTROLSIZEY="22" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background3.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="496.000000" POSTION_Y="320.000000" POSTION_Z="0.000100" SCALE_X="80.000000" SCLAE_Y="11.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO3>
+            </DialogSizeInfo>
+        </DialogDetailInfo0>
+    </DialogCount>
+    <DIALOGSOUNDINFO SOUNDCOUNT="0" />
+</UIXMLFile>

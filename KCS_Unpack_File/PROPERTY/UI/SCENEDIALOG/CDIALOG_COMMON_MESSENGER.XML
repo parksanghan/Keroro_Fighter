@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_Messenger3.xml" PosX="640" PosY="79" SizeX="379" SizeY="500" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.798" Show="1">
+            <Element index="0" TextName="GUI_community.tga" TextPosX="40" TextPosY="3" TextSizeX="12" TextSizeY="500" PosX="36" PosY="0" SizeX="309" SizeY="500" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_community.tga" TextPosX="3" TextPosY="3" TextSizeX="36" TextSizeY="500" PosX="0" PosY="0" SizeX="36" SizeY="500" />
+            <Element index="5" TextName="GUI_community.tga" TextPosX="53" TextPosY="3" TextSizeX="36" TextSizeY="500" PosX="345" PosY="0" SizeX="36" SizeY="500" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.796" Show="1">
+            <Element index="0" TextName="GUI_community.tga" TextPosX="739" TextPosY="130" TextSizeX="87" TextSizeY="22" PosX="146" PosY="16" SizeX="87" SizeY="22" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.797" Show="1"> <!-- Guild -->
+	    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="172" TextPosY="4" TextSizeX="76" TextSizeY="29" PosX="97" PosY="55" SizeX="76" SizeY="29" />
+	</Property>
+	<Property Index="3" RenderStyle="0" Depth="0.797" Show="1"> <!-- Chat -->
+	    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="330" TextPosY="4" TextSizeX="76" TextSizeY="29" PosX="255" PosY="55" SizeX="76" SizeY="29" />
+	</Property>
+    </DialogSkin>
+    <DialogControl>
+
+<!--START - 기본 UI-->
+        <Property Name="BUTTON_Close" ClassName="CKeroroUI_Button" PosX="340" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기본 UI-->
+
+<!--START - 메신저 Tab List-->
+        <Property Name="BUTTON_FriendTab" ClassName="CKeroroUI_Button" PosX="18" PosY="52" SizeX="76" SizeY="35" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="93" TextPosY="4" TextSizeX="76" TextSizeY="29" PosX="0" PosY="3" SizeX="76" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_community.tga" TextPosX="93" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="93" TextPosY="37" TextSizeX="76" TextSizeY="29" PosX="0" PosY="3" SizeX="76" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_community.tga" TextPosX="93" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_GuildTab" ClassName="CKeroroUI_Button" PosX="97" PosY="52" SizeX="76" SizeY="35" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="172" TextPosY="4" TextSizeX="76" TextSizeY="29" PosX="0" PosY="3" SizeX="76" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_community.tga" TextPosX="172" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="172" TextPosY="37" TextSizeX="76" TextSizeY="29" PosX="0" PosY="3" SizeX="76" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_community.tga" TextPosX="172" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_NoteListTab" ClassName="CKeroroUI_Button" PosX="176" PosY="52" SizeX="76" SizeY="35" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="251" TextPosY="4" TextSizeX="76" TextSizeY="29" PosX="0" PosY="3" SizeX="76" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_community.tga" TextPosX="251" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="251" TextPosY="37" TextSizeX="76" TextSizeY="29" PosX="0" PosY="3" SizeX="76" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_community.tga" TextPosX="251" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_ChatTab" ClassName="CKeroroUI_Button" PosX="255" PosY="52" SizeX="76" SizeY="35" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.794" Show="1">
+                    <Element ControlState="1" index="0" TextName="GUI_community.tga" TextPosX="330" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="330" TextPosY="37" TextSizeX="76" TextSizeY="29" PosX="0" PosY="3" SizeX="76" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_community.tga" TextPosX="330" TextPosY="70" TextSizeX="76" TextSizeY="35" PosX="0" PosY="0" SizeX="76" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 메신저 Tab List-->
+
+
+<!--START - 친구 Tab UI-->
+        <Property Name="CONTROL_Friend_BG" ClassName="CKeroroUI_Control" PosX="7" PosY="84" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 좌 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="94" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="0" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 중 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="122" TextPosY="108" TextSizeX="7" TextSizeY="348" PosX="27" PosY="0" SizeX="313" SizeY="348" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 우 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="130" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="340" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.795" Show="1">	<!-- 닉네임 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="828" TextPosY="130" TextSizeX="36" TextSizeY="14" PosX="55" PosY="14" SizeX="36" SizeY="14" />
+                </Property>
+                <Property Index="4" RenderStyle="0" Depth="0.795" Show="1">	<!-- 위치 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="870" TextPosY="130" TextSizeX="24" TextSizeY="14" PosX="212" PosY="14" SizeX="24" SizeY="14" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="BUTTON_Friend_ADD" ClassName="CKeroroUI_Button" PosX="253" PosY="441" SizeX="113" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="624" TextPosY="185" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="624" TextPosY="238" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="624" TextPosY="291" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_Friend_ListUP" ClassName="CKeroroUI_Button" PosX="338" PosY="118" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_Friend_ListDOWN" ClassName="CKeroroUI_Button" PosX="338" PosY="397" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="CONTROL_Friend_SliderBG" ClassName="CKeroroUI_Control" PosX="341" PosY="127" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="367" TextSizeX="16" TextSizeY="9" PosX="0" PosY="0" SizeX="16" SizeY="280" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="SLIDER_Friend" ClassName="CKeroroUI_Slider" PosX="340" PosY="139" SizeX="18" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.794" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="145" TextPosY="366" TextSizeX="18" TextSizeY="27" PosX="0" PosY="0" SizeX="18" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="CABINET_Friend" ClassName="CKeroroUI_Cabinet" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+<!---END- - 친구 Tab UI-->
+
+<!--START - 길드 Tab UI-->
+        <Property Name="CONTROL_Guild_BG" ClassName="CKeroroUI_Control" PosX="7" PosY="84" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 좌 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="161" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="0" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 중 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="189" TextPosY="108" TextSizeX="7" TextSizeY="348" PosX="27" PosY="0" SizeX="313" SizeY="348" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 우 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="197" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="340" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.795" Show="1">	<!-- 닉네임 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="828" TextPosY="130" TextSizeX="36" TextSizeY="14" PosX="55" PosY="14" SizeX="36" SizeY="14" />
+                </Property>
+                <Property Index="4" RenderStyle="0" Depth="0.795" Show="1">	<!-- 위치 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="870" TextPosY="130" TextSizeX="24" TextSizeY="14" PosX="212" PosY="14" SizeX="24" SizeY="14" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_Guild_Invite" ClassName="CKeroroUI_Button" PosX="135" PosY="441" SizeX="113" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="903" TextPosY="662" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="903" TextPosY="768" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="903" TextPosY="715" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="903" TextPosY="768" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_Guild_MyGuild" ClassName="CKeroroUI_Button" PosX="253" PosY="441" SizeX="113" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="745" TextPosY="185" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="745" TextPosY="238" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="745" TextPosY="291" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_Guild_ListUP" ClassName="CKeroroUI_Button" PosX="338" PosY="118" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_Guild_ListDOWN" ClassName="CKeroroUI_Button" PosX="338" PosY="397" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="CONTROL_Guild_SliderBG" ClassName="CKeroroUI_Control" PosX="341" PosY="127" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="367" TextSizeX="16" TextSizeY="9" PosX="0" PosY="0" SizeX="16" SizeY="280" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="SLIDER_Guild" ClassName="CKeroroUI_Slider" PosX="340" PosY="139" SizeX="18" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.794" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="145" TextPosY="366" TextSizeX="18" TextSizeY="27" PosX="0" PosY="0" SizeX="18" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="CABINET_Guild" ClassName="CKeroroUI_Cabinet" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+<!---END- - 길드 Tab UI-->
+
+<!--START - 쪽지 Tab UI-->
+        <Property Name="CONTROL_NoteList_BG" ClassName="CKeroroUI_Control" PosX="7" PosY="84" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 좌 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="228" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="0" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 중 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="256" TextPosY="108" TextSizeX="7" TextSizeY="348" PosX="27" PosY="0" SizeX="313" SizeY="348" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 우 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="264" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="340" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+		<Property Index="3" RenderStyle="0" Depth="0.795" Show="1">	<!-- 배경 내부 좌 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="481" TextPosY="336" TextSizeX="25" TextSizeY="148" PosX="14" PosY="186" SizeX="25" SizeY="148" />
+                </Property>
+		<Property Index="4" RenderStyle="0" Depth="0.795" Show="1">	<!-- 배경 내부 중 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="507" TextPosY="336" TextSizeX="8" TextSizeY="148" PosX="39" PosY="186" SizeX="289" SizeY="148" />
+                </Property>
+		<Property Index="5" RenderStyle="0" Depth="0.795" Show="1">	<!-- 배경 내부 우 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="516" TextPosY="336" TextSizeX="25" TextSizeY="148" PosX="328" PosY="186" SizeX="25" SizeY="148" />
+                </Property>
+                <Property Index="6" RenderStyle="0" Depth="0.794" Show="1">	<!-- 내부 배경 Text - 보낸이 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="739" TextPosY="154" TextSizeX="39" TextSizeY="14" PosX="67" PosY="14" SizeX="39" SizeY="14" />
+                </Property>
+                <Property Index="7" RenderStyle="0" Depth="0.794" Show="1">	<!-- 내부 배경 Text - 받은날짜 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="781" TextPosY="154" TextSizeX="50" TextSizeY="14" PosX="208" PosY="14" SizeX="50" SizeY="14" />
+                </Property>
+                <Property Index="7" RenderStyle="0" Depth="0.794" Show="1">	<!-- 내부 배경 Text - 쪽지내용 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="730" TextPosY="106" TextSizeX="75" TextSizeY="21" PosX="146" PosY="193" SizeX="75" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="GAUGE_Note_Alarm" ClassName="CKeroroUI_Gauge2" PosX="181" PosY="62" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="300" NowPoint="300" LineLimt="110" AnimationOn="1" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="1" GetShadowCount="0" AnimationTerm="0.500000" AnimationTime="0.005644">
+                <GaugeProperty TextureName="GUI_community.tga" RectLeft="412" RectTop="413" RectRight="18" RectBottom="17" ShowPosX="0" ShowPosY="3" Depth="0.793000" AnimationFrame="2" NextTermX="0" NextTermY="200" />
+            </SubProperty>
+        </Property>
+
+	<Property Name="BUTTON_NoteList_Write" ClassName="CKeroroUI_Button" PosX="33" PosY="441" SizeX="113" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="549" TextPosY="344" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="549" TextPosY="397" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="549" TextPosY="450" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_NoteList_Reply" ClassName="CKeroroUI_Button" PosX="155" PosY="441" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="670" TextPosY="344" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="670" TextPosY="397" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="670" TextPosY="450" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_NoteList_Delete" ClassName="CKeroroUI_Button" PosX="256" PosY="441" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="770" TextPosY="344" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="770" TextPosY="397" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="770" TextPosY="450" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_NoteList_ListUP" ClassName="CKeroroUI_Button" PosX="339" PosY="118" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_NoteList_ListDOWN" ClassName="CKeroroUI_Button" PosX="339" PosY="245" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="CONTROL_NoteList_SliderBG" ClassName="CKeroroUI_Control" PosX="342" PosY="126" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.794" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="367" TextSizeX="16" TextSizeY="9" PosX="0" PosY="0" SizeX="16" SizeY="130" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="SLIDER_NoteList" ClassName="CKeroroUI_Slider" PosX="341" PosY="140" SizeX="18" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="145" TextPosY="366" TextSizeX="18" TextSizeY="27" PosX="0" PosY="0" SizeX="18" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="STATIC_NoteList_MSG" ClassName="CKeroroUI_Static" PosX="41" PosY="312" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+
+	<Property Name="CABINET_NoteList" ClassName="CKeroroUI_Cabinet" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+<!---END- - 쪽지 Tab UI-->
+
+<!--START - 채팅 Tab UI-->
+        <Property Name="CONTROL_Chat_BG" ClassName="CKeroroUI_Control" PosX="7" PosY="84" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 좌 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="295" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="0" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 중 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="323" TextPosY="108" TextSizeX="7" TextSizeY="348" PosX="27" PosY="0" SizeX="313" SizeY="348" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.796" Show="1">	<!-- 배경 우 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="331" TextPosY="108" TextSizeX="27" TextSizeY="348" PosX="340" PosY="0" SizeX="27" SizeY="348" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.795" Show="1">	<!-- 배경 대화상대 명 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="171" TextPosY="461" TextSizeX="106" TextSizeY="28" PosX="6" PosY="8" SizeX="106" SizeY="28" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="GAUGE_Chat_Alarm" ClassName="CKeroroUI_Gauge2" PosX="255" PosY="52" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="300" NowPoint="300" LineLimt="110" AnimationOn="1" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="1" GetShadowCount="0" AnimationTerm="0.300000" AnimationTime="0.005644">
+                <GaugeProperty TextureName="GUI_community.tga" RectLeft="330" RectTop="4" RectRight="76" RectBottom="29" ShowPosX="0" ShowPosY="3" Depth="0.795000" AnimationFrame="2" NextTermX="0" NextTermY="33" />
+            </SubProperty>
+        </Property>
+
+        <Property Name="BUTTON_Chat_Close" ClassName="CKeroroUI_Button" PosX="253" PosY="441" SizeX="113" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="866" TextPosY="185" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="866" TextPosY="238" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="866" TextPosY="291" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="STATIC_Chat_NICK" ClassName="CKeroroUI_Static" PosX="66" PosY="99" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="Nick" FontDepth="0.794" FontTextureName="STATIC_Chat_NICK" FontSize="12" FontSort="2" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+
+        <Property Name="BUTTON_Chat_Send" ClassName="CKeroroUI_Button" PosX="290" PosY="380" SizeX="68" SizeY="34" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.795" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="283" TextPosY="464" TextSizeX="68" TextSizeY="34" PosX="0" PosY="3" SizeX="68" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_community.tga" TextPosX="359" TextPosY="464" TextSizeX="68" TextSizeY="34" PosX="0" PosY="3" SizeX="68" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="BUTTON_Chat_ListUP" ClassName="CKeroroUI_Button" PosX="338" PosY="117" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="342" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_Chat_ListDOWN" ClassName="CKeroroUI_Button" PosX="338" PosY="355" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="112" TextPosY="401" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="CONTROL_Chat_SliderBG" ClassName="CKeroroUI_Control" PosX="341" PosY="126" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.794" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="127" TextPosY="367" TextSizeX="16" TextSizeY="9" PosX="0" PosY="0" SizeX="16" SizeY="235" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="SLIDER_Chat" ClassName="CKeroroUI_Slider" PosX="340" PosY="139" SizeX="18" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.793" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="145" TextPosY="366" TextSizeX="18" TextSizeY="27" PosX="0" PosY="0" SizeX="18" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name="CABINET_Chat" ClassName="CKeroroUI_Cabinet" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+        </Property>
+<!---END- - 채팅 Tab UI-->
+
+<!--START - 친구 Tab UI-->
+<!---END- - 친구 Tab UI-->
+    </DialogControl>
+</RootNode>

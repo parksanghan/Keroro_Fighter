@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FishingChangeItemProperty>
+    <FishingItem BoxID="8100000001" Name="思骯腌" Needitem1="8000000000" Quantify_1="3" Needitem2="0" Quantify_2="0" Needitem3="0" Quantify_3="0" Needitem4="0" Quantify_4="0" Needitem5="0" Quantify_5="0" Needitem6="0" Quantify_6="0" Needitem7="0" Quantify_7="0" Needitem8="0" Quantify_8="0" Needitem9="0" Quantify_9="0" Needitem10="0" Quantify_10="2" />
+    <FishingItem BoxID="8100000002" Name="思骯腌思骯腌" Needitem1="8000000001" Quantify_1="3" Needitem2="0" Quantify_2="0" Needitem3="0" Quantify_3="0" Needitem4="0" Quantify_4="0" Needitem5="0" Quantify_5="0" Needitem6="0" Quantify_6="0" Needitem7="0" Quantify_7="0" Needitem8="0" Quantify_8="0" Needitem9="0" Quantify_9="0" Needitem10="0" Quantify_10="2" />
+    <FishingItem BoxID="8100000003" Name="思骯腌" Needitem1="8000000000" Quantify_1="2" Needitem2="8000000001" Quantify_2="2" Needitem3="0" Quantify_3="0" Needitem4="0" Quantify_4="0" Needitem5="0" Quantify_5="0" Needitem6="0" Quantify_6="0" Needitem7="0" Quantify_7="0" Needitem8="0" Quantify_8="0" Needitem9="0" Quantify_9="0" Needitem10="0" Quantify_10="1" />
+</FishingChangeItemProperty>

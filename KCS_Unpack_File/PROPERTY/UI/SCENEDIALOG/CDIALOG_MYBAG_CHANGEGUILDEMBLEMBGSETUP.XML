@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="MyBag_ChangeGuildEmblemBGSetup" PosX="350" PosY="160" SizeX="352" SizeY="353" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<!--기본창-->
+        <Property Index="0" RenderStyle="3" Depth="0.1950" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="545" TextPosY="2" TextSizeX="1" TextSizeY="353" PosX="21" PosY="0" SizeX="310" SizeY="353" />
+            <Element index="1" TextName="GUI_guild.tga" TextPosX="519" TextPosY="2" TextSizeX="21" TextSizeY="353" PosX="0" PosY="0" SizeX="21" SizeY="353" />
+            <Element index="2" TextName="GUI_guild.tga" TextPosX="551" TextPosY="2" TextSizeX="21" TextSizeY="353" PosX="331" PosY="0" SizeX="21" SizeY="353" />
+        </Property>
+	<!--길드마크설정 글씨-->
+        <Property Index="0" RenderStyle="0" Depth="0.1949" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="789" TextPosY="316" TextSizeX="122" TextSizeY="21" PosX="106" PosY="15" SizeX="122" SizeY="21" />
+        </Property>	
+	<!--미리보기 스킨-->	
+	<Property Index="1" RenderStyle="0" Depth="0.1949" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="774" TextPosY="155" TextSizeX="82" TextSizeY="68" PosX="25" PosY="95" SizeX="82" SizeY="68" />
+        </Property>	
+	<!--색갈표 스킨-->	
+	<Property Index="1" RenderStyle="0" Depth="0.1949" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="577" TextPosY="154" TextSizeX="190" TextSizeY="136" PosX="131" PosY="60" SizeX="190" SizeY="136" />
+        </Property>
+<!-- 뒷배경-->
+	<Property Index = "3" RenderStyle = "0" Depth = "0.1951" Show = "1">
+		<Element index = "0" TextName = "GUI_BackBase.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "16" TextSizeY = "16" PosX = "-350" PosY = "-160" SizeX = "1024" SizeY = "768" />
+	</Property>	
+    </DialogSkin>
+    <DialogControl>
+<!--START - Button-->
+	<!--X-->
+        <Property Name="GuildX_Button" ClassName="CKeroroUI_Button" PosX="311" PosY="14" SizeX="26" SizeY="26" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1949" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+<!--색상선택-->
+<!--Line1-->
+	<Property Name="GuildMarkSetUp_Color_Button0" ClassName="CKeroroUI_Button" PosX="130" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button1" ClassName="CKeroroUI_Button" PosX="154" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button2" ClassName="CKeroroUI_Button" PosX="178" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button3" ClassName="CKeroroUI_Button" PosX="202" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button4" ClassName="CKeroroUI_Button" PosX="226" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button5" ClassName="CKeroroUI_Button" PosX="250" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button6" ClassName="CKeroroUI_Button" PosX="274" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button7" ClassName="CKeroroUI_Button" PosX="298" PosY="60" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line2-->
+	<Property Name="GuildMarkSetUp_Color_Button8" ClassName="CKeroroUI_Button" PosX="130" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button9" ClassName="CKeroroUI_Button" PosX="154" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button10" ClassName="CKeroroUI_Button" PosX="178" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button11" ClassName="CKeroroUI_Button" PosX="202" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button12" ClassName="CKeroroUI_Button" PosX="226" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button13" ClassName="CKeroroUI_Button" PosX="250" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button14" ClassName="CKeroroUI_Button" PosX="274" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button15" ClassName="CKeroroUI_Button" PosX="298" PosY="83" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line3-->
+	<Property Name="GuildMarkSetUp_Color_Button16" ClassName="CKeroroUI_Button" PosX="130" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button17" ClassName="CKeroroUI_Button" PosX="154" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button18" ClassName="CKeroroUI_Button" PosX="178" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button19" ClassName="CKeroroUI_Button" PosX="202" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button20" ClassName="CKeroroUI_Button" PosX="226" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button21" ClassName="CKeroroUI_Button" PosX="250" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button22" ClassName="CKeroroUI_Button" PosX="274" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button23" ClassName="CKeroroUI_Button" PosX="298" PosY="106" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line4-->
+	<Property Name="GuildMarkSetUp_Color_Button24" ClassName="CKeroroUI_Button" PosX="130" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button25" ClassName="CKeroroUI_Button" PosX="154" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button26" ClassName="CKeroroUI_Button" PosX="178" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button27" ClassName="CKeroroUI_Button" PosX="202" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button28" ClassName="CKeroroUI_Button" PosX="226" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button29" ClassName="CKeroroUI_Button" PosX="250" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button30" ClassName="CKeroroUI_Button" PosX="274" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button31" ClassName="CKeroroUI_Button" PosX="298" PosY="129" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line5-->
+	<Property Name="GuildMarkSetUp_Color_Button32" ClassName="CKeroroUI_Button" PosX="130" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button33" ClassName="CKeroroUI_Button" PosX="154" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button34" ClassName="CKeroroUI_Button" PosX="178" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button35" ClassName="CKeroroUI_Button" PosX="202" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button36" ClassName="CKeroroUI_Button" PosX="226" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button37" ClassName="CKeroroUI_Button" PosX="250" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button38" ClassName="CKeroroUI_Button" PosX="274" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button39" ClassName="CKeroroUI_Button" PosX="298" PosY="152" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line6-->
+	<Property Name="GuildMarkSetUp_Color_Button40" ClassName="CKeroroUI_Button" PosX="130" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button41" ClassName="CKeroroUI_Button" PosX="154" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button42" ClassName="CKeroroUI_Button" PosX="178" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button43" ClassName="CKeroroUI_Button" PosX="202" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button44" ClassName="CKeroroUI_Button" PosX="226" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button45" ClassName="CKeroroUI_Button" PosX="250" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button46" ClassName="CKeroroUI_Button" PosX="274" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMarkSetUp_Color_Button47" ClassName="CKeroroUI_Button" PosX="298" PosY="175" SizeX="24" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="836" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="0" PosY="0" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--색설정 - 길드마크-->
+	<Property Name="GuildMarkSetUp_Mark_Button" ClassName="CKeroroUI_Button" PosX="57" PosY="219" SizeX="62" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="580" TextPosY="297" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="580" TextPosY="371" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="580" TextPosY="334" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="580" TextPosY="371" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--색설정 - 테두리 - 선택보기-->
+	<Property Name="GuildMarkSetUp_MarkView_Button" ClassName="CKeroroUI_Button" PosX="77" PosY="256" SizeX="22" SizeY="21" Disable="0">
+            <ControlSkin>
+		<!--테두리 선택보기 - 선택색상 스킨 -->
+		<Property Index="0" RenderStyle="0" Depth="0.1945" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="577" TextPosY="154" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.1944" Show="1">
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="24" PosX="-1" PosY="-1" SizeX="24" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--색설정 - 테두리-->
+	<Property Name="GuildMarkSetUp_Line_Button" ClassName="CKeroroUI_Button" PosX="145" PosY="219" SizeX="62" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="650" TextPosY="297" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="650" TextPosY="371" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="650" TextPosY="334" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="650" TextPosY="371" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--색설정 - 테두리 - 선택보기-->
+	<Property Name="GuildMarkSetUp_LineView_Button" ClassName="CKeroroUI_Button" PosX="165" PosY="256" SizeX="22" SizeY="21" Disable="0">
+            <ControlSkin>
+		<!--테두리 선택보기 - 선택색상 스킨 -->
+		<Property Index="0" RenderStyle="0" Depth="0.1945" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="577" TextPosY="154" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.1944" Show="1">
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="-1" PosY="-1" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<!--색설정 - 배경-->
+	<Property Name="GuildMarkSetUp_BG_Button" ClassName="CKeroroUI_Button" PosX="233" PosY="219" SizeX="62" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="720" TextPosY="297" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="720" TextPosY="371" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="720" TextPosY="334" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="720" TextPosY="371" TextSizeX="62" TextSizeY="29" PosX="0" PosY="0" SizeX="62" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--색설정 - 배경 - 선택보기-->
+	<Property Name="GuildMarkSetUp_BGView_Button" ClassName="CKeroroUI_Button" PosX="253" PosY="256" SizeX="22" SizeY="21" Disable="0">
+            <ControlSkin>
+		<!--테두리 선택보기 - 선택색상 스킨 -->
+		<Property Index="0" RenderStyle="0" Depth="0.1945" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="577" TextPosY="154" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.1944" Show="1">
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="866" TextPosY="232" TextSizeX="24" TextSizeY="23" PosX="-1" PosY="-1" SizeX="24" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<!--확인-->
+	<Property Name="GuildMarkSetUpAccept_Button" ClassName="CKeroroUI_Button" PosX="80" PosY="294" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="238" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--취소-->
+	<Property Name="GuildMarkSetUpCancel_Button" ClassName="CKeroroUI_Button" PosX="180" PosY="294" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - Button-->
+    </DialogControl>
+</RootNode>

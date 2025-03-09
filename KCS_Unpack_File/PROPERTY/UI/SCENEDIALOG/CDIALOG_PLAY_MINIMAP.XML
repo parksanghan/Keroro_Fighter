@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="796" PosY="9" SizeX="0" SizeY="0" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.900" Show="1">
+            <Element index="0" TextName="MiniMap_Frame.tga" TextPosX="0" TextPosY="0" TextSizeX="217" TextSizeY="171" PosX="0" PosY="0" SizeX="217" SizeY="171" MapIndex="-1" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="0" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="13"/>
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="210" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="6"/>
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="2"/>
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="5"/>
+        </Property>
+
+
+        <Property Index="5" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="0" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="1"/>
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="210" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="1001"/>
+        </Property>
+        <Property Index="7" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="9"/>
+        </Property>
+        <Property Index="8" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="1002"/>
+        </Property>
+
+
+        <Property Index="9" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="0" TextPosY="322" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="1502"/>
+        </Property>
+        <Property Index="10" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="210" TextPosY="322" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="7"/>
+        </Property>
+        <Property Index="11" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="322" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="11"/>
+        </Property>
+        <Property Index="12" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="322" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="12"/>
+        </Property>
+
+
+        <Property Index="13" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="0" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="8"/>
+        </Property>
+        <Property Index="14" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="210" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="14"/>
+        </Property>
+        <Property Index="15" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="10"/>
+        </Property>
+        <Property Index="16" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="507"/>
+        </Property>
+
+
+        <Property Index="17" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="0" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="15"/>
+        </Property>
+	<Property Index="18" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="210" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="18"/>
+        </Property>
+	<Property Index="19" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="19"/>
+        </Property>
+	<Property Index="20" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="16"/>
+        </Property>
+
+	
+        <Property Index="21" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="0" TextPosY="805" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="20"/>
+        </Property>
+         <Property Index="22" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="210" TextPosY="805" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="17"/>
+        </Property>
+         <Property Index="23" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="805" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="21"/>
+        </Property>
+        <Property Index="24" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="805" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="22"/>
+        </Property>
+
+
+	<Property Index="25" RenderStyle="0" Depth="0.900" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="24"/>
+        </Property>
+	<Property Index="26" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="25"/>
+        </Property>
+	<Property Index="27" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="420" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="26"/>
+        </Property>
+	<Property Index="28" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="630" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="27"/>
+        </Property>
+
+	<Property Index="29" RenderStyle="0" Depth="0.900" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="28"/>
+        </Property>
+	<Property Index="30" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="29"/>
+        </Property>
+	<Property Index="31" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="420" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="30"/>
+        </Property>
+	<Property Index="32" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="630" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200101"/>
+        </Property>
+
+	<Property Index="33" RenderStyle="0" Depth="0.900" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="321" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200102"/>
+        </Property>
+	<Property Index="34" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="321" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200103"/>
+        </Property>
+	<Property Index="35" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="420" TextPosY="321" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200104"/>
+        </Property>
+        <Property Index="36" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200201"/>
+        </Property>
+
+	<Property Index="37" RenderStyle="0" Depth="0.900" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="161" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200202"/>
+        </Property>
+        <Property Index="38" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="420" TextPosY="805" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200203"/>
+        </Property>
+        <Property Index="39" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="630" TextPosY="322" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200204"/>
+        </Property>
+        <Property Index="40" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="510"/>
+        </Property>
+
+        <Property Index="41" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="511"/>
+        </Property>
+        <Property Index="42" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="31"/>
+        </Property>
+          <Property Index="43" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="131"/>
+        </Property>
+        <Property Index="44" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="32"/>
+        </Property>
+
+        <Property Index="45" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200301"/>
+        </Property>
+        <Property Index="46" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="420" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200302"/>
+        </Property>
+        <Property Index="47" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200303"/>
+        </Property>
+        <Property Index="48" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="210" TextPosY="805" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200401"/>
+        </Property>
+
+        <Property Index="49" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="630" TextPosY="0" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200402"/>
+        </Property>
+        <Property Index="50" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source.tga" TextPosX="630" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200403"/>
+        </Property>
+        <Property Index="51" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200404"/>
+         </Property>
+        <Property Index="52" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200501"/>
+        </Property>
+
+        <Property Index="53" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="420" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="200601"/>
+        </Property>
+
+        <Property Index="54" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="630" TextPosY="483" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="3000"/>
+        </Property>
+
+        <Property Index="55" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="133"/>
+        </Property>
+        <Property Index="56" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="0" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="33"/>
+        </Property>
+
+        <Property Index="57" RenderStyle="0" Depth="0.899" Show="0">
+            <Element index="0" TextName="MiniMap_Source02.tga" TextPosX="210" TextPosY="644" TextSizeX="209" TextSizeY="160" PosX="4" PosY="6" SizeX="209" SizeY="160" MapIndex="34"/>
+        </Property>
+    </DialogSkin>
+    <DialogControl />
+</RootNode>

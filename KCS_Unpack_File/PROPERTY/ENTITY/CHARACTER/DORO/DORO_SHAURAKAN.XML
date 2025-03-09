@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="DORO_SHURACAN" FILENAME="Doro_Aniob_Shurakan.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Doro_Obj_Shurakan.VS">
+        <PROPERTYBAG NAME="DORO_JP_ATK" FILENAME="Doro_Obj_Shurakan_JP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="DORO_KKK" FILENAME="Doro_Obj_Shurakan_KKK.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Doro_Shaurakan_COMMANDS.XML" />
+</GAMEENTITY>

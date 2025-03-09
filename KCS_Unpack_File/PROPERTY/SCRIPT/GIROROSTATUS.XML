@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<PLAYER_STATUS>
+  <Property name="VITAL"    type="2"  value="1600.0" />
+  <Property name="STAMINA"  type="2"  value="160.0" />
+  <Property name="ANGRY"    type="2"  value="500.0" />
+  <!-- 읽어들일때 변환된다. -->
+  <Property name="SPEED"    type="2"  value="187" />
+  <Property name="JUMPCNT"  type="5"  value="1" />
+  <Property name="JUMPVEL"  type="2"  value="1000.0" />
+  <Property name="ATKPOWER" type="2"  value="104.0" />
+  <Property name="DEFPOWER" type="2"  value="2.0" />
+  <Property name="MAXATK"   type="2"  value="60.0" />
+  <Property name="MINATK"   type="2"  value="42.0" />
+  <Property name="CRIDAM"   type="2"  value="19.0" />
+  <Property name="CRIPER"   type="2"  value="11.0" />
+  <Property name="COMBODAM" type="2"  value="6.0" />
+</PLAYER_STATUS>

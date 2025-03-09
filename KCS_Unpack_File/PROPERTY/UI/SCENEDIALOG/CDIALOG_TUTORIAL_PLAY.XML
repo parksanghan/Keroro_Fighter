@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Tutorial_Play.xml" PosX="0" PosY="0" SizeX="0" SizeY="0" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.880" Show="1">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="677" TextPosY="106" TextSizeX="187" TextSizeY="97" PosX="0" PosY="0" SizeX="187" SizeY="97" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="863" TextPosY="7" TextSizeX="89" TextSizeY="52" PosX="72" PosY="79" SizeX="89" SizeY="52" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.870" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="865" TextPosY="61" TextSizeX="89" TextSizeY="52" PosX="72" PosY="79" SizeX="89" SizeY="52" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.860" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_Play.TGA" TextPosX="688" TextPosY="468" TextSizeX="0" TextSizeY="0" PosX="0" PosY="114" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="4" RenderStyle="1" Depth="0.860" Show="1">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="34" TextPosY="818" TextSizeX="13" TextSizeY="157" PosX="385" PosY="120" SizeX="595" SizeY="157" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_Tutorial.TGA" TextPosX="7" TextPosY="818" TextSizeX="25" TextSizeY="156" PosX="360" PosY="120" SizeX="25" SizeY="156" />
+            <Element index="5" TextName="GUI_Tutorial.TGA" TextPosX="53" TextPosY="818" TextSizeX="25" TextSizeY="156" PosX="980" PosY="120" SizeX="25" SizeY="156" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.850" Show="1">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="592" TextPosY="23" TextSizeX="251" TextSizeY="83" PosX="733" PosY="175" SizeX="251" SizeY="83" />
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.860" Show="1">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="2" TextPosY="343" TextSizeX="179" TextSizeY="234" PosX="759" PosY="12" SizeX="179" SizeY="234" />
+        </Property>
+        <Property Index="7" RenderStyle="0" Depth="0.860" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="181" TextPosY="337" TextSizeX="244" TextSizeY="241" PosX="747" PosY="8" SizeX="244" SizeY="241" />
+        </Property>
+        <Property Index="8" RenderStyle="0" Depth="0.860" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="426" TextPosY="338" TextSizeX="276" TextSizeY="243" PosX="680" PosY="12" SizeX="276" SizeY="243" />
+        </Property>
+        <Property Index="9" RenderStyle="0" Depth="0.860" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="717" TextPosY="339" TextSizeX="253" TextSizeY="242" PosX="680" PosY="12" SizeX="253" SizeY="242" />
+        </Property>
+        <Property Index="10" RenderStyle="0" Depth="0.860" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="3" TextPosY="578" TextSizeX="333" TextSizeY="233" PosX="680" PosY="11" SizeX="333" SizeY="233" />
+        </Property>
+        <Property Index="11" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="595" TextPosY="118" TextSizeX="47" TextSizeY="83" PosX="928" PosY="21" SizeX="47" SizeY="83" />
+        </Property>
+        <Property Index="12" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="642" TextPosY="117" TextSizeX="32" TextSizeY="59" PosX="927" PosY="11" SizeX="32" SizeY="59" />
+        </Property>
+        <Property Index="13" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="469" TextPosY="580" TextSizeX="555" TextSizeY="294" PosX="251" PosY="233" SizeX="555" SizeY="294" />
+        </Property>
+        <Property Index="14" RenderStyle="0" Depth="0.840" Show="1">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="1" TextPosY="1" TextSizeX="297" TextSizeY="98" PosX="410" PosY="147" SizeX="297" SizeY="98" />
+        </Property>
+        <Property Index="15" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="297" TextPosY="3" TextSizeX="261" TextSizeY="53" PosX="410" PosY="165" SizeX="261" SizeY="53" />
+        </Property>
+        <Property Index="16" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="592" TextPosY="2" TextSizeX="292" TextSizeY="81" PosX="410" PosY="160" SizeX="292" SizeY="81" />
+        </Property>
+        <Property Index="17" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="2" TextPosY="101" TextSizeX="299" TextSizeY="107" PosX="400" PosY="148" SizeX="299" SizeY="107" />
+        </Property>
+        <Property Index="18" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="301" TextPosY="81" TextSizeX="341" TextSizeY="74" PosX="395" PosY="155" SizeX="341" SizeY="74" />
+        </Property>
+        <Property Index="19" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="641" TextPosY="83" TextSizeX="316" TextSizeY="108" PosX="400" PosY="142" SizeX="316" SizeY="108" />
+        </Property>
+        <Property Index="20" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="2" TextPosY="322" TextSizeX="324" TextSizeY="109" PosX="400" PosY="145" SizeX="324" SizeY="109" />
+        </Property>
+        <Property Index="21" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="3" TextPosY="207" TextSizeX="338" TextSizeY="115" PosX="395" PosY="142" SizeX="338" SizeY="115" />
+        </Property>
+        <Property Index="22" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="341" TextPosY="279" TextSizeX="305" TextSizeY="48" PosX="400" PosY="175" SizeX="305" SizeY="48" />
+        </Property>
+        <Property Index="23" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="298" TextPosY="57" TextSizeX="98" TextSizeY="25" PosX="500" PosY="185" SizeX="98" SizeY="25" />
+        </Property>
+        <Property Index="24" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="342" TextPosY="228" TextSizeX="168" TextSizeY="26" PosX="480" PosY="185" SizeX="168" SizeY="26" />
+        </Property>
+        <Property Index="25" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="343" TextPosY="254" TextSizeX="225" TextSizeY="23" PosX="450" PosY="185" SizeX="225" SizeY="23" />
+        </Property>
+        <Property Index="26" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_Tutorial_text.tga" TextPosX="571" TextPosY="194" TextSizeX="205" TextSizeY="65" PosX="420" PosY="165" SizeX="205" SizeY="65" />
+        </Property>
+        <Property Index="27" RenderStyle="0" Depth="0.820" Show="0">
+            <Element index="0" TextName="GUI_MAIN.tga" TextPosX="469" TextPosY="709" TextSizeX="502" TextSizeY="314" PosX="251" PosY="233" SizeX="502" SizeY="314" />
+        </Property>
+        <Property Index="28" RenderStyle="1" Depth="0.850" Show="1">
+            <Element index="0" TextName="GUI_Tutorial.TGA" TextPosX="106" TextPosY="814" TextSizeX="5" TextSizeY="129" PosX="399" PosY="134" SizeX="337" SizeY="129" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_Tutorial.TGA" TextPosX="84" TextPosY="814" TextSizeX="21" TextSizeY="129" PosX="378" PosY="134" SizeX="21" SizeY="129" />
+            <Element index="5" TextName="GUI_Tutorial.TGA" TextPosX="113" TextPosY="814" TextSizeX="21" TextSizeY="129" PosX="735" PosY="134" SizeX="21" SizeY="129" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="WKey_Button" ClassName="CKeroroUI_Button" PosX="73" PosY="194" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="917" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="390" TextPosY="877" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="812" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="AKey_Button" ClassName="CKeroroUI_Button" PosX="50" PosY="230" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="952" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="282" TextPosY="912" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="2" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SKey_Button" ClassName="CKeroroUI_Button" PosX="86" PosY="230" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="952" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="318" TextPosY="912" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="DKey_Button" ClassName="CKeroroUI_Button" PosX="122" PosY="230" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="952" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="354" TextPosY="912" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="FKey_Button" ClassName="CKeroroUI_Button" PosX="158" PosY="230" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="952" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="390" TextPosY="912" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="1Key_Button" ClassName="CKeroroUI_Button" PosX="49" PosY="154" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="917" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="282" TextPosY="877" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="812" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="2Key_Button" ClassName="CKeroroUI_Button" PosX="85" PosY="154" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="917" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="318" TextPosY="877" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="812" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="3Key_Button" ClassName="CKeroroUI_Button" PosX="121" PosY="154" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="917" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="354" TextPosY="877" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="812" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="LeftKey_Button" ClassName="CKeroroUI_Button" PosX="212" PosY="229" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="987" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="282" TextPosY="947" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="RightKey_Button" ClassName="CKeroroUI_Button" PosX="284" PosY="229" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="987" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="354" TextPosY="947" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="UpKey_Button" ClassName="CKeroroUI_Button" PosX="248" PosY="210" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="987" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="318" TextPosY="947" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="DownKey_Button" ClassName="CKeroroUI_Button" PosX="248" PosY="246" SizeX="34" SizeY="34" Disable="1" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="987" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Tutorial.TGA" TextPosX="390" TextPosY="947" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="0" PosY="0" SizeX="34" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_ShowKeyHelp" ClassName="CKeroroUI_Button" PosX="0" PosY="135" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="1" Depth="0.850" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="714" TextPosY="991" TextSizeX="258" TextSizeY="11" PosX="0" PosY="-22" SizeX="258" SizeY="433" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="GUI_Tutorial.TGA" TextPosX="714" TextPosY="974" TextSizeX="258" TextSizeY="17" PosX="0" PosY="0" SizeX="258" SizeY="17" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="5" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="GUI_Tutorial.TGA" TextPosX="714" TextPosY="1002" TextSizeX="258" TextSizeY="17" PosX="0" PosY="410" SizeX="258" SizeY="17" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.540" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="8" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="40" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="73" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="4" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="244" TextPosY="812" TextSizeX="34" TextSizeY="34" PosX="107" PosY="107" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="5" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="137" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="5" PosY="175" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="6" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="39" PosY="175" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="7" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="73" PosY="175" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="8" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="107" PosY="175" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="9" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="73" PosY="210" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="10" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="39" PosY="210" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="11" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="210" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="12" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="39" PosY="245" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="13" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="882" TextSizeX="34" TextSizeY="34" PosX="73" PosY="245" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="14" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="245" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="15" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="812" TextSizeX="34" TextSizeY="34" PosX="73" PosY="280" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="16" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="280" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="17" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="245" TextPosY="812" TextSizeX="34" TextSizeY="34" PosX="73" PosY="315" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="18" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="315" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="19" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="350" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="20" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="173" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="73" PosY="385" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="21" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="209" TextPosY="847" TextSizeX="34" TextSizeY="34" PosX="107" PosY="385" SizeX="34" SizeY="34" />
+                </Property>
+                <Property Index="22" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="387" TextPosY="824" TextSizeX="18" TextSizeY="17" PosX="99" PosY="392" SizeX="18" SizeY="17" />
+                </Property>
+                <Property Index="23" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="282" TextPosY="986" TextSizeX="136" TextSizeY="34" PosX="5" PosY="141" SizeX="136" SizeY="34" />
+                </Property>
+                <Property Index="24" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="336" TextPosY="580" TextSizeX="73" TextSizeY="22" PosX="145" PosY="12" SizeX="73" SizeY="22" />
+                </Property>
+                <Property Index="25" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="335" TextPosY="602" TextSizeX="73" TextSizeY="22" PosX="145" PosY="47" SizeX="73" SizeY="22" />
+                </Property>
+                <Property Index="26" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="335" TextPosY="624" TextSizeX="73" TextSizeY="22" PosX="145" PosY="80" SizeX="73" SizeY="22" />
+                </Property>
+                <Property Index="27" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="336" TextPosY="646" TextSizeX="73" TextSizeY="22" PosX="145" PosY="112" SizeX="73" SizeY="22" />
+                </Property>
+                <Property Index="28" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="336" TextPosY="668" TextSizeX="73" TextSizeY="22" PosX="145" PosY="145" SizeX="73" SizeY="22" />
+                </Property>
+                <Property Index="29" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="336" TextPosY="690" TextSizeX="73" TextSizeY="22" PosX="145" PosY="180" SizeX="73" SizeY="22" />
+                </Property>
+                <Property Index="30" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="337" TextPosY="712" TextSizeX="102" TextSizeY="22" PosX="145" PosY="215" SizeX="102" SizeY="22" />
+                </Property>
+                <Property Index="31" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="337" TextPosY="734" TextSizeX="102" TextSizeY="22" PosX="145" PosY="250" SizeX="102" SizeY="22" />
+                </Property>
+                <Property Index="32" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="337" TextPosY="756" TextSizeX="102" TextSizeY="22" PosX="145" PosY="285" SizeX="102" SizeY="22" />
+                </Property>
+                <Property Index="33" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="337" TextPosY="779" TextSizeX="102" TextSizeY="22" PosX="145" PosY="320" SizeX="102" SizeY="22" />
+                </Property>
+                <Property Index="34" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="337" TextPosY="800" TextSizeX="102" TextSizeY="22" PosX="145" PosY="357" SizeX="102" SizeY="22" />
+                </Property>
+                <Property Index="35" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="337" TextPosY="822" TextSizeX="49" TextSizeY="21" PosX="145" PosY="390" SizeX="49" SizeY="21" />
+                </Property>
+                <Property Index="36" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial.TGA" TextPosX="338" TextPosY="845" TextSizeX="72" TextSizeY="21" PosX="35" PosY="357" SizeX="72" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

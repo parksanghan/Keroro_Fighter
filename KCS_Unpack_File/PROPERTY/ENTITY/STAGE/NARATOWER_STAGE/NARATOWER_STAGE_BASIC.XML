@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="27">
+        <PROPERTYBAG NAME="Nara_tower_bd_01" FILENAME="Nara_tower_bd_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_bd_02" FILENAME="Nara_tower_bd_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_bd_03" FILENAME="Nara_tower_bd_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_bg" FILENAME="Nara_tower_bg.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_bolt" FILENAME="Nara_tower_bolt.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_flower_02" FILENAME="Nara_tower_flower_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_flower_03" FILENAME="Nara_tower_flower_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_iron_bridge" FILENAME="Nara_tower_iron_bridge.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_leaf" FILENAME="Nara_tower_leaf.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_leaf_shadow" FILENAME="Nara_tower_leaf_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_main_01" FILENAME="Nara_tower_main_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_main_02" FILENAME="Nara_tower_main_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_mesh_01" FILENAME="Nara_tower_mesh_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_mesh_02" FILENAME="Nara_tower_mesh_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_nurt" FILENAME="Nara_tower_nurt.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_railroad_bridge" FILENAME="Nara_tower_railroad_bridge.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_top_01" FILENAME="Nara_tower_top_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_top_02" FILENAME="Nara_tower_top_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_top_04" FILENAME="Nara_tower_top_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_water_box" FILENAME="Nara_tower_water_box.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_wire" FILENAME="Nara_tower_wire.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_worf_shadow" FILENAME="Nara_tower_worf_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_yellow_bridge_01" FILENAME="Nara_tower_yellow_bridge_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_yellow_bridge_02" FILENAME="Nara_tower_yellow_bridge_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_yellow_bridge_03" FILENAME="Nara_tower_yellow_bridge_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_plant_line_01" FILENAME="Nara_tower_plant_line_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_plant_line_04" FILENAME="Nara_tower_plant_line_04.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="Nara_tower_cane" FILENAME="Nara_tower_cane.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_fog" FILENAME="Nara_tower_fog.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_light_B00" FILENAME="Nara_tower_light_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_light_B01" FILENAME="Nara_tower_light_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_light_B02.xml" FILENAME="Nara_tower_light_B02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_wind00.xml" FILENAME="Nara_tower_wind00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_tower_wind01.xml" FILENAME="Nara_tower_wind01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Naratower_stage_basic_COMMANDS.XML" />
+</GAMEENTITY>

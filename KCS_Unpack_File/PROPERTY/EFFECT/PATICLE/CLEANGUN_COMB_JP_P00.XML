@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="speakerGan_P01" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.3" X="10" Y="10" Z="10" />
+            <Property Time="0.3" X="15" Y="15" Z="15" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="255" />
+            <Property Time="0.3" Value="255" />
+            <Property Time="0.3" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.6" X="1" Y="1" Z="0" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="CleanGun_JP_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="1" Max="1" />
+        <RepeatCount Count="1" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="0.6" />
+        <RegenTime Min="1" Max="1" />
+        <RotScaleMin X="100" Y="50" Z="0" />
+        <RotScaleMax X="100" Y="50" Z="0" />
+        <RandPosMin X="0" Y="95" Z="-125" />
+        <RandPosMax X="0" Y="95" Z="-125" />
+        <ComboList RefOrder="1" ScaleType="0" PositionType="0" />
+        <Speed Min="55" Max="55" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="115" Y="0" Z="0" />
+        <JetDirMax X="0" Y="0" Z="0" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="20">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1" Y="1" Z="1" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.05" Y="0.05" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2" Y="2" Z="2" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.1" Y="0.1" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3" Y="3" Z="3" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.15" Y="0.15" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4" Y="4" Z="4" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.2" Y="0.2" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5" Y="5" Z="5" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.25" Y="0.25" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6" Y="6" Z="6" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.3" Y="0.3" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7" Y="7" Z="7" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.35" Y="0.35" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8" Y="8" Z="8" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.4" Y="0.4" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9" Y="9" Z="9" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.45" Y="0.45" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10" Y="10" Z="10" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.5" Y="0.5" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.5" Y="10.5" Z="10.5" />
+            <Alpha Value="229.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.55" Y="0.55" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11" Y="11" Z="11" />
+            <Alpha Value="204" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.6" Y="0.6" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.5" Y="11.5" Z="11.5" />
+            <Alpha Value="178.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.65" Y="0.65" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12" Y="12" Z="12" />
+            <Alpha Value="153" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.7" Y="0.7" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.5" Y="12.5" Z="12.5" />
+            <Alpha Value="127.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.75" Y="0.75" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13" Y="13" Z="13" />
+            <Alpha Value="102" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.8" Y="0.8" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.5" Y="13.5" Z="13.5" />
+            <Alpha Value="76.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.85" Y="0.85" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14" Y="14" Z="14" />
+            <Alpha Value="51" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.9" Y="0.9" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.5" Y="14.5" Z="14.5" />
+            <Alpha Value="25.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.95" Y="0.95" Z="0" />
+            <Texture Texture="CleanGun_JP_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

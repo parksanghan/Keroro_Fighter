@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="27">
+        <PROPERTYBAG NAME="BODYD" FILENAME="Sabin_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Sabin_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Sabin_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Sabin_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Sabin_Face.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Sabin_Face01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Sabin_Face02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Sabin_Face03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Sabin_Face04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Sabin_Face05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Sabin_Face06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Sabin_Face07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Sabin_Face08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Sabin_Face.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Sabin_Face01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Sabin_Face02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Sabin_Face03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Sabin_Face04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Sabin_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Sabin_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Sabin_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Sabin_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Sabin_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Sabin_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Sabin_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Sabin_Head07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Sabin_Head08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Sabin_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Sabin_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Sabin_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Sabin_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Sabin_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP" FILENAME="Sabin_Cap.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Human.VS">
+        <PROPERTYBAG NAME="LOSE" FILENAME="Sabin_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Sabin_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Sabin_GAME_LOSE_V1" FILENAME="Sabin_GAME_LOSE_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_GAME_WIN_V1" FILENAME="Sabin_GAME_WIN_V1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="SaBin_Win_E00" FILENAME="SaBin_Win_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SaBin_Win_E01" FILENAME="SaBin_Win_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SaBin_Win_E02" FILENAME="SaBin_Win_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SaBin_Win_E03" FILENAME="SaBin_Win_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SaBin_Win_E04" FILENAME="SaBin_Win_E04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SaBin_Win_E05" FILENAME="SaBin_Win_E05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SaBin_Win_E06" FILENAME="SaBin_Win_E06.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Sabin_Obj_Note" FILENAME="Sabin_Obj_Note.xml" />
+        <PROPERTYBAG NAME="Sabin_Obj_Pencil" FILENAME="Sabin_Obj_Pencil.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Sabin_Result_COMMANDS.XML" />
+</GAMEENTITY>

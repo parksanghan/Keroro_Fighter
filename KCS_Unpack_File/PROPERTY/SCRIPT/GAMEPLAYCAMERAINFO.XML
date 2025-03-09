@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<CameraInfo>
+
+	<Info strName = "WAIT">
+		<Head>
+			<Event Value0 = "0"/>
+			<NextCAH strName = "NORMAL_ZOOM"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "0"/>
+			<CameraSpeed fCameraSpeed = "0.0"/>
+			<WaitMaxTime fWaitMaxTime = "-1"/>
+			<TargetTime fTargetTime = "0.0"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "1" EndEulerX = "0" EndEulerY = "0" EndEulerZ = "0"/>
+			<Distance DistanceX = "0" DistanceY = "0" DistanceZ = "0"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "NORMAL">
+		<Head>
+			<Event Value0 = "1"/>
+			<Event Value0 = "3"/>
+			<Event Value0 = "2"/>
+			<Event Value0 = "4"/>
+			<NextCAH strName = ""/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.5"/>
+			<WaitMaxTime fWaitMaxTime = "-1"/>
+			<TargetTime fTargetTime = "0.5"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "1" EndEulerX = "0" EndEulerY = "25.5" EndEulerZ = "0"/>
+      <Distance DistanceX = "200" DistanceY = "680" DistanceZ = "-1200"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "WAITROOM">
+		<Head>
+			<Event Value0 = "1"/>
+			<Event Value0 = "5"/>
+			<Event Value0 = "4"/>
+			<NextCAH strName = "WAITROOM"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.5"/>
+			<WaitMaxTime fWaitMaxTime = "-1"/>
+			<TargetTime fTargetTime = "0.5"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "18.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "0" DistanceY = "650" DistanceZ = "-1300"/>
+			<LimitMin LimitMinX = "-300" LimitMinY = "0" LimitMinZ = "-2300"/>
+			<LimitMax LimitMaxX = "300" LimitMaxY = "910" LimitMaxZ = "1000"/>
+			<LimitUse bLimitUse = "1"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "TRANSWAITROOM">
+		<Head>
+			<Event Value0 = "1"/>
+			<Event Value0 = "5"/>
+			<Event Value0 = "4"/>
+			<NextCAH strName = "WAITROOM"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.5"/>
+			<WaitMaxTime fWaitMaxTime = "-1"/>
+			<TargetTime fTargetTime = "0.5"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "18.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "0" DistanceY = "800" DistanceZ = "-1500"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "1"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "NORMAL_ZOOM">
+		<Head>
+			<Event Value0 = "1"/>
+			<Event Value0 = "3"/>
+			<Event Value0 = "5"/>
+			<Event Value0 = "4"/>
+			<NextCAH strName = "NORMAL"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.4"/>
+			<WaitMaxTime fWaitMaxTime = "0.01"/>
+			<TargetTime fTargetTime = "0.4"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "25.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "200" DistanceY = "680" DistanceZ = "-1200"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "1"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "ZOOMIN1">
+		<Head>
+			<Event Value0 = "1"/>
+			<Event Value0 = "3"/>
+			<Event Value0 = "2"/>
+			<Event Value0 = "4"/>
+			<NextCAH strName = "NORMAL"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.2"/>
+			<WaitMaxTime fWaitMaxTime = "1.1"/>
+			<TargetTime fTargetTime = "0.2"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "27.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "0" DistanceY = "335" DistanceZ = "-600"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.3"/>
+			<WaitMaxTime fWaitMaxTime = "0.0"/>
+			<TargetTime fTargetTime = "0.3"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "25.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "200" DistanceY = "680" DistanceZ = "-1200"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "ZOOMOUT1">
+		<Head>
+			<Event Value0 = "1"/>
+			<Event Value0 = "3"/>
+			<Event Value0 = "2"/>
+			<Event Value0 = "4"/>
+			<NextCAH strName = "NORMAL"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.3"/>
+			<WaitMaxTime fWaitMaxTime = "1.1"/>
+			<TargetTime fTargetTime = "0.3"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "28.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "0" DistanceY = "950" DistanceZ = "-1400"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.3"/>
+			<WaitMaxTime fWaitMaxTime = "0.0"/>
+			<TargetTime fTargetTime = "0.3"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "25.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "200" DistanceY = "680" DistanceZ = "-1200"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "MOVESTOP">
+		<Head>
+			<Event Value0 = "1"/>
+			<Event Value0 = "3"/>
+			<Event Value0 = "2"/>
+			<Event Value0 = "4"/>
+			<NextCAH strName = "NORMAL"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.4"/>
+			<WaitMaxTime fWaitMaxTime = "0.01"/>
+			<TargetTime fTargetTime = "0.4"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "25.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "550" DistanceY = "680" DistanceZ = "-1200"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.2"/>
+			<WaitMaxTime fWaitMaxTime = "0.2"/>
+			<TargetTime fTargetTime = "0.2"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "25.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "200" DistanceY = "680" DistanceZ = "-1200"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+	</Info>
+
+	<Info strName = "WARP">
+		<Head>
+			<Event Value0 = "6"/>
+			<NextCAH strName = "NORMAL"/>
+		</Head>
+		<Stream>
+			<Target bTarget = "1"/>
+			<CameraSpeed fCameraSpeed = "0.5"/>
+			<WaitMaxTime fWaitMaxTime = "0.1"/>
+			<TargetTime fTargetTime = "0.5"/>
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "25.5" EndEulerZ = "0"/>
+			<Distance DistanceX = "0" DistanceY = "680" DistanceZ = "-1200"/>
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+	</Info>
+
+  <Info strName = "TOWN">
+    <Head>
+      <Event Value0 = "1"/>
+      <Event Value0 = "5"/>
+      <Event Value0 = "4"/>
+      <NextCAH strName = "TOWN"/>
+    </Head>
+    <Stream>
+      <Target bTarget = "1"/>
+      <CameraSpeed fCameraSpeed = "0.5"/>
+      <WaitMaxTime fWaitMaxTime = "-1"/>
+      <TargetTime fTargetTime = "0.5"/>
+      <Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+      <Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+      <Euler bEqual = "0" EndEulerX = "0" EndEulerY = "18.5" EndEulerZ = "0"/>
+      <Distance DistanceX = "0" DistanceY = "800" DistanceZ = "-1500"/>
+      <LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+      <LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+      <LimitUse bLimitUse = "1"/>
+    </Stream>
+  </Info>
+
+  <!-- 카메라 이벤트 이름 -->
+	<InfoExample strName = "Example">
+		<Head>
+			<!-- 0 : 대기 1 : 기본작업 2 : 스프링 3 : 흔들림 4 : 이동제한 5 : 노스프링 6 : 워프 -->
+			<Event Value0 = "1"/>
+			<Event Value0 = "3"/>
+			<Event Value0 = "2"/>
+			<Event Value0 = "4"/>
+			<!-- 현재 이벤트 종료시 다음 진행 이벤트 -->
+			<NextCAH strName = "NORMAL"/>
+		</Head>
+		<!-- 아래의 Stream을 여러개 구성하면 카메라 트랙을 구성할 수 있습니다 -->
+		<Stream>
+			<!-- 타겟을 따라다닐지의 여부 -->
+			<Target bTarget = "1"/>
+			<!-- 이벤트 대기시간중 카메라 속도 -->
+			<CameraSpeed fCameraSpeed = "0.4"/>
+			<!-- 이벤트 대기 시간, -1이면 무한대기 -->
+			<WaitMaxTime fWaitMaxTime = "1.5"/>
+			<!-- 현 Stream의 처리 시간, 이후 대기시간으로 이양 -->
+			<TargetTime fTargetTime = "0.3"/>
+			<!-- 이전 위치와 다음 위치를 동일하게 처리할것인지, 그렇지 않다면 EndPos의 값을 참조해 처리 -->
+			<Pos bEqual = "1" EndPosX = "0" EndPosY = "0" EndPosZ = "0"/>
+			<!-- 이전 위치회전과 다음 위치회전을 동일하게 처리할것인지, 그렇지 않다면 EndRot의 값을 참조해 처리 -->
+			<Rot bEqual = "1" EndRotX = "0" EndRotY = "0" EndRotZ = "0"/>
+			<!-- 오일러(제자리회전)값을 이전값과 현재값을 동일하게 처리할 것인지, 그렇지 않다면 EndEuler의 값을 참조해 처리 -->
+			<Euler bEqual = "0" EndEulerX = "0" EndEulerY = "18.5" EndEulerZ = "0"/>
+			<!-- 캐릭터와의 간격 -->
+			<Distance DistanceX = "0" DistanceY = "220" DistanceZ = "-600"/>
+			<!-- 카메라 이동 최소제한값 -->
+			<LimitMin LimitMinX = "-10000" LimitMinY = "-10000" LimitMinZ = "-10000"/>
+			<!-- 카메라 이동 최대제한값 -->
+			<LimitMax LimitMaxX = "10000" LimitMaxY = "10000" LimitMaxZ = "10000"/>
+			<!-- 현 Stream에서 이 이동제한값을 쓸것인지(1), 기본제한값을 쓸것인지(0) -->
+			<LimitUse bLimitUse = "0"/>
+		</Stream>
+	</InfoExample>
+</CameraInfo>

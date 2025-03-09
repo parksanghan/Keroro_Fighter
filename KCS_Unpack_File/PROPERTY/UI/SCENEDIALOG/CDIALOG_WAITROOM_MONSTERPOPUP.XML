@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_WaitRoom_MonsterPopUp.xml" PosX="230" PosY="234" SizeX="649" SizeY="371" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.700" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="804" TextPosY="2" TextSizeX="19" TextSizeY="371" PosX="28" PosY="0" SizeX="520" SizeY="371" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_waiting room.TGA" TextPosX="775" TextPosY="2" TextSizeX="28" TextSizeY="371" PosX="0" PosY="0" SizeX="28" SizeY="371" />
+            <Element index="5" TextName="GUI_waiting room.TGA" TextPosX="824" TextPosY="2" TextSizeX="28" TextSizeY="371" PosX="548" PosY="0" SizeX="28" SizeY="371" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.699" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="439" TextPosY="391" TextSizeX="97" TextSizeY="20" PosX="250" PosY="16" SizeX="97" SizeY="20" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.705" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-230" PosY="-234" SizeX="1024" SizeY="768" />
+        </Property>
+        <Property Index="3" RenderStyle="1" Depth="0.699" Show="1">
+            <Element index="0" TextName="GUI_waiting room2.TGA" TextPosX="272" TextPosY="22" TextSizeX="15" TextSizeY="15" PosX="30" PosY="69" SizeX="236" SizeY="77" />
+            <Element index="1" TextName="GUI_waiting room2.TGA" TextPosX="253" TextPosY="3" TextSizeX="18" TextSizeY="18" PosX="12" PosY="51" SizeX="18" SizeY="18" />
+            <Element index="2" TextName="GUI_waiting room2.TGA" TextPosX="272" TextPosY="3" TextSizeX="15" TextSizeY="18" PosX="30" PosY="51" SizeX="236" SizeY="18" />
+            <Element index="3" TextName="GUI_waiting room2.TGA" TextPosX="288" TextPosY="3" TextSizeX="18" TextSizeY="18" PosX="266" PosY="51" SizeX="18" SizeY="18" />
+            <Element index="4" TextName="GUI_waiting room2.TGA" TextPosX="253" TextPosY="22" TextSizeX="18" TextSizeY="15" PosX="12" PosY="69" SizeX="18" SizeY="77" />
+            <Element index="5" TextName="GUI_waiting room2.TGA" TextPosX="288" TextPosY="22" TextSizeX="18" TextSizeY="15" PosX="266" PosY="69" SizeX="18" SizeY="77" />
+            <Element index="6" TextName="GUI_waiting room2.TGA" TextPosX="253" TextPosY="38" TextSizeX="18" TextSizeY="18" PosX="12" PosY="146" SizeX="18" SizeY="18" />
+            <Element index="7" TextName="GUI_waiting room2.TGA" TextPosX="272" TextPosY="38" TextSizeX="15" TextSizeY="18" PosX="30" PosY="146" SizeX="236" SizeY="18" />
+            <Element index="8" TextName="GUI_waiting room2.TGA" TextPosX="288" TextPosY="38" TextSizeX="18" TextSizeY="18" PosX="266" PosY="146" SizeX="18" SizeY="18" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="17" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="70" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="123" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="7" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="176" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="8" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="229" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="9" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="17" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="10" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="70" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="11" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="123" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="12" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="176" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="13" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="229" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="14" RenderStyle="1" Depth="0.699" Show="1">
+            <Element index="0" TextName="GUI_waiting room2.TGA" TextPosX="272" TextPosY="22" TextSizeX="15" TextSizeY="15" PosX="310" PosY="69" SizeX="236" SizeY="183" />
+            <Element index="1" TextName="GUI_waiting room2.TGA" TextPosX="253" TextPosY="3" TextSizeX="18" TextSizeY="18" PosX="292" PosY="51" SizeX="18" SizeY="18" />
+            <Element index="2" TextName="GUI_waiting room2.TGA" TextPosX="272" TextPosY="3" TextSizeX="15" TextSizeY="18" PosX="310" PosY="51" SizeX="236" SizeY="18" />
+            <Element index="3" TextName="GUI_waiting room2.TGA" TextPosX="288" TextPosY="3" TextSizeX="18" TextSizeY="18" PosX="546" PosY="51" SizeX="18" SizeY="18" />
+            <Element index="4" TextName="GUI_waiting room2.TGA" TextPosX="253" TextPosY="22" TextSizeX="18" TextSizeY="15" PosX="292" PosY="69" SizeX="18" SizeY="183" />
+            <Element index="5" TextName="GUI_waiting room2.TGA" TextPosX="288" TextPosY="22" TextSizeX="18" TextSizeY="15" PosX="546" PosY="69" SizeX="18" SizeY="183" />
+            <Element index="6" TextName="GUI_waiting room2.TGA" TextPosX="253" TextPosY="38" TextSizeX="18" TextSizeY="18" PosX="292" PosY="252" SizeX="18" SizeY="18" />
+            <Element index="7" TextName="GUI_waiting room2.TGA" TextPosX="272" TextPosY="38" TextSizeX="15" TextSizeY="18" PosX="310" PosY="252" SizeX="236" SizeY="18" />
+            <Element index="8" TextName="GUI_waiting room2.TGA" TextPosX="288" TextPosY="38" TextSizeX="18" TextSizeY="18" PosX="546" PosY="252" SizeX="18" SizeY="18" />
+        </Property>
+        <Property Index="15" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="297" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="16" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="350" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="17" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="403" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="18" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="456" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="19" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="509" PosY="56" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="20" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="297" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="21" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="350" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="22" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="403" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="23" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="456" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="24" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="509" PosY="109" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="25" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="297" PosY="162" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="26" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="350" PosY="162" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="27" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="403" PosY="162" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="28" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="456" PosY="162" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="29" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="509" PosY="162" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="30" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="297" PosY="215" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="31" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="350" PosY="215" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="32" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="403" PosY="215" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="33" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="456" PosY="215" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="34" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="201" TextPosY="307" TextSizeX="50" TextSizeY="50" PosX="509" PosY="215" SizeX="50" SizeY="50" />
+        </Property>
+        <Property Index="35" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="304" TextPosY="314" TextSizeX="219" TextSizeY="27" PosX="33" PosY="188" SizeX="219" SizeY="27" />
+        </Property>
+        <Property Index="36" RenderStyle="0" Depth="0.698" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="304" TextPosY="346" TextSizeX="232" TextSizeY="41" PosX="32" PosY="231" SizeX="232" SizeY="41" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Monster_Close" ClassName="CKeroroUI_Button" PosX="535" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.699" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Cancel" ClassName="CKeroroUI_Button" PosX="296" PosY="312" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.699" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Done" ClassName="CKeroroUI_Button" PosX="196" PosY="312" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.699" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="238" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_PageDown" ClassName="CKeroroUI_Button" PosX="385" PosY="277" SizeX="26" SizeY="19" Disable="1" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.699" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="142" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_PageUp" ClassName="CKeroroUI_Button" PosX="453" PosY="277" SizeX="26" SizeY="19" Disable="1" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.699" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="115" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="169" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_PageCount" ClassName="CKeroroUI_Number" PosX="425" PosY="278" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" Number="1" StartPosX="88" StartPosY="447" SizeX="13" SizeY="18" NextTermX="14" NextTermY="0" ShowPosX="0" ShowPosY="0" ShowNextTermX="0" ShowNextTermY="0" TextureName="GUI_button.tga" Depth="0.660000" />
+        </Property>
+        <Property Name="Monster_MonsterList_1" ClassName="CKeroroUI_IconButton" PosX="298" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="175" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="175" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_MonsterList_2" ClassName="CKeroroUI_IconButton" PosX="351" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="228" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="228" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_MonsterList_3" ClassName="CKeroroUI_IconButton" PosX="404" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="281" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="281" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_MonsterList_4" ClassName="CKeroroUI_IconButton" PosX="457" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="387" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="387" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_MonsterList_5" ClassName="CKeroroUI_IconButton" PosX="510" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="175" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="175" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_MonsterList_6" ClassName="CKeroroUI_IconButton" PosX="298" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="281" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="281" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_MonsterList_7" ClassName="CKeroroUI_IconButton" PosX="351" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="334" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="334" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_MonsterList_8" ClassName="CKeroroUI_IconButton" PosX="404" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="334" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                    <Element ControlState="4" index="0" TextName="GUI_waiting room.TGA" TextPosX="334" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_0" ClassName="CKeroroUI_IconButton" PosX="18" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="175" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_1" ClassName="CKeroroUI_IconButton" PosX="71" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="228" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_2" ClassName="CKeroroUI_IconButton" PosX="124" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="281" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_3" ClassName="CKeroroUI_IconButton" PosX="177" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="387" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_4" ClassName="CKeroroUI_IconButton" PosX="230" PosY="57" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="175" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_5" ClassName="CKeroroUI_IconButton" PosX="18" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="281" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_6" ClassName="CKeroroUI_IconButton" PosX="71" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="334" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_7" ClassName="CKeroroUI_IconButton" PosX="124" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="334" TextPosY="445" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_8" ClassName="CKeroroUI_IconButton" PosX="177" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="387" TextPosY="392" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="48" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Slot_9" ClassName="CKeroroUI_IconButton" PosX="230" PosY="110" SizeX="48" SizeY="48" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.689" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="254" TextPosY="310" TextSizeX="44" TextSizeY="44" PosX="2" PosY="2" SizeX="44" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

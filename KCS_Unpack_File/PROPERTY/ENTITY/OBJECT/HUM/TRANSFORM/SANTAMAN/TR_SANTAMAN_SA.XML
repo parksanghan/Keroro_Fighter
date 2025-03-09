@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="CosH_Xmas_Bodyu_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND_H" FILENAME="CosH_Xmas_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP_H" FILENAME="CosH_Xmas_Cap_Sa_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP01" FILENAME="CosH_Xmas_Cap_Sa_2.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="CosH_Xmas_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="Cos_empty.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAIR_H" FILENAME="Cos_empty.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="TR_Santaman_Sa_COMMANDS.XML" />
+</GAMEENTITY>

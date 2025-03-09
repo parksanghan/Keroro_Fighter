@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<OctreeInformation>
+    <OctManagerInfo CurSubDivisionCount="0" MaxSubDivisionCount="3" MaxVertPerNode="50" LeafNodeCount="2" MaxIndexOfNode="1" />
+    <OctNodeInfo IndexOfNode="0" SubDevided="0" CenterX="21938.197" CenterY="2357.417" CenterZ="-48.785" Width="41311.863">
+        <POLYINDEX INDEX="0" />
+        <POLYINDEX INDEX="1" />
+        <POLYINDEX INDEX="2" />
+        <POLYINDEX INDEX="3" />
+        <POLYINDEX INDEX="4" />
+        <POLYINDEX INDEX="5" />
+        <POLYINDEX INDEX="6" />
+        <POLYINDEX INDEX="7" />
+        <POLYINDEX INDEX="8" />
+        <POLYINDEX INDEX="9" />
+        <FLATINDEX INDEX="0" />
+        <FLATINDEX INDEX="1" />
+        <WALLINDEX INDEX="2" />
+        <WALLINDEX INDEX="3" />
+        <WALLINDEX INDEX="4" />
+        <WALLINDEX INDEX="5" />
+        <WALLINDEX INDEX="6" />
+        <WALLINDEX INDEX="7" />
+        <WALLINDEX INDEX="8" />
+        <WALLINDEX INDEX="9" />
+    </OctNodeInfo>
+</OctreeInformation>

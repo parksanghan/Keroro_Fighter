@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<UIXMLFile>
+    <DialogCount DialogNum="1">
+        <DialogDetailInfo0 DialogName="Dialog_Option" DialogChildCount="39">
+            <DialogSizeInfo DialogPosX="190" DialogPosY="146" DialogSizeX="755" DialogSizeY="540">
+                <CONTROLINFO0 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="1" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_Option" CONTROLPOSX="0" CONTROLPOSY="0" CONTROLSIZEX="755" CONTROLSIZEY="540" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="190.000000" POSTION_Y="146.000000" POSTION_Z="0.000100" SCALE_X="377.500000" SCLAE_Y="270.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="5" IDNAME="5" />
+                        <TEXDETAILINFO1 DRAW="1" ID="5" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="579" RECT_BOTTOM="536" POSTION_X="190.000000" POSTION_Y="145.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO0>
+                <CONTROLINFO1 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusic" CONTROLPOSX="74" CONTROLPOSY="79" CONTROLSIZEX="31" CONTROLSIZEY="27" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="264.000000" POSTION_Y="225.000000" POSTION_Z="0.000100" SCALE_X="15.500000" SCLAE_Y="13.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="GUI_Option.tga" RECT_LEFT="668" RECT_TOP="130" RECT_RIGHT="686" RECT_BOTTOM="161" POSTION_X="274.000000" POSTION_Y="223.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="GUI_Option.tga" RECT_LEFT="699" RECT_TOP="131" RECT_RIGHT="718" RECT_BOTTOM="158" POSTION_X="273.000000" POSTION_Y="224.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="667" RECT_TOP="132" RECT_RIGHT="686" RECT_BOTTOM="159" POSTION_X="273.000000" POSTION_Y="225.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO1>
+                <CONTROLINFO2 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusicDown" CONTROLPOSX="121" CONTROLPOSY="79" CONTROLSIZEX="24" CONTROLSIZEY="27" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="311.000000" POSTION_Y="225.000000" POSTION_Z="0.000100" SCALE_X="12.000000" SCLAE_Y="13.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="643" RECT_TOP="130" RECT_RIGHT="655" RECT_BOTTOM="150" POSTION_X="315.000000" POSTION_Y="228.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="644" RECT_TOP="151" RECT_RIGHT="655" RECT_BOTTOM="170" POSTION_X="316.000000" POSTION_Y="229.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="642" RECT_TOP="170" RECT_RIGHT="655" RECT_BOTTOM="191" POSTION_X="314.000000" POSTION_Y="228.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO2>
+                <CONTROLINFO3 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusicUp" CONTROLPOSX="447" CONTROLPOSY="79" CONTROLSIZEX="47" CONTROLSIZEY="26" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="637.000000" POSTION_Y="225.000000" POSTION_Z="0.000100" SCALE_X="23.500000" SCLAE_Y="13.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="655" RECT_TOP="131" RECT_RIGHT="667" RECT_BOTTOM="150" POSTION_X="644.000000" POSTION_Y="228.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="655" RECT_TOP="150" RECT_RIGHT="668" RECT_BOTTOM="170" POSTION_X="644.000000" POSTION_Y="227.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="655" RECT_TOP="170" RECT_RIGHT="668" RECT_BOTTOM="190" POSTION_X="644.000000" POSTION_Y="227.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO3>
+                <CONTROLINFO4 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusic1" CONTROLPOSX="148" CONTROLPOSY="74" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="338.000000" POSTION_Y="220.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="582" RECT_TOP="130" RECT_RIGHT="643" RECT_BOTTOM="149" POSTION_X="334.000000" POSTION_Y="227.000000" POSTION_Z="0.002000" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO4>
+                <CONTROLINFO5 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusic2" CONTROLPOSX="208" CONTROLPOSY="74" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="398.000000" POSTION_Y="220.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="130" RECT_RIGHT="643" RECT_BOTTOM="149" POSTION_X="394.000000" POSTION_Y="227.000000" POSTION_Z="0.002000" SCALE_X="1.016667" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO5>
+                <CONTROLINFO6 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusic3" CONTROLPOSX="268" CONTROLPOSY="74" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="458.000000" POSTION_Y="220.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="130" RECT_RIGHT="643" RECT_BOTTOM="149" POSTION_X="455.000000" POSTION_Y="227.000000" POSTION_Z="0.002000" SCALE_X="1.016667" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO6>
+                <CONTROLINFO7 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusic4" CONTROLPOSX="328" CONTROLPOSY="74" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="518.000000" POSTION_Y="220.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="130" RECT_RIGHT="643" RECT_BOTTOM="149" POSTION_X="515.000000" POSTION_Y="227.000000" POSTION_Z="0.002000" SCALE_X="1.016667" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO7>
+                <CONTROLINFO8 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusic5" CONTROLPOSX="388" CONTROLPOSY="74" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="578.000000" POSTION_Y="220.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="130" RECT_RIGHT="643" RECT_BOTTOM="149" POSTION_X="575.000000" POSTION_Y="227.000000" POSTION_Z="0.002000" SCALE_X="1.016667" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO8>
+                <CONTROLINFO9 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="2" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusicOnOff" CONTROLPOSX="102" CONTROLPOSY="79" CONTROLSIZEX="20" CONTROLSIZEY="27" ETCINFO="3">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="292.000000" POSTION_Y="225.000000" POSTION_Z="0.000100" SCALE_X="10.000000" SCLAE_Y="13.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="685" RECT_TOP="131" RECT_RIGHT="696" RECT_BOTTOM="158" POSTION_X="292.000000" POSTION_Y="225.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="2" IDNAME="2" />
+                        <TEXDETAILINFO2 DRAW="0" ID="2" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="718" RECT_TOP="133" RECT_RIGHT="736" RECT_BOTTOM="156" POSTION_X="292.000000" POSTION_Y="225.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO9>
+                <CONTROLINFO10 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSound1" CONTROLPOSX="148" CONTROLPOSY="145" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="338.000000" POSTION_Y="291.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="149" RECT_RIGHT="644" RECT_BOTTOM="168" POSTION_X="335.000000" POSTION_Y="297.000000" POSTION_Z="0.002000" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO10>
+                <CONTROLINFO11 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSound2" CONTROLPOSX="208" CONTROLPOSY="145" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="398.000000" POSTION_Y="291.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="584" RECT_TOP="149" RECT_RIGHT="643" RECT_BOTTOM="168" POSTION_X="396.000000" POSTION_Y="297.000000" POSTION_Z="0.002000" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO11>
+                <CONTROLINFO12 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSound3" CONTROLPOSX="268" CONTROLPOSY="145" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="458.000000" POSTION_Y="291.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="584" RECT_TOP="149" RECT_RIGHT="643" RECT_BOTTOM="168" POSTION_X="456.000000" POSTION_Y="297.000000" POSTION_Z="0.002000" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO12>
+                <CONTROLINFO13 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSound4" CONTROLPOSX="328" CONTROLPOSY="145" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="518.000000" POSTION_Y="291.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="584" RECT_TOP="149" RECT_RIGHT="643" RECT_BOTTOM="168" POSTION_X="516.000000" POSTION_Y="297.000000" POSTION_Z="0.002000" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO13>
+                <CONTROLINFO14 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSound5" CONTROLPOSX="388" CONTROLPOSY="145" CONTROLSIZEX="57" CONTROLSIZEY="34" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="578.000000" POSTION_Y="291.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="584" RECT_TOP="149" RECT_RIGHT="643" RECT_BOTTOM="168" POSTION_X="576.000000" POSTION_Y="297.000000" POSTION_Z="0.002000" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO14>
+                <CONTROLINFO15 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSound" CONTROLPOSX="74" CONTROLPOSY="149" CONTROLSIZEX="31" CONTROLSIZEY="27" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="264.000000" POSTION_Y="295.000000" POSTION_Z="0.000100" SCALE_X="15.500000" SCLAE_Y="13.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="668" RECT_TOP="130" RECT_RIGHT="686" RECT_BOTTOM="159" POSTION_X="274.000000" POSTION_Y="293.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="668" RECT_TOP="130" RECT_RIGHT="686" RECT_BOTTOM="159" POSTION_X="274.000000" POSTION_Y="293.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="699" RECT_TOP="131" RECT_RIGHT="717" RECT_BOTTOM="160" POSTION_X="273.000000" POSTION_Y="294.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO15>
+                <CONTROLINFO16 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="2" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSoundOnOff" CONTROLPOSX="102" CONTROLPOSY="149" CONTROLSIZEX="20" CONTROLSIZEY="27" ETCINFO="3">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="292.000000" POSTION_Y="295.000000" POSTION_Z="0.000100" SCALE_X="10.000000" SCLAE_Y="13.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="685" RECT_TOP="131" RECT_RIGHT="696" RECT_BOTTOM="157" POSTION_X="292.000000" POSTION_Y="295.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="2" IDNAME="2" />
+                        <TEXDETAILINFO2 DRAW="0" ID="2" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="718" RECT_TOP="133" RECT_RIGHT="736" RECT_BOTTOM="156" POSTION_X="292.000000" POSTION_Y="295.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO16>
+                <CONTROLINFO17 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSoundDown" CONTROLPOSX="121" CONTROLPOSY="149" CONTROLSIZEX="24" CONTROLSIZEY="27" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="311.000000" POSTION_Y="295.000000" POSTION_Z="0.000100" SCALE_X="12.000000" SCLAE_Y="13.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="643" RECT_TOP="130" RECT_RIGHT="655" RECT_BOTTOM="151" POSTION_X="315.000000" POSTION_Y="297.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="643" RECT_TOP="150" RECT_RIGHT="655" RECT_BOTTOM="171" POSTION_X="315.000000" POSTION_Y="297.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="643" RECT_TOP="170" RECT_RIGHT="655" RECT_BOTTOM="191" POSTION_X="315.000000" POSTION_Y="297.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO17>
+                <CONTROLINFO18 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectSoundUp" CONTROLPOSX="447" CONTROLPOSY="149" CONTROLSIZEX="47" CONTROLSIZEY="26" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="637.000000" POSTION_Y="295.000000" POSTION_Z="0.000100" SCALE_X="23.500000" SCLAE_Y="13.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="655" RECT_TOP="130" RECT_RIGHT="667" RECT_BOTTOM="151" POSTION_X="644.000000" POSTION_Y="297.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="655" RECT_TOP="150" RECT_RIGHT="667" RECT_BOTTOM="171" POSTION_X="644.000000" POSTION_Y="297.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="655" RECT_TOP="170" RECT_RIGHT="667" RECT_BOTTOM="191" POSTION_X="644.000000" POSTION_Y="297.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO18>
+                <CONTROLINFO19 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_GraphicUp" CONTROLPOSX="135" CONTROLPOSY="223" CONTROLSIZEX="121" CONTROLSIZEY="29" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="325.000000" POSTION_Y="369.000000" POSTION_Z="0.000100" SCALE_X="60.500000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="168" RECT_RIGHT="593" RECT_BOTTOM="177" POSTION_X="332.000000" POSTION_Y="378.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO19>
+                <CONTROLINFO20 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_SpeedUp" CONTROLPOSX="337" CONTROLPOSY="222" CONTROLSIZEX="100" CONTROLSIZEY="29" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="527.000000" POSTION_Y="368.000000" POSTION_Z="0.000100" SCALE_X="50.000000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="168" RECT_RIGHT="593" RECT_BOTTOM="177" POSTION_X="534.000000" POSTION_Y="378.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO20>
+                <CONTROLINFO21 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectOff" CONTROLPOSX="133" CONTROLPOSY="304" CONTROLSIZEX="124" CONTROLSIZEY="28" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="323.000000" POSTION_Y="450.000000" POSTION_Z="0.000100" SCALE_X="62.000000" SCLAE_Y="14.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="168" RECT_RIGHT="593" RECT_BOTTOM="177" POSTION_X="332.000000" POSTION_Y="458.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO21>
+                <CONTROLINFO22 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectOn" CONTROLPOSX="336" CONTROLPOSY="301" CONTROLSIZEX="102" CONTROLSIZEY="29" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="526.000000" POSTION_Y="447.000000" POSTION_Z="0.000100" SCALE_X="51.000000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="168" RECT_RIGHT="593" RECT_BOTTOM="177" POSTION_X="534.000000" POSTION_Y="457.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO22>
+                <CONTROLINFO23 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Friend" CONTROLPOSX="25" CONTROLPOSY="376" CONTROLSIZEX="165" CONTROLSIZEY="29" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="215.000000" POSTION_Y="522.000000" POSTION_Z="0.000100" SCALE_X="82.500000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="595" RECT_TOP="170" RECT_RIGHT="613" RECT_BOTTOM="186" POSTION_X="221.000000" POSTION_Y="524.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO23>
+                <CONTROLINFO24 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Communication" CONTROLPOSX="225" CONTROLPOSY="375" CONTROLSIZEX="177" CONTROLSIZEY="33" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="415.000000" POSTION_Y="521.000000" POSTION_Z="0.000100" SCALE_X="88.500000" SCLAE_Y="16.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="594" RECT_TOP="170" RECT_RIGHT="611" RECT_BOTTOM="186" POSTION_X="422.000000" POSTION_Y="526.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO24>
+                <CONTROLINFO25 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Memo" CONTROLPOSX="434" CONTROLPOSY="375" CONTROLSIZEX="119" CONTROLSIZEY="29" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="624.000000" POSTION_Y="521.000000" POSTION_Z="0.000100" SCALE_X="59.500000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="594" RECT_TOP="170" RECT_RIGHT="611" RECT_BOTTOM="186" POSTION_X="630.000000" POSTION_Y="524.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO25>
+                <CONTROLINFO26 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Help" CONTROLPOSX="120" CONTROLPOSY="447" CONTROLSIZEX="120" CONTROLSIZEY="29" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="310.000000" POSTION_Y="593.000000" POSTION_Z="0.000100" SCALE_X="60.000000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="594" RECT_TOP="170" RECT_RIGHT="611" RECT_BOTTOM="186" POSTION_X="317.000000" POSTION_Y="597.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO26>
+                <CONTROLINFO27 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Charlimitation" CONTROLPOSX="323" CONTROLPOSY="448" CONTROLSIZEX="158" CONTROLSIZEY="29" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="513.000000" POSTION_Y="594.000000" POSTION_Z="0.000100" SCALE_X="79.000000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="594" RECT_TOP="170" RECT_RIGHT="611" RECT_BOTTOM="186" POSTION_X="518.000000" POSTION_Y="597.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO27>
+                <CONTROLINFO28 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Exit" CONTROLPOSX="539" CONTROLPOSY="12" CONTROLSIZEX="23" CONTROLSIZEY="22" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="729.000000" POSTION_Y="158.000000" POSTION_Z="0.000100" SCALE_X="11.500000" SCLAE_Y="11.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="579" RECT_TOP="14" RECT_RIGHT="603" RECT_BOTTOM="36" POSTION_X="727.000000" POSTION_Y="157.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="603" RECT_TOP="14" RECT_RIGHT="626" RECT_BOTTOM="36" POSTION_X="728.000000" POSTION_Y="157.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="626" RECT_TOP="14" RECT_RIGHT="649" RECT_BOTTOM="36" POSTION_X="728.000000" POSTION_Y="157.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO28>
+                <CONTROLINFO29 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Ok" CONTROLPOSX="189" CONTROLPOSY="492" CONTROLSIZEX="93" CONTROLSIZEY="29" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="379.000000" POSTION_Y="638.000000" POSTION_Z="0.000100" SCALE_X="46.500000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="581" RECT_TOP="39" RECT_RIGHT="677" RECT_BOTTOM="70" POSTION_X="375.000000" POSTION_Y="636.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="585" RECT_TOP="70" RECT_RIGHT="677" RECT_BOTTOM="100" POSTION_X="379.000000" POSTION_Y="637.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="585" RECT_TOP="100" RECT_RIGHT="677" RECT_BOTTOM="130" POSTION_X="378.000000" POSTION_Y="636.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO29>
+                <CONTROLINFO30 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="ok">
+                    <CONTROLSKININFO CONTROLNAME="Button_Close" CONTROLPOSX="305" CONTROLPOSY="492" CONTROLSIZEX="93" CONTROLSIZEY="29" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="495.000000" POSTION_Y="638.000000" POSTION_Z="0.000100" SCALE_X="46.500000" SCLAE_Y="14.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="677" RECT_TOP="40" RECT_RIGHT="769" RECT_BOTTOM="70" POSTION_X="494.000000" POSTION_Y="637.000000" POSTION_Z="0.000400" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="677" RECT_TOP="70" RECT_RIGHT="769" RECT_BOTTOM="100" POSTION_X="494.000000" POSTION_Y="637.000000" POSTION_Z="0.000300" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="678" RECT_TOP="100" RECT_RIGHT="770" RECT_BOTTOM="130" POSTION_X="494.000000" POSTION_Y="637.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO30>
+                <CONTROLINFO31 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_BackMusicEx" CONTROLPOSX="456" CONTROLPOSY="36" CONTROLSIZEX="279" CONTROLSIZEY="45" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="646.000000" POSTION_Y="182.000000" POSTION_Z="0.000100" SCALE_X="139.500000" SCLAE_Y="22.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="189" RECT_RIGHT="858" RECT_BOTTOM="229" POSTION_X="646.000000" POSTION_Y="182.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO31>
+                <CONTROLINFO32 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_SoundEx" CONTROLPOSX="459" CONTROLPOSY="111" CONTROLSIZEX="278" CONTROLSIZEY="44" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="649.000000" POSTION_Y="257.000000" POSTION_Z="0.000100" SCALE_X="139.000000" SCLAE_Y="22.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="587" RECT_TOP="230" RECT_RIGHT="857" RECT_BOTTOM="267" POSTION_X="649.000000" POSTION_Y="257.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO32>
+                <CONTROLINFO33 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_GraphicEx" CONTROLPOSX="456" CONTROLPOSY="175" CONTROLSIZEX="280" CONTROLSIZEY="94" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="646.000000" POSTION_Y="321.000000" POSTION_Z="0.000100" SCALE_X="140.000000" SCLAE_Y="47.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="583" RECT_TOP="269" RECT_RIGHT="861" RECT_BOTTOM="362" POSTION_X="646.000000" POSTION_Y="321.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO33>
+                <CONTROLINFO34 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_EffectEx" CONTROLPOSX="457" CONTROLPOSY="255" CONTROLSIZEX="278" CONTROLSIZEY="59" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="647.000000" POSTION_Y="401.000000" POSTION_Z="0.000100" SCALE_X="139.000000" SCLAE_Y="29.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="587" RECT_TOP="359" RECT_RIGHT="862" RECT_BOTTOM="415" POSTION_X="647.000000" POSTION_Y="401.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO34>
+                <CONTROLINFO35 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_MsgEx" CONTROLPOSX="457" CONTROLPOSY="323" CONTROLSIZEX="293" CONTROLSIZEY="60" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="647.000000" POSTION_Y="469.000000" POSTION_Z="0.000100" SCALE_X="146.500000" SCLAE_Y="30.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="584" RECT_TOP="416" RECT_RIGHT="879" RECT_BOTTOM="478" POSTION_X="647.000000" POSTION_Y="469.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO35>
+                <CONTROLINFO36 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_HelpEx" CONTROLPOSX="149" CONTROLPOSY="409" CONTROLSIZEX="296" CONTROLSIZEY="44" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="339.000000" POSTION_Y="555.000000" POSTION_Z="0.000100" SCALE_X="148.000000" SCLAE_Y="22.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="586" RECT_TOP="476" RECT_RIGHT="881" RECT_BOTTOM="517" POSTION_X="339.000000" POSTION_Y="555.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO36>
+                <CONTROLINFO37 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_CharlimitEx" CONTROLPOSX="344" CONTROLPOSY="404" CONTROLSIZEX="280" CONTROLSIZEY="53" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="534.000000" POSTION_Y="550.000000" POSTION_Z="0.000100" SCALE_X="140.000000" SCLAE_Y="26.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="0" ID="1" TextureFileName="kt_ui_Option_Kerotown.tga" RECT_LEFT="584" RECT_TOP="517" RECT_RIGHT="860" RECT_BOTTOM="567" POSTION_X="534.000000" POSTION_Y="550.000000" POSTION_Z="0.000200" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO37>
+                <CONTROLINFO38 MoveControl="1" SkinControl="0" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="CONTROL40" CONTROLPOSX="9" CONTROLPOSY="6" CONTROLSIZEX="525" CONTROLSIZEY="30" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background1.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="199.000000" POSTION_Y="152.000000" POSTION_Z="0.000100" SCALE_X="262.500000" SCLAE_Y="15.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO38>
+            </DialogSizeInfo>
+        </DialogDetailInfo0>
+    </DialogCount>
+    <DIALOGSOUNDINFO SOUNDCOUNT="2">
+        <SoundDetailInfo0 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="OK" />
+        <SoundDetailInfo1 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="ok" />
+    </DIALOGSOUNDINFO>
+</UIXMLFile>

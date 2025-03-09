@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="ANIOB_ANTENNA" FILENAME="Kuru_Aniob_Antenna.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Kuru_Aniob_Antenna.VS">
+        <PROPERTYBAG NAME="ITM_COUNTER_ATK" FILENAME="Kuru_Itm_Combat_Ready.VA" COMMENT="" />
+        <PROPERTYBAG NAME="ITM_D_COMBO_03" FILENAME="Kuru_Itm_D_Combo_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="ITM_JUMP_ATK_C" FILENAME="Kuru_Itm_Jump_Atk_C.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kuru_Antenna_COMMANDS.XML" />
+</GAMEENTITY>

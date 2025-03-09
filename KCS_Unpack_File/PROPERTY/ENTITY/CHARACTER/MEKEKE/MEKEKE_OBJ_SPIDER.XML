@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Mekeke_Obj_Spider" FILENAME="Mekeke_Obj_Spider.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Mekeke_Obj_Spider.VS">
+        <PROPERTYBAG NAME="Com_Hit_Mekeke_Obj_Spider_Comb_SPE" FILENAME="Com_Hit_Mekeke_Obj_Spider_Comb_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Hit_Mekeke_Obj_Spider_Comb_SPE" FILENAME="Hum_Hit_Mekeke_Obj_Spider_Comb_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Mekeke_Obj_Spider_SPE" FILENAME="Mekeke_Obj_Spider.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Viper_Hit_Mekeke_Obj_Spider_Comb_SPE" FILENAME="Viper_Hit_Mekeke_Obj_Spider_Comb_SPE.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Mekeke_Obj_Spider_COMMANDS.XML" />
+</GAMEENTITY>

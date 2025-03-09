@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="cannon_P_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.200000" X="10.000000" Y="10.000000" Z="10.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="0.200000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.200000" X="1.000000" Y="1.000000" Z="0.500000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Hover_P_E00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="15.000000" Max="20.000000" />
+        <RepeatCount Count="4.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.180000" />
+        <RegenTime Min="0.050000" Max="0.070000" />
+        <RotScaleMin X="3.000000" Y="3.000000" Z="0.000000" />
+        <RotScaleMax X="5.000000" Y="5.000000" Z="360.000000" />
+        <RandPosMin X="-30.000000" Y="-30.000000" Z="-30.000000" />
+        <RandPosMax X="30.000000" Y="30.000000" Z="30.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="25.000000" Max="25.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="80.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="30.000000" Y="0.000000" Z="30.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="6">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Hover_P_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.075000" />
+            <Texture Texture="Hover_P_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.150000" />
+            <Texture Texture="Hover_P_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.225000" />
+            <Texture Texture="Hover_P_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.000000" Y="6.000000" Z="6.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.300000" />
+            <Texture Texture="Hover_P_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.500000" Y="7.500000" Z="7.500000" />
+            <Alpha Value="63.750015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.375000" />
+            <Texture Texture="Hover_P_E00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

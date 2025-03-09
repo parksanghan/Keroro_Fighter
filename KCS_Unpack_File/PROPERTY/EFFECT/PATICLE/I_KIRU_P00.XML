@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="I_Kiru_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="5.000000" Y="5.000000" Z="5.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="0.000000" />
+            <Property Time="0.500000" Value="200.000000" />
+            <Property Time="0.500000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="1.000000" Y="1.000000" Z="0.200000" />
+            <Property Time="1.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Cosmo_icy_E01.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="2.000000" Max="3.000000" />
+        <RepeatCount Count="30.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.990000" />
+        <RegenTime Min="0.010000" Max="0.010000" />
+        <RotScaleMin X="10.000000" Y="10.000000" Z="0.000000" />
+        <RotScaleMax X="15.000000" Y="15.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="3.000000" Max="5.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="180.000000" Y="0.000000" Z="180.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="7.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="33">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.150000" Y="0.150000" Z="0.150000" />
+            <Alpha Value="12.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.970000" Y="0.970000" Z="0.194000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.300000" />
+            <Alpha Value="24.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.940000" Y="0.940000" Z="0.188000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="36.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.910000" Y="0.910000" Z="0.182000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="48.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.880000" Y="0.880000" Z="0.176000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.750000" Y="0.750000" Z="0.750000" />
+            <Alpha Value="59.999996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.850000" Y="0.850000" Z="0.170000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="72.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.820000" Y="0.820000" Z="0.164000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.050000" Y="1.050000" Z="1.050000" />
+            <Alpha Value="84.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.790000" Y="0.790000" Z="0.158000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="96.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.760000" Y="0.760000" Z="0.152000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="107.999992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.730000" Y="0.730000" Z="0.146000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="119.999992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.140000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.650000" Y="1.650000" Z="1.650000" />
+            <Alpha Value="132.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.670000" Y="0.670000" Z="0.134000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="144.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.640000" Y="0.640000" Z="0.128000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.950000" Y="1.950000" Z="1.950000" />
+            <Alpha Value="156.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.610000" Y="0.610000" Z="0.122000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.100000" Y="2.100000" Z="2.100000" />
+            <Alpha Value="168.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.580000" Y="0.580000" Z="0.116000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="180.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.550000" Y="0.550000" Z="0.110000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.520000" Y="0.520000" Z="0.104000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.550000" Y="2.550000" Z="2.550000" />
+            <Alpha Value="188.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.490000" Y="0.490000" Z="0.098000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="176.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.460000" Y="0.460000" Z="0.092000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.850000" Y="2.850000" Z="2.850000" />
+            <Alpha Value="164.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.430000" Y="0.430000" Z="0.086000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="152.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="0.080000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="140.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.370000" Y="0.370000" Z="0.074000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.300000" Y="3.300000" Z="3.300000" />
+            <Alpha Value="128.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.340000" Y="0.340000" Z="0.068000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.450000" Y="3.450000" Z="3.450000" />
+            <Alpha Value="116.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.310000" Y="0.310000" Z="0.062000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="104.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.280000" Y="0.280000" Z="0.056000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.750000" Y="3.750000" Z="3.750000" />
+            <Alpha Value="92.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.250000" Y="0.250000" Z="0.050000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.900000" Y="3.900000" Z="3.900000" />
+            <Alpha Value="80.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.220000" Y="0.220000" Z="0.044000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="68.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.190000" Y="0.190000" Z="0.038000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="56.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.160000" Y="0.160000" Z="0.032000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.350000" Y="4.350000" Z="4.350000" />
+            <Alpha Value="44.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.130000" Y="0.130000" Z="0.026000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="32.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="0.020000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.650000" Y="4.650000" Z="4.650000" />
+            <Alpha Value="20.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.070000" Y="0.070000" Z="0.014000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.040000" Y="0.040000" Z="0.008000" />
+            <Texture Texture="Cosmo_icy_E01.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

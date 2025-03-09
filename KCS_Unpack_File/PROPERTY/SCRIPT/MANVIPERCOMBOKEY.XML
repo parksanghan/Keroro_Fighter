@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<ComboKey>
+  <ATTACK Type = "0">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "2" ComboCommand = "COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "1" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "2" ComboCommand = "COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet4">
+      <Property Key = "1" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet5">
+      <Property Key = "2" ComboCommand = "COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet6">
+      <Property Key = "2" ComboCommand = "COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet7">
+      <Property Key = "3" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet8">
+      <Property Key = "4" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet9">
+      <Property Key = "4" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </ATTACK>
+
+  <SPECIALATTACK Type = "5">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+  </SPECIALATTACK>
+
+</ComboKey>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WP_SunFlower" FILENAME="WP_SunFlower.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="Comm_Item_Hold_E01" FILENAME="Comm_Item_Hold_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_JP2_E00" FILENAME="Gan_Comb_JP_P2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_JP2_E01" FILENAME="Gan_Comb_JP2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_JP2_E02" FILENAME="Gan_Comb_JP2_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P2_E00" FILENAME="Gan_Comb_P2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P2_E01" FILENAME="Gan_Comb_P2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P2_E02" FILENAME="Gan_Comb_P2_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_SunFlower_COMMANDS.XML" />
+</GAMEENTITY>

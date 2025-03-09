@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_PK" LOOP="0" TOTALTIME="1.47">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Kagege_Obj_PK" TYPENAME="ActionAnimation" ANIMATIONNAME="Kagege_Obj_PK" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="IDLE_02" LOOP="0" TOTALTIME="3.5">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Kagege_Obj_Idle_02" TYPENAME="ActionAnimation" ANIMATIONNAME="Kagege_Obj_Idle_02" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

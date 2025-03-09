@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="GIRO_BAJUKA" FILENAME="Giro_Aniob_Bazooka.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Giro_Aniob_Bazooka.VS">
+        <PROPERTYBAG NAME="COMB_KKP" FILENAME="Giro_Obj_Bazooka_KKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_PKK" FILENAME="Giro_Obj_Bazooka_PKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Giro_Gameroom_Obj_01" FILENAME="Giro_Gameroom_Obj_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Kara_KKP" FILENAME="Kara_Obj_Bazooka.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Giro_Bazooka_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="20">
+        <PROPERTYBAG NAME="CAP" FILENAME="WhiteKiruru_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="WhiteKiruru_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="WhiteKiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="WhiteKiruru_foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="WhiteKiruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="WhiteKiruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="WhiteKiruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="WhiteKiruru_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="WhiteKiruru_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="WhiteKiruru_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="WhiteKiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="WhiteKiruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="WhiteKiruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="WhiteKiruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="WhiteKiruru_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="WhiteKiruru_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="WhiteKiruru_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="WhiteKiruru_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="WhiteKiruru_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="TAIL" FILENAME="WhiteKiruru_Tail.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="LOSE" FILENAME="WhiteKiruru_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="WhiteKiruru_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Kiruru_COMB_PPP_V1" FILENAME="Kiruru_COMB_PPP_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Kiruru_EM_CRY_V1" FILENAME="Kiruru_EM_CRY_V1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="White_Kiruru_Result_COMMANDS.XML" />
+</GAMEENTITY>

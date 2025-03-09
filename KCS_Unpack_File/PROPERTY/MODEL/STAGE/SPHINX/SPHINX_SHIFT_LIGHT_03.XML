@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Sphinx_Shift_Light_03.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Sphinx_Shift_Light_01.dds" />
+        <Texture filename="Sphinx_Shift_Light_02.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureFader">
+            <Property name="UseAlpha" value="1" />
+            <Property name="TextureCount" value="2" />
+            <Property name="FadeSpeed" value="0.60" />
+            <Property name="FadeDelay" value="0.20" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="1" />
+</VGEModelFile>

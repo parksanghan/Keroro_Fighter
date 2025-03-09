@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="CAP" FILENAME="Keroro_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Keroro_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Keroro_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Keroro_Eye08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Keroro_Eye12.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Keroro_Eye10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Keroro_Eye10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Keroro_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Keroro_Eye07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Keroro_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Keroro_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Keroro_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Keroro_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Keroro_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Keroro_Eye11.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Keroro_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Keroro_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Keroro_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Keroro_Head07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Keroro_Head08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Keroro_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Keroro_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Keroro_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Keroro_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Keroro_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Keroro_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Keroro_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Keroro_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Keroro_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Keroro_Body_top.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="80" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMB_DA_P" FILENAME="Puru_DASH_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Dance_Sohot" FILENAME="Com_Dance_Sohot.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Emo_Dance" FILENAME="Com_Emo_Dance.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Chiroro_SPE" FILENAME="Com_Hit_Chiroro_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Cosmo_PPATK" FILENAME="Com_Hit_Cosmo_PPATK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Cosmo_PPATK_02" FILENAME="Com_Hit_Cosmo_PPATK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Joriri_KKK" FILENAME="Com_Hit_Joriri_KKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Mekeke_Comb_SPE" FILENAME="Com_Hit_Mekeke_Comb_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Nara_KKP" FILENAME="Com_Hit_Nara_KKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Nara_KP" FILENAME="Com_Hit_Nara_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Push_03_F" FILENAME="Com_Hit_Push_03_F.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Rigid" FILENAME="Com_Hit_Rigid.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Shurara_Comb_KKK" FILENAME="Com_Hit_Shurara_Comb_KKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Shurara_Comb_KPPP" FILENAME="Com_Hit_Shurara_Comb_KPPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Shurara_Comb_PPPP" FILENAME="Com_Hit_Shurara_Comb_PPPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Skill_Dex_BubiBubi" FILENAME="Com_Hit_Skill_Dex_BubiBubi.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Skill_Mekeke_Puppet" FILENAME="Com_Hit_Skill_Mekeke_Puppet.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Hit_Skill_Mekeke_Puppet_01" FILENAME="Com_Hit_Skill_Mekeke_Puppet_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_newyear" FILENAME="Com_newyear.VA" COMMENT="" />
+        <PROPERTYBAG NAME="GUD_01" FILENAME="Com_GUD_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="GUD_02" FILENAME="Com_GUD_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Dash_K_01" FILENAME="Garu_Dash_K_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Dash_K_02" FILENAME="Garu_Dash_K_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Giro_Comb_PPP" FILENAME="Giro_Comb_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_DOWN" FILENAME="Com_Hit_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_DOWN_B" FILENAME="Com_Hit_Down_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FALL_01" FILENAME="Com_Hit_Fall_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FALL_01_B" FILENAME="Com_Hit_Fall_01_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FALL_02" FILENAME="Com_Hit_Fall_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FALL_02_B" FILENAME="Com_Hit_Fall_02_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FLY_01" FILENAME="Com_Hit_Fly_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FLY_01_B" FILENAME="Com_Hit_Fly_01_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FLY_02" FILENAME="Com_Hit_Fly_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FLY_02_B" FILENAME="Com_Hit_Fly_02_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_KD" FILENAME="Com_Hit_Knockdown.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_PUSH_01_F" FILENAME="Com_Hit_Push_01_F.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_PUSH_02_B" FILENAME="Com_Hit_Push_02_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_PUSH_02_F" FILENAME="Com_Hit_Push_02_F.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_TURN" FILENAME="Com_Hit_Turn.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_TURN_B" FILENAME="Com_Hit_Turn_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HOLD_ATK_01" FILENAME="Com_Hold_Atk_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HOLD_ATK_02" FILENAME="Com_Hold_Atk_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HOLD_FLY_01" FILENAME="Com_Hold_Fly_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HOLD_FLY_02" FILENAME="Com_Hold_Fly_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HOLD_FLY_03" FILENAME="Com_Hold_Fly_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Jira_K_Keron" FILENAME="Hit_Jira_K_Keron.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Jira_SPE_Keron" FILENAME="Hit_Jira_SPE_Keron.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Skill_Def_ArmBreak" FILENAME="Hit_Skill_Def_ArmBreak.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Technodance" FILENAME="Hit_Technodance.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joru_Hit_SPE" FILENAME="Joru_Hit_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joru_Hit_SPE_B" FILENAME="Joru_Hit_SPE_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Keron_HitBack" FILENAME="Keron_Com_HitBack.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Lifeiscool_Com_COMB_A_S" FILENAME="Lifeiscool_Com_COMB_A_S.VA" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_UP" FILENAME="Kero_Combat_Ready.VA" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_HEAL" FILENAME="Slot_Skill_Healing.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_BB" FILENAME="Com_Stand_BB.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_BF" FILENAME="Com_Stand_BF.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_BL" FILENAME="Com_Stand_BL.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_BN" FILENAME="Com_Stand_BN.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_BR" FILENAME="Com_Stand_BR.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_FB" FILENAME="Com_Stand_FB.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_FF" FILENAME="Com_Stand_FF.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_FL" FILENAME="Com_Stand_FL.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_FN" FILENAME="Com_Stand_FN.VA" COMMENT="" />
+        <PROPERTYBAG NAME="STAND_FR" FILENAME="Com_Stand_FR.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Amageddon" FILENAME="Skill_Cre_Amageddon.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Antibarrier" FILENAME="Skill_Cre_Antibarrier.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Bazooka" FILENAME="Skill_Cre_Bazooka.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Chage" FILENAME="Skill_Cre_Chage.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_KeyChange" FILENAME="Skill_Cre_KeyChange.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_LeefAtk" FILENAME="Skill_Cre_LeefAtk.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Pushing.VA" FILENAME="Skill_Cre_Pushing.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Wickedaoura" FILENAME="Skill_Cre_Wickedaoura.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Def_Hit_Giantswing_01" FILENAME="Skill_Def_Hit_Giantswing_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Def_Hit_Giantswing_02" FILENAME="Skill_Def_Hit_Giantswing_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_Hit_Forwardatk_01" FILENAME="Skill_Dex_Hit_Forwardatk_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_Hit_Forwardatk_02" FILENAME="Skill_Dex_Hit_Forwardatk_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Taru_Comb_KKK" FILENAME="Taru_Comb_KKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Ukiki_Hit_Comb_PPP_Keron_01" FILENAME="Ukiki_Hit_Comb_PPP_Keron_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Ukiki_Hit_Comb_PPP_Keron_02" FILENAME="Ukiki_Hit_Comb_PPP_Keron_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="67">
+        <PROPERTYBAG NAME="CM_COMICGUN_SHOT" FILENAME="CM_COMICGUN_SHOT_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_GUARD_A_1" FILENAME="CM_GUARD_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_GUARD_SUCCESS_01" FILENAME="CM_GUARD_SUCCESS_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_FALL_1" FILENAME="CM_HIT_FALL_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_FALL_2" FILENAME="CM_HIT_FALL_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_FLY_2" FILENAME="CM_HIT_FLY_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_KNOCKDOWN_1" FILENAME="CM_HIT_KNOCKDOWN_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_PUSH_A_1" FILENAME="CM_HIT_PUSH_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_PUSH_B_1" FILENAME="CM_HIT_PUSH_B_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_RIGID_1" FILENAME="CM_HIT_RIGID_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_TUMBLE_1" FILENAME="CM_HIT_TUMBLE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_TUMBLE_2" FILENAME="CM_HIT_TUMBLE_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HOLD_ATK_A_1" FILENAME="CM_HOLD_ATK_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HOLD_ATK_B_1" FILENAME="CM_HOLD_ATK_B_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HOLD_ATK_B_2" FILENAME="CM_HOLD_ATK_B_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_Hit_Nara_KKP_1" FILENAME="CM_Hit_Nara_KKP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_Hit_Nara_KP_1" FILENAME="CM_Hit_Nara_KP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_PICKUP_2" FILENAME="CM_PICKUP_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_SIDE_1" FILENAME="CM_SIDE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_SIDE_2" FILENAME="CM_SIDE_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_STAND_BACK_1" FILENAME="CM_STAND_BACK_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_STAND_BACK_2" FILENAME="CM_STAND_BACK_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_STAND_UP_1" FILENAME="CM_STAND_UP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="GAME_DEAD" FILENAME="KE_GAME_DEAD_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="GARU_COMB_DA_K_1" FILENAME="GARU_COMB_DA_K_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="GARU_COMB_DA_K_2" FILENAME="GARU_COMB_DA_K_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="GI_COMBO_AA_1" FILENAME="GI_COMBO_AA_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="GI_COUNTER_ATK_2" FILENAME="GI_COUNTER_ATK_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="GI_DASH_ATK_C_2" FILENAME="GI_DASH_ATK_C_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_ARMAGEDDON_S1" FILENAME="HIT_SKILL_ARMAGEDDON_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_ARMAGEDDON_S1_1" FILENAME="HIT_SKILL_ARMAGEDDON_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_ARMAGEDDON_S1_2" FILENAME="HIT_SKILL_ARMAGEDDON_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK2" FILENAME="HIT_SKILL_FORWARDATK2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK3" FILENAME="HIT_SKILL_FORWARDATK3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK4" FILENAME="HIT_SKILL_FORWARDATK4.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK5" FILENAME="HIT_SKILL_FORWARDATK5.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK_1" FILENAME="HIT_SKILL_FORWARDATK_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK_6" FILENAME="HIT_SKILL_FORWARDATK_6.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_COMBAT_RD_1" FILENAME="KE_COMBAT_RD_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_COMBO_BB_3" FILENAME="KE_COMBO_BB_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="PURU_HIT_01" FILENAME="PURU_HIT_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_ANTIBARRIER_S1" FILENAME="SKILL_CRE_ANTIBARRIER_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_ANTIBARRIER_S2" FILENAME="SKILL_CRE_ANTIBARRIER_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_BAZOOKA_1" FILENAME="SKILL_CRE_BAZOOKA_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_BAZOOKA_2" FILENAME="SKILL_CRE_BAZOOKA_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_CHARGE_S1" FILENAME="SKILL_CRE_CHARGE_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_CHARGE_S2" FILENAME="SKILL_CRE_CHARGE_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_CHARGE_S3" FILENAME="SKILL_CRE_CHARGE_S3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_CHARGE_S4" FILENAME="SKILL_CRE_CHARGE_S3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_CHARGE_S5" FILENAME="SKILL_CRE_CHARGE_S4.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_KEYCHANGE_S1" FILENAME="SKILL_CRE_KEYCHANGE_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_KEYCHANGE_S2" FILENAME="SKILL_CRE_KEYCHANGE_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_LEAFATK_S1" FILENAME="SKILL_CRE_LEAFATK_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_PUSHING_1" FILENAME="SKILL_CRE_PUSHING_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_PUSHING_2" FILENAME="SKILL_CRE_PUSHING_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_WICKEDAOURA_1" FILENAME="SKILL_CRE_WICKEDAOURA_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_WICKEDAOURA_2" FILENAME="SKILL_CRE_WICKEDAOURA_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_ATK_UP_S1" FILENAME="SLOT_ATK_UP_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_ATK_UP_S2" FILENAME="SLOT_ATK_UP_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_ATK_UP_S3" FILENAME="SLOT_ATK_UP_S3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_DEF_UP_S2" FILENAME="SLOT_DEF_UP_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_DEF_UP_S3" FILENAME="SLOT_DEF_UP_S3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_HEAL_S3" FILENAME="SLOT_HEAL_S3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMBO_KKK_03_S1" FILENAME="TARU_COMBO_KKK_03_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_DA_K_S2" FILENAME="TARU_DA_K_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_LIFE_HIT_1" FILENAME="WP_LIFE_HIT_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_LIFE_HIT_2" FILENAME="WP_LIFE_HIT_2.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="88">
+        <PROPERTYBAG NAME="Char_Giro_SpeAtk_BL00" FILENAME="Char_Giro_SpeAtk_BL00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_Strun2_E00" FILENAME="Comm_Hit_Strun2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_Strun2_E01" FILENAME="Comm_Hit_Strun2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_Strun2_E02" FILENAME="Comm_Hit_Strun2_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_Strun_Y01" FILENAME="Comm_Hit_Strun_Y01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_dice_Y00" FILENAME="Comm_Hit_dice_Y00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_dice_Y01" FILENAME="Comm_Hit_dice_Y01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_leaf_Y00" FILENAME="Comm_Hit_leaf_Y00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_lightning_E00" FILENAME="Comm_Hit_lightning_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cosmo_Hit_PP_E00" FILENAME="Cosmo_Hit_PP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cosmo_Hit_PP_E01" FILENAME="Cosmo_Hit_PP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="DORO_CONTATK" FILENAME="Char_Doro_AtkCount_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="DORO_KPP_2" FILENAME="Char_Doro_ComKPOAtk_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EF_FLAG" FILENAME="Ef_FlagMode.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EF_REVIVE" FILENAME="Playground_Warp_Y00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gozilla_Com_Transform_B01" FILENAME="Gozilla_Com_Transform_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_AIR_ATK" FILENAME="Comm_Hit_AtkAir_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_ATKC_B0" FILENAME="Comm_Hit_AtkCri_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_ATKH_B0" FILENAME="Comm_Hit_AtkHeavy_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_ATKL_B0" FILENAME="Comm_Hit_AtkLight_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_ATKM_B0" FILENAME="Comm_Hit_AtkMidd_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_DOWN_ATK" FILENAME="Comm_Hit_AtkDown_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_GIRO_SPE" FILENAME="Char_Giro_SpeHit_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_GUARD_E0" FILENAME="Comm_Hit_Guard_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_KERO_SPE" FILENAME="Char_Kero_SpeHit_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_Meruru_Comb_PPK" FILENAME="HIT_Meruru_Comb_PPK.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_Meruru_Mail" FILENAME="HIT_Meruru_Mail.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_STRUN_Y0" FILENAME="Comm_Hit_Strun_Y00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_Skill_Delivery" FILENAME="HIT_Skill_Delivery.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Def_ArmBreak_E00" FILENAME="Hit_Def_ArmBreak_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Def_ArmBreak_E01" FILENAME="Hit_Def_ArmBreak_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Skill_Giantswing01_E00" FILENAME="Hit_Skill_Giantswing01_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Skill_Giantswing01_E02" FILENAME="Hit_Skill_Giantswing01_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hit_Skill_Giantswing01_E03" FILENAME="Hit_Skill_Giantswing01_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ITEM_BUFFB_E0" FILENAME="Comm_Item_BuffBlue_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ITEM_BUFFR_E0" FILENAME="Comm_Item_BuffRed_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ITEM_BUFFV_E0" FILENAME="Comm_Item_BuffViol_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ITEM_BUFFY_E0" FILENAME="Comm_Item_BuffYell_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="I_Kiru_SPE_E04" FILENAME="I_Kiru_SPE_E04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jira_Hit_K_KE00" FILENAME="Jira_Hit_K_KE00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jira_Hit_SPE_KE00" FILENAME="Jira_Hit_SPE_KE00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Joru_Com_PKK_E01" FILENAME="Joru_Com_PKK_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Joru_Com_PPP_E00" FILENAME="Joru_Com_PPP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Joru_Com_PP_E00" FILENAME="Joru_Com_PP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Joru_Com_SPE_E01" FILENAME="Joru_Com_SPE_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Hit_E00" FILENAME="Nara_Hit_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Hit_E01" FILENAME="Nara_Hit_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Puta_KK_E00" FILENAME="Puta_KK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Puta_K_E00" FILENAME="Puta_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SELECT_HEAD" FILENAME="Comm_Select.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SELECT_HEAD_B" FILENAME="Comm_Select_B.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SELECT_HEAD_R" FILENAME="Comm_Select_R.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SKIL_BUFF_ATKUP" FILENAME="Skil_Buff_AtkUp_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SKIL_BUFF_DEFUP" FILENAME="Skil_Buff_DefUp_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SKIL_BUFF_HEAL" FILENAME="Skil_Buff_Cure_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shurara_Hit_KKK_B00" FILENAME="Shurara_Hit_KKK_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shurara_Hit_KKK_B01" FILENAME="Shurara_Hit_KKK_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skii_Cre_barrier_B00" FILENAME="Skii_Cre_barrier_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skii_Cre_barrier_B01" FILENAME="Skii_Cre_barrier_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skii_Cre_barrier_B02" FILENAME="Skii_Cre_barrier_B02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skii_Cre_barrier_B02_1" FILENAME="Skii_Cre_barrier_B02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skii_Cre_barrier_B03" FILENAME="Skii_Cre_barrier_B03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skii_Cre_barrier_B04" FILENAME="Skii_Cre_barrier_B04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Frogknuckle_Atk_B00" FILENAME="Skill_Atk_Frogknuckle_Atk_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Frogknuckle_Atk_E00" FILENAME="Skill_Atk_Frogknuckle_Atk_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Pushing_E00" FILENAME="Skill_Cre_Pushing_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Wickedaoura_E00" FILENAME="Skill_Cre_Wickedaoura_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Wickedaoura_E01" FILENAME="Skill_Cre_Wickedaoura_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Wickedaoura_E02" FILENAME="Skill_Cre_Wickedaoura_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Wickedaoura_E03" FILENAME="Skill_Cre_Wickedaoura_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_charge_B00" FILENAME="Skill_Cre_charge_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_charge_B00a" FILENAME="Skill_Cre_charge_B00a.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_charge_B00b" FILENAME="Skill_Cre_charge_B00b.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_charge_B01" FILENAME="Skill_Cre_charge_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_charge_B01a" FILENAME="Skill_Cre_charge_B01a.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_charge_B01b" FILENAME="Skill_Cre_charge_B01b.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_key_change_E00" FILENAME="Skill_Cre_key_change_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_key_change_E01" FILENAME="Skill_Cre_key_change_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_leaf_fall_E00" FILENAME="Skill_Cre_leaf_fall_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_leaf_fall_E01" FILENAME="Skill_Cre_leaf_fall_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_leaf_fall_E02" FILENAME="Skill_Cre_leaf_fall_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_leaf_fall_E03" FILENAME="Skill_Cre_leaf_fall_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Def_tornado_E01" FILENAME="Skill_Def_tornado_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WaterBall_Hit_E00" FILENAME="WaterBall_Hit_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WaterBall_Hit_E01" FILENAME="WaterBall_Hit_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ranking1.xml" FILENAME="ranking1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ranking2.xml" FILENAME="ranking2.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ranking3.xml" FILENAME="ranking3.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="14">
+        <PROPERTYBAG NAME="Effect_afterimage_Hit_Giantswing00" FILENAME="Effect_afterimage_Hit_Giantswing.xml" />
+        <PROPERTYBAG NAME="Effect_afterimage_Hit_Giantswing01" FILENAME="Effect_afterimage_Hit_Giantswing01.xml" />
+        <PROPERTYBAG NAME="Kara_Comb_Boom3" FILENAME="Kara_Comb_Boom3.xml" />
+        <PROPERTYBAG NAME="Kara_Comb_Boom3-1" FILENAME="Kara_Comb_Boom3-1.xml" />
+        <PROPERTYBAG NAME="Kara_Comb_Boom3-1-2" FILENAME="Kara_Comb_Boom3-1.xml" />
+        <PROPERTYBAG NAME="Kara_Comb_Boom3-1-3" FILENAME="Kara_Comb_Boom3-1.xml" />
+        <PROPERTYBAG NAME="Mekeke_Obj_Spider" FILENAME="Mekeke_Obj_Spider.xml" />
+        <PROPERTYBAG NAME="Ooyuk_Obj_ColorBox_04" FILENAME="Ooyuk_Obj_ColorBox_04.xml" />
+        <PROPERTYBAG NAME="Ooyuk_Obj_ColorBox_05" FILENAME="Ooyuk_Obj_ColorBox_05.xml" />
+        <PROPERTYBAG NAME="Robobo_Skill_Obj_Cleaner" FILENAME="Robobo_Skill_Obj_Cleaner.xml" />
+        <PROPERTYBAG NAME="Skill_Hit_Joriri_Bathtub" FILENAME="Skill_Hit_Joriri_Bathtub_Effect.xml" />
+        <PROPERTYBAG NAME="Skill_Obj_Amageddon" FILENAME="Skill_Obj_Amageddon.xml" />
+        <PROPERTYBAG NAME="Skill_Obj_Bazooka" FILENAME="Skill_Obj_Bazooka.xml" />
+        <PROPERTYBAG NAME="Skill_Risa_Object_Kstone" FILENAME="Skill_Risa_Object_Kstone.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Public_Com_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Citem_Buff_Jump" FILENAME="Citem_Orion_Choco.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="CItem_Orion_Choco.VS">
+        <PROPERTYBAG NAME="CItem_Orion_Choco" FILENAME="CItem_Orion_Choco.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="ITEM_GEN" FILENAME="Comm_Item_Gen_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ITEM_HOLD" FILENAME="Comm_Item_Hold_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Citem_Orion_Choco_COMMANDS.XML" />
+</GAMEENTITY>

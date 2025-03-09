@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="mine.VM" />
+    <TextureInfo count="1">
+        <Texture filename="box___x.tga" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="Default">
+            <Property name="UseAlpha" value="0" />
+            <Property name="Lighting" value="0" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+</VGEModelFile>

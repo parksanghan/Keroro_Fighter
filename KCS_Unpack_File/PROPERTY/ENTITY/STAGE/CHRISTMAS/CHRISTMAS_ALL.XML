@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="27">
+        <PROPERTYBAG NAME="christmas_bear" FILENAME="christmas_bear.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_box_04_top" FILENAME="christmas_box_04_top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_box_04_under" FILENAME="christmas_box_04_under.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_cotton_01" FILENAME="christmas_cotton_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_deer_01" FILENAME="christmas_deer_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_dollarm_01" FILENAME="christmas_dollarm_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_dollarm_02" FILENAME="christmas_dollarm_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_dollbody_01" FILENAME="christmas_dollbody_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_dollhead_01" FILENAME="christmas_dollhead_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_fire_alpha_01" FILENAME="christmas_fire_alpha_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_fire_alpha_02" FILENAME="christmas_fire_alpha_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_floor01" FILENAME="christmas_floor01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_obj_all" FILENAME="christmas_obj_all.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_shadows" FILENAME="christmas_shadows.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_snow_01" FILENAME="christmas_snow_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_snow_02" FILENAME="christmas_snow_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_spring_01" FILENAME="christmas_spring_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_star_01" FILENAME="christmas_star_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_stove_01" FILENAME="christmas_stove_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_toy" FILENAME="christmas_toy.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_toy_alpha" FILENAME="christmas_toy_alpha.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_tree_01" FILENAME="christmas_tree_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_tree_5-02" FILENAME="christmas_tree_5-02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_tree_05_01" FILENAME="christmas_tree_05_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_wall01" FILENAME="christmas_wall01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_wall02" FILENAME="christmas_wall02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="christmas_wax_01" FILENAME="christmas_wax_01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="christmas_all_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Chiro_Hit_SPE_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="0.300000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.100000" X="2.000000" Y="2.000000" Z="0.000000" />
+            <Property Time="0.200000" X="3.000000" Y="3.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Chiro_SPE_Hit_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="1.000000" Max="2.000000" />
+        <RepeatCount Count="15.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.300000" />
+        <RegenTime Min="0.050000" Max="0.100000" />
+        <RotScaleMin X="10.000000" Y="10.000000" Z="0.000000" />
+        <RotScaleMax X="30.000000" Y="30.000000" Z="360.000000" />
+        <RandPosMin X="50.000000" Y="200.000000" Z="50.000000" />
+        <RandPosMax X="-50.000000" Y="0.000000" Z="-50.000000" />
+        <ComboList RefOrder="5.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="0.000000" Max="0.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="10">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="229.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="204.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.200000" Y="1.200000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.000000" Y="2.000000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="153.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.150000" Y="2.150000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="127.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.300000" Y="2.300000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.450000" Y="2.450000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="76.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.600000" Y="2.600000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="51.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.750000" Y="2.750000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="25.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.000000" Y="3.000000" Z="0.000000" />
+            <Texture Texture="Chiro_SPE_Hit_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

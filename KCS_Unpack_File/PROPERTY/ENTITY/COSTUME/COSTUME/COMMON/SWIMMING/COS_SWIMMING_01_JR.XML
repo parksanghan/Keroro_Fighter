@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="Cos_swimming_01_Body_Jr.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAIR_H" FILENAME="Cos_swimming_0001_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="Cos_empty.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP02" FILENAME="Joriri_Head_2.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Cos_swimming_01_Jr_COMMANDS.XML" />
+</GAMEENTITY>

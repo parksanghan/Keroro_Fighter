@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="bus_signallight_01" FILENAME="bus_signallight_01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Bus_Signal_G00" FILENAME="Bus_Signal_G00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Bus_Signal_R00" FILENAME="Bus_Signal_R00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Bus_Signal_Y00" FILENAME="Bus_Signal_Y00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="bus_signallight_01_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="190" PosY="205" SizeX="675" SizeY="308" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+            <Element index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="0" TextSizeX="675" TextSizeY="308" PosX="0" PosY="0" SizeX="675" SizeY="308" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Select1_Button" ClassName="CKeroroUI_Button" PosX="40" PosY="213" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="312" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="342" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select2_Button" ClassName="CKeroroUI_Button" PosX="168" PosY="215" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                   <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="312" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="342" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select3_Button" ClassName="CKeroroUI_Button" PosX="296" PosY="215" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                   <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="312" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="342" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select4_Button" ClassName="CKeroroUI_Button" PosX="425" PosY="214" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="312" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="342" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select5_Button" ClassName="CKeroroUI_Button" PosX="551" PosY="213" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="312" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="342" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_eventsystem.tga" TextPosX="0" TextPosY="372" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot1_ItemName" ClassName="CKeroroUI_Static" PosX="80" PosY="64" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemName1_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot1_ItemInfo" ClassName="CKeroroUI_Static" PosX="80" PosY="195" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemInfo1_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot1_Item" ClassName="CKeroroUI_Button" PosX="16" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="94" TextPosY="312" TextSizeX="103" TextSizeY="89" PosX="15" PosY="9" SizeX="103" SizeY="89" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="SelectItem_STATIC_Slot2_ItemName" ClassName="CKeroroUI_Static" PosX="208" PosY="64" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemName2_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot2_ItemInfo" ClassName="CKeroroUI_Static" PosX="208" PosY="195" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemInfo2_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot2_Item" ClassName="CKeroroUI_Button" PosX="145" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="94" TextPosY="312" TextSizeX="103" TextSizeY="89" PosX="15" PosY="9" SizeX="103" SizeY="89" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="SelectItem_STATIC_Slot3_ItemName" ClassName="CKeroroUI_Static" PosX="337" PosY="64" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemName3_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot3_ItemInfo" ClassName="CKeroroUI_Static" PosX="337" PosY="195" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemInfo3_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot3_Item" ClassName="CKeroroUI_Button" PosX="274" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                   <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="94" TextPosY="312" TextSizeX="103" TextSizeY="89" PosX="15" PosY="9" SizeX="103" SizeY="89" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="SelectItem_STATIC_Slot4_ItemName" ClassName="CKeroroUI_Static" PosX="466" PosY="64" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemName4_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>        
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot4_ItemInfo" ClassName="CKeroroUI_Static" PosX="466" PosY="195" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemInfo4_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot4_Item" ClassName="CKeroroUI_Button" PosX="403" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="94" TextPosY="312" TextSizeX="103" TextSizeY="89" PosX="15" PosY="9" SizeX="103" SizeY="89" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="SelectItem_STATIC_Slot5_ItemName" ClassName="CKeroroUI_Static" PosX="595" PosY="64" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemName5_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot5_ItemInfo" ClassName="CKeroroUI_Static" PosX="595" PosY="195" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.600" FontTextureName="SelectItemInfo5_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot5_Item" ClassName="CKeroroUI_Button" PosX="532" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="94" TextPosY="312" TextSizeX="103" TextSizeY="89" PosX="15" PosY="9" SizeX="103" SizeY="89" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_cnt" ClassName="CKeroroUI_Static" PosX="360" PosY="269" SizeX="159" SizeY="26" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="20" FontDepth="0.600" FontTextureName="SelectItem_STATIC_cntTexture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

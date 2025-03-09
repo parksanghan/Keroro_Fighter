@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="34">
+        <PROPERTYBAG NAME="CAP" FILENAME="smomo_cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="smomo_eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="smomo_hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="smomo_head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="smomo_leg.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Sumomo_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Sumomo_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Sumomo_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Sumomo_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Sumomo_Eye07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Sumomo_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Sumomo_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Sumomo_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Sumomo_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Sumomo_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Sumomo_Eye09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Sumomo_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Sumomo_Eye08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Sumomo_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Sumomo_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Sumomo_Head07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Sumomo_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Sumomo_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Sumomo_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Sumomo_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Sumomo_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Sumomo_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Sumomo_Head08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Sumomo_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Sumomo_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Sumomo_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Smomo_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Smomo_Body_top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="TAIL" FILENAME="Smomo_Tail.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Sumo_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Sumomo_Technodance" FILENAME="Skill_Sumomo_Technodance.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="SU_COMBO_KKP_2" FILENAME="SU_COMBO_KKP_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SU_COMB_SPE_1" FILENAME="SU_COMB_SPE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SU_IDLE_01_V1" FILENAME="SU_IDLE_01_V1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="Char_Sumo_SpeAtk_B00" FILENAME="Char_Sumo_SpeAtk_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Char_Sumo_SpeAtk_B01" FILENAME="Char_Sumo_SpeAtk_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Char_Sumo_SpeAtk_B02" FILENAME="Char_Sumo_SpeAtk_B02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Char_Sumo_SpeAtk_B03" FILENAME="Char_Sumo_SpeAtk_B03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Char_Sumo_SpeAtk_E00" FILENAME="Char_Sumo_SpeAtk_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Char_Sumo_SpeAtk_E01" FILENAME="Char_Sumo_SpeAtk_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Char_Sumo_SpeAtk_E02" FILENAME="Char_Sumo_SpeAtk_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="sumomo_Obj_Mike" FILENAME="sumomo_Obj_Mike.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Skill_Sumomo_Technodance_COMMANDS.XML" />
+</GAMEENTITY>

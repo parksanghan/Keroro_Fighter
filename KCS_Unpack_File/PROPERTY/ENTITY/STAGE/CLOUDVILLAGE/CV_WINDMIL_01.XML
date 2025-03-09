@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="CV_windmil_01" FILENAME="CV_windmil_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CV_windmil_02" FILENAME="CV_windmil_02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="CV_windmil_01.VS">
+        <PROPERTYBAG NAME="CV_windmil_01" FILENAME="CV_windmil_01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="CV_windmil_01_COMMANDS.XML" />
+</GAMEENTITY>

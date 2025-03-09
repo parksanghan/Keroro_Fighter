@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Comm_Dust_Land_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="5.000000" Y="5.000000" Z="5.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="1.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="1.000000" Y="1.000000" Z="1.000000" />
+            <Property Time="1.000000" X="0.100000" Y="0.100000" Z="0.100000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Comm_Item_Dust0.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="30.000000" Max="40.000000" />
+        <RepeatCount Count="1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.990000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="5.000000" Y="5.000000" Z="0.000000" />
+        <RotScaleMax X="20.000000" Y="20.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="30.000000" Max="30.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90.000000" Y="0.000000" Z="-0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="360.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="10.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="33">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.150000" Y="0.150000" Z="0.150000" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.973000" Y="0.973000" Z="0.973000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.300000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.946000" Y="0.946000" Z="0.946000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.919000" Y="0.919000" Z="0.919000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.892000" Y="0.892000" Z="0.892000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.750000" Y="0.750000" Z="0.750000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.865000" Y="0.865000" Z="0.865000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.838000" Y="0.838000" Z="0.838000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.050000" Y="1.050000" Z="1.050000" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.811000" Y="0.811000" Z="0.811000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.784000" Y="0.784000" Z="0.784000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="186.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.757000" Y="0.757000" Z="0.757000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.730000" Y="0.730000" Z="0.730000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.650000" Y="1.650000" Z="1.650000" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.703000" Y="0.703000" Z="0.703000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.676000" Y="0.676000" Z="0.676000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.950000" Y="1.950000" Z="1.950000" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.649000" Y="0.649000" Z="0.649000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.100000" Y="2.100000" Z="2.100000" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.622000" Y="0.622000" Z="0.622000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.595000" Y="0.595000" Z="0.595000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.568000" Y="0.568000" Z="0.568000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.550000" Y="2.550000" Z="2.550000" />
+            <Alpha Value="124.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.541000" Y="0.541000" Z="0.541000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.514000" Y="0.514000" Z="0.514000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.850000" Y="2.850000" Z="2.850000" />
+            <Alpha Value="109.650009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.487000" Y="0.487000" Z="0.487000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.460000" Y="0.460000" Z="0.460000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="94.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.433000" Y="0.433000" Z="0.433000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.300000" Y="3.300000" Z="3.300000" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.406000" Y="0.406000" Z="0.406000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.450000" Y="3.450000" Z="3.450000" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.379000" Y="0.379000" Z="0.379000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.352000" Y="0.352000" Z="0.352000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.750000" Y="3.750000" Z="3.750000" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.325000" Y="0.325000" Z="0.325000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.900000" Y="3.900000" Z="3.900000" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.298000" Y="0.298000" Z="0.298000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="48.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.271000" Y="0.271000" Z="0.271000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.244000" Y="0.244000" Z="0.244000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.350000" Y="4.350000" Z="4.350000" />
+            <Alpha Value="33.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.217000" Y="0.217000" Z="0.217000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.190000" Y="0.190000" Z="0.190000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.650000" Y="4.650000" Z="4.650000" />
+            <Alpha Value="17.849991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.163000" Y="0.163000" Z="0.163000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="10.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.136000" Y="0.136000" Z="0.136000" />
+            <Texture Texture="Comm_Item_Dust0.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

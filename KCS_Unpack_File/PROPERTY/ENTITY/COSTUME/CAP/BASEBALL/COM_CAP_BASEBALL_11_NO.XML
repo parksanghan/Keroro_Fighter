@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="CAP_H" FILENAME="Com_Cap_baseball_11_No.xml" COMMENT="" />
+        <PROPERTYBAG NAME="PROP_H" FILENAME="Cos_empty.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Com_Cap_baseball_11_No_COMMANDS.XML" />
+</GAMEENTITY>

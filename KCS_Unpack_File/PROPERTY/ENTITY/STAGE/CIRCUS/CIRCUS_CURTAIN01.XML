@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Circus_Curtain01" FILENAME="Circus_Curtain01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Circus_Curtain01.VS">
+        <PROPERTYBAG NAME="Circus_Curtain_01_A" FILENAME="Circus_Curtain_01_A.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Circus_Curtain_01_B" FILENAME="Circus_Curtain_01_B.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Circus_Curtain_01_C" FILENAME="Circus_Curtain_01_C.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Circus_Curtain_01_D" FILENAME="Circus_Curtain_01_D.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Circus_Curtain01_COMMANDS.XML" />
+</GAMEENTITY>

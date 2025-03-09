@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_WaitRoom_UserBox.xml" PosX="491" PosY="257" SizeX="88" SizeY="142" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.999" Show="0">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="88" SizeY="273" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="UserBoxSkinCollection1_Control" ClassName="CKeroroUI_Button" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.570" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="552" TextPosY="169" TextSizeX="88" TextSizeY="14" PosX="0" PosY="0" SizeX="88" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.570" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="552" TextPosY="184" TextSizeX="88" TextSizeY="11" PosX="0" PosY="14" SizeX="88" SizeY="68" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.570" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="552" TextPosY="196" TextSizeX="88" TextSizeY="14" PosX="0" PosY="82" SizeX="88" SizeY="14" />
+                </Property>
+
+                <Property Index="3" RenderStyle="0" Depth="0.569" Show="1">	<!-- 여기 부터 아래로 라인 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="24" SizeX="84" SizeY="1" />
+                </Property>
+                <Property Index="4" RenderStyle="0" Depth="0.569" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="47" SizeX="84" SizeY="1" />
+                </Property>
+                <Property Index="5" RenderStyle="0" Depth="0.569" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="70" SizeX="84" SizeY="1" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="UserBoxSkinCollection2_Control" ClassName="CKeroroUI_Button" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.570" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="552" TextPosY="169" TextSizeX="88" TextSizeY="14" PosX="0" PosY="0" SizeX="88" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.570" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="552" TextPosY="184" TextSizeX="88" TextSizeY="11" PosX="0" PosY="14" SizeX="88" SizeY="114" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.570" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="552" TextPosY="196" TextSizeX="88" TextSizeY="14" PosX="0" PosY="128" SizeX="88" SizeY="14" />
+                </Property>
+
+                <Property Index="3" RenderStyle="0" Depth="0.569" Show="1">	<!-- 여기 부터 아래로 라인 -->
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="24" SizeX="84" SizeY="1" />
+                </Property>
+                <Property Index="4" RenderStyle="0" Depth="0.569" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="47" SizeX="84" SizeY="1" />
+                </Property>
+                <Property Index="5" RenderStyle="0" Depth="0.569" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="70" SizeX="84" SizeY="1" />
+                </Property>
+                <Property Index="6" RenderStyle="0" Depth="0.569" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="93" SizeX="84" SizeY="1" />
+                </Property>
+                <Property Index="6" RenderStyle="0" Depth="0.569" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="170" TextSizeX="84" TextSizeY="1" PosX="2" PosY="116" SizeX="84" SizeY="1" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="UserBoxUserInfo_Button" ClassName="CKeroroUI_Button" PosX="4" PosY="3" SizeX="80" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.567" Show="1">	<!-- 일반 유저및 일반 방장 스킨 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="90" TextPosY="3" TextSizeX="74" TextSizeY="18" PosX="3" PosY="2" SizeX="74" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="5" TextPosY="3" TextSizeX="74" TextSizeY="18" PosX="3" PosY="2" SizeX="74" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.567" Show="1">	<!-- 슈퍼 방장 스킨 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="173" TextPosY="3" TextSizeX="74" TextSizeY="18" PosX="3" PosY="2" SizeX="74" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="5" TextPosY="3" TextSizeX="74" TextSizeY="18" PosX="3" PosY="2" SizeX="74" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.568" Show="1">	<!-- 마우스 오버 이미지 -->
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="176" TextSizeX="80" TextSizeY="20" PosX="0" PosY="0" SizeX="80" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="UserBoxAddFirend_Button" ClassName="CKeroroUI_Button" PosX="4" PosY="26" SizeX="80" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.567" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="90" TextPosY="26" TextSizeX="74" TextSizeY="18" PosX="3" PosY="1" SizeX="74" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="5" TextPosY="26" TextSizeX="74" TextSizeY="18" PosX="3" PosY="1" SizeX="74" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="173" TextPosY="26" TextSizeX="74" TextSizeY="18" PosX="3" PosY="1" SizeX="74" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="5" TextPosY="26" TextSizeX="74" TextSizeY="18" PosX="3" PosY="1" SizeX="74" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.568" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="176" TextSizeX="80" TextSizeY="20" PosX="0" PosY="0" SizeX="80" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="UserTransaction_Button" ClassName="CKeroroUI_Button" PosX="4" PosY="49" SizeX="80" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="199" TextPosY="138" TextSizeX="60" TextSizeY="21" PosX="10" PosY="-2" SizeX="60" SizeY="21" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="199" TextPosY="118" TextSizeX="60" TextSizeY="21" PosX="10" PosY="-2" SizeX="60" SizeY="21" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="199" TextPosY="161" TextSizeX="60" TextSizeY="19" PosX="10" PosY="0" SizeX="60" SizeY="19" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="199" TextPosY="119" TextSizeX="60" TextSizeY="19" PosX="10" PosY="0" SizeX="60" SizeY="19" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.568" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="176" TextSizeX="80" TextSizeY="20" PosX="0" PosY="0" SizeX="80" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="UserBoxWhisper_Button" ClassName="CKeroroUI_Button" PosX="4" PosY="72" SizeX="80" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="310" TextPosY="21" TextSizeX="65" TextSizeY="18" PosX="8" PosY="1" SizeX="65" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="310" TextPosY="2" TextSizeX="65" TextSizeY="18" PosX="8" PosY="1" SizeX="65" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="310" TextPosY="40" TextSizeX="65" TextSizeY="18" PosX="8" PosY="1" SizeX="65" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="310" TextPosY="2" TextSizeX="65" TextSizeY="18" PosX="8" PosY="1" SizeX="65" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.568" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="176" TextSizeX="80" TextSizeY="20" PosX="0" PosY="0" SizeX="80" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="UserBoxOut_Button" ClassName="CKeroroUI_Button" PosX="4" PosY="95" SizeX="80" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="87" TextPosY="51" TextSizeX="80" TextSizeY="17" PosX="0" PosY="2" SizeX="80" SizeY="17" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="2" TextPosY="51" TextSizeX="80" TextSizeY="17" PosX="0" PosY="2" SizeX="80" SizeY="17" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="170" TextPosY="97" TextSizeX="80" TextSizeY="17" PosX="0" PosY="2" SizeX="80" SizeY="17" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="2" TextPosY="51" TextSizeX="80" TextSizeY="17" PosX="0" PosY="2" SizeX="80" SizeY="17" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.568" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="176" TextSizeX="80" TextSizeY="20" PosX="0" PosY="0" SizeX="80" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="UserBoxTeamChange_Button" ClassName="CKeroroUI_Button" PosX="4" PosY="118" SizeX="80" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.567" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="173" TextPosY="51" TextSizeX="74" TextSizeY="18" PosX="3" PosY="1" SizeX="74" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="173" TextPosY="73" TextSizeX="74" TextSizeY="18" PosX="3" PosY="1" SizeX="74" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.568" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_community.tga" TextPosX="647" TextPosY="176" TextSizeX="80" TextSizeY="20" PosX="0" PosY="0" SizeX="80" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

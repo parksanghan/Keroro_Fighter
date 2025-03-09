@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="28">
+        <PROPERTYBAG NAME="CAP" FILENAME="Tamama_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Tamama_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Tamama_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Tamama_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Tamama_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Tamama_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Tamama_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Tamama_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Tamama_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Tamama_Eye09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Tamama_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Tamama_Eye09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Tamama_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Tamama_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Tamama_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Tamama_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Tamama_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Tamama_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Tamama_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Tamama_Head12.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Tamama_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Tamama_Head07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Tamama_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Tamama_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Tamama_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Tamama_Body_top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Tamama_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="TAIL" FILENAME="Tamama_Tail.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Gameroom_idle" FILENAME="Tama_Gameroom_Idle.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Heal" FILENAME="Slot_Skill_Healing.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="KE_COMBO_BB_3" FILENAME="KE_COMBO_BB_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_HEAL_S3" FILENAME="SLOT_HEAL_S3.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="SKIL_BUFF_HEAL" FILENAME="Skil_Buff_Cure_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="ricecake" FILENAME="Skill_Obj_Ricecake.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Skill_EVENT_Ricecake_COMMANDS.XML" />
+</GAMEENTITY>

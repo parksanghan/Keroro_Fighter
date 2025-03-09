@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="KF_ComMapHouse_01" FILENAME="KF_ComMapHouse_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KF_ComMapHouse_02" FILENAME="KF_ComMapHouse_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KF_ComMapHouse_03" FILENAME="KF_ComMapHouse_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KF_ComMapHouse_04" FILENAME="KF_ComMapHouse_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KF_ComMapHouse_05" FILENAME="KF_ComMapHouse_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KF_ComMapHouse_06" FILENAME="KF_ComMapHouse_06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KF_ComMapHouse_07_01" FILENAME="KF_ComMapHouse_07_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KF_ComMapHouse_07_02" FILENAME="KF_ComMapHouse_07_02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="KF_ComMapHouse_01_COMMANDS.XML" />
+</GAMEENTITY>

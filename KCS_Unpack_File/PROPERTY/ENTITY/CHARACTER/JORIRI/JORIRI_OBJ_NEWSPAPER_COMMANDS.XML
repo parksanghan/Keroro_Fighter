@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="WIN" LOOP="0" TOTALTIME="3.07">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Jump_P_Obj_Newspaper" TYPENAME="ActionAnimation" ANIMATIONNAME="Jump_P_Obj_Newspaper" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

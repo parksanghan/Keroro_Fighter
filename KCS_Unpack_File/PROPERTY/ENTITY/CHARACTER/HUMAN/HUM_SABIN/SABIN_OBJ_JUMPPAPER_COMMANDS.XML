@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="JUMP_DOWN" LOOP="0" TOTALTIME="0.67">
+            <ACTIONEVENT CLASSNAME="CActionEvent_LoopAni" EVENTNAME="Sabin_Jump_Down_WPaper" TYPENAME="LoopAnimation" ANIMATIONNAME="Sabin_Jump_Down_WPaper" WEIGHT="1" DELAY="0.1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="JUMP_TWIICE" LOOP="0" TOTALTIME="0.5">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Jump_Twice_WPaper" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Jump_Twice_WPaper" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

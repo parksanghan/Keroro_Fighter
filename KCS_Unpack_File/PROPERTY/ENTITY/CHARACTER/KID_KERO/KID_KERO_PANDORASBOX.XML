@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="KidKero_obj_Pandorasbox" FILENAME="KidKero_obj_Pandorasbox.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="KidKero_obj_pandorasbox.VS">
+        <PROPERTYBAG NAME="KidKero_obj_pandorasbox" FILENAME="KidKero_obj_pandorasbox.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kid_Kero_Pandorasbox_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="ITEM_POWER_COIN" FILENAME="Com_Item_Power-Coin.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Com_Item_State_Coin.VS">
+        <PROPERTYBAG NAME="ITEM_STATE_COIN" FILENAME="Com_Item_State_Coin.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Power_Coin_COMMANDS.XML" />
+</GAMEENTITY>

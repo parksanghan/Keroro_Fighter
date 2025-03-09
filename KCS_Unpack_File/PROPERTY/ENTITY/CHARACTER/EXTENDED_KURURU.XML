@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<EXTENDEDENTITY_LIST>
+    <EXTENTITY NAME="Antenna" FILENAME="Kuru_Antenna.xml" />
+    <EXTENTITY NAME="Notebook" FILENAME="Kuru_Notebook.xml" />
+    <EXTENTITY NAME="Remote" FILENAME="Kuru_Remote.xml" />
+    <EXTENTITY NAME="Satellite" FILENAME="Kuru_Satellite.xml" />
+</EXTENDEDENTITY_LIST>

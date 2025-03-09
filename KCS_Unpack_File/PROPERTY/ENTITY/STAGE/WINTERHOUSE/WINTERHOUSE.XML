@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="16">
+        <PROPERTYBAG NAME="WinterHouse_Background" FILENAME="WinterHouse_Background.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Bigtree" FILENAME="WinterHouse_Bigtree.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Bigtree002" FILENAME="WinterHouse_Bigtree002.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Downwall" FILENAME="WinterHouse_Downwall.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Downwall01" FILENAME="WinterHouse_Downwall01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Gate" FILENAME="WinterHouse_Gate.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Guird" FILENAME="WinterHouse_Guird.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_House" FILENAME="WinterHouse_House.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Mainfloor01" FILENAME="WinterHouse_Mainfloor01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Mainfloor02" FILENAME="WinterHouse_Mainfloor02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Mainfloor03" FILENAME="WinterHouse_Mainfloor03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Tent" FILENAME="WinterHouse_Tent.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_TreeT" FILENAME="WinterHouse_TreeT.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_TreeCer01" FILENAME="WinterHouse_TreeCer01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Clould02" FILENAME="WinterHouse_Clould02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Clould03" FILENAME="WinterHouse_Clould03.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Playground_Warp_Y00.xml" FILENAME="Playground_Warp_Y00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WinterHouse_COMMANDS.XML" />
+</GAMEENTITY>

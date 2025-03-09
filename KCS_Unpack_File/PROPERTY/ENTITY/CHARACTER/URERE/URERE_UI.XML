@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="34">
+        <PROPERTYBAG NAME="EYE" FILENAME="Urere_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Urere_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Urere_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Urere_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Urere_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Urere_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Urere_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Urere_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Urere_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Urere_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Urere_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Urere_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Urere_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Urere_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Urere_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Urere_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Urere_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Urere_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Urere_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Urere_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Urere_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Urere_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Urere_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Urere_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Urere_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP" FILENAME="Urere_Cap_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP01" FILENAME="Urere_Cap_2.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="8" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="GAMEROOM_WAIT" FILENAME="Urere_Gameroom_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="LOSE" FILENAME="Urere_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Comb_KK" FILENAME="Urere_Comb_KK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Comb_PP" FILENAME="Urere_Comb_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Comb_PPP" FILENAME="Urere_Comb_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Gameroom_Wait" FILENAME="Urere_Gameroom_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WAIT" FILENAME="Urere_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Urere_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="EF_COMB_KKP" FILENAME="Char_Doro_ComKKOAtk_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="CHARACTER_OBJ_1" FILENAME="Urere_Obj_Bag.xml" />
+        <PROPERTYBAG NAME="Urere_Obj_BagMimic" FILENAME="Urere_Obj_BagMimic.xml" />
+        <PROPERTYBAG NAME="Urere_Obj_Baggun" FILENAME="Urere_Obj_Baggun.xml" />
+        <PROPERTYBAG NAME="Urere_Obj_Bagpunch" FILENAME="Urere_Obj_Bagpunch.xml" />
+        <PROPERTYBAG NAME="Urere_Obj_Pan" FILENAME="Urere_Obj_Pan.xml" />
+        <PROPERTYBAG NAME="Urere_Obj_Paper" FILENAME="Urere_Obj_Paper.xml" />
+        <PROPERTYBAG NAME="Urere_Obj_SPE" FILENAME="Urere_Obj_SPE.xml" />
+        <PROPERTYBAG NAME="Urere_Obj_Train" FILENAME="Urere_Obj_Train.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Urere_UI_COMMANDS.XML" />
+</GAMEENTITY>

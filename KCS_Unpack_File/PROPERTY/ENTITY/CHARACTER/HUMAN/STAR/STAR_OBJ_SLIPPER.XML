@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Star_Obj_Slipper" FILENAME="Star_Obj_Slipper.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Star_Obj_slipper.VS">
+        <PROPERTYBAG NAME="Star_Obj_Jump_P" FILENAME="Star_Obj_Jump_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Star_Obj_slipper" FILENAME="Star_Obj_slipper.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Star_Obj_Slipper_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="17">
+        <PROPERTYBAG NAME="bus_alphatex_01" FILENAME="bus_alphatex_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_background_01" FILENAME="bus_background_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_build_01" FILENAME="bus_build_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_bus_01" FILENAME="bus_bus_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_bus_rader" FILENAME="bus_bus_rader.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_buslight_01" FILENAME="bus_buslight_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_ground_01" FILENAME="bus_ground_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_ground_02" FILENAME="bus_ground_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_ground_03" FILENAME="bus_ground_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_ground_04" FILENAME="bus_ground_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_manhole_01" FILENAME="bus_manhole_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_obj_01" FILENAME="bus_obj_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_sign_01" FILENAME="bus_sign_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_sign_02" FILENAME="bus_sign_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_signallight_01" FILENAME="bus_signallight_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_telebox_01" FILENAME="bus_telebox_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="bus_wing_01" FILENAME="bus_wing_01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="bus_all_COMMANDS.XML" />
+</GAMEENTITY>

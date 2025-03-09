@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="GODZILLA_Breath_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.300000" X="10.000000" Y="10.000000" Z="10.000000" />
+            <Property Time="0.700000" X="20.000000" Y="20.000000" Z="20.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="1.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="7.000000" Y="7.000000" Z="0.300000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Weapon_Tennis_E00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="2.000000" Max="3.000000" />
+        <RepeatCount Count="35.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.990000" />
+        <RegenTime Min="0.050000" Max="0.030000" />
+        <RotScaleMin X="20.000000" Y="20.000000" Z="0.000000" />
+        <RotScaleMax X="50.000000" Y="50.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="130.000000" Z="-120.000000" />
+        <RandPosMax X="0.000000" Y="130.000000" Z="-120.000000" />
+        <ComboList RefOrder="1.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="40.000000" Max="60.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="100.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="10.000000" Y="0.000000" Z="10.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="7.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="33">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.000000" Y="1.000000" Z="1.000000" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.210000" Y="0.210000" Z="0.009000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.000000" Y="2.000000" Z="2.000000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="0.018000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.630000" Y="0.630000" Z="0.027000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.000000" Y="4.000000" Z="4.000000" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="0.036000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.000000" Y="5.000000" Z="5.000000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.050000" Y="1.050000" Z="0.045000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.000000" Y="6.000000" Z="6.000000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.260000" Y="1.260000" Z="0.054000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.999999" Y="6.999999" Z="6.999999" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.470000" Y="1.470000" Z="0.063000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.000000" Y="8.000000" Z="8.000000" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.680000" Y="1.680000" Z="0.072000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.999999" Y="8.999999" Z="8.999999" />
+            <Alpha Value="186.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.890000" Y="1.890000" Z="0.081000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.000000" Y="10.000000" Z="10.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.100000" Y="2.100000" Z="0.090000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.428572" Y="10.428572" Z="10.428572" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.310000" Y="2.310000" Z="0.099000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.857142" Y="10.857142" Z="10.857142" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.520000" Y="2.520000" Z="0.108000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.285714" Y="11.285714" Z="11.285714" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.730000" Y="2.730000" Z="0.117000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.714286" Y="11.714286" Z="11.714286" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.940000" Y="2.940000" Z="0.126000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.142857" Y="12.142857" Z="12.142857" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.150000" Y="3.150000" Z="0.135000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.571428" Y="12.571428" Z="12.571428" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.360000" Y="3.360000" Z="0.144000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.000000" Y="13.000000" Z="13.000000" />
+            <Alpha Value="124.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.570000" Y="3.570000" Z="0.153000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.428572" Y="13.428572" Z="13.428572" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.780000" Y="3.780000" Z="0.162000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.857142" Y="13.857142" Z="13.857142" />
+            <Alpha Value="109.650009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.990000" Y="3.990000" Z="0.171000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.285714" Y="14.285714" Z="14.285714" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.200000" Y="4.200000" Z="0.180000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.714285" Y="14.714285" Z="14.714285" />
+            <Alpha Value="94.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.410000" Y="4.410000" Z="0.189000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.142857" Y="15.142857" Z="15.142857" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.620000" Y="4.620000" Z="0.198000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.571428" Y="15.571428" Z="15.571428" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.830000" Y="4.830000" Z="0.207000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.000000" Y="16.000000" Z="16.000000" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.040000" Y="5.040000" Z="0.216000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.428572" Y="16.428572" Z="16.428572" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.250000" Y="5.250000" Z="0.225000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.857143" Y="16.857143" Z="16.857143" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.460000" Y="5.460000" Z="0.234000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.285713" Y="17.285713" Z="17.285713" />
+            <Alpha Value="48.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.670000" Y="5.670000" Z="0.243000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.714285" Y="17.714285" Z="17.714285" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.880000" Y="5.880000" Z="0.252000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.142857" Y="18.142857" Z="18.142857" />
+            <Alpha Value="33.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.090000" Y="6.090000" Z="0.261000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.571428" Y="18.571428" Z="18.571428" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.300000" Y="6.300000" Z="0.270000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.000000" Y="19.000000" Z="19.000000" />
+            <Alpha Value="17.849991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.510000" Y="6.510000" Z="0.279000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.428570" Y="19.428570" Z="19.428570" />
+            <Alpha Value="10.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.720000" Y="6.720000" Z="0.288000" />
+            <Texture Texture="Weapon_Tennis_E00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="CAP_H" FILENAME="Com_Cap_umbrellacap_00_KD_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Com_Cap_umbrellacap_00_G_2" FILENAME="Com_Cap_umbrellacap_00_KD_2.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Com_Cap_umbrellacap_00_KD_COMMANDS.XML" />
+</GAMEENTITY>

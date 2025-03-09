@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_Option.xml" PosX="280" PosY="123" SizeX="487" SizeY="476" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.650" Show="1">
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="113" TextPosY="88" TextSizeX="9" TextSizeY="476" PosX="22" PosY="0" SizeX="443" SizeY="476" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_gamemenu.TGA" TextPosX="90" TextPosY="88" TextSizeX="22" TextSizeY="476" PosX="0" PosY="0" SizeX="22" SizeY="476" />
+            <Element index="5" TextName="GUI_gamemenu.TGA" TextPosX="123" TextPosY="88" TextSizeX="22" TextSizeY="476" PosX="465" PosY="0" SizeX="22" SizeY="476" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.649" Show="1">	<!-- 배경음 Line -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="3" TextPosY="3" TextSizeX="472" TextSizeY="25" PosX="8" PosY="55" SizeX="472" SizeY="25" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.648" Show="1">	<!-- 배경음 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="255" TextSizeX="183" TextSizeY="21" PosX="156" PosY="57" SizeX="183" SizeY="21" />
+        </Property>
+
+        <Property Index="3" RenderStyle="0" Depth="0.649" Show="1">	<!-- 효과음 Line -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="3" TextPosY="3" TextSizeX="472" TextSizeY="25" PosX="8" PosY="117" SizeX="472" SizeY="25" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.648" Show="1">	<!-- 효과음 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="279" TextSizeX="147" TextSizeY="21" PosX="173" PosY="119" SizeX="147" SizeY="21" />
+        </Property>
+
+        <Property Index="5" RenderStyle="0" Depth="0.649" Show="1">	<!-- 그래픽 설정 Line -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="3" TextPosY="3" TextSizeX="472" TextSizeY="25" PosX="8" PosY="179" SizeX="472" SizeY="25" />
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.648" Show="1">	<!-- 그래픽 설정 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="303" TextSizeX="202" TextSizeY="21" PosX="146" PosY="181" SizeX="202" SizeY="21" />
+        </Property>
+
+        <Property Index="7" RenderStyle="0" Depth="0.649" Show="1">	<!-- 카메라 효과 설정 Line -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="3" TextPosY="3" TextSizeX="472" TextSizeY="25" PosX="8" PosY="239" SizeX="472" SizeY="25" />
+        </Property>
+        <Property Index="8" RenderStyle="0" Depth="0.648" Show="1">	<!-- 카메라 효과 설정 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="327" TextSizeX="241" TextSizeY="21" PosX="124" PosY="241" SizeX="241" SizeY="21" />
+        </Property>
+
+        <Property Index="9" RenderStyle="0" Depth="0.649" Show="1">	<!-- 메신저 설정 Line -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="3" TextPosY="3" TextSizeX="472" TextSizeY="25" PosX="8" PosY="299" SizeX="472" SizeY="25" />
+        </Property>
+        <Property Index="10" RenderStyle="0" Depth="0.648" Show="1">	<!-- 메신저 설정 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="351" TextSizeX="223" TextSizeY="21" PosX="133" PosY="301" SizeX="223" SizeY="21" />
+        </Property>
+
+
+        <Property Index="11" RenderStyle="0" Depth="0.648" Show="1">	<!-- 기본 Title -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="268" TextPosY="227" TextSizeX="134" TextSizeY="22" PosX="182" PosY="15" SizeX="134" SizeY="22" />
+        </Property>
+
+
+
+        <Property Index="12" RenderStyle="0" Depth="0.649" Show="1">	<!-- BGM1 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="157" PosY="89" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="13" RenderStyle="0" Depth="0.649" Show="1">	<!-- BGM2 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="198" PosY="89" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="14" RenderStyle="0" Depth="0.649" Show="1">	<!-- BGM3 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="239" PosY="89" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="15" RenderStyle="0" Depth="0.649" Show="1">	<!-- BGM4 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="280" PosY="89" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="16" RenderStyle="0" Depth="0.649" Show="1">	<!-- BGM5 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="321" PosY="89" SizeX="39" SizeY="20" />
+        </Property>
+
+
+        <Property Index="17" RenderStyle="0" Depth="0.649" Show="1">	<!-- SFX1 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="157" PosY="151" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="18" RenderStyle="0" Depth="0.649" Show="1">	<!-- SFX2 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="198" PosY="151" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="19" RenderStyle="0" Depth="0.649" Show="1">	<!-- SFX3 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="239" PosY="151" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="20" RenderStyle="0" Depth="0.649" Show="1">	<!-- SFX4 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="280" PosY="151" SizeX="39" SizeY="20" />
+        </Property>
+        <Property Index="21" RenderStyle="0" Depth="0.649" Show="1">	<!-- SFX5 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="677" TextSizeX="39" TextSizeY="20" PosX="321" PosY="151" SizeX="39" SizeY="20" />
+        </Property>
+
+
+        <Property Index="22" RenderStyle="0" Depth="0.649" Show="1">	<!-- 그래픽 향상 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="105" PosY="213" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="23" RenderStyle="0" Depth="0.649" Show="1">	<!-- 그래픽 향상 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="375" TextSizeX="81" TextSizeY="20" PosX="128" PosY="213" SizeX="81" SizeY="20" />
+        </Property>
+        <Property Index="24" RenderStyle="0" Depth="0.649" Show="1">	<!-- 속도 향상 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="292" PosY="213" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="25" RenderStyle="0" Depth="0.649" Show="1">	<!-- 속도 향상 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="353" TextPosY="375" TextSizeX="68" TextSizeY="20" PosX="315" PosY="213" SizeX="68" SizeY="20" />
+        </Property>
+
+
+        <Property Index="26" RenderStyle="0" Depth="0.649" Show="1">	<!-- 카메라 효과 끄기 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="105" PosY="273" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="27" RenderStyle="0" Depth="0.649" Show="1">	<!-- 카메라 효과 끄기 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="398" TextSizeX="60" TextSizeY="20" PosX="128" PosY="273" SizeX="60" SizeY="20" />
+        </Property>
+        <Property Index="28" RenderStyle="0" Depth="0.649" Show="1">	<!-- 카메라 효과 켜기 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="292" PosY="273" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="29" RenderStyle="0" Depth="0.649" Show="1">	<!-- 카메라 효과 켜기 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="332" TextPosY="398" TextSizeX="66" TextSizeY="20" PosX="315" PosY="273" SizeX="66" SizeY="20" />
+        </Property>
+
+        <Property Index="30" RenderStyle="0" Depth="0.649" Show="1">	<!-- 친구초대 거부 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="105" PosY="340" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="31" RenderStyle="0" Depth="0.649" Show="1">	<!-- 친구초대 거부 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="269" TextPosY="421" TextSizeX="101" TextSizeY="20" PosX="130" PosY="340" SizeX="101" SizeY="20" />
+        </Property>
+
+        <Property Index="32" RenderStyle="0" Depth="0.649" Show="1">	<!-- 1:1 대화 거부 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="105" PosY="375" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="33" RenderStyle="0" Depth="0.649" Show="1">	<!-- 1:1 대화 거부 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="373" TextPosY="421" TextSizeX="92" TextSizeY="20" PosX="130" PosY="375" SizeX="92" SizeY="20" />
+        </Property>
+
+        <Property Index="34" RenderStyle="0" Depth="0.649" Show="1">	<!-- 쪽지 거부 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="292" PosY="340" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="35" RenderStyle="0" Depth="0.649" Show="1">	<!-- 쪽지 거부 Text -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="401" TextPosY="398" TextSizeX="60" TextSizeY="20" PosX="315" PosY="340" SizeX="60" SizeY="20" />
+        </Property>
+
+
+        <Property Index="36" RenderStyle="0" Depth="0.651" Show="1">	<!-- 전체 뒷 배경 검은색 Texture 처리 -->
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-280" PosY="-123" SizeX="1024" SizeY="768" />
+        </Property>
+
+        <Property Index="37" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="368" TextPosY="700" TextSizeX="20" TextSizeY="20" PosX="292" PosY="375" SizeX="20" SizeY="20" />
+        </Property>
+        <Property Index="38" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="268" TextPosY="444" TextSizeX="59" TextSizeY="20" PosX="315" PosY="375" SizeX="59" SizeY="20" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="OptionCancel_Button" ClassName="CKeroroUI_Button" PosX="248" PosY="419" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="OptionOK_Button" ClassName="CKeroroUI_Button" PosX="148" PosY="419" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="238" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!--START - 기본 UI-->
+        <Property Name="Close_Button" ClassName="CKeroroUI_Button" PosX="447" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기본 UI-->
+
+<!--START - 배경음-->
+        <Property Name="BGMSwitch_Button" ClassName="CKeroroUI_Button" PosX="99" PosY="90" SizeX="15" SizeY="18" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="415" TextPosY="657" TextSizeX="15" TextSizeY="18" PosX="0" PosY="0" SizeX="15" SizeY="18" />
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="415" TextPosY="657" TextSizeX="15" TextSizeY="18" PosX="0" PosY="0" SizeX="15" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="432" TextPosY="658" TextSizeX="6" TextSizeY="16" PosX="17" PosY="1" SizeX="6" SizeY="16" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.649" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="440" TextPosY="661" TextSizeX="11" TextSizeY="11" PosX="16" PosY="4" SizeX="11" SizeY="11" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGMLeft_Button" ClassName="CKeroroUI_Button" PosX="128" PosY="86" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="627" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="1" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="543" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="599" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="571" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGMRight_Button" ClassName="CKeroroUI_Button" PosX="363" PosY="86" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="627" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="1" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="543" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="599" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="571" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM1_Button" ClassName="CKeroroUI_Button" PosX="157" PosY="89" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM2_Button" ClassName="CKeroroUI_Button" PosX="198" PosY="89" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM3_Button" ClassName="CKeroroUI_Button" PosX="239" PosY="89" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM4_Button" ClassName="CKeroroUI_Button" PosX="280" PosY="89" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM5_Button" ClassName="CKeroroUI_Button" PosX="321" PosY="89" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - - 배경음-->
+
+<!--START - 효과음-->
+        <Property Name="SFXSwitch_Button" ClassName="CKeroroUI_Button" PosX="99" PosY="152" SizeX="15" SizeY="18" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="415" TextPosY="657" TextSizeX="15" TextSizeY="18" PosX="0" PosY="0" SizeX="15" SizeY="18" />
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="415" TextPosY="657" TextSizeX="15" TextSizeY="18" PosX="0" PosY="0" SizeX="15" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="432" TextPosY="658" TextSizeX="6" TextSizeY="16" PosX="17" PosY="1" SizeX="6" SizeY="16" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.649" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="440" TextPosY="661" TextSizeX="11" TextSizeY="11" PosX="16" PosY="4" SizeX="11" SizeY="11" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFXLeft_Button" ClassName="CKeroroUI_Button" PosX="128" PosY="148" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="627" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="1" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="543" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="599" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="571" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFXRight_Button" ClassName="CKeroroUI_Button" PosX="363" PosY="148" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="627" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="1" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="543" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="599" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_gamemenu.TGA" TextPosX="399" TextPosY="571" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX1_Button" ClassName="CKeroroUI_Button" PosX="157" PosY="151" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX2_Button" ClassName="CKeroroUI_Button" PosX="198" PosY="151" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX3_Button" ClassName="CKeroroUI_Button" PosX="239" PosY="151" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX4_Button" ClassName="CKeroroUI_Button" PosX="280" PosY="151" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX5_Button" ClassName="CKeroroUI_Button" PosX="321" PosY="151" SizeX="39" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="371" TextPosY="655" TextSizeX="39" TextSizeY="20" PosX="0" PosY="0" SizeX="39" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - - 효과음-->
+
+<!--START - 그래픽설정-->
+        <Property Name="AntiON_Button" ClassName="CKeroroUI_Button" PosX="105" PosY="213" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="AntiOFF_Button" ClassName="CKeroroUI_Button" PosX="292" PosY="213" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - - 그래픽설정-->
+
+<!--START - 그래픽설정-->
+        <Property Name="ZoomInOFF_Button" ClassName="CKeroroUI_Button" PosX="105" PosY="273" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ZoomInON_Button" ClassName="CKeroroUI_Button" PosX="292" PosY="273" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - - 그래픽설정-->
+
+<!--START - 메신져설정-->
+        <Property Name="BlockFreind_Button" ClassName="CKeroroUI_Button" PosX="105" PosY="340" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BlockTransaction_Button" ClassName="CKeroroUI_Button" PosX="292" PosY="375" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BlockChat_Button" ClassName="CKeroroUI_Button" PosX="105" PosY="375" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BlockPPaper_Button" ClassName="CKeroroUI_Button" PosX="292" PosY="340" SizeX="20" SizeY="20" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gamemenu.TGA" TextPosX="414" TextPosY="701" TextSizeX="14" TextSizeY="14" PosX="3" PosY="3" SizeX="14" SizeY="14" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.648" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_gamemenu.TGA" TextPosX="390" TextPosY="700" TextSizeX="22" TextSizeY="22" PosX="-1" PosY="-1" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - - 메신져설정-->
+
+<!--START - Tooltip -->
+        <Property Name="BGMArea_Control" ClassName="CKeroroUI_Button" PosX="0" PosY="59" SizeX="487" SizeY="59" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.647" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="487" SizeY="59" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="STATIC_Option_ToolTipBGM" ClassName="CKeroroUI_Static" PosX="405" PosY="63" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="1" Depth="0.647" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="16" PosY="16" SizeX="234" SizeY="10" />
+                    <Element ControlState="0" index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="16" PosY="0" SizeX="234" SizeY="16" />
+                    <Element ControlState="0" index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="250" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="16" SizeX="16" SizeY="10" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="250" PosY="16" SizeX="16" SizeY="10" />
+                    <Element ControlState="0" index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="26" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="16" PosY="26" SizeX="234" SizeY="16" />
+                    <Element ControlState="0" index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="250" PosY="26" SizeX="16" SizeY="16" />
+                </Property>
+            </ControlSkin>
+	    <!--FontSkin>
+                <Property FontText="배경 음악 볼륨을 조절 합니다." FontDepth="0.646" FontTextureName="STATIC_Option_ToolTipBGM_Text" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="41" FontPosY="14" />
+            </FontSkin-->
+        </Property>
+
+        <Property Name="SFXArea_Control" ClassName="CKeroroUI_Button" PosX="0" PosY="119" SizeX="487" SizeY="59" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.647" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="487" SizeY="59" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="STATIC_Option_ToolTipSFX" ClassName="CKeroroUI_Static" PosX="405" PosY="125" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="1" Depth="0.647" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="16" PosY="16" SizeX="234" SizeY="10" />
+                    <Element ControlState="0" index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="16" PosY="0" SizeX="234" SizeY="16" />
+                    <Element ControlState="0" index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="250" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="16" SizeX="16" SizeY="10" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="250" PosY="16" SizeX="16" SizeY="10" />
+                    <Element ControlState="0" index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="26" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="16" PosY="26" SizeX="234" SizeY="16" />
+                    <Element ControlState="0" index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="250" PosY="26" SizeX="16" SizeY="16" />
+                </Property>
+            </ControlSkin>
+	    <!--FontSkin>
+                <Property FontText="효과음의 볼륨을 조절 합니다." FontDepth="0.646" FontTextureName="STATIC_Option_ToolTipSFX_Text" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="41" FontPosY="14" />
+            </FontSkin-->
+        </Property>
+
+        <Property Name="ANTIArea_Control" ClassName="CKeroroUI_Button" PosX="0" PosY="179" SizeX="487" SizeY="59" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.647" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="487" SizeY="59" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="STATIC_Option_ToolTipGRAPHIC" ClassName="CKeroroUI_Static" PosX="405" PosY="187" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="1" Depth="0.647" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="16" PosY="16" SizeX="254" SizeY="46" />
+                    <Element ControlState="0" index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="16" PosY="0" SizeX="254" SizeY="16" />
+                    <Element ControlState="0" index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="270" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="16" SizeX="16" SizeY="46" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="270" PosY="16" SizeX="16" SizeY="46" />
+                    <Element ControlState="0" index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="62" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="16" PosY="62" SizeX="254" SizeY="16" />
+                    <Element ControlState="0" index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="270" PosY="62" SizeX="16" SizeY="16" />
+                </Property>
+            </ControlSkin>
+	    <!--FontSkin>
+                <Property FontText="컴퓨터 사향에 따라 그래픽향상, 속도향상을" FontDepth="0.646" FontTextureName="STATIC_Option_ToolTipGRAPHIC_Text" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="13" FontPosY="14" />
+            </FontSkin-->
+        </Property>
+
+        <Property Name="ZoomInArea_Control" ClassName="CKeroroUI_Button" PosX="0" PosY="239" SizeX="487" SizeY="59" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.647" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="487" SizeY="59" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="STATIC_Option_ToolTipCAMERA" ClassName="CKeroroUI_Static" PosX="405" PosY="249" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="1" Depth="0.647" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="16" PosY="16" SizeX="234" SizeY="22" />
+                    <Element ControlState="0" index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="16" PosY="0" SizeX="234" SizeY="16" />
+                    <Element ControlState="0" index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="250" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="16" SizeX="16" SizeY="22" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="250" PosY="16" SizeX="16" SizeY="22" />
+                    <Element ControlState="0" index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="38" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="16" PosY="38" SizeX="234" SizeY="16" />
+                    <Element ControlState="0" index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="250" PosY="38" SizeX="16" SizeY="16" />
+                </Property>
+            </ControlSkin>
+	    <!--FontSkin>
+                <Property FontText="상대방 캐릭터를 타격할 때, 카메라가" FontDepth="0.646" FontTextureName="STATIC_Option_ToolTipCAMERA_Text" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="23" FontPosY="15" />
+            </FontSkin-->
+        </Property>
+
+        <Property Name="MessengerArea_Control" ClassName="CKeroroUI_Button" PosX="0" PosY="299" SizeX="487" SizeY="114" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.647" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="487" SizeY="114" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="STATIC_Option_ToolTipMESSENGER" ClassName="CKeroroUI_Static" PosX="405" PosY="311" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="1" Depth="0.647" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="16" PosY="16" SizeX="264" SizeY="22" />
+                    <Element ControlState="0" index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="16" PosY="0" SizeX="264" SizeY="16" />
+                    <Element ControlState="0" index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="280" PosY="0" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="0" PosY="16" SizeX="16" SizeY="22" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="450" TextSizeX="16" TextSizeY="16" PosX="280" PosY="16" SizeX="16" SizeY="22" />
+                    <Element ControlState="0" index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="38" SizeX="16" SizeY="16" />
+                    <Element ControlState="0" index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="663" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="16" PosY="38" SizeX="264" SizeY="16" />
+                    <Element ControlState="0" index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="280" PosY="38" SizeX="16" SizeY="16" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - - Tooltip --> 
+
+    </DialogControl>
+</RootNode>

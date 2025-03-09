@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+
+<RootNode>
+	<Dialog>
+		<Property Name = "Dialog_Play_SiegeWarfare_StatueHP" PosX = "350" PosY = "90" SizeX = "377" SizeY = "82" ClientLeft = "0" ClientTop = "0" ClientRight = "0" ClientBottom = "0" />
+	</Dialog>
+
+	<DialogSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.800" Show = "1" >
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "391" TextPosY = "779" TextSizeX = "14" TextSizeY = "39" PosX = "89" PosY = "26" SizeX = "265" SizeY = "39" />
+			<Element index = "1" TextName = "" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+			<Element index = "2" TextName = "" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+			<Element index = "3" TextName = "" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+			<Element index = "4" TextName = "GUI_gameplay.tga" TextPosX = "301" TextPosY = "753" TextSizeX = "89" TextSizeY = "82" PosX = "0" PosY = "0" SizeX = "89" SizeY = "82" />
+			<Element index = "5" TextName = "GUI_gameplay.tga" TextPosX = "406" TextPosY = "779" TextSizeX = "14" TextSizeY = "39" PosX = "354" PosY = "26" SizeX = "14" SizeY = "39" />
+			<Element index = "6" TextName = "" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+			<Element index = "7" TextName = "" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+			<Element index = "8" TextName = "" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+		</Property>
+		<!-- Gauge Back Ground -->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.801" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "2" TextPosY = "794" TextSizeX = "295" TextSizeY = "18" PosX = "70" PosY = "28" SizeX = "295" SizeY = "18" />
+		</Property>
+		<Property Index = "2" RenderStyle = "0" Depth = "0.801" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay3.tga" TextPosX = "530" TextPosY = "540" TextSizeX = "295" TextSizeY = "18" PosX = "70" PosY = "45" SizeX = "295" SizeY = "18" />
+		</Property>
+		<Property Index = "3" RenderStyle = "0" Depth = "0.761" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay3.tga" TextPosX = "530" TextPosY = "563" TextSizeX = "293" TextSizeY = "1" PosX = "70" PosY = "45" SizeX = "293" SizeY = "1" />
+		</Property>
+		<!--Statue Img-->
+		<Property Index = "4" RenderStyle = "0" Depth = "0.769" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay3.tga" TextPosX = "885" TextPosY = "446" TextSizeX = "63" TextSizeY = "74" PosX = "11" PosY = "8" SizeX = "63" SizeY = "74" />
+		</Property>
+	</DialogSkin>
+
+	<DialogControl>
+<!--
+		<Property Name = "TestBackImg" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "1024" SizeY = "768" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.811" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "EVENT01.TGA" TextPosX = "30" TextPosY = "5" TextSizeX = "5" TextSizeY = "5" PosX = "0" PosY = "0" SizeX = "400" SizeY = "82"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "RedGauge" ClassName = "CKeroroUI_Control" PosX = "70" PosY = "28" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.77" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "gui_gameplay.tga" TextPosX = "2" TextPosY = "756" TextSizeX = "292" TextSizeY = "18" PosX = "0" PosY = "0" SizeX = "292" SizeY = "18"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "RedGaugeShadow" ClassName = "CKeroroUI_Control" PosX = "70" PosY = "28" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.78" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "gui_gameplay.tga" TextPosX = "2" TextPosY = "833" TextSizeX = "293" TextSizeY = "18" PosX = "0" PosY = "0" SizeX = "293" SizeY = "18"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+	
+
+		<Property Name = "BlueGauge" ClassName = "CKeroroUI_Control" PosX = "70" PosY = "46" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.77" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "gui_gameplay.tga" TextPosX = "2" TextPosY = "888" TextSizeX = "293" TextSizeY = "14" PosX = "0" PosY = "0" SizeX = "293" SizeY = "14"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "BlueGaugeShadow" ClassName = "CKeroroUI_Control" PosX = "70" PosY = "46" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.78" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "gui_gameplay.tga" TextPosX = "3" TextPosY = "852" TextSizeX = "293" TextSizeY = "16" PosX = "0" PosY = "0" SizeX = "293" SizeY = "16"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+-->
+
+	</DialogControl>	
+</RootNode>

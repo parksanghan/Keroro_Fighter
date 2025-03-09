@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Puru_Obj_Syringe" FILENAME="Puru_Obj_Syringe.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="8" VSNAME="Puru_Obj_syringe.VS">
+        <PROPERTYBAG NAME="Puru_Obj_Comb_KKP" FILENAME="Puru_Obj_Comb_KKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_Comb_KP" FILENAME="Puru_Obj_Comb_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_Comb_PK" FILENAME="Puru_Obj_Comb_PK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_Comb_PP" FILENAME="Puru_Obj_Comb_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_Comb_PPK" FILENAME="Puru_Obj_Comb_PPK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_Comb_PPP" FILENAME="Puru_Obj_Comb_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_Comb_SPE" FILENAME="Puru_Obj_Comb_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Puru_Obj_ROOM_IDLE" FILENAME="Puru_Obj_ROOM_IDLE.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Puru_Obj_Syringe_COMMANDS.XML" />
+</GAMEENTITY>

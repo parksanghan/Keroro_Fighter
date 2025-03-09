@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="SPE_SHADOW_04" LOOP="0" TOTALTIME="1.33">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="SPE_Shadow_04" TYPENAME="ActionAnimation" ANIMATIONNAME="SPE_Shadow_04" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

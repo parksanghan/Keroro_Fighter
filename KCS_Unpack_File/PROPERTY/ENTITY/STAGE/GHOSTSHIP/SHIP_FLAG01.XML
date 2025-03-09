@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Ship_flag01" FILENAME="Ship_flag01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Ship_flag01.VS">
+        <PROPERTYBAG NAME="Ship_flag01" FILENAME="Ship_flag01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Ship_Fire_E00" FILENAME="Ship_Fire_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_Wave_E00" FILENAME="Ship_Wave_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_rope_E00" FILENAME="Ship_rope_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_rope_E01" FILENAME="Ship_rope_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ship_smoke_E00" FILENAME="Ship_smoke_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Ship_flag01_COMMANDS.XML" />
+</GAMEENTITY>

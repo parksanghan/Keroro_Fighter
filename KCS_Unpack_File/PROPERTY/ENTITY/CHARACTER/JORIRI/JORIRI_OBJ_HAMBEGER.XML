@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Joriri_Obj_hamburger" FILENAME="Joriri_Obj_hambeger.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Joiri_Obj_hambeger.VS">
+        <PROPERTYBAG NAME="Comb_SPE_Obj_hambeger_01" FILENAME="Joriri_Comb_SPE_Obj_hambeger_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_SPE_Obj_hamburger" FILENAME="Joriri_Comb_SPE_Obj_hambeger.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Joriri_Obj_Hambeger_COMMANDS.XML" />
+</GAMEENTITY>

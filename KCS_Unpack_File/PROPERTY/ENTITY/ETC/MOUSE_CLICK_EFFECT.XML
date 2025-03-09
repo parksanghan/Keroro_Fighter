@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Stage_Effect_Entity" FILENAME="Stage_Effect_Entity.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="SELRECT_GROUND" FILENAME="Comm_Shadow_P.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SELRECT_GROUND_TOP" FILENAME="Comm_Select_R.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Mouse_Click_Effect_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Play_ViperHP.xml" PosX="337" PosY="88" SizeX="0" SizeY="0" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="3" Depth="0.640" Show="1">	<!-- 원형 배경 -->
+            <Element index="0" TextName="GUI_gameplay.tga" TextPosX="392" TextPosY="753" TextSizeX="1" TextSizeY="82" PosX="88" PosY="0" SizeX="263" SizeY="82" />
+            <Element index="1" TextName="GUI_gameplay.tga" TextPosX="302" TextPosY="753" TextSizeX="88" TextSizeY="82" PosX="0" PosY="0" SizeX="88" SizeY="82" />
+            <Element index="2" TextName="GUI_gameplay.tga" TextPosX="406" TextPosY="753" TextSizeX="14" TextSizeY="82" PosX="351" PosY="0" SizeX="14" SizeY="82" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.6310" Show="1">	<!-- 얼굴 -->
+            <Element index="0" TextName="GUI_gameplay2.tga" TextPosX="692" TextPosY="136" TextSizeX="75" TextSizeY="65" PosX="3" PosY="8" SizeX="75" SizeY="65" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.6399" Show="1">	<!-- 게이지 배경 -->
+            <Element index="0" TextName="GUI_gameplay.tga" TextPosX="2" TextPosY="833" TextSizeX="296" TextSizeY="37" PosX="68" PosY="27" SizeX="296" SizeY="37" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.999" Show="0"> 	<!-- 알파값 때문에 전체 배경 스킨이 보이지 않아 확인용으로 넣은 스킨 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="457" SizeY="800" />
+        </Property>
+    </DialogSkin>
+    <DialogControl/>
+</RootNode>

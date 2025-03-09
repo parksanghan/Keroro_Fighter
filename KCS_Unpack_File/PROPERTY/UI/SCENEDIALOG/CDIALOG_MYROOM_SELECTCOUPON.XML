@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="342" PosY="155" SizeX="366" SizeY="370" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.738" Show="1">
+            <Element index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="0" TextPosY="0" TextSizeX="366" TextSizeY="370" PosX="0" PosY="0" SizeX="366" SizeY="370" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.739" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-342" PosY="-155" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="OK_Button" ClassName="CKeroroUI_Button" PosX="83" PosY="193" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="Coupon_Sheet.TGA" TextPosX="3" TextPosY="418" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="Coupon_Sheet.TGA" TextPosX="3" TextPosY="448" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="Coupon_Sheet.TGA" TextPosX="3" TextPosY="478" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Cancel_Button" ClassName="CKeroroUI_Button" PosX="187" PosY="193" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="Coupon_Sheet.TGA" TextPosX="115" TextPosY="418" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="Coupon_Sheet.TGA" TextPosX="115" TextPosY="448" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="Coupon_Sheet.TGA" TextPosX="115" TextPosY="478" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Close_Button" ClassName="CKeroroUI_Button" PosX="330" PosY="12" SizeX="21" SizeY="21" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="Coupon_Sheet.TGA" TextPosX="349" TextPosY="4" TextSizeX="21" TextSizeY="21" PosX="0" PosY="0" SizeX="21" SizeY="21" />
+                    <Element ControlState="2" index="0" TextName="Coupon_Sheet.TGA" TextPosX="372" TextPosY="4" TextSizeX="21" TextSizeY="21" PosX="0" PosY="0" SizeX="21" SizeY="21" />
+                    <Element ControlState="3" index="0" TextName="Coupon_Sheet.TGA" TextPosX="395" TextPosY="4" TextSizeX="21" TextSizeY="21" PosX="0" PosY="0" SizeX="21" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select3_Button" ClassName="CKeroroUI_Button" PosX="38" PosY="60" SizeX="132" SizeY="95" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.729" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="1" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="369" TextPosY="270" TextSizeX="142" TextSizeY="105" PosX="0" PosY="0" SizeX="132" SizeY="95" />
+                    <Element ControlState="2" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+                    <Element ControlState="3" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select2_Button" ClassName="CKeroroUI_Button" PosX="196" PosY="60" SizeX="132" SizeY="95" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.729" Show="1">
+                  <Element ControlState="0" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                  <Element ControlState="1" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="369" TextPosY="270" TextSizeX="142" TextSizeY="105" PosX="0" PosY="0" SizeX="132" SizeY="95" />
+                  <Element ControlState="2" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+                  <Element ControlState="3" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+	<!--<Property Name="Select5_Button" ClassName="CKeroroUI_Button" PosX="38" PosY="190" SizeX="132" SizeY="95" Disable="0">
+         <ControlSkin>
+          <Property Index="0" RenderStyle="0" Depth="0.729" Show="1">
+            <Element ControlState="0" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element ControlState="1" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="369" TextPosY="270" TextSizeX="142" TextSizeY="105" PosX="0" PosY="0" SizeX="132" SizeY="95" />
+            <Element ControlState="2" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+            <Element ControlState="3" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+          </Property>
+        </ControlSkin>
+      </Property>
+      <Property Name="Select6_Button" ClassName="CKeroroUI_Button" PosX="196" PosY="190" SizeX="132" SizeY="95" Disable="0">
+        <ControlSkin>
+          <Property Index="0" RenderStyle="0" Depth="0.729" Show="1">
+            <Element ControlState="0" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element ControlState="1" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="369" TextPosY="270" TextSizeX="142" TextSizeY="105" PosX="0" PosY="0" SizeX="132" SizeY="95" />
+            <Element ControlState="2" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+            <Element ControlState="3" index="0" TextName="GUI_SelectCoupon.TGA" TextPosX="370" TextPosY="378" TextSizeX="140" TextSizeY="103" PosX="-4" PosY="-4" SizeX="140" SizeY="103" />
+          </Property>
+        </ControlSkin>
+      </Property>-->
+
+    </DialogControl>
+</RootNode>

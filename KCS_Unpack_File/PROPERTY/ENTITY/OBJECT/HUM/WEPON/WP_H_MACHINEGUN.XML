@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Hum_WP_FlyFlap" FILENAME="Hum_WP_Machinegun.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="WP_BlackHammer.VS">
+        <PROPERTYBAG NAME="Hammer_obj_comb_P" FILENAME="Hammer_obj_comb_P.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Comm_Item_Hold_E01" FILENAME="Comm_Item_Hold_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_H_Machinegun_COMMANDS.XML" />
+</GAMEENTITY>

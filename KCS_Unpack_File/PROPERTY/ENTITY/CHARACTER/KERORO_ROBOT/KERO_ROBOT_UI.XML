@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Keroro_robot_body" FILENAME="Keroro_robot_body.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_hand" FILENAME="Keroro_robot_hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_hat" FILENAME="Keroro_robot_hat.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_head" FILENAME="Keroro_robot_head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_robot_leg" FILENAME="Keroro_robot_leg.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="9" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMBAT_RD" FILENAME="Kero_Combat_Ready.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_KK" FILENAME="Kero_Comb_KK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_PP" FILENAME="Kero_Comb_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_PPK" FILENAME="Kero_Comb_PPK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_PPP" FILENAME="Kero_Comb_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="GAMEROOM_WAIT" FILENAME="Kero_Gameroom_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="LOSE" FILENAME="Kero_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WAIT" FILENAME="Kero_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Kero_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="EF_PPK" FILENAME="Char_Kero_ComPPO_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="KERO_MOP" FILENAME="kero_Aniob_Mop.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Kero_robot_UI_COMMANDS.XML" />
+</GAMEENTITY>

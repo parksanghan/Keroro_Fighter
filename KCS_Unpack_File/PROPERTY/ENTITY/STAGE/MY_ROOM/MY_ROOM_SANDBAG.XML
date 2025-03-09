@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="My_Room_Sandbag_M" FILENAME="My_Room_Sandbag_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="My_Room_Sandbag.VS">
+        <PROPERTYBAG NAME="My_Room_Sandbag" FILENAME="My_Room_Sandbag.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Playground_Trapolyn" FILENAME="Playground_Trapolyn.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="My_Room_training_B01" FILENAME="My_Room_training_B01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="My_Room_Sandbag_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<GamePropertyList>
+    <Property Name="Character" Filename="CharacterProperty_Taiwan.xml"/>
+    <Property Name="Skill" Filename="SkillProperty_Taiwan.xml"/>
+    <Property Name="Item" Filename="ItemProperty_Taiwan.xml"/>
+    <Property Name="Combo" Filename="ComboProperty_Taiwan.xml"/>
+    <Property Name="MyRoom" Filename="MyRoomProperty_Taiwan.xml"/>
+    <Property Name="Shop" Filename="ShopProperty_Taiwan.xml"/>
+    <Property Name="BuffAttribute" Filename=""/>
+    <Property Name="TargetBox" Filename=""/>
+    <Property Name="Card" Filename="CardProperty_Taiwan.xml"/>
+    <Property Name="Package" Filename="PackageProperty_Taiwan.xml"/>
+    <Property Name="Weapon" Filename="WeaponProperty_Taiwan.xml"/>
+    <Property Name="Riding" Filename="RidingProperty_Taiwan.xml"/>
+    <Property Name="FishingItem" Filename=""/>
+    <Property Name="FishingChange" Filename=""/>
+    <Property Name="AddCharacter" Filename="AddCharacterProperty_Taiwan.xml"/>
+    <Property Name="AddMonster" Filename="AddMonsterProperty_Taiwan.xml"/>
+    <Property Name="EndlessWarNPCStatusBonus" Filename="EndlessWarNPCStatusBonusProperty_Taiwan.xml"/>
+    <Property Name="Title" Filename="TitleProperty_Taiwan.xml"/>
+    <Property Name="SignBoard" Filename="SignBoardProperty_Taiwan.xml"/>
+    <Property Name="Jewelry" Filename="JewelryProperty_Taiwan.xml"/>
+
+    <Property Name="CreateItem" Filename="CreateItemProperty_Taiwan.xml"/>
+    <Property Name="CreateJewelry" Filename="CreateJewelryProperty_Taiwan.xml"/>
+
+    <Property Name="Map" Filename="MapProperty_Taiwan.xml"/>
+    <Property Name="GameMode" Filename="GameModeProperty_Taiwan.xml"/>
+
+</GamePropertyList>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Starland_Obj_UFO_Floor.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Starland_Obj_UFO.dds" />
+        <Texture filename="Starland_Obj_UFO_Back.DDS" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureFader">
+            <Property name="UseAlpha" value="0" />
+            <Property name="TextureCount" value="2" />
+            <Property name="FadeSpeed" value="2.00" />
+            <Property name="FadeDelay" value="0.00" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+</VGEModelFile>

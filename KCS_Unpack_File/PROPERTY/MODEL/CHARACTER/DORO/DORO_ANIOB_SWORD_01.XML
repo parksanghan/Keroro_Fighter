@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Doro_Aniob_Sword_01.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Aniob_Doro_Kite.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.00" />
+        </Shader>
+    </ShaderInfo>
+</VGEModelFile>

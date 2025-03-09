@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="CAP" FILENAME="Joriri_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Joriri_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Joriri_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Joriri_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Joriri_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Joriri_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Joriri_Bodyu.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Combat_Wait" FILENAME="Joriri_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Joriri_Bathtub_01" FILENAME="Skill_Joriri_Bathtub_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Joriri_Bathtub_02" FILENAME="Skill_Joriri_Bathtub_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Joriri_Addition_11" FILENAME="Joriri_Addition_11.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_100TONHAMMER_3" FILENAME="SKILL_ATK_100TONHAMMER_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_DEX_SOILATK_S1" FILENAME="SKILL_DEX_SOILATK_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="comb_KPP_1" FILENAME="Ukiki_comb_KPP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="comb_PK_1" FILENAME="Ukiki_comb_PK_1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="Jori_Bathtub_E00" FILENAME="Jori_Spe_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Bathtub_E01" FILENAME="Jori_Spe_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Bathtub_E02" FILENAME="Jori_Spe_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Bathtub_E03" FILENAME="Jori_Spe_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Bathtub_E04" FILENAME="Jori_Spe_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Bathtub_E05" FILENAME="Jori_Spe_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Skill_Joriri_Obj_FootHold01" FILENAME="Skill_Joriri_Obj_FootHold01.xml" />
+        <PROPERTYBAG NAME="Skill_Joriri_Obj_Shower" FILENAME="Skill_Joriri_Obj_Shower.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Skill_Joriri_Bathtub_COMMANDS.XML" />
+</GAMEENTITY>

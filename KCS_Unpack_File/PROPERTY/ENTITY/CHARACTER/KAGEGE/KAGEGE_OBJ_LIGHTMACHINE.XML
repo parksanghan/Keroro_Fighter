@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Kagege_Obj_LightMachine" FILENAME="Kagege_Obj_LightMachine.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Kagege_Obj_LightMachine.VS">
+        <PROPERTYBAG NAME="Kagege_Obj_Idle_02" FILENAME="Kagege_Obj_Idle_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Kagege_Obj_PK" FILENAME="Kagege_Obj_PK.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kagege_Obj_LightMachine_COMMANDS.XML" />
+</GAMEENTITY>

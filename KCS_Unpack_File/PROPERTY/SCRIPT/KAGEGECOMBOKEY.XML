@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<ComboKey>
+  <!-- 기본 콤보 -->
+  <ATTACK Type = "0">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_PPP" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet2">
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_PP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "1" ComboCommand = "COMB_PPK" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+    <Combo Name = "ComboSet3">
+      <Property Key = "0" ComboCommand = "COMB_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_PK" DamageCommand = "CHANGEKEY" BackDamageCommand = "CHANGEKEY" />
+    </Combo>
+    <Combo Name = "ComboSet4">
+      <Property Key = "1" ComboCommand = "COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_KKK" DamageCommand = "HIT_FALL_01" BackDamageCommand = "HIT_FALL_01_B" />
+    </Combo>
+    <Combo Name = "ComboSet5">
+      <Property Key = "1" ComboCommand = "COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "1" ComboCommand = "COMB_KK" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_KKP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_KKPP" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_02_B" />
+      <Property Key = "0" ComboCommand = "COMB_KKPPP" DamageCommand = "HIT_TUMBLE_01" BackDamageCommand = "HIT_TUMBLE_B" />
+    </Combo>
+    <Combo Name = "ComboSet6">
+      <Property Key = "1" ComboCommand = "COMB_K" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+      <Property Key = "0" ComboCommand = "COMB_KP" DamageCommand = "HIT_FLY_02" BackDamageCommand = "HIT_FLY_02_B" />
+    </Combo>
+  </ATTACK>
+
+  <!-- 대시 s 공격 -->
+  <DASHATTACKLARGE Type = "1">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_DA_K" DamageCommand = "HIT_FALL_02" BackDamageCommand = "HIT_FALL_02_B" />
+    </Combo>
+  </DASHATTACKLARGE>
+
+  <!-- 대시 d 공격 -->
+  <DASHATTACKSMALL Type = "2">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_DA_P" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </DASHATTACKSMALL>
+
+  <!-- 점프 s 공격 -->
+  <JUMPATTACKLARGE Type = "3">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_JA_P" DamageCommand = "HIT_PUSH_03" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </JUMPATTACKLARGE>
+
+  <!-- 점프 d 공격 -->
+  <JUMPATTACKSMALL Type = "4">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_JA_K" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </JUMPATTACKSMALL>
+
+  <!-- 필살기 -->
+  <SPECIALATTACK Type = "5">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboCommand = "COMB_SPE" DamageCommand = "HIT_JORU_SPE" BackDamageCommand = "HIT_JORU_SPE_B" />
+    </Combo>
+  </SPECIALATTACK>
+
+  <!-- 카운터 어택 -->
+  <COUNTERATTACK Type = "6">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMB_CUNT" DamageCommand = "HIT_PUSH_01" BackDamageCommand = "HIT_PUSH_01_B" />
+    </Combo>
+  </COUNTERATTACK>
+
+  <!-- 회피기 -->
+  <ESCAPE Type = "7">
+    <Combo Name ="Comboset1">
+      <Property Key = "0" ComboCommand = "COMB_ESC" DamageCommand = "HIT_PUSH_02" BackDamageCommand = "HIT_PUSH_02_B" />
+    </Combo>
+  </ESCAPE>  
+</ComboKey>

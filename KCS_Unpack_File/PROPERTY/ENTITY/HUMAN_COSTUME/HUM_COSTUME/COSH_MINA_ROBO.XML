@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="9">
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="CosH_Robo_Mn_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU02" FILENAME="CosH_Robo_Mn_PunchRocket_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU03" FILENAME="CosH_Robo_Mn_PunchRocket_2.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU04" FILENAME="CosH_Robo_Mn_ChestRocket.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP_H" FILENAME="CosH_Robo_Mn_Hair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="CosH_Robo_Mn_Bodyd_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD02" FILENAME="CosH_Robo_Mn_Bodyd_2.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND_H" FILENAME="Cos_empty.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="Cos_empty.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="CosH_Mina_Robo_COMMANDS.XML" />
+</GAMEENTITY>

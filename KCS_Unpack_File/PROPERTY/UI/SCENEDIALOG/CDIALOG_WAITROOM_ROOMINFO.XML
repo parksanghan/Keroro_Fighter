@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_WaitRoom_RoomInfo.xml" PosX="3" PosY="121" SizeX="604" SizeY="43" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.841" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="30" TextPosY="97" TextSizeX="20" TextSizeY="35" PosX="23" PosY="0" SizeX="655" SizeY="35" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="97" TextSizeX="23" TextSizeY="35" PosX="0" PosY="0" SizeX="23" SizeY="35" />
+            <Element index="5" TextName="GUI_waiting room.TGA" TextPosX="51" TextPosY="97" TextSizeX="23" TextSizeY="35" PosX="678" PosY="0" SizeX="23" SizeY="35" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.840" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="257" TextPosY="361" TextSizeX="23" TextSizeY="26" PosX="109" PosY="5" SizeX="23" SizeY="26" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.840" Show="1">
+            <Element index="0" TextName="GUI_waiting room2.TGA" TextPosX="136" TextPosY="103" TextSizeX="30" TextSizeY="19" PosX="131" PosY="8" SizeX="30" SizeY="19" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.999" Show="0">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="1024" SizeY="768" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.840" Show="1">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="516" TextPosY="27" TextSizeX="252" TextSizeY="91" PosX="5" PosY="-88" SizeX="252" SizeY="91" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.840" Show="0">
+            <Element index="0" TextName="GUI_waiting room2.TGA" TextPosX="257" TextPosY="58" TextSizeX="254" TextSizeY="95" PosX="2" PosY="-90" SizeX="254" SizeY="95" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="BUTTON_WaitRoom_RoomInfoEdit" ClassName="CKeroroUI_Button" PosX="2" PosY="2" SizeX="103" SizeY="31" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.830" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="406" TextPosY="27" TextSizeX="103" TextSizeY="31" PosX="0" PosY="0" SizeX="103" SizeY="31" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room.TGA" TextPosX="406" TextPosY="95" TextSizeX="103" TextSizeY="31" PosX="0" PosY="0" SizeX="103" SizeY="31" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room.TGA" TextPosX="406" TextPosY="61" TextSizeX="103" TextSizeY="31" PosX="0" PosY="0" SizeX="103" SizeY="31" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room.TGA" TextPosX="406" TextPosY="95" TextSizeX="103" TextSizeY="31" PosX="0" PosY="0" SizeX="103" SizeY="31" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="STATIC_WaitRoom_RoomInfo" ClassName="CKeroroUI_Static" PosX="160" PosY="11" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="[ 001 ] 방제목은스무글자까지입니다방제목은스무글 / 아이템 팀전 ( 5:5 ) / 스킬사용 / 5판" FontDepth="0.830" FontTextureName="STATIC_WaitRoom_RoomInfo" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

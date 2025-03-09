@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WP_Machinegun" FILENAME="WP_machinegun.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="13" VSNAME="muchingun.VS">
+        <PROPERTYBAG NAME="muchingun_obj_comb_k" FILENAME="muchingun_obj_comb_k.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_comb_p" FILENAME="muchingun_obj_comb_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_combat_wait" FILENAME="muchingun_obj_combat_wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_dash01" FILENAME="muchingun_obj_dash01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_dash02" FILENAME="muchingun_obj_dash02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_dash_p" FILENAME="muchingun_obj_dash_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_idle_01" FILENAME="muchingun_obj_idle_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_jump_down" FILENAME="muchingun_obj_jump_down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_jump_landing" FILENAME="muchingun_obj_jump_landing.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_jump_once" FILENAME="muchingun_obj_jump_once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_jump_p" FILENAME="muchingun_obj_jump_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_jump_twice" FILENAME="muchingun_obj_jump_twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="muchingun_obj_jump_up" FILENAME="muchingun_obj_jump_up.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="Comm_Item_Hold_E01" FILENAME="Comm_Item_Hold_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_JP2_E00" FILENAME="Gan_Comb_JP_P2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_JP2_E01" FILENAME="Gan_Comb_JP2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_JP2_E02" FILENAME="Gan_Comb_JP2_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P2_E00" FILENAME="Gan_Comb_P2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P2_E01" FILENAME="Gan_Comb_P2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P2_E02" FILENAME="Gan_Comb_P2_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_Muchingun_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_AddFriend.xml" PosX="358" PosY="271" SizeX="321" SizeY="166" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.579" Show="1">
+            <Element index="0" TextName="GUI_community.tga" TextPosX="808" TextPosY="106" TextSizeX="88" TextSizeY="21" PosX="116" PosY="14" SizeX="88" SizeY="21" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.579" Show="1">
+            <Element index="0" TextName="GUI_community.tga" TextPosX="742" TextPosY="307" TextSizeX="88" TextSizeY="21" PosX="116" PosY="14" SizeX="88" SizeY="21" />
+        </Property>
+        <Property Index="2" RenderStyle="1" Depth="0.580" Show="1">
+            <Element index="0" TextName="GUI_community.tga" TextPosX="509" TextPosY="169" TextSizeX="5" TextSizeY="166" PosX="30" PosY="0" SizeX="261" SizeY="166" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_community.tga" TextPosX="478" TextPosY="169" TextSizeX="30" TextSizeY="166" PosX="0" PosY="0" SizeX="30" SizeY="166" />
+            <Element index="5" TextName="GUI_community.tga" TextPosX="515" TextPosY="169" TextSizeX="30" TextSizeY="166" PosX="291" PosY="0" SizeX="30" SizeY="166" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.580" Show="1">
+            <Element index="0" TextName="GUI_community.tga" TextPosX="420" TextPosY="96" TextSizeX="287" TextSizeY="34" PosX="17" PosY="51" SizeX="287" SizeY="34" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="BUTTON_Close" ClassName="CKeroroUI_Button" PosX="278" PosY="12" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.579" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="AddOK_Button" ClassName="CKeroroUI_Button" PosX="52" PosY="102" SizeX="113" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.579" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="870" TextPosY="344" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="870" TextPosY="397" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="870" TextPosY="450" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="AddGuildOK_Button" ClassName="CKeroroUI_Button" PosX="52" PosY="102" SizeX="113" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.579" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="780" TextPosY="662" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="780" TextPosY="715" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="780" TextPosY="768" TextSizeX="113" TextSizeY="44" PosX="0" PosY="0" SizeX="113" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="AddCancel_Button" ClassName="CKeroroUI_Button" PosX="177" PosY="102" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.579" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

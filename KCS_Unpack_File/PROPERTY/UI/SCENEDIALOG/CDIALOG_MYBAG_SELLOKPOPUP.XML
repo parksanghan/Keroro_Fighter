@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="307" PosY="187" SizeX="412" SizeY="343" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+            <Element index="0" TextName="GUI_BuyPopup.TGA" TextPosX="0" TextPosY="554" TextSizeX="412" TextSizeY="343" PosX="0" PosY="0" SizeX="412" SizeY="343" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.590" Show="1">
+            <Element index="0" TextName="GUI_PresentSend_Popup.TGA" TextPosX="4" TextPosY="786" TextSizeX="90" TextSizeY="19" PosX="140" PosY="14" SizeX="90" SizeY="19" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.590" Show="1">
+            <Element index="0" TextName="GUI_PresentSend_Popup.TGA" TextPosX="95" TextPosY="836" TextSizeX="298" TextSizeY="44" PosX="39" PosY="208" SizeX="298" SizeY="44" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.590" Show="1">
+            <Element index="0" TextName="GUI_BuyPopup.TGA" TextPosX="199" TextPosY="919" TextSizeX="60" TextSizeY="17" PosX="158" PosY="98" SizeX="60" SizeY="17" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="SellOKDone_Button" ClassName="CKeroroUI_Button" PosX="145" PosY="292" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.590" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_BuyPopup.TGA" TextPosX="419" TextPosY="328" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_BuyPopup.TGA" TextPosX="419" TextPosY="358" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_BuyPopup.TGA" TextPosX="419" TextPosY="388" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="Trade_Community_field01" FILENAME="Trade_Community_field01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Trade_Community_field02" FILENAME="Trade_Community_field02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Trade_Community_field03" FILENAME="Trade_Community_field03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Trade_Community_field04" FILENAME="Trade_Community_field04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Trade_Community_field05" FILENAME="Trade_community_field05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Trade_community_field06" FILENAME="Trade_community_field06.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Trade_community_field_COMMANDS.XML" />
+</GAMEENTITY>

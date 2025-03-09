@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="volcano_dinosaur_05" FILENAME="volcano_dinosaur_05.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Volcano_Volcano_E00" FILENAME="Volcano_Volcano_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Volcano_Volcano_E01" FILENAME="Volcano_Volcano_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Volcano_Volcano_E03" FILENAME="Volcano_Volcano_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Volcano_smoke_E00" FILENAME="Volcano_smoke_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Volcano_smoke_E01" FILENAME="Volcano_smoke_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="volcano_dinosaur_05_COMMANDS.XML" />
+</GAMEENTITY>

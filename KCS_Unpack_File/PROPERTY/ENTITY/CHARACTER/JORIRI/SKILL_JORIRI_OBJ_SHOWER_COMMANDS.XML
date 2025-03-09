@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="JORIRI_OBJ_SHOWER" LOOP="0" TOTALTIME="2">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Skill_Joriri_Bathtub_Obj_Shower_01" TYPENAME="ActionAnimation" ANIMATIONNAME="Skill_Joriri_Bathtub_Obj_Shower_01" FADEIN="0" FADEOUT="0" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="JORIRI_OBJ_SHOWER_01" LOOP="0" TOTALTIME="1.57">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Skill_Joriri_Bathtub_Obj_Shower_02" TYPENAME="ActionAnimation" ANIMATIONNAME="Skill_Joriri_Bathtub_Obj_Shower_02" FADEIN="0" FADEOUT="0" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

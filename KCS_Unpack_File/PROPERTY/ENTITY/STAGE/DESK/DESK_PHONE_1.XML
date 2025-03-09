@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Desk_Phone_M" FILENAME="Desk_Phone_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Desk_Phone.VS">
+        <PROPERTYBAG NAME="Desk_Phone" FILENAME="Desk_Phone.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Desk_Handphone.ogg" FILENAME="Desk_Handphone.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Handphone2" FILENAME="Desk_Handphone.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Handphone3" FILENAME="Desk_Handphone.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Handphone4" FILENAME="Desk_Handphone.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Desk_Phone_1_COMMANDS.XML" />
+</GAMEENTITY>

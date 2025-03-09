@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="IDLE_02_01" LOOP="0" TOTALTIME="1.16">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Shurara_Obj_KeronStar" TYPENAME="ActionAnimation" ANIMATIONNAME="Shurara_Obj_KeronStar" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

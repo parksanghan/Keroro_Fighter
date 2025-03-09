@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="35">
+        <PROPERTYBAG NAME="Ground_basket" FILENAME="Ground_basket.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_can" FILENAME="Ground_can.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_drum02" FILENAME="Ground_drum02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_fence01" FILENAME="Ground_fence01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_flag_column" FILENAME="Ground_flag_column.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_ground" FILENAME="Ground_ground.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_house01" FILENAME="Ground_house01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_house02" FILENAME="Ground_house02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_housefence" FILENAME="Ground_housefence.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_line" FILENAME="Ground_line.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_moahouse" FILENAME="Ground_moahouse.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_pole" FILENAME="Ground_pole.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_pole02" FILENAME="Ground_pole02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_pole03" FILENAME="Ground_pole03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_refrigerator" FILENAME="Ground_refrigerator.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_shadow" FILENAME="Ground_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_shadow02" FILENAME="Ground_shadow02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_sign" FILENAME="Ground_sign.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_signal" FILENAME="Ground_signal.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_sky" FILENAME="Ground_sky.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_stone" FILENAME="Ground_stone.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_street" FILENAME="Ground_street.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_tent" FILENAME="Ground_tent.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_tent_column" FILENAME="Ground_tent_column.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_tire01" FILENAME="Ground_tire01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_tire02" FILENAME="Ground_tire02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_tree" FILENAME="Ground_tree.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_truck" FILENAME="Ground_truck.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_tube" FILENAME="Ground_tube.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_wood" FILENAME="Ground_wood.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_grass01" FILENAME="Ground_grass01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_grass02" FILENAME="Ground_grass02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_grass03" FILENAME="Ground_grass03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_grass04" FILENAME="Ground_grass04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_ladder" FILENAME="Ground_ladder.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Ground_eye_E00" FILENAME="Ground_eye_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_flag_E00" FILENAME="Ground_flag_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Ground_AA_COMMANDS.XML" />
+</GAMEENTITY>

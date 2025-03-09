@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="17">
+        <PROPERTYBAG NAME="BODYD" FILENAME="Snow_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Snow_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Snow_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Snow_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Snow_Face.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Snow_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Snow_Face01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Snow_Face02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Snow_Face03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Snow_Face04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Snow_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Snow_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Snow_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP" FILENAME="Snow_Hair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Snow_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Snow_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Snow_Face02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Human.VS">
+        <PROPERTYBAG NAME="Hum_Skill_Dex_BackSteP_01" FILENAME="Hum_Skill_Dex_BackSteP_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Skill_Dex_BackSteP_02" FILENAME="Hum_Skill_Dex_BackSteP_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="SKILL_DEX_BACKSTEP_1" FILENAME="SKILL_DEX_BACKSTEP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_DEX_BACKSTEP_2" FILENAME="SKILL_DEX_BACKSTEP_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_DEX_BACKSTEP_3" FILENAME="SKILL_DEX_BACKSTEP_3.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="Skill_Dex_BackStap_B00" FILENAME="Skill_Dex_BackStap_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_BackStap_B01" FILENAME="Skill_Dex_BackStap_B01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_BackStap_E00" FILENAME="Skill_Dex_BackStap_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_BackStap_E01" FILENAME="Skill_Dex_BackStap_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_BackStap_E02" FILENAME="Skill_Dex_BackStap_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_BackStap_E03" FILENAME="Skill_Dex_BackStap_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_BackStap_E04" FILENAME="Skill_Dex_BackStap_E04.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Hum_Skill_BACKSTEP_COMMANDS.XML" />
+</GAMEENTITY>

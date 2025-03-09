@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+  <Dialog>
+    <Property Name="EditDialog" PosX="8" PosY="408" SizeX="357" SizeY="500" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+  </Dialog>
+  <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.999" Show="0"> <!-- 알파값 때문에 전체 배경 스킨이 보이지 않아 확인용으로 넣은 스킨 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="357" SizeY="800" />
+        </Property>
+  </DialogSkin>
+  <DialogControl>
+    <Property Name="CONTROL_MainChat_BGSmall" ClassName="CKeroroUI_Control" PosX="0" PosY="238" SizeX="0" SizeY="0" Disable="0">
+      <ControlSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.829" Show="1">
+            <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="23" PosY="23" SizeX="311" SizeY="8" />
+
+            <Element ControlState="0" index="1" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="0" PosY="0" SizeX="23" SizeY="23" />
+            <Element ControlState="0" index="2" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="23" PosY="0" SizeX="311" SizeY="23" />
+            <Element ControlState="0" index="3" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="334" PosY="0" SizeX="23" SizeY="23" />
+
+	    <Element ControlState="0" index="4" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="0" PosY="23" SizeX="23" SizeY="8" />
+            <Element ControlState="0" index="5" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="334" PosY="23" SizeX="23" SizeY="8" />
+
+            <Element ControlState="0" index="6" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="0" PosY="31" SizeX="23" SizeY="23" />
+            <Element ControlState="0" index="7" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="23" PosY="31" SizeX="311" SizeY="23" />
+            <Element ControlState="0" index="8" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="334" PosY="31" SizeX="23" SizeY="23" />
+        </Property>
+      </ControlSkin>
+    </Property>
+    <Property Name="CONTROL_MainChat_BGMiddle" ClassName="CKeroroUI_Control" PosX="0" PosY="137" SizeX="0" SizeY="0" Disable="0">
+      <ControlSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.829" Show="1">
+            <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="23" PosY="23" SizeX="311" SizeY="109" />
+
+            <Element ControlState="0" index="1" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="0" PosY="0" SizeX="23" SizeY="23" />
+            <Element ControlState="0" index="2" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="23" PosY="0" SizeX="311" SizeY="23" />
+            <Element ControlState="0" index="3" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="334" PosY="0" SizeX="23" SizeY="23" />
+
+	    <Element ControlState="0" index="4" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="0" PosY="23" SizeX="23" SizeY="109" />
+            <Element ControlState="0" index="5" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="334" PosY="23" SizeX="23" SizeY="109" />
+
+            <Element ControlState="0" index="6" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="0" PosY="132" SizeX="23" SizeY="23" />
+            <Element ControlState="0" index="7" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="23" PosY="132" SizeX="311" SizeY="23" />
+            <Element ControlState="0" index="8" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="334" PosY="132" SizeX="23" SizeY="23" />
+        </Property>
+      </ControlSkin>
+    </Property>
+    <Property Name="CONTROL_MainChat_BGBig" ClassName="CKeroroUI_Control" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0">
+      <ControlSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.829" Show="1">
+            <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="23" PosY="23" SizeX="311" SizeY="246" />
+
+            <Element ControlState="0" index="1" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="0" PosY="0" SizeX="23" SizeY="23" />
+            <Element ControlState="0" index="2" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="23" PosY="0" SizeX="311" SizeY="23" />
+            <Element ControlState="0" index="3" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="334" PosY="0" SizeX="23" SizeY="23" />
+
+	    <Element ControlState="0" index="4" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="0" PosY="23" SizeX="23" SizeY="246" />
+            <Element ControlState="0" index="5" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="462" TextSizeX="23" TextSizeY="23" PosX="334" PosY="23" SizeX="23" SizeY="246" />
+
+            <Element ControlState="0" index="6" TextName="GUI_waiting room.TGA" TextPosX="858" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="0" PosY="269" SizeX="23" SizeY="23" />
+            <Element ControlState="0" index="7" TextName="GUI_waiting room.TGA" TextPosX="882" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="23" PosY="269" SizeX="311" SizeY="23" />
+            <Element ControlState="0" index="8" TextName="GUI_waiting room.TGA" TextPosX="906" TextPosY="486" TextSizeX="23" TextSizeY="23" PosX="334" PosY="269" SizeX="23" SizeY="23" />
+        </Property>
+      </ControlSkin>
+    </Property>
+
+	<Property Name="ChatInput_Button" ClassName="CKeroroUI_Button" PosX="302" PosY="301" SizeX="55" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.828" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="610" TextPosY="343" TextSizeX="55" TextSizeY="28" PosX="0" PosY="0" SizeX="55" SizeY="28" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="667" TextPosY="343" TextSizeX="55" TextSizeY="28" PosX="0" PosY="0" SizeX="55" SizeY="28" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="InputBox" ClassName="CKeroroUI_TabButton" PosX="0" PosY="301" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="1" Depth="0.839" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="575" TextPosY="343" TextSizeX="14" TextSizeY="28" PosX="17" PosY="0" SizeX="303" SizeY="28" />
+
+		    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+
+		    <Element ControlState="0" index="4" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="557" TextPosY="343" TextSizeX="17" TextSizeY="28" PosX="0" PosY="0" SizeX="17" SizeY="28" />
+		    <Element ControlState="0" index="5" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="590" TextPosY="343" TextSizeX="17" TextSizeY="28" PosX="320" PosY="0" SizeX="17" SizeY="28" />
+
+		    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+	<Property Name="LongButton" ClassName="CKeroroUI_Button" PosX="338" PosY="238" SizeX="18" SizeY="18" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.828" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="168" TextPosY="341" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="147" TextPosY="341" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="189" TextPosY="341" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="ShortButton" ClassName="CKeroroUI_Button" PosX="338" PosY="238" SizeX="18" SizeY="18" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.828" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="198" TextPosY="427" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="219" TextPosY="427" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="MiddleShortButton" ClassName="CKeroroUI_Button" PosX="338" PosY="238" SizeX="18" SizeY="18" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.848" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="198" TextPosY="427" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="219" TextPosY="427" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+
+
+	<Property Name="ListUp_Button" ClassName="CKeroroUI_Button" PosX="338" PosY="256" SizeX="18" SizeY="17" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.828" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="212" TextPosY="341" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="233" TextPosY="341" TextSizeX="18" TextSizeY="18" PosX="0" PosY="0" SizeX="18" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ListDown_Button" ClassName="CKeroroUI_Button" PosX="338" PosY="274" SizeX="18" SizeY="17" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.828" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="212" TextPosY="358" TextSizeX="18" TextSizeY="18" PosX="0" PosY="-1" SizeX="18" SizeY="18" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="254" TextPosY="358" TextSizeX="18" TextSizeY="18" PosX="0" PosY="-1" SizeX="18" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+
+        <Property Name="ChatTab_0" ClassName="CKeroroUI_TabButton" PosX="0" PosY="332" SizeX="51" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.829" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="497" TextSizeX="51" TextSizeY="23" PosX="0" PosY="0" SizeX="51" SizeY="23" />
+		    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="497" TextSizeX="51" TextSizeY="23" PosX="0" PosY="0" SizeX="51" SizeY="23" />
+		    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="472" TextSizeX="51" TextSizeY="23" PosX="0" PosY="0" SizeX="51" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ChatTab_1" ClassName="CKeroroUI_TabButton" PosX="51" PosY="332" SizeX="51" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.829" Show="1">
+		    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="609" TextPosY="472" TextSizeX="51" TextSizeY="23" PosX="0" PosY="0" SizeX="51" SizeY="23" />
+		    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="609" TextPosY="472" TextSizeX="51" TextSizeY="23" PosX="0" PosY="0" SizeX="51" SizeY="23" />
+		    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="609" TextPosY="497" TextSizeX="51" TextSizeY="23" PosX="0" PosY="0" SizeX="51" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+  </DialogControl>
+</RootNode>

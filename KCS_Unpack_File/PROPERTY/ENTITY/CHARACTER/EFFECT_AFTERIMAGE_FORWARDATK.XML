@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="Keroro_Body_down_afterimage" FILENAME="Keroro_Body_down_afterimage.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_Body_top_afterimage" FILENAME="Keroro_Body_top_afterimage.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KERORO_CAP_afterimage" FILENAME="KERORO_CAP_afterimage.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_Eye_afterimage" FILENAME="Keroro_Eye_afterimage.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KERORO_FOOT_afterimage" FILENAME="KERORO_FOOT_afterimage.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KERORO_HAND_afterimage" FILENAME="KERORO_HAND_afterimage.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Keroro_Head_afterimage" FILENAME="Keroro_Head_afterimage.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="aa" FILENAME="Skill_Dex_Forwardatk_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Effect_afterimage_COMMANDS.XML" />
+</GAMEENTITY>

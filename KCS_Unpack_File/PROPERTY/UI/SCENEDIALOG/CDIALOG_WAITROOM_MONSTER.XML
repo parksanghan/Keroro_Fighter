@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="4" PosY="397" SizeX="215" SizeY="114" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<Property Index="0" RenderStyle="1" Depth="0.900" Show="1"> <!-- 기본 배경 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="29" PosY="29" SizeX="157" SizeY="56" /> <!-- 중 -->
+            <Element index="1" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="0" PosY="0" SizeX="29" SizeY="29" /> <!-- 상좌 -->
+            <Element index="2" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="29" PosY="0" SizeX="157" SizeY="29" /> <!-- 상중 -->
+            <Element index="3" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="186" PosY="0" SizeX="29" SizeY="29" /> <!-- 상우 -->
+	    <Element index="4" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="0" PosY="29" SizeX="29" SizeY="56" /> <!-- 좌 -->
+            <Element index="5" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="186" PosY="29" SizeX="29" SizeY="56" /> <!-- 우 -->
+            <Element index="6" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="0" PosY="85" SizeX="29" SizeY="29" /> <!-- 하좌 -->
+            <Element index="7" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="29" PosY="85" SizeX="157" SizeY="29" /> <!-- 하중 -->
+            <Element index="8" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="186" PosY="85" SizeX="29" SizeY="29" /> <!-- 하우 -->
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.899" Show="1"> <!-- 난이도 선택 배경 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="164" TextPosY="43" TextSizeX="205" TextSizeY="34" PosX="5" PosY="5" SizeX="205" SizeY="34" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.898" Show="1"> <!-- 난이도 선택 Text -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="99" TextPosY="81" TextSizeX="50" TextSizeY="22" PosX="21" PosY="12" SizeX="50" SizeY="22" />
+        </Property>
+
+        <Property Index="3" RenderStyle="0" Depth="0.899" Show="1"> <!-- 몬스터 선택 배경 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="164" TextPosY="43" TextSizeX="205" TextSizeY="34" PosX="5" PosY="40" SizeX="205" SizeY="34" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.898" Show="1"> <!-- 몬스터 선택 Text -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="99" TextPosY="105" TextSizeX="63" TextSizeY="20" PosX="15" PosY="48" SizeX="63" SizeY="20" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Monster_Difficult_Select" ClassName="CKeroroUI_ComboBox" PosX="176" PosY="11" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="179" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="229" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="204" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="229" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Count_Select" ClassName="CKeroroUI_ComboBox" PosX="176" PosY="46" SizeX="22" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="179" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="229" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="204" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="229" TextPosY="472" TextSizeX="22" TextSizeY="22" PosX="0" PosY="0" SizeX="22" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Monster_Select_Button" ClassName="CKeroroUI_Button" PosX="5" PosY="75" SizeX="205" SizeY="34" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="638" TextPosY="399" TextSizeX="205" TextSizeY="34" PosX="0" PosY="0" SizeX="205" SizeY="34" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room.TGA" TextPosX="638" TextPosY="437" TextSizeX="205" TextSizeY="34" PosX="0" PosY="0" SizeX="205" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room.TGA" TextPosX="638" TextPosY="475" TextSizeX="205" TextSizeY="34" PosX="0" PosY="0" SizeX="205" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="Selected_DifficultLevel" ClassName="CKeroroUI_Button" PosX="141" PosY="23" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="1" FontDepth="0.649" FontTextureName="Selected_DifficultLevel_Text" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+
+        <Property Name="Selected_MonsterCount" ClassName="CKeroroUI_Button" PosX="141" PosY="58" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	    <FontSkin>
+                <Property FontText="1" FontDepth="0.649" FontTextureName="Selected_MonsterCount_Text" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="1315860.000000" FontPosX="0" FontPosY="0" />
+            </FontSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

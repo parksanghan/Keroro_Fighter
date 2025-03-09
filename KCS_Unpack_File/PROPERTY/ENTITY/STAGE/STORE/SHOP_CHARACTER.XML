@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Shop_Ch_gi_M" FILENAME="Shop_Ch_gi_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Ch_roof_M" FILENAME="Shop_Ch_roof_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_Ch_table_M" FILENAME="Shop_Ch_table_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Shop_Character_COMMANDS.XML" />
+</GAMEENTITY>

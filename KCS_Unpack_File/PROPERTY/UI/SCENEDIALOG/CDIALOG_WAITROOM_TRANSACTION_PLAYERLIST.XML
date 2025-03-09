@@ -1,0 +1,134 @@
+<?xml version = "1.0" encoding = "ks_c_5601_1987"?>
+<RootNode>
+	<Dialog>
+		<Property Name = "CDialog_WaitRoom_Transaction_PlayerList_TEST.xml" PosX = "778" PosY = "121" SizeX = "238" SizeY = "427" ClientLeft = "0" ClientTop = "0" ClientRight = "0" ClientBottom = "0" />
+	</Dialog>
+	<DialogSkin/>
+	<DialogControl>
+		<!--리스트 맨위-->
+		<Property Name = "CONTROL_TransactionPlayerList_Top" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "238" SizeY = "29" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "1" Depth = "0.900" Show = "1">
+					<Element ControlState ="0" index = "0" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index = "1" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="0" PosY="0" SizeX="29" SizeY="29" />
+					<Element ControlState ="0" index = "2" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="29" PosY="0" SizeX="180" SizeY="29" />
+					<Element ControlState ="0" index = "3" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="209" PosY="0" SizeX="29" SizeY="29" />
+					<Element ControlState ="0" index = "4" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index = "5" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index = "6" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index = "7" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index = "8" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--리스트 맨 아래-->
+		<Property Name = "CONTROL_TransactionPlayerList_Bottom" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "29" SizeX = "238" SizeY = "29" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "1" Depth = "0.900" Show = "1">
+					<Element ControlState ="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="1" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="2" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="3" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="4" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="5" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="6" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="0" PosY="0" SizeX="29" SizeY="29" />
+					<Element ControlState ="0" index="7" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="29" PosY="0" SizeX="180" SizeY="29" />
+					<Element ControlState ="0" index="8" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="209" PosY="0" SizeX="29" SizeY="29" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--리스트 중간-->
+		<Property Name = "CONTROL_TransactionPlayerList_Middle" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "29" SizeX = "238" SizeY = "339" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "1" Depth = "0.900" Show = "1">
+					<Element ControlState ="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="29" PosY="0" SizeX="180" SizeY="339" />
+					<Element ControlState ="0" index="1" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="2" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="3" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="4" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="0" PosY="0" SizeX="29" SizeY="339" />
+					<Element ControlState ="0" index="5" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="209" PosY="0" SizeX="29" SizeY="339" />
+					<Element ControlState ="0" index="6" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="7" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+					<Element ControlState ="0" index="8" TextName="GUI_waiting room.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--'유저리스트'이미지 -->
+		<Property Name = "CONTROL_TransactionPlayerList_Name" ClassName = "CKeroroUI_Control" PosX = "77" PosY = "8" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.899" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_waiting room.TGA" TextPosX = "395" TextPosY = "156" TextSizeX = "85" TextSizeY = "23" PosX = "0" PosY = "0" SizeX = "85" SizeY = "23" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Master 방장 표시-->
+		<Property Name = "CONTROL_TransactionPlayerList_Master" ClassName = "CKeroroUI_Control" PosX = "169" PosY = "45" Size = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.848" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_waiting room.TGA" TextPosX="440" TextPosY="485" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Super 방장 표시-->
+		<Property Name = "CONTROL_TransactionPlayerList_Super" ClassName = "CKeroroUI_Control" PosX = "168" PosY = "42" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.848" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_waiting room.TGA" TextPosX="933" TextPosY="467" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Horizontal line-->
+		<Property Name = "CONTROL_TransactionPlayerList_HorizontalLine" ClassName = "CKeroroUI_Control" PosX = "2" PosY = "35" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.848" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_waiting room.TGA" TextPosX="4" TextPosY="503" TextSizeX="233" TextSizeY="2" PosX="0" PosY="0" SizeX="233" SizeY="2" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!-- Button Up-->
+		<Property Name = "BUTTON_TransactionPlayerList_UpButton" ClassName = "CKeroroUI_Button" PosX = "200" PosY = "5" SizeX = "26" SizeY = "26" Disable = "0" OverSound = "1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_button.tga" TextPosX = "59" TextPosY = "342" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+					<Element ControlState = "1" index = "0" TextName = "GUI_button.tga" TextPosX = "3" TextPosY = "342" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+					<Element ControlState = "2" index = "0" TextName = "GUI_button.tga" TextPosX = "31" TextPosY = "342" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+					<Element ControlState = "3" index = "0" TextName = "GUI_button.tga" TextPosX = "3" TextPosY = "342" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!-- Button Down-->
+		<Property Name = "BUTTON_TransactionPlayerList_DownButton" ClassName = "CKeroroUI_Button" PosX = "200" PosY = "5" SizeX = "26" SizeY = "26" Disable = "0" OverSound = "1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_button.tga" TextPosX = "59" TextPosY = "371" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+					<Element ControlState = "1" index = "0" TextName = "GUI_button.tga" TextPosX = "3" TextPosY = "371" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+					<Element ControlState = "2" index = "0" TextName = "GUI_button.tga" TextPosX = "31" TextPosY = "371" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+					<Element ControlState = "3" index = "0" TextName = "GUI_button.tga" TextPosX = "3" TextPosY = "371" TextSizeX = "26" TextSizeY = "26" PosX = "0" PosY = "0" SizeX = "26" SizeY = "26"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Player Button--><!--아직 안씀-->
+		<Property Name = "BUTTON_TransactionPlayerList_PlayerButton" ClassName = "CKeroroUI_Button" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.85" Show = "0">
+					<Element ControlState = "0" index = "0" TextName = "GUI_waiting room.tga" TextPosX = "164" TextPosY = "81" TextSizeX = "228" TextSizeY = "31" PosX = "0" PosY = "0" SizeX = "228" SizeY = "31"/>
+					<Element ControlState = "1" index = "0" TextName = "GUI_waiting room.tga" TextPosX = "164" TextPosY = "150" TextSizeX = "228" TextSizeY = "31" PosX = "0" PosY = "0" SizeX = "228" SizeY = "31"/>
+					<Element ControlState = "2" index = "0" TextName = "GUI_waiting room.tga" TextPosX = "164" TextPosY = "116" TextSizeX = "228" TextSizeY = "31" PosX = "0" PosY = "0" SizeX = "228" SizeY = "31"/>
+					<Element ControlState = "3" index = "0" TextName = "GUI_waiting room.tga" TextPosX = "164" TextPosY = "150" TextSizeX = "228" TextSizeY = "31" PosX = "0" PosY = "0" SizeX = "228" SizeY = "31"/>
+				</Property>				
+			</ControlSkin>
+		</Property>
+		<!--거래중--><!--아직 안씀-->
+		<Property Name = "CONTROL_TransactionPlayerList_Trade" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0"  Depth = "0.849" Show = "0">
+					<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&inf2.tga" TextPosX = "224" TextPosY = "818" TextSizeX = "59" TextSizeY = "27" PosX = "0" PosY = "3" SizeX = "228" SizeY = "31"/>
+					<Element ControlState = "1" index = "0" TextName = "GUI_Inventory&inf2.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "3" SizeX = "0" SizeY = "0"/>
+				</Property>
+			</ControlSkin>
+		</Property>
+	</DialogControl>
+</RootNode>

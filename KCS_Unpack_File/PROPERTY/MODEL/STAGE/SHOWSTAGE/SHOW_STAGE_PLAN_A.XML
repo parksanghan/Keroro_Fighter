@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Show_Stage_Plan_A.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Show_Stage_Plan_A.dds" />
+        <Texture filename="Show_Stage_Plan_B.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureFader">
+            <Property name="UseAlpha" value="0" />
+            <Property name="TextureCount" value="2" />
+            <Property name="FadeSpeed" value="0.40" />
+            <Property name="FadeDelay" value="0.40" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+</VGEModelFile>

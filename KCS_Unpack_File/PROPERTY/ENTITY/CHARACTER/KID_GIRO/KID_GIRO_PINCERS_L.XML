@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Kid_Giro_Obj_Pincers" FILENAME="Kid_Giro_Obj_Pincers.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="KidGiro_obj_pincers.VS">
+        <PROPERTYBAG NAME="KidGiro_obj_KKK_01" FILENAME="KidGiro_obj_KKK_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="KidGiro_obj_KKK_02" FILENAME="KidGiro_obj_KKK_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kid_Giro_Pincers_L_COMMANDS.XML" />
+</GAMEENTITY>

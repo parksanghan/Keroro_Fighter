@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<LandCameraConfig>
+	<!-- 카메라 오일러값 최소 최대 -->
+	<Euler Min="5" Max="25.5" />
+	<!-- 카메라 목표와의 높이차 값 최소 최대 -->
+	<DistanceY Min="180" Max="680" />
+	<!-- 카메라 목표와의 거리차 값 최소 최대 -->
+	<DistanceZ Min="-1000" Max="-500" />
+	<!-- 휠 작동시 프레임별 작동값 설정 -->
+	<MoveValue Euler="50" DistY="1000" DistZ="1000" />
+</LandCameraConfig>

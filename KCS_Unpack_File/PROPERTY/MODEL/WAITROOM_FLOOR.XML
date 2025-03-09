@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="WaitRoom_Floor.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Waitroom_Bg_Floor01_01.tga" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="Default">
+            <Property name="UseAlpha" value="0" />
+            <Property name="Lighting" value="0" />
+        </Shader>
+    </ShaderInfo>
+</VGEModelFile>

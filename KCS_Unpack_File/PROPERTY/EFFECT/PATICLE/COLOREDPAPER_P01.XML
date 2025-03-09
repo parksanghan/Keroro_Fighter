@@ -1,0 +1,2396 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="ColoredPaper_P01" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="10" X="35" Y="35" Z="35" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="255" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="10" X="0" Y="-100" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="1" Y="1" Z="0" />
+            <Property Time="10" X="1" Y="1" Z="-5" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="ColoredPaper_P01.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="1" Max="3" />
+        <RepeatCount Count="-1" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="9.99" />
+        <RegenTime Min="0.5" Max="0.7" />
+        <RotScaleMin X="10" Y="10" Z="0" />
+        <RotScaleMax X="30" Y="30" Z="360" />
+        <RandPosMin X="2000" Y="1800" Z="1000" />
+        <RandPosMax X="-2000" Y="1700" Z="-1000" />
+        <ComboList RefOrder="0" ScaleType="1" PositionType="0" />
+        <Speed Min="60" Max="70" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="180" Y="0" Z="0" />
+        <JetDirMax X="0" Y="0" Z="0" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="333">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.105" Y="0.105" Z="0.105" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-0.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.015" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.21" Y="0.21" Z="0.21" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-0.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.03" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.315" Y="0.315" Z="0.315" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-0.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.045" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.42" Y="0.42" Z="0.42" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-1.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.06" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.525" Y="0.525" Z="0.525" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-1.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.075" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.63" Y="0.63" Z="0.63" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-1.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.09" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.735" Y="0.735" Z="0.735" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-2.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.105" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.84" Y="0.84" Z="0.84" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-2.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.12" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.945" Y="0.945" Z="0.945" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-2.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.135" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.05" Y="1.05" Z="1.05" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.15" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.155" Y="1.155" Z="1.155" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-3.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.165" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.26" Y="1.26" Z="1.26" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-3.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.18" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.365" Y="1.365" Z="1.365" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-3.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.195" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.47" Y="1.47" Z="1.47" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-4.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.21" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.575" Y="1.575" Z="1.575" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-4.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.225" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.68" Y="1.68" Z="1.68" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-4.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.24" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.785" Y="1.785" Z="1.785" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-5.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.255" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.89" Y="1.89" Z="1.89" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-5.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.27" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.995" Y="1.995" Z="1.995" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-5.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.285" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.1" Y="2.1" Z="2.1" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.3" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.205" Y="2.205" Z="2.205" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-6.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.315" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.31" Y="2.31" Z="2.31" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-6.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.33" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.415" Y="2.415" Z="2.415" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-6.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.345" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.52" Y="2.52" Z="2.52" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-7.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.36" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.625" Y="2.625" Z="2.625" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-7.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.375" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.73" Y="2.73" Z="2.73" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-7.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.39" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.835" Y="2.835" Z="2.835" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-8.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.405" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.94" Y="2.94" Z="2.94" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-8.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.42" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.045" Y="3.045" Z="3.045" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-8.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.435" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.15" Y="3.15" Z="3.15" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.45" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.255" Y="3.255" Z="3.255" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-9.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.465" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.36" Y="3.36" Z="3.36" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-9.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.48" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.465" Y="3.465" Z="3.465" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-9.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.495" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.57" Y="3.57" Z="3.57" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-10.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.51" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.675" Y="3.675" Z="3.675" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-10.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.525" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.78" Y="3.78" Z="3.78" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-10.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.54" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.885" Y="3.885" Z="3.885" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-11.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.555" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.99" Y="3.99" Z="3.99" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-11.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.57" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.095" Y="4.095" Z="4.095" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-11.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.585" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.2" Y="4.2" Z="4.2" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-12" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.6" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.305" Y="4.305" Z="4.305" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-12.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.615" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.41" Y="4.41" Z="4.41" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-12.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.63" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.515" Y="4.515" Z="4.515" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-12.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.645" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.62" Y="4.62" Z="4.62" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-13.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.66" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.725" Y="4.725" Z="4.725" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-13.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.675" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.83" Y="4.83" Z="4.83" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-13.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.69" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.935" Y="4.935" Z="4.935" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-14.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.705" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.04" Y="5.04" Z="5.04" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-14.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.72" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.145" Y="5.145" Z="5.145" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-14.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.735" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.25" Y="5.25" Z="5.25" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-15" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.75" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.355" Y="5.355" Z="5.355" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-15.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.765" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.46" Y="5.46" Z="5.46" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-15.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.78" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.565" Y="5.565" Z="5.565" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-15.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.795" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.67" Y="5.67" Z="5.67" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-16.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.81" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.775" Y="5.775" Z="5.775" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-16.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.825" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.88" Y="5.88" Z="5.88" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-16.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.84" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.985" Y="5.985" Z="5.985" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-17.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.855" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.09" Y="6.09" Z="6.09" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-17.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.87" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.195" Y="6.195" Z="6.195" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-17.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.885" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.3" Y="6.3" Z="6.3" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-18" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.9" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.405" Y="6.405" Z="6.405" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-18.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.915" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.51" Y="6.51" Z="6.51" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-18.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.93" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.615" Y="6.615" Z="6.615" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-18.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.945" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.72" Y="6.72" Z="6.72" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-19.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.96" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.825" Y="6.825" Z="6.825" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-19.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.975" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.93" Y="6.93" Z="6.93" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-19.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-0.99" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.035" Y="7.035" Z="7.035" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-20.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.005" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.14" Y="7.14" Z="7.14" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-20.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.02" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.245" Y="7.245" Z="7.245" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-20.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.035" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.35" Y="7.35" Z="7.35" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-21" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.05" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.455" Y="7.455" Z="7.455" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-21.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.065" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.56" Y="7.56" Z="7.56" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-21.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.08" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.665" Y="7.665" Z="7.665" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-21.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.095" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.77" Y="7.77" Z="7.77" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-22.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.11" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.875" Y="7.875" Z="7.875" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-22.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.125" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.98" Y="7.98" Z="7.98" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-22.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.14" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.085" Y="8.085" Z="8.085" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-23.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.155" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.19" Y="8.19" Z="8.19" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-23.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.17" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.295" Y="8.295" Z="8.295" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-23.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.185" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.4" Y="8.4" Z="8.4" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-24" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.2" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.505" Y="8.505" Z="8.505" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-24.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.215" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.61" Y="8.61" Z="8.61" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-24.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.23" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.715" Y="8.715" Z="8.715" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-24.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.245" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.82" Y="8.82" Z="8.82" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-25.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.26" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.925" Y="8.925" Z="8.925" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-25.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.275" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.03" Y="9.03" Z="9.03" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-25.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.29" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.135" Y="9.135" Z="9.135" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-26.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.305" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.24" Y="9.24" Z="9.24" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-26.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.32" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.345" Y="9.345" Z="9.345" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-26.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.335" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.45" Y="9.45" Z="9.45" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-27" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.35" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.555" Y="9.555" Z="9.555" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-27.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.365" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.66" Y="9.66" Z="9.66" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-27.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.38" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.765" Y="9.765" Z="9.765" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-27.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.395" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.87" Y="9.87" Z="9.87" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-28.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.41" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.975" Y="9.975" Z="9.975" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-28.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.425" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.08" Y="10.08" Z="10.08" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-28.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.44" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.185" Y="10.185" Z="10.185" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-29.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.455" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.29" Y="10.29" Z="10.29" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-29.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.47" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.395" Y="10.395" Z="10.395" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-29.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.485" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.5" Y="10.5" Z="10.5" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-30" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.5" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.605" Y="10.605" Z="10.605" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-30.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.515" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.71" Y="10.71" Z="10.71" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-30.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.53" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.815" Y="10.815" Z="10.815" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-30.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.545" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.92" Y="10.92" Z="10.92" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-31.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.56" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.025" Y="11.025" Z="11.025" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-31.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.575" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.13" Y="11.13" Z="11.13" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-31.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.59" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.235" Y="11.235" Z="11.235" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-32.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.605" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.34" Y="11.34" Z="11.34" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-32.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.62" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.445" Y="11.445" Z="11.445" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-32.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.635" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.55" Y="11.55" Z="11.55" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-33" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.65" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.655" Y="11.655" Z="11.655" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-33.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.665" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.76" Y="11.76" Z="11.76" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-33.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.68" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.865" Y="11.865" Z="11.865" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-33.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.695" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.97" Y="11.97" Z="11.97" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-34.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.71" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.075" Y="12.075" Z="12.075" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-34.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.725" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.18" Y="12.18" Z="12.18" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-34.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.74" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.285" Y="12.285" Z="12.285" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-35.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.755" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.39" Y="12.39" Z="12.39" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-35.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.77" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.495" Y="12.495" Z="12.495" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-35.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.785" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.6" Y="12.6" Z="12.6" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-36" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.8" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.705" Y="12.705" Z="12.705" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-36.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.815" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.81" Y="12.81" Z="12.81" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-36.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.83" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.915" Y="12.915" Z="12.915" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-36.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.845" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.02" Y="13.02" Z="13.02" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-37.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.86" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.125" Y="13.125" Z="13.125" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-37.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.875" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.23" Y="13.23" Z="13.23" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-37.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.89" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.335" Y="13.335" Z="13.335" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-38.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.905" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.44" Y="13.44" Z="13.44" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-38.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.92" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.545" Y="13.545" Z="13.545" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-38.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.935" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.65" Y="13.65" Z="13.65" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-39" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.95" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.755" Y="13.755" Z="13.755" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-39.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.965" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.86" Y="13.86" Z="13.86" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-39.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.98" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.965" Y="13.965" Z="13.965" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-39.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-1.995" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.07" Y="14.07" Z="14.07" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-40.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.01" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.175" Y="14.175" Z="14.175" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-40.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.025" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.28" Y="14.28" Z="14.28" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-40.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.04" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.385" Y="14.385" Z="14.385" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-41.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.055" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.49" Y="14.49" Z="14.49" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-41.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.07" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.595" Y="14.595" Z="14.595" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-41.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.085" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.7" Y="14.7" Z="14.7" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-42" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.1" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.805" Y="14.805" Z="14.805" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-42.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.115" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.91" Y="14.91" Z="14.91" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-42.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.13" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.015" Y="15.015" Z="15.015" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-42.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.145" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.12" Y="15.12" Z="15.12" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-43.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.16" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.225" Y="15.225" Z="15.225" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-43.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.175" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.33" Y="15.33" Z="15.33" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-43.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.19" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.435" Y="15.435" Z="15.435" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-44.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.205" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.54" Y="15.54" Z="15.54" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-44.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.22" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.645" Y="15.645" Z="15.645" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-44.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.235" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.75" Y="15.75" Z="15.75" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-45" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.25" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.855" Y="15.855" Z="15.855" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-45.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.265" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.96" Y="15.96" Z="15.96" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-45.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.28" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.065" Y="16.065" Z="16.065" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-45.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.295" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.17" Y="16.17" Z="16.17" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-46.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.31" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.275" Y="16.275" Z="16.275" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-46.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.325" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.38" Y="16.38" Z="16.38" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-46.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.34" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.485" Y="16.485" Z="16.485" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-47.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.355" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.59" Y="16.59" Z="16.59" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-47.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.37" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.695" Y="16.695" Z="16.695" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-47.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.385" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.8" Y="16.8" Z="16.8" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-48" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.4" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.905" Y="16.905" Z="16.905" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-48.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.415" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.01" Y="17.01" Z="17.01" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-48.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.43" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.115" Y="17.115" Z="17.115" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-48.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.445" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.22" Y="17.22" Z="17.22" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-49.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.46" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.325" Y="17.325" Z="17.325" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-49.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.475" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.43" Y="17.43" Z="17.43" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-49.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.49" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.535" Y="17.535" Z="17.535" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-50.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.505" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.64" Y="17.64" Z="17.64" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-50.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.52" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.745" Y="17.745" Z="17.745" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-50.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.535" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.85" Y="17.85" Z="17.85" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-51" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.55" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.955" Y="17.955" Z="17.955" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-51.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.565" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.06" Y="18.06" Z="18.06" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-51.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.58" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.165" Y="18.165" Z="18.165" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-51.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.595" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.27" Y="18.27" Z="18.27" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-52.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.61" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.375" Y="18.375" Z="18.375" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-52.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.625" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.48" Y="18.48" Z="18.48" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-52.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.64" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.585" Y="18.585" Z="18.585" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-53.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.655" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.69" Y="18.69" Z="18.69" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-53.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.67" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.795" Y="18.795" Z="18.795" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-53.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.685" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.9" Y="18.9" Z="18.9" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-54" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.7" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.005" Y="19.005" Z="19.005" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-54.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.715" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.11" Y="19.11" Z="19.11" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-54.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.73" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.215" Y="19.215" Z="19.215" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-54.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.745" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.32" Y="19.32" Z="19.32" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-55.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.76" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.425" Y="19.425" Z="19.425" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-55.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.775" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.53" Y="19.53" Z="19.53" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-55.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.79" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.635" Y="19.635" Z="19.635" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-56.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.805" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.74" Y="19.74" Z="19.74" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-56.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.82" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.845" Y="19.845" Z="19.845" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-56.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.835" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.95" Y="19.95" Z="19.95" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-57" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.85" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.055" Y="20.055" Z="20.055" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-57.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.865" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.16" Y="20.16" Z="20.16" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-57.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.88" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.265" Y="20.265" Z="20.265" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-57.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.895" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.37" Y="20.37" Z="20.37" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-58.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.91" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.475" Y="20.475" Z="20.475" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-58.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.925" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.58" Y="20.58" Z="20.58" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-58.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.94" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.685" Y="20.685" Z="20.685" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-59.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.955" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.79" Y="20.79" Z="20.79" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-59.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.97" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.895" Y="20.895" Z="20.895" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-59.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-2.985" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21" Y="21" Z="21" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-60" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.105" Y="21.105" Z="21.105" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-60.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.015" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.21" Y="21.21" Z="21.21" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-60.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.03" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.315" Y="21.315" Z="21.315" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-60.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.045" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.42" Y="21.42" Z="21.42" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-61.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.06" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.525" Y="21.525" Z="21.525" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-61.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.075" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.63" Y="21.63" Z="21.63" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-61.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.09" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.735" Y="21.735" Z="21.735" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-62.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.105" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.84" Y="21.84" Z="21.84" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-62.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.12" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.945" Y="21.945" Z="21.945" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-62.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.135" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.05" Y="22.05" Z="22.05" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-63" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.15" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.155" Y="22.155" Z="22.155" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-63.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.165" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.26" Y="22.26" Z="22.26" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-63.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.18" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.365" Y="22.365" Z="22.365" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-63.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.195" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.47" Y="22.47" Z="22.47" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-64.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.21" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.575" Y="22.575" Z="22.575" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-64.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.225" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.68" Y="22.68" Z="22.68" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-64.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.24" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.785" Y="22.785" Z="22.785" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-65.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.255" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.89" Y="22.89" Z="22.89" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-65.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.27" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.995" Y="22.995" Z="22.995" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-65.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.285" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.1" Y="23.1" Z="23.1" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-66" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.3" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.205" Y="23.205" Z="23.205" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-66.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.315" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.31" Y="23.31" Z="23.31" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-66.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.33" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.415" Y="23.415" Z="23.415" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-66.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.345" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.52" Y="23.52" Z="23.52" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-67.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.36" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.625" Y="23.625" Z="23.625" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-67.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.375" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.73" Y="23.73" Z="23.73" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-67.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.39" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.835" Y="23.835" Z="23.835" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-68.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.405" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.94" Y="23.94" Z="23.94" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-68.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.42" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.045" Y="24.045" Z="24.045" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-68.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.435" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.15" Y="24.15" Z="24.15" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-69" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.45" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.255" Y="24.255" Z="24.255" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-69.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.465" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.36" Y="24.36" Z="24.36" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-69.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.48" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.465" Y="24.465" Z="24.465" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-69.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.495" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.57" Y="24.57" Z="24.57" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-70.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.51" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.675" Y="24.675" Z="24.675" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-70.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.525" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.78" Y="24.78" Z="24.78" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-70.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.54" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.885" Y="24.885" Z="24.885" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-71.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.555" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.99" Y="24.99" Z="24.99" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-71.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.57" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.095" Y="25.095" Z="25.095" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-71.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.585" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.2" Y="25.2" Z="25.2" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-72" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.6" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.305" Y="25.305" Z="25.305" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-72.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.615" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.41" Y="25.41" Z="25.41" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-72.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.63" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.515" Y="25.515" Z="25.515" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-72.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.645" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.62" Y="25.62" Z="25.62" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-73.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.66" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.725" Y="25.725" Z="25.725" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-73.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.675" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.83" Y="25.83" Z="25.83" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-73.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.69" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.935" Y="25.935" Z="25.935" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-74.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.705" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.04" Y="26.04" Z="26.04" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-74.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.72" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.145" Y="26.145" Z="26.145" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-74.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.735" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.25" Y="26.25" Z="26.25" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-75" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.75" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.355" Y="26.355" Z="26.355" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-75.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.765" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.46" Y="26.46" Z="26.46" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-75.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.78" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.565" Y="26.565" Z="26.565" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-75.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.795" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.67" Y="26.67" Z="26.67" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-76.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.81" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.775" Y="26.775" Z="26.775" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-76.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.825" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.88" Y="26.88" Z="26.88" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-76.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.84" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.985" Y="26.985" Z="26.985" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-77.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.855" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.09" Y="27.09" Z="27.09" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-77.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.87" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.195" Y="27.195" Z="27.195" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-77.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.885" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.3" Y="27.3" Z="27.3" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-78" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.9" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.405" Y="27.405" Z="27.405" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-78.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.915" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.51" Y="27.51" Z="27.51" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-78.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.93" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.615" Y="27.615" Z="27.615" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-78.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.945" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.72" Y="27.72" Z="27.72" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-79.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.96" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.825" Y="27.825" Z="27.825" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-79.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.975" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.93" Y="27.93" Z="27.93" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-79.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-3.99" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.035" Y="28.035" Z="28.035" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-80.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.005" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.14" Y="28.14" Z="28.14" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-80.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.02" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.245" Y="28.245" Z="28.245" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-80.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.035" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.35" Y="28.35" Z="28.35" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-81" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.05" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.455" Y="28.455" Z="28.455" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-81.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.065" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.56" Y="28.56" Z="28.56" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-81.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.08" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.665" Y="28.665" Z="28.665" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-81.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.095" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.77" Y="28.77" Z="28.77" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-82.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.11" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.875" Y="28.875" Z="28.875" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-82.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.125" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.98" Y="28.98" Z="28.98" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-82.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.14" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.085" Y="29.085" Z="29.085" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-83.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.155" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.19" Y="29.19" Z="29.19" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-83.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.17" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.295" Y="29.295" Z="29.295" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-83.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.185" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.4" Y="29.4" Z="29.4" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-84" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.2" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.505" Y="29.505" Z="29.505" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-84.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.215" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.61" Y="29.61" Z="29.61" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-84.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.23" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.715" Y="29.715" Z="29.715" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-84.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.245" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.82" Y="29.82" Z="29.82" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-85.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.26" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.925" Y="29.925" Z="29.925" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-85.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.275" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.03" Y="30.03" Z="30.03" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-85.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.29" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.135" Y="30.135" Z="30.135" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-86.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.305" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.24" Y="30.24" Z="30.24" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-86.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.32" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.345" Y="30.345" Z="30.345" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-86.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.335" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.45" Y="30.45" Z="30.45" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-87" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.35" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.555" Y="30.555" Z="30.555" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-87.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.365" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.66" Y="30.66" Z="30.66" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-87.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.38" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.765" Y="30.765" Z="30.765" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-87.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.395" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.87" Y="30.87" Z="30.87" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-88.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.41" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.975" Y="30.975" Z="30.975" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-88.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.425" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.08" Y="31.08" Z="31.08" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-88.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.44" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.185" Y="31.185" Z="31.185" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-89.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.455" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.29" Y="31.29" Z="31.29" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-89.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.47" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.395" Y="31.395" Z="31.395" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-89.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.485" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.5" Y="31.5" Z="31.5" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-90" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.5" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.605" Y="31.605" Z="31.605" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-90.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.515" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.71" Y="31.71" Z="31.71" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-90.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.53" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.815" Y="31.815" Z="31.815" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-90.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.545" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.92" Y="31.92" Z="31.92" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-91.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.56" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.025" Y="32.025" Z="32.025" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-91.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.575" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.13" Y="32.13" Z="32.13" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-91.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.59" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.235" Y="32.235" Z="32.235" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-92.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.605" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.34" Y="32.34" Z="32.34" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-92.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.62" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.445" Y="32.445" Z="32.445" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-92.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.635" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.55" Y="32.55" Z="32.55" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-93" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.65" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.655" Y="32.655" Z="32.655" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-93.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.665" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.76" Y="32.76" Z="32.76" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-93.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.68" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.865" Y="32.865" Z="32.865" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-93.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.695" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.97" Y="32.97" Z="32.97" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-94.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.71" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.075" Y="33.075" Z="33.075" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-94.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.725" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.18" Y="33.18" Z="33.18" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-94.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.74" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.285" Y="33.285" Z="33.285" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-95.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.755" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.39" Y="33.39" Z="33.39" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-95.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.77" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.495" Y="33.495" Z="33.495" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-95.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.785" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.6" Y="33.6" Z="33.6" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-96" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.8" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.705" Y="33.705" Z="33.705" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-96.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.815" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.81" Y="33.81" Z="33.81" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-96.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.83" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.915" Y="33.915" Z="33.915" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-96.9" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.845" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.02" Y="34.02" Z="34.02" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-97.2" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.86" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.125" Y="34.125" Z="34.125" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-97.5" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.875" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.23" Y="34.23" Z="34.23" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-97.8" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.89" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.335" Y="34.335" Z="34.335" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-98.1" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.905" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.44" Y="34.44" Z="34.44" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-98.4" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.92" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.545" Y="34.545" Z="34.545" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-98.7" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.935" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.65" Y="34.65" Z="34.65" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-99" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.95" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.755" Y="34.755" Z="34.755" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-99.3" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.965" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.86" Y="34.86" Z="34.86" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="-99.6" Z="0" />
+            <SizeRot X="1" Y="1" Z="-4.98" />
+            <Texture Texture="ColoredPaper_P01.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="IDLE" LOOP="0" TOTALTIME="10">
+            <ACTIONEVENT CLASSNAME="CActionEvent_LoopAni" EVENTNAME="Tama_Gameroom_Obj" TYPENAME="LoopAnimation" ANIMATIONNAME="Tama_Gameroom_Obj" WEIGHT="1" DELAY="0.1" EVENTTIME="0" EVENTENDTIME="0" />
+            <ACTIONEVENT CLASSNAME="CActionEvent_Scale" EVENTNAME="SCALE" TYPENAME="Scale" SCALE="0.08" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="SPE" LOOP="0" TOTALTIME="3.97">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Toru_Obj_Bugger" TYPENAME="ActionAnimation" ANIMATIONNAME="Toru_Obj_Bugger" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

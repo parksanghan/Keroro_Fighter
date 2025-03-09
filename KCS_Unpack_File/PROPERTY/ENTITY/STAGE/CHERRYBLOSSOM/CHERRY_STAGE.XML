@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="17">
+        <PROPERTYBAG NAME="Cherry_baguni" FILENAME="Cherry_baguni.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_ground" FILENAME="Cherry_ground.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_leaf" FILENAME="Cherry_leaf.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_matting" FILENAME="Cherry_matting.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_Plamodel" FILENAME="Cherry_Plamodel.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_shrub04" FILENAME="Cherry_shrub04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_shrub05" FILENAME="Cherry_shrub05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_tree01" FILENAME="Cherry_tree01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_tree02" FILENAME="Cherry_tree02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_wall01" FILENAME="Cherry_wall01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_wall02" FILENAME="Cherry_wall02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_shadow02" FILENAME="Cherry_shadow02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_shadow01" FILENAME="Cherry_shadow01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_garden01" FILENAME="Cherry_garden01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_grass" FILENAME="Cherry_grass.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_flower" FILENAME="Cherry_flower.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Cherry_box02" FILENAME="Cherry_box02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="cherry_Light_E00" FILENAME="cherry_Light_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="cherry_Petal_E00" FILENAME="cherry_Petal_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="cherry_Petal_E01" FILENAME="cherry_Petal_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Cherry_Stage_COMMANDS.XML" />
+</GAMEENTITY>

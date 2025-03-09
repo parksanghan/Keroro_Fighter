@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="StarRoom_bed01" FILENAME="StarRoom_bed01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_bed02" FILENAME="StarRoom_bed02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_bed03" FILENAME="StarRoom_bed03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_curtain" FILENAME="StarRoom_curtain.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="StarRoom_Bed_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Comm_Hit_Atk_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.500000" X="3.000000" Y="3.000000" Z="3.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="0.300000" Value="100.000000" />
+            <Property Time="0.100000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="2.000000" Y="2.000000" Z="2.000000" />
+            <Property Time="0.400000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="반짝이.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="20.000000" Max="30.000000" />
+        <RepeatCount Count="1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.480000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="5.000000" Y="5.000000" Z="0.000000" />
+        <RotScaleMax X="10.000000" Y="10.000000" Z="0.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="50.000000" Max="100.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="-0.000000" Y="-0.000000" Z="-0.000000" />
+        <JetDirMax X="180.000000" Y="0.000000" Z="180.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="2.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="16">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.000000" Y="2.000000" Z="2.000000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.180000" Y="0.180000" Z="0.180000" />
+            <Alpha Value="239.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.850000" Y="1.850000" Z="1.850000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.360000" Y="0.360000" Z="0.360000" />
+            <Alpha Value="224.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.700000" Y="1.700000" Z="1.700000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.540000" Y="0.540000" Z="0.540000" />
+            <Alpha Value="208.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.550000" Y="1.550000" Z="1.550000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.720000" Y="0.720000" Z="0.720000" />
+            <Alpha Value="193.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.400000" Y="1.400000" Z="1.400000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="177.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.250000" Y="1.250000" Z="1.250000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.080000" Y="1.080000" Z="1.080000" />
+            <Alpha Value="162.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.100000" Y="1.100000" Z="1.100000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.260000" Y="1.260000" Z="1.260000" />
+            <Alpha Value="146.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.950000" Y="0.950000" Z="0.950000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.440000" Y="1.440000" Z="1.440000" />
+            <Alpha Value="131.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.800000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.620000" Y="1.620000" Z="1.620000" />
+            <Alpha Value="115.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.650000" Y="0.650000" Z="0.650000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="100.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.500000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.980000" Y="1.980000" Z="1.980000" />
+            <Alpha Value="70.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.350000" Y="0.350000" Z="0.350000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.160000" Y="2.160000" Z="2.160000" />
+            <Alpha Value="40.000004" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="0.200000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.340000" Y="2.340000" Z="2.340000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.520000" Y="2.520000" Z="2.520000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="반짝이.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

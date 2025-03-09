@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="H_Afterimage_Bottom" FILENAME="H_Afterimage_Bottom.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Afterimage_EYE" FILENAME="H_Afterimage_EYE.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Afterimage_Foot" FILENAME="H_Afterimage_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Afterimage_Hand" FILENAME="H_Afterimage_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Afterimage_Head" FILENAME="H_Afterimage_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Afterimage_Top" FILENAME="H_Afterimage_Top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="H_Afterimage_Hair01" FILENAME="H_Afterimage_Hair01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Human.VS">
+        <PROPERTYBAG NAME="Hum_Skill_Def_Hit_Giantswing_01" FILENAME="Hum_Skill_Def_Hit_Giantswing_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Comb_KKP" FILENAME="Nara_Comb_KKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Comb_KP" FILENAME="Nara_Comb_KP.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="H_Afterimage_COMMANDS.XML" />
+</GAMEENTITY>

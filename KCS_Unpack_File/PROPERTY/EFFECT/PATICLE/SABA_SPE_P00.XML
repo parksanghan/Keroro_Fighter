@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Saba_SPE_P00" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="1" X="10" Y="10" Z="10" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="0" />
+            <Property Time="0.3" Value="200" />
+            <Property Time="0.7" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="1" X="1" Y="1" Z="0.2" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Playground_Box_Die.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="20" Max="30" />
+        <RepeatCount Count="10" />
+        <Gravity Value="70" />
+        <Life Life_Min="1" Value="0.99" />
+        <RegenTime Min="0.1" Max="0.2" />
+        <RotScaleMin X="50" Y="50" Z="0" />
+        <RotScaleMax X="100" Y="100" Z="360" />
+        <RandPosMin X="800" Y="50" Z="800" />
+        <RandPosMax X="-800" Y="0" Z="-800" />
+        <ComboList RefOrder="1" ScaleType="0" PositionType="0" />
+        <Speed Min="5" Max="20" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0" Y="0" Z="0" />
+        <JetDirMax X="0" Y="0" Z="0" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="33">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="0" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.3" Y="0.3" Z="0.3" />
+            <Alpha Value="20" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.03" Y="0.03" Z="0.006" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.6" Y="0.6" Z="0.6" />
+            <Alpha Value="40" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.06" Y="0.06" Z="0.012" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.9" Y="0.9" Z="0.9" />
+            <Alpha Value="60" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.09" Y="0.09" Z="0.018" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.2" Y="1.2" Z="1.2" />
+            <Alpha Value="80" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.12" Y="0.12" Z="0.024" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.5" Y="1.5" Z="1.5" />
+            <Alpha Value="100" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.15" Y="0.15" Z="0.03" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.8" Y="1.8" Z="1.8" />
+            <Alpha Value="120" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.18" Y="0.18" Z="0.036" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.1" Y="2.1" Z="2.1" />
+            <Alpha Value="140" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.21" Y="0.21" Z="0.042" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.4" Y="2.4" Z="2.4" />
+            <Alpha Value="160" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.24" Y="0.24" Z="0.048" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.7" Y="2.7" Z="2.7" />
+            <Alpha Value="180" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.27" Y="0.27" Z="0.054" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3" Y="3" Z="3" />
+            <Alpha Value="200" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.3" Y="0.3" Z="0.06" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.3" Y="3.3" Z="3.3" />
+            <Alpha Value="191.429" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.33" Y="0.33" Z="0.066" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.6" Y="3.6" Z="3.6" />
+            <Alpha Value="182.857" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.36" Y="0.36" Z="0.072" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.9" Y="3.9" Z="3.9" />
+            <Alpha Value="174.286" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.39" Y="0.39" Z="0.078" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.2" Y="4.2" Z="4.2" />
+            <Alpha Value="165.714" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.42" Y="0.42" Z="0.084" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.5" Y="4.5" Z="4.5" />
+            <Alpha Value="157.143" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.45" Y="0.45" Z="0.09" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.8" Y="4.8" Z="4.8" />
+            <Alpha Value="148.571" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.48" Y="0.48" Z="0.096" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.1" Y="5.1" Z="5.1" />
+            <Alpha Value="140" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.51" Y="0.51" Z="0.102" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.4" Y="5.4" Z="5.4" />
+            <Alpha Value="131.429" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.54" Y="0.54" Z="0.108" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.7" Y="5.7" Z="5.7" />
+            <Alpha Value="122.857" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.57" Y="0.57" Z="0.114" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6" Y="6" Z="6" />
+            <Alpha Value="114.286" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.6" Y="0.6" Z="0.12" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.3" Y="6.3" Z="6.3" />
+            <Alpha Value="105.714" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.63" Y="0.63" Z="0.126" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.6" Y="6.6" Z="6.6" />
+            <Alpha Value="97.1429" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.66" Y="0.66" Z="0.132" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.9" Y="6.9" Z="6.9" />
+            <Alpha Value="88.5714" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.69" Y="0.69" Z="0.138" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.2" Y="7.2" Z="7.2" />
+            <Alpha Value="80" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.72" Y="0.72" Z="0.144" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.5" Y="7.5" Z="7.5" />
+            <Alpha Value="71.4286" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.75" Y="0.75" Z="0.15" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.8" Y="7.8" Z="7.8" />
+            <Alpha Value="62.8571" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.78" Y="0.78" Z="0.156" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.1" Y="8.1" Z="8.1" />
+            <Alpha Value="54.2857" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.81" Y="0.81" Z="0.162" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.4" Y="8.4" Z="8.4" />
+            <Alpha Value="45.7143" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.84" Y="0.84" Z="0.168" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.7" Y="8.7" Z="8.7" />
+            <Alpha Value="37.1429" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.87" Y="0.87" Z="0.174" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9" Y="9" Z="9" />
+            <Alpha Value="28.5714" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.9" Y="0.9" Z="0.18" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.3" Y="9.3" Z="9.3" />
+            <Alpha Value="20" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.93" Y="0.93" Z="0.186" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.6" Y="9.6" Z="9.6" />
+            <Alpha Value="11.4286" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.96" Y="0.96" Z="0.192" />
+            <Texture Texture="Playground_Box_Die.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

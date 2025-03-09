@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Hum_RD_Drillmecha" FILENAME="Hum_RD_Drillmecha.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="11" VSNAME="Hum_Drillmecha.VS">
+        <PROPERTYBAG NAME="Hum_Drillmecha_COMBAT_WAIT" FILENAME="Hum_Drillmecha_COMBAT_WAIT.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_Comb_K" FILENAME="Hum_Drillmecha_Comb_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_Comb_P" FILENAME="Hum_Drillmecha_Comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_DASH_01" FILENAME="Hum_Drillmecha_DASH_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_DASH_ATK" FILENAME="Hum_Drillmecha_DASH_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_HIT_BREAK" FILENAME="Hum_Drillmecha_HIT_BREAK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_LEAVE_JUMP" FILENAME="Hum_Drillmecha_LEAVE_JUMP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_Ride_Down" FILENAME="Hum_Drillmecha_Ride_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_Ride_Idle" FILENAME="Hum_Drillmecha_Ride_Idle.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_Ride_Land" FILENAME="Hum_Drillmecha_Ride_Land.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_Drillmecha_Ride_Start" FILENAME="Hum_Drillmecha_Ride_Start.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="17">
+        <PROPERTYBAG NAME="CM_HIT_FALL_1" FILENAME="CM_HIT_FALL_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_FLY_2" FILENAME="CM_HIT_FLY_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_PUSH_A_1" FILENAME="CM_HIT_PUSH_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Cm_Hit_Bomb" FILENAME="Cm_Hit_Bomb.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_ARMAGEDDON_S1" FILENAME="HIT_SKILL_ARMAGEDDON_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_SKILL_FORWARDATK2" FILENAME="HIT_SKILL_FORWARDATK2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Drillmecha_Comb_K_01" FILENAME="RD_Drillmecha_Comb_K_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Drillmecha_Comb_P_01" FILENAME="RD_Drillmecha_Comb_P_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Drillmecha_Dash_01" FILENAME="RD_Drillmecha_Dash_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Drillmecha_Dash_02" FILENAME="RD_Drillmecha_Dash_02.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="RD_Drillmecha_Dash_03" FILENAME="RD_Drillmecha_Dash_03.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_100TONHAMMER_1" FILENAME="SKILL_ATK_100TONHAMMER_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_100TONHAMMER_2" FILENAME="SKILL_ATK_100TONHAMMER_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_100TONHAMMER_3" FILENAME="SKILL_ATK_100TONHAMMER_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_CHULGUN_2" FILENAME="SKILL_ATK_CHULGUN_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_CRE_LEAFATK_S1" FILENAME="SKILL_CRE_LEAFATK_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Viper_Stone" FILENAME="Viper_Stone.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="27">
+        <PROPERTYBAG NAME="Comm_Hit_AtkCri_B00" FILENAME="Comm_Hit_AtkCri_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_AtkHeavy_B00" FILENAME="Comm_Hit_AtkHeavy_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_AtkLight_B00" FILENAME="Comm_Hit_AtkLight_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Comm_Hit_AtkMidd_B00" FILENAME="Comm_Hit_AtkMidd_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_Dash1_E00" FILENAME="Drillcar_Dash1_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_Dash2_E00" FILENAME="Drillcar_Dash2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_Dash2_E01" FILENAME="Drillcar_Dash2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_K_E00" FILENAME="Drillcar_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_K_E01" FILENAME="Drillcar_K_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_K_E02" FILENAME="Drillcar_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_K_E03" FILENAME="Drillcar_K_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_P_E00" FILENAME="Drillcar_P_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Drillcar_P_E01" FILENAME="Drillcar_P_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E00" FILENAME="Garu_Comb_ESC_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E01" FILENAME="Garu_Comb_ESC_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E02" FILENAME="Garu_Comb_ESC_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Comb_ESC_E03" FILENAME="Garu_Comb_ESC_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Giro_SpeHit_B00" FILENAME="Char_Giro_SpeHit_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_Break_E00" FILENAME="Mecha_Break_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_IDLE_L00" FILENAME="Mecha_IDLE_L00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_IDLE_R00" FILENAME="Mecha_IDLE_R00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E00" FILENAME="Mecha_JumP_Land_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E01" FILENAME="Mecha_JumP_Land_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E02" FILENAME="Mecha_JumP_Land_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_JumP_Land_E03" FILENAME="Mecha_JumP_Land_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_K_E00" FILENAME="Mecha_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Mecha_K_E01" FILENAME="Mecha_K_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Hum_RD_Drillmecha_COMMANDS.XML" />
+</GAMEENTITY>

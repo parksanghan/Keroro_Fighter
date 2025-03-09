@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<UIXMLFile>
+    <DialogCount DialogNum="1">
+        <DialogDetailInfo0 DialogName="Dialog_TopMenu" DialogChildCount="4">
+            <DialogSizeInfo DialogPosX="0" DialogPosY="1" DialogSizeX="865" DialogSizeY="105">
+                <CONTROLINFO0 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="1" NormalSkin="0" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_TopMenu" CONTROLPOSX="0" CONTROLPOSY="0" CONTROLSIZEX="865" CONTROLSIZEY="105" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="0.000000" POSTION_Y="1.000000" POSTION_Z="0.000100" SCALE_X="432.500000" SCLAE_Y="52.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO0>
+                <CONTROLINFO1 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_KeroTown" CONTROLPOSX="1" CONTROLPOSY="0" CONTROLSIZEX="258" CONTROLSIZEY="105" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="1.000000" POSTION_Y="1.000000" POSTION_Z="0.000100" SCALE_X="129.000000" SCLAE_Y="52.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="1" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="592" RECT_TOP="731" RECT_RIGHT="842" RECT_BOTTOM="807" POSTION_X="4.000000" POSTION_Y="12.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO1>
+                <CONTROLINFO2 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_WorldMap" CONTROLPOSX="796" CONTROLPOSY="6" CONTROLSIZEX="64" CONTROLSIZEY="34" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="796.000000" POSTION_Y="6.000000" POSTION_Z="0.000100" SCALE_X="32.000000" SCLAE_Y="17.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="390" RECT_TOP="767" RECT_RIGHT="454" RECT_BOTTOM="800" POSTION_X="796.000000" POSTION_Y="7.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="455" RECT_TOP="767" RECT_RIGHT="517" RECT_BOTTOM="799" POSTION_X="798.000000" POSTION_Y="7.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="518" RECT_TOP="768" RECT_RIGHT="580" RECT_BOTTOM="800" POSTION_X="797.000000" POSTION_Y="7.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO2>
+                <CONTROLINFO3 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="4" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_Present" CONTROLPOSX="801" CONTROLPOSY="38" CONTROLSIZEX="56" CONTROLSIZEY="53" ETCINFO="5">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="801.000000" POSTION_Y="38.000000" POSTION_Z="0.000100" SCALE_X="28.000000" SCLAE_Y="26.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="11" RECT_TOP="737" RECT_RIGHT="69" RECT_BOTTOM="792" POSTION_X="800.000000" POSTION_Y="36.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="148" RECT_TOP="732" RECT_RIGHT="201" RECT_BOTTOM="792" POSTION_X="803.000000" POSTION_Y="35.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="217" RECT_TOP="734" RECT_RIGHT="270" RECT_BOTTOM="794" POSTION_X="802.000000" POSTION_Y="35.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN4 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO4 DRAW="0" ID="1" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="79" RECT_TOP="735" RECT_RIGHT="137" RECT_BOTTOM="792" POSTION_X="799.000000" POSTION_Y="35.000000" POSTION_Z="0.000100" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO3>
+            </DialogSizeInfo>
+        </DialogDetailInfo0>
+    </DialogCount>
+    <DIALOGSOUNDINFO SOUNDCOUNT="2">
+        <SoundDetailInfo0 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="OK" />
+        <SoundDetailInfo1 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="ok" />
+    </DIALOGSOUNDINFO>
+</UIXMLFile>

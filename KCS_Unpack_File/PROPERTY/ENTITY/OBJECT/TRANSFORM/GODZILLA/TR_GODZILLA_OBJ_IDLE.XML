@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Gozilla_Obj_Sweetpotato" FILENAME="Gozilla_Obj_Sweetpotato.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Gozilla_obj_sweetpotato.VS">
+        <PROPERTYBAG NAME="Gozilla_obj_IDLE_01" FILENAME="Gozilla_obj_IDLE_01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="TR_Godzilla_Obj_IDLE_COMMANDS.XML" />
+</GAMEENTITY>

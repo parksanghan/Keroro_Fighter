@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_SignBoard" PosX="0" PosY="0" SizeX="14" SizeY="14" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+    </DialogSkin>
+    <DialogControl>
+	<!--종료 버튼 -->
+	<Property Name = "Button_SignBoard_Exit" ClassName = "CKeroroUI_Button" PosX = "0" PosY = "0" SizeX = "14" SizeY = "14" Disable = "0">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+	                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.tga" TextPosX="807" TextPosY="57" TextSizeX="14" TextSizeY="14" PosX="0" PosY="0" SizeX="14" SizeY="14" />
+	                    <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.tga" TextPosX="807" TextPosY="72" TextSizeX="14" TextSizeY="14" PosX="0" PosY="0" SizeX="14" SizeY="14" />
+        	            <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.tga" TextPosX="807" TextPosY="87" TextSizeX="14" TextSizeY="14" PosX="0" PosY="0" SizeX="14" SizeY="14" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+    </DialogControl>
+</RootNode>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<EXTENDEDENTITY_LIST>
+    <EXTENTITY NAME="Bucket" FILENAME="Kero_Bucket.xml" />
+    <EXTENTITY NAME="Gunp" FILENAME="Kero_Gunp.xml" />
+</EXTENDEDENTITY_LIST>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="CAP" FILENAME="Tamama_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Tamama_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Tamama_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Tamama_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Tamama_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Tamama_Body_top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Tamama_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="TAIL" FILENAME="Tamama_Tail.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="5" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Nara_Comb_SPE_Tama01.VA" FILENAME="Nara_Comb_SPE_Tama01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Comb_SPE_Tama02.VA" FILENAME="Nara_Comb_SPE_Tama02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Comb_SPE_Tama03.VA" FILENAME="Nara_Comb_SPE_Tama03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Comb_SPE_Tama04.VA" FILENAME="Nara_Comb_SPE_Tama04.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Nara_Comb_SPE_Tama05.VA" FILENAME="Nara_Comb_SPE_Tama05.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Nara_Obj_Tama_COMMANDS.XML" />
+</GAMEENTITY>

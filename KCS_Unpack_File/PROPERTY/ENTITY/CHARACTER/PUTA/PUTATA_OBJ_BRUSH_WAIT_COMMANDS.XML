@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="Puta_Combat_Wait" LOOP="0" TOTALTIME="1.600000">
+            <ACTIONEVENT CLASSNAME="CActionEvent_LoopAni" EVENTNAME="Putata_obj_Combat_Wait" TYPENAME="LoopAnimation" ANIMATIONNAME="Putata_obj_Combat_Wait" WEIGHT="1.000000" DELAY="0.100000" EVENTTIME="0.000000" EVENTENDTIME="0.000000" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

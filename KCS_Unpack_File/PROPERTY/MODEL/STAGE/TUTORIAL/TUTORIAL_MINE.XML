@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Tutorial_mine.VM" />
+    <TextureInfo count="3">
+        <Texture filename="Tutorial_mine01.DDS" />
+        <Texture filename="Tutorial_mine02.DDS" />
+        <Texture filename="Tutorial_mine03.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureFader">
+            <Property name="UseAlpha" value="0" />
+            <Property name="TextureCount" value="3" />
+            <Property name="FadeSpeed" value="1.00" />
+            <Property name="FadeDelay" value="1.00" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+</VGEModelFile>

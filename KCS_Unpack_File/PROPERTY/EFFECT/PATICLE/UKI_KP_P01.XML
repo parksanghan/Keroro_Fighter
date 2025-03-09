@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="UKi_KP_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.500000" X="15.000000" Y="15.000000" Z="15.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="200.000000" />
+            <Property Time="0.500000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.500000" X="1.000000" Y="1.000000" Z="0.200000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="WinterHouse_Box_Hit.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="5.000000" Max="10.000000" />
+        <RepeatCount Count="10.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.480000" />
+        <RegenTime Min="0.020000" Max="0.050000" />
+        <RotScaleMin X="10.000000" Y="10.000000" Z="0.000000" />
+        <RotScaleMax X="30.000000" Y="30.000000" Z="360.000000" />
+        <RandPosMin X="20.000000" Y="80.000000" Z="-50.000000" />
+        <RandPosMax X="-20.000000" Y="50.000000" Z="-20.000000" />
+        <ComboList RefOrder="1.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="10.000000" Max="20.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="30.000000" Y="0.000000" Z="60.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="7.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="16">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="188.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.060000" Y="0.060000" Z="0.012000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="176.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.120000" Y="0.120000" Z="0.024000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="164.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.180000" Y="0.180000" Z="0.036000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="152.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.240000" Y="0.240000" Z="0.048000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="140.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.060000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="128.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.360000" Y="0.360000" Z="0.072000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.300000" Y="6.300000" Z="6.300000" />
+            <Alpha Value="116.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="0.084000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.200000" Y="7.200000" Z="7.200000" />
+            <Alpha Value="104.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.480000" Y="0.480000" Z="0.096000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.099999" Y="8.099999" Z="8.099999" />
+            <Alpha Value="92.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.540000" Y="0.540000" Z="0.108000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.999999" Y="8.999999" Z="8.999999" />
+            <Alpha Value="80.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.120000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.900000" Y="9.900000" Z="9.900000" />
+            <Alpha Value="68.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.660000" Y="0.660000" Z="0.132000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.799999" Y="10.799999" Z="10.799999" />
+            <Alpha Value="56.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.720000" Y="0.720000" Z="0.144000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.700000" Y="11.700000" Z="11.700000" />
+            <Alpha Value="44.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.780000" Y="0.780000" Z="0.156000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.599999" Y="12.599999" Z="12.599999" />
+            <Alpha Value="32.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="0.168000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.500000" Y="13.500000" Z="13.500000" />
+            <Alpha Value="20.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.180000" />
+            <Texture Texture="WinterHouse_Box_Hit.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_PK" LOOP="0" TOTALTIME="0.6">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Obj_Comb_PK_RoboArm" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Obj_Comb_PK_RoboArm" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+            <ACTIONEVENT CLASSNAME="CActionEvent_Jump" EVENTNAME="JUMP" TYPENAME="Jump" JUMPVELOCITY="800" EVENTTIME="0.2" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Urere_Obj_Bag" FILENAME="Urere_Obj_Bag.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="43" VSNAME="Urere_Obj_Bag.VS">
+        <PROPERTYBAG NAME="URERE_OBJ_BAG_BAKCSTEP" FILENAME="Urere_Obj_Combat_BackStep.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_COMBAT_WAIT" FILENAME="Urere_Obj_Bag_COMBAT_WAIT.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_DASH_01" FILENAME="Urere_Obj_Bag_DASH_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_DASH_02" FILENAME="Urere_Obj_Bag_DASH_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_GAMEROOM_WAIT" FILENAME="Urere_Obj_Bag_GAMEROOM_WAIT.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_JUMP_DOWN" FILENAME="Urere_Obj_Bag_JUMP_DOWN.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_JUMP_LAND" FILENAME="Urere_Obj_Bag_JUMP_LAND.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_JUMP_TWICE" FILENAME="Urere_Obj_Bag_JUMP_TWICE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_JUMP_UP" FILENAME="Urere_Obj_Bag_JUMP_UP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_K" FILENAME="Urere_Obj_Bag_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KK" FILENAME="Urere_Obj_Bag_KK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKK" FILENAME="Urere_Obj_Bag_KKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKKP" FILENAME="Urere_Obj_Bag_KKKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKKP_01" FILENAME="Urere_Obj_Bag_KKKP_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKKP_02" FILENAME="Urere_Obj_Bag_KKKP_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKP" FILENAME="Urere_Obj_Bag_KKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKP_01" FILENAME="Urere_Obj_Bag_KKP_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKP_02" FILENAME="Urere_Obj_Bag_KKP_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKP_03" FILENAME="Urere_Obj_Bag_KKP_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KP" FILENAME="Urere_Obj_Bag_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_Lose" FILENAME="Urere_Obj_Bag_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_MOVE_STOP" FILENAME="Urere_Obj_Bag_MOVE_STOP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_P" FILENAME="Urere_Obj_Bag_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_PK" FILENAME="Urere_Obj_Bag_PK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_PP" FILENAME="Urere_Obj_Bag_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_PPK" FILENAME="Urere_Obj_Bag_PPK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_PPK_01" FILENAME="Urere_Obj_Bag_PPK_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_PPK_02" FILENAME="Urere_Obj_Bag_PPK_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_PPK_03" FILENAME="Urere_Obj_Bag_PPK_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_PPP" FILENAME="Urere_Obj_Bag_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Bag_WIN" FILENAME="Urere_Obj_Bag_WIN.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Dash_K" FILENAME="Urere_Obj_Dash_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Dash_P" FILENAME="Urere_Obj_Dash_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_ESC" FILENAME="Urere_Obj_ESC.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Idle02" FILENAME="Urere_Obj_Idle02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Jump_K" FILENAME="Urere_Obj_Jump_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Jump_P" FILENAME="Urere_Obj_Jump_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_SPE_Bag" FILENAME="Urere_Obj_SPE_Bag.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Spe01_Bag" FILENAME="Urere_Obj_Spe01_Bag.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Spe02_Bag" FILENAME="Urere_Obj_Spe02_Bag.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Spe03_Bag" FILENAME="Urere_Obj_Spe03_Bag.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Spe04_Bag" FILENAME="Urere_Obj_Spe04_Bag.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Walk" FILENAME="Urere_Obj_Walk.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Urere_Obj_Bag_COMMANDS.XML" />
+</GAMEENTITY>

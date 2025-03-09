@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Playground_Car02.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Playground_Car02.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="Default">
+            <Property name="UseAlpha" value="0" />
+            <Property name="Lighting" value="0" />
+            <Property name="Outline" value="0" />
+            <Property name="LineWidth" value="0.800000" />
+            <Property name="ColorR" value="0.000000" />
+            <Property name="ColorG" value="0.000000" />
+            <Property name="ColorB" value="0.000000" />
+            <Property name="ColorA" value="1.000000" />
+            <Property name="CullNone" value="0" />
+            <Property name="DisableZ" value="0" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

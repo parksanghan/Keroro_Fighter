@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_PK" LOOP="0" TOTALTIME="1.97">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Urere_Obj_Bagmimic_PK" TYPENAME="ActionAnimation" ANIMATIONNAME="Urere_Obj_Bagmimic_PK" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="IDLE" LOOP="0" TOTALTIME="5">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Urere_Obj_Bagmimic_Idle01" TYPENAME="ActionAnimation" ANIMATIONNAME="Urere_Obj_Bagmimic_Idle01" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

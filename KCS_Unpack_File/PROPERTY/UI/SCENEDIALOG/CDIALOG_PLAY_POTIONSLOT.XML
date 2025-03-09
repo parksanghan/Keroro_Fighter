@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+
+<RootNode>
+	<Dialog>
+		<!--다이얼로그 위치 크기 클라이언트 설정-->
+		<Property Name = "PlayPotionSlotDialog" PosX = "832" PosY = "692" SizeX = "160" SizeY = "69" ClientLeft = "0" ClientTop = "0" ClientRight = "0" ClientBottom = "0" />
+	</Dialog>
+
+	<DialogSkin>
+		<Property Index = "0" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "347" TextPosY = "337" TextSizeX = "160" TextSizeY = "69" PosX = "0" PosY = "0" SizeX = "160" SizeY = "69" />
+		</Property>
+	</DialogSkin>
+
+	<!--스킬 슬롯 버튼-->
+	<!--Dialog Control의 좌표는 Dialog Skin의 좌표가 기준 -->
+	<DialogControl>
+		<!--슬롯 1-->
+		<Property Name = "CONTROL_PotionSlot_SLOT1" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--Delete Key img-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.700" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "341" TextPosY = "481" TextSizeX = "37" TextSizeY = "10" PosX = "3" PosY = "3" SizeX = "37" SizeY = "10" />
+				</Property>
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "0" SizeY = "0" />					
+					<Element ControlState = "1" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "0" SizeY = "0" />
+				</Property>
+				<!--X 1, 2번 슬롯은 X 없음.-->
+				<!--
+				<Property Index = "2" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>	
+				-->				
+			</ControlSkin>
+		</Property>
+		
+		<Property Name = "CONTROL_PotionSlot_SLOT1_Visible" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_PotionSlot_SLOT1_UseCnt" ClassName = "CKeroroUI_Number" PosX = "25" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_PotionSlot_SLOT1_CoolTime" ClassName = "CKeroroUI_Number" PosX = "5" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+
+		<!--슬롯 2-->
+		<Property Name = "CONTROL_PotionSlot_SLOT2" ClassName = "CKeroroUI_Control" PosX = "53" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--End key img-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "341" TextPosY = "493" TextSizeX = "24" TextSizeY = "10" PosX = "3" PosY = "3" SizeX = "24" SizeY = "10" />
+				</Property>				
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "0" SizeY = "0" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "0" SizeY = "0" />
+				</Property>
+				<!--X 1, 2번 슬롯은 X 없음.-->
+				<!--
+				<Property Index = "2" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+				-->
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_PotionSlot_SLOT2_Visible" ClassName = "CKeroroUI_Control" PosX = "56" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "0" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_PotionSlot_SLOT2_UseCnt" ClassName = "CKeroroUI_Number" PosX = "75" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_PotionSlot_SLOT2_CoolTime" ClassName = "CKeroroUI_Number" PosX = "61" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+
+		<!--슬롯 3-->
+		<!--현재 안쓰는 여분 슬롯...-->
+		<Property Name = "CONTROL_PotionSlot_SLOT3" ClassName = "CKeroroUI_Control" PosX = "106" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<!--key img 아직 없음-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.500" Show = "0">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "427" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "0">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "0" SizeY = "0" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "0" SizeY = "0" />
+				</Property>
+				<!--X-->
+				<Property Index = "2" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_PotionSlot_SLOT3_Visible" ClassName = "CKeroroUI_Control" PosX = "112" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_PotionSlot_SLOT3_UseCnt" ClassName = "CKeroroUI_Number" PosX = "137" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_PotionSlot_SLOT3_CoolTime" ClassName = "CKeroroUI_Number" PosX = "117" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+	</DialogControl>	
+</RootNode>

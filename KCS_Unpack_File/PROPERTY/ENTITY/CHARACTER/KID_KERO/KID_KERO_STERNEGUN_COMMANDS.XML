@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="SterneGun_KKK" LOOP="0" TOTALTIME="0.820000">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="KidKero_obj_Comb_KKK" TYPENAME="ActionAnimation" ANIMATIONNAME="KidKero_obj_Comb_KKK" FADEIN="0.100000" FADEOUT="0.100000" WEIGHT="1.000000" EVENTTIME="0.000000" EVENTENDTIME="0.000000" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

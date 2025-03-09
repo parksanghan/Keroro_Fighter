@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Garu_Obj_Gun_01" FILENAME="Garu_Obj_Gun_01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="6" VSNAME="Garu_Gun.VS">
+        <PROPERTYBAG NAME="Garu_Obj_Gun_IDLE" FILENAME="Garu_Obj_Gun_IDLE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Obj_Gun_KP" FILENAME="Garu_Obj_Gun_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Obj_Gun_PPK_L_01" FILENAME="Garu_Obj_Gun_PPK_L_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Obj_Gun_PPK_L_02" FILENAME="Garu_Obj_Gun_PPK_L_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Obj_Gun_PPK_R_01" FILENAME="Garu_Obj_Gun_PPK_R_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Garu_Obj_Gun_PPK_R_02" FILENAME="Garu_Obj_Gun_PPK_R_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Garu_Obj_Gun_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="CAP" FILENAME="Keroro_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Keroro_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Keroro_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Keroro_Eye08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Keroro_Eye12.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Keroro_Eye10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Keroro_Eye10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Keroro_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Keroro_Eye07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Keroro_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Keroro_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Keroro_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Keroro_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Keroro_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Keroro_Eye11.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Keroro_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Keroro_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Keroro_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Keroro_Head07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Keroro_Head08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Keroro_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Keroro_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Keroro_Head06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Keroro_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Keroro_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Keroro_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Keroro_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Keroro_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Keroro_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Keroro_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Keroro_Body_top.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Skill_Atk_Chulgwun" FILENAME="Skill_Atk_Chulgwun.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="SKILL_ATK_CHULGUN_1" FILENAME="SKILL_ATK_CHULGUN_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_CHULGUN_2" FILENAME="SKILL_ATK_CHULGUN_2.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Skill_Atk_Chulgwun_E00" FILENAME="Skill_Atk_Chulgwun_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Chulgwun_E01" FILENAME="Skill_Atk_Chulgwun_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Chulgwun_E02" FILENAME="Skill_Atk_Chulgwun_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Com_Keropa2_E02" FILENAME="Skill_Com_Keropa2_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_CHULGWUN_COMMANDS.XML" />
+</GAMEENTITY>

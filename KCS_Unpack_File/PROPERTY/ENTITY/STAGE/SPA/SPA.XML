@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="21">
+        <PROPERTYBAG NAME="Spa_background" FILENAME="Spa_background.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_bamboo" FILENAME="Spa_bamboo.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_bamboo01" FILENAME="Spa_bamboo01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_chair" FILENAME="Spa_chair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_fence" FILENAME="Spa_fence.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_giroro" FILENAME="Spa_giroro.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_girororock" FILENAME="Spa_girororock.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_grass" FILENAME="Spa_grass.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_ground01" FILENAME="Spa_ground01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_ground02" FILENAME="Spa_ground02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_house" FILENAME="Spa_house.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_kurururock" FILENAME="Spa_kurururock.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_leaf" FILENAME="Spa_leaf.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_leaffall" FILENAME="Spa_leaffall.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_rock" FILENAME="Spa_rock.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_rock01" FILENAME="Spa_rock01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree01" FILENAME="Spa_tree01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree02" FILENAME="Spa_tree02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree03" FILENAME="Spa_tree03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_water01" FILENAME="Spa_water01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_water02" FILENAME="Spa_water02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="Spa_Wave_E00" FILENAME="Spa_Wave_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_fog_E00" FILENAME="Spa_fog_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_leaf_E00" FILENAME="Spa_leaf_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_waterfall_E00" FILENAME="Spa_waterfall_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_waterfall_E01" FILENAME="Spa_waterfall_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_waterfall_E02" FILENAME="Spa_waterfall_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_waterfall_E03" FILENAME="Spa_waterfall_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="spa_bamboo" FILENAME="spa_bamboo.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Spa_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Urere_Obj_Train" FILENAME="Urere_Obj_Train.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="6" VSNAME="Urere _Obj_Train.VS">
+        <PROPERTYBAG NAME="Urere_Obj_Train_KKKP" FILENAME="Urere_Obj_Train_KKKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Train_KKKP_01" FILENAME="Urere_Obj_Train_KKKP_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Train_KKKP_02" FILENAME="Urere_Obj_Train_KKKP_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Train_KKKP_03" FILENAME="Urere_Obj_Train_KKKP_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Train_KKKP_04" FILENAME="Urere_Obj_Train_KKKP_04.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Urere_Obj_Train_KKKP_a" FILENAME="Urere_Obj_Train_KKKP_a.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Urere_Obj_Train_COMMANDS.XML" />
+</GAMEENTITY>

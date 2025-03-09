@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Nara_tower_mf_gas" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="3.000000" X="5.000000" Y="5.000000" Z="5.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="0.000000" />
+            <Property Time="1.000000" Value="80.000000" />
+            <Property Time="2.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="3.000000" />
+            <Property Time="3.000000" X="2.000000" Y="2.000000" Z="2.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Nara_tower_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="3.000000" Max="8.000000" />
+        <RepeatCount Count="-1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="3.000000" />
+        <RegenTime Min="0.500000" Max="0.500000" />
+        <RotScaleMin X="100.000000" Y="100.000000" Z="0.000000" />
+        <RotScaleMax X="250.000000" Y="250.000000" Z="360.000000" />
+        <RandPosMin X="150.000000" Y="100.000000" Z="-200.000000" />
+        <RandPosMax X="-200.000000" Y="-150.000000" Z="0.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="10.000000" Max="10.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="0.000000" Y="60.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="100">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="3.000000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.050000" Y="0.050000" Z="0.050000" />
+            <Alpha Value="2.400000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.020000" Y="0.020000" Z="2.990000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.100000" Y="0.100000" Z="0.100000" />
+            <Alpha Value="4.800000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.040000" Y="0.040000" Z="2.980000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.150000" Y="0.150000" Z="0.150000" />
+            <Alpha Value="7.200000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.060000" Y="0.060000" Z="2.970000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.200000" Y="0.200000" Z="0.200000" />
+            <Alpha Value="9.599999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.080000" Y="0.080000" Z="2.960000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.250000" Y="0.250000" Z="0.250000" />
+            <Alpha Value="11.999999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="2.950000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.300000" />
+            <Alpha Value="14.400000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.120000" Y="0.120000" Z="2.940000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.350000" Y="0.350000" Z="0.350000" />
+            <Alpha Value="16.799999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.140000" Y="0.140000" Z="2.930000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.400000" Y="0.400000" Z="0.400000" />
+            <Alpha Value="19.199999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.160000" Y="0.160000" Z="2.920000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="21.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.180000" Y="0.180000" Z="2.910000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.500000" Y="0.500000" Z="0.500000" />
+            <Alpha Value="23.999998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="2.900000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.550000" Y="0.550000" Z="0.550000" />
+            <Alpha Value="26.399998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.220000" Y="0.220000" Z="2.890000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="28.799999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.240000" Y="0.240000" Z="2.880000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.650000" Y="0.650000" Z="0.650000" />
+            <Alpha Value="31.199999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.260000" Y="0.260000" Z="2.870000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.700000" Y="0.700000" Z="0.700000" />
+            <Alpha Value="33.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.280000" Y="0.280000" Z="2.860000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.750000" Y="0.750000" Z="0.750000" />
+            <Alpha Value="36.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="2.850000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.800000" Y="0.800000" Z="0.800000" />
+            <Alpha Value="38.399998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.320000" Y="0.320000" Z="2.840000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.850000" Y="0.850000" Z="0.850000" />
+            <Alpha Value="40.799999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.340000" Y="0.340000" Z="2.830000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="43.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.360000" Y="0.360000" Z="2.820000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.950000" Y="0.950000" Z="0.950000" />
+            <Alpha Value="45.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.380000" Y="0.380000" Z="2.810000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.000000" Y="1.000000" Z="1.000000" />
+            <Alpha Value="47.999996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="2.800000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.050000" Y="1.050000" Z="1.050000" />
+            <Alpha Value="50.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="2.790000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.100000" Y="1.100000" Z="1.100000" />
+            <Alpha Value="52.799995" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.440000" Y="0.440000" Z="2.780000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.150000" Y="1.150000" Z="1.150000" />
+            <Alpha Value="55.200001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.460000" Y="0.460000" Z="2.770000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="57.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.480000" Y="0.480000" Z="2.760000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.250000" Y="1.250000" Z="1.250000" />
+            <Alpha Value="60.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="2.750000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.300000" Y="1.300000" Z="1.300000" />
+            <Alpha Value="62.399998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.520000" Y="0.520000" Z="2.740000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="64.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.540000" Y="0.540000" Z="2.730000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.400000" Y="1.400000" Z="1.400000" />
+            <Alpha Value="67.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.560000" Y="0.560000" Z="2.720000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.450000" Y="1.450000" Z="1.450000" />
+            <Alpha Value="69.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.580000" Y="0.580000" Z="2.710000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="72.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="2.700000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.550000" Y="1.550000" Z="1.550000" />
+            <Alpha Value="74.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.620000" Y="0.620000" Z="2.690000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.600000" Y="1.600000" Z="1.600000" />
+            <Alpha Value="76.799995" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.640000" Y="0.640000" Z="2.680000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.650000" Y="1.650000" Z="1.650000" />
+            <Alpha Value="80.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.660000" Y="0.660000" Z="2.670000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.700000" Y="1.700000" Z="1.700000" />
+            <Alpha Value="78.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.680000" Y="0.680000" Z="2.660000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.750000" Y="1.750000" Z="1.750000" />
+            <Alpha Value="77.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="2.650000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="76.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.720000" Y="0.720000" Z="2.640000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.850000" Y="1.850000" Z="1.850000" />
+            <Alpha Value="75.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.740000" Y="0.740000" Z="2.630000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.900000" Y="1.900000" Z="1.900000" />
+            <Alpha Value="74.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.760000" Y="0.760000" Z="2.620000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.950000" Y="1.950000" Z="1.950000" />
+            <Alpha Value="72.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.780000" Y="0.780000" Z="2.610000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.000000" Y="2.000000" Z="2.000000" />
+            <Alpha Value="71.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="2.600000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.050000" Y="2.050000" Z="2.050000" />
+            <Alpha Value="70.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.820000" Y="0.820000" Z="2.590000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.100000" Y="2.100000" Z="2.100000" />
+            <Alpha Value="69.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="2.580000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.150000" Y="2.150000" Z="2.150000" />
+            <Alpha Value="68.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.860000" Y="0.860000" Z="2.570000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.200000" Y="2.200000" Z="2.200000" />
+            <Alpha Value="66.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.880000" Y="0.880000" Z="2.560000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="65.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="2.550000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.300000" Y="2.300000" Z="2.300000" />
+            <Alpha Value="64.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.920000" Y="0.920000" Z="2.540000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.350000" Y="2.350000" Z="2.350000" />
+            <Alpha Value="63.200001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.940000" Y="0.940000" Z="2.530000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="62.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.960000" Y="0.960000" Z="2.520000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.450000" Y="2.450000" Z="2.450000" />
+            <Alpha Value="60.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.980000" Y="0.980000" Z="2.510000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.500000" Y="2.500000" Z="2.500000" />
+            <Alpha Value="59.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="2.500000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.550000" Y="2.550000" Z="2.550000" />
+            <Alpha Value="58.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.020000" Y="1.020000" Z="2.490000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.600000" Y="2.600000" Z="2.600000" />
+            <Alpha Value="57.200001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.040000" Y="1.040000" Z="2.480000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.650000" Y="2.650000" Z="2.650000" />
+            <Alpha Value="56.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.060000" Y="1.060000" Z="2.470000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="54.799999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.080000" Y="1.080000" Z="2.460000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.750000" Y="2.750000" Z="2.750000" />
+            <Alpha Value="53.600002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.100000" Y="1.100000" Z="2.450000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.800000" Y="2.800000" Z="2.800000" />
+            <Alpha Value="52.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.120000" Y="1.120000" Z="2.440000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.850000" Y="2.850000" Z="2.850000" />
+            <Alpha Value="51.200001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.140000" Y="1.140000" Z="2.430000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.900000" Y="2.900000" Z="2.900000" />
+            <Alpha Value="50.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.160000" Y="1.160000" Z="2.420000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.950000" Y="2.950000" Z="2.950000" />
+            <Alpha Value="48.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.180000" Y="1.180000" Z="2.410000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="47.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.200000" Y="1.200000" Z="2.400000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.050000" Y="3.050000" Z="3.050000" />
+            <Alpha Value="46.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.220000" Y="1.220000" Z="2.390000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.100000" Y="3.100000" Z="3.100000" />
+            <Alpha Value="45.200001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.240000" Y="1.240000" Z="2.380000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="44.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.260000" Y="1.260000" Z="2.370000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.200000" Y="3.200000" Z="3.200000" />
+            <Alpha Value="42.799999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.280000" Y="1.280000" Z="2.360000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.250000" Y="3.250000" Z="3.250000" />
+            <Alpha Value="41.600002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.300000" Y="1.300000" Z="2.350000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.300000" Y="3.300000" Z="3.300000" />
+            <Alpha Value="40.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.320000" Y="1.320000" Z="2.340000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.350000" Y="3.350000" Z="3.350000" />
+            <Alpha Value="39.200001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.340000" Y="1.340000" Z="2.330000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.400000" Y="3.400000" Z="3.400000" />
+            <Alpha Value="38.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.360000" Y="1.360000" Z="2.320000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.450000" Y="3.450000" Z="3.450000" />
+            <Alpha Value="36.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.380000" Y="1.380000" Z="2.310000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.500000" Y="3.500000" Z="3.500000" />
+            <Alpha Value="35.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.400000" Y="1.400000" Z="2.300000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.550000" Y="3.550000" Z="3.550000" />
+            <Alpha Value="34.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.420000" Y="1.420000" Z="2.290000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="33.200001" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.440000" Y="1.440000" Z="2.280000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.650000" Y="3.650000" Z="3.650000" />
+            <Alpha Value="32.000004" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.460000" Y="1.460000" Z="2.270000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.700000" Y="3.700000" Z="3.700000" />
+            <Alpha Value="30.799999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.480000" Y="1.480000" Z="2.260000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.750000" Y="3.750000" Z="3.750000" />
+            <Alpha Value="29.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.500000" Y="1.500000" Z="2.250000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.800000" Y="3.800000" Z="3.800000" />
+            <Alpha Value="28.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.520000" Y="1.520000" Z="2.240000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.850000" Y="3.850000" Z="3.850000" />
+            <Alpha Value="27.200005" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.540000" Y="1.540000" Z="2.230000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.900000" Y="3.900000" Z="3.900000" />
+            <Alpha Value="26.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.560000" Y="1.560000" Z="2.220000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.950000" Y="3.950000" Z="3.950000" />
+            <Alpha Value="24.799999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.580000" Y="1.580000" Z="2.210000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.000000" Y="4.000000" Z="4.000000" />
+            <Alpha Value="23.600002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.600000" Y="1.600000" Z="2.200000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="22.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.620000" Y="1.620000" Z="2.190000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.100000" Y="4.100000" Z="4.100000" />
+            <Alpha Value="21.200005" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.640000" Y="1.640000" Z="2.180000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.150000" Y="4.150000" Z="4.150000" />
+            <Alpha Value="20.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.660000" Y="1.660000" Z="2.170000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="18.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.680000" Y="1.680000" Z="2.160000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.250000" Y="4.250000" Z="4.250000" />
+            <Alpha Value="17.600002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.700000" Y="1.700000" Z="2.150000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.300000" Y="4.300000" Z="4.300000" />
+            <Alpha Value="16.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.720000" Y="1.720000" Z="2.140000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.350000" Y="4.350000" Z="4.350000" />
+            <Alpha Value="15.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.740000" Y="1.740000" Z="2.130000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.400000" Y="4.400000" Z="4.400000" />
+            <Alpha Value="14.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.760000" Y="1.760000" Z="2.120000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.450000" Y="4.450000" Z="4.450000" />
+            <Alpha Value="12.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.780000" Y="1.780000" Z="2.110000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="11.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.800000" Y="1.800000" Z="2.100000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.550000" Y="4.550000" Z="4.550000" />
+            <Alpha Value="10.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.820000" Y="1.820000" Z="2.090000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.600000" Y="4.600000" Z="4.600000" />
+            <Alpha Value="9.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.840000" Y="1.840000" Z="2.080000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.650000" Y="4.650000" Z="4.650000" />
+            <Alpha Value="8.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.860000" Y="1.860000" Z="2.070000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.700000" Y="4.700000" Z="4.700000" />
+            <Alpha Value="6.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.880000" Y="1.880000" Z="2.060000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.750000" Y="4.750000" Z="4.750000" />
+            <Alpha Value="5.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.900000" Y="1.900000" Z="2.050000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="4.400002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.920000" Y="1.920000" Z="2.040000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.850000" Y="4.850000" Z="4.850000" />
+            <Alpha Value="3.200005" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.940000" Y="1.940000" Z="2.030000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.900000" Y="4.900000" Z="4.900000" />
+            <Alpha Value="2.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.960000" Y="1.960000" Z="2.020000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.950000" Y="4.950000" Z="4.950000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.980000" Y="1.980000" Z="2.010000" />
+            <Texture Texture="Nara_tower_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="HAIR" FILENAME="Joriri_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Joriri_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Joriri_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Joriri_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Joriri_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Joriri_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Joriri_Bodyu.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="45" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMBAT_RD" FILENAME="Taru_Combat_Ready.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Joriri_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_DA_K" FILENAME="Joriri_Dash_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_DA_P" FILENAME="Joriri_Dash_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_ESC" FILENAME="Joriri_Comb_ESC.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_JA_K" FILENAME="Joriri_Jump_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_JA_P" FILENAME="Joriri_Jump_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_K" FILENAME="Joriri_Comb_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_KK" FILENAME="Joriri_Comb_KK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_KKK" FILENAME="Joriri_Comb_KKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_KP" FILENAME="Joriri_Comb_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_P" FILENAME="Joriri_Comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_PK" FILENAME="Joriri_Comb_PK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_PPK" FILENAME="Joriri_Comb_PPK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_SPE" FILENAME="Joriri_Comb_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_PP" FILENAME="Joriri_Comb_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_PPPP" FILENAME="Joriri_Comb_PPPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_PPP_01" FILENAME="Joriri_Comb_PPP_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Comb_PPP_02" FILENAME="Joriri_Comb_PPP_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="DASH_01" FILENAME="Joriri_Dash_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="DASH_02" FILENAME="Joriri_Dash_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="GAMEROOM_WAIT" FILENAME="Joriri_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="GUD_02" FILENAME="Com_GUD_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_FLY_01" FILENAME="Com_Hit_Fly_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="HOLD_ATK_01" FILENAME="Com_Hold_Atk_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="IDLE_01" FILENAME="Joriri_Idle_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="IDLE_02" FILENAME="Joriri_Idle_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="JUMP_DOWN" FILENAME="Joriri_Jump_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="JUMP_LAND" FILENAME="Joriri_Jump_Landing.VA" COMMENT="" />
+        <PROPERTYBAG NAME="JUMP_ONCE" FILENAME="Joriri_Jump_Up.VA" COMMENT="" />
+        <PROPERTYBAG NAME="JUMP_TWICE" FILENAME="Joriri_Jump_Twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="JUMP_UP" FILENAME="Joriri_Jump_Up.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Comb_SPE_01" FILENAME="Joriri_Comb_SPE_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Comb_SPE_02" FILENAME="Joriri_Comb_SPE_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Comb_SPE_03" FILENAME="Joriri_Comb_SPE_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="LOSE" FILENAME="Joriri_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="MOVE_STOP" FILENAME="Joriri_Move_Stop.VA" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_KILLPRETNT" FILENAME="Slot_Skill_Kill_Pretent.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skil_Taru_Chuljang" FILENAME="Skil_Taru_Chuljang.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Keroupper" FILENAME="Skill_Atk_Keroupper.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Rubberpunch" FILENAME="Skill_Atk_Rubberpunch.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_RushAttak" FILENAME="Skill_Atk_RushAttak.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Def_Hit_Giantswing_02" FILENAME="Skill_Def_Hit_Giantswing_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WALK" FILENAME="Joriri_Walk.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Joriri_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="62">
+        <PROPERTYBAG NAME="CM_DASH_01" FILENAME="CM_DASH_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_DASH_02" FILENAME="CM_DASH_02.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_FLY_2" FILENAME="CM_HIT_FLY_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HIT_PUSH_B_1" FILENAME="CM_HIT_PUSH_B_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HOLD_ATK_A_1" FILENAME="CM_HOLD_ATK_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_JUMP_ONCE_1" FILENAME="CM_JUMP_ONCE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_STOP_1" FILENAME="CM_STOP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_STOP_2" FILENAME="CM_STOP_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="COMBO_AA_1" FILENAME="TA_COMBO_AA_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="FireKiruru_Comb_KP_1" FILENAME="FireKiruru_Comb_KP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="FireKiruru_Comb_PK_1" FILENAME="FireKiruru_Comb_PK_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="FireKiruru_Comb_PPP_1" FILENAME="FireKiruru_Comb_PPP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="GAME_DEAD" FILENAME="Joriri_GAME_DEAD_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_01" FILENAME="Joriri_Addition_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_03" FILENAME="Joriri_Addition_03.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_04" FILENAME="Joriri_Addition_04.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_06" FILENAME="Joriri_Addition_06.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_08" FILENAME="Joriri_Addition_08.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_11" FILENAME="Joriri_Addition_11.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_15" FILENAME="Joriri_Addition_15.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_43" FILENAME="Joriri_Addition_43.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_44" FILENAME="Joriri_Addition_44.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_45" FILENAME="Joriri_Addition_45.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_50" FILENAME="Joriri_Addition_50.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_53" FILENAME="Joriri_Addition_53.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_Addition_73" FILENAME="Joriri_Addition_43.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_KKK_V1" FILENAME="Joriri_COMB_KKK_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_KK_V1" FILENAME="Joriri_COMB_KK_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_KP_V1" FILENAME="Joriri_COMB_KP_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_K_V1" FILENAME="Joriri_COMB_K_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_PK_V1" FILENAME="Joriri_COMB_PK_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_PPP_V1" FILENAME="Joriri_COMB_PPP_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_PP_V1" FILENAME="Joriri_COMB_PP_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_COMB_P_V1" FILENAME="Joriri_COMB_P_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_GAME_LOSE_V1" FILENAME="Joriri_GAME_LOSE_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_IDLE_01_V1" FILENAME="Joriri_IDLE_01_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_IDLE_01_V2" FILENAME="Joriri_IDLE_01_V2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Joriri_SPE_01_V1" FILENAME="Joriri_SPE_01_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_KEROUNPPER_1" FILENAME="SKILL_ATK_KEROUNPPER_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_KEROUNPPER_2" FILENAME="SKILL_ATK_KEROUNPPER_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_RUBBERPUNCH_S1" FILENAME="SKILL_ATK_RUBBERPUNCH_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_RUBBERPUNCH_S2" FILENAME="SKILL_ATK_RUBBERPUNCH_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_RUBBERPUNCH_S3" FILENAME="SKILL_ATK_RUBBERPUNCH_S3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_RUSHATK_1" FILENAME="SKILL_ATK_RUSHATK_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_DEF_GASATK_1" FILENAME="SKILL_DEF_GASATK_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_TARU_CHULJANG_1" FILENAME="SKILL_TARU_CHULJANG_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_TARU_CHULJANG_2" FILENAME="SKILL_TARU_CHULJANG_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SLOT_KILLPRETNT" FILENAME="SLOT_KILLPRETNT.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_ESC_S1" FILENAME="TARU_COMB_ESC_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_KKK_02_S1" FILENAME="TARU_COMB_KKK_02_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_KKK_02_S2" FILENAME="TARU_COMB_KKK_02_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_KKP_03_S1" FILENAME="TARU_COMB_KKP_03_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_KKP_03_S2" FILENAME="TARU_COMB_KKP_03_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_KKP_03_S3" FILENAME="TARU_COMB_KKP_03_S3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_PKK_03_S1" FILENAME="TARU_COMB_PKK_03_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_PPK_03_S1" FILENAME="TARU_COMB_PPK_03_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_PPK_03_S2" FILENAME="TARU_COMB_PPK_03_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_COMB_PPP_02_S2" FILENAME="TARU_COMB_PPP_02_S2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_DA_K_S1" FILENAME="TARU_DA_K_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_DA_P_S1" FILENAME="TARU_DA_P_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TARU_JA_K_S1" FILENAME="TARU_JA_K_S1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="TORO_COMB_PPK_1" FILENAME="TORO_COMB_PPK_1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="38">
+        <PROPERTYBAG NAME="Char_Gloom" FILENAME="Char_Gloom_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Char_Kero_Death" FILENAME="Char_taru_Death_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HIT_ATKM_B0" FILENAME="Comm_Hit_AtkMidd_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_DK_E01" FILENAME="Jori_DK_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_DP_E01" FILENAME="Jori_DP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Death_E00" FILENAME="Jori_Death_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Dk_E00" FILENAME="Jori_DK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_ESC_E00" FILENAME="Jori_ESC_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Identify_E00" FILENAME="Jori_Identify_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_JK_E00" FILENAME="Jori_JK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_JP_E00" FILENAME="Jori_JP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_JP_E01" FILENAME="Jori_JP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_KKK_E00" FILENAME="Jori_KKK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_KKK_E01" FILENAME="Jori_KKK_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_KK_E00" FILENAME="Jori_KK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_PK_E00" FILENAME="Jori_PK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_PPK_E00" FILENAME="Jori_PPK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_PPK_E01" FILENAME="Jori_PPK_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_PPK_E02" FILENAME="Jori_PPK_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_PPP_E00" FILENAME="Jori_PPP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_P_E00" FILENAME="Jori_P_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_P_E01" FILENAME="Jori_P_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Rubberpunch_E00" FILENAME="Jori_Rubberpunch_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Spe_E00" FILENAME="Jori_Spe_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Spe_E01" FILENAME="Jori_Spe_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Jori_Spe_E02" FILENAME="Jori_Spe_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Keroupper_E00" FILENAME="Skill_Atk_Keroupper_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Keroupper_E01" FILENAME="Skill_Atk_Keroupper_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Rubberpunch_E00" FILENAME="Skill_Atk_Rubberpunch_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Rubberpunch_E01" FILENAME="Skill_Atk_Rubberpunch_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Rubberpunch_E02" FILENAME="Skill_Atk_Rubberpunch_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Rubberpunch_E03" FILENAME="Skill_Atk_Rubberpunch_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_RushAttak_E00" FILENAME="Skill_Atk_RushAttak_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_RushAttak_E01" FILENAME="Skill_Atk_RushAttak_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Com_Keropa2_E01" FILENAME="Skill_Com_Keropa2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Taru_Chuljang_E00" FILENAME="Skill_Taru_Chuljang_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Taru_Chuljang_E01" FILENAME="Skill_Taru_Chuljang_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_taru_Rubberpunch_E00" FILENAME="Skill_taru_Rubberpunch_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="17">
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH01" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH02" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH03" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH04" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH05" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH06" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH07" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="JorirI_KP_OBJ_FH08" FILENAME="JorirI_KP_OBJ_FH01.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_Alien01" FILENAME="Joriri_Obj_Alien01.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_Alien02" FILENAME="Joriri_Obj_Alien02.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_Cock01" FILENAME="Joriri_Obj_Cock01.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_Comb_PPPP_Effect" FILENAME="Joriri_Obj_Comb_PPPP_Effect.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_FootHold01" FILENAME="Joriri_Obj_FootHold01.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_Hambeger" FILENAME="Joriri_Obj_Hambeger.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_NewsPaper" FILENAME="Joriri_Obj_NewsPaper.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_Plane" FILENAME="Joriri_Obj_Plane.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_Shower" FILENAME="Joriri_Obj_Shower.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Joriri_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Clown_Hammer" FILENAME="ClownHammer.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="WP_BlackHammer.VS">
+        <PROPERTYBAG NAME="Hammer_obj_comb_P" FILENAME="Hammer_obj_comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hammer_obj_comb_PP" FILENAME="Hammer_obj_comb_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WhiteKiruru_Obj_Comb_KP_Hammer" FILENAME="WhiteKiruru_Obj_Comb_KP_Hammer.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="Comm_Item_Hold_E01" FILENAME="Comm_Item_Hold_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hammer_P_E02" FILENAME="Hammer_P_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hammer_P_E03" FILENAME="Hammer_P_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hammer_P_E04" FILENAME="Hammer_P_E04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hammer_P_E05" FILENAME="Hammer_P_E05.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="White_Kiruru_Hammer_COMMANDS.XML" />
+</GAMEENTITY>

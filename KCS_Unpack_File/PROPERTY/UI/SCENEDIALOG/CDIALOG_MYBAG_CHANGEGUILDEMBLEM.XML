@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+
+    <Dialog>
+	    <Property Name="MyBag_ChangeGuildEmblem" PosX="420" PosY="170" SizeX="231" SizeY="267" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<!--기본창-->
+        <Property Index="0" RenderStyle="3" Depth="0.1950" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="476" TextPosY="2" TextSizeX="1" TextSizeY="267" PosX="31" PosY="0" SizeX="169" SizeY="267" />
+            <Element index="1" TextName="GUI_guild.tga" TextPosX="442" TextPosY="2" TextSizeX="31" TextSizeY="267" PosX="0" PosY="0" SizeX="31" SizeY="267" />
+            <Element index="2" TextName="GUI_guild.tga" TextPosX="485" TextPosY="2" TextSizeX="31" TextSizeY="267" PosX="200" PosY="0" SizeX="31" SizeY="267" />
+        </Property>
+	<!--마크선택 글씨-->
+        <Property Index="0" RenderStyle="0" Depth="0.1949" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="789" TextPosY="294" TextSizeX="72" TextSizeY="19" PosX="76" PosY="17" SizeX="72" SizeY="19" />
+        </Property>
+<!-- 뒷배경-->
+	<Property Index = "3" RenderStyle = "0" Depth = "0.1951" Show = "1">
+		<Element index = "0" TextName = "GUI_BackBase.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "16" TextSizeY = "16" PosX = "-420" PosY = "-170" SizeX = "1024" SizeY = "768" />
+	</Property>	
+    </DialogSkin>
+    <DialogControl>
+<!--START - Button-->
+	<!--X-->
+        <Property Name="GuildX_Button" ClassName="CKeroroUI_Button" PosX="190" PosY="14" SizeX="26" SizeY="26" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--리스트 이동 - 앞으로-->
+	<Property Name="GuildMarkListPre_Button" ClassName="CKeroroUI_Button" PosX="67" PosY="233" SizeX="26" SizeY="19" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="142" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--리스트 이동 - 뒤로-->
+	<Property Name="GuildMarkListNext_Button" ClassName="CKeroroUI_Button" PosX="136" PosY="233" SizeX="26" SizeY="19" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.1948" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="115" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="169" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--길드마크 목록-->
+<!--Line1-->
+	<Property Name="GuildMark_Button0" ClassName="CKeroroUI_Button" PosX="26" PosY="65" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button1" ClassName="CKeroroUI_Button" PosX="57" PosY="65" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button2" ClassName="CKeroroUI_Button" PosX="88" PosY="65" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button3" ClassName="CKeroroUI_Button" PosX="119" PosY="65" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button4" ClassName="CKeroroUI_Button" PosX="150" PosY="65" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button5" ClassName="CKeroroUI_Button" PosX="181" PosY="65" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line2-->
+	<Property Name="GuildMark_Button6" ClassName="CKeroroUI_Button" PosX="26" PosY="96" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button7" ClassName="CKeroroUI_Button" PosX="57" PosY="96" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button8" ClassName="CKeroroUI_Button" PosX="88" PosY="96" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button9" ClassName="CKeroroUI_Button" PosX="119" PosY="96" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button10" ClassName="CKeroroUI_Button" PosX="150" PosY="96" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button11" ClassName="CKeroroUI_Button" PosX="181" PosY="96" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+<!--Line3-->
+	<Property Name="GuildMark_Button12" ClassName="CKeroroUI_Button" PosX="26" PosY="127" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button13" ClassName="CKeroroUI_Button" PosX="57" PosY="127" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button14" ClassName="CKeroroUI_Button" PosX="88" PosY="127" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button15" ClassName="CKeroroUI_Button" PosX="119" PosY="127" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button16" ClassName="CKeroroUI_Button" PosX="150" PosY="127" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button17" ClassName="CKeroroUI_Button" PosX="181" PosY="127" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line4-->
+	<Property Name="GuildMark_Button18" ClassName="CKeroroUI_Button" PosX="26" PosY="158" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button19" ClassName="CKeroroUI_Button" PosX="57" PosY="158" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button20" ClassName="CKeroroUI_Button" PosX="88" PosY="158" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button21" ClassName="CKeroroUI_Button" PosX="119" PosY="158" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button22" ClassName="CKeroroUI_Button" PosX="150" PosY="158" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button23" ClassName="CKeroroUI_Button" PosX="181" PosY="158" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+
+<!--Line5-->
+	<Property Name="GuildMark_Button24" ClassName="CKeroroUI_Button" PosX="26" PosY="189" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button25" ClassName="CKeroroUI_Button" PosX="57" PosY="189" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button26" ClassName="CKeroroUI_Button" PosX="88" PosY="189" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button27" ClassName="CKeroroUI_Button" PosX="119" PosY="189" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button28" ClassName="CKeroroUI_Button" PosX="150" PosY="189" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GuildMark_Button29" ClassName="CKeroroUI_Button" PosX="181" PosY="189" SizeX="24" SizeY="24" Disable="0">
+            <ControlSkin>
+		<!--길드마크 - 내부 사각틀-->
+		<Property Index="1" RenderStyle="0" Depth="0.1947" Show="1">
+            	    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="775" TextPosY="231" TextSizeX="24" TextSizeY="24" PosX="0" PosY="0" SizeX="24" SizeY="24" />
+       		</Property>
+		<!--길드마크 - 내부 사각틀 테두리-->
+		<Property Index="0" RenderStyle="0" Depth="0.1946" Show="1">
+            	    
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="804" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+		    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="835" TextPosY="230" TextSizeX="26" TextSizeY="26" PosX="-1" PosY="-1" SizeX="26" SizeY="26" />
+       		</Property>
+            </ControlSkin>
+        </Property>
+<!--END - Button-->
+
+	<!--v페이지숫자-->
+        <Property Name="GuildMarkSelectPage_Button" ClassName="CKeroroUI_Number" PosX="101" PosY="233" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        </Property>
+
+
+    </DialogControl>
+</RootNode>

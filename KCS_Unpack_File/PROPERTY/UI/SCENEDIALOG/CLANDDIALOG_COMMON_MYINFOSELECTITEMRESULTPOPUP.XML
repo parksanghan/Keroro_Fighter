@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="400" PosY="225" SizeX="255" SizeY="265" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.599" Show="1">
+            <Element index="0" TextName="GUI_eventsystem.tga" TextPosX="677" TextPosY="0" TextSizeX="255" TextSizeY="265" PosX="0" PosY="0" SizeX="255" SizeY="265" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Result_STATIC_ItemName" ClassName="CKeroroUI_Static" PosX="127" PosY="53" SizeX="120" SizeY="20" Disable="0">
+            <ControlSkin />
+        </Property>
+        <Property Name="Result_STATIC_ItemInfo" ClassName="CKeroroUI_Static" PosX="127" PosY="182" SizeX="120" SizeY="20" Disable="0">
+            <ControlSkin />
+        </Property>
+        <Property Name="Result_BUTTON_ItemSkin" ClassName="CKeroroUI_Button" PosX="65" PosY="74" SizeX="120" SizeY="120" Disable="0">
+            <ControlSkin>
+	<Property Index="0" RenderStyle="0" Depth="0.599" Show="1">
+	  <Element ControlState="0" index="0" TextName="GUI_eventsystem.tga" TextPosX="94" TextPosY="312" TextSizeX="103" TextSizeY="89" PosX="15" PosY="9" SizeX="103" SizeY="89" />
+            	</Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

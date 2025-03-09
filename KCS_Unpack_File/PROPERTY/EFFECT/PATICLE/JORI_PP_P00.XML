@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Jori_PP_P00" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.4" X="0" Y="100" Z="100" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="0" />
+            <Property Time="0.1" Value="255" />
+            <Property Time="0.4" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.4" X="30" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.4" X="50" Y="50" Z="50" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Jori_Comb_E01.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="1" Max="1" />
+        <RepeatCount Count="2" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="0.48" />
+        <RegenTime Min="0.03" Max="0.05" />
+        <RotScaleMin X="0.5" Y="0.5" Z="0.5" />
+        <RotScaleMax X="1.5" Y="1.5" Z="1.5" />
+        <RandPosMin X="0" Y="0" Z="0" />
+        <RandPosMax X="0" Y="0" Z="0" />
+        <ComboList RefOrder="1" ScaleType="1" PositionType="0" />
+        <Speed Min="2" Max="2" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="60" Y="0" Z="0" />
+        <JetDirMax X="0" Y="0" Z="0" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="16">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="0" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="7.5" Z="7.5" />
+            <Alpha Value="76.5" />
+            <MoveRot X="2.25" Y="0" Z="0" />
+            <SizeRot X="3.75" Y="3.75" Z="3.75" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="15" Z="15" />
+            <Alpha Value="153" />
+            <MoveRot X="4.5" Y="0" Z="0" />
+            <SizeRot X="7.5" Y="7.5" Z="7.5" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="22.5" Z="22.5" />
+            <Alpha Value="255" />
+            <MoveRot X="6.75" Y="0" Z="0" />
+            <SizeRot X="11.25" Y="11.25" Z="11.25" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="30" Z="30" />
+            <Alpha Value="235.875" />
+            <MoveRot X="9" Y="0" Z="0" />
+            <SizeRot X="15" Y="15" Z="15" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="37.5" Z="37.5" />
+            <Alpha Value="216.75" />
+            <MoveRot X="11.25" Y="0" Z="0" />
+            <SizeRot X="18.75" Y="18.75" Z="18.75" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="45" Z="45" />
+            <Alpha Value="197.625" />
+            <MoveRot X="13.5" Y="0" Z="0" />
+            <SizeRot X="22.5" Y="22.5" Z="22.5" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="52.5" Z="52.5" />
+            <Alpha Value="178.5" />
+            <MoveRot X="15.75" Y="0" Z="0" />
+            <SizeRot X="26.25" Y="26.25" Z="26.25" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="60" Z="60" />
+            <Alpha Value="159.375" />
+            <MoveRot X="18" Y="0" Z="0" />
+            <SizeRot X="30" Y="30" Z="30" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="67.5" Z="67.5" />
+            <Alpha Value="140.25" />
+            <MoveRot X="20.25" Y="0" Z="0" />
+            <SizeRot X="33.75" Y="33.75" Z="33.75" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="75" Z="75" />
+            <Alpha Value="121.125" />
+            <MoveRot X="22.5" Y="0" Z="0" />
+            <SizeRot X="37.5" Y="37.5" Z="37.5" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="82.5" Z="82.5" />
+            <Alpha Value="102" />
+            <MoveRot X="24.75" Y="0" Z="0" />
+            <SizeRot X="41.25" Y="41.25" Z="41.25" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="90" Z="90" />
+            <Alpha Value="82.875" />
+            <MoveRot X="27" Y="0" Z="0" />
+            <SizeRot X="45" Y="45" Z="45" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="100" Z="100" />
+            <Alpha Value="63.75" />
+            <MoveRot X="30" Y="0" Z="0" />
+            <SizeRot X="50" Y="50" Z="50" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="100" Z="100" />
+            <Alpha Value="44.625" />
+            <MoveRot X="30" Y="0" Z="0" />
+            <SizeRot X="50" Y="50" Z="50" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="100" Z="100" />
+            <Alpha Value="25.5" />
+            <MoveRot X="30" Y="0" Z="0" />
+            <SizeRot X="50" Y="50" Z="50" />
+            <Texture Texture="Jori_Comb_E01.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

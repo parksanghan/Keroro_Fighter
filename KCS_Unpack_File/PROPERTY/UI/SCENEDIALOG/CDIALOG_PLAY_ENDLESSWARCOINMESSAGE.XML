@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_NoticeBox.xml" PosX="512" PosY="460" SizeX="0" SizeY="0" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin/>
+    <DialogControl>
+        <Property Name="STATIC_EW_CoinMessage" ClassName="CKeroroUI_Static" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+        </Property>
+        <Property Name="GAUGE3_EW_CoinMessageBG" ClassName="CKeroroUI_Gauge3" PosX="0" PosY="0" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin />
+        </Property>
+    </DialogControl>
+</RootNode>

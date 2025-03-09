@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<EXTENDEDENTITY_LIST>
+    <EXTENTITY NAME="Big_Shaurakan" FILENAME="Doro_Big-Shaurakan.xml" />
+    <EXTENTITY NAME="Shaurakan" FILENAME="Doro_Shaurakan.xml" />
+    <EXTENTITY NAME="Sword_01" FILENAME="Doro_Sword_01.xml" />
+    <EXTENTITY NAME="Sword_02" FILENAME="Doro_Sword_02.xml" />
+    <EXTENTITY NAME="Whetstone" FILENAME="Doro_Whetstone.xml" />
+</EXTENDEDENTITY_LIST>

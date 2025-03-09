@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="CosH_Chocostick_M_Bodyu.VM" />
+    <TextureInfo count="1">
+        <Texture filename="CosH_Chocostick_M_Bodyu_Sa.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.80" />
+            <Property name="ColorR" value="0.129412" />
+            <Property name="ColorG" value="0.054902" />
+            <Property name="ColorB" value="0.0392157" />
+            <Property name="ColorA" value="1" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="12">
+        <PROPERTYBAG NAME="statue_badak01" FILENAME="statue_badak01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_badak02" FILENAME="statue_badak02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_Bg_neon01" FILENAME="statue_Bg_neon01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_Bg_neon02" FILENAME="statue_Bg_neon02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_Bg_neon03" FILENAME="statue_Bg_neon03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_Bg_neon04" FILENAME="statue_Bg_neon04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_Bg_Sky01" FILENAME="statue_Bg_Sky01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_building" FILENAME="statue_building.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_keroro_body01" FILENAME="statue_keroro_body01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_keroro_face01" FILENAME="statue_keroro_face01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_keroro_head01" FILENAME="statue_keroro_head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="statue_Bg_moon" FILENAME="statue_Bg_moon.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="14">
+        <PROPERTYBAG NAME="Statue_firecracker_E00" FILENAME="Statue_firecracker_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_firecracker_E01" FILENAME="Statue_firecracker_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_firecracker_E02" FILENAME="Statue_firecracker_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_fog_E00" FILENAME="Statue_fog_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_light_E00" FILENAME="Statue_light_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_neon_E00" FILENAME="Statue_neon_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_neon_E01" FILENAME="Statue_neon_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_neon_E02" FILENAME="Statue_neon_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_neon_E03" FILENAME="Statue_neon_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_neon_E04" FILENAME="Statue_neon_E04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_neon_E05" FILENAME="Statue_neon_E05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_neon_E06" FILENAME="Statue_neon_E06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_spotlight_E00" FILENAME="Statue_spotlight_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Statue_star_E00" FILENAME="Statue_star_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Statue_COMMANDS.XML" />
+</GAMEENTITY>

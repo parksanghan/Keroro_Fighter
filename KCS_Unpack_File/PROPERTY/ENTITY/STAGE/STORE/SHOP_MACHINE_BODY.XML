@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Shop_machine" FILENAME="Shop_machine.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_machine_left" FILENAME="Shop_machine_left.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Shop_machine_left.VS">
+        <PROPERTYBAG NAME="Shop_machine_left" FILENAME="Shop_machine_left.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="S_mix" FILENAME="S_mix.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shop_automat _E00" FILENAME="Shop_automat _E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Shop_machine_body_COMMANDS.XML" />
+</GAMEENTITY>

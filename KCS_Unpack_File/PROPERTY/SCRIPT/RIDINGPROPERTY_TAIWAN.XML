@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RidingProperty>
+    <Riding PropertyID="251000000" MoveType="1" JumpType="1" RidingHit="300" Reset="50" Jump="1100" EntityFileName="Hover.xml" ComboKeyFileName="FlyingBoardComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="RD_Hover_Char.xml" SuperArmor="0" />
+    <Riding PropertyID="251000001" MoveType="1" JumpType="1" RidingHit="600" Reset="50" Jump="1000" EntityFileName="RD_Mecha.xml" ComboKeyFileName="MechaComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="RD_Mecha_Char.xml" SuperArmor="1" />
+    <Riding PropertyID="251000002" MoveType="1" JumpType="1" RidingHit="600" Reset="50" Jump="1000" EntityFileName="Hum_RD_Mecha.xml" ComboKeyFileName="Hum_MechaComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="Hum_RD_Mecha_Char.xml" SuperArmor="1" />
+    <Riding PropertyID="251000003" MoveType="1" JumpType="1" RidingHit="600" Reset="50" Jump="1000" EntityFileName="RD_ViperMecha.xml" ComboKeyFileName="MechaComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="RD_ViperMecha_Char.xml" SuperArmor="1" />
+    <Riding PropertyID="251000004" MoveType="1" JumpType="1" RidingHit="600" Reset="50" Jump="1000" EntityFileName="Hum_RD_ViperMecha.xml" ComboKeyFileName="Hum_MechaComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="Hum_RD_ViperMecha_Char.xml" SuperArmor="1" />
+    <Riding PropertyID="251000005" MoveType="1" JumpType="1" RidingHit="600" Reset="50" Jump="1000" EntityFileName="RD_Drillmecha.xml" ComboKeyFileName="DrillmechaComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="RD_Drillmecha_Char.xml" SuperArmor="1" />
+    <Riding PropertyID="251000006" MoveType="1" JumpType="1" RidingHit="600" Reset="50" Jump="1000" EntityFileName="Hum_RD_Drillmecha.xml" ComboKeyFileName="Hum_DrillmechaComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="Hum_RD_Drillmecha_Char.xml" SuperArmor="1" />
+    <Riding PropertyID="251000007" MoveType="1" JumpType="1" RidingHit="800" Reset="50" Jump="1000" EntityFileName="RD_MagmaMecha.xml" ComboKeyFileName="MagmaMechaComboKey.xml" TextureName="0" TexPosX="0" TexPosY="0" Note="思骯腌" PrivateXML="RD_MagmaMecha_Char.xml" SuperArmor="1" />
+</RidingProperty>

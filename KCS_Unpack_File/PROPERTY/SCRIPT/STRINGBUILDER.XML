@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StringBuilder>
+    <String StringID="AISay_0" StringValue="I will be back.." StringNote="0" />
+    <String StringID="AISay_1" StringValue="님 좀 짱인듯" StringNote="0" />
+    <String StringID="AISay_2" StringValue="지구 침략의 꿈이 으~" StringNote="0" />
+    <String StringID="AISay_3" StringValue="이번에는 실수다" StringNote="0" />
+    <String StringID="AISay_4" StringValue="언젠간 반드시~" StringNote="0" />
+    <String StringID="AISay_5" StringValue="폭력 반대!!" StringNote="0" />
+    <String StringID="AISay_6" StringValue="아.. 뭥미" StringNote="0" />
+    <String StringID="BillType_Cash" StringValue="캐시" StringNote="0" />
+    <String StringID="BillType_Kerot" StringValue="케롯" StringNote="0" />
+    <String StringID="CAMPWAR_TYPE1" StringValue="[ 케로로소대 ]" StringNote="0" />
+    <String StringID="CAMPWAR_TYPE2" StringValue="〈 가루루소대 〉" StringNote="0" />
+    <String StringID="ChannelGrade_0" StringValue="자유" StringNote="0" />
+    <String StringID="ChannelGrade_1" StringValue="훈련하기" StringNote="0" />
+    <String StringID="ChannelGrade_2" StringValue="초보" StringNote="0" />
+    <String StringID="ChannelGrade_3" StringValue="중수" StringNote="0" />
+    <String StringID="ChannelGrade_4" StringValue="고수" StringNote="0" />
+    <String StringID="ChannelGrade_5" StringValue="길드" StringNote="0" />
+    <String StringID="ChannelGrade_6" StringValue="훈련하기" StringNote="0" />
+    <String StringID="ChannelGrade_7" StringValue="장터" StringNote="0" />
+    <String StringID="ChannelGrade_100" StringValue="리그" StringNote="0" />
+    <String StringID="ChannelGrade_101" StringValue="래더" StringNote="0" />
+    <String StringID="Comment_CantSell" StringValue="되팔기 : 안됨" StringNote="0" />
+    <String StringID="Comment_ExpiredDate" StringValue="만료 일자 : %d/%02d/%02d %02d:%02d" StringNote="0" />
+    <String StringID="Comment_ExpiredDate_Unlimit" StringValue="만료 일자 : 무제한" StringNote="0" />
+    <String StringID="Comment_ForCostumes" StringValue="코스튬 아이템 전용" StringNote="0" />
+    <String StringID="Comment_ForNormalItems" StringValue="파츠 아이템 전용" StringNote="0" />
+    <String StringID="Comment_ForWeaponItems" StringValue="특수무기 아이템 전용" StringNote="0" />
+    <String StringID="Comment_SellPrice" StringValue="판매가격 : %d 케롯\n" StringNote="0" />
+    <String StringID="Commnet_SellPrice_Renewal" StringValue="만료기간 : 무제한(되팔기 가격 %d 케롯)\n" StringNote="0" />
+    <String StringID="COUPONNOTICE_GUIDEBOOK" StringValue="10000캐시는 케파 홈페이지 내\n이벤트페이지를 참고하세요" StringNote="0" />
+    <String StringID="ErrorCode_1000" StringValue="온라인인 길드원만 가능합니다." StringNote="0" />
+    <String StringID="ErrorCode_10001" StringValue="게임머니 결재가 시간이 만료되었습니다" StringNote="0" />
+    <String StringID="ErrorCode_10002" StringValue="이미 취소된 게임머니 결재입니다" StringNote="0" />
+    <String StringID="ErrorCode_10003" StringValue="게임머니 결재가 진행중입니다" StringNote="0" />
+    <String StringID="ErrorCode_1001" StringValue="권한이 없다." StringNote="0" />
+    <String StringID="ErrorCode_1002" StringValue="길드가 없다." StringNote="0" />
+    <String StringID="ErrorCode_1003" StringValue="길드가 맞지 않다" StringNote="0" />
+    <String StringID="ErrorCode_1004" StringValue="길드장이 아니다." StringNote="0" />
+    <String StringID="ErrorCode_1005" StringValue="대상 유저는 길드장이 되기위한 경험치가 부족합니다." StringNote="0" />
+    <String StringID="ErrorCode_1006" StringValue="생성할 수 없는 길드명 입니다." StringNote="0" />
+    <String StringID="ErrorCode_14001" StringValue="잘못된 쿼리" StringNote="0" />
+    <String StringID="ErrorCode_14005" StringValue="디비 연결 실패, 디비 연결 체크 후 실패시" StringNote="0" />
+    <String StringID="ErrorCode_14006" StringValue="게임아이디 생성 한계 도달" StringNote="0" />
+    <String StringID="ErrorCode_14007" StringValue="데이터 저장 실패, 유저의 캐릭터 생성 숫자 교정 실패 시 발생" StringNote="0" />
+    <String StringID="ErrorCode_14008" StringValue="이미 존재하는 이름입니다" StringNote="0" />
+    <String StringID="ErrorCode_14009" StringValue="체크 실패! 다시 해 주십시오" StringNote="0" />
+    <String StringID="ErrorCode_14011" StringValue="DB 연결 정보 파일 읽기 실패" StringNote="0" />
+    <String StringID="ErrorCode_14012" StringValue="금지 단어가 포함되어 있습니다" StringNote="0" />
+    <String StringID="ErrorCode_14013" StringValue="최초 캐릭터 생성시도시 이미 생성된 캐릭터가 있음" StringNote="0" />
+    <String StringID="ErrorCode_18001" StringValue="케파 캐시가 부족합니다" StringNote="0" />
+    <String StringID="ErrorCode_2001" StringValue="비정상 접속입니다. 게임을 종료합니다" StringNote="0" />
+    <String StringID="ErrorCode_2002" StringValue="GAMEID의 형식이 사용하는 형식과 일치하지 않습니다" StringNote="0" />
+    <String StringID="ErrorCode_2003" StringValue="CHANNEL ID의 범위가 서버에서 제한하는 범위에 벗어나 있다" StringNote="0" />
+    <String StringID="ErrorCode_2008" StringValue="채널의 방이 모두 차 있습니다" StringNote="0" />
+    <String StringID="ErrorCode_2011" StringValue="존재하지 않는 게임방입니다" StringNote="0" />
+    <String StringID="ErrorCode_2017" StringValue="방장이 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_2020" StringValue="이미 플레이중인 방입니다" StringNote="0" />
+    <String StringID="ErrorCode_2022" StringValue="비밀번호가 틀렸습니다" StringNote="0" />
+    <String StringID="ErrorCode_2024" StringValue="사망한 후에 아이템 수거, 데미지, 스킬 사용 등의 메시지가 날아왔음" StringNote="0" />
+    <String StringID="ErrorCode_2026" StringValue="게임을 시작할 수 있는 조건이 아니다" StringNote="0" />
+    <String StringID="ErrorCode_2027" StringValue="깃발을 집으려고 하는데 이미 소유주가 존재" StringNote="0" />
+    <String StringID="ErrorCode_2028" StringValue="깃발 위치를 설정하는 패킷이 날라왔는데, 마지막 소유주와 맞지 않음" StringNote="0" />
+    <String StringID="ErrorCode_2029" StringValue="깃발 모드의 게임이 아닌데 깃발 관련 메시지가 날아왔음" StringNote="0" />
+    <String StringID="ErrorCode_2030" StringValue="중복 로그인 되었습니다" StringNote="0" />
+    <String StringID="ErrorCode_2031" StringValue="인원이 가득찬 방입니다" StringNote="0" />
+    <String StringID="ErrorCode_2039" StringValue="인벤토리가 다 찼습니다" StringNote="0" />
+    <String StringID="ErrorCode_2040" StringValue="인원이 가득찬 채널입니다" StringNote="0" />
+    <String StringID="ErrorCode_2056" StringValue="이미 가지고 있는 캐릭터의 패키지는\n사용할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2057" StringValue="처음 만든 캐릭터는 삭제할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2058" StringValue="착용할 수 없는 아이템입니다." StringNote="0" />
+    <String StringID="ErrorCode_2059" StringValue="현재 계급에서 허용되지 않는 채널입니다." StringNote="0" />
+    <String StringID="ErrorCode_2060" StringValue="올챙이 채널에서 선택할 수 있는 모드가 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_2061" StringValue="현재 채널에서 올챙이 채널 전용 모드를 선택할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2062" StringValue="현재 채널에서 허용되지 않는 맵입니다." StringNote="0" />
+    <String StringID="ErrorCode_2063" StringValue="경기용 채널이 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_2064" StringValue="경기용 채널에서 불가능한 동작입니다" StringNote="0" />
+    <String StringID="ErrorCode_2065" StringValue="옵저버가 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_2066" StringValue="옵져버는 불가능한 동작입니다" StringNote="0" />
+    <String StringID="ErrorCode_2067" StringValue="공격데미지가 허용되지 않습니다." StringNote="0" />
+    <String StringID="ErrorCode_2068" StringValue="현재 점검중인 기능입니다.\n\n불편을 드려서 죄송합니다.\n\n(선물, 거래 양측 소위이상 사용가능)" StringNote="0" />
+    <String StringID="ErrorCode_2069" StringValue="방이 점수 확인 단계가 아니다" StringNote="0" />
+    <String StringID="ErrorCode_2070" StringValue="유저가 점수 확인 단계가 아니다" StringNote="0" />
+    <String StringID="ErrorCode_2071" StringValue="잠시후 튜토리얼 진행을 시도해 주십시오" StringNote="0" />
+    <String StringID="ErrorCode_2072" StringValue="이미 사라진 맵 스킬" StringNote="0" />
+    <String StringID="ErrorCode_2073" StringValue="잘못된 방 형식" StringNote="0" />
+    <String StringID="ErrorCode_2074" StringValue="기간 무제한 아이템이 아니다" StringNote="0" />
+    <String StringID="ErrorCode_2075" StringValue="잘못된 AI 레벨" StringNote="0" />
+    <String StringID="ErrorCode_2076" StringValue="잘못된 몬스터의 수" StringNote="0" />
+    <String StringID="ErrorCode_2077" StringValue="잘못된 몬스터 형식" StringNote="0" />
+    <String StringID="ErrorCode_2078" StringValue="존재하지 않는 Combat ID입니다" StringNote="0" />
+    <String StringID="ErrorCode_2079" StringValue="공격자가 존재하지 않습니다" StringNote="0" />
+    <String StringID="ErrorCode_2080" StringValue="공격자가 마지막 사용했던 스킬이 아닙니다. (스킬 데미지인 경우)" StringNote="0" />
+    <String StringID="ErrorCode_2081" StringValue="소유하고 있는 스킬이 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_2082" StringValue="데미지 패킷 형식이 규정된 것과 다릅니다" StringNote="0" />
+    <String StringID="ErrorCode_2083" StringValue="데미지를 입힐 수 있는 스킬이 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_2084" StringValue="이 아이템에 장착 가능한 카드가 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_2085" StringValue="카드 슬롯이 잘못되었습니다" StringNote="0" />
+    <String StringID="ErrorCode_2086" StringValue="카드 슬롯에 이미 카드가 착용되어 있습니다" StringNote="0" />
+    <String StringID="ErrorCode_2087" StringValue="달리기 모드가 아닙니다." StringNote="0" />
+    <String StringID="ErrorCode_2088" StringValue="인벤토리가 가득 찼습니다. 인벤토리 정리후 재접하세요." StringNote="0" />
+    <String StringID="ErrorCode_2089" StringValue="닫힌 카드 슬롯입니다." StringNote="0" />
+    <String StringID="ErrorCode_2090" StringValue="내부적인 오류로 인해\n\n쿠폰이 정상적으로 지급되지 않았습니다. (홈페이지에 문의바랍니다)" StringNote="0" />
+    <String StringID="ErrorCode_2091" StringValue="내부적인 오류로 인해\n\n캐릭터가 정상적으로 로딩되지 않았습니다." StringNote="0" />
+    <String StringID="ErrorCode_2092" StringValue="장착할 수 없습니다.\n\n(장착이 허용되지 않은 캐릭터입니다)" StringNote="0" />
+    <String StringID="ErrorCode_2093" StringValue="기간제 스킬은 하나만 장착 할 수 있습니다." StringNote="0" />
+    <String StringID="ErrorCode_2094" StringValue="잘못된 기능성 아이템의 코드가 날아왓따." StringNote="0" />
+    <String StringID="ErrorCode_2095" StringValue="이미 같은 아이템을 소지중입니다." StringNote="0" />
+    <String StringID="ErrorCode_2096" StringValue="슈퍼방장이 아니다." StringNote="0" />
+    <String StringID="ErrorCode_2097" StringValue="해당 아이템은 현재 사용중이거나\n 2개 이상 중복 사용 할수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2098" StringValue="이미 매진된 상품입니다." StringNote="0" />
+    <String StringID="ErrorCode_2099" StringValue="판매기간이 아닙니다." StringNote="0" />
+    <String StringID="ErrorCode_2100" StringValue="무기를 소환할수없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2101" StringValue="무기를 가지고 있지않다. 그런데 버리려한다." StringNote="0" />
+    <String StringID="ErrorCode_2102" StringValue="해당무기는 이미 다른사람이 먹었음" StringNote="0" />
+    <String StringID="ErrorCode_2103" StringValue="탈것을 타고있지 않은데 내리려 한다." StringNote="0" />
+    <String StringID="ErrorCode_2104" StringValue="열쇠가 없는데 탈것을 탈려고한다." StringNote="0" />
+    <String StringID="ErrorCode_2105" StringValue="다른사람이 먼저 탈것을 탓다." StringNote="0" />
+    <String StringID="ErrorCode_2106" StringValue="쿨탐중이라 탈수가 없다." StringNote="0" />
+    <String StringID="ErrorCode_2107" StringValue="훈련점수가 부족 합니다." StringNote="0" />
+    <String StringID="ErrorCode_2201" StringValue="이미 길드에 가입중 입니다." StringNote="0" />
+    <String StringID="ErrorCode_2202" StringValue="길드를 만들수 있는 계급이 아닙니다." StringNote="0" />
+    <String StringID="ErrorCode_2203" StringValue="길드를 만들 케롯이 부족합니다." StringNote="0" />
+    <String StringID="ErrorCode_2204" StringValue="체험아이디는 다른 유저에게 선물을 할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2301" StringValue="이미 다른 유저와 거래중입니다." StringNote="0" />
+    <String StringID="ErrorCode_2302" StringValue="거래 대상 유저가 현재 거래중입니다." StringNote="0" />
+    <String StringID="ErrorCode_2303" StringValue="100 미만 케롯은 거래액으로 올릴 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2304" StringValue="거래하려는 유저를 찾지 못하였습니다." StringNote="0" />
+    <String StringID="ErrorCode_2305" StringValue="거래하려는 유저와 서버가 다릅니다." StringNote="0" />
+    <String StringID="ErrorCode_2306" StringValue="거래하려는 유저와 채널이 다릅니다." StringNote="0" />
+    <String StringID="ErrorCode_2307" StringValue="거래하려는 유저가 거래할 수 있는 상태가 아닙니다." StringNote="0" />
+    <String StringID="ErrorCode_2308" StringValue="옵저버는 거래할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2309" StringValue="거래할 수 있는 아이템이 아닙니다." StringNote="0" />
+    <String StringID="ErrorCode_2310" StringValue="첫 케릭터는 거래할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2311" StringValue="장착한 케릭터는 거래할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2312" StringValue="승낙상태일 경우 추가나 삭제를 할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2313" StringValue="거래 리스트가 가득 찼습니다." StringNote="0" />
+    <String StringID="ErrorCode_2314" StringValue="이템을 거래 리스트에서 찾을 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2315" StringValue="거래중인 유저를 강퇴할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2317" StringValue="장터모드에서는 게임 시작을 할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2318" StringValue="장터모드에서는 게임 레디를 할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2339" StringValue="훈련 채널에서만 사용할 수 있는 모드입니다." StringNote="0" />
+    <String StringID="ErrorCode_2340" StringValue="대기실에서는 사용할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2341" StringValue="이미 훈련채널에 있습니다." StringNote="0" />
+    <String StringID="ErrorCode_2342" StringValue="훈련채널이 아닙니다." StringNote="0" />
+    <String StringID="ErrorCode_2343" StringValue="이미 거래채널에 있습니다." StringNote="0" />
+    <String StringID="ErrorCode_2344" StringValue="거래채널이 아닙니다." StringNote="0" />
+    <String StringID="ErrorCode_4006" StringValue="더 이상 게임아이디를 생성할 수 없습니다" StringNote="0" />
+    <String StringID="ErrorCode_4008" StringValue="캐릭터 이름이 중복되었습니다" StringNote="0" />
+    <String StringID="ErrorCode_4012" StringValue="사용할 수 없는 닉네임 입니다" StringNote="0" />
+    <String StringID="ErrorCode_4013" StringValue="이미 생성된 캐릭터가 있습니다" StringNote="0" />
+    <String StringID="ErrorCode_4014" StringValue="DB연결 또는 네트워크 문제로 인해 DB JOB이 지연됨" StringNote="0" />
+    <String StringID="ErrorCode_4015" StringValue="존재 하지않는 개수 제한 아이템 ID입니다." StringNote="0" />
+    <String StringID="ErrorCode_4101" StringValue="랭킹 계산에 필요한 날짜 계산에 실패하였습니다" StringNote="0" />
+    <String StringID="ErrorCode_4102" StringValue="랭킹 타입이 잘못되었습니다" StringNote="0" />
+    <String StringID="ErrorCode_5001" StringValue="잘못된 format의 AccountCode를 전송받음" StringNote="0" />
+    <String StringID="ErrorCode_5002" StringValue="Auth DB에 해당 AccountCode의 데이터가 없음" StringNote="0" />
+    <String StringID="ErrorCode_6001" StringValue="GDMS에 이미 로그인된 정보가 있음" StringNote="0" />
+    <String StringID="ErrorCode_6002" StringValue="게임서버군에 이미 접속된 정보가 있음" StringNote="0" />
+    <String StringID="ErrorCode_6003" StringValue="\n\n계정 블럭 상태여서 게임에 접속할 수 없습니다. 자세한 내용은 고객센터로 문의하시기 바랍니다." StringNote="0" />
+    <String StringID="ErrorCode_6004" StringValue="채팅이 금지된 상태입니다." StringNote="0" />
+    <String StringID="ErrorCode_6005" StringValue="서버를 점검하고 있습니다." StringNote="0" />
+    <String StringID="ErrorCode_7001" StringValue="쿠폰번호를 잘못 입력 하였습니다." StringNote="0" />
+    <String StringID="ErrorCode_7002" StringValue="다른 유저가 사용한 쿠폰입니다" StringNote="0" />
+    <String StringID="ErrorCode_7003" StringValue="이미 사용한 쿠폰 번호입니다" StringNote="0" />
+    <String StringID="ErrorCode_7004" StringValue="사용 기간이 지났습니다" StringNote="0" />
+    <String StringID="ErrorCode_7005" StringValue="쿠폰타입이 잘못 되었습니다" StringNote="0" />
+    <String StringID="ErrorCode_7006" StringValue="샤니 쿠폰은 하루 3번이상 입력 할수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_8001" StringValue="(서버에서) 메모리 할당이 되지 않았습니다" StringNote="0" />
+    <String StringID="ErrorCode_8002" StringValue="채널에 인원이 다 찼습니다" StringNote="0" />
+    <String StringID="ErrorCode_8003" StringValue="리그전 참가 대상이 아닙니다" StringNote="0" />
+    <String StringID="ErrorCode_9001" StringValue="메신저에 등록되지 않은 친구입니다" StringNote="0" />
+    <String StringID="ErrorCode_9002" StringValue="더 이상 친구를 추가할 수 없습니다" StringNote="0" />
+    <String StringID="ErrorCode_9003" StringValue="로그인 되지 않은 친구입니다" StringNote="0" />
+    <String StringID="ErrorCode_9004" StringValue="이미 추가한 친구입니다" StringNote="0" />
+    <String StringID="ErrorCode_9005" StringValue="없는 닉네임입니다" StringNote="0" />
+    <String StringID="ErrorCode_9006" StringValue="등록되지 않은 메일" StringNote="0" />
+    <String StringID="ErrorCode_9007" StringValue="상대의 친구목록이 모두 차 있습니다" StringNote="0" />
+    <String StringID="ErrorCode_9008" StringValue="길드에 이미 가입돼 있습니다." StringNote="0" />
+    <String StringID="ErrorCode_9011" StringValue="상대의 선물함이 가득 찼습니다" StringNote="0" />
+    <String StringID="ErrorCode_9012" StringValue="유효한 선물이 아님" StringNote="0" />
+    <String StringID="ErrorCode_9013" StringValue="서버내 메모리 에러" StringNote="0" />
+    <String StringID="ErrorCode_9014" StringValue="이미 받은 선물" StringNote="0" />
+    <String StringID="ErrorCode_9015" StringValue="이미 보낸 선물" StringNote="0" />
+    <String StringID="ErrorCode_9023" StringValue="해당 이름의 길드를 찾을수가 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_9024" StringValue="더 이상 길드원을 초대할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_9025" StringValue="거래중인 유저를 초대할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_Default" StringValue="알 수 없는 에러" StringNote="0" />
+    <String StringID="Font_Gulim" StringValue="굴림체" StringNote="0" />
+    <String StringID="Font_Gulim_Taiwan" StringValue="Gulim" StringNote="0" />
+    <String StringID="Font_Gulim12" StringValue="굴림12" StringNote="0" />
+    <String StringID="Font_Taiwan" StringValue="PMingLiU" StringNote="0" />
+    <String StringID="GameTip_0" StringValue="W와 스페이스 바를 동시에 사용하면 더욱 낮게 점프할 수 있습니다." StringNote="0" />
+    <String StringID="GameTip_1" StringValue="달리는 도중 점프하면 SP 소모 없이 빠르게 이동할 수 있습니다." StringNote="0" />
+    <String StringID="GameTip_2" StringValue="각진 오브젝트에 대쉬하며 점프 후 발차기를 시도하면 걸치기가 가능합니다." StringNote="0" />
+    <String StringID="GameTip_3" StringValue="마지막 콤보 도중 스킬을 사용하여 행동을 취소하고 연계 할 수 있습니다." StringNote="0" />
+    <String StringID="GameTip_4" StringValue="되팔기 또는 버리기 기능으로 분해 재료를 획득할 수 있습니다.\n의상, 무기, 카드, 스킬만 해당됩니다." StringNote="0" />
+    <String StringID="GameTip_5" StringValue="!차단 : 상대방의 채팅을 차단합니다.\n!차단해제 : !차단 명령어를 해제합니다." StringNote="0" />
+    <String StringID="GameTip_6" StringValue="!상대차단 : 팀 채팅으로 고정합니다. 팀을 제외한 상대방의 채팅을 차단합니다.\n!상대차단해제 : !상대차단 명령어를 해제합니다." StringNote="0" />
+    <String StringID="GameTip_7" StringValue="!팀고정 : 팀 채팅으로 고정합니다.\n!길드고정 : 길드 채팅으로 고정합니다.\n!고정해제 : !팀고정, !길드고정 명령어를 해제합니다." StringNote="0" />
+    <String StringID="GameTip_8" StringValue="Q키를 눌러 무기를 소환할 수 있으며 일정 시간 동안 무적 판정이 됩니다." StringNote="0" />
+    <String StringID="Grade_0" StringValue="병" StringNote="0" />
+    <String StringID="Grade_1" StringValue="훈련병" StringNote="0" />
+    <String StringID="Grade_10" StringValue="상사1" StringNote="0" />
+    <String StringID="Grade_11" StringValue="상사2" StringNote="0" />
+    <String StringID="Grade_12" StringValue="소위1" StringNote="0" />
+    <String StringID="Grade_13" StringValue="소위2" StringNote="0" />
+    <String StringID="Grade_14" StringValue="소위3" StringNote="0" />
+    <String StringID="Grade_15" StringValue="중위1" StringNote="0" />
+    <String StringID="Grade_16" StringValue="중위2" StringNote="0" />
+    <String StringID="Grade_17" StringValue="중위3" StringNote="0" />
+    <String StringID="Grade_18" StringValue="대위1" StringNote="0" />
+    <String StringID="Grade_19" StringValue="대위2" StringNote="0" />
+    <String StringID="Grade_2" StringValue="이병" StringNote="0" />
+    <String StringID="Grade_20" StringValue="대위3" StringNote="0" />
+    <String StringID="Grade_21" StringValue="소령1" StringNote="0" />
+    <String StringID="Grade_22" StringValue="소령2" StringNote="0" />
+    <String StringID="Grade_23" StringValue="소령3" StringNote="0" />
+    <String StringID="Grade_24" StringValue="소령4" StringNote="0" />
+    <String StringID="Grade_25" StringValue="중령1" StringNote="0" />
+    <String StringID="Grade_26" StringValue="중령2" StringNote="0" />
+    <String StringID="Grade_27" StringValue="중령3" StringNote="0" />
+    <String StringID="Grade_28" StringValue="중령4" StringNote="0" />
+    <String StringID="Grade_29" StringValue="대령1" StringNote="0" />
+    <String StringID="Grade_3" StringValue="일병" StringNote="0" />
+    <String StringID="Grade_30" StringValue="대령2" StringNote="0" />
+    <String StringID="Grade_31" StringValue="대령3" StringNote="0" />
+    <String StringID="Grade_32" StringValue="대령4" StringNote="0" />
+    <String StringID="Grade_33" StringValue="준장" StringNote="0" />
+    <String StringID="Grade_34" StringValue="소장" StringNote="0" />
+    <String StringID="Grade_35" StringValue="중장" StringNote="0" />
+    <String StringID="Grade_36" StringValue="대장" StringNote="0" />
+    <String StringID="Grade_4" StringValue="상병" StringNote="0" />
+    <String StringID="Grade_5" StringValue="병장" StringNote="0" />
+    <String StringID="Grade_6" StringValue="하사1" StringNote="0" />
+    <String StringID="Grade_7" StringValue="하사2" StringNote="0" />
+    <String StringID="Grade_8" StringValue="중사1" StringNote="0" />
+    <String StringID="Grade_9" StringValue="중사2" StringNote="0" />
+    <String StringID="GUILDATTENTION_ArleadyJoin" StringValue="길드에 가입되어 있다면 길드를 생성할 수 없습니다." StringNote="0" />
+    <String StringID="GUILDATTENTION_BanGuild" StringValue="길드에서 추방 되었습니다." StringNote="0" />
+    <String StringID="GUILDATTENTION_BreakGuild" StringValue="길드를 해체 하였습니다." StringNote="0" />
+    <String StringID="GUILDATTENTION_ExitGuild" StringValue="길드에서 탈퇴 하였습니다." StringNote="0" />
+    <String StringID="GUILDATTENTION_GradeLimit" StringValue="중사 이하의 계급은 길드를 생성할 수 없습니다." StringNote="0" />
+    <String StringID="GuildGrade_0" StringValue="소대" StringNote="0" />
+    <String StringID="GuildGrade_1" StringValue="중대" StringNote="0" />
+    <String StringID="GuildGrade_2" StringValue="대대" StringNote="0" />
+    <String StringID="GuildGrade_3" StringValue="연대" StringNote="0" />
+    <String StringID="GuildGrade_4" StringValue="사단" StringNote="0" />
+    <String StringID="Intro_PressEsc" StringValue="ESC키를 누르면 다음 화면으로 이동합니다." StringNote="&quot;Press Esc&quot; text in intro scene " />
+    <String StringID="ItemComment_Card" StringValue=" 카드" StringNote="0" />
+    <String StringID="ItemComment_CardSlot1" StringValue="슬롯 1 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot1Empty" StringValue="슬롯 1 : 비어 있음" StringNote="0" />
+    <String StringID="ItemComment_CardSlot2" StringValue="\n슬롯 2 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot2Empty" StringValue="\n슬롯 2 : 비어 있음" StringNote="0" />
+    <String StringID="ItemComment_CardSlot3" StringValue="\n슬롯 3 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot3Empty" StringValue="\n슬롯 3 : 비어 있음" StringNote="0" />
+    <String StringID="ItemComment_CardSlot4" StringValue="\n슬롯 4 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot4Empty" StringValue="\n슬롯 4 : 비어 있음" StringNote="0" />
+    <String StringID="ItemComment_CardSlot5" StringValue="\n슬롯 5 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot5Empty" StringValue="\n슬롯 5 : 비어 있음" StringNote="0" />
+    <String StringID="ItemComment_Empty" StringValue="비어 있음" StringNote="0" />
+    <String StringID="ItemComment_Slot" StringValue="슬롯" StringNote="0" />
+    <String StringID="MonSay_1" StringValue="개구리가 어딜!" StringNote="0" />
+    <String StringID="MonSay_2" StringValue="난 바이퍼다" StringNote="0" />
+    <String StringID="MonSay_3" StringValue="빨간 고추는 매운법이지" StringNote="0" />
+    <String StringID="MonSay_4" StringValue="다리 짧은것들이 감히!" StringNote="0" />
+    <String StringID="MonSay_5" StringValue="어이쿠! 간지러워라" StringNote="0" />
+    <String StringID="MyInfo_DoubleNewLineLimitDay" StringValue="\n\n만료 일자 : %d/%02d/%02d %02d:%02d" StringNote="0" />
+    <String StringID="MyInfo_LimitDay" StringValue="만료 일자 : %d/%02d/%02d %02d:%02d" StringNote="0" />
+    <String StringID="MyInfo_LimitDayLimit" StringValue="만료 일자 : 무제한" StringNote="0" />
+    <String StringID="NPG_Error_0" StringValue="게임 보안모듈이 실행 중 입니다. \n게임이 실행중인지 확인해 보시고\n잠시 후나 재부팅 후에 다시 실행하세요." StringNote="0" />
+    <String StringID="NPG_Error_1" StringValue="게임 보안모듈 초기화 에러입니다. \n재부팅 후 다시 실행해보거나 충돌 할 수 있는 다른 프로그램들을 \n종료한 후 실행해 보시기 바랍니다." StringNote="0" />
+    <String StringID="NPG_Error_10" StringValue="게임 보안모듈과 충돌하는 프로그램을 발견했습니다.\n해당프로그램을 종료한 후 다시 실행해 보세요." StringNote="0" />
+    <String StringID="NPG_Error_11" StringValue="게임 보안모듈 실행 중 에러가 발생하였습니다." StringNote="0" />
+    <String StringID="NPG_Error_2" StringValue="게임 보안모듈 관련 파일이 없거나 변조되었습니다.\n게임 삭제 후 다시 설치하시기 바랍니다." StringNote="0" />
+    <String StringID="NPG_Error_3" StringValue="윈도우의 일부 시스템 파일이 손상되었습니다.\n인터넷 익스플로러를 다시 설치해 보시기 바랍니다." StringNote="0" />
+    <String StringID="NPG_Error_4" StringValue="불법 프로그램이 발견되었습니다.\n불필요한 프로그램을 종료한 후 다시 실행해 보시기 바랍니다." StringNote="0" />
+    <String StringID="NPG_Error_5" StringValue="게임 보안모듈의 업데이트가 취소되었습니다.\n만약 접속이 계속 되지 않을 경우 인터넷 및 개인 방화벽 설정을 조정해 보시기 바랍니다." StringNote="0" />
+    <String StringID="NPG_Error_6" StringValue="게임 보안모듈의 업데이트 서버접속을 실패했습니다.\n다시 접속시도 하고나 네트웍 상태를 점검해 보십시오." StringNote="0" />
+    <String StringID="NPG_Error_7" StringValue="게임 보안모듈의 초기화 에러 또는 구버전의 파일입니다.\n게임을 다시 설치하고 실행하십시오." StringNote="0" />
+    <String StringID="NPG_Error_8" StringValue="게임 보안모듈의 업데이트를 완료하지 못했습니다.\n백신프로그램을 일시 중지한 후 다시 실행해 보십시오." StringNote="0" />
+    <String StringID="NPG_Error_9" StringValue="바이러스 및 해킹툴 검사 모듈 로딩에 실패했습니다.\n메모리가 부족하거나 바이러스에 의한 감염일 수 있습니다." StringNote="0" />
+    <String StringID="NPG_Error_Msg" StringValue="게임 보안모듈 오류 : %lu" StringNote="0" />
+    <String StringID="Popup_AddFriendRq" StringValue="친구요청을 수락해야 친구로 등록됩니다" StringNote="0" />
+    <String StringID="Popup_AddFriendRqName" StringValue=" 님께 친구 신청했습니다" StringNote="0" />
+    <String StringID="Popup_AddFriendRqNoName" StringValue="친구 신청했습니다" StringNote="0" />
+    <String StringID="Popup_AlreadyExistNickName" StringValue="이미 존재하는 닉네임 입니다." StringNote="Popup &quot;This nickname is already exist&quot;" />
+    <String StringID="Popup_AlreadySendPresent" StringValue="이미 선물을 보냈습니다. 잠시 기다려 주세요!" StringNote="0" />
+    <String StringID="Popup_AreYouAgreeInvite" StringValue="%s 님이 초대했습니다.\n수락하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouOKAddFriend" StringValue=" 님의 친구추가요청이 왔습니다.\n \n추가하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureBuyItem" StringValue="정말 선택하신 아이템을 구입하겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureBuyTheItem" StringValue=" 현재 사용하는 캐릭터가\n\n미리보기 및 사용할 수 없는 아이템입니다.\n\n그래도 구입 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureBuyTheSkill" StringValue="현재 사용중인 캐릭터와 계열이 다릅니다.\n\n그래도 구입 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureChangeCharacter" StringValue="정말로 케릭터를 변경 하시겠어요?" StringNote="0" />
+    <String StringID="Popup_AreYouSureCreateCharacter" StringValue="정말 선택하신 캐릭터를 생성하겠습니까?" StringNote="Popup &quot;Are you sure create selected character?&quot;" />
+    <String StringID="Popup_AreYouSureDropChar" StringValue="버린 케릭터는 다시 되돌릴 수 없습니다.\n\n그래도 버리시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropItem" StringValue="버린 아이템은 다시 되돌릴 수 없습니다.\n\n그래도 버리시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropSkill" StringValue="버린 스킬은 다시 되돌릴 수 없습니다.\n\n그래도 버리시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropThePresent" StringValue="정말 이 선물을 목록에서 삭제 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropThePresent2" StringValue="정말 이 선물을 완전히 삭제 하시겠습니까?\n\n삭제하면 되돌릴수 없습니다." StringNote="0" />
+    <!--<String StringID="Popup_AreYouSureEquipCard" StringValue="카드를 정말 사용하시겠습니까?\n\n아이템 기간이 만료되면 카드도 함께 사라집니다." StringNote="0" />-->
+    <String StringID="Popup_AreYouSureEquipCard" StringValue="카드를 정말 사용하시겠습니까?\n\n아이템 기간이 만료되면 카드도 함께 사라지며\n\n카드를 사용 후에는 꺼낼 수 없습니다.\n\n실패하면 카드 아이템은 사라집니다." StringNote="0" />
+    <String StringID="Popup_AreYouSureEquipJewelry" StringValue="보석을 정말 사용하시겠습니까?\n\n아이템 기간이 만료되면 보석도 함께 사라지며\n\n보석을 사용 후에는 제거할 수 없습니다." StringNote="0" />
+    <String StringID="Popup_AreYouSureExit" StringValue="정말로 나가시겠어요?" StringNote="0" />
+    <String StringID="Popup_AreYouSureExitProgram" StringValue="정말로 종료 하시겠어요?" StringNote="Popup &quot;Are you sure exit program?&quot;" />
+    <String StringID="Popup_AreYouSureResetDisRecord" StringValue="디스커넥트를 초기화 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureResetWarRecord" StringValue="전적을 초기화 하면 다시 복구 할수 없습니다.\n\n그래도 초기화 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_AreYouSureUseThisCard" StringValue="현재 착용 할 수 없는 아이템 입니다. \n\n카드를 정말 사용하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_BanMsg" StringValue="강퇴 당하셨습니다." StringNote="0" />
+    <String StringID="Popup_BanMsgOnPlaying" StringValue="강제퇴장 당했습니다. 플레이중이므로 5초후 강제종료됩니다" StringNote="0" />
+    <String StringID="Popup_BeingFriend" StringValue=" 님과 친구가 되었습니다" StringNote="0" />
+    <String StringID="Popup_CantBuyMoreChar" StringValue="캐릭터 인벤토리 공간이 부족하여\n더 이상 구매할 수 없습니다." StringNote="0" />
+    <String StringID="Popup_CantBuyMoreEquipItem" StringValue="아이템 인벤토리 공간이 부족하여\n더 이상 구매할 수 없습니다." StringNote="0" />
+    <String StringID="Popup_CantBuyMoreItem" StringValue="아이템을 더 이상 구매하실수 없습니다." StringNote="0" />
+    <String StringID="Popup_CantBuyMoreSkill" StringValue="스킬 인벤토리 공간이 부족하여\n더 이상 구매할 수 없습니다." StringNote="0" />
+    <String StringID="Popup_CantSendMemo" StringValue="친구 또는 길드 목록에 등록되지 않은\n\n유저에게는\n\n쪽지를 보낼수 없습니다." StringNote="0" />
+    <String StringID="Popup_ChooseAnotherItem" StringValue="선택하신 상품에 카드를 사용할 수 없습니다. \n\n다른 상품을 선택 하시기 바랍니다." StringNote="0" />
+    <String StringID="Popup_ChooseGuildMark" StringValue="길드 마크를 선택해 주세요." StringNote="0" />
+    <String StringID="Popup_CommentGradeLimit" StringValue=" 이상" StringNote="0" />
+    <String StringID="Popup_CreatedGuild" StringValue="길드가 생성되었습니다." StringNote="0" />
+    <String StringID="Popup_DeleteFriend" StringValue="정말로 %s님을 친구삭제 하시겠어요?" StringNote="0" />
+    <String StringID="Popup_DoYouUseHideRecordItem" StringValue="아이템을 사용하면 하루 동안 타인에게\n\n보여지지 않습니다.\n\n아이템을 사용하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_EXP30Up" StringValue="경험치 30%상승 아이템이 적용 되었습니다." StringNote="0" />
+    <String StringID="Popup_ExpiredEventSeason" StringValue="이벤트 기간이 만료되어\n\n더 이상 사용할 수 없습니다." StringNote="0" />
+    <String StringID="Popup_HideMyRecord" StringValue="계급/전적 숨기기가 적용 되었습니다." StringNote="0" />
+    <String StringID="Popup_Kerot30Up" StringValue="케롯 30%상승 아이템이 적용 되었습니다." StringNote="0" />
+    <String StringID="Popup_KickHimFromGuild" StringValue="정말로 %s님을 길드에서\n \n추방 하시겠어요?" StringNote="0" />
+    <String StringID="Popup_NeedMorePlayerSlot" StringValue="참가인원수가 현재 유저수보다 작게 설정되었습니다" StringNote="0" />
+    <String StringID="Popup_NickNameChange" StringValue="닉네임이 [%s] 에서\n\n[%s] 로 변경 되었습니다." StringNote="0" />
+    <String StringID="Popup_NotEnoughKerot" StringValue="케롯이 부족 합니다." StringNote="0" />
+    <String StringID="Popup_NotEnoughYourGrade" StringValue="중사 계급 부터 길드 생성이 가능합니다." StringNote="0" />
+    <String StringID="Popup_PresentReceiveSuccess" StringValue="선물을 받았습니다." StringNote="0" />
+    <String StringID="Popup_ResetDisRecord" StringValue="디스커넥트 정보가 초기화 되었습니다." StringNote="0" />
+    <String StringID="Popup_ResetWarRecord" StringValue="전적이 초기화 되었습니다." StringNote="0" />
+    <String StringID="Popup_StartNewbieGuide" StringValue="초보자 가이드를 시작하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_StartTutorial" StringValue="튜토리얼을 시작하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_ThisIsInvalidNickname" StringValue="사용할 수 없는 닉네임 입니다." StringNote="Popup &quot;This is invalid nickname.&quot;" />
+    <String StringID="Popup_UpdatedNotice" StringValue="공지사항이 등록 되었습니다." StringNote="0" />
+    <String StringID="Popup_UsedPackageItem" StringValue="Package 아이템이 사용되었습니다." StringNote="0" />
+    <String StringID="Popup_WaitingResponse" StringValue="응답을 기다리고 있습니다." StringNote="0" />
+    <String StringID="Popup_WelcomeToKeroroFighter" StringValue="케로로파이터 오리진에 오신 것을 환영합니다!!" StringNote="0" />
+    <String StringID="Popup_Write3MoreChar" StringValue="길드명을 3글자 이상 적어 주세요." StringNote="0" />
+    <String StringID="Popup_WriteAnotherGuildName" StringValue="사용할 수 없는 길드명 입니다." StringNote="0" />
+    <String StringID="Popup_WriteGuildName" StringValue="길드명을 적어 주세요." StringNote="0" />
+    <String StringID="Popup_WriteNameForPresent" StringValue="선물을 보낼 사람을 입력해주세요!" StringNote="0" />
+    <String StringID="Popup_WriteNotice" StringValue="공지사항을 적어 주세요." StringNote="0" />
+    <String StringID="Popup_YouGotItem" StringValue="축하합니다!!\n%s 을(를) 획득하셨습니다." StringNote="0" />
+    <String StringID="Popup_YouGotItemAndKerot" StringValue="축하합니다!!\n%s, %d 케롯을 획득하셨습니다." StringNote="0" />
+    <String StringID="Popup_YouGotKerot" StringValue="축하합니다!!\n%d 케롯을 획득하셨습니다." StringNote="0" />
+    <String StringID="Popup_YourCharacterCantUseThisItem" StringValue="현재 사용하는 캐릭터가 미리보기 및\n\n사용할 수 없는 아이템입니다." StringNote="0" />
+    <String StringID="Popup_MyBag_CardEraseReallyOK" StringValue="의상 아이템에 장착된\n\n모든 카드가 사라집니다.\n\n정말 사용하시겠습니까?" StringNote="0" />
+
+    <String StringID="PopUp_Decomposition_Caution" StringValue="한번 분해된 아이템은 다시 되돌릴 수 없습니다.\n\n정말 아이템을 분해 하시겠습니까?" StringNote="0" />
+    <String StringID="PopUp_Decomposition_NotEnoughKerot" StringValue="아이템을 분해 하기 위해선\n\n500 케롯이 필요 합니다." StringNote="0" />
+    <String StringID="PopUp_Decomposition_Error" StringValue="분해할 수 없는 잘못된 아이템 입니다.\n\n다른 아이템을 분해해 주세요." StringNote="0" />
+    <String StringID="PopUp_Decomposition_FullInven" StringValue="내 가방이 꽉 찼습니다.\n\n아이템을 비운후 다시 시도해 주세요." StringNote="0" />
+    <String StringID="PopUp_Decomposition_IncludeCardCaution" StringValue="해당 아이템은 카드가 적용되어있는\n\n아이템입니다. \n\n그래도 분해 하시겠습니까?" StringNote="0" />
+
+
+    <String StringID="PopUp_Combination_Caution" StringValue="실패하면 재료아이템은 사라집니다.\n\n그래도 하시겠습니까?" StringNote="0" />
+    <String StringID="PopUp_Combination_NotEnoughKerot" StringValue="케롯이 부족합니다." StringNote="0" />
+    <String StringID="PopUp_Combination_FullInven" StringValue="내 가방이 꽉 찼습니다." StringNote="0" />
+    <String StringID="PopUp_Combination_Failed" StringValue="조합에 실패했습니다." StringNote="0" />
+	
+    <String StringID="PopUp_EquipCard_NotEnoughKerot" StringValue="케롯이 부족하여, 카드를 장착하지 못했습니다." StringNote="0" />
+    <String StringID="PopUp_EquipCard_Success" StringValue="축하합니다. 카드 장착에 성공 했습니다." StringNote="0" />
+    <String StringID="PopUp_EquipCard_Fail" StringValue="카드 장착에 실패 했습니다." StringNote="0" />
+
+    <String StringID="PopUp_MyBag_EraseCardPiece_Notice" StringValue = "한번 제거한 카드는 복구 할 수 없습니다.\n\n제거 하시겠습니까?" StringNote="0" />
+
+    <String StringID="PopUp_MyBag_IncreaseInven_Character" StringValue = "캐릭터 가방 증가 아이템을 사용하시겠습니까?\n\n확인을 누르면 아이템이 사용됩니다." StringNote="0" />
+    <String StringID="PopUp_MyBag_IncreaseInven_ItemnWeapon" StringValue = "의상/무기 가방 증가 아이템을 사용하시겠습니까?\n\n확인을 누르면 아이템이 사용됩니다." StringNote="0" />
+    <String StringID="PopUp_MyBag_IncreaseInven_Card" StringValue = "카드 가방 증가 아이템을 사용하시겠습니까?\n\n확인을 누르면 아이템이 사용됩니다." StringNote="0" />
+    <String StringID="PopUp_MyBag_IncreaseInven_Skill" StringValue = "스킬 가방 증가 아이템을 사용하시겠습니까?\n\n확인을 누르면 아이템이 사용됩니다." StringNote="0" />
+    <String StringID="PopUp_MyBag_IncreaseInven_Function" StringValue = "기능성 가방 증가 아이템을 사용하시겠습니까?\n\n확인을 누르면 아이템이 사용됩니다." StringNote="0" />
+    <String StringID="PopUp_MyBag_IncreaseInven_Consumption" StringValue = "소비 가방 증가 아이템을 사용하시겠습니까?\n\n확인을 누르면 아이템이 사용됩니다." StringNote="0" />
+    <String StringID="PopUp_MyBag_IncreaseInven_Package" StringValue = "패키지 가방 증가 아이템을 사용하시겠습니까?\n\n확인을 누르면 아이템이 사용됩니다." StringNote="0" />
+    <String StringID="Popup_UsedIncreseInvenItem" StringValue="아이템 사용이 완료 되었습니다.\n\n내가방에서 확인해 주세요." StringNote="0" />
+    <String StringID="Popup_IncreseInvenFailed" StringValue="해당 슬롯은 더이상 확장 할 수 없습니다." StringNote="0" />
+
+    <String StringID="Popup_Guild_UseGuildUpGrade" StringValue="%s 등급으로 상승을 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_Guild_NotHaveGuildUpGradeItem" StringValue="길드 등급 상승 아이템이 필요합니다. \n\ 지금 구매를 하시겠습니까?" StringNote="0" />
+
+    <String StringID="Popup_Guild_OnlyUseMyGuildManagement" StringValue="길드 등급 상승 아이템은. 마이 길드에서 \n\n 등급 관리를 통해 사용 할 수 있습니다." StringNote="0" />
+    <String StringID="Popup_Guild_SuccessUpGrade" StringValue="길드 등급이 상승 되었습니다. \n\n 등급은 길드 정보에서 확인 가능 합니다." StringNote="0" />
+    <String StringID="Popup_Guild_UpGradeFailed" StringValue="길드 등급 상승이 실패하였습니다.\n\n 길드 상승 조건을 확인 하여 주십시오" StringNote="0" />
+    <String StringID="Popup_Guild_NotMaster" StringValue="길드 등급 상승 아이템은 \n\n 길드 마스터만 사용 가능 합니다." StringNote="0" />
+    <String StringID="Popup_Guild_NotEnoughExperience" StringValue="길드 포인투가 부족하여\n\n길드 등급 상승을 할 수 없습니다." StringNote="0" />
+    <String StringID="Popup_Guild_NotOverUpGrade" StringValue="현재 최대 등급이기 때문에\n\n 더이상 길드 등급을 올릴 수 없습니다." StringNote="0" />
+    <String StringID="Popup_GuildSearchError" StringValue="검색 조건에 맞는 길드 및 길드 마스터를 \n\n찾지 못하였습니다." StringNote="0" />
+    <String StringID="Popup_GuildSearchNotEnougthTextLength" StringValue="2글자 이상 입력 하셔야 검색이 가능합니다." StringNote="0" />
+    <String StringID="Popup_Guild_OnlyBuyGuildMaster" StringValue="해당 아이템은 길드 마스터만 \n\n구입 할 수 있습니다." StringNote="0" />
+    <String StringID="Popup_Guild_OnlyUseGuildMaster" StringValue="해당 아이템은 길드 마스터만 \n\n사용 할 수 있습니다." StringNote="0" />
+    <String StringID="Popup_Guild_DuplicateGuildName" StringValue="길드 이름이 중복 되었습니다." StringNote="0" />
+    <String StringID="Popup_Guild_ChangeGuildNameSuccess" StringValue="길드 이름이 %s 로 변경 되었습니다." StringNote="0" />
+    <String StringID="Popup_Guild_ThisIsInvalidGuildName" StringValue="사용할 수 없는 길드명 입니다." StringNote="0" />
+    <String StringID="Popup_Guild_PleaseInputTextALot1LengthforGuildName" StringValue="길드명은 1글자 이상 \n\n입력하여야 합니다." StringNote="0" />
+    <String StringID="Popup_Guild_AlreadyExistGuildName" StringValue="길드 이름이 중복 되었습니다." StringNote="0" />
+    <String StringID="Popup_Guild_RealyChangeGuildEmblem" StringValue="길드 마크를 정말로 변경 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_Guild_ChangeGuildEmblemSuccess" StringValue="길드 마크가 정상적으로 변경 되었습니다. \n\n 재접속 하면 적용됩니다." StringNote="0" />
+    <String StringID="Popup_Guild_InputGiveMyScore" StringValue="정말로 내 점수를 길드에 기부 \n\n 하시겠습니까?" StringNote="0" />
+    <String StringID="Popup_Guild_InputGiveMyScoreSuccess" StringValue="내 점수가 정상적으로 길드에 기부 \n\n 되었습니다." StringNote="0" />
+    <String StringID="Popup_Guild_InputGiveMyScoreFailed_NotJoinGuild" StringValue="현재 길드에 가입 되어 있지 않습니다.\n\n 먼저 길드에 가입하시기 바랍니다." StringNote="0" />
+    <String StringID="Popup_Guild_InputGiveMyScoreFailed_Notexistence" StringValue="해당 길드가 존재 하지 않습니다." StringNote="0" />
+    <String StringID="Popup_Guild_InputGiveMyScoreFailed_NotEnoughtPoint" StringValue="기여 하시려고 하는 포인트보다 \n\n현재 포인트가 적습니다.\n\n포인트를 다시 한 번 확인해 주세요" StringNote="0" />
+    <String StringID="Popup_Guild_CantBanInGuildChannel" StringValue="길드 채널에있는 길드원을 추방 할 수 없습니다." StringNote="0" />
+    <String StringID="Popup_Guild_GiveInviteAuthority" StringValue="%s님에게 길드 가입 권한을 \n\n부여 하였습니다." StringNote="0" />
+    <String StringID="Popup_Guild_CancelInviteAuthority" StringValue="%s님의 길드 가입 권한을 \n\n해제 하였습니다." StringNote="0" />
+    <String StringID="Popup_Guild_GiveBanAuthority" StringValue="%s님에게 길드원 추방 권한을 \n\n부여 하였습니다." StringNote="0" />
+    <String StringID="Popup_Guild_CancelBanAuthority" StringValue="%s님의 길드원 추방 권한을 \n\n해제 하였습니다." StringNote="0" />
+
+    <String StringID="Popup_Text_OnlyEnterNumber" StringValue="숫자만 입력 가능합니다." StringNote="0" />
+
+    <String StringID="Rank_FirstGroup" StringValue="사령관" StringNote="0" />
+    <String StringID="Rank_FourthGroup" StringValue="소대장" StringNote="0" />
+    <String StringID="Rank_SecondGroup" StringValue="군단장" StringNote="0" />
+    <String StringID="Rank_ThirdGroup" StringValue="대대장" StringNote="0" />
+    <String StringID="RoomTitle_0" StringValue="케로케로~ 아주 좋아~" StringNote="0" />
+    <String StringID="RoomTitle_1" StringValue="날 이겨 보라구!" StringNote="0" />
+    <String StringID="RoomTitle_2" StringValue="살살해~ 아프단 말야~" StringNote="0" />
+    <String StringID="RoomTitle_3" StringValue="치고 받고 우당탕탕!" StringNote="0" />
+    <String StringID="RoomTitle_4" StringValue="타격본능! 케로로파이터!" StringNote="0" />
+	
+    <String StringID="MarketRoomTitle_0" StringValue="최고의 품질만 고집합니다!" StringNote="0" />
+    <String StringID="MarketRoomTitle_1" StringValue="이보다 더 저렴할 순 없다!" StringNote="0" />
+    <String StringID="MarketRoomTitle_2" StringValue="찾는 물건 뭐든 다 있어요~" StringNote="0" />
+    <String StringID="MarketRoomTitle_3" StringValue="오늘 하루만 반짝 세일~" StringNote="0" />
+    <String StringID="MarketRoomTitle_4" StringValue="좋은 물건 보고가세요~" StringNote="0" />
+
+    <String StringID="SelectChannel_FailedToAutoSelection" StringValue="입장할 수 있는 적절한 채널을 찾지 못했습니다. 수동으로 입장해주세요." StringNote="Failed to enter to auto selection channel" />
+    <String StringID="SelectChannel_FreeChannel" StringValue="자유 채널" StringNote="Free channel" />
+    <String StringID="SelectChannel_ArcadeChannel" StringValue="놀이터 채널" StringNote="Arcade channel name" />
+    <String StringID="SelectChannel_StarOneChannel" StringValue="초보채널" StringNote="One star channel" />
+    <String StringID="SelectChannel_StarTwoChannel" StringValue="중수채널" StringNote="Two star channel" />
+    <String StringID="SelectChannel_StarThreeChannel" StringValue="고수채널" StringNote="Three star channel" />
+    <String StringID="SelectChannel_GuildChannel" StringValue="길드 채널" StringNote="Guild channel" />
+    <String StringID="SelectChannel_TrainingChannel" StringValue="리그 채널" StringNote="League channel" />
+    <String StringID="SelectChannel_MarketpalceChannel" StringValue="길드 채널" StringNote="Guild channel" />
+    <String StringID="SelectChannel_LeagueChannel" StringValue="리그 채널" StringNote="League channel" />
+    <String StringID="SelectChannel_PressEsc" StringValue="ESC 버튼을 누르면 게임을 종료할수 있습니다." StringNote="You can terminate game when you press esc" />
+    <String StringID="SERVER_INFO" StringValue="[오픈 시간]\n 2009년 1월 16일 : 오후 2시 ~ 오후 6시\n 2009년 1월 17 ~ 18일 : 오후 12시~ 오후 4시" StringNote="0" />
+    <String StringID="ServerName_0" StringValue="퍼렁 서버" StringNote="0" />
+    <String StringID="ServerName_1" StringValue="케론 서버" StringNote="0" />
+    <String StringID="ServerName_2" StringValue="앙골 서버" StringNote="0" />
+    <String StringID="ServerName_3" StringValue="리그 서버" StringNote="0" />
+    <String StringID="ServerSkinName_0" StringValue="퍼 렁" StringNote="0" />
+    <String StringID="ServerSkinName_1" StringValue="케 론" StringNote="0" />
+    <String StringID="ServerSkinName_2" StringValue="앙 골" StringNote="0" />
+
+    <String StringID="SkillClass_Agility" StringValue="민첩 스킬" StringNote="0" />
+    <String StringID="SkillClass_Attack" StringValue="공격 스킬" StringNote="0" />
+    <String StringID="SkillClass_Common" StringValue="공통 스킬" StringNote="0" />
+    <String StringID="SkillClass_Defense" StringValue="방어 스킬" StringNote="0" />
+    <String StringID="SkillComment_LimitAccountSkill" StringValue="갯수 제한 스킬" StringNote="0" />
+    <String StringID="SkillComment_LimitDaySkill" StringValue="날짜 제한 스킬" StringNote="0" />
+    <String StringID="SkillComment_UnknownSkill" StringValue="알수 없는 스킬" StringNote="0" />
+    <String StringID="StageName_1" StringValue="놀이터" StringNote="0" />
+    <String StringID="StageName_10" StringValue="나라 타워" StringNote="0" />
+    <String StringID="StageName_100" StringValue="랜덤맵" StringNote="0" />
+    <String StringID="StageName_1001" StringValue="오리온 링 경기장" StringNote="0" />
+    <String StringID="StageName_1002" StringValue="오리온 콜로세움 경기장" StringNote="0" />
+    <String StringID="StageName_101" StringValue="놀이터" StringNote="0" />
+    <String StringID="StageName_102" StringValue="겨울산장" StringNote="0" />
+    <String StringID="StageName_105" StringValue="공장맵" StringNote="0" />
+    <String StringID="StageName_106" StringValue="바이퍼기지" StringNote="0" />
+    <String StringID="StageName_107" StringValue="우주의책상" StringNote="0" />
+    <String StringID="StageName_108" StringValue="별 나라" StringNote="0" />
+    <String StringID="StageName_109" StringValue="쿠루루기지" StringNote="0" />
+    <String StringID="StageName_11" StringValue="자유 여신상" StringNote="0" />
+    <String StringID="StageName_110" StringValue="나라 타워" StringNote="0" />
+    <String StringID="StageName_1101" StringValue="오리온 링 경기장" StringNote="0" />
+    <String StringID="StageName_1102" StringValue="오리온 콜로세움 경기장" StringNote="0" />
+    <String StringID="StageName_111" StringValue="자유 여신상" StringNote="0" />
+    <String StringID="StageName_112" StringValue="보드 게임" StringNote="0" />
+    <String StringID="StageName_113" StringValue="물놀이" StringNote="0" />
+    <String StringID="StageName_115" StringValue="온천" StringNote="0" />
+    <String StringID="StageName_118" StringValue="크리스마스" StringNote="0" />
+    <String StringID="StageName_119" StringValue="개조! 한별이의 방" StringNote="0" />
+    <String StringID="StageName_12" StringValue="보드 게임" StringNote="0" />
+    <String StringID="StageName_13" StringValue="물놀이" StringNote="0" />
+    <String StringID="StageName_14" StringValue="모래성" StringNote="0" />
+    <String StringID="StageName_15" StringValue="온천" StringNote="0" />
+    <String StringID="StageName_18" StringValue="크리스마스" StringNote="0" />
+    <String StringID="StageName_19" StringValue="개조! 한별이의 방" StringNote="0" />
+    <String StringID="StageName_2" StringValue="겨울산장" StringNote="0" />
+    <String StringID="StageName_3" StringValue="피라미드" StringNote="0" />
+    <String StringID="StageName_4" StringValue="바이퍼기지" StringNote="0" />
+    <String StringID="StageName_5" StringValue="공장맵" StringNote="0" />
+    <String StringID="StageName_5_2" StringValue="질투가 가득찬 공장" StringNote="0" />
+    <String StringID="StageName_507" StringValue="훈련장" StringNote="0" />
+    <String StringID="StageName_6" StringValue="바이퍼기지" StringNote="0" />
+    <String StringID="StageName_7" StringValue="우주의책상" StringNote="0" />
+    <String StringID="StageName_8" StringValue="별 나라" StringNote="0" />
+    <String StringID="StageName_9" StringValue="쿠루루기지" StringNote="0" />
+    <String StringID="Test_NoUseSkill" StringValue="스킬 사용 불가" StringNote="0" />
+    <String StringID="Text_AbuseFilterMsg" StringValue="우리 즐겁게 놀아요~" StringNote="0" />
+    <String StringID="Text_Account" StringValue="%d 개" StringNote="0" />
+    <String StringID="Text_AccountPer" StringValue="%d개 / %d %s" StringNote="0" />
+    <String StringID="Text_AccountPerNewLine" StringValue="%d개 / %d %s\n" StringNote="0" />
+    <String StringID="Text_AlignCost" StringValue="가격순" StringNote="0" />
+    <String StringID="Text_AllowJoinGuild" StringValue=" 님의 길드초대 요청이 왔습니다.\n \n승낙 하시겠습니까?" StringNote="0" />
+    <String StringID="Text_BanByDuplicateLogin" StringValue="중복 로그인에 의해 강퇴되었습니다" StringNote="0" />
+    <String StringID="Text_BanByGM" StringValue="GM에 의해 강퇴되었습니다" StringNote="0" />
+    <String StringID="Text_BanByLimitTime" StringValue="일정시간 내에 게임을 시작하지 않아\n \n강제퇴장 되었습니다" StringNote="0" />
+    <String StringID="Text_BanByNoneReady" StringValue="일정시간동안 준비하기를 하지 않아\n \n강퇴되었습니다" StringNote="0" />
+    <String StringID="Text_BanByObserver" StringValue="옵저버에 의해 강퇴되었습니다" StringNote="0" />
+    <String StringID="Text_BanByRoomMaster" StringValue="방장에 의해 강퇴되었습니다" StringNote="0" />
+    <String StringID="Text_BannedFromGuild" StringValue="님이 길드에서 추방 당하셨습니다." StringNote="0" />
+    <String StringID="Text_BannerComment" StringValue="절호의 찬스" StringNote="0" />
+    <String StringID="Text_Cancle_Transaction" StringValue="거래가 취소되었습니다." StringNote="0" />
+    <String StringID="Text_CantUseThisTitle" StringValue="사용할수 없는 방제목 입니다" StringNote="0" />
+    <String StringID="Text_CaptainMode" StringValue="대장전모드" StringNote="0" />
+    <String StringID="Text_CaptureFlagMode" StringValue="깃발잡기모드" StringNote="0" />
+    <String StringID="Text_CaptureTheMonster" StringValue="몬스터 잡기" StringNote="0" />
+    <String StringID="Text_Cash" StringValue="%d 캐시" StringNote="0" />
+    <String StringID="Text_ChangeGuildMaster" StringValue="길드 마스터를 변경 하시겠습니까?" StringNote="0" />
+    <String StringID="Text_CheckRequestResult" StringValue="정말 거래를 하시겠습니까?" StringNote="0" />
+    <String StringID="Text_CheckTransaction_Item" StringValue="거래를 하실 아이템이 정확한지 확인하셨나요?\n \n거래액의 5%%는 수수료로 사용되어 소멸됩니다." StringNote="0" />
+    <String StringID="Text_CompeteFighter" StringValue="경쟁 파이터전" StringNote="0" />
+    <String StringID="Text_CompeteItem" StringValue="경쟁 아이템전" StringNote="0" />
+    <String StringID="Text_CompeteMode" StringValue="경쟁 모드" StringNote="0" />
+    <String StringID="Text_CoOpFighter" StringValue="협동 파이터전" StringNote="0" />
+    <String StringID="Text_CoOpItem" StringValue="협동 아이템전" StringNote="0" />
+    <String StringID="Text_CoOpMode" StringValue="협동 모드" StringNote="0" />
+    <String StringID="Text_CrushTheBlock" StringValue="블럭파괴 모드" StringNote="0" />
+    <String StringID="Text_Day" StringValue="%d 일" StringNote="0" />
+    <String StringID="Text_DayPer" StringValue="%d일 / %d %s" StringNote="0" />
+    <String StringID="Text_DayPerNewLine" StringValue="%d일 / %d %s\n" StringNote="0" />
+    <String StringID="Text_DayUnlimit" StringValue="무제한 / %d %s" StringNote="0" />
+    <String StringID="Text_DayUnlimitNewLine" StringValue="무제한 / %d %s\n" StringNote="0" />
+    <String StringID="Text_Death" StringValue="%d 데스" StringNote="0" />
+    <String StringID="Text_DeclineJoinGuild" StringValue=" 님이 길드초대를 거부 하였습니다." StringNote="0" />
+    <String StringID="Text_DefaultCharacter" StringValue="기본캐릭터" StringNote="0" />
+    <String StringID="Text_DeniedTransaction_From" StringValue="%s 님께서 거래를 취소 하였습니다.\n" StringNote="0" />
+    <String StringID="Text_DialogSaveTest" StringValue="다이얼로그 세이브테스트 파일입니다" StringNote="0" />
+    <String StringID="Text_DisallowAddFreind" StringValue="님이 친구추가 거부 상태입니다." StringNote="0" />
+    <String StringID="Text_DisallowChat" StringValue="님이 대화 거부 상태입니다." StringNote="0" />
+    <String StringID="Text_DisallowSendMemo" StringValue="님이 쪽지 거부 상태입니다." StringNote="0" />
+    <String StringID="Text_DisbandGuild" StringValue="길드를 해체 하시겠습니까?" StringNote="0" />
+    <String StringID="Text_DisconnetedWithServer" StringValue="서버와의 연결이 종료되었습니다" StringNote="0" />
+    <String StringID="Text_DiscountProduct" StringValue="할인 판매 상품" StringNote="0" />
+    <String StringID="Text_DoNotSelect" StringValue="선택 불가" StringNote="0" />
+    <String StringID="Text_DropWeaponGuide" StringValue="Q키를 누르면 무기를 버리게 됩니다." StringNote="0" />
+    <String StringID="Text_DuplicateLogin" StringValue="중복 로그인 되었습니다" StringNote="0" />
+    <String StringID="Text_EndLessNPCWar" StringValue="무한대전" StringNote="0" />
+    <String StringID="Text_SiegeWarfare" StringValue="☆NEW☆공성전모드" StringNote="0" />
+    <String StringID="Text_ALLNOSurvival" StringValue="다노전 서바이벌" StringNote="0" />
+    <String StringID="Text_ALLNOTimeAttack" StringValue="다노전 타임어택" StringNote="0" />
+    <String StringID="Text_EnterRoomName" StringValue="방제목을 입력해주세요" StringNote="0" />
+    <String StringID="Text_ExchangeItem_AlreadyHave" StringValue="이미 동일한 아이템을 등록했습니다.\n" StringNote="0" />
+    <String StringID="Text_ExchangeItem_NotEquip" StringValue="해당아이템을 등록하지 않았습니다.\n" StringNote="0" />
+    <String StringID="Text_ExchangeItem_Over" StringValue="아이템을 더이상 등록할수가 없습니다\n" StringNote="0" />
+    <String StringID="Text_FighterCompete" StringValue="파이터 경쟁" StringNote="0" />
+    <String StringID="Text_FighterCoOp" StringValue="파이터 협동" StringNote="0" />
+    <String StringID="Text_FighterFFA" StringValue="파이터 개인전" StringNote="0" />
+    <String StringID="Text_FighterMode" StringValue="파이터전" StringNote="0" />
+    <String StringID="Text_FighterTeam" StringValue="파이터 단체전" StringNote="0" />
+    <String StringID="Text_FightMonster" StringValue="몬스터 대전" StringNote="0" />
+    <String StringID="Text_FindTreasure" StringValue="보물 찾기" StringNote="0" />
+    <String StringID="Text_FinishTransaction_Now" StringValue="거래가 완료 되었습니다.\n" StringNote="0" />
+    <String StringID="Text_FiveMinute" StringValue="5 분" StringNote="0" />
+    <String StringID="Text_FivePlayRound" StringValue="5 판" StringNote="0" />
+    <String StringID="Text_FiveRound" StringValue="5게임" StringNote="0" />
+    <String StringID="Text_FreindHasPlayingGame" StringValue="친구가 게임플레이 중 입니다." StringNote="0" />
+    <String StringID="Text_GameOption_TooltipBGM" StringValue="배경 음악의 볼륨을 조절 합니다." StringNote="0" />
+    <String StringID="Text_GameOption_TooltipCAMERA" StringValue="상대방 캐릭터를 타격할 때, 카메라가\n확대 되는 기능을 제한 합니다." StringNote="0" />
+    <String StringID="Text_GameOption_TooltipGRAPHIC" StringValue="안정적인 그래픽을 설정합니다.\n컴퓨터 사양에 따라 그래픽향상, 속도향상을\n선택할 수 있으며, 일부 기능은 설정 변경\n후 게임에 재 접속하면 적용 됩니다." StringNote="0" />
+    <String StringID="Text_GameOption_TooltipMESSENGER" StringValue="메신져 기능을 설정합니다.\n체크 박스에 체크를 하시면 기능이 제한 됩니다." StringNote="0" />
+    <String StringID="Text_GameOption_TooltipSFX" StringValue="효과음의 볼륨을 조절 합니다." StringNote="0" />
+    <String StringID="Text_GetUniqueItembyEGG" StringValue="[%s] 에서 [%s] 님이 [%s] 을 [%s] 획득하셨습니다." StringNote="0" />
+    <String StringID="Text_GMMsg" StringValue="운영자 메세지 : " StringNote="0" />
+    <String StringID="Text_GoormCash" StringValue="%d 구름 캐시" StringNote="0" />
+    <String StringID="Text_GuildMaster" StringValue="길드 마스터" StringNote="0" />
+    <String StringID="Text_GuildMember" StringValue="일반 길드원" StringNote="0" />
+    <String StringID="Text_GuildSubMaster" StringValue="부 길드 마스터" StringNote="0" />
+    <String StringID="Text_HeHasChat" StringValue="다른 친구와 대화하고 있습니다." StringNote="0" />
+    <String StringID="Text_HumanType" StringValue="인간형" StringNote="0" />
+    <String StringID="Text_ItemFFA" StringValue="아이템 개인전" StringNote="0" />
+    <String StringID="Text_ItemMode" StringValue="아이템전" StringNote="0" />
+    <String StringID="Text_ItemNotFound" StringValue="아이템이 없습니다." StringNote="0" />
+    <String StringID="Text_ItemTeam" StringValue="아이템 단체전" StringNote="0" />
+    <String StringID="Text_JoinedGuild" StringValue=" 길드에 가입 하였습니다." StringNote="0" />
+    <String StringID="Text_JoinedTheRoom" StringValue="님이 입장하셨습니다" StringNote="0" />
+    <String StringID="Text_KeronType" StringValue="케론형" StringNote="0" />
+    <String StringID="Text_Kerot" StringValue="%d 케롯" StringNote="0" />
+    <String StringID="Text_KickHimFromGuild" StringValue="길드에서 추방 하시겠습니까?" StringNote="0" />
+    <String StringID="Text_KillBungeeKill" StringValue="%d 킬 / %d 번지킬" StringNote="0" />
+    <String StringID="Text_KillDeath" StringValue="%d 킬 / %d 데스" StringNote="0" />
+    <String StringID="Text_LadderRecord" StringValue="%d 점 ( %d 승  %d 패 )" StringNote="0" />
+    <String StringID="Text_LeaveGuild" StringValue="길드를 탈퇴 하시겠습니까?" StringNote="0" />
+    <String StringID="Text_LeaveTheGuild" StringValue="길드에서 탈퇴 하였습니다." StringNote="0" />
+    <String StringID="Text_LeaveTheRoom" StringValue="님이 방에서 퇴장하셨습니다." StringNote="0" />
+    <String StringID="Text_Limit" StringValue="무제한" StringNote="0" />
+    <String StringID="Text_LoadingTimeExceed" StringValue="로딩시간 초과로 접속종료합니다" StringNote="0" />
+    <String StringID="Text_MemoFromWho" StringValue="의 쪽지" StringNote="0" />
+    <String StringID="Text_MsgFromWho" StringValue="님의 대화:" StringNote="0" />
+    <String StringID="Text_MyChannel" StringValue="%s %d 채널" StringNote="0" />
+    <String StringID="Text_MyChennel" StringValue="%s %d 채널" StringNote="0" />
+    <String StringID="Text_MyServerChannel" StringValue="%s / %s %d 채널" StringNote="0" />
+    <String StringID="Text_NeedSecreteNumber" StringValue="비밀번호가 있어 입장 할 수 없습니다" StringNote="0" />
+    <String StringID="Text_NotGuildMember" StringValue="길드에 가입되어 있지 않습니다." StringNote="0" />
+    <String StringID="Text_NoticeCameraMove" StringValue="SPACE BAR를 누르면 카메라가 이동합니다" StringNote="0" />
+    <String StringID="Text_NoticeCameraMove_forCAPTAIN" StringValue="SPACE BAR 또는 Z 를 누르면 카메라가 이동합니다" StringNote="0" />
+    <String StringID="Text_NowSelecting" StringValue="선택중.." StringNote="0" />
+    <String StringID="Text_OnePlayRound" StringValue="1 판" StringNote="0" />
+    <String StringID="Text_OneRound" StringValue="1게임" StringNote="0" />
+    <String StringID="Text_OnlyCash" StringValue="캐시만" StringNote="0" />
+    <String StringID="Text_OnlyKerrot" StringValue="케롯만" StringNote="0" />
+    <String StringID="Text_Originally" StringValue="원래대로" StringNote="0" />
+    <String StringID="Text_PersonCountVariable" StringValue="%d 명" StringNote="0" />
+    <String StringID="Text_PersonCountEight" StringValue="8명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountFive" StringValue="5명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountFour" StringValue="4명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountOne" StringValue="1명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountOne" StringValue="1명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountSix" StringValue="6명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountTen" StringValue="10명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountThree" StringValue="3명 대전방" StringNote="0" />
+    <String StringID="Text_PersonCountTwo" StringValue="2명 대전방" StringNote="0" />
+    <String StringID="Text_PleaseInputSearchKeyWord" StringValue="검색어를 적어 주세요." StringNote="0" />
+    <String StringID="Text_PleaseInputTextALot3Length" StringValue="3글자 이상 입력하여야 합니다." StringNote="0" />
+    <String StringID="Text_PleaseInputTextALot1LengthforCharacterName" StringValue="캐릭터 이름은 1글자 이상 \n\n입력하여야 합니다." StringNote="0" />
+    <String StringID="Text_PlzSelectMap" StringValue="맵을 선택해주세요" StringNote="0" />
+    <String StringID="Text_QuestionBuyItem" StringValue="을 구입하시겠습니까?" StringNote="0" />
+    <String StringID="Text_ReadyToDataLoad" StringValue="데이터 로딩 준비중" StringNote="0" />
+    <String StringID="Text_ReadyToKickRoomMaster" StringValue="방장 강제퇴장까지 %d 초 남았습니다" StringNote="0" />
+    <String StringID="Text_RequestTransaction_From" StringValue="%s 님이 거래 요청을 했습니다. \n 거래 요청을 수락 하시겠습니까?\n" StringNote="0" />
+    <String StringID="Text_RetryRunApplication" StringValue="죄송합니다. 게임을 다시 띄워 주십시오" StringNote="0" />
+    <String StringID="Text_Run" StringValue="달리기" StringNote="0" />
+    <String StringID="Text_NPCEndlessWar" StringValue="무한대전모드" StringNote="0" />
+    <String StringID="Text_Score" StringValue="%d 점" StringNote="0" />
+    <String StringID="Text_ShopSaleItem_RemainNum" StringValue="한정 판매 개수 :  %d 개 남음 \n" StringNote="0" />
+    <String StringID="Text_ShopSaleItem_RemainNumforBanner" StringValue="남은 개수 : %d 개" StringNote="0" />
+    <String StringID="Text_SucceedBuy" StringValue="구매 성공" StringNote="0" />
+    <String StringID="Text_SucceedSale" StringValue="판매 성공" StringNote="0" />
+    <String StringID="Text_SurvivalMode" StringValue="서바이벌모드" StringNote="0" />
+    <String StringID="Text_TenMinute" StringValue="10 분" StringNote="0" />
+    <String StringID="Text_TerminateClient" StringValue="클라이언트를 종료합니다" StringNote="0" />
+    <String StringID="Text_ThreeMinute" StringValue="3 분" StringNote="0" />
+    <String StringID="Text_ThreePlayRound" StringValue="3 판" StringNote="0" />
+    <String StringID="Text_ThreeRound" StringValue="3게임" StringNote="0" />
+    <String StringID="Text_TimaAttackMode" StringValue="타임어택모드" StringNote="0" />
+    <String StringID="Text_TimeLimitProduct" StringValue="판매기간 한정 상품" StringNote="0" />
+    <String StringID="Text_ToolTiipLimitRank" StringValue="계급제한 : " StringNote="0" />
+    <String StringID="Text_ToolTipCommon" StringValue="공통" StringNote="0" />
+    <String StringID="Text_ToolTipExplain" StringValue="설명 : " StringNote="0" />
+    <String StringID="Text_ToolTipFunction" StringValue="기능 : " StringNote="0" />
+    <String StringID="Text_ToolTipHumanOnly" StringValue="인간형 전용" StringNote="0" />
+    <String StringID="Text_ToolTipKeronOnly" StringValue="케론인 전용" StringNote="0" />
+    <String StringID="Text_ToolTipPackage" StringValue="패키지 : " StringNote="0" />
+    <String StringID="Text_ToolTipPresentData" StringValue="받은날짜 : " StringNote="0" />
+    <String StringID="Text_ToolTipPresentMsg" StringValue="메시지 : " StringNote="0" />
+    <String StringID="Text_ToolTipPrice" StringValue="가격 : " StringNote="0" />
+    <String StringID="Text_ToolTipSlot" StringValue="슬롯 : " StringNote="0" />
+    <String StringID="Text_ToolTipSomoneType" StringValue=" 전용 아이템" StringNote="0" />
+    <String StringID="Text_ToolTipUseOnlyOne" StringValue="전용 : " StringNote="0" />
+    <String StringID="Text_ToopTipDororo" StringValue="도로로" StringNote="0" />
+    <String StringID="Text_ToopTipGaruru" StringValue="가루루" StringNote="0" />
+    <String StringID="Text_ToopTipGiroro" StringValue="기로로" StringNote="0" />
+    <String StringID="Text_ToopTipHanbyul" StringValue="한별" StringNote="0" />
+    <String StringID="Text_ToopTipJeroro" StringValue="제로로" StringNote="0" />
+    <String StringID="Text_ToopTipJirara" StringValue="지라라" StringNote="0" />
+    <String StringID="Text_ToopTipJoruru" StringValue="조루루" StringNote="0" />
+    <String StringID="Text_ToopTipKarara" StringValue="카라라" StringNote="0" />
+    <String StringID="Text_ToopTipKeroro" StringValue="케로로" StringNote="0" />
+    <String StringID="Text_ToopTipKeroroRobot" StringValue="케로로 로봇" StringNote="0" />
+    <String StringID="Text_ToopTipKururu" StringValue="쿠루루" StringNote="0" />
+    <String StringID="Text_ToopTipLittleGiroro" StringValue="꼬마 기로로" StringNote="0" />
+    <String StringID="Text_ToopTipLittleKeroro" StringValue="꼬마 케로로" StringNote="0" />
+    <String StringID="Text_ToopTipMoa" StringValue="모아" StringNote="0" />
+    <String StringID="Text_ToopTipNara" StringValue="나라" StringNote="0" />
+    <String StringID="Text_ToopTipPresentSend" StringValue="보낸사람 : " StringNote="0" />
+    <String StringID="Text_ToopTipPururu" StringValue="푸루루" StringNote="0" />
+    <String StringID="Text_ToopTipPutata" StringValue="푸타타" StringNote="0" />
+    <String StringID="Text_ToopTipSelwha" StringValue="설화" StringNote="0" />
+    <String StringID="Text_ToopTipSmomo" StringValue="스모모" StringNote="0" />
+    <String StringID="Text_ToopTipTamama" StringValue="타마마" StringNote="0" />
+    <String StringID="Text_ToopTipTaruru" StringValue="타루루" StringNote="0" />
+    <String StringID="Text_ToopTipWojoo" StringValue="우주" StringNote="0" />
+    <String StringID="Text_TransactionMode" StringValue="장터" StringNote="0" />
+    <String StringID="Text_TwoMinute" StringValue="2 분" StringNote="0" />
+    <String StringID="Text_UnitedMode" StringValue="일심동체모드" StringNote="0" />
+    <String StringID="Text_UseSkill" StringValue="스킬 사용" StringNote="0" />
+    <String StringID="Text_WarRecord" StringValue="%d 전  %d 승  %d 패 승률 %3.1f" StringNote="0" />
+    <String StringID="Text_WhoJoinedGuild" StringValue=" 님이 길드에 가입 하였습니다." StringNote="0" />
+    <String StringID="Text_WithCardDefaultComment" StringValue="능력치를 선택해 주세요." StringNote="0" />
+    <String StringID="Text_YouCantEquipSkill" StringValue="준비하기 상태일때는 스킬을 장착할수 없습니다." StringNote="0" />
+    <String StringID="Text_YouCantOpenEventItem" StringValue="준비하기 상태일때는 열수 없습니다." StringNote="0" />
+    <String StringID="Text_YouCantOpenEventItemAtLadder" StringValue="Ladder 접속 중에는 열수 없습니다.." StringNote="0" />
+    <String StringID="Text_YouCantOpenMyBag" StringValue="준비하기 상태일때는 인벤토리를 열수 없습니다." StringNote="0" />
+
+    <String StringID="Text_UseEnableDay" StringValue="사용 가능 일수 : %d 일" StringNote="0" />
+    <String StringID="Text_UseEnableCount" StringValue="사용 가능 개수 : %d 개" StringNote="0" />
+
+    <String StringID="TransactionTitle_0" StringValue="케로케로~ 거래하자~" StringNote="0" />
+    <String StringID="TransactionTitle_1" StringValue="골라골라~ 아무거나 골라~" StringNote="0" />
+    <String StringID="TransactionTitle_2" StringValue="너도나도 골라~" StringNote="0" />
+    <String StringID="TransactionTitle_3" StringValue="거래방~! 어서 입장~!" StringNote="0" />
+    <String StringID="TransactionTitle_4" StringValue="나에게 아이템을~! 기미어 아이템~!" StringNote="0" />
+    <String StringID="Text_ToolTipAttackType" StringValue="공격형" StringNote="0" />
+    <String StringID="Text_ToolTipAlligityType" StringValue="민첩형" StringNote="0" />
+    <String StringID="Text_ToolTipDefenseType" StringValue="방어형" StringNote="0" />
+    <String StringID="ErrorCode_2319" StringValue="게임 래디 상태일 때는 \n 거래를 할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2320" StringValue="상대방이 래디 상태여서 \n 거래를 요청할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2321" StringValue="거래중 일때는 게임 래디를 \n 할 수 없습니다." StringNote="0" />
+    <String StringID="Text_Transaction_Two" StringValue="2명 거래방" StringNote="0" />
+    <String StringID="Text_Transaction_Four" StringValue="4명 거래방" StringNote="0" />
+    <String StringID="Text_Transaction_Six" StringValue="6명 거래방" StringNote="0" />
+    <String StringID="Text_Transaction_Eight" StringValue="8명 거래방" StringNote="0" />
+    <String StringID="Text_Transaction_Ten" StringValue="10명 거래방" StringNote="0" />
+    <String StringID="Text_Transaction_Fifteen" StringValue="15명 거래방" StringNote="0" />
+    <String StringID="Text_Transaction_Twenty" StringValue="20명 거래방" StringNote="0" />
+    <String StringID="Text_DisallowSendTransaction" StringValue="님이 거래 거부 상태입니다." StringNote="0" />
+    <String StringID="Text_RequestTransactionByMe" StringValue="거래 요청 중입니다" StringNote="0" />
+    <String StringID="ErrorCode_2322" StringValue="거래할 수 없는 아이템입니다." StringNote="0" />
+    <String StringID="ErrorCode_2323" StringValue="케릭터는 거래할 수 없습니다." StringNote="0" />
+    <String StringID="ErrorCode_2324" StringValue="상대방이 거래 요청 거부 상태입니다." StringNote="0" />
+    <String StringID="ErrorCode_2327" StringValue="포션을 사용할 수 없는 모드에서 포션을 사용하였습니다." StringNote="0" />
+    <String StringID="Text_ToopTipOO6" StringValue="오오육" StringNote="0" />
+    <String StringID="Text_DifficultLV_Easy" StringValue="쉬움" StringNote="0" />
+    <String StringID="Text_DifficultLV_Normal" StringValue="보통" StringNote="0" />
+    <String StringID="Text_DifficultLV_Hard" StringValue="어려움" StringNote="0" />
+    <String StringID="Text_SpecialTextDash" StringValue=" - " StringNote="0" />
+    <String StringID="Text_MarketPlace" StringValue="장 터" StringNote="0" />
+    <String StringID="Text_PrivateFight" StringValue="개인전" StringNote="0" />
+    <String StringID="Text_TeamFight" StringValue="팀 전" StringNote="0" />
+    <String StringID="Text_EW_CoinUseMessage1" StringValue="%s 님이 부활 하셨습니다." StringNote="0" />
+    <String StringID="Text_EW_CoinUseMessage2" StringValue="%s 님이 %s 님에게 코인을 사용하였습니다." StringNote="0" />
+    <String StringID="Text_MyBag_EraseCard_Caution" StringValue="카드 지우개를 사용하면 의상\n\n아이템에 장착되어있는 모든\n\n능력치 카드가 사라집니다." StringNote="0" />
+    <String StringID="Text_MyBag_EraseCardPiece_Caution" StringValue="개별 카드 지우개를 사용하면\n\n의상 아이템에 장착되어 있는\n\n카드 중 한가지를 선택하여\n\n제거 할 수 있습니다." StringNote="0" />
+    <String StringID="ErrorCode_2330" StringValue="사용할수 없는 방제목 입니다." StringNote="0" />
+    <String StringID="Popup_PromotionYouGotKerot" StringValue="%d 케롯을 획득하였습니다." StringNote="0" />
+    <String StringID="Popup_PromotionYouGotItem" StringValue="선물을 획득하였습니다." StringNote="0" />
+    <String StringID="GuildLoginTime_Dayago" StringValue="%d일 전" StringNote="0" />
+    <String StringID="GuildLoginTime_Hourago" StringValue="%d시간 전" StringNote="0" />
+    <String StringID="GuildLoginTime_Minago" StringValue="%d분 전" StringNote="0" />
+    <String StringID="GuildLoginTime_NowLogin" StringValue="접속중" StringNote="0" />
+    <String StringID="GuildMarkSelect" StringValue="길드마크를 선택해 주십시오." StringNote="0" />
+    <String StringID="ChatCommand_Team" StringValue="/팀" StringNote="0" />
+    <String StringID="ChatCommand_Guild" StringValue="/길드" StringNote="0" />
+    <String StringID="ChatCommand_Reply" StringValue="/답장" StringNote="0" />
+    <String StringID="ChatCommand_Blue" StringValue="/블루" StringNote="0" />
+    <String StringID="ChatCommand_Red" StringValue="/레드" StringNote="0" />
+    <String StringID="Popup_NotEnoughCash" StringValue="케로로 캐시가 부족 합니다." StringNote="0" />
+
+    <String StringID="OpenCashWebPage1" StringValue="https://www.kerorofighter.org/page_QSnI41" StringNote="0" />
+    <String StringID="OpenCashWebPage2" StringValue="https://www.kerorofighter.org/page_QSnI41" StringNote="0" />
+
+    <String StringID="ItemText_All" StringValue="전체" StringNote="0" />
+    <String StringID="ItemText_AttackType" StringValue="공격형" StringNote="0" />
+    <String StringID="ItemText_SpeedType" StringValue="민첩형" StringNote="0" />
+    <String StringID="ItemText_Defense" StringValue="방어형" StringNote="0" />
+    <String StringID="ItemText_Head" StringValue="머리" StringNote="0" />
+    <String StringID="ItemText_Body" StringValue="몸통" StringNote="0" />
+    <String StringID="ItemText_Hand_Feet" StringValue="손/발" StringNote="0" />
+    <String StringID="ItemText_Accessories" StringValue="액세서리" StringNote="0" />
+    <String StringID="ItemText_Costume" StringValue="코스튬" StringNote="0" />
+    <String StringID="ItemText_SpecialWeapon" StringValue="특수병기" StringNote="0" />
+    <String StringID="ItemText_CommonSkill" StringValue="공통스킬" StringNote="0" />
+    <String StringID="ItemText_Character" StringValue="캐릭터" StringNote="0" />
+
+    <String StringID="Popup_ItemSellingConfirm" StringValue="정말로 판매 하시겠습니까?\n판매한 아이템은 캐롯으로 보상이 되며,\n더 이상 착용과 복구가 불가능 합니다." StringNote="0" />
+    <String StringID="Text_CantUseSkill" StringValue="스킬 사용불가" StringNote="0" />
+
+    <String StringID = "Text_SignBoard_UseCaution" StringValue = "푯말 아이템은 해당 방에서 나가게 되면 \n\n 아이템 효과가 사라집니다. \n\n 그래도 사용 하시겠습니까?" StringNote="0" />
+
+    <String StringID="Popup_UnderConstruct" StringValue="현재 기능은 준비중에 있습니다." StringNote="0" />
+
+    <String StringID = "Popup_Channel_NotHaveGuild" StringValue="현재 길드에 가입되어 있지 않아 \n\n 입장 할 수 없습니다." StringNote="0" />
+    <String StringID = "Popup_Channel_CantPlayCurrentModeInGuildChannel" StringValue="선택 하신 게임 모드는 길드채널에서\n\n 플레이 할 수 없습니다." StringNote="0" />
+    <String StringID = "Popup_Channel_CantJoinOtherGuildMore" StringValue="현재 해당 방에는 더이상 \n\n 다른 길드가 참가 할 수 없습니다." StringNote="0" />
+    <String StringID = "Popup_Channel_CantJoinRoomIsFull" StringValue="현재 해당 방에는 인원이 가득 차 있어 \n\n 방에 들어갈 수 없습니다." StringNote="0" />
+    <String StringID = "Popup_Channel_WornTeamReady" StringValue="다른 팀으로 참가중입니다. \n\n 같은 길드가 있는 팀으로 이동 하시기 바랍니다." StringNote="0" />
+    <String StringID = "Popup_Channel_NotEnoughtChannelEnterCondition" StringValue="채널 입장 조건이 맞지 않아 \n\n 입장 할 수 없습니다." StringNote="0" />
+	
+	<String StringID = "Popup_Common_Dialog_Exit" StringValue="현재 창을 종료 하시겠습니까?" StringNote="0" />
+</StringBuilder>

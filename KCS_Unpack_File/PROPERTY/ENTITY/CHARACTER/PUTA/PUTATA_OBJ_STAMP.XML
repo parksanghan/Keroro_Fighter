@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Putata_obj_Stamp" FILENAME="Putata_obj_Stamp.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Putata_obj_Stamp.VS">
+        <PROPERTYBAG NAME="Putata_obj_Jump_K" FILENAME="Putata_obj_Jump_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Stamp_SPE_01" FILENAME="Putata_obj_Stamp_SPE01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Stamp_SPE_02" FILENAME="Putata_obj_Stamp_SPE02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Stamp_SPE_03" FILENAME="Putata_obj_Stamp_SPE03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Stamp_SPE_04" FILENAME="Putata_obj_Stamp_SPE04.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Stamp_SPE_05" FILENAME="Putata_obj_Stamp_SPE05.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Putata_Obj_Stamp_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Paul_Spe_P00" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.5" X="15" Y="15" Z="15" />
+            <Property Time="0.5" X="25" Y="25" Z="25" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="100" />
+            <Property Time="0.5" Value="220" />
+            <Property Time="0.5" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="1.2" X="1.5" Y="1.5" Z="0.1" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Joru_SPE_P02.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="20" Max="30" />
+        <RepeatCount Count="3" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="1.2" />
+        <RegenTime Min="0.05" Max="0.1" />
+        <RotScaleMin X="60" Y="60" Z="0" />
+        <RotScaleMax X="90" Y="90" Z="360" />
+        <RandPosMin X="0" Y="0" Z="-260" />
+        <RandPosMax X="0" Y="0" Z="-260" />
+        <ComboList RefOrder="1" ScaleType="0" PositionType="0" />
+        <Speed Min="30" Max="40" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90" Y="0" Z="0" />
+        <JetDirMax X="0" Y="0" Z="180" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="40">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="100" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="0" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.9" Y="0.9" Z="0.9" />
+            <Alpha Value="107.2" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.0375" Y="0.0375" Z="0.0025" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.8" Y="1.8" Z="1.8" />
+            <Alpha Value="114.4" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.075" Y="0.075" Z="0.005" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.7" Y="2.7" Z="2.7" />
+            <Alpha Value="121.6" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.1125" Y="0.1125" Z="0.0075" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.6" Y="3.6" Z="3.6" />
+            <Alpha Value="128.8" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.15" Y="0.15" Z="0.01" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.5" Y="4.5" Z="4.5" />
+            <Alpha Value="136" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.1875" Y="0.1875" Z="0.0125" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.4" Y="5.4" Z="5.4" />
+            <Alpha Value="143.2" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.225" Y="0.225" Z="0.015" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.3" Y="6.3" Z="6.3" />
+            <Alpha Value="150.4" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.2625" Y="0.2625" Z="0.0175" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.2" Y="7.2" Z="7.2" />
+            <Alpha Value="157.6" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.3" Y="0.3" Z="0.02" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.1" Y="8.1" Z="8.1" />
+            <Alpha Value="164.8" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.3375" Y="0.3375" Z="0.0225" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9" Y="9" Z="9" />
+            <Alpha Value="172" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.375" Y="0.375" Z="0.025" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.9" Y="9.9" Z="9.9" />
+            <Alpha Value="179.2" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.4125" Y="0.4125" Z="0.0275" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.8" Y="10.8" Z="10.8" />
+            <Alpha Value="186.4" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.45" Y="0.45" Z="0.03" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.7" Y="11.7" Z="11.7" />
+            <Alpha Value="193.6" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.4875" Y="0.4875" Z="0.0325" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.6" Y="12.6" Z="12.6" />
+            <Alpha Value="200.8" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.525" Y="0.525" Z="0.035" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.5" Y="13.5" Z="13.5" />
+            <Alpha Value="208" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.5625" Y="0.5625" Z="0.0375" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15" Y="15" Z="15" />
+            <Alpha Value="220" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.6" Y="0.6" Z="0.04" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.6" Y="15.6" Z="15.6" />
+            <Alpha Value="206.8" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.6375" Y="0.6375" Z="0.0425" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.2" Y="16.2" Z="16.2" />
+            <Alpha Value="193.6" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.675" Y="0.675" Z="0.045" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.8" Y="16.8" Z="16.8" />
+            <Alpha Value="180.4" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.7125" Y="0.7125" Z="0.0475" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.4" Y="17.4" Z="17.4" />
+            <Alpha Value="167.2" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.75" Y="0.75" Z="0.05" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18" Y="18" Z="18" />
+            <Alpha Value="154" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.7875" Y="0.7875" Z="0.0525" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.6" Y="18.6" Z="18.6" />
+            <Alpha Value="140.8" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.825" Y="0.825" Z="0.055" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.2" Y="19.2" Z="19.2" />
+            <Alpha Value="127.6" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.8625" Y="0.8625" Z="0.0575" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.8" Y="19.8" Z="19.8" />
+            <Alpha Value="114.4" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.9" Y="0.9" Z="0.06" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.4" Y="20.4" Z="20.4" />
+            <Alpha Value="101.2" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.9375" Y="0.9375" Z="0.0625" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21" Y="21" Z="21" />
+            <Alpha Value="88" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.975" Y="0.975" Z="0.065" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.6" Y="21.6" Z="21.6" />
+            <Alpha Value="74.8" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.0125" Y="1.0125" Z="0.0675" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.2" Y="22.2" Z="22.2" />
+            <Alpha Value="61.6" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.05" Y="1.05" Z="0.07" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.8" Y="22.8" Z="22.8" />
+            <Alpha Value="48.4" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.0875" Y="1.0875" Z="0.0725" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.4" Y="23.4" Z="23.4" />
+            <Alpha Value="35.2" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.125" Y="1.125" Z="0.075" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24" Y="24" Z="24" />
+            <Alpha Value="22" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.1625" Y="1.1625" Z="0.0775" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.2" Y="1.2" Z="0.08" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.2375" Y="1.2375" Z="0.0825" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.275" Y="1.275" Z="0.085" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.3125" Y="1.3125" Z="0.0875" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.35" Y="1.35" Z="0.09" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.3875" Y="1.3875" Z="0.0925" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.425" Y="1.425" Z="0.095" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25" Y="25" Z="25" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.4625" Y="1.4625" Z="0.0975" />
+            <Texture Texture="Joru_SPE_P02.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

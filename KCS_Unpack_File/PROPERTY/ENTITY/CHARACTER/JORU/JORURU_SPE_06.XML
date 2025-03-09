@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="CAP" FILENAME="Joruru_cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KNIFE" FILENAME="Joruru_Knife.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Joruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Joruru_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Joruru_Body_top.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="Joru_Comb_SPE_04" FILENAME="Joru_Comb_SPE_04.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Joru_Combat_Wait" FILENAME="Joru_Combat_Wait.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="CM_COMICGUN_DASH_ATK_X_01" FILENAME="CM_COMICGUN_DASH_ATK_X_1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Char_Doro_ComKKKAtk_E01" FILENAME="Char_Doro_ComKKKAtk_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="DORORO_FAN" FILENAME="Doro_Aniob_Fan.xml" />
+        <PROPERTYBAG NAME="Joru_Sword_SPE_04" FILENAME="Joru_Sword_SPE_04.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Joruru_SPE_06_COMMANDS.XML" />
+</GAMEENTITY>

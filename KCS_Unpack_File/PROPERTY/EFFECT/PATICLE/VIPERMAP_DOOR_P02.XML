@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="ViperMap_Door_P02" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="5.000000" Y="5.000000" Z="5.000000" />
+            <Property Time="1.000000" X="8.000000" Y="8.000000" Z="8.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="200.000000" />
+            <Property Time="1.000000" Value="255.000000" />
+            <Property Time="1.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="1.500000" Y="1.500000" Z="0.000000" />
+            <Property Time="1.000000" X="2.000000" Y="2.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Sphinx_Box_Hit.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="1.000000" Max="3.000000" />
+        <RepeatCount Count="10.000000" />
+        <Gravity Value="-80.000000" />
+        <Life Life_Min="1.000000" Value="1.980000" />
+        <RegenTime Min="0.300000" Max="0.100000" />
+        <RotScaleMin X="20.000000" Y="20.000000" Z="0.000000" />
+        <RotScaleMax X="40.000000" Y="40.000000" Z="360.000000" />
+        <RandPosMin X="30.000000" Y="0.000000" Z="150.000000" />
+        <RandPosMax X="-30.000000" Y="0.000000" Z="-150.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="10.000000" Max="15.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="30.000000" Y="0.000000" Z="180.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="66">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.150000" Y="0.150000" Z="0.150000" />
+            <Alpha Value="201.649994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.045000" Y="0.045000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.300000" />
+            <Alpha Value="203.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.090000" Y="0.090000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="204.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.135000" Y="0.135000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="206.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.180000" Y="0.180000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.750000" Y="0.750000" Z="0.750000" />
+            <Alpha Value="208.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.225000" Y="0.225000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="209.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.270000" Y="0.270000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.050000" Y="1.050000" Z="1.050000" />
+            <Alpha Value="211.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.315000" Y="0.315000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="213.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.360000" Y="0.360000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="214.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.405000" Y="0.405000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="216.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.650000" Y="1.650000" Z="1.650000" />
+            <Alpha Value="218.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.495000" Y="0.495000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="219.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.540000" Y="0.540000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.950000" Y="1.950000" Z="1.950000" />
+            <Alpha Value="221.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.585000" Y="0.585000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.100000" Y="2.100000" Z="2.100000" />
+            <Alpha Value="223.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.630000" Y="0.630000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="224.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.675000" Y="0.675000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="226.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.720000" Y="0.720000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.550000" Y="2.550000" Z="2.550000" />
+            <Alpha Value="228.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.765000" Y="0.765000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="229.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.810000" Y="0.810000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.850000" Y="2.850000" Z="2.850000" />
+            <Alpha Value="231.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.855000" Y="0.855000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="233.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="234.649994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.945000" Y="0.945000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.300000" Y="3.300000" Z="3.300000" />
+            <Alpha Value="236.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.990000" Y="0.990000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.450000" Y="3.450000" Z="3.450000" />
+            <Alpha Value="237.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.035000" Y="1.035000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="239.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.080000" Y="1.080000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.750000" Y="3.750000" Z="3.750000" />
+            <Alpha Value="241.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.125000" Y="1.125000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.900000" Y="3.900000" Z="3.900000" />
+            <Alpha Value="242.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.170000" Y="1.170000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="244.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.215000" Y="1.215000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="246.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.260000" Y="1.260000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.350000" Y="4.350000" Z="4.350000" />
+            <Alpha Value="247.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.305000" Y="1.305000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="249.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.350000" Y="1.350000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.650000" Y="4.650000" Z="4.650000" />
+            <Alpha Value="251.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.395000" Y="1.395000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="252.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.440000" Y="1.440000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.000000" Y="5.000000" Z="5.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.500000" Y="1.500000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.090000" Y="5.090000" Z="5.090000" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.515000" Y="1.515000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.180000" Y="5.180000" Z="5.180000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.530000" Y="1.530000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.270000" Y="5.270000" Z="5.270000" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.545000" Y="1.545000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.360000" Y="5.360000" Z="5.360000" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.560000" Y="1.560000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.450000" Y="5.450000" Z="5.450000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.575000" Y="1.575000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.540000" Y="5.540000" Z="5.540000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.590000" Y="1.590000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.630000" Y="5.630000" Z="5.630000" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.605000" Y="1.605000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.720000" Y="5.720000" Z="5.720000" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.620000" Y="1.620000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.810000" Y="5.810000" Z="5.810000" />
+            <Alpha Value="186.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.635000" Y="1.635000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.900000" Y="5.900000" Z="5.900000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.650000" Y="1.650000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.990000" Y="5.990000" Z="5.990000" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.665000" Y="1.665000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.080000" Y="6.080000" Z="6.080000" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.680000" Y="1.680000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.170000" Y="6.170000" Z="6.170000" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.695000" Y="1.695000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.260000" Y="6.260000" Z="6.260000" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.710000" Y="1.710000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.350000" Y="6.350000" Z="6.350000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.725000" Y="1.725000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.440000" Y="6.440000" Z="6.440000" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.740000" Y="1.740000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.530000" Y="6.530000" Z="6.530000" />
+            <Alpha Value="124.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.755000" Y="1.755000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.620000" Y="6.620000" Z="6.620000" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.770000" Y="1.770000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.710000" Y="6.710000" Z="6.710000" />
+            <Alpha Value="109.650009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.785000" Y="1.785000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.800000" Y="6.800000" Z="6.800000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.800000" Y="1.800000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.890000" Y="6.890000" Z="6.890000" />
+            <Alpha Value="94.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.815000" Y="1.815000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.980000" Y="6.980000" Z="6.980000" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.830000" Y="1.830000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.070000" Y="7.070000" Z="7.070000" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.845000" Y="1.845000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.160000" Y="7.160000" Z="7.160000" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.860000" Y="1.860000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.250000" Y="7.250000" Z="7.250000" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.875000" Y="1.875000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.340000" Y="7.340000" Z="7.340000" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.890000" Y="1.890000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.430000" Y="7.430000" Z="7.430000" />
+            <Alpha Value="48.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.905000" Y="1.905000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.520000" Y="7.520000" Z="7.520000" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.920000" Y="1.920000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.610000" Y="7.610000" Z="7.610000" />
+            <Alpha Value="33.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.935000" Y="1.935000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.700000" Y="7.700000" Z="7.700000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.950000" Y="1.950000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.790000" Y="7.790000" Z="7.790000" />
+            <Alpha Value="17.849991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.965000" Y="1.965000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.880000" Y="7.880000" Z="7.880000" />
+            <Alpha Value="10.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.980000" Y="1.980000" Z="0.000000" />
+            <Texture Texture="Sphinx_Box_Hit.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

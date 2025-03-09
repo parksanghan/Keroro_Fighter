@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="BODY" FILENAME="Kagege_Obj_Body_ShadowKagege.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Kagege_Obj_Foot_ShadowKagege.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Kagege_Obj_Hand_ShadowKagege.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Kagege_Obj_Head_ShadowKagege.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="IDLE_Shadow_01" FILENAME="Kagege_Obj_Idle_01_Shadow01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WKiru_PK_B00" FILENAME="WKiru_PK_B00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kagege_Obj_IDLE01_Shadow_01_COMMANDS.XML" />
+</GAMEENTITY>

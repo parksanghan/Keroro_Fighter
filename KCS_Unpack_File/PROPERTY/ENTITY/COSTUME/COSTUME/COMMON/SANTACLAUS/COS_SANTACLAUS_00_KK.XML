@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="CAP_H" FILENAME="Cos_santaclaus_00_Cap_K.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="Cos_santaclaus_00_Body.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BACK_H" FILENAME="Cos_santaclaus_00_Back.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="Cos_santaclaus_00_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="Cos_empty.xml" COMMENT="" />
+        <PROPERTYBAG NAME="TAIL_H" FILENAME="Cos_empty.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Cos_santaclaus_00_K_COMMANDS.XML" />
+</GAMEENTITY>

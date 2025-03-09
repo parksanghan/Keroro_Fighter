@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Com_Cap_taegeukgi_00_K.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Com_Cap_taegeukgi_00_T.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.80" />
+            <Property name="ColorR" value="0.403922" />
+            <Property name="ColorG" value="0.337255" />
+            <Property name="ColorB" value="0.109804" />
+            <Property name="ColorA" value="1.000000" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FishingItemProperty>
+    <FishingItem PropertyID="800000000" Name="가시납지리" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="1" item_type="1" open_type="1" Drop_Group="0" />
+    <FishingItem PropertyID="800000001" Name="긴몰개" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="2" item_type="1" open_type="2" Drop_Group="0" />
+    <FishingItem PropertyID="800000002" Name="물고기 3" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="3" item_type="1" open_type="0" Drop_Group="0" />
+    <FishingItem PropertyID="800000003" Name="물고기 4" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="4" item_type="1" open_type="3" Drop_Group="0" />
+    <FishingItem PropertyID="800000004" Name="물고기 5" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="5" item_type="1" open_type="3" Drop_Group="0" />
+    <FishingItem PropertyID="800000005" Name="물고기 6" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="6" item_type="1" open_type="0" Drop_Group="0" />
+    <FishingItem PropertyID="800000006" Name="깨진병" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="7" item_type="1" open_type="0" Drop_Group="0" />
+    <FishingItem PropertyID="800000007" Name="빈 깡통" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="8" item_type="1" open_type="0" Drop_Group="0" />
+    <FishingItem PropertyID="800000008" Name="낡은 상자" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="9" item_type="1" open_type="0" Drop_Group="0" />
+    <FishingItem PropertyID="810000001" Name="잠겨진 금고" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="10" item_type="1" open_type="1" Drop_Group="1001" />
+    <FishingItem PropertyID="810000002" Name="병사 보급품" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="0" item_type="1" open_type="1" Drop_Group="1002" />
+    <FishingItem PropertyID="810000003" Name="부사관 보급품" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="0" item_type="1" open_type="1" Drop_Group="1003" />
+    <FishingItem PropertyID="810000004" Name="장교 보급품" Code="0" Overlab="9999" EntityFileName="kt_Item_fishing.tga" ShopEntityFileName="kt_Item_fishing.tga" Fishing_Code="0" item_type="1" open_type="1" Drop_Group="1004" />
+    <FishingItem PropertyID="253030000" Name="연습용 낚싯대" Code="0" Overlab="1" EntityFileName="Item_Weapon.tga" ShopEntityFileName="Item_Weapon.tga" Fishing_Code="0" item_type="1" open_type="0" Drop_Group="0" />
+    <FishingItem PropertyID="253030001" Name="케론군 자동 낚싯대" Code="0" Overlab="1" EntityFileName="Item_Weapon.tga" ShopEntityFileName="Item_Weapon.tga" Fishing_Code="0" item_type="1" open_type="0" Drop_Group="1" />
+</FishingItemProperty>

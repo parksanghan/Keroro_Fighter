@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sabin_Obj_ButterFly" FILENAME="Sabin_Obj_ButterFly.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Sabin_Obj_ButterFly.VS">
+        <PROPERTYBAG NAME="Sabin_Obj_IDLE_02" FILENAME="Sabin_Obj_IDLE_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sabin_Obj_ButterFly_COMMANDS.XML" />
+</GAMEENTITY>

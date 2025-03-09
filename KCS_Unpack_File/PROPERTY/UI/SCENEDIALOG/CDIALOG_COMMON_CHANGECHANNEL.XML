@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_ChangeChannel.xml" PosX="846" PosY="37" SizeX="149" SizeY="149" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin/>
+    <DialogControl>
+		<!--
+        <Property Name="BUTTON_ChangeChannel_Execute" ClassName="CKeroroUI_Button" PosX="864" PosY="75" SizeX="134" SizeY="46" Disable="0" OverSound="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="339" TextPosY="276" TextSizeX="134" TextSizeY="46" PosX="0" PosY="0" SizeX="134" SizeY="46" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="339" TextPosY="326" TextSizeX="134" TextSizeY="46" PosX="0" PosY="0" SizeX="134" SizeY="46" />
+                    <Element ControlState="3" index="0" TextName="GUI_PlayLobby.tga" TextPosX="339" TextPosY="376" TextSizeX="134" TextSizeY="46" PosX="0" PosY="0" SizeX="134" SizeY="46" />
+                </Property>
+            </ControlSkin>
+        </Property>
+		-->
+        <Property Name="BUTTON_ChangeChannel_Execute" ClassName="CKeroroUI_Button" PosX="0" PosY="5" SizeX="149" SizeY="40" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="4" TextPosY="382" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="4" TextPosY="425" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="3" index="0" TextName="GUI_PlayLobby.tga" TextPosX="4" TextPosY="467" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_TrainingChangeChannel_Execute" ClassName="CKeroroUI_Button" PosX="0" PosY="47" SizeX="149" SizeY="40" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="155" TextPosY="382" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="155" TextPosY="425" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="3" index="0" TextName="GUI_PlayLobby.tga" TextPosX="155" TextPosY="467" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_MarketChangeChannel_Execute" ClassName="CKeroroUI_Button" PosX="0" PosY="47" SizeX="149" SizeY="40" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="306" TextPosY="425" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="306" TextPosY="467" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="3" index="0" TextName="GUI_PlayLobby.tga" TextPosX="457" TextPosY="467" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BUTTON_ExitDialog" ClassName="CKeroroUI_Button" PosX="0" PosY="47" SizeX="149" SizeY="40" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_PlayLobby.tga" TextPosX="610" TextPosY="382" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_PlayLobby.tga" TextPosX="610" TextPosY="425" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="3" index="0" TextName="GUI_PlayLobby.tga" TextPosX="610" TextPosY="467" TextSizeX="149" TextSizeY="40" PosX="0" PosY="0" SizeX="149" SizeY="40" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

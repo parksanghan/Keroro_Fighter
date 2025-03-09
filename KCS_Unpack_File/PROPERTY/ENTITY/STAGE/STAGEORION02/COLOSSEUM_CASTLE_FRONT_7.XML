@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="Colosseum_castle_front_01.xml" FILENAME="Colosseum_castle_front_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_front_02.xml" FILENAME="Colosseum_castle_front_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_bar.xml" FILENAME="Colosseum_bar.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_door.xml" FILENAME="Colosseum_door.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_gate_01.xml" FILENAME="Colosseum_gate_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_window_01.xml" FILENAME="Colosseum_window_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_castle_04.xml" FILENAME="Colosseum_castle_04.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Colosseum_castle_front_7_COMMANDS.XML" />
+</GAMEENTITY>

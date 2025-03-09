@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_NoticeBox.xml" PosX="327" PosY="295" SizeX="0" SizeY="0" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.860" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="911" TextPosY="641" TextSizeX="23" TextSizeY="23" PosX="23" PosY="23" SizeX="325" SizeY="103" />
+
+            <Element index="1" TextName="GUI_ItemShop.tga" TextPosX="887" TextPosY="617" TextSizeX="23" TextSizeY="23" PosX="0" PosY="0" SizeX="23" SizeY="23" />
+            <Element index="2" TextName="GUI_ItemShop.tga" TextPosX="911" TextPosY="617" TextSizeX="23" TextSizeY="23" PosX="23" PosY="0" SizeX="325" SizeY="23" />
+            <Element index="3" TextName="GUI_ItemShop.tga" TextPosX="935" TextPosY="617" TextSizeX="23" TextSizeY="23" PosX="348" PosY="0" SizeX="23" SizeY="23" />
+
+            <Element index="4" TextName="GUI_ItemShop.tga" TextPosX="887" TextPosY="641" TextSizeX="23" TextSizeY="23" PosX="0" PosY="23" SizeX="23" SizeY="103" />
+            <Element index="5" TextName="GUI_ItemShop.tga" TextPosX="935" TextPosY="641" TextSizeX="23" TextSizeY="23" PosX="348" PosY="23" SizeX="23" SizeY="103" />
+
+            <Element index="6" TextName="GUI_ItemShop.tga" TextPosX="887" TextPosY="665" TextSizeX="23" TextSizeY="23" PosX="0" PosY="126" SizeX="23" SizeY="23" />
+            <Element index="7" TextName="GUI_ItemShop.tga" TextPosX="911" TextPosY="665" TextSizeX="23" TextSizeY="23" PosX="23" PosY="126" SizeX="325" SizeY="23" />
+            <Element index="8" TextName="GUI_ItemShop.tga" TextPosX="935" TextPosY="665" TextSizeX="23" TextSizeY="23" PosX="348" PosY="126" SizeX="23" SizeY="23" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.859" Show="1">
+            <Element index="0" TextName="GUI_gameplay.tga" TextPosX="2" TextPosY="656" TextSizeX="320" TextSizeY="45" PosX="25" PosY="19" SizeX="320" SizeY="45" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.999" Show="0">
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="0" PosY="0" SizeX="371" SizeY="149" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="CONTROL_etcSkin" ClassName="CKeroroUI_Control" PosX="97" PosY="76" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="4" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.177" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay.tga" TextPosX="2" TextPosY="705" TextSizeX="50" TextSizeY="50" PosX="0" PosY="0" SizeX="50" SizeY="50" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.177" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_gameplay.tga" TextPosX="57" TextPosY="716" TextSizeX="25" TextSizeY="32" PosX="55" PosY="11" SizeX="25" SizeY="32" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="NUMBER_Amount_Coin" ClassName="CKeroroUI_Number" PosX="181" PosY="87" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" Number="1000" StartPosX="84" StartPosY="716" SizeX="24" SizeY="32" NextTermX="26" NextTermY="0" ShowPosX="0" ShowPosY="0" ShowNextTermX="20" ShowNextTermY="0" TextureName="GUI_gameplay.tga" Depth="0.550000" />
+        </Property>
+    </DialogControl>
+</RootNode>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Toro_OBj_NoteBook" FILENAME="Toro_Obj_NoteBook.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="7" VSNAME="Toru_Obj_Notebook.VS">
+        <PROPERTYBAG NAME="Toru_Dash01_Obj_Notebook" FILENAME="Toru_Dash01_Obj_Notebook.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_Dash02_Obj_Notebook" FILENAME="Toru_Dash02_Obj_Notebook.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_KPP_Obj_Notebook" FILENAME="Toru_KPP_Obj_Notebook.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_PPP_Obj_Notebook" FILENAME="Toru_PPP_Obj_Notebook.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_PP_Obj_Notebook" FILENAME="Toru_PP_Obj_Notebook.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_P_Obj_Notebook" FILENAME="Toru_P_Obj_Notebook.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_Walk_Obj_Notebook" FILENAME="Toru_Walk_Obj_Notebook.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Toro_P" FILENAME="Toru_comb_p.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_comb_pp" FILENAME="Toru_comb_pp.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_comb_ppp" FILENAME="Toru_comb_ppp.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Toro_Obj_NoteBook_COMMANDS.XML" />
+</GAMEENTITY>

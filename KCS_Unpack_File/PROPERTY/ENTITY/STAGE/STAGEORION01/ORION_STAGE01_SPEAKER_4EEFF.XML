@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="0" />
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="orion_stage01_Popcorn.xml" FILENAME="orion_stage01_Popcorn.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_bubble.xml" FILENAME="orion_stage01_bubble.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_lamp.xml" FILENAME="orion_stage01_lamp.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_neon.xml" FILENAME="orion_stage01_neon.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_psyche.xml" FILENAME="orion_stage01_psyche.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_speaker.xml" FILENAME="orion_stage01_speaker.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_speaker2.xml" FILENAME="orion_stage01_speaker2.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="orion_stage01_speaker_4EEFF_COMMANDS.XML" />
+</GAMEENTITY>

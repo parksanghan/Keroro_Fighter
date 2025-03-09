@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameModeProperty>
+    <GameMode PropertyID="1" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="2" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="3" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="4" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="5" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="6" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="7" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="8" Name="思骯ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="9" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="10" Name="腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="11" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="12" Name="骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="13" Name="思骯腌ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+    <GameMode PropertyID="14" Name="思骯ㄤ">
+    	<SETTING_INFO OnEnable="1" OnPlayGround="0" OnItem="0" OnSkill="0" OnWeapon="0" OnIndivisual="0" OnTeam="0" UserMIN="1" UserMAX="10"  TimeMIN="1" TimeMAX="5" RoundMIN="0" RoundMAX="0" ChangeMode="0" ChangeType="0" ChangeUser="0" ChangeTime="0" ChangeRound="0" ChangeSkill="0" />
+    	<DEFAULT_INFO OnItem="1" UserCnt="3" Time="3" Round="1" SKillEnable="1" />
+    </GameMode>
+</GameModeProperty>
+
+<!--
+
+OnItem = Item 출현 유무
+OnSkill = 스킬 사용 유무
+OnWeapon = 무기 사용 유무
+OnTeam = Team전 가능 유무
+OnIndivisual = 개인전 가능 유무
+OnTeam = 팀전 가능 유무
+UserMIN = 최소 인원수
+UserMAX = 최대 인원수
+TimeMIN = 최소 플레이 시간
+TimeMAX = 최대 플레이 시간
+RoundMIN = 최소 플레이 판 수
+RoundMAX = 최대 플레이 판 수
+ChangeMode = 모드 변경 가능 유무
+ChangeType = 유형 변경 가능 유무
+ChangeUser = 참여 유저수 변경 가능 유무
+ChangeTime = 게임 진행 시간 변경 가능 유무
+ChangeRound = 게임 판수 변경 가능 유무
+ChangeSkill = 스킬 사용 변경 가능 유무
+TeamType = 1 -> 일반 , 2 
+
+-->

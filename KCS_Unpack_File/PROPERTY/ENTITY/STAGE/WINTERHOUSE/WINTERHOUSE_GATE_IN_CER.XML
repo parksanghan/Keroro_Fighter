@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="WinterHouse_Gate_in_Cer_M.xml" FILENAME="WinterHouse_Gate_in_Cer_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WinterHouse_Gate_in_M.xml" FILENAME="WinterHouse_Gate_in_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="WinterHouse_Gate_in_Cer.VS">
+        <PROPERTYBAG NAME="WinterHouse_Gate_in_Cer.VA" FILENAME="WinterHouse_Gate_in_Cer.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Playground_Warp_Y00.xml" FILENAME="Playground_Warp_Y00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WinterHouse_Gate_in_Cer_COMMANDS.XML" />
+</GAMEENTITY>

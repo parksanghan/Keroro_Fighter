@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="FACE01" FILENAME="Com_Face_grandbeard_00_K_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FACE02" FILENAME="Com_Face_grandbeard_00_K_2.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />    
+    <COMMANDS FILENAME="Com_Face_grandbeard_00_Ur_COMMANDS.XML" />
+</GAMEENTITY>

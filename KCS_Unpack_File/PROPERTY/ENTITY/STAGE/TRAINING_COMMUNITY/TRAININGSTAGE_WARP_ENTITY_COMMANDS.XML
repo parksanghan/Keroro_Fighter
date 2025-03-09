@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="IDLE" LOOP="1" TOTALTIME="6.67">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="WinterHouse_Gate_in_Cer" TYPENAME="ActionAnimation" ANIMATIONNAME="WinterHouse_Gate_in_Cer" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="WinterHouse_Gate_in_Cer" TYPENAME="ActionAnimation" ANIMATIONNAME="WinterHouse_Gate_in_Cer" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

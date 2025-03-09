@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Putata_Obj_Brush" FILENAME="Putata_obj_Brush.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="33" VSNAME="Putata_obj_Brush.VS">
+        <PROPERTYBAG NAME="Putata_Comb_obj_Finger_Snap" FILENAME="Putata_Comb_obj_Finger_Snap.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_Comb_obj_K" FILENAME="Putata_Comb_obj_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_Comb_obj_KK" FILENAME="Putata_Comb_obj_KK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_Comb_obj_KKK" FILENAME="Putata_Comb_obj_KKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Brush_SPE" FILENAME="Putata_obj_Brush_SPE01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_P" FILENAME="Putata_obj_Combat_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_PK" FILENAME="Putata_obj_Combat_PK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_PKK" FILENAME="Putata_obj_Combat_PKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_PP" FILENAME="Putata_obj_Combat_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_PPK_01" FILENAME="Putata_obj_Combat_PPK_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_PPK_02" FILENAME="Putata_obj_Combat_PPK_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_PPK_03" FILENAME="Putata_obj_Combat_PPK_03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_PPP" FILENAME="Putata_obj_Combat_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Combat_Wait" FILENAME="Putata_obj_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Dash_01" FILENAME="Putata_obj_Dash_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Dash_02" FILENAME="Putata_obj_Dash_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Dash_K" FILENAME="Putata_obj_Dash_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Dash_K_01" FILENAME="Putata_obj_Dash_K_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Dash_K_02" FILENAME="Putata_obj_Dash_K_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Dash_P" FILENAME="Putata_obj_Dash_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_ESC" FILENAME="Putata_obj_ESC.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_IDLE_01" FILENAME="Putata_obj_IDLE_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_IDLE_02" FILENAME="Putata_obj_IDLE_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Jump_Down" FILENAME="Putata_obj_Jump_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Jump_K" FILENAME="Putata_obj_Jump_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Jump_Landing" FILENAME="Putata_obj_Jump_Landing.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Jump_Once" FILENAME="Putata_obj_Jump_Once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Jump_P" FILENAME="Putata_obj_Jump_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Jump_Twice" FILENAME="Putata_obj_Jump_Twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Jump_Up" FILENAME="Putata_obj_Jump_Up.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Lose" FILENAME="Putata_obj_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Move_Stop" FILENAME="Putata_obj_Move_Stop.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Win" FILENAME="Putata_obj_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Putata_Obj_Brush_COMMANDS.XML" />
+</GAMEENTITY>

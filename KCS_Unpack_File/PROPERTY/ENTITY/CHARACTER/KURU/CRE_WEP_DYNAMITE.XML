@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Cre_Wep_Dynamite" FILENAME="Cre_Wep_Dynamite.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Kuru_Obj_Dynamite.VS">
+        <PROPERTYBAG NAME="Kuru_Obj_Dynamite" FILENAME="Kuru_Obj_Dynamite.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Cre_Wep_Dynamite_COMMANDS.XML" />
+</GAMEENTITY>

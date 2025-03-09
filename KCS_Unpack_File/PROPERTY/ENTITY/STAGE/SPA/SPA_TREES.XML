@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="13">
+        <PROPERTYBAG NAME="Spa_tree01_r" FILENAME="Spa_tree01_r.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree02_y" FILENAME="Spa_tree02_y.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree03_r" FILENAME="Spa_tree03_r.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree04_r" FILENAME="Spa_tree04_r.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree05_r" FILENAME="Spa_tree05_r.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree06_y" FILENAME="Spa_tree06_y.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree07_r" FILENAME="Spa_tree07_r.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree05_b" FILENAME="Spa_tree05_b.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree04_b" FILENAME="Spa_tree04_b.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree03_b" FILENAME="Spa_tree03_b.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree02_b" FILENAME="Spa_tree02_b.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree01_b" FILENAME="Spa_tree01_b.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_tree08_y" FILENAME="Spa_tree08_y.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Spa_trees_COMMANDS.XML" />
+</GAMEENTITY>

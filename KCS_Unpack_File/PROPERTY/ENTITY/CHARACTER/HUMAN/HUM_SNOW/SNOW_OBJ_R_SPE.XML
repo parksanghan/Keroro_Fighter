@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="snow_obj_R" FILENAME="snow_obj_R.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="5" VSNAME="snow_obj_R.VS">
+        <PROPERTYBAG NAME="Snow_Comb_obj_R_P" FILENAME="Snow_Comb_obj_R_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Snow_Comb_obj_R_PK" FILENAME="Snow_Comb_obj_R_PK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Snow_Comb_obj_R_PP" FILENAME="Snow_Comb_obj_R_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Snow_Comb_obj_R_PPK" FILENAME="Snow_Comb_obj_R_PPK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Snow_Comb_obj_R_PPPP" FILENAME="Snow_Comb_obj_R_PPPP.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Snow_Obj_R_SPE_COMMANDS.XML" />
+</GAMEENTITY>

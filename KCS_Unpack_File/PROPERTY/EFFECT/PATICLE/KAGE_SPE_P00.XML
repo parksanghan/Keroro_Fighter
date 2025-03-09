@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Kage_SPE_P00" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.3" X="10" Y="10" Z="10" />
+            <Property Time="0.5" X="15" Y="15" Z="15" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="255" />
+            <Property Time="0.3" Value="255" />
+            <Property Time="0.4" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="1" Y="1" Z="0" />
+            <Property Time="0.7" X="1" Y="1" Z="0" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Kage_SPE_E01.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="8" Max="10" />
+        <RepeatCount Count="2" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="0.78" />
+        <RegenTime Min="0.05" Max="0.02" />
+        <RotScaleMin X="35" Y="35" Z="0" />
+        <RotScaleMax X="35" Y="35" Z="0" />
+        <RandPosMin X="0" Y="60" Z="0" />
+        <RandPosMax X="0" Y="60" Z="0" />
+        <ComboList RefOrder="5" ScaleType="1" PositionType="0" />
+        <Speed Min="5" Max="30" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0" Y="0" Z="0" />
+        <JetDirMax X="90" Y="0" Z="90" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="7" />
+    </CreaterInfo>
+    <ParticleSequence Count="26">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1" Y="1" Z="1" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2" Y="2" Z="2" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3" Y="3" Z="3" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4" Y="4" Z="4" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5" Y="5" Z="5" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6" Y="6" Z="6" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7" Y="7" Z="7" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8" Y="8" Z="8" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9" Y="9" Z="9" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10" Y="10" Z="10" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.3" Y="10.3" Z="10.3" />
+            <Alpha Value="235.875" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.6" Y="10.6" Z="10.6" />
+            <Alpha Value="216.75" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.9" Y="10.9" Z="10.9" />
+            <Alpha Value="197.625" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.2" Y="11.2" Z="11.2" />
+            <Alpha Value="178.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.5" Y="11.5" Z="11.5" />
+            <Alpha Value="159.375" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.8" Y="11.8" Z="11.8" />
+            <Alpha Value="140.25" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.1" Y="12.1" Z="12.1" />
+            <Alpha Value="121.125" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.4" Y="12.4" Z="12.4" />
+            <Alpha Value="102" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.7" Y="12.7" Z="12.7" />
+            <Alpha Value="82.875" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13" Y="13" Z="13" />
+            <Alpha Value="63.75" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.3" Y="13.3" Z="13.3" />
+            <Alpha Value="44.625" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.6" Y="13.6" Z="13.6" />
+            <Alpha Value="25.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.9" Y="13.9" Z="13.9" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.2" Y="14.2" Z="14.2" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.5" Y="14.5" Z="14.5" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Kage_SPE_E01.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

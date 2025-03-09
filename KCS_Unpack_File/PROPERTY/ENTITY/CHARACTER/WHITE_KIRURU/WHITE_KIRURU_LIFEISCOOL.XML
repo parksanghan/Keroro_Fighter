@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WP_LIFE" FILENAME="WP_Lifeiscool.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="WP_lifeiscool.VS">
+        <PROPERTYBAG NAME="Lifeiscool_OBJ_Com_COMB_P" FILENAME="Lifeiscool_OBJ_Com_COMB_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WhiteKiruru_Obj_Comb_PPK_GUN" FILENAME="WhiteKiruru_Obj_Comb_PPK_GUN.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="9">
+        <PROPERTYBAG NAME="Gan_Comb_JP_E00" FILENAME="Gan_Comb_JP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_JP_E01" FILENAME="Gan_Comb_JP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P_E00" FILENAME="Gan_Comb_P_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P_E01" FILENAME="Gan_Comb_P_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P_E02" FILENAME="Gan_Comb_P_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Gan_Comb_P_E03" FILENAME="Gan_Comb_P_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Hold" FILENAME="Comm_Item_Hold_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Life_Com_JP_E00" FILENAME="Life_Com_JP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Life_Com_P_E00" FILENAME="Life_Com_P_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="White_Kiruru_Lifeiscool_COMMANDS.XML" />
+</GAMEENTITY>

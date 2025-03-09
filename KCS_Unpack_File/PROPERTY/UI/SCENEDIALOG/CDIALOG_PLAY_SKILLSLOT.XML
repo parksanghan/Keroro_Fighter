@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+
+<RootNode>
+	<Dialog>
+		<!--다이얼로그 위치 크기 클라이언트 설정-->
+		<Property Name = "PlaySkillSlotDialog" PosX = "431" PosY = "692" SizeX = "393" SizeY = "69" ClientLeft = "0" ClientTop = "0" ClientRight = "0" ClientBottom = "0" />
+	</Dialog>
+
+	<DialogSkin>
+		<!-- 조이스틱 이미지 땜시 첫번째 스킨이 안나와서 임시 처리.. 나중에 조이스틱 이미지 나오면 수정할것-->
+<!--
+		<Property Index = "0" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+		</Property>
+-->
+		
+		<Property Index = "1" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "453" TextPosY = "409" TextSizeX = "54" TextSizeY = "69" PosX = "0" PosY = "0" SizeX = "54" SizeY = "69" />
+		</Property>
+		<Property Index = "2" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "453" TextPosY = "409" TextSizeX = "54" TextSizeY = "69" PosX = "56" PosY = "0" SizeX = "54" SizeY = "69" />
+		</Property>
+		<Property Index = "3" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "453" TextPosY = "409" TextSizeX = "54" TextSizeY = "69" PosX = "112" PosY = "0" SizeX = "54" SizeY = "69" />
+		</Property>
+		<Property Index = "4" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "453" TextPosY = "409" TextSizeX = "54" TextSizeY = "69" PosX = "168" PosY = "0" SizeX = "54" SizeY = "69" />
+		</Property>
+		<Property Index = "5" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "453" TextPosY = "409" TextSizeX = "54" TextSizeY = "69" PosX = "224" PosY = "0" SizeX = "54" SizeY = "69" />
+		</Property>
+		<!--GetItem-->
+		<Property Index = "6" RenderStyle = "0" Depth = "0.850" Show  ="1">
+			<Element index = "0" TextName = "GUI_gamePlay.tga" TextPosX = "343" TextPosY = "409" TextSizeX = "107" TextSizeY = "69" PosX = "286" PosY = "0" SizeX = "107" SizeY = "69" />
+		</Property>
+	</DialogSkin>
+
+	<!--스킬 슬롯 버튼-->
+	<!--Dialog Control의 좌표는 Dialog Skin의 좌표가 기준 -->
+	<DialogControl>
+		<!--슬롯 1-->
+		<Property Name = "CONTROL_SkillSlot_SLOT1" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--숫자 1-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "397" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+					<!--
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />					
+					-->
+				</Property>	
+			</ControlSkin>
+		</Property>
+		<!--X-->
+		<Property Name = "CONTROL_SkillSlot_SLOT1_Enable" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_SkillSlot_SLOT1_Visible" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_SkillSlot_SLOT1" ClassName = "CKeroroUI_Number" PosX = "25" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_SkillSlot_SLOT1_CoolTime" ClassName = "CKeroroUI_Number" PosX = "5" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+
+		<!--슬롯 2-->
+		<Property Name = "CONTROL_SkillSlot_SLOT2" ClassName = "CKeroroUI_Control" PosX = "56" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--숫자 2-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "412" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>				
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--X-->
+		<Property Name = "CONTROL_SkillSlot_SLOT2_Enable" ClassName = "CKeroroUI_Control" PosX = "56" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_SkillSlot_SLOT2_Visible" ClassName = "CKeroroUI_Control" PosX = "56" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_SkillSlot_SLOT2" ClassName = "CKeroroUI_Number" PosX = "80" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_SkillSlot_SLOT2_CoolTime" ClassName = "CKeroroUI_Number" PosX = "61" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+
+		<!--슬롯 3-->
+		<Property Name = "CONTROL_SkillSlot_SLOT3" ClassName = "CKeroroUI_Control" PosX = "112" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--숫자 3-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "427" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--X-->
+		<Property Name = "CONTROL_SkillSlot_SLOT3_Enable" ClassName = "CKeroroUI_Control" PosX = "112" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_SkillSlot_SLOT3_Visible" ClassName = "CKeroroUI_Control" PosX = "112" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_SkillSlot_SLOT3" ClassName = "CKeroroUI_Number" PosX = "135" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_SkillSlot_SLOT3_CoolTime" ClassName = "CKeroroUI_Number" PosX = "117" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		
+		<!--슬롯 4-->
+		<Property Name = "CONTROL_SkillSlot_SLOT4" ClassName = "CKeroroUI_Control" PosX = "168" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--숫자 4-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "442" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--X-->
+		<Property Name = "CONTROL_SkillSlot_SLOT4_Enable" ClassName = "CKeroroUI_Control" PosX = "168" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_SkillSlot_SLOT4_Visible" ClassName = "CKeroroUI_Control" PosX = "168" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_SkillSlot_SLOT4" ClassName = "CKeroroUI_Number" PosX = "193" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_SkillSlot_SLOT4_CoolTime" ClassName = "CKeroroUI_Number" PosX = "173" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+
+		<!--슬롯 5-->
+		<Property Name = "CONTROL_SkillSlot_SLOT5" ClassName = "CKeroroUI_Control" PosX = "224" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--숫자 5-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "457" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>
+				<!-- Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SkillIcon_Power.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--X-->
+		<Property Name = "CONTROL_SkillSlot_SLOT5_Enable" ClassName = "CKeroroUI_Control" PosX = "224" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+					<!-- ControlState
+						STATE_NORMAL = 0,
+						STATE_DISABLED,
+						STATE_MOUSEOVER,
+						STATE_PRESSED,
+						STATE_DRAG,
+						STATE_DRAP
+					-->
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_SkillSlot_SLOT5_Visible" ClassName = "CKeroroUI_Control" PosX = "224" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.839" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>			
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_SkillSlot_SLOT5" ClassName = "CKeroroUI_Number" PosX = "249" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_SkillSlot_SLOT5_CoolTime" ClassName = "CKeroroUI_Number" PosX = "229" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+
+		<!-- GetItem-->
+		<Property Name = "CONTROL_SkillSlot_SLOT6" ClassName = "CKeroroUI_Control" PosX = "286" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<!--f-->
+				<Property Index = "0" RenderSytle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "472" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--X-->
+		<Property Name = "CONTROL_SkillSlot_SLOT6_Enable" ClassName = "CKeroroUI_Control" PosX = "286" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "CONTROL_SkillSlot_SLOT7" ClassName = "CKeroroUI_Control" PosX = "339" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<!--f-->
+				<Property Index = "0" RenderSytle = "0" Depth = "0.500" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "472" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15" />
+				</Property>
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--X-->
+		<Property Name = "CONTROL_SkillSlot_SLOT7_Enable" ClassName = "CKeroroUI_Control" PosX = "339" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.845" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+
+		<!--skill use count-->
+		<!--Skill SLot1-->
+		<!--skill Use Count 1-->
+		<Property Name = "CONTROL_SkillSlot_SLOT1_Count1" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 2-->
+		<Property Name = "CONTROL_SkillSlot_SLOT1_Count2" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 3-->
+		<Property Name = "CONTROL_SkillSlot_SLOT1_Count3" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--Skill SLot2-->
+		<!--skill Use Count 1-->
+		<Property Name = "CONTROL_SkillSlot_SLOT2_Count1" ClassName = "CKeroroUI_Control" PosX = "56" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 2-->
+		<Property Name = "CONTROL_SkillSlot_SLOT2_Count2" ClassName = "CKeroroUI_Control" PosX = "56" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 3-->
+		<Property Name = "CONTROL_SkillSlot_SLOT2_Count3" ClassName = "CKeroroUI_Control" PosX = "56" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--Skill SLot3-->
+		<!--skill Use Count 1-->
+		<Property Name = "CONTROL_SkillSlot_SLOT3_Count1" ClassName = "CKeroroUI_Control" PosX = "112" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 2-->
+		<Property Name = "CONTROL_SkillSlot_SLOT3_Count2" ClassName = "CKeroroUI_Control" PosX = "112" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 3-->
+		<Property Name = "CONTROL_SkillSlot_SLOT3_Count3" ClassName = "CKeroroUI_Control" PosX = "112" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--Skill SLot4-->
+		<!--skill Use Count 1-->
+		<Property Name = "CONTROL_SkillSlot_SLOT4_Count1" ClassName = "CKeroroUI_Control" PosX = "168" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 2-->
+		<Property Name = "CONTROL_SkillSlot_SLOT4_Count2" ClassName = "CKeroroUI_Control" PosX = "168" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 3-->
+		<Property Name = "CONTROL_SkillSlot_SLOT4_Count3" ClassName = "CKeroroUI_Control" PosX = "168" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!--Skill SLot5-->
+		<!--skill Use Count 1-->
+		<Property Name = "CONTROL_SkillSlot_SLOT5_Count1" ClassName = "CKeroroUI_Control" PosX = "224" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "5" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 2-->
+		<Property Name = "CONTROL_SkillSlot_SLOT5_Count2" ClassName = "CKeroroUI_Control" PosX = "224" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "17" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--skill Use Count 3-->
+		<Property Name = "CONTROL_SkillSlot_SLOT5_Count3" ClassName = "CKeroroUI_Control" PosX = "224" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.840" Show = "1">
+					<!--Disable-->
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "498" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+					<!--Enable-->
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "486" TextPosY = "481" TextSizeX = "10" TextSizeY = "10" PosX = "29" PosY = "55" SizeX = "10" SizeY = "10" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<!-- JoyStick -->
+		<Property Name = "CONTROL_SkillSlot_JoystickCurSor" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "1">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.830" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "396" TextPosY = "701" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+				</Property>
+			</ControlSkin>
+		</Property>
+	</DialogControl>	
+</RootNode>

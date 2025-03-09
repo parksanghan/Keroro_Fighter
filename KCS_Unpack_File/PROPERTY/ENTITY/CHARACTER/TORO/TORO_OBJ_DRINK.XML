@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Toro_Cock" FILENAME="Toro_Obj_Cock.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Toru_Obj_Drink.VS">
+        <PROPERTYBAG NAME="Toru_Jump_p_Obj_Drink" FILENAME="Toru_Jump_p_Obj_Drink.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_SPE_Obj_Drink" FILENAME="Toru_SPE_Obj_Drink.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_idle01_Obj_Drink" FILENAME="Toru_idle01_Obj_Drink.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_kkp_Obj_Drink" FILENAME="Toru_kkp_Obj_Drink.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Toro_Obj_Drink_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="KURURU_ROBOT" FILENAME="Kuru_Obj_Antenna.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Kuru_Aniob_Antenna.VS">
+        <PROPERTYBAG NAME="ROBOT" FILENAME="Kuru_Obj_Antenna.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="KURU_SPE" FILENAME="Char_Kuru_SpeAtk_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kuru_Aniob_Antenna_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Hum_TR_Control" FILENAME="Hum_TR_Control.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="17" VSNAME="TR_Flyingball.VS">
+        <PROPERTYBAG NAME="OBJ_CALL_END" FILENAME="TR_Flyingball_Obj_Call_End.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_CALL_START" FILENAME="TR_Flyingball_Obj_Call_Start.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_COMBAT_WAIT" FILENAME="TR_Flyingball_Obj_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_COMB_K" FILENAME="TR_Flyingball_Obj_Comb_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_COMB_P" FILENAME="TR_Flyingball_Obj_Comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_DASH_01" FILENAME="TR_Flyingball_Obj_Dash_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_DASH_02" FILENAME="TR_Flyingball_Obj_Dash_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_DASH_K" FILENAME="TR_Flyingball_Obj_Dash_K_R.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_IDLE_01" FILENAME="TR_Flyingball_Obj_IDLE_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_JUMP_DOWN" FILENAME="TR_Flyingball_Obj_Jump_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_JUMP_K" FILENAME="TR_Flyingball_Obj_Jump_K_R.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_JUMP_LAND" FILENAME="TR_Flyingball_Obj_Jump_Land.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_JUMP_ONCE" FILENAME="TR_Flyingball_Obj_Jump_Once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_JUMP_P" FILENAME="TR_Flyingball_Obj_Jump_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_JUMP_TWICE" FILENAME="TR_Flyingball_Obj_Jump_Twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_JUMP_UP" FILENAME="TR_Flyingball_Obj_Jump_Up.VA" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ_MOVE_STOP" FILENAME="TR_Flyingball_Obj_Move_Stop.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="TR_Control_Right_COMMANDS.XML" />
+</GAMEENTITY>

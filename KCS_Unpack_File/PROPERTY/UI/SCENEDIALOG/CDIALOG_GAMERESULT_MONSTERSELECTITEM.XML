@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="89" PosY="177" SizeX="873" SizeY="323" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.600" Show="1"> <!-- 전체 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="513" TextPosY="358" TextSizeX="8" TextSizeY="323" PosX="33" PosY="0" SizeX="808" SizeY="323" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="479" TextPosY="358" TextSizeX="33" TextSizeY="323" PosX="0" PosY="0" SizeX="33" SizeY="323" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="522" TextPosY="358" TextSizeX="33" TextSizeY="323" PosX="840" PosY="0" SizeX="33" SizeY="323" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.599" Show="1"> <!-- Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="300" TextPosY="803" TextSizeX="110" TextSizeY="22" PosX="383" PosY="16" SizeX="110" SizeY="22" />
+        </Property>
+
+        <Property Index="2" RenderStyle="1" Depth="0.598" Show="1"> <!-- 선택 목록 1 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="576" TextPosY="358" TextSizeX="10" TextSizeY="165" PosX="32" PosY="56" SizeX="109" SizeY="165" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="560" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="17" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="587" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="141" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="3" RenderStyle="1" Depth="0.598" Show="1"> <!-- 선택 목록 2 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="576" TextPosY="358" TextSizeX="10" TextSizeY="165" PosX="172" PosY="56" SizeX="109" SizeY="165" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="560" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="157" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="587" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="281" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="4" RenderStyle="1" Depth="0.598" Show="1"> <!-- 선택 목록 3 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="576" TextPosY="358" TextSizeX="10" TextSizeY="165" PosX="312" PosY="56" SizeX="109" SizeY="165" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="560" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="297" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="587" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="421" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="5" RenderStyle="1" Depth="0.598" Show="1"> <!-- 선택 목록 4 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="576" TextPosY="358" TextSizeX="10" TextSizeY="165" PosX="452" PosY="56" SizeX="109" SizeY="165" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="560" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="437" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="587" sTextPosY="358" TextSizeX="15" TextSizeY="165" PosX="561" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="6" RenderStyle="1" Depth="0.598" Show="1"> <!-- 선택 목록 5 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="576" TextPosY="358" TextSizeX="10" TextSizeY="165" PosX="592" PosY="56" SizeX="109" SizeY="165" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="560" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="577" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="587" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="701" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="7" RenderStyle="1" Depth="0.598" Show="1"> <!-- 선택 목록 6 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="576" TextPosY="358" TextSizeX="10" TextSizeY="165" PosX="732" PosY="56" SizeX="109" SizeY="165" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="560" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="717" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="587" TextPosY="358" TextSizeX="15" TextSizeY="165" PosX="841" PosY="56" SizeX="15" SizeY="165" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+
+        <Property Index="7" RenderStyle="0" Depth="0.590" Show="1"> <!-- 설명 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="632" TextPosY="1004" TextSizeX="350" TextSizeY="12" PosX="226" PosY="290" SizeX="350" SizeY="12" />
+        </Property>
+
+        <Property Index="8" RenderStyle="0" Depth="0.708" Show="1"> <!-- 전체 뒷 배경 검은색 Texture 처리 -->
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-89" PosY="-177" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+
+<!--START - 선택 버튼 -->
+        <Property Name="Select1_Button" ClassName="CKeroroUI_Button" PosX="48" PosY="231" SizeX="77" SizeY="38" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="183" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="230" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select2_Button" ClassName="CKeroroUI_Button" PosX="188" PosY="231" SizeX="77" SizeY="38" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="183" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="230" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select3_Button" ClassName="CKeroroUI_Button" PosX="328" PosY="231" SizeX="77" SizeY="38" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="183" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="230" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select4_Button" ClassName="CKeroroUI_Button" PosX="468" PosY="231" SizeX="77" SizeY="38" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="183" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="230" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select5_Button" ClassName="CKeroroUI_Button" PosX="608" PosY="231" SizeX="77" SizeY="38" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="183" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="230" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Select6_Button" ClassName="CKeroroUI_Button" PosX="748" PosY="231" SizeX="77" SizeY="38" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="183" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="230" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="210" TextPosY="277" TextSizeX="77" TextSizeY="38" PosX="0" PosY="0" SizeX="77" SizeY="38" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - 선택 버튼 -->
+
+
+
+<!--START - 아이템 정보  -->
+        <Property Name="SelectItem_STATIC_Slot1_ItemName" ClassName="CKeroroUI_Static" PosX="87" PosY="64" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemName1_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot1_ItemInfo" ClassName="CKeroroUI_Static" PosX="87" PosY="195" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemInfo1_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot1_Item" ClassName="CKeroroUI_Button" PosX="27" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function.tga" TextPosX="645" TextPosY="341" TextSizeX="117" TextSizeY="88" PosX="1" PosY="9" SizeX="117" SizeY="88" />
+                </Property> 
+            </ControlSkin>
+        </Property>
+
+        <Property Name="SelectItem_STATIC_Slot2_ItemName" ClassName="CKeroroUI_Static" PosX="227" PosY="64" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemName2_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot2_ItemInfo" ClassName="CKeroroUI_Static" PosX="227" PosY="195" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemInfo2_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot2_Item" ClassName="CKeroroUI_Button" PosX="167" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function.tga" TextPosX="645" TextPosY="341" TextSizeX="117" TextSizeY="88" PosX="1" PosY="9" SizeX="117" SizeY="88" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="SelectItem_STATIC_Slot3_ItemName" ClassName="CKeroroUI_Static" PosX="367" PosY="64" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemName3_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot3_ItemInfo" ClassName="CKeroroUI_Static" PosX="367" PosY="195" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemInfo3_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot3_Item" ClassName="CKeroroUI_Button" PosX="307" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function.tga" TextPosX="645" TextPosY="341" TextSizeX="117" TextSizeY="88" PosX="1" PosY="9" SizeX="117" SizeY="88" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="SelectItem_STATIC_Slot4_ItemName" ClassName="CKeroroUI_Static" PosX="507" PosY="64" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemName4_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>        
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot4_ItemInfo" ClassName="CKeroroUI_Static" PosX="507" PosY="195" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemInfo4_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot4_Item" ClassName="CKeroroUI_Button" PosX="447" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function.tga" TextPosX="645" TextPosY="341" TextSizeX="117" TextSizeY="88" PosX="1" PosY="9" SizeX="117" SizeY="88" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="SelectItem_STATIC_Slot5_ItemName" ClassName="CKeroroUI_Static" PosX="647" PosY="64" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemName5_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot5_ItemInfo" ClassName="CKeroroUI_Static" PosX="647" PosY="195" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemInfo5_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot5_Item" ClassName="CKeroroUI_Button" PosX="587" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function.tga" TextPosX="645" TextPosY="341" TextSizeX="117" TextSizeY="88" PosX="1" PosY="9" SizeX="117" SizeY="88" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="SelectItem_STATIC_Slot6_ItemName" ClassName="CKeroroUI_Static" PosX="787" PosY="64" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemName6_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_STATIC_Slot6_ItemInfo" ClassName="CKeroroUI_Static" PosX="787" PosY="195" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+	<FontSkin>
+                <Property FontText="?" FontDepth="0.589" FontTextureName="SelectItemInfo6_STATIC_Texture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="SelectItem_BUTTON_Slot6_Item" ClassName="CKeroroUI_Button" PosX="727" PosY="82" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.589" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function.tga" TextPosX="645" TextPosY="341" TextSizeX="117" TextSizeY="88" PosX="1" PosY="9" SizeX="117" SizeY="88" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - 아이템 정보  -->
+
+<!-- 회색바탕 넘이 선택한것. -->
+        <Property Name="Button_Shadow1" ClassName="CKeroroUI_Button" PosX="17" PosY="55" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="1" RenderStyle="1" Depth="0.595" Show="0">
+     	  		<Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="670" TextPosY="457" TextSizeX="1" TextSizeY="1" PosX="16" PosY="16" SizeX="107" SizeY="133" />
+            		<Element index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+            		<Element index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="433" TextSizeX="1" TextSizeY="16" PosX="16" PosY="0" SizeX="107" SizeY="16" />
+            		<Element index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="123" PosY="0" SizeX="16" SizeY="16" />
+	    		<Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="0" PosY="16" SizeX="16" SizeY="133" />
+	    		<Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="123" PosY="16" SizeX="16" SizeY="133" />
+           		<Element index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="149" SizeX="16" SizeY="16" />
+            		<Element index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="467" TextSizeX="1" TextSizeY="16" PosX="16" PosY="149" SizeX="107" SizeY="16" />
+            		<Element index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="123" PosY="149" SizeX="16" SizeY="16" />
+         	</Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Shadow2" ClassName="CKeroroUI_Button" PosX="157" PosY="55" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="1" RenderStyle="1" Depth="0.595" Show="0">
+        		<Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="670" TextPosY="457" TextSizeX="1" TextSizeY="1" PosX="16" PosY="16" SizeX="107" SizeY="133" />
+            		<Element index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+            		<Element index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="433" TextSizeX="1" TextSizeY="16" PosX="16" PosY="0" SizeX="107" SizeY="16" />
+            		<Element index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="123" PosY="0" SizeX="16" SizeY="16" />
+	    		<Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="0" PosY="16" SizeX="16" SizeY="133" />
+	    		<Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="123" PosY="16" SizeX="16" SizeY="133" />
+            		<Element index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="149" SizeX="16" SizeY="16" />
+            		<Element index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="467" TextSizeX="1" TextSizeY="16" PosX="16" PosY="149" SizeX="107" SizeY="16" />
+            		<Element index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="123" PosY="149" SizeX="16" SizeY="16" />
+         	</Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Shadow3" ClassName="CKeroroUI_Button" PosX="297" PosY="55" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="1" RenderStyle="1" Depth="0.595" Show="0">
+        		<Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="670" TextPosY="457" TextSizeX="1" TextSizeY="1" PosX="16" PosY="16" SizeX="107" SizeY="133" />
+            		<Element index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+            		<Element index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="433" TextSizeX="1" TextSizeY="16" PosX="16" PosY="0" SizeX="107" SizeY="16" />
+            		<Element index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="123" PosY="0" SizeX="16" SizeY="16" />
+	    		<Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="0" PosY="16" SizeX="16" SizeY="133" />
+	    		<Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="123" PosY="16" SizeX="16" SizeY="133" />
+            		<Element index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="149" SizeX="16" SizeY="16" />
+            		<Element index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="467" TextSizeX="1" TextSizeY="16" PosX="16" PosY="149" SizeX="107" SizeY="16" />
+            		<Element index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="123" PosY="149" SizeX="16" SizeY="16" />
+         	</Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Shadow4" ClassName="CKeroroUI_Button" PosX="437" PosY="55" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="1" RenderStyle="1" Depth="0.595" Show="0">
+        		<Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="670" TextPosY="457" TextSizeX="1" TextSizeY="1" PosX="16" PosY="16" SizeX="107" SizeY="133" />
+            		<Element index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+            		<Element index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="433" TextSizeX="1" TextSizeY="16" PosX="16" PosY="0" SizeX="107" SizeY="16" />
+            		<Element index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="123" PosY="0" SizeX="16" SizeY="16" />
+	    		<Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="0" PosY="16" SizeX="16" SizeY="133" />
+	    		<Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="123" PosY="16" SizeX="16" SizeY="133" />
+            		<Element index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="149" SizeX="16" SizeY="16" />
+            		<Element index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="467" TextSizeX="1" TextSizeY="16" PosX="16" PosY="149" SizeX="107" SizeY="16" />
+            		<Element index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="123" PosY="149" SizeX="16" SizeY="16" />
+         	</Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Shadow5" ClassName="CKeroroUI_Button" PosX="577" PosY="55" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="1" RenderStyle="1" Depth="0.595" Show="0">
+        		<Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="670" TextPosY="457" TextSizeX="1" TextSizeY="1" PosX="16" PosY="16" SizeX="107" SizeY="133" />
+            		<Element index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+            		<Element index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="433" TextSizeX="1" TextSizeY="16" PosX="16" PosY="0" SizeX="107" SizeY="16" />
+            		<Element index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="123" PosY="0" SizeX="16" SizeY="16" />
+	    		<Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="0" PosY="16" SizeX="16" SizeY="133" />
+	    		<Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="123" PosY="16" SizeX="16" SizeY="133" />
+            		<Element index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="149" SizeX="16" SizeY="16" />
+            		<Element index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="467" TextSizeX="1" TextSizeY="16" PosX="16" PosY="149" SizeX="107" SizeY="16" />
+            		<Element index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="123" PosY="149" SizeX="16" SizeY="16" />
+         	</Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Shadow6" ClassName="CKeroroUI_Button" PosX="717" PosY="55" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="1" RenderStyle="1" Depth="0.595" Show="0">
+        		<Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="670" TextPosY="457" TextSizeX="1" TextSizeY="1" PosX="16" PosY="16" SizeX="107" SizeY="133" />
+            		<Element index="1" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="0" PosY="0" SizeX="16" SizeY="16" />
+            		<Element index="2" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="433" TextSizeX="1" TextSizeY="16" PosX="16" PosY="0" SizeX="107" SizeY="16" />
+            		<Element index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="433" TextSizeX="16" TextSizeY="16" PosX="123" PosY="0" SizeX="16" SizeY="16" />
+	    		<Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="0" PosY="16" SizeX="16" SizeY="133" />
+	    		<Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="457" TextSizeX="16" TextSizeY="1" PosX="123" PosY="16" SizeX="16" SizeY="133" />
+            		<Element index="6" TextName="GUI_Inventory&amp;info.TGA" TextPosX="646" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="0" PosY="149" SizeX="16" SizeY="16" />
+            		<Element index="7" TextName="GUI_Inventory&amp;info.TGA" TextPosX="671" TextPosY="467" TextSizeX="1" TextSizeY="16" PosX="16" PosY="149" SizeX="107" SizeY="16" />
+            		<Element index="8" TextName="GUI_Inventory&amp;info.TGA" TextPosX="680" TextPosY="467" TextSizeX="16" TextSizeY="16" PosX="123" PosY="149" SizeX="16" SizeY="16" />
+         	</Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="SelectItem_STATIC_cnt" ClassName="CKeroroUI_Static" PosX="424" PosY="290" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="20" FontDepth="0.589" FontTextureName="SelectItem_STATIC_cntTexture" FontSize="12" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

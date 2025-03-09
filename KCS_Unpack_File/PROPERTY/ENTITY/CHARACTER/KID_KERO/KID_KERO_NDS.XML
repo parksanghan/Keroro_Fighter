@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="KidKero_obj_NDS" FILENAME="KidKero_obj_NDS.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Kid_obj_NDS.VS">
+        <PROPERTYBAG NAME="KidDoro_obj_Room_IDLE" FILENAME="KidDoro_obj_Room_IDLE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="KidKero_obj_IDLE_01" FILENAME="KidKero_obj_IDLE_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="KidKero_obj_IDLE_02" FILENAME="KidKero_obj_IDLE_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kid_Kero_NDS_COMMANDS.XML" />
+</GAMEENTITY>

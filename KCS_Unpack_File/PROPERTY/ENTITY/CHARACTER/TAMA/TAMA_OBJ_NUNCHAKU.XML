@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="TAMA_NUNCHAKU" FILENAME="Tama_Obj_NunChaku.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Tama_Obj_Nunchaku.VS">
+        <PROPERTYBAG NAME="Kara_Obj_Nunchaku" FILENAME="Kara_Obj_Nunchaku.VA" COMMENT="" />
+        <PROPERTYBAG NAME="TAMA_KKP" FILENAME="Tama_Obj_Nunchaku_KKP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="TAMA_PKK" FILENAME="Tama_Obj_Nunchaku_PKK.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Tama_Obj_Nunchaku_COMMANDS.XML" />
+</GAMEENTITY>

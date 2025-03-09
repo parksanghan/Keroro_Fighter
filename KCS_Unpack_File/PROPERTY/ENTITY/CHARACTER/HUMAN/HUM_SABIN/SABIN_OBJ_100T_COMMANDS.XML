@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_KKP" LOOP="0" TOTALTIME="1.13">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Obj_Comb_KKP_100t" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Obj_Comb_KKP_100t" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_KKPP" LOOP="0" TOTALTIME="1.3">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Obj_Comb_KKPP_100t" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Obj_Comb_KKPP_100t" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

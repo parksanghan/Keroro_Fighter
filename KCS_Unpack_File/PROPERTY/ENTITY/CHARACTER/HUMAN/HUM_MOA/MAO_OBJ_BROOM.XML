@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Mao_Obj_Broom" FILENAME="Moa_obj_broom.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Moa_obj_broom.VS">
+        <PROPERTYBAG NAME="Moa_obj_Comb_PP" FILENAME="Moa_obj_Comb_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Moa_obj_Comb_PPK" FILENAME="Moa_obj_Comb_PPK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Moa_obj_Comb_PPP" FILENAME="Moa_obj_Comb_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Moa_obj_IDLE01" FILENAME="Moa_obj_IDLE01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Mao_Obj_Broom_COMMANDS.XML" />
+</GAMEENTITY>

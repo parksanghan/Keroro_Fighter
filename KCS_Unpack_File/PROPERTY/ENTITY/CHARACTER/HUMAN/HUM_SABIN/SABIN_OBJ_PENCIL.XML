@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sabin_OBJ_PENCIL" FILENAME="Sabin_OBJ_PENCIL.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="10" VSNAME="Sabin_Obj_Pencil.VS">
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KK_PENCIL" FILENAME="Sabin_Obj_Comb_KK_PENCIL.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KPPPP_PENCIL" FILENAME="Sabin_Obj_Comb_KPPPP_PENCIL.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_K_PENCIL" FILENAME="Sabin_Obj_Comb_K_PENCIL.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_PK_Pencil" FILENAME="Sabin_Obj_Comb_PK_Pencil.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_ESC_01_Pencil" FILENAME="Sabin_Obj_ESC_01_Pencil.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_IDLE_01_Pencil" FILENAME="Sabin_Obj_IDLE_01_Pencil.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_01_Pencil" FILENAME="Sabin_Obj_SPE_01_Pencil.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_02_Pencil" FILENAME="Sabin_Obj_SPE_02_Pencil.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_03_Pencil" FILENAME="Sabin_Obj_SPE_03_Pencil.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Win_Pencil" FILENAME="Sabin_Obj_Win_Pencil.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sabin_Obj_Pencil_COMMANDS.XML" />
+</GAMEENTITY>

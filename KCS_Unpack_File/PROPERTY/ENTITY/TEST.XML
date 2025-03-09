@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="58">
+        <PROPERTYBAG NAME="sd" FILENAME="orion_stage01_adobject01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="2" FILENAME="orion_stage01_adobject02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="3" FILENAME="orion_stage01_barricade.xml" COMMENT="" />
+        <PROPERTYBAG NAME="4" FILENAME="Orion_stage01_dawnlight_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="5" FILENAME="Orion_stage01_dawnlight_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="6" FILENAME="Orion_stage01_dawnlight_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="7" FILENAME="Orion_stage01_dawnlight_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="8" FILENAME="Orion_stage01_dawnlightda.xml" COMMENT="" />
+        <PROPERTYBAG NAME="9" FILENAME="orion_stage01_floor01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qw" FILENAME="orion_stage01_floor02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qwqw" FILENAME="orion_stage01_floor03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="asds" FILENAME="orion_stage01_floor02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="sdasdas" FILENAME="orion_stage01_floor04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="asdad" FILENAME="Orion_stage01_gorae.xml" COMMENT="" />
+        <PROPERTYBAG NAME="sadd" FILENAME="Orion_stage01_light_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ew" FILENAME="Orion_stage01_light_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="ewrer" FILENAME="Orion_stage01_light_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qwewe" FILENAME="Orion_stage01_light_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="rgr" FILENAME="Orion_stage01_light_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="gdfg" FILENAME="Orion_stage01_light_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="asdas" FILENAME="Orion_stage01_light_06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="sadad" FILENAME="Orion_stage01_light_07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="sdfdsf" FILENAME="Orion_stage01_light_08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="asdasd" FILENAME="Orion_stage01_light_09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qq2qq" FILENAME="Orion_stage01_light_09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="aaaa" FILENAME="Orion_stage01_light_10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="adssd" FILENAME="Orion_stage01_light_11.xml" COMMENT="" />
+        <PROPERTYBAG NAME="sdsad" FILENAME="Orion_stage01_light_12.xml" COMMENT="" />
+        <PROPERTYBAG NAME="asdsa" FILENAME="Orion_stage01_octopus.xml" COMMENT="" />
+        <PROPERTYBAG NAME="11111" FILENAME="Orion_stage01_octopus_eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qweqw" FILENAME="Orion_stage01_placard_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="1" FILENAME="Orion_stage01_placard_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_stage01_placard_03" FILENAME="Orion_stage01_placard_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_stage01_placard_04" FILENAME="Orion_stage01_placard_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_rail01" FILENAME="orion_stage01_rail01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_rail" FILENAME="orion_stage01_rail.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_shadow01" FILENAME="orion_stage01_shadow01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_shadow02" FILENAME="orion_stage01_shadow02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="orion_stage01_sign01" FILENAME="orion_stage01_sign01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_stage01_toplight_01" FILENAME="Orion_stage01_toplight_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="13" FILENAME="Orion_stage01_toplight_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_stage01_toplight_012q" FILENAME="Orion_stage01_toplight_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_stage01_toplight_01rwe" FILENAME="Orion_stage01_toplight_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_stage01_toplight_01ertr" FILENAME="Orion_stage01_toplight_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="awe" FILENAME="Orion_stage01_toplight_06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_stage01_toplight_014e35t4" FILENAME="Orion_stage01_toplight_07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="werwerwere" FILENAME="Orion_stage01_toplight_08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="sadwsd" FILENAME="Orion_stage_01_MD_center.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qweqwe" FILENAME="Orion_stage_01_MD_centerhead.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qweqweqwe" FILENAME="Orion_stage_01_MD_centerpunch.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qwewq" FILENAME="Orion_stage_01_speaker_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qwewqe" FILENAME="Orion_stage_01_speaker_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="2ewqweq" FILENAME="Orion_stage_01_speaker_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="245325rwefd" FILENAME="Orion_stage_01_speaker_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="qssda" FILENAME="Orion_stage_01_tunis_left.xml" COMMENT="" />
+        <PROPERTYBAG NAME="wqsa" FILENAME="Orion_stage_01_tunis_left_hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="234rewrf" FILENAME="Orion_stage_01_tunis_right.xml" COMMENT="" />
+        <PROPERTYBAG NAME="asdsads" FILENAME="Orion_stage_01_tunis_right_hand.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="" />
+</GAMEENTITY>

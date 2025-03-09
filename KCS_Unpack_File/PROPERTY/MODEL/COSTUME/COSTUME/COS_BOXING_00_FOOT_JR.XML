@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Cos_boxing_0001_Foot.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Cos_boxing_00_Foot_Jr.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.80" />
+            <Property name="ColorR" value="0.145098" />
+            <Property name="ColorG" value="0.270588" />
+            <Property name="ColorB" value="0.0666667" />
+            <Property name="ColorA" value="1" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

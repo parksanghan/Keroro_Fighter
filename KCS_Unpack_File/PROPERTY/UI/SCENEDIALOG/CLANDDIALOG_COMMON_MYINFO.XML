@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="165" PosY="43" SizeX="666" SizeY="612" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.700" Show="1">
+            <Element index="0" TextName="kt_ui_MyInfo.tga" TextPosX="0" TextPosY="0" TextSizeX="666" TextSizeY="612" PosX="0" PosY="0" SizeX="666" SizeY="612" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.707" Show="0">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-165" PosY="-143" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="MyInfoDone" ClassName="CKeroroUI_Button" PosX="303" PosY="568" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="80" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="140" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="110" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="140" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="MyInfoClose" ClassName="CKeroroUI_Button" PosX="626" PosY="13" SizeX="22" SizeY="21" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="14" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="58" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="36" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_MyInfo.tga" TextPosX="670" TextPosY="58" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="MyInfo_OffStatic" ClassName="CKeroroUI_Static" PosX="-113" PosY="-133" SizeX="81" SizeY="53" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.600" Show="1">
+                    <Element ControlState="0" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="512" TextSizeY="512" PosX="0" PosY="0" SizeX="512" SizeY="512" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="MyInfo_MyNickName" ClassName="CKeroroUI_Static" PosX="401" PosY="65" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="영기로공" FontDepth="0.660" FontTextureName="영기로공MyNickName" FontSize="14" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="MyInfo_MyGrade" ClassName="CKeroroUI_Static" PosX="401" PosY="105" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="훈련병" FontDepth="0.660" FontTextureName="영기로공MyGrade" FontSize="14" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="MyInfo_MyExp" ClassName="CKeroroUI_Static" PosX="401" PosY="145" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="14 " FontDepth="0.660" FontTextureName="영기로공MyExp" FontSize="14" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="MyInfo_MyRecord" ClassName="CKeroroUI_Static" PosX="401" PosY="185" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="4전 0승 4패" FontDepth="0.660" FontTextureName="영기로공MyRecord" FontSize="14" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="MyInfo_MyKillCount" ClassName="CKeroroUI_Static" PosX="401" PosY="225" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="0 킬" FontDepth="0.660" FontTextureName="영기로공MyKillCount" FontSize="14" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="MyInfo_MyDeathCount" ClassName="CKeroroUI_Static" PosX="401" PosY="265" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="0 데스" FontDepth="0.660" FontTextureName="영기로공MyDeathCount" FontSize="14" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="MyInfo_MySerRate" ClassName="CKeroroUI_Static" PosX="401" PosY="346" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="0.00%%" FontDepth="0.660" FontTextureName="영기로공MySerRate" FontSize="14" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="MyInfo_Button_GetItem" ClassName="CKeroroUI_Button" PosX="515" PosY="102" SizeX="88" SizeY="33" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_MyInfo.tga" TextPosX="764" TextPosY="114" TextSizeX="88" TextSizeY="33" PosX="0" PosY="0" SizeX="88" SizeY="33" />
+	      <Element ControlState="1" index="0" TextName="GUI_MyInfo.tga" TextPosX="764" TextPosY="80" TextSizeX="88" TextSizeY="33" PosX="0" PosY="0" SizeX="88" SizeY="33" />
+	      <Element ControlState="2" index="0" TextName="GUI_MyInfo.tga" TextPosX="764" TextPosY="148" TextSizeX="88" TextSizeY="33" PosX="0" PosY="0" SizeX="88" SizeY="33" />
+	      <Element ControlState="3" index="0" TextName="GUI_MyInfo.tga" TextPosX="764" TextPosY="182" TextSizeX="88" TextSizeY="33" PosX="0" PosY="0" SizeX="88" SizeY="33" />	
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

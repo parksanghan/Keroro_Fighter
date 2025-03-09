@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<STAGE>
+    <OBJECT>
+        <OBJECTINFO NAME="Orion_stage_09_map.xml" FILENAME="Orion_stage_09_map.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_sign02_2.xml" FILENAME="Orion_stage01_sign02_2.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="orion_stage01_adobject03.xml" FILENAME="orion_stage01_adobject03.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_dawnlightda.xml" FILENAME="Orion_stage01_dawnlightda.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="orion_stage01_floor04.xml" FILENAME="orion_stage01_floor04.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_gorae.xml" FILENAME="Orion_stage01_gorae.xml" POSX="0.000000" POSY="-310.000000" POSZ="272.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_octopus.xml" FILENAME="Orion_stage01_octopus.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_octopus_eye.xml" FILENAME="Orion_stage01_octopus_eye.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_placard_01.xml" FILENAME="Orion_stage01_placard_01.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_placard_02.xml" FILENAME="Orion_stage01_placard_02.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_placard_03.xml" FILENAME="Orion_stage01_placard_03.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_placard_04.xml" FILENAME="Orion_stage01_placard_04.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_popcorn.xml" FILENAME="Orion_stage01_popcorn.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="orion_stage01_shadow01.xml" FILENAME="orion_stage01_shadow01.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="orion_stage01_shadow02.xml" FILENAME="orion_stage01_shadow02.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_MD_centerhead.xml" FILENAME="Orion_stage_01_MD_centerhead.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_MD_centerpunch.xml" FILENAME="Orion_stage_01_MD_centerpunch.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_speaker_01.xml" FILENAME="Orion_stage_01_speaker_01.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_speaker_02.xml" FILENAME="Orion_stage_01_speaker_02.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_speaker_03.xml" FILENAME="Orion_stage_01_speaker_03.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_speaker_04.xml" FILENAME="Orion_stage_01_speaker_04.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="orion_stage_01_tunis_left.xml" FILENAME="orion_stage_01_tunis_left.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_tunis_right.xml" FILENAME="Orion_stage_01_tunis_right.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_raill_back.xml" FILENAME="Orion_stage01_raill_back.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_raill_front.xml" FILENAME="Orion_stage01_raill_front.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_raill_right.xml" FILENAME="Orion_stage01_raill_right.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_raill_left.xml" FILENAME="Orion_stage01_raill_left.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_flag.xml" FILENAME="Orion_stage01_flag.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_01.xml" FILENAME="Orion_stage_stand_01.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_02.xml" FILENAME="Orion_stage_stand_02.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_03.xml" FILENAME="Orion_stage_stand_03.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_04.xml" FILENAME="Orion_stage_stand_04.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_05.xml" FILENAME="Orion_stage_stand_05.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_06.xml" FILENAME="Orion_stage_stand_06.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_shadow_01.xml" FILENAME="Orion_stage_stand_shadow_01.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_stand_shadow_02.xml" FILENAME="Orion_stage_stand_shadow_02.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_dawnlight_01.xml" FILENAME="Orion_stage01_dawnlight_01.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_dawnlight_02.xml" FILENAME="Orion_stage01_dawnlight_02.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_dawnlight_03.xml" FILENAME="Orion_stage01_dawnlight_03.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_dawnlight_04.xml" FILENAME="Orion_stage01_dawnlight_04.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_01.xml" FILENAME="Orion_stage01_toplight_01.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_02.xml" FILENAME="Orion_stage01_toplight_02.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_03.xml" FILENAME="Orion_stage01_toplight_03.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_04.xml" FILENAME="Orion_stage01_toplight_04.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_05.xml" FILENAME="Orion_stage01_toplight_05.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_06.xml" FILENAME="Orion_stage01_toplight_06.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_07.xml" FILENAME="Orion_stage01_toplight_07.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_toplight_08.xml" FILENAME="Orion_stage01_toplight_08.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="orion_stage_01_tunis_left_1.xml" FILENAME="orion_stage_01_tunis_left.xml" POSX="0.000000" POSY="0.000000" POSZ="3644.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage_01_tunis_right_1.xml" FILENAME="Orion_stage_01_tunis_right.xml" POSX="0.000000" POSY="0.000000" POSZ="3644.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="Orion_stage01_centerscreen.xml" FILENAME="Orion_stage01_centerscreen.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="orion_stage01_speaker_4EEFF.xml" FILENAME="orion_stage01_speaker_4EEFF.xml" POSX="0.000000" POSY="0.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+        <OBJECTINFO NAME="minimap" FILENAME="Ring_minimap.xml" POSX="0.000000" POSY="-1000.000000" POSZ="0.000000" ROTX="0.000000" ROTY="0.000000" ROTZ="0.000000" />
+    </OBJECT>
+    <LIGHTMAP />
+    <CRASHMAP>
+        <CRASHMAPDATA POLYGON_COUNT="22" GRADIENT="80.000000">
+            <POLYGON INDEX="0" V1X="-1230.911011" V1Y="39.999798" V1Z="-1297.531738" V2X="1297.532837" V2Y="40.000179" V2Z="-1230.911499" V3X="1230.911011" V3Y="40.000168" V3Z="-1297.533203" FLAG="0" />
+            <POLYGON INDEX="1" V1X="1297.532837" V1Y="40.000179" V1Z="-1230.911499" V2X="1230.912354" V2Y="40.000175" V2Z="1297.531982" V3X="1297.533936" V3Y="40.000187" V3Z="1230.910156" FLAG="0" />
+            <POLYGON INDEX="2" V1X="1230.912354" V1Y="40.000175" V1Z="1297.531982" V2X="-1297.531372" V2Y="39.999790" V2Z="1230.911255" V3X="-1230.909546" V3Y="39.999798" V3Z="1297.532959" FLAG="0" />
+            <POLYGON INDEX="3" V1X="1297.532837" V1Y="40.000179" V1Z="-1230.911499" V2X="-1297.531372" V2Y="39.999790" V2Z="1230.911255" V3X="1230.912354" V3Y="40.000175" V3Z="1297.531982" FLAG="0" />
+            <POLYGON INDEX="4" V1X="-1230.911011" V1Y="39.999798" V1Z="-1297.531738" V2X="-1297.531372" V2Y="39.999790" V2Z="1230.911255" V3X="1297.532837" V3Y="40.000179" V3Z="-1230.911499" FLAG="0" />
+            <POLYGON INDEX="5" V1X="-1297.532715" V1Y="39.999790" V1Z="-1230.910034" V2X="-1297.531372" V2Y="39.999790" V2Z="1230.911255" V3X="-1230.911011" V3Y="39.999798" V3Z="-1297.531738" FLAG="0" />
+            <POLYGON INDEX="6" V1X="-1297.532715" V1Y="39.999790" V1Z="-1230.910034" V2X="-1297.531494" V2Y="2556.826660" V2Z="1230.911499" V3X="-1297.531372" V3Y="39.999790" V3Z="1230.911255" FLAG="1" />
+            <POLYGON INDEX="7" V1X="-1297.531494" V1Y="2556.826660" V1Z="1230.911499" V2X="-1297.532715" V2Y="39.999790" V2Z="-1230.910034" V3X="-1297.532715" V3Y="2556.826660" V3Z="-1230.910034" FLAG="1" />
+            <POLYGON INDEX="8" V1X="-1230.909546" V1Y="39.999798" V1Z="1297.532959" V2X="1230.912354" V2Y="2556.827148" V2Z="1297.532104" V3X="1230.912354" V3Y="40.000175" V3Z="1297.531982" FLAG="1" />
+            <POLYGON INDEX="9" V1X="1230.912354" V1Y="2556.827148" V1Z="1297.532104" V2X="-1230.909546" V2Y="39.999798" V2Z="1297.532959" V3X="-1230.909668" V3Y="2556.826660" V3Z="1297.533203" FLAG="1" />
+            <POLYGON INDEX="10" V1X="1297.533936" V1Y="40.000187" V1Z="1230.910156" V2X="1297.532837" V2Y="2556.827148" V2Z="-1230.911499" V3X="1297.532837" V3Y="40.000179" V3Z="-1230.911499" FLAG="1" />
+            <POLYGON INDEX="11" V1X="1297.532837" V1Y="2556.827148" V1Z="-1230.911499" V2X="1297.533936" V2Y="40.000187" V2Z="1230.910156" V3X="1297.533936" V3Y="2556.827148" V3Z="1230.910400" FLAG="1" />
+            <POLYGON INDEX="12" V1X="1230.911011" V1Y="40.000168" V1Z="-1297.533203" V2X="-1230.911011" V2Y="2556.826660" V2Z="-1297.531738" V3X="-1230.911011" V3Y="39.999798" V3Z="-1297.531738" FLAG="1" />
+            <POLYGON INDEX="13" V1X="-1230.911011" V1Y="2556.826660" V1Z="-1297.531738" V2X="1230.911011" V2Y="40.000168" V2Z="-1297.533203" V3X="1230.911133" V3Y="2556.827148" V3Z="-1297.533203" FLAG="1" />
+            <POLYGON INDEX="14" V1X="-1230.911011" V1Y="39.999798" V1Z="-1297.531738" V2X="-1297.532715" V2Y="2556.826660" V2Z="-1230.910034" V3X="-1297.532715" V3Y="39.999790" V3Z="-1230.910034" FLAG="1" />
+            <POLYGON INDEX="15" V1X="-1297.532715" V1Y="2556.826660" V1Z="-1230.910034" V2X="-1230.911011" V2Y="39.999798" V2Z="-1297.531738" V3X="-1230.911011" V3Y="2556.826660" V3Z="-1297.531738" FLAG="1" />
+            <POLYGON INDEX="16" V1X="-1297.531372" V1Y="39.999790" V1Z="1230.911255" V2X="-1230.909668" V2Y="2556.826660" V2Z="1297.533203" V3X="-1230.909546" V3Y="39.999798" V3Z="1297.532959" FLAG="1" />
+            <POLYGON INDEX="17" V1X="-1230.909668" V1Y="2556.826660" V1Z="1297.533203" V2X="-1297.531372" V2Y="39.999790" V2Z="1230.911255" V3X="-1297.531494" V3Y="2556.826660" V3Z="1230.911499" FLAG="1" />
+            <POLYGON INDEX="18" V1X="1230.912354" V1Y="40.000175" V1Z="1297.531982" V2X="1297.533936" V2Y="2556.827148" V2Z="1230.910400" V3X="1297.533936" V3Y="40.000187" V3Z="1230.910156" FLAG="1" />
+            <POLYGON INDEX="19" V1X="1297.533936" V1Y="2556.827148" V1Z="1230.910400" V2X="1230.912354" V2Y="40.000175" V2Z="1297.531982" V3X="1230.912354" V3Y="2556.827148" V3Z="1297.532104" FLAG="1" />
+            <POLYGON INDEX="20" V1X="1297.532837" V1Y="40.000179" V1Z="-1230.911499" V2X="1230.911133" V2Y="2556.827148" V2Z="-1297.533203" V3X="1230.911011" V3Y="40.000168" V3Z="-1297.533203" FLAG="1" />
+            <POLYGON INDEX="21" V1X="1230.911133" V1Y="2556.827148" V1Z="-1297.533203" V2X="1297.532837" V2Y="40.000179" V2Z="-1230.911499" V3X="1297.532837" V3Y="2556.827148" V3Z="-1230.911499" FLAG="1" />
+        </CRASHMAPDATA>
+    </CRASHMAP>
+    <DYNAMICOBJ />
+    <INVISIBLEBOX>
+        <INVISIBLEBOXINFO NAME="TOPkeroro" POSX="0.000000" POSY="0.000000" POSZ="258.000000" BBMAXX="506.000000" BBMAXY="1094.000000" BBMAXZ="1106.000000" BBMINX="-552.000000" BBMINY="-18.000000" BBMINZ="-80.000000" ANGLE="0.000000" TRANSPARENCYFACTOR="0.600000">
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage01_centerscreen.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerhead.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_MD_centerpunch.xml" />
+        </INVISIBLEBOXINFO>
+        <INVISIBLEBOXINFO NAME="speaker01" POSX="-1168.000000" POSY="0.000000" POSZ="-1348.000000" BBMAXX="366.000000" BBMAXY="732.000000" BBMAXZ="2246.000000" BBMINX="-490.000000" BBMINY="0.000000" BBMINZ="-80.000000" ANGLE="0.000000" TRANSPARENCYFACTOR="0.600000">
+            <ENTITYNAME NAME="Orion_stage01_placard_01.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_speaker_02.xml" />
+            <ENTITYNAME NAME="orion_stage_01_tunis_left.xml" />
+            <ENTITYNAME NAME="Orion_stage01_raill_front.xml" />
+        </INVISIBLEBOXINFO>
+        <INVISIBLEBOXINFO NAME="speaker02" POSX="1200.000000" POSY="0.000000" POSZ="-1346.000000" BBMAXX="260.000000" BBMAXY="732.000000" BBMAXZ="2154.000000" BBMINX="-366.000000" BBMINY="0.000000" BBMINZ="-80.000000" ANGLE="0.000000" TRANSPARENCYFACTOR="0.600000">
+            <ENTITYNAME NAME="Orion_stage01_placard_02.xml" />
+            <ENTITYNAME NAME="orion_stage01_sign01.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_speaker_01.xml" />
+            <ENTITYNAME NAME="Orion_stage_01_tunis_right.xml" />
+            <ENTITYNAME NAME="Orion_stage01_raill_front.xml" />
+        </INVISIBLEBOXINFO>
+    </INVISIBLEBOX>
+    <CHARPOS>
+        <CHARPOSINFO POSX="1021.191589" POSY="-0.000244" POSZ="1107.526733" />
+        <CHARPOSINFO POSX="1046.434204" POSY="0.000000" POSZ="530.431763" />
+        <CHARPOSINFO POSX="1034.113281" POSY="0.000732" POSZ="21.112206" />
+        <CHARPOSINFO POSX="1033.536865" POSY="0.000488" POSZ="-519.068787" />
+        <CHARPOSINFO POSX="1036.750732" POSY="0.000244" POSZ="-1060.283936" />
+        <CHARPOSINFO POSX="-1052.285278" POSY="0.000000" POSZ="1112.378906" />
+        <CHARPOSINFO POSX="-1047.228394" POSY="0.000000" POSZ="589.840332" />
+        <CHARPOSINFO POSX="-1046.407837" POSY="0.000244" POSZ="4.220238" />
+        <CHARPOSINFO POSX="-1049.487061" POSY="0.000000" POSZ="-585.728638" />
+        <CHARPOSINFO POSX="-1040.552856" POSY="-0.000244" POSZ="-1084.456421" />
+    </CHARPOS>
+    <ITEMPOS>
+        <ITEMPOSINFO POSX="-389.570007" POSY="40.000000" POSZ="492.566010" />
+        <ITEMPOSINFO POSX="334.091003" POSY="40.000000" POSZ="548.080994" />
+        <ITEMPOSINFO POSX="463.834015" POSY="40.000000" POSZ="164.042007" />
+        <ITEMPOSINFO POSX="-147.975998" POSY="40.000000" POSZ="-65.910004" />
+        <ITEMPOSINFO POSX="-483.812012" POSY="40.000000" POSZ="15.175000" />
+        <ITEMPOSINFO POSX="342.360992" POSY="40.000000" POSZ="-417.644012" />
+        <ITEMPOSINFO POSX="-410.438995" POSY="40.000000" POSZ="-303.618988" />
+        <ITEMPOSINFO POSX="329.045013" POSY="40.000000" POSZ="-27.916000" />
+        <ITEMPOSINFO POSX="-466.382996" POSY="40.000000" POSZ="315.627991" />
+        <ITEMPOSINFO POSX="-48.798000" POSY="40.000000" POSZ="527.786987" />
+        <ITEMPOSINFO POSX="-425.505890" POSY="40.000000" POSZ="954.442505" />
+        <ITEMPOSINFO POSX="544.115173" POSY="39.999512" POSZ="963.980713" />
+        <ITEMPOSINFO POSX="710.630371" POSY="39.999512" POSZ="160.068207" />
+        <ITEMPOSINFO POSX="-690.060425" POSY="40.000000" POSZ="143.872589" />
+        <ITEMPOSINFO POSX="720.661255" POSY="40.000488" POSZ="-330.714569" />
+        <ITEMPOSINFO POSX="739.469116" POSY="40.000000" POSZ="-815.014893" />
+        <ITEMPOSINFO POSX="-638.052002" POSY="40.000488" POSZ="-795.857056" />
+        <ITEMPOSINFO POSX="753.371887" POSY="40.000488" POSZ="-1109.007813" />
+        <ITEMPOSINFO POSX="-626.829529" POSY="40.000000" POSZ="-1089.930420" />
+        <ITEMPOSINFO POSX="-950.522644" POSY="39.999512" POSZ="969.540405" />
+        <ITEMPOSINFO POSX="-928.229126" POSY="39.999512" POSZ="488.739288" />
+        <ITEMPOSINFO POSX="-927.513184" POSY="39.999512" POSZ="-61.013428" />
+        <ITEMPOSINFO POSX="-936.052734" POSY="40.000000" POSZ="-564.222534" />
+        <ITEMPOSINFO POSX="-971.394653" POSY="40.000000" POSZ="-1025.948242" />
+        <ITEMPOSINFO POSX="1051.177002" POSY="40.000000" POSZ="971.096985" />
+        <ITEMPOSINFO POSX="1020.742065" POSY="39.999512" POSZ="330.197205" />
+        <ITEMPOSINFO POSX="1039.157471" POSY="40.000488" POSZ="-329.047028" />
+        <ITEMPOSINFO POSX="1008.937134" POSY="40.000000" POSZ="-976.089844" />
+        <ITEMPOSINFO POSX="12.986744" POSY="40.000488" POSZ="-352.069366" />
+        <ITEMPOSINFO POSX="-16.103920" POSY="40.000488" POSZ="-691.459961" />
+        <ITEMPOSINFO POSX="-14.043766" POSY="40.000000" POSZ="-1064.797119" />
+        <ITEMPOSINFO POSX="27.869452" POSY="40.000000" POSZ="1014.828003" />
+        <ITEMPOSINFO POSX="-632.912354" POSY="39.999512" POSZ="-342.214386" />
+        <ITEMPOSINFO POSX="596.673584" POSY="39.999512" POSZ="-287.228210" />
+        <ITEMPOSINFO POSX="-337.927185" POSY="40.000000" POSZ="-781.098389" />
+        <ITEMPOSINFO POSX="381.697754" POSY="40.000000" POSZ="-764.141846" />
+        <ITEMPOSINFO POSX="-651.289978" POSY="40.000000" POSZ="823.952026" />
+        <ITEMPOSINFO POSX="637.969604" POSY="40.000000" POSZ="799.511230" />
+    </ITEMPOS>
+    <FLAGPOS />
+    <SIEGEBOXPOS />
+    <CREATIONSKILLPOS>
+        <CREATIONSKILLPOSINFO POSX="-802.899414" POSY="39.999512" POSZ="792.318787" />
+        <CREATIONSKILLPOSINFO POSX="-374.204987" POSY="40.000000" POSZ="384.929169" />
+        <CREATIONSKILLPOSINFO POSX="-29.578217" POSY="40.000000" POSZ="34.884872" />
+        <CREATIONSKILLPOSINFO POSX="396.414612" POSY="40.000000" POSZ="-389.939484" />
+        <CREATIONSKILLPOSINFO POSX="906.800659" POSY="40.000000" POSZ="-880.494202" />
+        <CREATIONSKILLPOSINFO POSX="975.430786" POSY="40.000000" POSZ="992.930054" />
+        <CREATIONSKILLPOSINFO POSX="630.828064" POSY="40.000000" POSZ="708.083984" />
+        <CREATIONSKILLPOSINFO POSX="251.522781" POSY="40.000000" POSZ="341.570251" />
+        <CREATIONSKILLPOSINFO POSX="-323.924988" POSY="40.000000" POSZ="-165.356003" />
+        <CREATIONSKILLPOSINFO POSX="-648.034973" POSY="40.000000" POSZ="-487.571991" />
+        <CREATIONSKILLPOSINFO POSX="-987.937805" POSY="40.000000" POSZ="-784.819214" />
+        <CREATIONSKILLPOSINFO POSX="-32.060196" POSY="39.999756" POSZ="972.988892" />
+        <CREATIONSKILLPOSINFO POSX="-41.324188" POSY="40.000244" POSZ="521.195129" />
+        <CREATIONSKILLPOSINFO POSX="-40.543282" POSY="39.999756" POSZ="-303.318787" />
+        <CREATIONSKILLPOSINFO POSX="-22.122721" POSY="39.999756" POSZ="-696.744263" />
+        <CREATIONSKILLPOSINFO POSX="-40.280869" POSY="39.999756" POSZ="-1089.313843" />
+        <CREATIONSKILLPOSINFO POSX="-1061.317017" POSY="39.999756" POSZ="18.677242" />
+        <CREATIONSKILLPOSINFO POSX="-641.659790" POSY="39.999756" POSZ="45.666805" />
+        <CREATIONSKILLPOSINFO POSX="431.348999" POSY="40.000000" POSZ="33.967968" />
+        <CREATIONSKILLPOSINFO POSX="993.734985" POSY="40.000000" POSZ="75.437111" />
+    </CREATIONSKILLPOS>
+    <WEAPONPOS />
+    <VEHICLEPOS />
+    <CAMERA MINX="-1600.000000" MINY="-10000.000000" MINZ="-60000.000000" MAXX="1600.000000" MAXY="10300.000000" MAXZ="10800.000000" POSX="7.000000" POSY="1837.000000" POSZ="-5212.000000" EULER="18.000000" />
+    <OCTREE FILENAME="Stage1101.OCT" />
+</STAGE>

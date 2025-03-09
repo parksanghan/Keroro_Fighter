@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="GIRO_WAHEAD" FILENAME="Giro_Aniob_Warhead.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Giro_Obj_Warhead.VS">
+        <PROPERTYBAG NAME="GIRO_WARHEAD_1" FILENAME="Giro_Obj_Warhead_05.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="SPE_EF" FILENAME="Char_Giro_SpeObj_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Giro_Aniob_Warhead_5_COMMANDS.XML" />
+</GAMEENTITY>

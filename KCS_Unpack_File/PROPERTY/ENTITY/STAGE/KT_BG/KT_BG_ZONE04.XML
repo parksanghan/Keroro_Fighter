@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="13">
+        <PROPERTYBAG NAME="kt_bg_monster_fight" FILENAME="kt_bg_monster_fight.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_monster_hunt00" FILENAME="kt_bg_monster_hunt00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_monster_hunt01" FILENAME="kt_bg_monster_hunt01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_GateSW02" FILENAME="kt_bg_Playground_GateSW02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_WarpSW02" FILENAME="kt_bg_Playground_WarpSW02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_tree00" FILENAME="kt_bg_tree00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_tree01" FILENAME="kt_bg_tree01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_tree02" FILENAME="kt_bg_tree02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_tree03" FILENAME="kt_bg_tree03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kg_bg_grass00_02" FILENAME="kg_bg_grass00_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Shop_Guird02_01" FILENAME="kt_bg_Shop_Guird02_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object13" FILENAME="kt_bg_Object13.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object09_00" FILENAME="kt_bg_Object09_00.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="kt_bg_ef_glove" FILENAME="kt_bg_ef_glove.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_ef_glove_a" FILENAME="kt_bg_ef_glove_a.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="kt_bg_ani_glove" FILENAME="kt_bg_ani_glove.xml" />
+        <PROPERTYBAG NAME="kt_ef_portal_02" FILENAME="kt_ef_portal_02.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="kt_bg_zone04_COMMANDS.XML" />
+</GAMEENTITY>

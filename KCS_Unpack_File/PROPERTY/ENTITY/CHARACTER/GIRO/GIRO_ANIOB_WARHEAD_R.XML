@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Giro_Aniob_Warhead_01" FILENAME="Giro_Aniob_Warhead_01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Giro_Obj_Warhead_01.VS">
+        <PROPERTYBAG NAME="aaaaa" FILENAME="Sumo_Obj_Jump_P.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Giro_Aniob_Warhead_R_COMMANDS.XML" />
+</GAMEENTITY>

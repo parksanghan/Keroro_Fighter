@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="ANIOB_GUNP" FILENAME="Kero_Aniob_Gunp.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Kero_Aniob_Gunp.VS">
+        <PROPERTYBAG NAME="ITM_MAKING_BOT" FILENAME="Kero_Itm_Making_bot.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kero_Gunp_COMMANDS.XML" />
+</GAMEENTITY>

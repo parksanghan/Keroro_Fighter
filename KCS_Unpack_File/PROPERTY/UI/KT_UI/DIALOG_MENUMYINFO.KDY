@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<UIXMLFile>
+    <DialogCount DialogNum="1">
+        <DialogDetailInfo0 DialogName="Dialog_MenuMyInfo" DialogChildCount="3">
+            <DialogSizeInfo DialogPosX="472" DialogPosY="288" DialogSizeX="109" DialogSizeY="111">
+                <CONTROLINFO0 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="1" NormalSkin="0" ListSperateNum="1" EventCount="1" CheckPass="1" EventParentName="NONE" DEPTHID="0.000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_MenuMyInfo" CONTROLPOSX="0" CONTROLPOSY="0" CONTROLSIZEX="109" CONTROLSIZEY="111" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="472.000" POSTION_Y="288.000" POSTION_Z="0.000" SCALE_X="54.500" SCLAE_Y="55.500" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="-1" IDNAME="-1" />
+                        <TEXDETAILINFO1 DRAW="1" ID="-1" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="269" RECT_TOP="419" RECT_RIGHT="378" RECT_BOTTOM="531" POSTION_X="472.000" POSTION_Y="288.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO0>
+                <CONTROLINFO1 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_Menu_CharInfo" CONTROLPOSX="20" CONTROLPOSY="15" CONTROLSIZEX="71" CONTROLSIZEY="23" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="492.000" POSTION_Y="303.000" POSTION_Z="0.000" SCALE_X="35.500" SCLAE_Y="11.500" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="783" RECT_TOP="470" RECT_RIGHT="853" RECT_BOTTOM="495" POSTION_X="492.000" POSTION_Y="303.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="869" RECT_TOP="471" RECT_RIGHT="937" RECT_BOTTOM="494" POSTION_X="493.000" POSTION_Y="304.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="953" RECT_TOP="471" RECT_RIGHT="1021" RECT_BOTTOM="494" POSTION_X="492.000" POSTION_Y="304.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO1>
+                <CONTROLINFO2 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="4" CheckPass="0" EventParentName="NONE" DEPTHID="0.000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_Menu_Ranking" CONTROLPOSX="20" CONTROLPOSY="43" CONTROLSIZEX="71" CONTROLSIZEY="23" ETCINFO="5">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="492.000" POSTION_Y="331.000" POSTION_Z="0.000" SCALE_X="35.500" SCLAE_Y="11.500" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="784" RECT_TOP="501" RECT_RIGHT="852" RECT_BOTTOM="524" POSTION_X="492.000" POSTION_Y="331.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="868" RECT_TOP="501" RECT_RIGHT="936" RECT_BOTTOM="524" POSTION_X="491.000" POSTION_Y="331.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="953" RECT_TOP="502" RECT_RIGHT="1021" RECT_BOTTOM="525" POSTION_X="491.000" POSTION_Y="332.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                        <CONTROLSKIN4 TEXTUREID="1" CONTROLID="0" ID="1" IDNAME="1" />
+                        <TEXDETAILINFO4 DRAW="0" ID="1" TextureFileName="kt_ui_Main_Icons.tga" RECT_LEFT="706" RECT_TOP="502" RECT_RIGHT="767" RECT_BOTTOM="525" POSTION_X="495.000" POSTION_Y="332.000" POSTION_Z="0.000" SCALE_X="1.000" SCLAE_Y="1.000" ALPHAVALUE="1.000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO2>
+            </DialogSizeInfo>
+        </DialogDetailInfo0>
+    </DialogCount>
+    <DIALOGSOUNDINFO SOUNDCOUNT="2">
+        <SoundDetailInfo0 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="OK" />
+        <SoundDetailInfo1 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="ok" />
+    </DIALOGSOUNDINFO>
+</UIXMLFile>

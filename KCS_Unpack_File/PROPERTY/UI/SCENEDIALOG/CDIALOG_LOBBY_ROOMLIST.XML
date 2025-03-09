@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="348" PosY="116" SizeX="680" SizeY="550" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.880" Show="1">
+            <Element index="0" TextName="GUI_Lobby_02.TGA" TextPosX="0" TextPosY="0" TextSizeX="680" TextSizeY="479" PosX="0" PosY="0" SizeX="680" SizeY="479" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="GUI_Lobby_02.TGA" TextPosX="0" TextPosY="480" TextSizeX="680" TextSizeY="479" PosX="0" PosY="0" SizeX="680" SizeY="479" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="0" TextPosY="0" TextSizeX="680" TextSizeY="479" PosX="0" PosY="0" SizeX="680" SizeY="479" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="0" TextPosY="480" TextSizeX="680" TextSizeY="479" PosX="0" PosY="0" SizeX="680" SizeY="479" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="GUI_Lobby_04.TGA" TextPosX="0" TextPosY="0" TextSizeX="680" TextSizeY="479" PosX="0" PosY="0" SizeX="680" SizeY="479" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="29" PosY="61" SizeX="314" SizeY="79" />
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="345" PosY="61" SizeX="314" SizeY="79" />
+        </Property>
+        <Property Index="7" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="29" PosY="141" SizeX="314" SizeY="79" />
+        </Property>
+        <Property Index="8" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="345" PosY="141" SizeX="314" SizeY="79" />
+        </Property>
+        <Property Index="9" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="29" PosY="221" SizeX="314" SizeY="79" />
+        </Property>
+        <Property Index="10" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="345" PosY="221" SizeX="314" SizeY="79" />
+        </Property>
+        <Property Index="11" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="29" PosY="301" SizeX="314" SizeY="79" />
+        </Property>
+        <Property Index="12" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Lobby_03.TGA" TextPosX="701" TextPosY="895" TextSizeX="314" TextSizeY="79" PosX="345" PosY="301" SizeX="314" SizeY="79" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="AllModeButton" ClassName="CKeroroUI_TabButton" PosX="16" PosY="15" SizeX="109" SizeY="35" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.870" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="39" TextSizeX="109" TextSizeY="35" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="39" TextSizeX="109" TextSizeY="35" PosX="0" PosY="0" SizeX="109" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ItemModeButton" ClassName="CKeroroUI_TabButton" PosX="131" PosY="13" SizeX="109" SizeY="35" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.870" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="75" TextSizeX="109" TextSizeY="35" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="75" TextSizeX="109" TextSizeY="35" PosX="0" PosY="0" SizeX="109" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="FighterModeButton" ClassName="CKeroroUI_TabButton" PosX="246" PosY="11" SizeX="109" SizeY="35" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.870" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="111" TextSizeX="109" TextSizeY="35" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="111" TextSizeX="109" TextSizeY="35" PosX="0" PosY="0" SizeX="109" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="GetFlagModeButton" ClassName="CKeroroUI_TabButton" PosX="361" PosY="9" SizeX="124" SizeY="35" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.870" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="147" TextSizeX="124" TextSizeY="35" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="147" TextSizeX="124" TextSizeY="35" PosX="0" PosY="0" SizeX="124" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BoxCrashModeButton" ClassName="CKeroroUI_TabButton" PosX="491" PosY="7" SizeX="139" SizeY="35" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.870" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="183" TextSizeX="139" TextSizeY="35" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_04.TGA" TextPosX="715" TextPosY="183" TextSizeX="139" TextSizeY="35" PosX="0" PosY="0" SizeX="139" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ModeLeftButton" ClassName="CKeroroUI_Button" PosX="259" PosY="397" SizeX="59" SizeY="33" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_01.tga" TextPosX="555" TextPosY="610" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Lobby_01.tga" TextPosX="555" TextPosY="610" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_01.tga" TextPosX="555" TextPosY="644" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_01.tga" TextPosX="555" TextPosY="678" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ModeRightButton" ClassName="CKeroroUI_Button" PosX="371" PosY="397" SizeX="59" SizeY="33" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_01.tga" TextPosX="615" TextPosY="610" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Lobby_01.tga" TextPosX="615" TextPosY="610" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_01.tga" TextPosX="615" TextPosY="644" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_01.tga" TextPosX="615" TextPosY="678" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SoleItemFastButton" ClassName="CKeroroUI_Button" PosX="124" PosY="466" SizeX="99" SizeY="61" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="27" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="1" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="167" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="97" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="167" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="TeamItemFastButton" ClassName="CKeroroUI_Button" PosX="234" PosY="466" SizeX="99" SizeY="61" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="27" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="1" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="167" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="97" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="167" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SoleFastButton" ClassName="CKeroroUI_Button" PosX="344" PosY="466" SizeX="99" SizeY="61" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="237" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="1" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="377" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="307" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="377" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="TeamFastButton" ClassName="CKeroroUI_Button" PosX="454" PosY="466" SizeX="99" SizeY="61" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="237" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="1" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="237" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="307" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="835" TextPosY="377" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CreateRoom" ClassName="CKeroroUI_Button" PosX="564" PosY="466" SizeX="99" SizeY="61" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="447" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="1" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="587" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="517" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="725" TextPosY="587" TextSizeX="99" TextSizeY="61" PosX="0" PosY="0" SizeX="99" SizeY="61" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="JoinLadderRoom" ClassName="CKeroroUI_Button" PosX="24" PosY="466" SizeX="92" SizeY="61" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="624" TextPosY="484" TextSizeX="92" TextSizeY="61" PosX="0" PosY="0" SizeX="92" SizeY="61" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="624" TextPosY="554" TextSizeX="92" TextSizeY="61" PosX="0" PosY="0" SizeX="92" SizeY="61" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="624" TextPosY="624" TextSizeX="92" TextSizeY="61" PosX="0" PosY="0" SizeX="92" SizeY="61" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CreateLadderRoom" ClassName="CKeroroUI_Button" PosX="24" PosY="498" SizeX="92" SizeY="30" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.850" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="922" TextPosY="563" TextSizeX="92" TextSizeY="30" PosX="0" PosY="0" SizeX="92" SizeY="30" />
+                    <!--Element ControlState="0" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="922" TextPosY="627" TextSizeX="92" TextSizeY="30" PosX="0" PosY="0" SizeX="92" SizeY="30" />
+                    <Element ControlState="2" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="922" TextPosY="595" TextSizeX="92" TextSizeY="30" PosX="0" PosY="0" SizeX="92" SizeY="30" />
+                    <Element ControlState="3" index="0" TextName="GUI_Lobby_03.TGA" TextPosX="922" TextPosY="563" TextSizeX="92" TextSizeY="30" PosX="0" PosY="0" SizeX="92" SizeY="30" /-->
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="PageButton" ClassName="CKeroroUI_Button" PosX="326" PosY="396" SizeX="30" SizeY="30" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="435" TextPosY="746" TextSizeX="38" TextSizeY="34" PosX="0" PosY="0" SizeX="38" SizeY="34" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="489" TextPosY="746" TextSizeX="14" TextSizeY="19" PosX="11" PosY="8" SizeX="14" SizeY="19" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.840" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="489" TextPosY="746" TextSizeX="14" TextSizeY="19" PosX="4" PosY="8" SizeX="14" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.840" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="489" TextPosY="746" TextSizeX="14" TextSizeY="19" PosX="17" PosY="8" SizeX="14" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

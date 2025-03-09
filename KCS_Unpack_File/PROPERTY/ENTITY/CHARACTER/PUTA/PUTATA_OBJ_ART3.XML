@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Giro_Aniob_Warhead_01" FILENAME="Cos_empty.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Giro_Obj_Warhead_01.VS">
+        <PROPERTYBAG NAME="aaaaa" FILENAME="Sumo_Obj_Jump_P.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="Puta_KKK_E00" FILENAME="Puta_KKK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Puta_KKK_E01" FILENAME="Puta_KKK_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Puta_KK_E00" FILENAME="Puta_KK_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Puta_KK_E01" FILENAME="Puta_KK_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Puta_K_E00" FILENAME="Puta_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Puta_K_E01" FILENAME="Puta_K_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Putata_Obj_ART3_COMMANDS.XML" />
+</GAMEENTITY>

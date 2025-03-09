@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Spa_chair" FILENAME="Spa_chair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_girororock" FILENAME="Spa_girororock.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Spa_giroro" FILENAME="Spa_giroro.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Spa_object(ect)_COMMANDS.XML" />
+</GAMEENTITY>

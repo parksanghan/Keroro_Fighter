@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="28">
+        <PROPERTYBAG NAME="Desk_AniMoniter01_M" FILENAME="Desk_AniMoniter01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Bg_M" FILENAME="Desk_Bg_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Book01_M" FILENAME="Desk_Book01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Book01Memo_M" FILENAME="Desk_Book01Memo_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Book02_M" FILENAME="Desk_Book02_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Book02Memo_M" FILENAME="Desk_Book02Memo_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Book03_M" FILENAME="Desk_Book03_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Bookcase_M" FILENAME="Desk_Bookcase_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Bookmark_M" FILENAME="Desk_Bookmark_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Bookshelf_M" FILENAME="Desk_Bookshelf_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Calender_M" FILENAME="Desk_Calender_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_CalenderRing_M" FILENAME="Desk_CalenderRing_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Desk_M" FILENAME="Desk_Desk_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_DeskSchoolThing_M" FILENAME="Desk_DeskSchoolThing_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Frame_M" FILENAME="Desk_Frame_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Globe_M" FILENAME="Desk_Globe_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_GlobeLight_M" FILENAME="Desk_GlobeLight_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Keyboard_M" FILENAME="Desk_Keyboard_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_KeyboardMemo_M" FILENAME="Desk_KeyboardMemo_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_MeasuringRule01_M" FILENAME="Desk_MeasuringRule01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_MemoShadow_M" FILENAME="Desk_MemoShadow_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Moniter_M" FILENAME="Desk_Moniter_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_MoniterMemo_M" FILENAME="Desk_MoniterMemo_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Plate_M" FILENAME="Desk_Plate_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Stand_M" FILENAME="Desk_Stand_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_UFO_M" FILENAME="Desk_UFO_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_UFO_Spring_M" FILENAME="Desk_UFO_Spring_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Wall_M" FILENAME="Desk_Wall_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Desk_Stand_off.xml" FILENAME="Desk_Stand_off.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Stand_on.xml" FILENAME="Desk_Stand_on.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Desk_Stand_play.xml" FILENAME="Desk_Stand_play.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Desk_COMMANDS.XML" />
+</GAMEENTITY>

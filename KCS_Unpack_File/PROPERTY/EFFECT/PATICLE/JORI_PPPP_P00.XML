@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Jori_PPPP_P00" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="1" X="20" Y="20" Z="10" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="0" />
+            <Property Time="0.2" Value="0" />
+            <Property Time="0.8" Value="200" />
+            <Property Time="0.2" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="1.2" X="0" Y="0" Z="50" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.4" X="0.6" Y="0.6" Z="0.3" />
+            <Property Time="0.9" X="1.3" Y="1.3" Z="0.6" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Comm_Item_Dust9.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="3" Max="5" />
+        <RepeatCount Count="1" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="1.29" />
+        <RegenTime Min="1" Max="1" />
+        <RotScaleMin X="30" Y="0" Z="0" />
+        <RotScaleMax X="50" Y="0" Z="360" />
+        <RandPosMin X="0" Y="95" Z="0" />
+        <RandPosMax X="0" Y="95" Z="0" />
+        <ComboList RefOrder="1" ScaleType="1" PositionType="0" />
+        <Speed Min="30" Max="40" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90" Y="0" Z="0" />
+        <JetDirMax X="5" Y="0" Z="5" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="43">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="0" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.6" Y="0.6" Z="0.3" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="1.25" />
+            <SizeRot X="0.045" Y="0.045" Z="0.0225" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.2" Y="1.2" Z="0.6" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="2.5" />
+            <SizeRot X="0.09" Y="0.09" Z="0.045" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.8" Y="1.8" Z="0.9" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="3.75" />
+            <SizeRot X="0.135" Y="0.135" Z="0.0675" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.4" Y="2.4" Z="1.2" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="5" />
+            <SizeRot X="0.18" Y="0.18" Z="0.09" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3" Y="3" Z="1.5" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="6.25" />
+            <SizeRot X="0.225" Y="0.225" Z="0.1125" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.6" Y="3.6" Z="1.8" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="7.5" />
+            <SizeRot X="0.27" Y="0.27" Z="0.135" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.2" Y="4.2" Z="2.1" />
+            <Alpha Value="7.5" />
+            <MoveRot X="0" Y="0" Z="8.75" />
+            <SizeRot X="0.315" Y="0.315" Z="0.1575" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.8" Y="4.8" Z="2.4" />
+            <Alpha Value="15" />
+            <MoveRot X="0" Y="0" Z="10" />
+            <SizeRot X="0.36" Y="0.36" Z="0.18" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.4" Y="5.4" Z="2.7" />
+            <Alpha Value="22.5" />
+            <MoveRot X="0" Y="0" Z="11.25" />
+            <SizeRot X="0.405" Y="0.405" Z="0.2025" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6" Y="6" Z="3" />
+            <Alpha Value="30" />
+            <MoveRot X="0" Y="0" Z="12.5" />
+            <SizeRot X="0.45" Y="0.45" Z="0.225" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.6" Y="6.6" Z="3.3" />
+            <Alpha Value="37.5" />
+            <MoveRot X="0" Y="0" Z="13.75" />
+            <SizeRot X="0.495" Y="0.495" Z="0.2475" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.2" Y="7.2" Z="3.6" />
+            <Alpha Value="45" />
+            <MoveRot X="0" Y="0" Z="15" />
+            <SizeRot X="0.54" Y="0.54" Z="0.27" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.8" Y="7.8" Z="3.9" />
+            <Alpha Value="52.5" />
+            <MoveRot X="0" Y="0" Z="16.25" />
+            <SizeRot X="0.6" Y="0.6" Z="0.3" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.4" Y="8.4" Z="4.2" />
+            <Alpha Value="60" />
+            <MoveRot X="0" Y="0" Z="17.5" />
+            <SizeRot X="0.623333" Y="0.623333" Z="0.31" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9" Y="9" Z="4.5" />
+            <Alpha Value="67.5" />
+            <MoveRot X="0" Y="0" Z="18.75" />
+            <SizeRot X="0.646667" Y="0.646667" Z="0.32" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.6" Y="9.6" Z="4.8" />
+            <Alpha Value="75" />
+            <MoveRot X="0" Y="0" Z="20" />
+            <SizeRot X="0.67" Y="0.67" Z="0.33" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.2" Y="10.2" Z="5.1" />
+            <Alpha Value="82.5" />
+            <MoveRot X="0" Y="0" Z="21.25" />
+            <SizeRot X="0.693333" Y="0.693333" Z="0.34" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.8" Y="10.8" Z="5.4" />
+            <Alpha Value="90" />
+            <MoveRot X="0" Y="0" Z="22.5" />
+            <SizeRot X="0.716667" Y="0.716667" Z="0.35" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.4" Y="11.4" Z="5.7" />
+            <Alpha Value="97.5" />
+            <MoveRot X="0" Y="0" Z="23.75" />
+            <SizeRot X="0.74" Y="0.74" Z="0.36" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12" Y="12" Z="6" />
+            <Alpha Value="105" />
+            <MoveRot X="0" Y="0" Z="25" />
+            <SizeRot X="0.763333" Y="0.763333" Z="0.37" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.6" Y="12.6" Z="6.3" />
+            <Alpha Value="112.5" />
+            <MoveRot X="0" Y="0" Z="26.25" />
+            <SizeRot X="0.786667" Y="0.786667" Z="0.38" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.2" Y="13.2" Z="6.6" />
+            <Alpha Value="120" />
+            <MoveRot X="0" Y="0" Z="27.5" />
+            <SizeRot X="0.81" Y="0.81" Z="0.39" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.8" Y="13.8" Z="6.9" />
+            <Alpha Value="127.5" />
+            <MoveRot X="0" Y="0" Z="28.75" />
+            <SizeRot X="0.833333" Y="0.833333" Z="0.4" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.4" Y="14.4" Z="7.2" />
+            <Alpha Value="135" />
+            <MoveRot X="0" Y="0" Z="30" />
+            <SizeRot X="0.856667" Y="0.856667" Z="0.41" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15" Y="15" Z="7.5" />
+            <Alpha Value="142.5" />
+            <MoveRot X="0" Y="0" Z="31.25" />
+            <SizeRot X="0.88" Y="0.88" Z="0.42" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.6" Y="15.6" Z="7.8" />
+            <Alpha Value="150" />
+            <MoveRot X="0" Y="0" Z="32.5" />
+            <SizeRot X="0.903333" Y="0.903333" Z="0.43" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.2" Y="16.2" Z="8.1" />
+            <Alpha Value="157.5" />
+            <MoveRot X="0" Y="0" Z="33.75" />
+            <SizeRot X="0.926667" Y="0.926667" Z="0.44" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.8" Y="16.8" Z="8.4" />
+            <Alpha Value="165" />
+            <MoveRot X="0" Y="0" Z="35" />
+            <SizeRot X="0.95" Y="0.95" Z="0.45" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.4" Y="17.4" Z="8.7" />
+            <Alpha Value="172.5" />
+            <MoveRot X="0" Y="0" Z="36.25" />
+            <SizeRot X="0.973333" Y="0.973333" Z="0.46" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18" Y="18" Z="9" />
+            <Alpha Value="180" />
+            <MoveRot X="0" Y="0" Z="37.5" />
+            <SizeRot X="0.996667" Y="0.996667" Z="0.47" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.6" Y="18.6" Z="9.3" />
+            <Alpha Value="187.5" />
+            <MoveRot X="0" Y="0" Z="38.75" />
+            <SizeRot X="1.02" Y="1.02" Z="0.48" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.2" Y="19.2" Z="9.6" />
+            <Alpha Value="200" />
+            <MoveRot X="0" Y="0" Z="40" />
+            <SizeRot X="1.04333" Y="1.04333" Z="0.49" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="170" />
+            <MoveRot X="0" Y="0" Z="41.25" />
+            <SizeRot X="1.06667" Y="1.06667" Z="0.5" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="140" />
+            <MoveRot X="0" Y="0" Z="42.5" />
+            <SizeRot X="1.09" Y="1.09" Z="0.51" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="110" />
+            <MoveRot X="0" Y="0" Z="43.75" />
+            <SizeRot X="1.11333" Y="1.11333" Z="0.52" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="80" />
+            <MoveRot X="0" Y="0" Z="45" />
+            <SizeRot X="1.13667" Y="1.13667" Z="0.53" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="50" />
+            <MoveRot X="0" Y="0" Z="46.25" />
+            <SizeRot X="1.16" Y="1.16" Z="0.54" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="47.5" />
+            <SizeRot X="1.18333" Y="1.18333" Z="0.55" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="48.75" />
+            <SizeRot X="1.20667" Y="1.20667" Z="0.56" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="50" />
+            <SizeRot X="1.23" Y="1.23" Z="0.57" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="50" />
+            <SizeRot X="1.25333" Y="1.25333" Z="0.58" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20" Y="20" Z="10" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="50" />
+            <SizeRot X="1.27667" Y="1.27667" Z="0.59" />
+            <Texture Texture="Comm_Item_Dust9.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

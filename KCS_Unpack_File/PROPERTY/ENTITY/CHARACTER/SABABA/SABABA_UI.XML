@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="32">
+        <PROPERTYBAG NAME="CAP" FILENAME="Sababa_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Sababa_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Sababa_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Sababa_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Sababa_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye01" FILENAME="Sababa_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye02" FILENAME="Sababa_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye03" FILENAME="Sababa_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye04" FILENAME="Sababa_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye05" FILENAME="Sababa_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye06" FILENAME="Sababa_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye07" FILENAME="Sababa_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye08" FILENAME="Sababa_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye09" FILENAME="Sababa_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye10" FILENAME="Sababa_Eye05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye11" FILENAME="Sababa_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye12" FILENAME="Sababa_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Eye13" FILENAME="Sababa_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Sababa_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Sababa_Head.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="GAMEROOM_WAIT" FILENAME="Sababa_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="LOSE" FILENAME="Sababa_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WAIT" FILENAME="Sababa_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Sababa_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="EF_COMB_KKP" FILENAME="Char_Doro_ComKKOAtk_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sababa_UI_COMMANDS.XML" />
+</GAMEENTITY>

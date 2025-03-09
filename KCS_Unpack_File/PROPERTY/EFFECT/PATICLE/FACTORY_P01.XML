@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Factory_P01" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="2.000000" X="20.000000" Y="20.000000" Z="20.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="50.000000" />
+            <Property Time="2.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="2.000000" X="5.000000" Y="5.000000" Z="5.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Factory_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="10.000000" Max="20.000000" />
+        <RepeatCount Count="-1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="0.100000" Value="1.980000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="10.000000" Y="10.000000" Z="0.000000" />
+        <RotScaleMax X="20.000000" Y="20.000000" Z="90.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="30.000000" Max="30.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="20.000000" Y="0.000000" Z="110.000000" />
+        <JetDirMax X="10.000000" Y="0.000000" Z="10.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="10.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="66">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="50.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.300000" />
+            <Alpha Value="49.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.075000" Y="0.075000" Z="0.075000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="48.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.150000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="47.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.225000" Y="0.225000" Z="0.225000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="47.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.300000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="46.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.375000" Y="0.375000" Z="0.375000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="45.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.450000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.100000" Y="2.100000" Z="2.100000" />
+            <Alpha Value="44.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.525000" Y="0.525000" Z="0.525000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="44.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.600000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="43.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.675000" Y="0.675000" Z="0.675000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="42.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.750000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.300000" Y="3.300000" Z="3.300000" />
+            <Alpha Value="41.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.825000" Y="0.825000" Z="0.825000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="41.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.900000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.900000" Y="3.900000" Z="3.900000" />
+            <Alpha Value="40.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.975000" Y="0.975000" Z="0.975000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="39.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.050000" Y="1.050000" Z="1.050000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="38.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.125000" Y="1.125000" Z="1.125000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="38.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.200000" Y="1.200000" Z="1.200000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.100000" Y="5.100000" Z="5.100000" />
+            <Alpha Value="37.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.275000" Y="1.275000" Z="1.275000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="36.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.350000" Y="1.350000" Z="1.350000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.700000" Y="5.700000" Z="5.700000" />
+            <Alpha Value="35.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.425000" Y="1.425000" Z="1.425000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.000000" Y="6.000000" Z="6.000000" />
+            <Alpha Value="35.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.500000" Y="1.500000" Z="1.500000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.300000" Y="6.300000" Z="6.300000" />
+            <Alpha Value="34.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.575000" Y="1.575000" Z="1.575000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.599999" Y="6.599999" Z="6.599999" />
+            <Alpha Value="33.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.650000" Y="1.650000" Z="1.650000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.900000" Y="6.900000" Z="6.900000" />
+            <Alpha Value="32.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.725000" Y="1.725000" Z="1.725000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.200000" Y="7.200000" Z="7.200000" />
+            <Alpha Value="32.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.800000" Y="1.800000" Z="1.800000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.500000" Y="7.500000" Z="7.500000" />
+            <Alpha Value="31.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.875000" Y="1.875000" Z="1.875000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.800000" Y="7.800000" Z="7.800000" />
+            <Alpha Value="30.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.950000" Y="1.950000" Z="1.950000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.100000" Y="8.100000" Z="8.100000" />
+            <Alpha Value="29.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.025000" Y="2.025000" Z="2.025000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.400000" Y="8.400000" Z="8.400000" />
+            <Alpha Value="29.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.100000" Y="2.100000" Z="2.100000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.700000" Y="8.700000" Z="8.700000" />
+            <Alpha Value="28.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.175000" Y="2.175000" Z="2.175000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.000000" Y="9.000000" Z="9.000000" />
+            <Alpha Value="27.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.250000" Y="2.250000" Z="2.250000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.300000" Y="9.300000" Z="9.300000" />
+            <Alpha Value="26.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.325000" Y="2.325000" Z="2.325000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.599999" Y="9.599999" Z="9.599999" />
+            <Alpha Value="26.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.400000" Y="2.400000" Z="2.400000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.900000" Y="9.900000" Z="9.900000" />
+            <Alpha Value="25.250002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.475000" Y="2.475000" Z="2.475000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.200000" Y="10.200000" Z="10.200000" />
+            <Alpha Value="24.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.550000" Y="2.550000" Z="2.550000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.500000" Y="10.500000" Z="10.500000" />
+            <Alpha Value="23.750002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.625000" Y="2.625000" Z="2.625000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.799999" Y="10.799999" Z="10.799999" />
+            <Alpha Value="23.000002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.700000" Y="2.700000" Z="2.700000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.100000" Y="11.100000" Z="11.100000" />
+            <Alpha Value="22.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.775000" Y="2.775000" Z="2.775000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.400000" Y="11.400000" Z="11.400000" />
+            <Alpha Value="21.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.850000" Y="2.850000" Z="2.850000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.700000" Y="11.700000" Z="11.700000" />
+            <Alpha Value="20.750002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.925000" Y="2.925000" Z="2.925000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.999999" Y="11.999999" Z="11.999999" />
+            <Alpha Value="20.000002" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.000000" Y="3.000000" Z="3.000000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.300000" Y="12.300000" Z="12.300000" />
+            <Alpha Value="19.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.075000" Y="3.075000" Z="3.075000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.600000" Y="12.600000" Z="12.600000" />
+            <Alpha Value="18.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.150000" Y="3.150000" Z="3.150000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.900000" Y="12.900000" Z="12.900000" />
+            <Alpha Value="17.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.225000" Y="3.225000" Z="3.225000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.199999" Y="13.199999" Z="13.199999" />
+            <Alpha Value="17.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.300000" Y="3.300000" Z="3.300000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.500000" Y="13.500000" Z="13.500000" />
+            <Alpha Value="16.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.375000" Y="3.375000" Z="3.375000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.800000" Y="13.800000" Z="13.800000" />
+            <Alpha Value="15.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.450000" Y="3.450000" Z="3.450000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.099999" Y="14.099999" Z="14.099999" />
+            <Alpha Value="14.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.525000" Y="3.525000" Z="3.525000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.400000" Y="14.400000" Z="14.400000" />
+            <Alpha Value="14.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.600000" Y="3.600000" Z="3.600000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.699999" Y="14.699999" Z="14.699999" />
+            <Alpha Value="13.250004" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.675000" Y="3.675000" Z="3.675000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.000000" Y="15.000000" Z="15.000000" />
+            <Alpha Value="12.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.750000" Y="3.750000" Z="3.750000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.299999" Y="15.299999" Z="15.299999" />
+            <Alpha Value="11.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.825000" Y="3.825000" Z="3.825000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.599999" Y="15.599999" Z="15.599999" />
+            <Alpha Value="11.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.900000" Y="3.900000" Z="3.900000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.900000" Y="15.900000" Z="15.900000" />
+            <Alpha Value="10.250004" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.975000" Y="3.975000" Z="3.975000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.200001" Y="16.200001" Z="16.200001" />
+            <Alpha Value="9.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.050000" Y="4.050000" Z="4.050000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.500000" Y="16.500000" Z="16.500000" />
+            <Alpha Value="8.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.125000" Y="4.125000" Z="4.125000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.799999" Y="16.799999" Z="16.799999" />
+            <Alpha Value="8.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.200000" Y="4.200000" Z="4.200000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.099998" Y="17.099998" Z="17.099998" />
+            <Alpha Value="7.250004" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.275000" Y="4.275000" Z="4.275000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.400000" Y="17.400000" Z="17.400000" />
+            <Alpha Value="6.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.350000" Y="4.350000" Z="4.350000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.700001" Y="17.700001" Z="17.700001" />
+            <Alpha Value="5.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.425000" Y="4.425000" Z="4.425000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.000000" Y="18.000000" Z="18.000000" />
+            <Alpha Value="5.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.500000" Y="4.500000" Z="4.500000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.299999" Y="18.299999" Z="18.299999" />
+            <Alpha Value="4.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.575000" Y="4.575000" Z="4.575000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.600000" Y="18.600000" Z="18.600000" />
+            <Alpha Value="3.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.650000" Y="4.650000" Z="4.650000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.900000" Y="18.900000" Z="18.900000" />
+            <Alpha Value="2.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.725000" Y="4.725000" Z="4.725000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.199999" Y="19.199999" Z="19.199999" />
+            <Alpha Value="2.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.800000" Y="4.800000" Z="4.800000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.500000" Y="19.500000" Z="19.500000" />
+            <Alpha Value="1.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.875000" Y="4.875000" Z="4.875000" />
+            <Texture Texture="Factory_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

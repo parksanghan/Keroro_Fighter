@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="302" PosY="109" SizeX="412" SizeY="512" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.591" Show="1">
+            <Element index="0" TextName="GUI_SalePopup.TGA" TextPosX="0" TextPosY="0" TextSizeX="412" TextSizeY="512" PosX="0" PosY="0" SizeX="412" SizeY="512" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="SellClose_Button" ClassName="CKeroroUI_Button" PosX="338" PosY="10" SizeX="22" SizeY="21" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.590" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_SalePopup.TGA" TextPosX="419" TextPosY="13" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="2" index="0" TextName="GUI_SalePopup.TGA" TextPosX="442" TextPosY="13" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="3" index="0" TextName="GUI_SalePopup.TGA" TextPosX="465" TextPosY="13" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SellOK_Button" ClassName="CKeroroUI_Button" PosX="91" PosY="467" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.590" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_SalePopup.TGA" TextPosX="419" TextPosY="35" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_SalePopup.TGA" TextPosX="419" TextPosY="65" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_SalePopup.TGA" TextPosX="419" TextPosY="95" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SellCancel_Button" ClassName="CKeroroUI_Button" PosX="199" PosY="467" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.590" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_SalePopup.TGA" TextPosX="419" TextPosY="125" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_SalePopup.TGA" TextPosX="419" TextPosY="155" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_SalePopup.TGA" TextPosX="419" TextPosY="185" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

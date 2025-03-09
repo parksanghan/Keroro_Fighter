@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="FunFace_Giro" FILENAME="Ukiki_Obj_Funface_01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Ukiki_Obj_Funface.VS">
+        <PROPERTYBAG NAME="Ukiki_Obj_Comb_PPP" FILENAME="Ukiki_Obj_Comb_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Ukiki_Obj_Idle01_Funface" FILENAME="Ukiki_Obj_Idle01_Funface.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Ukiki_Obj_FunFace_Giro_COMMANDS.XML" />
+</GAMEENTITY>

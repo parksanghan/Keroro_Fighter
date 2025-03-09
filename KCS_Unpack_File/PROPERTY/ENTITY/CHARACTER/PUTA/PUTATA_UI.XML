@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="26">
+        <PROPERTYBAG NAME="CAP" FILENAME="Putata_cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Putata_eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Putata_hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Putata_head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Putata_foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Putata_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Putata_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Putata_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Putata_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Putata_Eye06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Putata_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Putata_Eye04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Putata_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Putata_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Putata_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Putata_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Putata_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Putata_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Putata_Head04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Putata_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Putata_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Putata_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Putata_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Putata_Head05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Putata_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Putata_Bodyu.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="GAMEROOM_WAIT" FILENAME="Putata_Gameroom_Wait.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Putata_Obj_Brush_Wait" FILENAME="Putata_Obj_Brush_Wait.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Putata_UI_COMMANDS.XML" />
+</GAMEENTITY>

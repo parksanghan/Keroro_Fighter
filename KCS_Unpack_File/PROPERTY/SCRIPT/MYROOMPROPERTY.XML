@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyRoomProperty>
+	<MyRoom PropertyID="500000000" Code="0" Name="화장대1" Slot="0" EntityFileName="화장대1.xml"/>
+	<MyRoom PropertyID="500000001" Code="1" Name="화장대2" Slot="0" EntityFileName="화장대2.xml"/>
+	<MyRoom PropertyID="500000002" Code="2" Name="화장대3" Slot="0" EntityFileName="화장대3.xml"/>
+	<MyRoom PropertyID="501000000" Code="3" Name="거울1" Slot="1" EntityFileName="거울1.xml"/>
+	<MyRoom PropertyID="501000001" Code="4" Name="거울2" Slot="1" EntityFileName="거울2.xml"/>
+	<MyRoom PropertyID="501000002" Code="5" Name="거울3" Slot="1" EntityFileName="거울3.xml"/>
+	<MyRoom PropertyID="502000000" Code="6" Name="센드백1" Slot="2" EntityFileName="센드백1.xml"/>
+	<MyRoom PropertyID="502000001" Code="7" Name="센드백2" Slot="2" EntityFileName="센드백2.xml"/>
+	<MyRoom PropertyID="502000002" Code="8" Name="센드백3" Slot="2" EntityFileName="센드백3.xml"/>
+	<MyRoom PropertyID="50300000" Code="9" Name="선물함1" Slot="3" EntityFileName="선물함1.xml"/>
+	<MyRoom PropertyID="503000001" Code="10" Name="선물함2" Slot="3" EntityFileName="선물함2.xml"/>
+	<MyRoom PropertyID="503000002" Code="11" Name="선물함3" Slot="3" EntityFileName="선물함3.xml"/>
+</MyRoomProperty>

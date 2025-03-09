@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="222" PosY="111" SizeX="580" SizeY="536" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="0" TextPosY="0" TextSizeX="580" TextSizeY="536" PosX="0" PosY="0" SizeX="580" SizeY="536" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="586" TextPosY="191" TextSizeX="272" TextSizeY="38" PosX="476" PosY="63" SizeX="272" SizeY="38" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="586" TextPosY="227" TextSizeX="272" TextSizeY="38" PosX="476" PosY="157" SizeX="272" SizeY="38" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="586" TextPosY="269" TextSizeX="272" TextSizeY="92" PosX="476" PosY="230" SizeX="272" SizeY="92" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="586" TextPosY="362" TextSizeX="272" TextSizeY="53" PosX="476" PosY="315" SizeX="272" SizeY="53" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="586" TextPosY="416" TextSizeX="292" TextSizeY="62" PosX="476" PosY="397" SizeX="292" SizeY="62" />
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="586" TextPosY="479" TextSizeX="292" TextSizeY="38" PosX="476" PosY="445" SizeX="292" SizeY="38" />
+        </Property>
+	<Property Index="7" RenderStyle="0" Depth="0.649" Show="1">
+            <Element index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="586" TextPosY="518" TextSizeX="272" TextSizeY="53" PosX="476" PosY="445" SizeX="272" SizeY="53" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="OptionOK_Button" ClassName="CKeroroUI_Button" PosX="191" PosY="491" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="41" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="71" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="101" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="OptionCancel_Button" ClassName="CKeroroUI_Button" PosX="305" PosY="491" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="678" TextPosY="41" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="678" TextPosY="71" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="678" TextPosY="101" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM1_Button" ClassName="CKeroroUI_Button" PosX="147" PosY="83" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="131" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM2_Button" ClassName="CKeroroUI_Button" PosX="207" PosY="83" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="131" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM3_Button" ClassName="CKeroroUI_Button" PosX="267" PosY="83" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="131" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM4_Button" ClassName="CKeroroUI_Button" PosX="327" PosY="83" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="131" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGM5_Button" ClassName="CKeroroUI_Button" PosX="387" PosY="83" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="131" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX1_Button" ClassName="CKeroroUI_Button" PosX="147" PosY="153" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="150" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX2_Button" ClassName="CKeroroUI_Button" PosX="207" PosY="153" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="150" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX3_Button" ClassName="CKeroroUI_Button" PosX="267" PosY="153" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="150" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX4_Button" ClassName="CKeroroUI_Button" PosX="327" PosY="153" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="150" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFX5_Button" ClassName="CKeroroUI_Button" PosX="387" PosY="153" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="150" TextSizeX="58" TextSizeY="18" PosX="0" PosY="0" SizeX="58" SizeY="18" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="AntiON_Button" ClassName="CKeroroUI_Button" PosX="137" PosY="224" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="169" TextSizeX="8" TextSizeY="8" PosX="7" PosY="10" SizeX="8" SizeY="8" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="AntiOFF_Button" ClassName="CKeroroUI_Button" PosX="339" PosY="224" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="169" TextSizeX="8" TextSizeY="8" PosX="7" PosY="10" SizeX="8" SizeY="8" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ZoomInON_Button" ClassName="CKeroroUI_Button" PosX="339" PosY="303" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="169" TextSizeX="8" TextSizeY="8" PosX="7" PosY="10" SizeX="8" SizeY="8" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ZoomInOFF_Button" ClassName="CKeroroUI_Button" PosX="137" PosY="303" SizeX="58" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="585" TextPosY="169" TextSizeX="8" TextSizeY="8" PosX="7" PosY="10" SizeX="8" SizeY="8" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!-- Messenger 설정 -->
+        <Property Name="BlockFreind_Button" ClassName="CKeroroUI_Button" PosX="30" PosY="381" SizeX="58" SizeY="16" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="594" TextPosY="169" TextSizeX="17" TextSizeY="16" PosX="0" PosY="0" SizeX="17" SizeY="16" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BlockChat_Button" ClassName="CKeroroUI_Button" PosX="235" PosY="381" SizeX="58" SizeY="16" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="594" TextPosY="169" TextSizeX="17" TextSizeY="16" PosX="0" PosY="0" SizeX="17" SizeY="16" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BlockPPaper_Button" ClassName="CKeroroUI_Button" PosX="439" PosY="381" SizeX="58" SizeY="16" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="594" TextPosY="169" TextSizeX="17" TextSizeY="16" PosX="0" PosY="0" SizeX="17" SizeY="16" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!-- 추가 설정 -->
+        <Property Name="HelpToolTipControl_Button" ClassName="CKeroroUI_Button" PosX="126" PosY="453" SizeX="58" SizeY="16" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="594" TextPosY="169" TextSizeX="17" TextSizeY="16" PosX="0" PosY="0" SizeX="17" SizeY="16" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CharacterViewControl_Button" ClassName="CKeroroUI_Button" PosX="328" PosY="453" SizeX="58" SizeY="16" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="594" TextPosY="169" TextSizeX="17" TextSizeY="16" PosX="0" PosY="0" SizeX="17" SizeY="16" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="BGMLeft_Button" ClassName="CKeroroUI_Button" PosX="125" PosY="84" SizeX="14" SizeY="25" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="644" TextPosY="131" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="644" TextPosY="151" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="644" TextPosY="171" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGMRight_Button" ClassName="CKeroroUI_Button" PosX="455" PosY="83" SizeX="14" SizeY="25" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="656" TextPosY="131" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="656" TextPosY="151" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="656" TextPosY="171" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFXRight_Button" ClassName="CKeroroUI_Button" PosX="455" PosY="153" SizeX="14" SizeY="25" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="656" TextPosY="131" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="656" TextPosY="151" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="656" TextPosY="171" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFXLeft_Button" ClassName="CKeroroUI_Button" PosX="126" PosY="153" SizeX="14" SizeY="25" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="644" TextPosY="131" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="644" TextPosY="151" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="644" TextPosY="171" TextSizeX="11" TextSizeY="19" PosX="0" PosY="0" SizeX="11" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="BGMSwitch_Button" ClassName="CKeroroUI_Button" PosX="85" PosY="78" SizeX="18" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="668" TextPosY="131" TextSizeX="18" TextSizeY="28" PosX="0" PosY="0" SizeX="18" SizeY="28" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="700" TextPosY="131" TextSizeX="18" TextSizeY="28" PosX="0" PosY="0" SizeX="18" SizeY="28" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="688" TextPosY="131" TextSizeX="6" TextSizeY="28" PosX="18" PosY="0" SizeX="6" SizeY="28" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.649" Show="0">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="719" TextPosY="131" TextSizeX="16" TextSizeY="28" PosX="17" PosY="0" SizeX="16" SizeY="28" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SFXSwitch_Button" ClassName="CKeroroUI_Button" PosX="85" PosY="148" SizeX="18" SizeY="28" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="668" TextPosY="131" TextSizeX="18" TextSizeY="28" PosX="0" PosY="0" SizeX="18" SizeY="28" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="700" TextPosY="131" TextSizeX="18" TextSizeY="28" PosX="0" PosY="0" SizeX="18" SizeY="28" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="688" TextPosY="131" TextSizeX="6" TextSizeY="28" PosX="18" PosY="0" SizeX="6" SizeY="28" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.649" Show="0">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="719" TextPosY="131" TextSizeX="16" TextSizeY="28" PosX="17" PosY="0" SizeX="16" SizeY="28" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Close_Button" ClassName="CKeroroUI_Button" PosX="544" PosY="12" SizeX="22" SizeY="21" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.649" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="581" TextPosY="15" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="604" TextPosY="15" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Option_Kerotown.tga" TextPosX="627" TextPosY="15" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

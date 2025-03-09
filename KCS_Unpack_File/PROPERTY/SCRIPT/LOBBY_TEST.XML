@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<Lobby>
+	<Info ID = "100000001" Stage = "Community.stg" DummyCount = "0" DummyPosX = "0" DummyPosY = "800" DummyPosZ = "0" RadiusVisibleRange = "960" RadiusLoadingArea = "2000" DistantRender = "1" CollisionCheck = "0" />
+</Lobby>

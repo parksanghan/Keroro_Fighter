@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="157" PosY="109" SizeX="713" SizeY="550" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.707" Show="1"> <!-- 전체 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="350" TextPosY="6" TextSizeX="10" TextSizeY="550" PosX="344" PosY="0" SizeX="334" SizeY="550" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="5" TextPosY="6" TextSizeX="344" TextSizeY="550" PosX="0" PosY="0" SizeX="344" SizeY="550" />
+            <Element index="5" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="361" TextPosY="6" TextSizeX="35" TextSizeY="550" PosX="678" PosY="0" SizeX="35" SizeY="550" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.705" Show="1"> <!-- 내정보 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="685" TextPosY="293" TextSizeX="70" TextSizeY="22" PosX="328" PosY="15" SizeX="70" SizeY="22" />
+        </Property>
+
+        <Property Index="1" RenderStyle="0" Depth="0.706" Show="1"> <!-- 마이길드 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="166" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.706" Show="1"> <!-- 마이길드 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="758" TextPosY="293" TextSizeX="61" TextSizeY="21" PosX="346" PosY="173" SizeX="61" SizeY="21" />
+        </Property>
+
+        <Property Index="3" RenderStyle="0" Depth="0.706" Show="1"> <!-- 닉네임 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="212" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.706" Show="1"> <!-- 닉네임 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="758" TextPosY="316" TextSizeX="54" TextSizeY="21" PosX="349" PosY="219" SizeX="54" SizeY="21" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.706" Show="1"> <!-- 계급 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="247" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.706" Show="1"> <!-- 계급 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="758" TextPosY="339" TextSizeX="54" TextSizeY="21" PosX="349" PosY="254" SizeX="54" SizeY="21" />
+        </Property>
+        <Property Index="7" RenderStyle="0" Depth="0.706" Show="1"> <!-- 랭킹 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="282" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="8" RenderStyle="0" Depth="0.706" Show="1"> <!-- 랭킹 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="758" TextPosY="362" TextSizeX="54" TextSizeY="21" PosX="349" PosY="288" SizeX="54" SizeY="21" />
+        </Property>
+        <Property Index="9" RenderStyle="0" Depth="0.706" Show="1"> <!-- 경험치 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="317" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="10" RenderStyle="0" Depth="0.706" Show="1"> <!-- 경험치 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="758" TextPosY="385" TextSizeX="54" TextSizeY="21" PosX="349" PosY="323" SizeX="54" SizeY="21" />
+        </Property>
+
+        <Property Index="11" RenderStyle="0" Depth="0.706" Show="1"> <!-- 전적 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="362" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="12" RenderStyle="0" Depth="0.706" Show="1"> <!-- 전적 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="758" TextPosY="408" TextSizeX="54" TextSizeY="21" PosX="349" PosY="368" SizeX="54" SizeY="21" />
+        </Property>
+        <Property Index="11" RenderStyle="0" Depth="0.706" Show="1"> <!-- 킬/데스 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="397" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="12" RenderStyle="0" Depth="0.706" Show="1"> <!-- 킬/데스 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="751" TextPosY="431" TextSizeX="62" TextSizeY="21" PosX="346" PosY="403" SizeX="62" SizeY="21" />
+        </Property>
+        <Property Index="11" RenderStyle="0" Depth="0.706" Show="1"> <!-- 레더점수 항목 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="656" TextPosY="496" TextSizeX="366" TextSizeY="34" PosX="328" PosY="432" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="12" RenderStyle="0" Depth="0.706" Show="1"> <!-- 레더점수 항목 Text -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="751" TextPosY="454" TextSizeX="64" TextSizeY="21" PosX="345" PosY="438" SizeX="64" SizeY="21" />
+        </Property>
+
+        <Property Index="13" RenderStyle="1" Depth="0.707" Show="1"> <!-- 아이템 받기 배경 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="718" TextPosY="446" TextSizeX="10" TextSizeY="47" PosX="437" PosY="111" SizeX="242" SizeY="47" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="700" TextPosY="446" TextSizeX="17" TextSizeY="47" PosX="420" PosY="111" SizeX="17" SizeY="47" />
+            <Element index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="730" TextPosY="446" TextSizeX="17" TextSizeY="47" PosX="679" PosY="111" SizeX="17" SizeY="47" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="14" RenderStyle="0" Depth="0.706" Show="1"> <!-- 아이템 받기 상자 이미지 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="98" TextPosY="854" TextSizeX="39" TextSizeY="37" PosX="444" PosY="117" SizeX="39" SizeY="37" />
+        </Property>
+        <Property Index="15" RenderStyle="0" Depth="0.706" Show="1"> <!-- 아이템 받기 / 이미지 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="29" TextPosY="780" TextSizeX="23" TextSizeY="35" PosX="530" PosY="117" SizeX="23" SizeY="35" />
+        </Property>
+
+        <Property Index="16" RenderStyle="0" Depth="0.706" Show="1"> <!-- 하단 계급, 아이디 표시 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="820" TextPosY="469" TextSizeX="195" TextSizeY="25" PosX="121" PosY="443" SizeX="195" SizeY="25" />
+        </Property>
+
+        <Property Index="16" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 1 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="70" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="17" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 2 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="118" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="18" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 3 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="166" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="19" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 4 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="214" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="20" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 5 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="262" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="21" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 6 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="310" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+
+        <Property Index="22" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 7 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="358" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="23" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 8 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="406" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="24" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 9 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="454" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="25" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 10 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="502" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="26" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 11 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="550" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="27" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 12 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="598" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+        <Property Index="28" RenderStyle="0" Depth="0.706" Show="1"> <!-- 기능성 아이템 구분 바 13 -->
+            <Element index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="650" TextPosY="487" TextSizeX="2" TextSizeY="47" PosX="646" PosY="55" SizeX="2" SizeY="47" />
+        </Property>
+
+
+        <Property Index="29" RenderStyle="0" Depth="0.708" Show="1"> <!-- 전체 뒷 배경 검은색 Texture 처리 -->
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-157" PosY="-109" SizeX="1024" SizeY="768" />
+        </Property>
+
+
+    </DialogSkin>
+    <DialogControl>
+<!--START - 기본 UI-->
+        <Property Name="BUTTON_MyInfo_Close" ClassName="CKeroroUI_Button" PosX="672" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.705" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="BUTTON_MyInfo_Exit" ClassName="CKeroroUI_Button" PosX="311" PosY="488" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.705" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="856" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="910" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="964" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="BUTTON_MyInfo_InMyRoom" ClassName="CKeroroUI_Button" PosX="255" PosY="358" SizeX="61" SizeY="71" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.705" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="575" TextPosY="203" TextSizeX="55" TextSizeY="67" PosX="0" PosY="4" SizeX="55" SizeY="67" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="635" TextPosY="199" TextSizeX="61" TextSizeY="71" PosX="-3" PosY="0" SizeX="61" SizeY="71" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="701" TextPosY="200" TextSizeX="61" TextSizeY="71" PosX="-3" PosY="1" SizeX="61" SizeY="71" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기본 UI-->
+
+<!--START - 아이템 받기 -->
+        <Property Name="NUMBER_MyInfo_GetItem_My" ClassName="CKeroroUI_Number" PosX="461" PosY="118" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="0" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" Number="10" StartPosX="53" StartPosY="780" SizeX="23" SizeY="35" NextTermX="24" NextTermY="0" ShowPosX="0" ShowPosY="0" ShowNextTermX="17" ShowNextTermY="0" TextureName="GUI_Inventory&amp;info.TGA" Depth="0.660000" />
+        </Property>
+        <Property Name="NUMBER_MyInfo_GetItem_MAX" ClassName="CKeroroUI_Number" PosX="512" PosY="118" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="0" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" Number="10" StartPosX="53" StartPosY="780" SizeX="23" SizeY="35" NextTermX="24" NextTermY="0" ShowPosX="0" ShowPosY="0" ShowNextTermX="17" ShowNextTermY="0" TextureName="GUI_Inventory&amp;info.TGA" Depth="0.660000" />
+        </Property>
+        <Property Name="BUTTON_MyInfo_GetItem" ClassName="CKeroroUI_Button" PosX="600" PosY="119" SizeX="89" SizeY="31" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="5" TextPosY="820" TextSizeX="89" TextSizeY="31" PosX="0" PosY="0" SizeX="89" SizeY="31" />
+	      	    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="98" TextPosY="820" TextSizeX="89" TextSizeY="31" PosX="0" PosY="0" SizeX="89" SizeY="31" />
+	            <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="5" TextPosY="854" TextSizeX="89" TextSizeY="31" PosX="0" PosY="0" SizeX="89" SizeY="31" />
+	      	    <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="5" TextPosY="888" TextSizeX="89" TextSizeY="31" PosX="0" PosY="0" SizeX="89" SizeY="31" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.660" Show="0">
+	      	    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="139" TextPosY="854" TextSizeX="17" TextSizeY="62" PosX="90" PosY="-14" SizeX="17" SizeY="62" />
+	      	    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="139" TextPosY="854" TextSizeX="17" TextSizeY="62" PosX="90" PosY="-14" SizeX="17" SizeY="62" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.660" Show="0">
+	      	    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="157" TextPosY="854" TextSizeX="5" TextSizeY="62" PosX="107" PosY="-14" SizeX="135" SizeY="62" />
+	      	    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="157" TextPosY="854" TextSizeX="5" TextSizeY="62" PosX="107" PosY="-14" SizeX="135" SizeY="62" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.660" Show="0">
+	      	    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="163" TextPosY="854" TextSizeX="11" TextSizeY="62" PosX="242" PosY="-14" SizeX="11" SizeY="62" />
+	      	    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="163" TextPosY="854" TextSizeX="11" TextSizeY="62" PosX="242" PosY="-14" SizeX="11" SizeY="62" />
+                </Property>
+                <Property Index="4" RenderStyle="0" Depth="0.659" Show="0">
+	      	    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="5" TextPosY="924" TextSizeX="135" TextSizeY="52" PosX="107" PosY="-9" SizeX="135" SizeY="52" />
+	      	    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="5" TextPosY="924" TextSizeX="135" TextSizeY="52" PosX="107" PosY="-9" SizeX="135" SizeY="52" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 아이템 받기 -->
+
+<!--START - 마이길드 -->
+        <Property Name="STATIC_MyInfo_GuildName" ClassName="CKeroroUI_Static" PosX="460" PosY="178" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="대충만든길드" FontDepth="0.660" FontTextureName="STATIC_Guild_Name" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 마이길드 -->
+
+<!--START - 닉네임 -->
+        <Property Name="STATIC_MyInfo_NickName" ClassName="CKeroroUI_Static" PosX="440" PosY="223" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="아이디여섯자" FontDepth="0.660" FontTextureName="STATIC_MyInfo_NickName" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 닉네임 -->
+
+<!--START - 계급 -->
+        <Property Name="STATIC_MyInfo_Grade" ClassName="CKeroroUI_Static" PosX="460" PosY="258" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Class.TGA" TextPosX="61" TextPosY="182" TextSizeX="24" TextSizeY="24" PosX="-25" PosY="-6" SizeX="24" SizeY="24" />
+                </Property>
+            </ControlSkin>
+            <FontSkin>
+                <Property FontText="중사1" FontDepth="0.660" FontTextureName="STATIC_MyInfo_Grade" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 계급 -->
+
+<!--START - 랭킹 -->
+        <Property Name="STATIC_MyInfo_Ranking" ClassName="CKeroroUI_Static" PosX="460" PosY="293" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Class.TGA" TextPosX="61" TextPosY="182" TextSizeX="24" TextSizeY="24" PosX="-25" PosY="-6" SizeX="24" SizeY="24" />
+                </Property>
+            </ControlSkin>
+            <FontSkin>
+                <Property FontText="참모총장( 1위 )" FontDepth="0.660" FontTextureName="STATIC_MyInfo_Ranking" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 랭킹 -->
+
+<!--START - 경험치 -->
+        <Property Name="STATIC_MyInfo_ExpPercent" ClassName="CKeroroUI_Static" PosX="447" PosY="328" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="100000" FontDepth="0.660" FontTextureName="STATIC_MyInfo_ExpPercent" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="STATIC_MyInfo_Exp" ClassName="CKeroroUI_Static" PosX="567" PosY="328" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="100.0%%" FontDepth="0.660" FontTextureName="STATIC_MyInfo_Exp" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="GAUGE3_MyInfo_Exp" ClassName="CKeroroUI_Gauge3" PosX="432" PosY="324" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.662" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="298" TextPosY="894" TextSizeX="128" TextSizeY="22" PosX="-2" PosY="-1" SizeX="128" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 경험치 -->
+
+<!--START - 전적 -->
+        <Property Name="STATIC_MyInfo_Record" ClassName="CKeroroUI_Static" PosX="440" PosY="373" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="4전 0승 4패" FontDepth="0.660" FontTextureName="STATIC_MyInfo_Record" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 전적 -->
+
+<!--START - 킬/데스 -->
+        <Property Name="STATIC_MyInfo_KillDeath" ClassName="CKeroroUI_Static" PosX="440" PosY="408" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="4킬 0데스" FontDepth="0.660" FontTextureName="STATIC_MyInfo_KillDeath" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 킬/데스 -->
+
+<!--START - 레더점수 -->
+        <Property Name="STATIC_MyInfo_Ladder" ClassName="CKeroroUI_Static" PosX="440" PosY="443" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="4승 0패( 2200점 )" FontDepth="0.660" FontTextureName="STATIC_MyInfo_Ladder" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 레더점수 -->
+
+<!--START - Off Screen -->
+        <Property Name="STATIC_MyInfo_OffScreen" ClassName="CKeroroUI_Static" PosX="-85" PosY="62" SizeX="81" SizeY="53" Disable="0" OverSound="0">
+            <ControlSkin/>
+        </Property>
+<!---END- - Off Screen -->
+
+<!--START - 닉네임2 (하단) -->
+        <Property Name="STATIC_MyInfo_NickName2" ClassName="CKeroroUI_Static" PosX="263" PosY="449" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="아이디여섯자" FontDepth="0.660" FontTextureName="STATIC_MyInfo_NickName2" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 닉네임2 (하단) -->
+
+<!--START - 계급2 (하단) -->
+        <Property Name="STATIC_MyInfo_Grade2" ClassName="CKeroroUI_Static" PosX="163" PosY="449" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Class.TGA" TextPosX="61" TextPosY="182" TextSizeX="24" TextSizeY="24" PosX="-25" PosY="-6" SizeX="24" SizeY="24" />
+                </Property>
+            </ControlSkin>
+            <FontSkin>
+                <Property FontText="중사1" FontDepth="0.660" FontTextureName="STATIC_MyInfo_Ranking2" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 계급2 (하단) -->
+
+<!--START - 기능성 아이템 정보 (Control 간격 48) -->
+        <Property Name="CONTROL_MyInfo_SuperMaster" ClassName="CKeroroUI_Control" PosX="28" PosY="59" SizeX="41" SizeY="41" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function_mini.TGA" TextPosX="0" TextPosY="0" TextSizeX="41" TextSizeY="41" PosX="0" PosY="0" SizeX="41" SizeY="41" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CONTROL_MyInfo_ExKerot" ClassName="CKeroroUI_Control" PosX="76" PosY="59" SizeX="41" SizeY="41" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function_mini.TGA" TextPosX="42" TextPosY="0" TextSizeX="41" TextSizeY="41" PosX="0" PosY="0" SizeX="41" SizeY="41" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CONTROL_MyInfo_ExEXP" ClassName="CKeroroUI_Control" PosX="124" PosY="59" SizeX="41" SizeY="41" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function_mini.TGA" TextPosX="84" TextPosY="0" TextSizeX="41" TextSizeY="41" PosX="0" PosY="0" SizeX="41" SizeY="41" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CONTROL_MyInfo_4thSlot" ClassName="CKeroroUI_Control" PosX="172" PosY="59" SizeX="41" SizeY="41" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function_mini.TGA" TextPosX="126" TextPosY="0" TextSizeX="41" TextSizeY="41" PosX="0" PosY="0" SizeX="41" SizeY="41" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CONTROL_MyInfo_5thSlot" ClassName="CKeroroUI_Control" PosX="220" PosY="59" SizeX="41" SizeY="41" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function_mini.TGA" TextPosX="168" TextPosY="0" TextSizeX="41" TextSizeY="41" PosX="0" PosY="0" SizeX="41" SizeY="41" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CONTROL_MyInfo_HideRecord" ClassName="CKeroroUI_Control" PosX="268" PosY="59" SizeX="41" SizeY="41" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="Item_function_mini.TGA" TextPosX="210" TextPosY="0" TextSizeX="41" TextSizeY="41" PosX="0" PosY="0" SizeX="41" SizeY="41" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기능성 아이템 정보 -->
+
+    </DialogControl>
+</RootNode>

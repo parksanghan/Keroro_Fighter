@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WP_BambooSword" FILENAME="Hum_WP_Duster.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="13" VSNAME="WP_Sword.VS">
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_DP" FILENAME="WP_Obj_Sword_Combat_Dash_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Dash01" FILENAME="WP_obj_Sword_Combat_Dash01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Dash02" FILENAME="WP_Obj_Sword_Dash02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Idle01" FILENAME="WP_Obj_Sword_IDLE01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_JP" FILENAME="WP_Obj_Sword_Combat_Jump_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Jump_Down" FILENAME="WP_Obj_Sword_Jump_Down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Jump_Land" FILENAME="WP_Obj_Sword_Jump_Land.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Jump_Once" FILENAME="WP_Obj_Sword_Jump_Once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Jump_Twice" FILENAME="WP_Obj_Sword_Jump_Twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Jump_Up" FILENAME="WP_Obj_Sword_Jump_Up.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_P" FILENAME="WP_Obj_Sword_Combat_Comp_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_PP" FILENAME="WP_Obj_Sword_Combat_Comp_pp.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_Bamboo_Wait" FILENAME="WP_obj_Sword_Combat_Wait.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_Bamboosword_COMMANDS.XML" />
+</GAMEENTITY>

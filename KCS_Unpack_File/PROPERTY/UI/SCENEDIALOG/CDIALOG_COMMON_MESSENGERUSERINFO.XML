@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="318" PosY="179" SizeX="400" SizeY="365" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.705" Show="1"> <!-- 기본 배경 -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="111" TextPosY="3" TextSizeX="8" TextSizeY="365" PosX="31" PosY="0" SizeX="338" SizeY="365" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_Lobby_Popup.TGA" TextPosX="79" TextPosY="3" TextSizeX="31" TextSizeY="365" PosX="0" PosY="0" SizeX="31" SizeY="365" />
+            <Element index="5" TextName="GUI_Lobby_Popup.TGA" TextPosX="120" TextPosY="3" TextSizeX="31" TextSizeY="365" PosX="369" PosY="0" SizeX="31" SizeY="365" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.704" Show="1"> <!-- 기본 Text -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="233" TextPosY="4" TextSizeX="222" TextSizeY="24" PosX="90" PosY="15" SizeX="222" SizeY="24" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.704" Show="1"> <!-- 마이길드 항목 배경 -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="4" TextPosY="371" TextSizeX="366" TextSizeY="34" PosX="17" PosY="56" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.704" Show="1"> <!-- 마이길드 항목 Text -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="296" TextPosY="57" TextSizeX="65" TextSizeY="20" PosX="32" PosY="63" SizeX="65" SizeY="20" />
+        </Property>
+
+        <Property Index="4" RenderStyle="0" Depth="0.704" Show="1"> <!-- 계급 항목 배경 -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="4" TextPosY="371" TextSizeX="366" TextSizeY="34" PosX="17" PosY="102" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.704" Show="1"> <!-- 계급 항목 Text -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="296" TextPosY="79" TextSizeX="55" TextSizeY="20" PosX="36" PosY="108" SizeX="55" SizeY="20" />
+        </Property>
+
+        <Property Index="6" RenderStyle="0" Depth="0.704" Show="1"> <!-- 랭킹 항목 배경 -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="4" TextPosY="371" TextSizeX="366" TextSizeY="34" PosX="17" PosY="137" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="7" RenderStyle="0" Depth="0.704" Show="1"> <!-- 랭킹 항목 Text -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="296" TextPosY="101" TextSizeX="55" TextSizeY="20" PosX="37" PosY="145" SizeX="55" SizeY="20" />
+        </Property>
+
+        <Property Index="8" RenderStyle="0" Depth="0.704" Show="1"> <!-- 전적 항목 배경 -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="4" TextPosY="371" TextSizeX="366" TextSizeY="34" PosX="17" PosY="183" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="9" RenderStyle="0" Depth="0.704" Show="1"> <!-- 전적 항목 Text -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="296" TextPosY="123" TextSizeX="55" TextSizeY="20" PosX="36" PosY="190" SizeX="55" SizeY="20" />
+        </Property>
+
+        <Property Index="10" RenderStyle="0" Depth="0.704" Show="1"> <!-- 킬/데스 항목 배경 -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="4" TextPosY="371" TextSizeX="366" TextSizeY="34" PosX="17" PosY="218" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="11" RenderStyle="0" Depth="0.704" Show="1"> <!-- 킬/데스 항목 Text -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="296" TextPosY="145" TextSizeX="63" TextSizeY="20" PosX="35" PosY="225" SizeX="63" SizeY="20" />
+        </Property>
+
+        <Property Index="12" RenderStyle="0" Depth="0.704" Show="1"> <!-- 레더점수 항목 배경 -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="4" TextPosY="371" TextSizeX="366" TextSizeY="34" PosX="17" PosY="253" SizeX="366" SizeY="34" />
+        </Property>
+        <Property Index="13" RenderStyle="0" Depth="0.704" Show="1"> <!-- 레더점수 항목 Text -->
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="296" TextPosY="168" TextSizeX="64" TextSizeY="20" PosX="35" PosY="260" SizeX="64" SizeY="20" />
+        </Property>
+
+        <Property Index="14" RenderStyle="0" Depth="0.706" Show="1"> <!-- 음영 -->
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-318" PosY="-179" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+
+<!--START - 기본 UI-->
+        <Property Name="MSNUserInfoClose_Button" ClassName="CKeroroUI_Button" PosX="361" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.690" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기본 UI-->
+
+        <Property Name="MSNUserInfoDone_Button" ClassName="CKeroroUI_Button" PosX="158" PosY="305" SizeX="92" SizeY="44" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.690" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="238" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!--START - 닉네임 -->
+        <Property Name="MSNUserInfo_NickName" ClassName="CKeroroUI_Static" PosX="144" PosY="20" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="아이디여섯자" FontDepth="0.660" FontTextureName="MSNUserInfo_NickName" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 닉네임 -->
+
+<!--START - 마이길드 -->
+        <Property Name="MSNUserInfo_UserGuildName" ClassName="CKeroroUI_Static" PosX="153" PosY="67" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="대충만든길드" FontDepth="0.660" FontTextureName="MSNStatic_UserInfo_UserGuildName_Text" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 마이길드 -->
+
+<!--START - 계급 -->
+        <Property Name="MSNUserInfo_Grade" ClassName="CKeroroUI_Static" PosX="153" PosY="113" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Class.TGA" TextPosX="61" TextPosY="182" TextSizeX="24" TextSizeY="24" PosX="-25" PosY="-6" SizeX="24" SizeY="24" />
+                </Property>
+            </ControlSkin>
+            <FontSkin>
+                <Property FontText="중사1" FontDepth="0.660" FontTextureName="MSNUserInfo_Grade" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 계급 -->
+
+<!--START - 랭킹 -->
+        <Property Name="MSNUserInfo_Ranking" ClassName="CKeroroUI_Static" PosX="153" PosY="148" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.660" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Class.TGA" TextPosX="61" TextPosY="182" TextSizeX="24" TextSizeY="24" PosX="-25" PosY="-6" SizeX="24" SizeY="24" />
+                </Property>
+            </ControlSkin>
+            <FontSkin>
+                <Property FontText="참모총장( 1위 )" FontDepth="0.660" FontTextureName="MSNUserInfo_Ranking" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 랭킹 -->
+
+<!--START - 전적 -->
+        <Property Name="MSNUserInfo_UserRecord" ClassName="CKeroroUI_Static" PosX="133" PosY="194" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="4전 0승 4패 승률 0%%" FontDepth="0.660" FontTextureName="MSNUserInfo_UserRecord" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 전적 -->
+
+<!--START - 킬/데스 -->
+        <Property Name="MSNUserInfo_UserKillDeath" ClassName="CKeroroUI_Static" PosX="133" PosY="229" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="4킬 0데스" FontDepth="0.660" FontTextureName="MSNUserInfo_UserKillDeath" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 킬/데스 -->
+
+<!--START - 레더점수 -->
+        <Property Name="MSNUserInfo_UserLadderInfo" ClassName="CKeroroUI_Static" PosX="133" PosY="264" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <ControlSkin/>
+            <FontSkin>
+                <Property FontText="4승 0패( 2200점 )" FontDepth="0.660" FontTextureName="MSNUserInfo_UserLadderInfo" FontSize="12" FontSort="0" FontColor="48127.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+<!---END- - 레더점수 -->
+
+
+
+    </DialogControl>
+</RootNode>

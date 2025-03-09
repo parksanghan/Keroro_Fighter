@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="Common_KeyMap" PosX="156" PosY="131" SizeX="737" SizeY="532" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.700" Show="1"> <!-- 전체 배경 -->
+            <Element index="0" TextName="GUI_gamemenu.TGA" TextPosX="40" TextPosY="88" TextSizeX="9" TextSizeY="532" PosX="36" PosY="0" SizeX="666" SizeY="532" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_gamemenu.TGA" TextPosX="3" TextPosY="88" TextSizeX="36" TextSizeY="532" PosX="" PosY="0" SizeX="36" SizeY="532" />
+            <Element index="5" TextName="GUI_gamemenu.TGA" TextPosX="50" TextPosY="88" TextSizeX="36" TextSizeY="532" PosX="701" PosY="0" SizeX="36" SizeY="532" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+	<Property Index="1" RenderStyle="0" Depth="0.705" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-156" PosY="-131" SizeX="1024" SizeY="768" />
+        </Property>
+
+	<Property Index="2" RenderStyle="0" Depth="0.699" Show="1"> <!-- 타이틀 -->
+            <Element index="0" TextName="GUI_gamemenu.tga" TextPosX="428" TextPosY="543" TextSizeX="68" TextSizeY="22" PosX="333" PosY="15" SizeX="68" SizeY="22" />
+        </Property>
+
+	<Property Index="3" RenderStyle="0" Depth="0.699" Show="1"> <!-- Key 이미지 -->
+            <Element index="0" TextName="GUI_gamemenu_key.tga" TextPosX="10" TextPosY="9" TextSizeX="676" TextSizeY="233" PosX="31" PosY="71" SizeX="676" SizeY="233" />
+        </Property>
+
+	<Property Index="4" RenderStyle="0" Depth="0.699" Show="1"> <!-- 설명 이미지 1.1 -->
+            <Element index="0" TextName="GUI_gamemenu.tga" TextPosX="4" TextPosY="726" TextSizeX="155" TextSizeY="101" PosX="72" PosY="326" SizeX="155" SizeY="101" />
+        </Property>
+	<Property Index="5" RenderStyle="0" Depth="0.699" Show="1"> <!-- 설명 이미지 1.2 -->
+            <Element index="0" TextName="GUI_gamemenu.tga" TextPosX="76" TextPosY="831" TextSizeX="157" TextSizeY="18" PosX="144" PosY="430" SizeX="157" SizeY="18" />
+        </Property>
+
+	<Property Index="6" RenderStyle="0" Depth="0.699" Show="1"> <!-- 설명 이미지 2.1 -->
+            <Element index="0" TextName="GUI_gamemenu.tga" TextPosX="165" TextPosY="727" TextSizeX="288" TextSizeY="79" PosX="355" PosY="327" SizeX="288" SizeY="79" />
+        </Property>
+	<Property Index="7" RenderStyle="0" Depth="0.699" Show="1"> <!-- 설명 이미지 2.2 -->
+            <Element index="0" TextName="GUI_gamemenu.tga" TextPosX="242" TextPosY="809" TextSizeX="154" TextSizeY="40" PosX="432" PosY="409" SizeX="154" SizeY="40" />
+        </Property>
+
+    </DialogSkin>
+    <DialogControl>
+<!--START - 기본 UI-->
+        <Property Name="KeyMapClose_Button" ClassName="CKeroroUI_Button" PosX="696" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.498" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기본 UI-->
+
+        <Property Name="KeyMapDone_Button" ClassName="CKeroroUI_Button" PosX="322" PosY="472" SizeX="92" SizeY="44" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.498" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="238" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+    </DialogControl>
+</RootNode>

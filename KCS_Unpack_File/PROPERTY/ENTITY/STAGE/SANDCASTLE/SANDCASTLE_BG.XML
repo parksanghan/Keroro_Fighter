@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="18">
+        <PROPERTYBAG NAME="SandCastle_3rdFloor_Clam" FILENAME="SandCastle_3rdFloor_Clam.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_4thFloor" FILENAME="SandCastle_4thFloor.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Alpha" FILENAME="SandCastle_Alpha.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Ball" FILENAME="SandCastle_Ball.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Ball_1stClam" FILENAME="SandCastle_Ball_1stClam.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Bg" FILENAME="SandCastle_Bg.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_CastleBack01" FILENAME="SandCastle_CastleBack01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_CastleBack02" FILENAME="SandCastle_CastleBack02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_CastleBack03" FILENAME="SandCastle_CastleBack03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_CastleBack05" FILENAME="SandCastle_CastleBack05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_CastleBack04" FILENAME="SandCastle_CastleBack04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_CastleLeft" FILENAME="SandCastle_CastleLeft.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_CastleRight" FILENAME="SandCastle_CastleRight.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Parasol" FILENAME="SandCastle_Parasol.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Stoen01_2ndClam" FILENAME="SandCastle_Stoen01_2ndClam.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Stone01" FILENAME="SandCastle_Stone01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Stone01_Clam" FILENAME="SandCastle_Stone01_Clam.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Stone02" FILENAME="SandCastle_Stone02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="SandCastle_sea_E00.xml" FILENAME="SandCastle_sea_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="SandCastle_BG_COMMANDS.XML" />
+</GAMEENTITY>

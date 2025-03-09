@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="32">
+        <PROPERTYBAG NAME="CAP" FILENAME="Joruru_cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KNIFE" FILENAME="Joruru_Knife.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Joruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Joruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Joruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Joruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Joruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Joruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Joruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Joruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Joruru_Head03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Joruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Joruru_Body_down.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Joruru_Body_top.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMB_DA_P" FILENAME="Kero_DASH_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Frogknuckle" FILENAME="Skill_Atk_Frogknuckle.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="SKILL_ATK_FROGKNUCKLE_1" FILENAME="SKILL_ATK_FROGKNUCKLE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="SKILL_ATK_FROGKNUCKLE_3" FILENAME="SKILL_ATK_FROGKNUCKLE_3.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="Skil_Atk_Super_Heading_E00" FILENAME="Skil_Atk_Super_Heading_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skil_Atk_Super_Heading_E01" FILENAME="Skil_Atk_Super_Heading_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Frogknuckle_E00" FILENAME="Skill_Atk_Frogknuckle_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Frogknuckle_E01" FILENAME="Skill_Atk_Frogknuckle_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Frogknuckle_E02" FILENAME="Skill_Atk_Frogknuckle_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Atk_Frogknuckle_E03" FILENAME="Skill_Atk_Frogknuckle_E03.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_Joru_ANGLENUCKLE_COMMANDS.XML" />
+</GAMEENTITY>

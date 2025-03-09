@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="WP_Waterbomb_01" FILENAME="WP_Waterbomb_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Waterbomb_02" FILENAME="WP_Waterbomb_02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="WP_throw.VS">
+        <PROPERTYBAG NAME="WP_Throw_obj_IDLE01" FILENAME="WP_Throw_obj_IDLE01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_Obj_WaterBall_Jump_COMMANDS.XML" />
+</GAMEENTITY>

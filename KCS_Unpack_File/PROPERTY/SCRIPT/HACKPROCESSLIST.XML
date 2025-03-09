@@ -1,0 +1,12 @@
+<List>
+	<Process Name = "SpeedGear.exe" Type = "exe" FileSize = "561152" />
+	<Process Name = "SpeedGear.exe" Type = "exe" FileSize = "159826" />
+	<Process Name = "Cheat Engine.exe" Type = "exe" FileSize = "3176960" />
+	<Process Name = "MoonlightEngine.exe" Type = "exe" FileSize = "1944064" />
+	<Process Name = "shellapi.dll" Type = "dll" FileSize ="" />
+	<Process Name = "Keyboard Interface.dll" Type = "dll" FileSize = "" />
+	<Process Name = "Futaba_PCM.dll" Type = "dll" FileSize = "" />
+	<Process Name = "Futaba_PPM.dll" Type = "dll" FileSize = "" />
+	<Process Name = "JR_PCM.dll" Type = "dll" FileSize = "" />
+	<Process Name = "JR_PPM.dll" Type = "dll" FileSize = "" />
+</List>

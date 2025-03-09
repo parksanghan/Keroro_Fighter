@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Kero_Obj_Duster.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Item_A_Ke_Duster.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="Default">
+            <Property name="UseAlpha" value="0" />
+            <Property name="Lighting" value="0" />
+            <Property name="Outline" value="0" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+</VGEModelFile>

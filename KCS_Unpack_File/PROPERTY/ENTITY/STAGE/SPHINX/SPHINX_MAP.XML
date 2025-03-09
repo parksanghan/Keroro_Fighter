@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="67">
+        <PROPERTYBAG NAME="Sphinx_Bg" FILENAME="Sphinx_Bg.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Bg_01" FILENAME="Sphinx_Bg_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Bg_02" FILENAME="Sphinx_Bg_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Bg_03" FILENAME="Sphinx_Bg_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Bg_04" FILENAME="Sphinx_Bg_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_A_01" FILENAME="Sphinx_Cactus_A_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_A_02" FILENAME="Sphinx_Cactus_A_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_A_03" FILENAME="Sphinx_Cactus_A_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_A_04" FILENAME="Sphinx_Cactus_A_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_02" FILENAME="Sphinx_Cactus_B_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_03" FILENAME="Sphinx_Cactus_B_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_04" FILENAME="Sphinx_Cactus_B_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_05" FILENAME="Sphinx_Cactus_B_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_06" FILENAME="Sphinx_Cactus_B_06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_09" FILENAME="Sphinx_Cactus_B_09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_10" FILENAME="Sphinx_Cactus_B_10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_11" FILENAME="Sphinx_Cactus_B_11.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_A_01" FILENAME="Sphinx_Dm_Ob_A_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_A_02" FILENAME="Sphinx_Dm_Ob_A_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_A_03" FILENAME="Sphinx_Dm_Ob_A_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_A_04" FILENAME="Sphinx_Dm_Ob_A_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_B_01" FILENAME="Sphinx_Dm_Ob_B_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_B_02" FILENAME="Sphinx_Dm_Ob_B_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_B_03" FILENAME="Sphinx_Dm_Ob_B_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Dm_Ob_B_04" FILENAME="Sphinx_Dm_Ob_B_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Gradient_01" FILENAME="Sphinx_Gradient_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Gradient_02" FILENAME="Sphinx_Gradient_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_01" FILENAME="Sphinx_Piramid_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_02" FILENAME="Sphinx_Piramid_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Bg_01" FILENAME="Sphinx_Piramid_Bg_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Bg_02" FILENAME="Sphinx_Piramid_Bg_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Bg_03" FILENAME="Sphinx_Piramid_Bg_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Bg_04" FILENAME="Sphinx_Piramid_Bg_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_01" FILENAME="Sphinx_Piramid_Block_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_02" FILENAME="Sphinx_Piramid_Block_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_03" FILENAME="Sphinx_Piramid_Block_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_04" FILENAME="Sphinx_Piramid_Block_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_05" FILENAME="Sphinx_Piramid_Block_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_06" FILENAME="Sphinx_Piramid_Block_06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_07" FILENAME="Sphinx_Piramid_Block_07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_08" FILENAME="Sphinx_Piramid_Block_08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_09" FILENAME="Sphinx_Piramid_Block_09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_10" FILENAME="Sphinx_Piramid_Block_10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_11" FILENAME="Sphinx_Piramid_Block_11.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_12" FILENAME="Sphinx_Piramid_Block_12.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_13" FILENAME="Sphinx_Piramid_Block_13.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_14" FILENAME="Sphinx_Piramid_Block_14.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Block_15" FILENAME="Sphinx_Piramid_Block_15.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Face" FILENAME="Sphinx_Piramid_Main_Face.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Foot" FILENAME="Sphinx_Piramid_Main_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Stone" FILENAME="Sphinx_Piramid_Main_Stone.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_01" FILENAME="Sphinx_Piramid_Main_Wall_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_02" FILENAME="Sphinx_Piramid_Main_Wall_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_03" FILENAME="Sphinx_Piramid_Main_Wall_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_04" FILENAME="Sphinx_Piramid_Main_Wall_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_05" FILENAME="Sphinx_Piramid_Main_Wall_05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_06" FILENAME="Sphinx_Piramid_Main_Wall_06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_07" FILENAME="Sphinx_Piramid_Main_Wall_07.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_08" FILENAME="Sphinx_Piramid_Main_Wall_08.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Main_Wall_09" FILENAME="Sphinx_Piramid_Main_Wall_09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Out_Stone_01" FILENAME="Sphinx_Piramid_Out_Stone_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Out_Stone_02" FILENAME="Sphinx_Piramid_Out_Stone_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Out_Stone_03" FILENAME="Sphinx_Piramid_Out_Stone_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Piramid_Out_Stone_04" FILENAME="Sphinx_Piramid_Out_Stone_04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Plant" FILENAME="Sphinx_Plant.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Caroro_Bisuk_Blue_A" FILENAME="Sphinx_Caroro_Bisuk_Blue_A.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_Caroro_Bisuk_Red_A" FILENAME="Sphinx_Caroro_Bisuk_Red_A.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="SPHINX_DUST" FILENAME="Sphinx_Dust_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SPHINX_DUST01" FILENAME="Sphinx_Dust_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SPHINX_TWISTER_01" FILENAME="Sphinx_Twister_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SPHINX_TWISTER_02" FILENAME="Sphinx_Twister_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SPHINX_WIND" FILENAME="Sphinx_Wind_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SPHINX_WIND_1" FILENAME="Sphinx_Wind_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SPHINX_WIND_2" FILENAME="Sphinx_Wind_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_01.xml" FILENAME="Sphinx_Cactus_B_01.xml" />
+        <PROPERTYBAG NAME="Sphinx_Cactus_B_07.xml" FILENAME="Sphinx_Cactus_B_07.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Sphinx_Map_COMMANDS.XML" />
+</GAMEENTITY>

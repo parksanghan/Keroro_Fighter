@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Puru_Spe_P01" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="5.000000" Z="0.000000" />
+            <Property Time="0.450000" X="0.000000" Y="3.000000" Z="0.000000" />
+            <Property Time="0.450000" X="0.000000" Y="7.000000" Z="0.000000" />
+            <Property Time="0.450000" X="0.000000" Y="5.000000" Z="0.000000" />
+            <Property Time="0.700000" X="0.000000" Y="20.000000" Z="0.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="0.000000" />
+            <Property Time="0.400000" Value="150.000000" />
+            <Property Time="1.000000" Value="150.000000" />
+            <Property Time="0.700000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.300000" X="5.000000" Y="5.000000" Z="0.100000" />
+            <Property Time="0.300000" X="4.000000" Y="4.000000" Z="-0.080000" />
+            <Property Time="0.500000" X="5.000000" Y="5.000000" Z="0.050000" />
+            <Property Time="0.500000" X="2.000000" Y="2.000000" Z="-0.040000" />
+            <Property Time="0.500000" X="7.000000" Y="7.000000" Z="0.020000" />
+            <Property Time="0.500000" X="3.000000" Y="3.000000" Z="-0.020000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="PuruHeart01.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="5.000000" Max="6.000000" />
+        <RepeatCount Count="3.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="2.580000" />
+        <RegenTime Min="0.070000" Max="0.100000" />
+        <RotScaleMin X="2.500000" Y="2.500000" Z="360.000000" />
+        <RotScaleMax X="5.500000" Y="5.500000" Z="360.000000" />
+        <RandPosMin X="-350.000000" Y="150.000000" Z="-350.000000" />
+        <RandPosMax X="350.000000" Y="-50.000000" Z="350.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="10.000000" Max="15.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="86">
+        <Sequence>
+            <Speed X="0.000000" Y="5.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.866667" Z="0.000000" />
+            <Alpha Value="11.249999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.010000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.733333" Z="0.000000" />
+            <Alpha Value="22.499998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.020000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.600000" Z="0.000000" />
+            <Alpha Value="33.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.500000" Y="1.500000" Z="0.030000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.466667" Z="0.000000" />
+            <Alpha Value="44.999996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.000000" Y="2.000000" Z="0.040000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.333333" Z="0.000000" />
+            <Alpha Value="56.249996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.500000" Y="2.500000" Z="0.050000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.200000" Z="0.000000" />
+            <Alpha Value="67.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.000000" Y="3.000000" Z="0.060000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.066667" Z="0.000000" />
+            <Alpha Value="78.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.500000" Y="3.500000" Z="0.070000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.933333" Z="0.000000" />
+            <Alpha Value="89.999992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.000000" Y="4.000000" Z="0.080000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.800000" Z="0.000000" />
+            <Alpha Value="101.249992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.500000" Y="4.500000" Z="0.090000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.666667" Z="0.000000" />
+            <Alpha Value="112.499992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.000000" Y="5.000000" Z="0.100000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.533333" Z="0.000000" />
+            <Alpha Value="123.749992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.900000" Y="4.900000" Z="0.082000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.400000" Z="0.000000" />
+            <Alpha Value="135.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.800000" Y="4.800000" Z="0.064000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.266667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.700000" Y="4.700000" Z="0.046000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.133333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.600000" Y="4.600000" Z="0.028000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.000000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.500000" Y="4.500000" Z="0.010000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.266667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.400000" Y="4.400000" Z="-0.008000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.533333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.300000" Y="4.300000" Z="-0.026000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="3.800000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.200000" Y="4.200000" Z="-0.044000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.066667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.100000" Y="4.100000" Z="-0.062000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.333333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.000000" Y="4.000000" Z="-0.080000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.600000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.060000" Y="4.060000" Z="-0.072200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="4.866667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.120000" Y="4.120000" Z="-0.064400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.133333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.180000" Y="4.180000" Z="-0.056600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.400000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.240000" Y="4.240000" Z="-0.048800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.666667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.300000" Y="4.300000" Z="-0.041000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.933333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.360000" Y="4.360000" Z="-0.033200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.200000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.420000" Y="4.420000" Z="-0.025400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.466667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.480000" Y="4.480000" Z="-0.017600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.733334" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.540000" Y="4.540000" Z="-0.009800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="7.000000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.600000" Y="4.600000" Z="-0.002000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.866667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.660000" Y="4.660000" Z="0.005800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.733333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.720000" Y="4.720000" Z="0.013600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.600000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.780000" Y="4.780000" Z="0.021400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.466667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.840000" Y="4.840000" Z="0.029200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.333333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.900000" Y="4.900000" Z="0.037000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.200000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.000000" Y="5.000000" Z="0.050000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.066667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.820000" Y="4.820000" Z="0.044600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.933333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.640000" Y="4.640000" Z="0.039200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.800000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.460000" Y="4.460000" Z="0.033800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.666667" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.280000" Y="4.280000" Z="0.028400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.533333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.100000" Y="4.100000" Z="0.023000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.400000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.920000" Y="3.920000" Z="0.017600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.266666" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.740000" Y="3.740000" Z="0.012200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.133333" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.560000" Y="3.560000" Z="0.006800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.000000" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.380000" Y="3.380000" Z="0.001400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="5.642857" Z="0.000000" />
+            <Alpha Value="150.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.200000" Y="3.200000" Z="-0.004000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.285714" Z="0.000000" />
+            <Alpha Value="143.571426" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.020000" Y="3.020000" Z="-0.009400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="6.928571" Z="0.000000" />
+            <Alpha Value="137.142853" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.840000" Y="2.840000" Z="-0.014800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="7.571428" Z="0.000000" />
+            <Alpha Value="130.714294" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.660000" Y="2.660000" Z="-0.020200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="8.214286" Z="0.000000" />
+            <Alpha Value="124.285713" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.480000" Y="2.480000" Z="-0.025600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="8.857142" Z="0.000000" />
+            <Alpha Value="117.857147" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.300000" Y="2.300000" Z="-0.031000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="9.500000" Z="0.000000" />
+            <Alpha Value="111.428574" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.000000" Y="2.000000" Z="-0.040000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="10.142857" Z="0.000000" />
+            <Alpha Value="105.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.300000" Y="2.300000" Z="-0.036400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="10.785714" Z="0.000000" />
+            <Alpha Value="98.571426" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.600000" Y="2.600000" Z="-0.032800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="11.428572" Z="0.000000" />
+            <Alpha Value="92.142860" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.900000" Y="2.900000" Z="-0.029200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="12.071428" Z="0.000000" />
+            <Alpha Value="85.714287" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.200000" Y="3.200000" Z="-0.025600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="12.714285" Z="0.000000" />
+            <Alpha Value="79.285721" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.500000" Y="3.500000" Z="-0.022000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="13.357142" Z="0.000000" />
+            <Alpha Value="72.857147" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.800000" Y="3.800000" Z="-0.018400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="13.999999" Z="0.000000" />
+            <Alpha Value="66.428574" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.100000" Y="4.100000" Z="-0.014800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="14.642857" Z="0.000000" />
+            <Alpha Value="60.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.400000" Y="4.400000" Z="-0.011200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="15.285714" Z="0.000000" />
+            <Alpha Value="53.571426" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.700000" Y="4.700000" Z="-0.007600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="15.928572" Z="0.000000" />
+            <Alpha Value="47.142853" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.000000" Y="5.000000" Z="-0.004000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="16.571428" Z="0.000000" />
+            <Alpha Value="40.714287" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.300000" Y="5.300000" Z="-0.000400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="17.214287" Z="0.000000" />
+            <Alpha Value="34.285721" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.600000" Y="5.600000" Z="0.003200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="17.857143" Z="0.000000" />
+            <Alpha Value="27.857147" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.900000" Y="5.900000" Z="0.006800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="18.500000" Z="0.000000" />
+            <Alpha Value="21.428574" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.200000" Y="6.200000" Z="0.010400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="19.142857" Z="0.000000" />
+            <Alpha Value="15.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.500000" Y="6.500000" Z="0.014000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="8.571442" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="7.000000" Y="7.000000" Z="0.020000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.760000" Y="6.760000" Z="0.017600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.520000" Y="6.520000" Z="0.015200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.280000" Y="6.280000" Z="0.012800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.040000" Y="6.040000" Z="0.010400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.800000" Y="5.800000" Z="0.008000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.560000" Y="5.560000" Z="0.005600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.320000" Y="5.320000" Z="0.003200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.080000" Y="5.080000" Z="0.000800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.840000" Y="4.840000" Z="-0.001600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.600000" Y="4.600000" Z="-0.004000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.360000" Y="4.360000" Z="-0.006400" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.120000" Y="4.120000" Z="-0.008800" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.880000" Y="3.880000" Z="-0.011200" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.640000" Y="3.640000" Z="-0.013600" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.400000" Y="3.400000" Z="-0.016000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.000000" Y="3.000000" Z="-0.020000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="20.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.000000" Y="3.000000" Z="-0.020000" />
+            <Texture Texture="PuruHeart01.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

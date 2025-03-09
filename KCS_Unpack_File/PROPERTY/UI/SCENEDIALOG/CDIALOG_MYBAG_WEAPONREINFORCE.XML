@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_MyBag_WeaponReinforce.xml" PosX="2" PosY="0" SizeX="1024" SizeY="768" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.50" Show="1">
+            <Element index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="284" TextPosY="368" TextSizeX="7" TextSizeY="533" PosX="366" PosY="100" SizeX="543" SizeY="533" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_Inventory_tab.TGA" TextPosX="6" TextPosY="368" TextSizeX="276" TextSizeY="533" PosX="90" PosY="100" SizeX="276" SizeY="533" />
+            <Element index="5" TextName="GUI_Inventory_tab.TGA" TextPosX="294" TextPosY="368" TextSizeX="32" TextSizeY="532" PosX="908" PosY="100" SizeX="32" SizeY="532" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+	<!--'보석 장착' 이미지-->
+        <Property Index = "1" RenderStyle = "0" Depth = "0.45" Show = "1">
+            <Element index = "0" TextName = "GUI_Inventory&amp;info2.TGA" TextPosX = "0" TextPosY = "788" TextSizeX = "89" TextSizeY = "26" PosX = "470" PosY = "112" SizeX = "89" SizeY = "26" />
+        </Property>
+	<!--상단 카드(보석) 이미지들..카드 슬롯은 컨트롤에 버튼으로 생성-->
+	<!--'카드 슬롯'-->
+	<Property Index = "2" RenderStyle = "0" Depth = "0.45" Show = "1">
+		<Element index = "0" TextName = "GUI_Inventory&amp;info2.TGA" TextPosX = "5" TextPosY = "812" TextSizeX = "54" TextSizeY = "15" PosX = "195" PosY = "153" SizeX = "54" SizeY = "15" />
+	</Property>
+	<!--세로 라인 -->
+	<Property Index = "3" RenderStyle = "0" Depth = "0.45" Show = "1">
+		<Element index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "434" TextPosY = "245" TextSizeX = "5" TextSizeY = "66" PosX = "183" PosY = "162" SizeX = "5" SizeY = "66" />
+	</Property>
+	<!--세로 라인 -->
+	<Property Index = "4" RenderStyle = "0" Depth = "0.45" Show = "1">
+		<Element index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "434" TextPosY = "245" TextSizeX = "5" TextSizeY = "66" PosX = "252" PosY = "162" SizeX = "5" SizeY = "66" />
+	</Property>
+	<!--카드이름-->	
+	<Property Index = "5" RenderStyle = "0" Depth = "0.490" Show = "1">
+		<Element index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="367" TextPosY="395" TextSizeX="79" TextSizeY="23" PosX="120" PosY="480" SizeX="79" SizeY="23" />
+        </Property>
+	<!--카드효과-->
+        <Property Index = "6" RenderStyle = "0" Depth = "0.490" Show = "1">
+		<Element index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="367" TextPosY="419" TextSizeX="72" TextSizeY="20" PosX="120" PosY="510" SizeX="72" SizeY="20" />
+        </Property>
+
+    </DialogSkin>
+    <DialogControl>
+	<!--카드 슬롯 1-->
+	<Property Name = "Button_MyBag_WeaponReinforce_JewelrySlot1" ClassName = "CKeroroUI_Button" PosX = "126" PosY = "172" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+			<!--슬롯 바탕-->
+			<Property Index = "0" RenderStyle = "0" Depth = "0.45" Show = "1" >
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "441" TextPosY = "248" TextSizeX = "52" TextSizeY = "52" PosX = "0" PosY = "0" SizeX = "52" SizeY = "52" />
+			</Property>
+			<!--장착 카드 이미지-->
+			<Property Index = "1" RenderStyle = "0" Depth = "0.449" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "860" TextPosY = "683" TextSizeX = "48" TextSizeY = "48" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+				<Element ControlState = "1" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Control_MyBag_WeaponReinforce_JewelrySlotEnable1" ClassName = "CKeroroUI_Control" PosX = "126" PosY = "172" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+		<ControlSkin>
+			<!--X이미지-->
+			<Property Index = "0" RenderStyle = "0" Depth = "0.448" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "496" TextPosY = "251" TextSizeX = "46" TextSizeY = "46" PosX = "3" PosY = "3" SizeX = "46" SizeY = "46" />
+			</Property>
+		</ControlSkin>		
+	</Property>
+
+	<!--카드 슬롯 2-->
+	<Property Name = "Button_MyBag_WeaponReinforce_JewelrySlot2" ClassName = "CKeroroUI_Button" PosX = "195" PosY = "172" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+			<!--슬롯 바탕-->
+			<Property Index = "0" RenderStyle = "0" Depth = "0.45" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "441" TextPosY = "248" TextSizeX = "52" TextSizeY = "52" PosX = "0" PosY = "0" SizeX = "52" SizeY = "52" />
+			</Property>
+			<!--장착 카드 이미지-->
+			<Property Index = "1" RenderStyle = "0" Depth = "0.449" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "860" TextPosY = "683" TextSizeX = "48" TextSizeY = "48" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+				<Element ControlState = "1" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Control_MyBag_WeaponReinforce_JewelrySlotEnable2" ClassName = "CKeroroUI_Control" PosX = "195" PosY = "172" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+		<ControlSkin>
+			<!--X이미지-->
+			<Property Index = "0" RenderStyle = "0" Depth = "0.448" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "496" TextPosY = "251" TextSizeX = "46" TextSizeY = "46" PosX = "3" PosY = "3" SizeX = "46" SizeY = "46" />
+			</Property>
+		</ControlSkin>		
+	</Property>
+
+	<!--카드 슬롯 3-->
+	<Property Name = "Button_MyBag_WeaponReinforce_JewelrySlot3" ClassName = "CKeroroUI_Button" PosX = "264" PosY = "172" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+			<!--슬롯 바탕-->
+			<Property Index = "0" RenderStyle = "0" Depth = "0.45" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "441" TextPosY = "248" TextSizeX = "52" TextSizeY = "52" PosX = "0" PosY = "0" SizeX = "52" SizeY = "52" />
+			</Property>
+			<!--장착 카드 이미지-->
+			<Property Index = "1" RenderStyle = "0" Depth = "0.449" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "860" TextPosY = "683" TextSizeX = "48" TextSizeY = "48" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+				<Element ControlState = "1" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "2" PosY = "2" SizeX = "48" SizeY = "48" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Control_MyBag_WeaponReinforce_JewelrySlotEnable3" ClassName = "CKeroroUI_Control" PosX = "264" PosY = "172" SizeX = "52" SizeY = "52" Disable = "0" OverSound = "1">
+		<ControlSkin>
+			<!--X이미지-->
+			<Property Index = "0" RenderStyle = "0" Depth = "0.448" Show = "1">
+				<Element ControlState = "0" index = "0" TextName = "GUI_Inventory&amp;info.TGA" TextPosX = "496" TextPosY = "251" TextSizeX = "46" TextSizeY = "46" PosX = "3" PosY = "3" SizeX = "46" SizeY = "46" />
+			</Property>
+		</ControlSkin>		
+	</Property>
+
+	<!--전체-->
+	<Property Name="Button_MyBag_WeaponReinforce_Weapon" ClassName="CKeroroUI_TabButton" PosX="350" PosY="152" SizeX="61" SizeY="34" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.49" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="448" TextPosY="368" TextSizeX="61" TextSizeY="34" PosX="0" PosY="0" SizeX="61" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="448" TextPosY="450" TextSizeX="61" TextSizeY="34" PosX="0" PosY="0" SizeX="61" SizeY="34" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="448" TextPosY="409" TextSizeX="61" TextSizeY="34" PosX="0" PosY="0" SizeX="61" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory_tab.TGA" TextPosX="448" TextPosY="450" TextSizeX="61" TextSizeY="34" PosX="0" PosY="0" SizeX="61" SizeY="34" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	
+	<!--선택 버튼 1-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect1" ClassName = "CKeroroUI_Button" PosX="349" PosY="196" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+		
+	<!--선택 버튼 2-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect2" ClassName="CKeroroUI_Button" PosX="493" PosY="196" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+
+	<!--선택 버튼 3-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect3" ClassName="CKeroroUI_Button" PosX="637" PosY="196" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+
+	<!--선택 버튼 4-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect4" ClassName="CKeroroUI_Button" PosX="781" PosY="196" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+
+	<!--선택 버튼 5-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect5" ClassName="CKeroroUI_Button" PosX="349" PosY="356" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+
+	<!--선택 버튼 6-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect6" ClassName="CKeroroUI_Button" PosX="493" PosY="356" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+
+	<!--선택 버튼 7-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect7" ClassName="CKeroroUI_Button" PosX="637" PosY="356" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+
+	<!--선택 버튼 8-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemSelect8" ClassName="CKeroroUI_Button" PosX="781" PosY="356" SizeX="145" SizeY="163" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+		<Property Index = "0" RenderStyle = "1" Depth = "0.49" Show = "1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="492" TextPosY="5" TextSizeX="5" TextSizeY="163" PosX="19" PosY="0" SizeX="107" SizeY="163" />
+                    <Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="4" TextName="GUI_Inventory&amp;info.TGA" TextPosX="472" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="0" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="499" TextPosY="5" TextSizeX="19" TextSizeY="163" PosX="125" PosY="0" SizeX="19" SizeY="163" />
+                    <Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+		<!--아이템 그림 들어갈자리-->
+		<Property Index = "1" RenderStyle = "0" Depth = "0.48" Show = "1">
+			<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="516" TextPosY="443" TextSizeX="115" TextSizeY="107" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+			<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="15" PosY="27" SizeX="115" SizeY="107" />
+		</Property>
+            </ControlSkin>
+        </Property>
+	<!--선택 활성 테두리-->
+	<Property Name = "Control_MyBag_WeaponReinforce_ItemSelectBorder" ClassName = "CKeroroUI_Control" PosX = "349" PosY = "196" SizeX = "145" SizeY = "163" Disable = "0" OverSound = "0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+			<Property Index="0" RenderStyle="1" Depth="0.480" Show="1">
+                		<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="210" TextPosY="819" TextSizeX="7" TextSizeY="158" PosX="19" PosY="1" SizeX="107" SizeY="158" />
+				<Element ControlState="0" index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<Element ControlState="0" index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<Element ControlState="0" index="3" TextName="GUI_Inventory&amp;info.TGA" TextPosX="190" TextPosY="819" TextSizeX="19" TextSizeY="158" PosX="0" PosY="1" SizeX="19" SizeY="158" />
+				<Element ControlState="0" index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<Element ControlState="0" index="5" TextName="GUI_Inventory&amp;info.TGA" TextPosX="218" TextPosY="819" TextSizeX="19" TextSizeY="158" PosX="125" PosY="1" SizeX="19" SizeY="158" />
+				<Element ControlState="0" index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<Element ControlState="0" index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<Element ControlState="0" index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                	</Property>		
+		</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 1-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip1" ClassName = "CKeroroUI_Button" PosX="381" PosY="329" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 2-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip2" ClassName = "CKeroroUI_Button" PosX="526" PosY="329" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 3-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip3" ClassName = "CKeroroUI_Button" PosX="669" PosY="329" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 4-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip4" ClassName = "CKeroroUI_Button" PosX="814" PosY="329" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 5-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip5" ClassName = "CKeroroUI_Button" PosX="381" PosY="489" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 6-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip6" ClassName = "CKeroroUI_Button" PosX="526" PosY="489" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 7-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip7" ClassName = "CKeroroUI_Button" PosX="669" PosY="489" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+	<!--'보석장착' 버튼 8-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Equip8" ClassName = "CKeroroUI_Button" PosX="814" PosY="489" SizeX="77" SizeY="21" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+                	<Property Index = "0" RenderStyle = "0" Depth = "0.480" Show = "1">
+	                	<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="318" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+                		<Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="343" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="368" TextSizeX="77" TextSizeY="20" PosX="0" PosY="0" SizeX="77" SizeY="20" />
+	                </Property>
+            	</ControlSkin>
+	</Property>
+
+	<!--아이템 이름 1-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName1" ClassName="CKeroroUI_Static" PosX="349" PosY="203" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_1_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--아이템 이름 2-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName2" ClassName="CKeroroUI_Static" PosX="493" PosY="203" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_2_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--아이템 이름 3-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName3" ClassName="CKeroroUI_Static" PosX="637" PosY="203" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_3_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--아이템 이름 4-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName4" ClassName="CKeroroUI_Static" PosX="781" PosY="203" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_4_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--아이템 이름 5-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName5" ClassName="CKeroroUI_Static" PosX="349" PosY="363" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_5_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--아이템 이름 6-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName6" ClassName="CKeroroUI_Static" PosX="493" PosY="363" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_6_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--아이템 이름 7-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName7" ClassName="CKeroroUI_Static" PosX="637" PosY="363" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_7_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--아이템 이름 8-->
+	<Property Name = "Static_MyBag_WeaponReinforce_ItemName8" ClassName="CKeroroUI_Static" PosX="781" PosY="363" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        	<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="TestText" FontDepth="0.470" FontTextureName="Static_CardName_8_static" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--마우스 휠-->
+        <Property Name = "Button_MyBag_WeaponReinforce_SpinRect" ClassName="CKeroroUI_Button" PosX="349" PosY="926" SizeX="577" SizeY="374" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+        </Property>
+
+	<!--<<버튼-->
+	<Property Name = "Button_MyBag_WeaponReinforce_ItemPrev" ClassName="CKeroroUI_Button" PosX="574" PosY="532" SizeX="27" SizeY="20" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.480" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="87" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="141" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+				<Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="87" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="141" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+			</Property>
+		</ControlSkin>
+        </Property>
+
+	<!-->>버튼-->
+        <Property Name = "Button_MyBag_WeaponReinforce_ItemNext" ClassName="CKeroroUI_Button" PosX="661" PosY="532" SizeX="27" SizeY="20" Disable="0" OverSound="1">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.480" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="114" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="168" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+				<Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="114" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="168" TextPosY="426" TextSizeX="27" TextSizeY="20" PosX="0" PosY="0" SizeX="27" SizeY="20" />
+			</Property>
+		</ControlSkin>
+        </Property>
+
+	<!--페이지 숫자-->
+        <Property Name="Number_MyBag_WeaponReinforce_ItemPage" ClassName="CKeroroUI_Number" PosX="618" PosY="533" SizeX="37" SizeY="23" Disable="0" OverSound="1">
+        </Property>
+
+	<!--취소버튼-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Cancel" ClassName = "CKeroroUI_Button" PosX = "480" PosY = "575" SizeX = "92" SizeY = "44" Disable = "0" OverSound = "1">
+	        <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+			<Property Index = "0" RenderStyle = "0" Depth = "0.49" Show = "1">
+				<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+               			<Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+	               		<Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+			</Property>
+		</ControlSkin>		
+	</Property>
+
+	<!--닫기 버튼-->
+	<Property Name = "Button_MyBag_WeaponReinforce_Exit" ClassName = "CKeroroUI_Button" PosX = "900" PosY = "110" SizeX = "26" SizeY = "26" Disable = "0" OverSound = "1">
+	        <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin>
+			<Property Index = "0" RenderStyle = "0" Depth = "0.49" Show = "1">
+				<Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    		<Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    		<Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+			</Property>
+		</ControlSkin>		
+	</Property>
+	<!--카드이름-->
+	 <Property Name="Static_MyBag_WeaponReinforce_JewelryName" ClassName="CKeroroUI_Static" PosX="203" PosY="485" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="Test" FontDepth="0.540" FontTextureName="Static_CardName_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<!--카드 능력치-->
+        <Property Name="Static_MyBag_WeaponReinforce_JewelryDes" ClassName="CKeroroUI_Static" PosX="203" PosY="512" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="Test" FontDepth="0.540" FontTextureName="Static_CardEffect_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+	</Property>
+    </DialogControl>
+</RootNode>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Com_Cap_suncap_0003_Kiruru_1.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Com_Cap_suncap_02_Kiruru.dds" />
+        <Texture filename="Com_Cap_suncap_03_Kiruru.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.80" />
+            <Property name="ColorR" value="0.000000" />
+            <Property name="ColorG" value="0.000000" />
+            <Property name="ColorB" value="0.000000" />
+            <Property name="ColorA" value="1.000000" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="StarRoom_Star_P02" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.700000" X="20.000000" Y="20.000000" Z="20.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="0.700000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.700000" X="1.000000" Y="1.000000" Z="0.500000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="muzzelflash.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="15.000000" Max="20.000000" />
+        <RepeatCount Count="3.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.690000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="20.000000" Y="20.000000" Z="0.000000" />
+        <RotScaleMax X="50.000000" Y="50.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="25.000000" Max="25.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="180.000000" Y="0.000000" Z="180.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="7.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="23">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.857143" Y="0.857143" Z="0.857143" />
+            <Alpha Value="244.071426" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.042857" Y="0.042857" Z="0.021429" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.714286" Y="1.714286" Z="1.714286" />
+            <Alpha Value="233.142853" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.085714" Y="0.085714" Z="0.042857" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.571428" Y="2.571428" Z="2.571428" />
+            <Alpha Value="222.214294" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.128571" Y="0.128571" Z="0.064286" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.428571" Y="3.428571" Z="3.428571" />
+            <Alpha Value="211.285706" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.171429" Y="0.171429" Z="0.085714" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.285714" Y="4.285714" Z="4.285714" />
+            <Alpha Value="200.357147" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.214286" Y="0.214286" Z="0.107143" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.142857" Y="5.142857" Z="5.142857" />
+            <Alpha Value="189.428574" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.257143" Y="0.257143" Z="0.128571" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.000000" Y="6.000000" Z="6.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.150000" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.857143" Y="6.857143" Z="6.857143" />
+            <Alpha Value="167.571426" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.342857" Y="0.342857" Z="0.171429" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.714285" Y="7.714285" Z="7.714285" />
+            <Alpha Value="156.642853" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.385714" Y="0.385714" Z="0.192857" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.571428" Y="8.571428" Z="8.571428" />
+            <Alpha Value="145.714294" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.428571" Y="0.428571" Z="0.214286" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.428571" Y="9.428571" Z="9.428571" />
+            <Alpha Value="134.785721" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.471429" Y="0.471429" Z="0.235714" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.285713" Y="10.285713" Z="10.285713" />
+            <Alpha Value="123.857147" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.514286" Y="0.514286" Z="0.257143" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.142857" Y="11.142857" Z="11.142857" />
+            <Alpha Value="112.928574" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.557143" Y="0.557143" Z="0.278571" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.999999" Y="11.999999" Z="11.999999" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.300000" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.857142" Y="12.857142" Z="12.857142" />
+            <Alpha Value="91.071426" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.642857" Y="0.642857" Z="0.321429" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.714286" Y="13.714286" Z="13.714286" />
+            <Alpha Value="80.142853" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.685714" Y="0.685714" Z="0.342857" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.571428" Y="14.571428" Z="14.571428" />
+            <Alpha Value="69.214294" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.728571" Y="0.728571" Z="0.364286" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.428571" Y="15.428571" Z="15.428571" />
+            <Alpha Value="58.285721" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.771429" Y="0.771429" Z="0.385714" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.285713" Y="16.285713" Z="16.285713" />
+            <Alpha Value="47.357147" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.814286" Y="0.814286" Z="0.407143" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.142857" Y="17.142857" Z="17.142857" />
+            <Alpha Value="36.428589" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.857143" Y="0.857143" Z="0.428571" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.000000" Y="18.000000" Z="18.000000" />
+            <Alpha Value="25.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.450000" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.857141" Y="18.857141" Z="18.857141" />
+            <Alpha Value="14.571442" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.942857" Y="0.942857" Z="0.471429" />
+            <Texture Texture="muzzelflash.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

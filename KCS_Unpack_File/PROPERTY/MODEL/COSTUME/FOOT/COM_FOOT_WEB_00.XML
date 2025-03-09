@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Com_Foot_web_0003.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Com_Foot_web_00.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.80" />
+            <Property name="ColorR" value="0.054902" />
+            <Property name="ColorG" value="0.105882" />
+            <Property name="ColorB" value="0.313726" />
+            <Property name="ColorA" value="1.000000" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

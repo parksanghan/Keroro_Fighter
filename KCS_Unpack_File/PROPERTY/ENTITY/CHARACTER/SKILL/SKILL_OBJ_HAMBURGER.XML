@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Hamburger" FILENAME="Tama_Gameroom_Obj.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Tama_Gameroom_Obj.VS">
+        <PROPERTYBAG NAME="Tama_Gameroom_Obj" FILENAME="Tama_Gameroom_Obj.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Toru_Obj_Bugger" FILENAME="Toru_Obj_Bugger.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_Obj_Hamburger_COMMANDS.XML" />
+</GAMEENTITY>

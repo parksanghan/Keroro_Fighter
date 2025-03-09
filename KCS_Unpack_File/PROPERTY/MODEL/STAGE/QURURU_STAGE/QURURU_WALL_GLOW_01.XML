@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Qururu_wall_glow_01.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Qururu_wall_glow_01.dds" />
+        <Texture filename="Qururu_wall_glow_02.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureFader">
+            <Property name="UseAlpha" value="0" />
+            <Property name="TextureCount" value="2" />
+            <Property name="FadeSpeed" value="1.00" />
+            <Property name="FadeDelay" value="1.00" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+</VGEModelFile>

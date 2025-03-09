@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="778" PosY="121" SizeX="238" SizeY="427" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.848" Show="1"> <!-- 방장 표시 Texture -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="440" TextPosY="485" TextSizeX="60" TextSizeY="25" PosX="169" PosY="45" SizeX="60" SizeY="25" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.848" Show="1"> <!-- 슈퍼방장 표시 Texture -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="933" TextPosY="467" TextSizeX="65" TextSizeY="28" PosX="168" PosY="42" SizeX="65" SizeY="28" />
+        </Property>
+
+	<Property Index="2" RenderStyle="1" Depth="0.900" Show="1"> <!-- 기본 배경 1 개인전 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="29" PosY="29" SizeX="180" SizeY="369" /> <!-- 중 -->
+            <Element index="1" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="0" PosY="0" SizeX="29" SizeY="29" /> <!-- 상좌 -->
+            <Element index="2" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="29" PosY="0" SizeX="180" SizeY="29" /> <!-- 상중 -->
+            <Element index="3" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="3" TextSizeX="29" TextSizeY="29" PosX="209" PosY="0" SizeX="29" SizeY="29" /> <!-- 상우 -->
+	    <Element index="4" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="0" PosY="29" SizeX="29" SizeY="369" /> <!-- 좌 -->
+            <Element index="5" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="33" TextSizeX="29" TextSizeY="29" PosX="209" PosY="29" SizeX="29" SizeY="369" /> <!-- 우 -->
+            <Element index="6" TextName="GUI_waiting room.TGA" TextPosX="6" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="0" PosY="398" SizeX="29" SizeY="29" /> <!-- 하좌 -->
+            <Element index="7" TextName="GUI_waiting room.TGA" TextPosX="36" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="29" PosY="398" SizeX="180" SizeY="29" /> <!-- 하중 -->
+            <Element index="8" TextName="GUI_waiting room.TGA" TextPosX="66" TextPosY="63" TextSizeX="29" TextSizeY="29" PosX="209" PosY="398" SizeX="29" SizeY="29" /> <!-- 하우 -->
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.899" Show="1"> <!-- 타이틀 하단 라인 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="4" TextPosY="503" TextSizeX="233" TextSizeY="2" PosX="2" PosY="35" SizeX="233" SizeY="2" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.899" Show="1"> <!-- 타이틀 Text -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="395" TextPosY="156" TextSizeX="85" TextSizeY="23" PosX="77" PosY="8" SizeX="85" SizeY="23" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.899" Show="1"> <!-- Dialog 하단 라인 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="4" TextPosY="503" TextSizeX="233" TextSizeY="2" PosX="2" PosY="365" SizeX="233" SizeY="2" />
+        </Property>
+
+        <Property Index="6" RenderStyle="0" Depth="0.899" Show="0"> <!-- 계급 출력용 Texture 로딩용 -->
+            <Element index="0" TextName="GUI_Class.TGA" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+
+<!--START - 유저초대 버튼 -->
+        <Property Name="Monster_Count_Select" ClassName="CKeroroUI_ComboBox" PosX="6" PosY="371" SizeX="89" SizeY="50" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="568" TextPosY="4" TextSizeX="89" TextSizeY="50" PosX="0" PosY="0" SizeX="89" SizeY="50" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="568" TextPosY="108" TextSizeX="89" TextSizeY="50" PosX="0" PosY="0" SizeX="89" SizeY="50" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="568" TextPosY="56" TextSizeX="89" TextSizeY="50" PosX="0" PosY="0" SizeX="89" SizeY="50" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="568" TextPosY="108" TextSizeX="89" TextSizeY="50" PosX="0" PosY="0" SizeX="89" SizeY="50" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END --- 유저초대 버튼 -->
+
+<!--START - 시작하기 버튼 -->
+        <Property Name="BUTTON_WRPlayerList_Start" ClassName="CKeroroUI_Button" PosX="98" PosY="371" SizeX="135" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="0"> <!-- 일반방장 시작 버튼 -->
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="662" TextPosY="4" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="144" TextPosY="885" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="662" TextPosY="56" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="662" TextPosY="108" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.898" Show="0"> <!-- 슈퍼방장 시작 버튼 -->
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="5" TextPosY="859" TextSizeX="135" TextSizeY="53" PosX="0" PosY="-3"SizeX="135" SizeY="53" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="144" TextPosY="940" TextSizeX="135" TextSizeY="53" PosX="0" PosY="-3" SizeX="135" SizeY="53" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="5" TextPosY="914" TextSizeX="135" TextSizeY="53" PosX="0" PosY="-3"SizeX="135" SizeY="53" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="5" TextPosY="969" TextSizeX="135" TextSizeY="53" PosX="0" PosY="-3"SizeX="135" SizeY="53" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END --- 시작하기 버튼 -->
+
+<!--START - 준비하기 버튼 -->
+        <Property Name="BUTTON_WRPlayerList_Ready" ClassName="CKeroroUI_Button" PosX="98" PosY="371" SizeX="135" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="0"> <!-- 준비 설정 버튼 -->
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="446" TextPosY="693" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="446" TextPosY="797" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="446" TextPosY="745" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="446" TextPosY="797" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.898" Show="1"> <!-- 준비 해제 버튼 -->
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="584" TextPosY="693" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="1" index="0" TextName="GUI_button.tga" TextPosX="584" TextPosY="797" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="584" TextPosY="745" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="584" TextPosY="797" TextSizeX="135" TextSizeY="50" PosX="0" PosY="0" SizeX="135" SizeY="50" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END --- 준비하기 버튼 -->
+    </DialogControl>
+</RootNode>

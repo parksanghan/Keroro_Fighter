@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SignBoardProperty>
+	<SignBoard PropertyID = "709000000" Name = "司思骯" TextureName = "GUI_Inventory&amp;info2.tga"
+		FrameTopPosX = "848" 		FrameTopPosY = "4"
+		FrameTopWidth = "130" 		FrameTopHeight = "11"
+		FrameMiddlePosX = "848" 	FrameMiddlePosY = "16"
+		FrameMiddleWidth = "130" 	FrameMiddleHeight = "11"
+		FrameBottomPosX = "848" 	FrameBottomPosY = "28"
+		FrameBottomWidth = "130" 	FrameBottomHeight = "11"
+		ArrowPosX = "832" 		ArrowPosY = "57"
+		ArrowWidth = "13" 		ArrowHeight = "15"
+		DecorationPosX = "812" 		DecorationPosY = "152"
+		DecorationWidth = "102" 	DecorationHeight = "12"
+		DecorationScrPosX = "13" 	DecorationScrPosY = "-19"
+		DecorationScrStandard = "Bottom"
+	/>
+	
+	<SignBoard PropertyID = "709000001" Name = "司思骯" TextureName = "GUI_Inventory&amp;info2.tga" 
+		FrameTopPosX = "848" 		FrameTopPosY = "42" 
+		FrameTopWidth = "130" 		FrameTopHeight = "11" 
+		FrameMiddlePosX = "848" 	FrameMiddlePosY = "54" 
+		FrameMiddleWidth = "130" 	FrameMiddleHeight = "11"	
+		FrameBottomPosX = "848" 	FrameBottomPosY = "66" 
+		FrameBottomWidth = "130" 	FrameBottomHeight = "11" 
+		ArrowPosX = "832" 		ArrowPosY = "74" 
+		ArrowWidth = "13" 		ArrowHeight = "15" 
+		DecorationPosX = "662" 		DecorationPosY = "104" 
+		DecorationWidth = "148" 	DecorationHeight = "68" 
+		DecorationScrPosX = "1" 	DecorationScrPosY = "-32"
+		DecorationScrStandard = "Top"
+	/>
+
+	<SignBoard PropertyID = "709000002" Name = "司思骯" TextureName = "GUI_Inventory&amp;info2.tga"
+		FrameTopPosX = "848" 		FrameTopPosY = "80" 
+		FrameTopWidth = "130" 		FrameTopHeight = "11" 
+		FrameMiddlePosX = "848" 	FrameMiddlePosY = "92" 
+		FrameMiddleWidth = "130" 	FrameMiddleHeight = "11" 
+		FrameBottomPosX = "848" 	FrameBottomPosY = "104" 
+		FrameBottomWidth = "130" 	FrameBottomHeight = "11" 
+		ArrowPosX = "832" 		ArrowPosY = "91" 
+		ArrowWidth = "13" 		ArrowHeight = "15" 
+		DecorationPosX = "812" 		DecorationPosY = "118" 
+		DecorationWidth = "149" 	DecorationHeight = "32" 
+		DecorationScrPosX = "-8" 	DecorationScrPosY = "-17"
+		DecorationScrStandard = "Top"
+	/>
+</SignBoardProperty>
+
+<!--
+PropertyID = 아이템 index
+Name = 아이템 이름
+TextureName = 이미지 이름
+FrameTopPosX , FrameTopPosY = 프레임 상단 이미지 좌표
+FrameTopWidth , FrameTopHeight = 프레임 상단 너비, 높이
+FrameMiddlePosX , FrameMiddlePosY = 프레임 중단 이미지 좌표
+FrameMiddleWidth , FrameMiddleHeightY = 프레임 중단 너비, 높이
+FrameBottomPosX , FrameBottomPosY = 프레임 하단 이미지 좌표
+FrameBottonWidth , FrameBottomPosY = 프레임 하단 너비, 높이
+ArrowPosX , ArrowPosY = 팻말 말꼬리(?)의 위치
+ArrowWidth , ArrowHeight  = 팻말 말꼬리의 너비, 높이
+DecorationPosX , DecorationPosY  = 장식의 위치
+DecorationWidth , DecorationHeight = 장식의 너비, 높이
+DecorationScrPosX , DecorationScrPosY = 장식이 화면상 뿌려질 시작점(프레임의 좌상단을 기준으로 위치)
+DecorationScrStandard = 장식을 출력할 위치 기준 / 현재는 상단(Top), 하단(Bottom) 두가지 기준밖에 없음
+-->

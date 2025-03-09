@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Putata_obj_Monsterplant_01" FILENAME="Putata_obj_Monsterplant_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Putata_obj_Monsterplant_02" FILENAME="Putata_obj_Monsterplant_02.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Putata_Comb_KKKP_obj_Monsterplant..VS">
+        <PROPERTYBAG NAME="Putata_Comb_KKKP" FILENAME="Putata_Comb_KKKP_obj_Monsterplant.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Putata_Obj_Monsterplant_COMMANDS.XML" />
+</GAMEENTITY>

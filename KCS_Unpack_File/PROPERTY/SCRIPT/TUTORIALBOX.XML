@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<Tutorial>	
+	<Box>
+		<Property Name="TutorialBox1" EntityName="Tutorial_Blue_DD.xml"
+  			TF_Name="TutorialBox_Bounding.TF" PosX="802.2" PosY="305" PosZ="149.2" />
+		<Command Value="6" Name="COMB_P"/>
+		<Command Value="6" Name="COMB_PP"/>
+	</Box>
+	<Box>
+		<Property Name="TutorialBox2" EntityName="Tutorial_Green_SS.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.5" PosY="505" PosZ="149.5" />
+		<Command Value="7" Name="COMB_K"/>
+		<Command Value="7" Name="COMB_KK"/>
+	</Box>
+  	<Box>
+    		<Property Name="TutorialBox3" EntityName="Tutorial_Blue_SD.xml"  						  
+		TF_Name="TutorialBox_Bounding.TF" PosX="802.2" PosY="705" PosZ="149.2" />
+    		<Command Value="7" Name="COMB_K"/>
+    		<Command Value="6" Name="COMB_KP"/>
+  	</Box>
+  	<Box>
+    		<Property Name="TutorialBox4" EntityName="Tutorial_Green_SDD.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.5" PosY="905" PosZ="149.5" />
+   		<Command Value="7" Name="COMB_K"/>
+    		<Command Value="6" Name="COMB_KP"/>
+    		<Command Value="6" Name="COMB_KPP"/>
+  	</Box>
+  	<Box>
+    		<Property Name="TutorialBox5" EntityName="Tutorial_Red_SSD.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.2" PosY="1105" PosZ="149.2" />
+    		<Command Value="7" Name="COMB_K"/>
+    		<Command Value="7" Name="COMB_KK"/>
+    		<Command Value="6" Name="COMB_KKP"/>
+  	</Box>
+  	<Box>
+    		<Property Name="TutorialBox6" EntityName="Tutorial_Blue_DDS.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.5" PosY="1305" PosZ="149.5" />
+    		<Command Value="6" Name="COMB_P"/>
+    		<Command Value="6" Name="COMB_PP"/>
+    		<Command Value="7" Name="COMB_PPK"/>
+  	</Box>
+  	<Box>
+    		<Property Name="TutorialBox7" EntityName="Tutorial_Green_DDD.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.2" PosY="1505" PosZ="149.2" />
+    		<Command Value="6" Name="COMB_P"/>
+    		<Command Value="6" Name="COMB_PP"/>
+    		<Command Value="6" Name="COMB_PPP"/>
+  	</Box>
+  	<Box>
+    		<Property Name="TutorialBox8" EntityName="Tutorial_Red_SSS.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.5" PosY="1705" PosZ="149.5" />
+    		<Command Value="7" Name="COMB_K"/>
+    		<Command Value="7" Name="COMB_KK"/>
+    		<Command Value="7" Name="COMB_KKK"/>
+  	</Box>
+  	<Box>
+    		<Property Name="TutorialBox9" EntityName="Tutorial_Blue_DSS.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.2" PosY="1905" PosZ="149.2" />
+    		<Command Value="6" Name="COMB_P"/>
+    		<Command Value="7" Name="COMB_PK"/>
+    		<Command Value="7" Name="COMB_PKK"/>
+  	</Box>
+  	<Box>
+    		<Property Name="TutorialBox14" EntityName="Tutorial_Blue_1.xml"  						  
+			TF_Name="TutorialBox_Bounding.TF" PosX="802.5" PosY="2105" PosZ="149.5" />
+    		<Command Value="1" Name="COMB_K"/>
+  	</Box>
+</Tutorial>

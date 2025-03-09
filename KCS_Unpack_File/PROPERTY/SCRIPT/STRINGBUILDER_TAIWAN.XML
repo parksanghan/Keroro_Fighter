@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StringBuilder>
+    <String StringID="AISay_0" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="AISay_1" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="AISay_2" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="AISay_3" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="AISay_4" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="AISay_5" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="AISay_6" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="BillType_Cash" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="BillType_Kerot" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="CAMPWAR_TYPE1" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="CAMPWAR_TYPE2" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ChannelGrade_0" StringValue="斯俬" StringNote="0" />
+    <String StringID="ChannelGrade_1" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="ChannelGrade_101" StringValue="斯俬" StringNote="0" />
+    <String StringID="ChannelGrade_2" StringValue="斯 俬ㄤ" StringNote="0" />
+    <String StringID="ChannelGrade_3" StringValue="斯 俬" StringNote="0" />
+    <String StringID="ChannelGrade_4" StringValue="斯 俬" StringNote="0" />
+    <String StringID="ChannelGrade_5" StringValue="斯俬" StringNote="0" />
+    <String StringID="Comment_CantSell" StringValue="斯俬ㄤ骯 : ㄤ骯" StringNote="0" />
+    <String StringID="Comment_ExpiredDate" StringValue="斯俬 ㄤ骯 : %d/%02d/%02d %02d:%02d" StringNote="0" />
+    <String StringID="Comment_ExpiredDate_Unlimit" StringValue="斯俬 ㄤ骯 : 斯俬ㄤ" StringNote="0" />
+    <String StringID="Comment_ForCostumes" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Comment_ForNormalItems" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Comment_SellPrice" StringValue="斯俬ㄤ骯 : %d 斯俬\n" StringNote="0" />
+    <String StringID="Commnet_SellPrice_Renewal" StringValue="斯俬ㄤ骯 : 斯俬ㄤ(斯俬ㄤ 骯思 %d 斯俬)\n" StringNote="0" />
+    <String StringID="COUPONNOTICE_GUIDEBOOK" StringValue="10000斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_1000" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_10001" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_10002" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_10003" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_1001" StringValue="斯俬ㄤ骯思" StringNote="0" />
+    <String StringID="ErrorCode_1002" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_1003" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_1004" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_1005" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_1006" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14001" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14005" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14006" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14007" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14008" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14009" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14011" StringValue="DB 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14012" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_14013" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_18001" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2001" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2002" StringValue="GAMEID斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2003" StringValue="CHANNEL ID斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2008" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2011" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2017" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2020" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2022" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2024" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2026" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2027" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2028" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2029" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2030" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2031" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2039" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2040" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2056" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2057" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2058" StringValue="斯俬ㄤ骯思司\n \n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2059" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2060" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2061" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2062" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2063" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2064" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2065" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2066" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2067" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2068" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2069" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2070" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2071" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2072" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2073" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2074" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2075" StringValue="斯俬ㄤ骯AI思司" StringNote="0" />
+    <String StringID="ErrorCode_2076" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2077" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2078" StringValue="斯俬ㄤ骯思司Combat ID" StringNote="0" />
+    <String StringID="ErrorCode_2079" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2080" StringValue="斯俬ㄤ骯思司 (斯俬ㄤ骯思司)" StringNote="0" />
+    <String StringID="ErrorCode_2081" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2082" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2083" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2084" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2085" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2086" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2087" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2088" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2089" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2090" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2091" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2092" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2093" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2094" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2095" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2096" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2097" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2098" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2099" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2100" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2101" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2102" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2103" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2104" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2105" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2106" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2107" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2201" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2202" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2203" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2204" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2301" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2302" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2303" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2304" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2305" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2306" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2307" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2308" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2309" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2310" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2311" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2312" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2313" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2314" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2315" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2317" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2318" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4006" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4008" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4012" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4013" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4014" StringValue="DB斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4015" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4101" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_4102" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_5001" StringValue="斯俬ㄤ骯思司format AccountCode斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_5002" StringValue="Auth DB斯俬ㄤ骯思司 AccountCode斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_6001" StringValue="GDMS斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_6002" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_6003" StringValue="\n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_6004" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_6005" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_7001" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_7002" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_7003" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_7004" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_7005" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_7006" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_8001" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_8002" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_8003" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9001" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9002" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9003" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9004" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9005" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9006" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9007" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9008" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9011" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9012" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9013" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9014" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9015" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9023" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9024" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_9025" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_Default" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Font_Gulim" StringValue="굴림체" StringNote="0" />
+    <String StringID="Font_Gulim_Taiwan" StringValue="Gulim" StringNote="0" />
+    <String StringID="Font_Gulim12" StringValue="굴림12" StringNote="0" />
+    <String StringID="Font_Taiwan" StringValue="PMingLiU" StringNote="0" />
+    <String StringID="GameTip_0" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_1" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_2" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_3" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_4" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_5" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_6" StringValue="斯俬ㄤ骯思司 / 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_7" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GameTip_8" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Grade_0" StringValue="斯" StringNote="0" />
+    <String StringID="Grade_1" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Grade_10" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_11" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_12" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_13" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_14" StringValue="斯俬3" StringNote="0" />
+    <String StringID="Grade_15" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_16" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_17" StringValue="斯俬3" StringNote="0" />
+    <String StringID="Grade_18" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_19" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_2" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_20" StringValue="斯俬3" StringNote="0" />
+    <String StringID="Grade_21" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_22" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_23" StringValue="斯俬3" StringNote="0" />
+    <String StringID="Grade_24" StringValue="斯俬4" StringNote="0" />
+    <String StringID="Grade_25" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_26" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_27" StringValue="斯俬3" StringNote="0" />
+    <String StringID="Grade_28" StringValue="斯俬4" StringNote="0" />
+    <String StringID="Grade_29" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_3" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_30" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_31" StringValue="斯俬3" StringNote="0" />
+    <String StringID="Grade_32" StringValue="斯俬4" StringNote="0" />
+    <String StringID="Grade_33" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_34" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_35" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_36" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_4" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_5" StringValue="斯俬" StringNote="0" />
+    <String StringID="Grade_6" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_7" StringValue="斯俬2" StringNote="0" />
+    <String StringID="Grade_8" StringValue="斯俬1" StringNote="0" />
+    <String StringID="Grade_9" StringValue="斯俬2" StringNote="0" />
+    <String StringID="GUILDATTENTION_ArleadyJoin" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GUILDATTENTION_BanGuild" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GUILDATTENTION_BreakGuild" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GUILDATTENTION_ExitGuild" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GUILDATTENTION_GradeLimit" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GuildGrade_0" StringValue="斯俬" StringNote="0" />
+    <String StringID="GuildGrade_1" StringValue="斯俬" StringNote="0" />
+    <String StringID="GuildGrade_2" StringValue="斯俬" StringNote="0" />
+    <String StringID="GuildGrade_3" StringValue="斯俬" StringNote="0" />
+    <String StringID="GuildGrade_4" StringValue="斯俬" StringNote="0" />
+    <String StringID="Intro_PressEsc" StringValue="ESC斯俬ㄤ骯思司" StringNote="&quot;Press Esc&quot; text in intro scene " />
+    <String StringID="ItemComment_Card" StringValue=" 斯俬" StringNote="0" />
+    <String StringID="ItemComment_CardSlot1" StringValue="斯俬 1 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot1Empty" StringValue="斯俬 1 : ㄤ骯思司" StringNote="0" />
+    <String StringID="ItemComment_CardSlot2" StringValue="\n斯俬 2 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot2Empty" StringValue="\n斯俬 2 : ㄤ骯思司" StringNote="0" />
+    <String StringID="ItemComment_CardSlot3" StringValue="\n斯俬 3 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot3Empty" StringValue="\n斯俬 3 : ㄤ骯思司" StringNote="0" />
+    <String StringID="ItemComment_CardSlot4" StringValue="\n斯俬 4 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot4Empty" StringValue="\n斯俬 4 : ㄤ骯思司" StringNote="0" />
+    <String StringID="ItemComment_CardSlot5" StringValue="\n斯俬 5 : " StringNote="0" />
+    <String StringID="ItemComment_CardSlot5Empty" StringValue="\n斯俬 5 : ㄤ骯思司" StringNote="0" />
+    <String StringID="ItemComment_Empty" StringValue="ㄤ骯思司" StringNote="0" />
+    <String StringID="ItemComment_Slot" StringValue="ㄤ骯" StringNote="0" />
+    <String StringID="MonSay_1" StringValue="斯俬ㄤ骯思司!" StringNote="0" />
+    <String StringID="MonSay_2" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="MonSay_3" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="MonSay_4" StringValue="斯俬ㄤ骯思司!" StringNote="0" />
+    <String StringID="MonSay_5" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="MyInfo_DoubleNewLineLimitDay" StringValue="\n\n斯俬ㄤ骯 : %d/%02d/%02d %02d:%02d" StringNote="0" />
+    <String StringID="MyInfo_LimitDay" StringValue="斯俬ㄤ骯 : %d/%02d/%02d %02d:%02d" StringNote="0" />
+    <String StringID="MyInfo_LimitDayLimit" StringValue="斯俬ㄤ骯 : 斯俬ㄤ" StringNote="0" />
+    <String StringID="NPG_Error_0" StringValue="斯俬ㄤ骯思司 \n斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_1" StringValue="斯俬ㄤ骯思司 \n斯俬ㄤ骯思司 \n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_10" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司." StringNote="0" />
+    <String StringID="NPG_Error_11" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_2" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_3" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_4" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_5" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_6" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_7" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_8" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_9" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="NPG_Error_Msg" StringValue="斯俬ㄤ骯思司 : %lu" StringNote="0" />
+    <String StringID="Popup_AddFriendRq" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_AddFriendRqName" StringValue=" 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_AddFriendRqNoName" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_AlreadyExistNickName" StringValue="斯俬ㄤ骯思司" StringNote="Popup &quot;This nickname is already exist&quot;" />
+    <String StringID="Popup_AlreadySendPresent" StringValue="斯俬ㄤ骯思司!" StringNote="0" />
+    <String StringID="Popup_AreYouAgreeInvite" StringValue="%s 斯俬ㄤ骯思司\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouOKAddFriend" StringValue=" 斯俬ㄤ骯思司\n \n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureBuyItem" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureBuyTheItem" StringValue=" 斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureBuyTheSkill" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureChangeCharacter" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureCreateCharacter" StringValue="斯俬ㄤ骯思司?" StringNote="Popup &quot;Are you sure create selected character?&quot;" />
+    <String StringID="Popup_AreYouSureDropChar" StringValue="斯俬ㄤ骯思司.\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropItem" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropSkill" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropThePresent" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureDropThePresent2" StringValue="斯俬ㄤ骯思司?\n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_AreYouSureEquipCard" StringValue="斯俬ㄤ骯思司?\n\n斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_AreYouSureExit" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureExitProgram" StringValue="斯俬ㄤ骯思司?" StringNote="Popup &quot;Are you sure exit program?&quot;" />
+    <String StringID="Popup_AreYouSureResetDisRecord" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureResetWarRecord" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_AreYouSureUseThisCard" StringValue="斯俬ㄤ骯思司 \n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_BanMsg" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_BanMsgOnPlaying" StringValue="斯俬ㄤ骯思司5斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_BeingFriend" StringValue=" 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_CantBuyMoreChar" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_CantBuyMoreEquipItem" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_CantBuyMoreItem" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_CantBuyMoreSkill" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_CantSendMemo" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_ChooseAnotherItem" StringValue="斯俬ㄤ骯思司 \n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_ChooseGuildMark" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_CommentGradeLimit" StringValue=" 斯俬" StringNote="0" />
+    <String StringID="Popup_CreatedGuild" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_DeleteFriend" StringValue="斯俬ㄤ骯思司 %s斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_DoYouUseHideRecordItem" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_EXP30Up" StringValue="斯俬ㄤ 30%斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_ExpiredEventSeason" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_HideMyRecord" StringValue="斯俬/斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_Kerot30Up" StringValue="斯俬 30%斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_KickHimFromGuild" StringValue="斯俬ㄤ %s斯俬\n \n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_NeedMorePlayerSlot" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_NickNameChange" StringValue="斯俬ㄤ [%s] 斯俬\n\n[%s] 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_NotEnoughKerot" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_NotEnoughYourGrade" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_PresentReceiveSuccess" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_ResetDisRecord" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_ResetWarRecord" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_StartNewbieGuide" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_StartTutorial" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Popup_ThisIsInvalidNickname" StringValue="斯俬ㄤ骯思司" StringNote="Popup &quot;This is invalid nickname.&quot;" />
+    <String StringID="Popup_UpdatedNotice" StringValue="斯俬ㄤ骯思司." StringNote="0" />
+    <String StringID="Popup_UsedPackageItem" StringValue="Package 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_WaitingResponse" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_WelcomeToKeroroFighter" StringValue="斯俬ㄤ骯思司!!" StringNote="0" />
+    <String StringID="Popup_Write3MoreChar" StringValue="斯俬ㄤ骯思司3." StringNote="0" />
+    <String StringID="Popup_WriteAnotherGuildName" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_WriteGuildName" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_WriteNameForPresent" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_WriteNotice" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_YouGotItem" StringValue="斯俬ㄤ骯!!\n%s 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_YouGotItemAndKerot" StringValue="斯俬ㄤ!!\n%s, %d 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_YouGotKerot" StringValue="斯俬ㄤ!!\n%d 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_YourCharacterCantUseThisItem" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_MyBag_CardEraseReallyOK" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Rank_FirstGroup" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Rank_FourthGroup" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Rank_SecondGroup" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Rank_ThirdGroup" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="RoomTitle_0" StringValue="斯俬ㄤ骯思司0" StringNote="0" />
+    <String StringID="RoomTitle_1" StringValue="斯俬ㄤ骯思司1" StringNote="0" />
+    <String StringID="RoomTitle_2" StringValue="斯俬ㄤ骯思司2" StringNote="0" />
+    <String StringID="RoomTitle_3" StringValue="斯俬ㄤ骯思司3" StringNote="0" />
+    <String StringID="RoomTitle_4" StringValue="斯俬ㄤ骯思司4" StringNote="0" />
+    <String StringID="SelectChannel_ArcadeChannel" StringValue="斯俬思司" StringNote="Arcade channel name" />
+    <String StringID="SelectChannel_FailedToAutoSelection" StringValue="斯俬ㄤ骯思司" StringNote="Failed to enter to auto selection channel" />
+    <String StringID="SelectChannel_FreeChannel" StringValue="斯俬ㄤ骯" StringNote="Free channel" />
+    <String StringID="SelectChannel_LeagueChannel" StringValue="斯俬ㄤ骯" StringNote="League channel" />
+    <String StringID="SelectChannel_PressEsc" StringValue="ESC 斯俬ㄤ骯思司" StringNote="You can terminate game when you press esc" />
+    <String StringID="SelectChannel_StarOneChannel" StringValue="斯俬ㄤ骯思司" StringNote="One star channel" />
+    <String StringID="SelectChannel_StarThreeChannel" StringValue="斯俬ㄤ骯思" StringNote="Three star channel" />
+    <String StringID="SelectChannel_StarTwoChannel" StringValue="斯俬ㄤ骯思" StringNote="Two star channel" />
+    <String StringID="SERVER_INFO" StringValue="[斯俬ㄤ骯]\n 2009斯 1 俬 16 ㄤ  : 斯俬 2斯  ~ 斯俬  6斯 \n 2009 1 17 ~ 18 :  12~  4" StringNote="0" />
+    <String StringID="ServerName_0" StringValue="斯俬ㄤ " StringNote="0" />
+    <String StringID="ServerName_1" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="ServerName_2" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="ServerName_3" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="ServerSkinName_0" StringValue="斯俬" StringNote="0" />
+    <String StringID="ServerSkinName_1" StringValue="斯俬" StringNote="0" />
+    <String StringID="ServerSkinName_2" StringValue="斯俬" StringNote="0" />
+    <String StringID="SkillClass_Agility" StringValue="斯俬 斯俬" StringNote="0" />
+    <String StringID="SkillClass_Attack" StringValue="斯俬 斯俬" StringNote="0" />
+    <String StringID="SkillClass_Common" StringValue="斯俬 斯俬" StringNote="0" />
+    <String StringID="SkillClass_Defense" StringValue="斯俬 斯俬" StringNote="0" />
+    <String StringID="SkillComment_LimitAccountSkill" StringValue="斯俬 斯俬 斯俬" StringNote="0" />
+    <String StringID="SkillComment_LimitDaySkill" StringValue="斯俬 斯俬 斯俬" StringNote="0" />
+    <String StringID="SkillComment_UnknownSkill" StringValue="斯俬 斯俬 斯俬" StringNote="0" />
+    <String StringID="StageName_1" StringValue="斯俬斯" StringNote="0" />
+    <String StringID="StageName_10" StringValue="斯俬 斯俬" StringNote="0" />
+    <String StringID="StageName_100" StringValue="斯俬斯" StringNote="0" />
+    <String StringID="StageName_1001" StringValue="斯俬斯俬 俬斯俬" StringNote="0" />
+    <String StringID="StageName_1002" StringValue="斯俬斯俬斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_101" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_102" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_105" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_106" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_107" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_108" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_109" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_11" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_110" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_1101" StringValue="斯俬斯俬斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_1102" StringValue="斯俬斯俬斯俬 俬" StringNote="0" />
+    <String StringID="StageName_111" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_112" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_113" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_115" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_118" StringValue="斯俬斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_119" StringValue="斯俬! 斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_12" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_13" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_14" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_15" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_18" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_19" StringValue="斯俬斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_2" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_3" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_4" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_5" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_5_2" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_507" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_6" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_7" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="StageName_8" StringValue="斯俬" StringNote="0" />
+    <String StringID="StageName_9" StringValue="斯俬" StringNote="0" />
+    <String StringID="Test_NoUseSkill" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="Text_AbuseFilterMsg" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_Account" StringValue="%d 斯" StringNote="0" />
+    <String StringID="Text_AccountPer" StringValue="%d斯  / %d %s" StringNote="0" />
+    <String StringID="Text_AccountPerNewLine" StringValue="%d斯 / %d %s\n" StringNote="0" />
+    <String StringID="Text_AlignCost" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_AllowJoinGuild" StringValue=" 斯俬ㄤ骯思司.\n \n斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Text_BanByDuplicateLogin" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_BanByGM" StringValue="GM斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_BanByLimitTime" StringValue="斯俬ㄤ骯思司\n \n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_BanByNoneReady" StringValue="斯俬ㄤ骯思司\n \n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_BanByObserver" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_BanByRoomMaster" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_BannedFromGuild" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_BannerComment" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_Cancle_Transaction" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_CantUseThisTitle" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_CaptainMode" StringValue="斯俬ㄤ骯思" StringNote="0" />
+    <String StringID="Text_CaptureFlagMode" StringValue="斯俬ㄤ骯司" StringNote="0" />
+    <String StringID="Text_CaptureTheMonster" StringValue="斯俬ㄤ思司" StringNote="0" />
+    <String StringID="Text_Cash" StringValue="%d 斯俬" StringNote="0" />
+    <String StringID="Text_ChangeGuildMaster" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Text_CheckRequestResult" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Text_CheckTransaction_Item" StringValue="斯俬ㄤ骯思司?\n" StringNote="0" />
+    <String StringID="Text_CompeteFighter" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_CompeteItem" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_CompeteMode" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_CoOpFighter" StringValue="斯俬ㄤ骯思" StringNote="0" />
+    <String StringID="Text_CoOpItem" StringValue="斯俬ㄤ骯思" StringNote="0" />
+    <String StringID="Text_CoOpMode" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_CrushTheBlock" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_Day" StringValue="%d 斯" StringNote="0" />
+    <String StringID="Text_DayPer" StringValue="%d斯 / %d %s" StringNote="0" />
+    <String StringID="Text_DayPerNewLine" StringValue="%d斯 / %d %s\n" StringNote="0" />
+    <String StringID="Text_DayUnlimit" StringValue="斯俬ㄤ / %d %s" StringNote="0" />
+    <String StringID="Text_DayUnlimitNewLine" StringValue="斯俬ㄤ / %d %s\n" StringNote="0" />
+    <String StringID="Text_Death" StringValue="%d 斯俬" StringNote="0" />
+    <String StringID="Text_DeclineJoinGuild" StringValue=" 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DefaultCharacter" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DeniedTransaction_From" StringValue="%s 斯俬ㄤ骯思司\n" StringNote="0" />
+    <String StringID="Text_DialogSaveTest" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DisallowAddFreind" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DisallowChat" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DisallowSendMemo" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DisbandGuild" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Text_DisconnetedWithServer" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DiscountProduct" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DoNotSelect" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_DropWeaponGuide" StringValue="Q斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_DuplicateLogin" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_EndLessNPCWar" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_SiegeWarfare" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_EnterRoomName" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_ExchangeItem_AlreadyHave" StringValue="斯俬ㄤ骯思司\n" StringNote="0" />
+    <String StringID="Text_ExchangeItem_NotEquip" StringValue="斯俬ㄤ骯思司\n" StringNote="0" />
+    <String StringID="Text_ExchangeItem_Over" StringValue="斯俬ㄤ骯思司\n" StringNote="0" />
+    <String StringID="Text_FighterCompete" StringValue="斯俬ㄤ骯思" StringNote="0" />
+    <String StringID="Text_FighterCoOp" StringValue="斯俬ㄤ骯思" StringNote="0" />
+    <String StringID="Text_FighterFFA" StringValue="斯俬ㄤ骯思" StringNote="0" />
+    <String StringID="Text_FighterMode" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_FighterTeam" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_FightMonster" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_FindTreasure" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_FinishTransaction_Now" StringValue="斯俬ㄤ骯思司\n" StringNote="0" />
+    <String StringID="Text_FiveMinute" StringValue="5 司" StringNote="0" />
+    <String StringID="Text_FivePlayRound" StringValue="5 司" StringNote="0" />
+    <String StringID="Text_FiveRound" StringValue="5司司" StringNote="0" />
+    <String StringID="Text_FreindHasPlayingGame" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GameOption_TooltipBGM" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GameOption_TooltipCAMERA" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GameOption_TooltipGRAPHIC" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司\n斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GameOption_TooltipMESSENGER" StringValue="斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GameOption_TooltipSFX" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GetUniqueItembyEGG" StringValue="[%s] 斯ㄤ [%s] 思司 [%s] 斯 [%s] 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GMMsg" StringValue="斯俬ㄤ骯思司 : " StringNote="0" />
+    <String StringID="Text_GoormCash" StringValue="%d 斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_GuildMaster" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GuildMember" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_GuildSubMaster" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_HeHasChat" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_HumanType" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_ItemFFA" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_ItemMode" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_ItemNotFound" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_ItemTeam" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_JoinedGuild" StringValue=" 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_JoinedTheRoom" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_KeronType" StringValue="斯俬司" StringNote="0" />
+    <String StringID="Text_Kerot" StringValue="%d 斯司" StringNote="0" />
+    <String StringID="Text_KickHimFromGuild" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Text_KillBungeeKill" StringValue="%d 斯 / %d 斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_KillDeath" StringValue="%d 斯 / %d 斯俬" StringNote="0" />
+    <String StringID="Text_LadderRecord" StringValue="%d 斯 ( %d ㄤ  %d ㄤ )" StringNote="0" />
+    <String StringID="Text_LeaveGuild" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Text_LeaveTheGuild" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_LeaveTheRoom" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_Limit" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_LoadingTimeExceed" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_MemoFromWho" StringValue="斯 俬司" StringNote="0" />
+    <String StringID="Text_MsgFromWho" StringValue="斯俬ㄤ骯思司:" StringNote="0" />
+    <String StringID="Text_MyChannel" StringValue="%s %d 斯俬" StringNote="0" />
+    <String StringID="Text_MyChennel" StringValue="%s %d 斯俬" StringNote="0" />
+    <String StringID="Text_MyServerChannel" StringValue="%s / %s %d 斯司" StringNote="0" />
+    <String StringID="Text_NeedSecreteNumber" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_NotGuildMember" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_NoticeCameraMove" StringValue="SPACE BAR斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_NoticeCameraMove_forCAPTAIN" StringValue="SPACE BAR 斯俬 Z 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_NowSelecting" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_OnePlayRound" StringValue="1 斯" StringNote="0" />
+    <String StringID="Text_OneRound" StringValue="1斯俬" StringNote="0" />
+    <String StringID="Text_OnlyCash" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_OnlyKerrot" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Originally" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_PersonCountVariable" StringValue="%d斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountEight" StringValue="8斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountFive" StringValue="5斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountFour" StringValue="4斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountOne" StringValue="1斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountOne" StringValue="1斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountSix" StringValue="6斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountTen" StringValue="10斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountThree" StringValue="3斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PersonCountTwo" StringValue="2斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PleaseInputSearchKeyWord" StringValue="斯俬ㄤ司斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_PleaseInputTextALot3Length" StringValue="3斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_PleaseInputTextALot1LengthforCharacterName" StringValue="斯俬ㄤ骯思司 1斯俬ㄤ骯思司 \n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_PlzSelectMap" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_QuestionBuyItem" StringValue="斯俬ㄤ骯思司?" StringNote="0" />
+    <String StringID="Text_ReadyToDataLoad" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_ReadyToKickRoomMaster" StringValue="斯俬ㄤ骯思司 %d 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_RequestTransaction_From" StringValue="%s 斯俬ㄤ骯思司 \n 斯俬ㄤ骯思司?\n" StringNote="0" />
+    <String StringID="Text_RetryRunApplication" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_Run" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_NPCEndlessWar" StringValue="☆New☆斯思司" StringNote="0" />
+    <String StringID="Text_Score" StringValue="%d 斯" StringNote="0" />
+    <String StringID="Text_ShopSaleItem_RemainNum" StringValue="斯俬ㄤ司 :  %d 斯俬ㄤ \n" StringNote="0" />
+    <String StringID="Text_ShopSaleItem_RemainNumforBanner" StringValue="斯俬ㄤ骯 : %d ㄤ" StringNote="0" />
+    <String StringID="Text_SucceedBuy" StringValue="斯俬ㄤ骯" StringNote="0" />
+    <String StringID="Text_SucceedSale" StringValue="斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_SurvivalMode" StringValue="斯俬ㄤ司" StringNote="0" />
+    <String StringID="Text_TenMinute" StringValue="10 斯" StringNote="0" />
+    <String StringID="Text_TerminateClient" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_ThreeMinute" StringValue="3 ㄤ" StringNote="0" />
+    <String StringID="Text_ThreePlayRound" StringValue="3 ㄤ" StringNote="0" />
+    <String StringID="Text_ThreeRound" StringValue="3ㄤㄤ" StringNote="0" />
+    <String StringID="Text_TimaAttackMode" StringValue="ㄤㄤㄤㄤㄤ" StringNote="0" />
+    <String StringID="Text_TimeLimitProduct" StringValue="ㄤㄤㄤㄤㄤㄤ" StringNote="0" />
+    <String StringID="Text_Title17vs1" StringValue="〈 17斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleArt" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleFoolinLove" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleFriend" StringValue="〈 斯俬ㄤ骯 〉" StringNote="0" />
+    <String StringID="Text_TitleLegendofFighter" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleNinjaAssasin" StringValue="〈 斯俬ㄤ司 〉" StringNote="0" />
+    <String StringID="Text_TitlePowerOfMoon" StringValue="〈 斯俬骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleStreetArtist" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_TitleTrauma" StringValue="〈 斯骯思司 ON ! 〉" StringNote="0" />
+    <String StringID="Text_TitleTrauMa" StringValue="〈 斯思司ON ! 〉" StringNote="0" />
+    <String StringID="Text_TitleTrueFriend" StringValue="斯俬思司" StringNote="0" />
+    <String StringID="Text_TitleOovirus" StringValue="〈 ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleDark" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleAngel" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleSnow" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleGM" StringValue="〈 G.M 〉" StringNote="0" />
+    <String StringID="Text_TitleNewyear" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleTaruru" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleTororo" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleJoruru" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitlePururu" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleGaruru" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleMomoka" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleKogoro" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleKoyuki" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleFuyuki" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_TitleNatsumi" StringValue="〈 斯俬ㄤ骯思司 〉" StringNote="0" />
+    <String StringID="Text_ToolTiipLimitRank" StringValue="斯俬思司 : " StringNote="0" />
+    <String StringID="Text_ToolTipCommon" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToolTipExplain" StringValue="斯俬 : " StringNote="0" />
+    <String StringID="Text_ToolTipFunction" StringValue="斯俬 : " StringNote="0" />
+    <String StringID="Text_ToolTipHumanOnly" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="Text_ToolTipKeronOnly" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="Text_ToolTipPackage" StringValue="斯俬 : " StringNote="0" />
+    <String StringID="Text_ToolTipPresentData" StringValue="斯俬斯俬 : " StringNote="0" />
+    <String StringID="Text_ToolTipPresentMsg" StringValue="斯俬 : " StringNote="0" />
+    <String StringID="Text_ToolTipPrice" StringValue="斯俬 : " StringNote="0" />
+    <String StringID="Text_ToolTipSlot" StringValue="斯俬 : " StringNote="0" />
+    <String StringID="Text_ToolTipSomoneType" StringValue=" 斯俬斯俬" StringNote="0" />
+    <String StringID="Text_ToolTipUseOnlyOne" StringValue="斯俬 : " StringNote="0" />
+    <String StringID="Text_ToopTipDororo" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipGaruru" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipGiroro" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipHanbyul" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipJeroro" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipJirara" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipJoruru" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipKarara" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipKeroro" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipKeroroRobot" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipKururu" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipLittleGiroro" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipLittleKeroro" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipMoa" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipNara" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipPresentSend" StringValue="斯俬斯俬 : " StringNote="0" />
+    <String StringID="Text_ToopTipPururu" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipPutata" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipSelwha" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipSmomo" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipTamama" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipTaruru" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_ToopTipWojoo" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_TransactionMode" StringValue="斯俬" StringNote="0" />
+    <String StringID="Text_TwoMinute" StringValue="2 斯" StringNote="0" />
+    <String StringID="Text_UnitedMode" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="Text_UseSkill" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="Text_WarRecord" StringValue="%d 斯  %d 斯   %d 斯俬 %3.1f" StringNote="0" />
+    <String StringID="Text_WhoJoinedGuild" StringValue=" 斯俬斯俬斯俬" StringNote="0" />
+    <String StringID="Text_WithCardDefaultComment" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_YouCantEquipSkill" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_YouCantOpenEventItem" StringValue="斯俬ㄤ骯思司斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_YouCantOpenEventItemAtLadder" StringValue="Ladder 斯俬ㄤ骯思司斯俬ㄤ骯思司." StringNote="0" />
+    <String StringID="Text_YouCantOpenMyBag" StringValue="斯俬ㄤ骯思司斯俬ㄤ骯思司." StringNote="0" />
+    <String StringID="TransactionTitle_0" StringValue="斯俬ㄤ骯思司斯俬ㄤ骯思司1" StringNote="0" />
+    <String StringID="TransactionTitle_1" StringValue="斯俬ㄤ骯思司斯俬ㄤ骯思司2" StringNote="0" />
+    <String StringID="TransactionTitle_2" StringValue="斯俬ㄤ骯思司斯俬ㄤ骯思司3" StringNote="0" />
+    <String StringID="TransactionTitle_3" StringValue="斯俬ㄤ骯思司斯俬ㄤ骯思司4" StringNote="0" />
+    <String StringID="TransactionTitle_4" StringValue="斯俬ㄤ骯思司斯俬ㄤ骯思司5" StringNote="0" />
+    <String StringID="Text_ToolTipAttackType" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_ToolTipAlligityType" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_ToolTipDefenseType" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="ErrorCode_2319" StringValue="斯俬ㄤ斯俬ㄤ \n 斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="ErrorCode_2320" StringValue="斯俬ㄤ斯俬ㄤ \n 斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="ErrorCode_2321" StringValue="斯俬ㄤ斯俬ㄤ \n 斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Transaction_Two" StringValue="2斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Transaction_Four" StringValue="4斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Transaction_Six" StringValue="6斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Transaction_Eight" StringValue="8斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Transaction_Ten" StringValue="10斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Transaction_Fifteen" StringValue="15斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Transaction_Twenty" StringValue="20斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_DisallowSendTransaction" StringValue="斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_RequestTransactionByMe" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Title_556Virus" StringValue="斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Title_Christmas" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_Title_Viper" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="ErrorCode_2322" StringValue="斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="ErrorCode_2323" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="ErrorCode_2324" StringValue="斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="ErrorCode_2327" StringValue="斯俬ㄤ斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_ToopTipOO6" StringValue="斯俬ㄤ" StringNote="0" />
+    <String StringID="Text_DifficultLV_Easy" StringValue="斯俬俬" StringNote="0" />
+    <String StringID="Text_DifficultLV_Normal" StringValue="俬俬ㄤ" StringNote="0" />
+    <String StringID="Text_DifficultLV_Hard" StringValue="俬俬俬" StringNote="0" />
+    <String StringID="Text_SpecialTextDash" StringValue=" - " StringNote="0" />
+    <String StringID="Text_MarketPlace" StringValue="俬 俬" StringNote="0" />
+    <String StringID="Text_PrivateFight" StringValue="俬俬俬" StringNote="0" />
+    <String StringID="Text_TeamFight" StringValue="俬 俬" StringNote="0" />
+    <String StringID="Text_EW_CoinUseMessage1" StringValue="%s 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_EW_CoinUseMessage2" StringValue="%s ㄤ骯思司 %s 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_MyBag_EraseCard_Caution" StringValue="斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司\n\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ErrorCode_2330" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_PromotionYouGotKerot" StringValue="\n\n\n     斯俬ㄤ骯思司!!\n\n         %d 斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Popup_PromotionYouGotItem" StringValue="\n\n\n     斯俬ㄤ骯思司!!\n\n           斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="GuildLoginTime_Dayago" StringValue="%d斯 司" StringNote="0" />
+    <String StringID="GuildLoginTime_Hourago" StringValue="%d斯思 司" StringNote="0" />
+    <String StringID="GuildLoginTime_Minago" StringValue="%d斯俬ㄤ" StringNote="0" />
+    <String StringID="GuildLoginTime_NowLogin" StringValue="斯思司" StringNote="0" />
+    <String StringID="GuildMarkSelect" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="ChatCommand_Team" StringValue="/斯" StringNote="0" />
+    <String StringID="ChatCommand_Guild" StringValue="/俬ㄤ" StringNote="0" />
+    <String StringID="ChatCommand_Reply" StringValue="/骯思" StringNote="0" />
+    <String StringID="ChatCommand_Blue" StringValue="/思司" StringNote="0" />
+    <String StringID="ChatCommand_Red" StringValue="/俬司" StringNote="0" />
+    <String StringID="Popup_NotEnoughCash" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+
+    <String StringID="OpenCashWebPage1" StringValue="http://www.goorm.com/mypage" StringNote="0" />
+    <String StringID="OpenCashWebPage2" StringValue="http://www.tooniland.com/pageLoad.tl?cate_cd=620" StringNote="0" />
+
+    <String StringID="ItemText_All" StringValue="斯俬" StringNote="0" />
+    <String StringID="ItemText_AttackType" StringValue="斯俬" StringNote="0" />
+    <String StringID="ItemText_SpeedType" StringValue="斯俬" StringNote="0" />
+    <String StringID="ItemText_Defense" StringValue="斯俬" StringNote="0" />
+    <String StringID="ItemText_Head" StringValue="斯俬" StringNote="0" />
+    <String StringID="ItemText_Body" StringValue="斯俬" StringNote="0" />
+    <String StringID="ItemText_Hand_Feet" StringValue="斯/俬" StringNote="0" />
+    <String StringID="ItemText_Accessories" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="ItemText_Costume" StringValue="斯俬斯" StringNote="0" />
+    <String StringID="ItemText_SpecialWeapon" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="ItemText_CommonSkill" StringValue="斯俬斯俬" StringNote="0" />
+    <String StringID="ItemText_Character" StringValue="斯俬斯" StringNote="0" />
+
+    <String StringID="Popup_ItemSellingConfirm" StringValue="斯俬ㄤ骯思司?\n斯俬ㄤ骯思司\n斯俬ㄤ骯思司" StringNote="0" />
+    <String StringID="Text_CantUseSkill" StringValue="斯俬ㄤ骯思司" StringNote="0" />
+
+</StringBuilder>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_NoticeBox.xml" PosX="194" PosY="98" SizeX="659" SizeY="558" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="1" Depth="0.890" Show="1">
+            <Element index="0" TextName="GUI_practice.tga" TextPosX="28" TextPosY="4" TextSizeX="16" TextSizeY="558" PosX="23" PosY="0" SizeX="590" SizeY="558" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_practice.tga" TextPosX="4" TextPosY="4" TextSizeX="23" TextSizeY="558" PosX="0" PosY="0" SizeX="23" SizeY="558" />
+            <Element index="5" TextName="GUI_practice.tga" TextPosX="45" TextPosY="4" TextSizeX="23" TextSizeY="558" PosX="613" PosY="0" SizeX="23" SizeY="558" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.891" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-194" PosY="-98" SizeX="1024" SizeY="768" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.889" Show="1"> <!-- Text -->
+            <Element index="0" TextName="GUI_practice.tga" TextPosX="4" TextPosY="565" TextSizeX="126" TextSizeY="22" PosX="254" PosY="18" SizeX="126" SizeY="22" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.889" Show="1"> <!-- 이미지 좌 -->
+            <Element index="0" TextName="GUI_practice.tga" TextPosX="159" TextPosY="4" TextSizeX="304" TextSizeY="408" PosX="14" PosY="53" SizeX="304" SizeY="408" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.889" Show="1"> <!-- 이미지 우 -->
+            <Element index="0" TextName="GUI_practice.tga" TextPosX="159" TextPosY="416" TextSizeX="304" TextSizeY="408" PosX="318" PosY="53" SizeX="304" SizeY="408" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+<!--START - 기본 UI-->
+        <Property Name="Practice_Close_Button" ClassName="CKeroroUI_Button" PosX="597" PosY="14" SizeX="26" SizeY="26" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.889" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="Practice_Exit_Button" ClassName="CKeroroUI_Button" PosX="272" PosY="500" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.889" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="856" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="910" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="964" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!---END- - 기본 UI-->
+
+        <Property Name="Practice_Prev_Button" ClassName="CKeroroUI_Button" PosX="271" PosY="467" SizeX="26" SizeY="19" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.699" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="142" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Practice_Next_Button" ClassName="CKeroroUI_Button" PosX="339" PosY="467" SizeX="26" SizeY="19" Disable="0" OverSound="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.699" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="115" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="169" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Practice_PageNumber" ClassName="CKeroroUI_Number" PosX="311" PosY="467" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="0" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" Number="1" StartPosX="88" StartPosY="447" SizeX="13" SizeY="18" NextTermX="14" NextTermY="0" ShowPosX="0" ShowPosY="0" ShowNextTermX="0" ShowNextTermY="0" TextureName="GUI_button.tga" Depth="0.660000" />
+        </Property>
+
+
+
+	<Property Name="Practice_Video_Play_Button" ClassName="CKeroroUI_Button" PosX="518" PosY="395" SizeX="54" SizeY="54" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.838" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_practice_guide.TGA" TextPosX="619" TextPosY="1" TextSizeX="54" TextSizeY="54" PosX="0" PosY="0" SizeX="54" SizeY="54" />
+                    <Element ControlState="2" index="0" TextName="GUI_practice_guide.TGA" TextPosX="619" TextPosY="57" TextSizeX="54" TextSizeY="54" PosX="0" PosY="0" SizeX="54" SizeY="54" />
+                    <Element ControlState="3" index="0" TextName="GUI_practice_guide.TGA" TextPosX="619" TextPosY="113" TextSizeX="54" TextSizeY="54" PosX="0" PosY="0" SizeX="54" SizeY="54" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Practice_Video_Stop_Button" ClassName="CKeroroUI_Button" PosX="572" PosY="412" SizeX="38" SizeY="38" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.838" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_practice_guide.TGA" TextPosX="675" TextPosY="18" TextSizeX="38" TextSizeY="38" PosX="0" PosY="0" SizeX="38" SizeY="38" />
+                    <Element ControlState="2" index="0" TextName="GUI_practice_guide.TGA" TextPosX="675" TextPosY="74" TextSizeX="38" TextSizeY="38" PosX="0" PosY="0" SizeX="38" SizeY="38" />
+                    <Element ControlState="3" index="0" TextName="GUI_practice_guide.TGA" TextPosX="675" TextPosY="130" TextSizeX="38" TextSizeY="38" PosX="0" PosY="0" SizeX="38" SizeY="38" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Xmas_Tree_P01" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="0.000000" />
+            <Property Time="0.300000" Value="255.000000" />
+            <Property Time="0.300000" Value="0.000000" />
+            <Property Time="0.300000" Value="255.000000" />
+            <Property Time="0.300000" Value="0.000000" />
+            <Property Time="0.300000" Value="255.000000" />
+            <Property Time="0.300000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.600000" X="1.000000" Y="1.000000" Z="0.500000" />
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.600000" X="1.000000" Y="1.000000" Z="0.500000" />
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.600000" X="1.000000" Y="1.000000" Z="0.500000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Skill_Com_Grenade_B01.tga" />
+            <Property Time="0.600000" Value="Skill_Com_Grenade_B01.tga" />
+            <Property Time="0.600000" Value="Char_Doro_ComKKK00.tga" />
+            <Property Time="0.600000" Value="Char_Doro_ComKKK.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="15.000000" Max="20.000000" />
+        <RepeatCount Count="-1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="1.800000" />
+        <RegenTime Min="0.300000" Max="0.500000" />
+        <RotScaleMin X="20.000000" Y="20.000000" Z="45.000000" />
+        <RotScaleMax X="30.000000" Y="30.000000" Z="-45.000000" />
+        <RandPosMin X="120.000000" Y="130.000000" Z="120.000000" />
+        <RandPosMax X="-120.000000" Y="-160.000000" Z="-120.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="0.000000" Max="0.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="60">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="25.499998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.050000" Y="0.050000" Z="0.025000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="50.999996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="0.050000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="76.499992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.075000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="101.999992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="0.100000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="127.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.250000" Y="0.250000" Z="0.125000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="152.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.150000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.350000" Y="0.350000" Z="0.175000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="203.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="0.200000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="229.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.225000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.250000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="229.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.550000" Y="0.550000" Z="0.275000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="204.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.300000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.650000" Y="0.650000" Z="0.325000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="153.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.350000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="127.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.375000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.400000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="76.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.850000" Y="0.850000" Z="0.425000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="51.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.450000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="25.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.950000" Y="0.950000" Z="0.475000" />
+            <Texture Texture="Skill_Com_Grenade_B01.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="25.499998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.050000" Y="0.050000" Z="0.025000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="50.999996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="0.050000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="76.499992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.075000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="101.999992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="0.100000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="127.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.250000" Y="0.250000" Z="0.125000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="152.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.150000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.350000" Y="0.350000" Z="0.175000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="203.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="0.200000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="229.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.225000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.250000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="229.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.550000" Y="0.550000" Z="0.275000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="204.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.300000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.650000" Y="0.650000" Z="0.325000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="153.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.350000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="127.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.375000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.400000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="76.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.850000" Y="0.850000" Z="0.425000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="51.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.450000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="25.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.950000" Y="0.950000" Z="0.475000" />
+            <Texture Texture="Char_Doro_ComKKK00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="25.499998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.050000" Y="0.050000" Z="0.025000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="50.999996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="0.050000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="76.499992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.075000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="101.999992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="0.100000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="127.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.250000" Y="0.250000" Z="0.125000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="152.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.150000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.350000" Y="0.350000" Z="0.175000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="203.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="0.200000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="229.499985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.225000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.250000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="229.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.550000" Y="0.550000" Z="0.275000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="204.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.300000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.650000" Y="0.650000" Z="0.325000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="153.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.350000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="127.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.375000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.400000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="76.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.850000" Y="0.850000" Z="0.425000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="51.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.450000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="25.500015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.950000" Y="0.950000" Z="0.475000" />
+            <Texture Texture="Char_Doro_ComKKK.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

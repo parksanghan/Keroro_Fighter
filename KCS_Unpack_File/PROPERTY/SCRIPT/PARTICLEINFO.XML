@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<ParticleInfo>
+    <Particles>
+        <Particle>
+            <strName Value0="TestParticle1" />
+            <nParticleCount Value0="100.000000" Value1="100.000000" />
+            <nRepeatCount Value0="-1.000000" />
+            <fGravity Value0="0.000000" />
+            <fLife Value0="1.300000" Value1="1.300000" />
+            <fNextGenTime Value0="0.030000" Value1="0.030000" />
+            <vRotScale0 Value0="10.000000" Value1="10.000000" Value2="0.000000" />
+            <vRotScale1 Value0="10.000000" Value1="10.000000" Value2="0.000000" />
+            <vPos0 Value0="0.000000" Value1="0.000000" Value2="0.000000" />
+            <vPos1 Value0="0.000000" Value1="0.000000" Value2="0.000000" />
+            <vVelocity0 Value0="0.000000" Value1="200.000000" Value2="0.000000" />
+            <vVelocity1 Value0="0.000000" Value1="200.000000" Value2="0.000000" />
+            <vVelRotScl0 Value0="0.000000" Value1="0.000000" Value2="0.000000" />
+            <vVelRotScl1 Value0="0.000000" Value1="0.000000" Value2="0.000000" />
+            <strTextureName Value0="Effect/Ef_Hit_Impact.TGA" />
+            <strClassName Value0="" />
+        </Particle>
+        <Particle>
+            <strName Value0="TestParticle2" />
+            <nParticleCount Value0="1.000000" Value1="1.000000" />
+            <nRepeatCount Value0="10.000000" />
+            <fGravity Value0="-400.000000" />
+            <fLife Value0="0.800000" Value1="0.800000" />
+            <fNextGenTime Value0="0.100000" Value1="0.100000" />
+            <vRotScale0 Value0="10.000000" Value1="10.000000" Value2="0.000000" />
+            <vRotScale1 Value0="20.000000" Value1="20.000000" Value2="0.000000" />
+            <vPos0 Value0="0.000000" Value1="160.000000" Value2="0.000000" />
+            <vPos1 Value0="0.000000" Value1="160.000000" Value2="0.000000" />
+            <vVelocity0 Value0="-300.000000" Value1="0.000000" Value2="-300.000000" />
+            <vVelocity1 Value0="300.000000" Value1="0.000000" Value2="300.000000" />
+            <vVelRotScl0 Value0="10.000000" Value1="10.000000" Value2="0.000000" />
+            <vVelRotScl1 Value0="20.000000" Value1="20.000000" Value2="0.000000" />
+            <strTextureName Value0="Effect/Ef_Hit_Impact.TGA" />
+            <strClassName Value0="" />
+        </Particle>
+        <Particle>
+            <strName Value0="TestParticle3" />
+            <nParticleCount Value0="200.000000" Value1="200.000000" />
+            <nRepeatCount Value0="1.000000" />
+            <fGravity Value0="-160.000000" />
+            <fLife Value0="0.500000" Value1="0.800000" />
+            <fNextGenTime Value0="0.020000" Value1="0.020000" />
+            <vRotScale0 Value0="10.000000" Value1="10.000000" Value2="0.000000" />
+            <vRotScale1 Value0="10.000000" Value1="10.000000" Value2="0.000000" />
+            <vPos0 Value0="0.000000" Value1="0.000000" Value2="0.000000" />
+            <vPos1 Value0="0.000000" Value1="0.000000" Value2="0.000000" />
+            <vVelocity0 Value0="-350.000000" Value1="160.000000" Value2="-350.000000" />
+            <vVelocity1 Value0="350.000000" Value1="160.000000" Value2="350.000000" />
+            <vVelRotScl0 Value0="10.000000" Value1="10.000000" Value2="0.000000" />
+            <vVelRotScl1 Value0="20.000000" Value1="20.000000" Value2="0.000000" />
+            <strTextureName Value0="Effect/Ef_Hit_Impact.TGA" />
+            <strClassName Value0="Ext_Ring" />
+        </Particle>
+    </Particles>
+</ParticleInfo>

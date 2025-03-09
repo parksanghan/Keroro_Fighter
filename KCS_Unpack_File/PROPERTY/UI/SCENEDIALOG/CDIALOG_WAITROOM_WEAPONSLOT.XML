@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="375" PosY="624" SizeX="62" SizeY="75" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<Property Index="0" RenderStyle="1" Depth="0.850" Show="1"> <!-- 기본 배경 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="117" TextPosY="3" TextSizeX="16" TextSizeY="75" PosX="16" PosY="0" SizeX="30" SizeY="75" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	    <Element index="4" TextName="GUI_waiting room.TGA" TextPosX="100" TextPosY="3" TextSizeX="16" TextSizeY="75" PosX="0" PosY="0" SizeX="16" SizeY="75" />
+            <Element index="5" TextName="GUI_waiting room.TGA" TextPosX="135" TextPosY="3" TextSizeX="16" TextSizeY="75" PosX="46" PosY="0" SizeX="16" SizeY="75" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.849" Show="1"> <!-- 기본 Title Text -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="513" TextPosY="141" TextSizeX="27" TextSizeY="17" PosX="19" PosY="3" SizeX="27" SizeY="17" />
+        </Property>
+
+<!--START - 무기 관련 Texture 들... -->
+        <Property Index="2" RenderStyle="0" Depth="0.999" Show="0">
+            <Element index="0" TextName="GUI_Weapon_SlotIcon.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+<!--END --- 무기 관련 Texture 들... -->
+
+        <Property Index="3" RenderStyle="0" Depth="0.999" Show="0"> <!-- 알파값 때문에 전체 배경 스킨이 보이지 않아 확인용으로 넣은 스킨 -->
+            <Element index="0" TextName="GUI_waiting room.TGA" TextPosX="736" TextPosY="94" TextSizeX="1" TextSizeY="1" PosX="-1" PosY="-1" SizeX="64" SizeY="77" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+
+<!--START - 스킬슬롯 버튼 -->
+        <Property Name="CONTROL_WeaponSlot_SLOT1" ClassName="CKeroroUI_Control" PosX="5" PosY="19" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.848" Show="1"> <!-- 기본 배경 스킨 -->
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room.TGA" TextPosX="300" TextPosY="259" TextSizeX="52" TextSizeY="52" PosX="0" PosY="0" SizeX="52" SizeY="52" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.846" Show="1"> <!-- 스킬 스킨 -->
+                    <Element ControlState="0" index="0" TextName="GUI_Weapon_SlotIcon.tga" TextPosX="432" TextPosY="0" TextSizeX="48" TextSizeY="48" PosX="2" PosY="2" SizeX="48" SizeY="48" />
+                    <Element ControlState="1" index="0" TextName="GUI_Weapon_SlotIcon.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NUMBER_WeaponSlot_SLOT1" ClassName="CKeroroUI_Number" PosX="40" PosY="50" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="0" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" Number="1" StartPosX="88" StartPosY="447" SizeX="13" SizeY="18" NextTermX="14" NextTermY="0" ShowPosX="0" ShowPosY="0" ShowNextTermX="0" ShowNextTermY="0" TextureName="GUI_button.tga" Depth="0.845" />
+        </Property>
+<!--END - 스킬슬롯 버튼 -->
+
+    </DialogControl>
+</RootNode>

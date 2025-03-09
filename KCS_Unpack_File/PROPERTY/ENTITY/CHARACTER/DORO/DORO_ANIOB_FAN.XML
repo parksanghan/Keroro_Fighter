@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="DORORO_FAN" FILENAME="Doro_Obj_Fan.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Doro_Obj_Fan.VS">
+        <PROPERTYBAG NAME="DORORO_FAN" FILENAME="Doro_Obj_Fan.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Kara_Obj_Fan" FILENAME="Kara_Obj_Fan.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Doro_Aniob_Fan_COMMANDS.XML" />
+</GAMEENTITY>

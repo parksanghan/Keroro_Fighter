@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="517" PosY="140" SizeX="512" SizeY="639" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+<!-- 놀이터 배경 스킨 -->
+        <Property Index="0" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="kt_ui_channel_02.tga" TextPosX="0" TextPosY="0" TextSizeX="512" TextSizeY="512" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Channel_01.tga" TextPosX="1" TextPosY="945" TextSizeX="434" TextSizeY="59" PosX="48" PosY="64" SizeX="434" SizeY="59" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Channel_01.tga" TextPosX="1" TextPosY="945" TextSizeX="434" TextSizeY="59" PosX="48" PosY="124" SizeX="434" SizeY="59" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Channel_01.tga" TextPosX="1" TextPosY="945" TextSizeX="434" TextSizeY="59" PosX="48" PosY="184" SizeX="434" SizeY="59" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Channel_01.tga" TextPosX="1" TextPosY="945" TextSizeX="434" TextSizeY="59" PosX="48" PosY="244" SizeX="434" SizeY="59" />
+        </Property>
+        <Property Index="5" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Channel_01.tga" TextPosX="1" TextPosY="945" TextSizeX="434" TextSizeY="59" PosX="48" PosY="304" SizeX="434" SizeY="59" />
+        </Property>
+        <Property Index="6" RenderStyle="0" Depth="0.870" Show="1">
+            <Element index="0" TextName="GUI_Channel_01.tga" TextPosX="1" TextPosY="945" TextSizeX="434" TextSizeY="59" PosX="48" PosY="364" SizeX="434" SizeY="59" />
+        </Property>
+
+	<!-- 놀이터 탭의 삭제로 리소스가 변경되어 Texture 좌표를 바꾼다. -->
+<!-- 별하나 배경 스킨 -->
+        <Property Index="7" RenderStyle="0" Depth="0.880" Show="1">
+            <Element index="0" TextName="kt_ui_channel_02.tga" TextPosX="0" TextPosY="0" TextSizeX="512" TextSizeY="515" PosX="-5" PosY="0" SizeX="512" SizeY="515" />
+        </Property>
+<!-- 별둘 배경 스킨 -->
+        <Property Index="8" RenderStyle="0" Depth="0.880" Show="1">
+            <Element index="0" TextName="kt_ui_channel_03.tga" TextPosX="0" TextPosY="0" TextSizeX="512" TextSizeY="515" PosX="0" PosY="-9" SizeX="512" SizeY="515" />
+        </Property>
+<!-- 별셋 배경 스킨 -->
+        <Property Index="9" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="kt_ui_channel_03.tga" TextPosX="511" TextPosY="0" TextSizeX="512" TextSizeY="515" PosX="-1" PosY="-9" SizeX="512" SizeY="515" />
+        </Property>
+
+	<!-- 놀이터 배너의 출력을 막고 배너의 위치가 하나씩 앞으로 당겨졌다. -->
+<!-- 별하나 배너 -->
+        <Property Index="10" RenderStyle="0" Depth="0.800" Show="0">
+            <Element index="0" TextName="kt_ui_channel_02.tga" TextPosX="192" TextPosY="869" TextSizeX="188" TextSizeY="91" PosX="-30" PosY="-85" SizeX="188" SizeY="91" />
+        </Property>
+<!-- 별둘 배너 -->
+        <Property Index="11" RenderStyle="0" Depth="0.800" Show="0">
+            <Element index="0" TextName="kt_ui_channel_02.tga" TextPosX="381" TextPosY="869" TextSizeX="188" TextSizeY="91" PosX="62" PosY="-85" SizeX="188" SizeY="91" />
+        </Property>
+<!-- 별셋 배너 -->
+        <Property Index="12" RenderStyle="0" Depth="0.800" Show="0">
+            <Element index="0" TextName="kt_ui_channel_02.tga" TextPosX="570" TextPosY="869" TextSizeX="188" TextSizeY="91" PosX="157" PosY="-85" SizeX="188" SizeY="91" />
+        </Property>
+<!-- 자유 배너 -->
+        <Property Index="13" RenderStyle="0" Depth="0.800" Show="0">
+            <Element index="0" TextName="kt_ui_channel_02.tga" TextPosX="759" TextPosY="869" TextSizeX="188" TextSizeY="91" PosX="254" PosY="-85" SizeX="188" SizeY="91" />
+        </Property>
+<!-- 놀이터 배너 -->
+        <Property Index="14" RenderStyle="0" Depth="0.800" Show="0">
+            <Element index="0" TextName="kt_ui_channel_02.tga" TextPosX="3" TextPosY="869" TextSizeX="188" TextSizeY="91" PosX="-30" PosY="-85" SizeX="188" SizeY="91" />
+        </Property>
+
+<!-- 자유 배경 스킨 -->
+        <Property Index="15" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="kt_ui_channel_03.tga" TextPosX="0" TextPosY="527" TextSizeX="512" TextSizeY="467" PosX="0" PosY="-9" SizeX="512" SizeY="467" />
+        </Property>
+        <Property Index="16" RenderStyle="0" Depth="0.880" Show="0">
+            <Element index="0" TextName="kt_ui_channel_03.tga" TextPosX="512" TextPosY="527" TextSizeX="512" TextSizeY="59" PosX="0" PosY="457" SizeX="512" SizeY="59" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="PrevCHPageButton" ClassName="CKeroroUI_Button" PosX="171" PosY="437" SizeX="59" SizeY="33" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="237" TextPosY="717" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Channel_01.tga" TextPosX="237" TextPosY="751" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Channel_01.tga" TextPosX="237" TextPosY="785" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NextCHPageButton" ClassName="CKeroroUI_Button" PosX="306" PosY="437" SizeX="59" SizeY="33" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="297" TextPosY="717" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Channel_01.tga" TextPosX="297" TextPosY="751" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Channel_01.tga" TextPosX="297" TextPosY="785" TextSizeX="59" TextSizeY="33" PosX="0" PosY="0" SizeX="59" SizeY="33" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+<!-- 입장 버튼 -->
+        <Property Name="EnterChannelButton" ClassName="CKeroroUI_Button" PosX="333" PosY="464" SizeX="146" SizeY="142" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="784" TextPosY="589" TextSizeX="146" TextSizeY="142" PosX="0" PosY="0" SizeX="146" SizeY="142" />
+                    <Element ControlState="2" index="0" TextName="GUI_Channel_01.tga" TextPosX="784" TextPosY="733" TextSizeX="146" TextSizeY="142" PosX="0" PosY="0" SizeX="146" SizeY="142" />
+                    <Element ControlState="3" index="0" TextName="GUI_Channel_01.tga" TextPosX="784" TextPosY="877" TextSizeX="146" TextSizeY="142" PosX="0" PosY="0" SizeX="146" SizeY="142" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="FastEnterChannelButton" ClassName="CKeroroUI_Button" PosX="173" PosY="464" SizeX="146" SizeY="142" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.839" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="624" TextPosY="589" TextSizeX="146" TextSizeY="142" PosX="0" PosY="0" SizeX="146" SizeY="142" />
+                    <Element ControlState="2" index="0" TextName="GUI_Channel_01.tga" TextPosX="624" TextPosY="733" TextSizeX="146" TextSizeY="142" PosX="0" PosY="0" SizeX="146" SizeY="142" />
+                    <Element ControlState="3" index="0" TextName="GUI_Channel_01.tga" TextPosX="624" TextPosY="877" TextSizeX="146" TextSizeY="142" PosX="0" PosY="0" SizeX="146" SizeY="142" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="OneStarButton" ClassName="CKeroroUI_TabButton" PosX="16" PosY="15" SizeX="89" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="1" index="0" TextName="kt_ui_channel_02.tga" TextPosX="17" TextPosY="787" TextSizeX="101" TextSizeY="42" PosX="-6" PosY="-9" SizeX="101" SizeY="42" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_channel_02.tga" TextPosX="92" TextPosY="831" TextSizeX="89" TextSizeY="27" PosX="0" PosY="0" SizeX="89" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="TwoStarButton" ClassName="CKeroroUI_TabButton" PosX="112" PosY="12" SizeX="89" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="1" index="0" TextName="kt_ui_channel_02.tga" TextPosX="120" TextPosY="787" TextSizeX="101" TextSizeY="42" PosX="-6" PosY="-9" SizeX="101" SizeY="42" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_channel_02.tga" TextPosX="182" TextPosY="831" TextSizeX="89" TextSizeY="27" PosX="0" PosY="0" SizeX="89" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ThreeStarButton" ClassName="CKeroroUI_TabButton" PosX="208" PosY="10" SizeX="89" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="1" index="0" TextName="kt_ui_channel_02.tga" TextPosX="223" TextPosY="787" TextSizeX="101" TextSizeY="42" PosX="-6" PosY="-8" SizeX="101" SizeY="42" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_channel_02.tga" TextPosX="272" TextPosY="831" TextSizeX="89" TextSizeY="27" PosX="0" PosY="0" SizeX="89" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="FreeStarButton" ClassName="CKeroroUI_TabButton" PosX="304" PosY="8" SizeX="89" SizeY="27" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="2" index="0" TextName="kt_ui_channel_02.tga" TextPosX="362" TextPosY="831" TextSizeX="89" TextSizeY="27" PosX="0" PosY="0" SizeX="89" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ZeroButton" ClassName="CKeroroUI_TabButton" PosX="16" PosY="14" SizeX="0" SizeY="0" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="2" index="0" TextName="kt_ui_channel_02.tga" TextPosX="2" TextPosY="831" TextSizeX="89" TextSizeY="27" PosX="0" PosY="0" SizeX="89" SizeY="27" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+        <Property Name="PageButton" ClassName="CKeroroUI_Button" PosX="250" PosY="437" SizeX="30" SizeY="30" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="435" TextPosY="746" TextSizeX="38" TextSizeY="34" PosX="0" PosY="0" SizeX="38" SizeY="34" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.840" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Channel_01.tga" TextPosX="489" TextPosY="746" TextSizeX="14" TextSizeY="19" PosX="11" PosY="8" SizeX="14" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

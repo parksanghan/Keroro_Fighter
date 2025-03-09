@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="415" PosY="519" SizeX="120" SizeY="101" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<!--기본 배경-->
+        <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+            <Element index="0" TextName="GUI_WaitingRoom.tga" TextPosX="495" TextPosY="846" TextSizeX="120" TextSizeY="101" PosX="0" PosY="0" SizeX="120" SizeY="101" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+<!--START - Button-->
+	<Property Name="MyBag_BUTTON_Character" ClassName="CKeroroUI_Button" PosX="23" PosY="8" SizeX="74" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="463" TextPosY="950" TextSizeX="74" TextSizeY="20" PosX="0" PosY="0" SizeX="74" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="538" TextPosY="950" TextSizeX="74" TextSizeY="20" PosX="0" PosY="0" SizeX="74" SizeY="20" />
+                </Property>
+	  <Property Index="1" RenderStyle="0" Depth="0.620" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="619" TextPosY="490" TextSizeX="115" TextSizeY="21" PosX="-17" PosY="-1" SizeX="115" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="MyBag_BUTTON_Item" ClassName="CKeroroUI_Button" PosX="23" PosY="32" SizeX="74" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="463" TextPosY="972" TextSizeX="74" TextSizeY="20" PosX="0" PosY="0" SizeX="74" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="538" TextPosY="972" TextSizeX="74" TextSizeY="20" PosX="0" PosY="0" SizeX="74" SizeY="20" />
+                </Property>
+	  <Property Index="1" RenderStyle="0" Depth="0.620" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="619" TextPosY="490" TextSizeX="115" TextSizeY="21" PosX="-17" PosY="-2" SizeX="115" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="MyBag_BUTTON_Skill" ClassName="CKeroroUI_Button" PosX="29" PosY="55" SizeX="74" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="463" TextPosY="994" TextSizeX="74" TextSizeY="20" PosX="0" PosY="0" SizeX="74" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="538" TextPosY="994" TextSizeX="74" TextSizeY="20" PosX="0" PosY="0" SizeX="74" SizeY="20" />
+                </Property>
+	  <Property Index="1" RenderStyle="0" Depth="0.620" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.TGA" TextPosX="619" TextPosY="490" TextSizeX="115" TextSizeY="21" PosX="-25" PosY="-2" SizeX="115" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="MyBag_BUTTON_EXItem" ClassName="CKeroroUI_Button" PosX="20" PosY="107" SizeX="71" SizeY="20" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="488" TextPosY="629" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="394" TextPosY="629" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="581" TextPosY="629" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="674" TextPosY="629" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--Property Name="MyBag_BUTTON_Present" ClassName="CKeroroUI_Button" PosX="20" PosY="107" SizeX="71" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="488" TextPosY="660" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="394" TextPosY="660" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="581" TextPosY="660" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom.tga" TextPosX="674" TextPosY="660" TextSizeX="71" TextSizeY="20" PosX="0" PosY="0" SizeX="71" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property-->
+<!--END - Button-->
+    </DialogControl>
+</RootNode>

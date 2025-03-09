@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="0" PosY="0" SizeX="0" SizeY="0" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.880" Show="1">
+            <Element index="0" TextName="GUI_Tutorial_Play.TGA" TextPosX="0" TextPosY="0" TextSizeX="658" TextSizeY="187" PosX="360" PosY="97" SizeX="658" SizeY="187" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.850" Show="1">
+            <Element index="0" TextName="GUI_Tutorial_Play.TGA" TextPosX="672" TextPosY="8" TextSizeX="248" TextSizeY="80" PosX="733" PosY="175" SizeX="248" SizeY="80" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.860" Show="1">
+            <Element index="0" TextName="GUI_Tutorial_Play.TGA" TextPosX="0" TextPosY="188" TextSizeX="177" TextSizeY="231" PosX="759" PosY="12" SizeX="177" SizeY="231" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Treasure_GameStart" ClassName="CKeroroUI_Button" PosX="390" PosY="188" SizeX="338" SizeY="22" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment2.TGA" TextPosX="0" TextPosY="0" TextSizeX="338" TextSizeY="22" PosX="0" PosY="0" SizeX="338" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Treasure_NoGetItem" ClassName="CKeroroUI_Button" PosX="390" PosY="188" SizeX="338" SizeY="22" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment2.TGA" TextPosX="0" TextPosY="26" TextSizeX="338" TextSizeY="22" PosX="0" PosY="0" SizeX="338" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Treasure_Hurry" ClassName="CKeroroUI_Button" PosX="390" PosY="188" SizeX="338" SizeY="22" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment2.TGA" TextPosX="0" TextPosY="55" TextSizeX="338" TextSizeY="22" PosX="0" PosY="0" SizeX="338" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NPCHunt_GameStart" ClassName="CKeroroUI_Button" PosX="390" PosY="188" SizeX="338" SizeY="22" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment3.TGA" TextPosX="0" TextPosY="0" TextSizeX="338" TextSizeY="22" PosX="0" PosY="0" SizeX="338" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NPCHunt_NoGetItem" ClassName="CKeroroUI_Button" PosX="390" PosY="188" SizeX="338" SizeY="22" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment3.TGA" TextPosX="0" TextPosY="26" TextSizeX="338" TextSizeY="22" PosX="0" PosY="0" SizeX="338" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NPCHunt_Hurry" ClassName="CKeroroUI_Button" PosX="390" PosY="188" SizeX="338" SizeY="22" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment3.TGA" TextPosX="0" TextPosY="55" TextSizeX="338" TextSizeY="22" PosX="0" PosY="0" SizeX="338" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="NPCHunt_Great" ClassName="CKeroroUI_Button" PosX="390" PosY="186" SizeX="338" SizeY="26" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment3.TGA" TextPosX="0" TextPosY="85" TextSizeX="338" TextSizeY="26" PosX="0" PosY="0" SizeX="338" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Run_Start" ClassName="CKeroroUI_Button" PosX="390" PosY="164" SizeX="0" SizeY="0" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment4.tga" TextPosX="0" TextPosY="0" TextSizeX="339" TextSizeY="66" PosX="0" PosY="0" SizeX="339" SizeY="66" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Run_NotMove" ClassName="CKeroroUI_Button" PosX="390" PosY="184" SizeX="0" SizeY="0" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment4.tga" TextPosX="0" TextPosY="67" TextSizeX="339" TextSizeY="33" PosX="0" PosY="0" SizeX="339" SizeY="33" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Run_GoalIn" ClassName="CKeroroUI_Button" PosX="390" PosY="184" SizeX="0" SizeY="0" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment4.tga" TextPosX="0" TextPosY="101" TextSizeX="339" TextSizeY="33" PosX="0" PosY="0" SizeX="339" SizeY="33" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Run_Retire" ClassName="CKeroroUI_Button" PosX="390" PosY="184" SizeX="0" SizeY="0" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Tutorial_Comment4.tga" TextPosX="0" TextPosY="135" TextSizeX="339" TextSizeY="33" PosX="0" PosY="0" SizeX="339" SizeY="33" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

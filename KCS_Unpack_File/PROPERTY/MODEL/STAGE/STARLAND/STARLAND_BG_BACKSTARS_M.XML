@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Starland_Bg_BackStars.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Starland_Bg_BackStars.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureTransform">
+            <Property name="UseAlpha" value="1" />
+            <Property name="MoveSpeedX" value="0.00" />
+            <Property name="MoveSpeedY" value="0.00" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Subway_Rightdoor" FILENAME="Subway_Rightdoor.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="test_02.VS">
+        <PROPERTYBAG NAME="test_02" FILENAME="test_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="test_04" FILENAME="test_04.VA" COMMENT="" />
+        <PROPERTYBAG NAME="test_06" FILENAME="test_06.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Subway_Rightdoor_COMMANDS.XML" />
+</GAMEENTITY>

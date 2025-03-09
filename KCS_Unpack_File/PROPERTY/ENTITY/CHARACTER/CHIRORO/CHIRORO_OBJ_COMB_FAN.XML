@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Chiroro_Obj_Fan" FILENAME="Chiroro_Obj_Fan.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="13" VSNAME="Chiroro_Obj_Fan.VS">
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_ESC" FILENAME="Chiroro_Obj_Comb_ESC.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_KP" FILENAME="Chiroro_Obj_Comb_KP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_KPP" FILENAME="Chiroro_Obj_Comb_KPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_KPPP" FILENAME="Chiroro_Obj_Comb_KPPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_KPPPP" FILENAME="Chiroro_Obj_Comb_KPPPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_P" FILENAME="Chiroro_Obj_Comb_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_PK" FILENAME="Chiroro_Obj_Comb_PK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_PP" FILENAME="Chiroro_Obj_Comb_PP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_PPK" FILENAME="Chiroro_Obj_Comb_PPK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_PPP" FILENAME="Chiroro_Obj_Comb_PPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Comb_SPE" FILENAME="Chiroro_Obj_Comb_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Jump_K" FILENAME="Chiroro_Obj_Jump_K.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Chiroro_Obj_Jump_P" FILENAME="Chiroro_Obj_Jump_P.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Chiroro_Obj_Comb_Fan_COMMANDS.XML" />
+</GAMEENTITY>

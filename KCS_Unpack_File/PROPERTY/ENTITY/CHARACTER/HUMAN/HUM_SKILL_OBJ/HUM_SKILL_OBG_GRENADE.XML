@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="grenade" FILENAME="Skill_Obj_Grenade.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Skill_Obj_Grenade.VS">
+        <PROPERTYBAG NAME="Skill_Com_Obj_Grenade" FILENAME="Hum_Skill_Com_Obj_Grenade.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Skill_Com_Grenade_B00" FILENAME="Skill_Com_Grenade_B00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Hum_Skill_Obg_Grenade_COMMANDS.XML" />
+</GAMEENTITY>

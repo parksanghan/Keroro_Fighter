@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="CAP02" FILENAME="CosH_Bluniform_W_Cap_Mo.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="CosH_Bluniform_W_Bodyu_Mo.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="CosH_Bluniform_W_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="CosH_Bluniform_W_Bodyd_Mo.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="CosH_Bluniform_Mo_COMMANDS.XML" />
+</GAMEENTITY>

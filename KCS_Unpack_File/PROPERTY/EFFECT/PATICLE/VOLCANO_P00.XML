@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Volcano_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="2.000000" X="40.000000" Y="40.000000" Z="40.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="1.500000" Value="255.000000" />
+            <Property Time="0.500000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="1.000000" Y="1.000000" Z="0.000000" />
+            <Property Time="2.000000" X="0.000000" Y="0.000000" Z="0.200000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Volcano_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="10.000000" Max="15.000000" />
+        <RepeatCount Count="4.000000" />
+        <Gravity Value="-700.000000" />
+        <Life Life_Min="1.000000" Value="1.980000" />
+        <RegenTime Min="5.000000" Max="10.000000" />
+        <RotScaleMin X="20.000000" Y="20.000000" Z="360.000000" />
+        <RotScaleMax X="40.000000" Y="40.000000" Z="0.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="0.000000" PositionType="0.000000" />
+        <Speed Min="50.000000" Max="70.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="60.000000" Y="0.000000" Z="60.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="66">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.985000" Y="0.985000" Z="0.003000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.970000" Y="0.970000" Z="0.006000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.955000" Y="0.955000" Z="0.009000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.940000" Y="0.940000" Z="0.012000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.925000" Y="0.925000" Z="0.015000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.910000" Y="0.910000" Z="0.018000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.895000" Y="0.895000" Z="0.021000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.880000" Y="0.880000" Z="0.024000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.865000" Y="0.865000" Z="0.027000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.000000" Y="6.000000" Z="6.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.850000" Y="0.850000" Z="0.030000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.599999" Y="6.599999" Z="6.599999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.835000" Y="0.835000" Z="0.033000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.200000" Y="7.200000" Z="7.200000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.820000" Y="0.820000" Z="0.036000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.800000" Y="7.800000" Z="7.800000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.805000" Y="0.805000" Z="0.039000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.400000" Y="8.400000" Z="8.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.790000" Y="0.790000" Z="0.042000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.000000" Y="9.000000" Z="9.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.775000" Y="0.775000" Z="0.045000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.599999" Y="9.599999" Z="9.599999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.760000" Y="0.760000" Z="0.048000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.200000" Y="10.200000" Z="10.200000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.745000" Y="0.745000" Z="0.051000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.799999" Y="10.799999" Z="10.799999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.730000" Y="0.730000" Z="0.054000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.400000" Y="11.400000" Z="11.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.715000" Y="0.715000" Z="0.057000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.999999" Y="11.999999" Z="11.999999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.060000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.600000" Y="12.600000" Z="12.600000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.685000" Y="0.685000" Z="0.063000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.199999" Y="13.199999" Z="13.199999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.670000" Y="0.670000" Z="0.066000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.800000" Y="13.800000" Z="13.800000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.655000" Y="0.655000" Z="0.069000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.400000" Y="14.400000" Z="14.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.640000" Y="0.640000" Z="0.072000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.000000" Y="15.000000" Z="15.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.625000" Y="0.625000" Z="0.075000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.599999" Y="15.599999" Z="15.599999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.610000" Y="0.610000" Z="0.078000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.200001" Y="16.200001" Z="16.200001" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.595000" Y="0.595000" Z="0.081000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.799999" Y="16.799999" Z="16.799999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.580000" Y="0.580000" Z="0.084000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.400000" Y="17.400000" Z="17.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.565000" Y="0.565000" Z="0.087000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.000000" Y="18.000000" Z="18.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.550000" Y="0.550000" Z="0.090000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.600000" Y="18.600000" Z="18.600000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.535000" Y="0.535000" Z="0.093000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.199999" Y="19.199999" Z="19.199999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.520000" Y="0.520000" Z="0.096000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.799999" Y="19.799999" Z="19.799999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.505000" Y="0.505000" Z="0.099000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.400000" Y="20.400000" Z="20.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.490000" Y="0.490000" Z="0.102000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.000000" Y="21.000000" Z="21.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.475000" Y="0.475000" Z="0.105000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.599998" Y="21.599998" Z="21.599998" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.460000" Y="0.460000" Z="0.108000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.200001" Y="22.200001" Z="22.200001" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.445000" Y="0.445000" Z="0.111000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.799999" Y="22.799999" Z="22.799999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.430000" Y="0.430000" Z="0.114000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.400000" Y="23.400000" Z="23.400000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.415000" Y="0.415000" Z="0.117000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.999998" Y="23.999998" Z="23.999998" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="0.120000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.600000" Y="24.600000" Z="24.600000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.385000" Y="0.385000" Z="0.123000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.200001" Y="25.200001" Z="25.200001" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.370000" Y="0.370000" Z="0.126000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.799999" Y="25.799999" Z="25.799999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.355000" Y="0.355000" Z="0.129000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.399998" Y="26.399998" Z="26.399998" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.340000" Y="0.340000" Z="0.132000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.000000" Y="27.000000" Z="27.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.325000" Y="0.325000" Z="0.135000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.600000" Y="27.600000" Z="27.600000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.310000" Y="0.310000" Z="0.138000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.199999" Y="28.199999" Z="28.199999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.295000" Y="0.295000" Z="0.141000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.799999" Y="28.799999" Z="28.799999" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.280000" Y="0.280000" Z="0.144000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.399998" Y="29.399998" Z="29.399998" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.265000" Y="0.265000" Z="0.147000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.000000" Y="30.000000" Z="30.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.250000" Y="0.250000" Z="0.150000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="30.599998" Y="30.599998" Z="30.599998" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.235000" Y="0.235000" Z="0.153000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.199999" Y="31.199999" Z="31.199999" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.220000" Y="0.220000" Z="0.156000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.799999" Y="31.799999" Z="31.799999" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.205000" Y="0.205000" Z="0.159000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="32.400002" Y="32.400002" Z="32.400002" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.190000" Y="0.190000" Z="0.162000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.000000" Y="33.000000" Z="33.000000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.175000" Y="0.175000" Z="0.165000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.599998" Y="33.599998" Z="33.599998" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.160000" Y="0.160000" Z="0.168000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.199997" Y="34.199997" Z="34.199997" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.145000" Y="0.145000" Z="0.171000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="34.799999" Y="34.799999" Z="34.799999" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.130000" Y="0.130000" Z="0.174000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="35.400002" Y="35.400002" Z="35.400002" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.115000" Y="0.115000" Z="0.177000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="36.000000" Y="36.000000" Z="36.000000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="0.180000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="36.599998" Y="36.599998" Z="36.599998" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.085000" Y="0.085000" Z="0.183000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="37.200001" Y="37.200001" Z="37.200001" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.070000" Y="0.070000" Z="0.186000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="37.799999" Y="37.799999" Z="37.799999" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.055000" Y="0.055000" Z="0.189000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="38.399998" Y="38.399998" Z="38.399998" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.040000" Y="0.040000" Z="0.192000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="39.000000" Y="39.000000" Z="39.000000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.025000" Y="0.025000" Z="0.195000" />
+            <Texture Texture="Volcano_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

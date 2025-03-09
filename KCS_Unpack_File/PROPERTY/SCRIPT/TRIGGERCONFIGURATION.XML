@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<TriggerConfiguration>	
+	<Trigger_ViperBaseHammer>
+		<Config ActionTimeMin="15.0" ActionTimeAddMillisecond="15000" 
+			MoveLength="1300"/>
+		<HammerData>
+			<Hammer XmlFileName="Viper_iron_hammer_01.xml"
+				Name="Viper_iron_hammer_01" 				
+				Damage="100" CollisionRange="90" 
+				RefBoneName="Bone76" RefNextBoneName="Bone77" 
+				PosX="0" PosY="575" PosZ="1200"/>
+			<Hammer XmlFileName="Viper_iron_hammer_02.xml"
+				Name="Viper_iron_hammer_02"  				
+				Damage="100" CollisionRange="75" 
+				RefBoneName="Bone97" RefNextBoneName="Bone98"
+				PosX="-845" PosY="575" PosZ="1400"/>
+			<Hammer XmlFileName="Viper_iron_hammer_03.xml"
+				Name="Viper_iron_hammer_03"  				
+				Damage="100" CollisionRange="75" 
+				RefBoneName="Bone118" RefNextBoneName="Bone119"
+				PosX="845" PosY="575" PosZ="1400"/>
+		</HammerData>
+		<ViperEye 	PosX="0" PosY="1004.9" PosZ="1330.4"/>
+	</Trigger_ViperBaseHammer>
+	<Trigger_HansRoom>
+		<Config ActionTimeMin="15.0" ActionTimeAddMillisecond="15000" 
+			MoveLength="1300"/>
+		<HammerData>
+			<Hammer XmlFileName="Viper_iron_hammer_01.xml"
+				Name="Viper_iron_hammer_01" 				
+				Damage="100" CollisionRange="90" 
+				RefBoneName="Bone76" RefNextBoneName="Bone77" 
+				PosX="0" PosY="575" PosZ="1200"/>
+			<Hammer XmlFileName="Viper_iron_hammer_02.xml"
+				Name="Viper_iron_hammer_02"  				
+				Damage="100" CollisionRange="75" 
+				RefBoneName="Bone97" RefNextBoneName="Bone98"
+				PosX="-845" PosY="575" PosZ="1400"/>
+			<Hammer XmlFileName="Viper_iron_hammer_03.xml"
+				Name="Viper_iron_hammer_03"  				
+				Damage="100" CollisionRange="75" 
+				RefBoneName="Bone118" RefNextBoneName="Bone119"
+				PosX="845" PosY="575" PosZ="1400"/>
+			<Hammer XmlFileName="Viper_iron_hammer_01.xml"
+				Name="Viper_iron_hammer_04"  				
+				Damage="100" CollisionRange="90" 
+				RefBoneName="Bone76" RefNextBoneName="Bone77"
+				PosX="845" PosY="775" PosZ="1400"/>
+			<Hammer XmlFileName="Viper_iron_hammer_02.xml"
+				Name="Viper_iron_hammer_05"  				
+				Damage="100" CollisionRange="75" 
+				RefBoneName="Bone97" RefNextBoneName="Bone98"
+				PosX="0" PosY="675" PosZ="1400"/>
+		</HammerData>
+		<ViperEye 	PosX="0" PosY="1004.9" PosZ="1330.4"/>
+	</Trigger_HansRoom>
+	<Trigger_Meteo>
+		<Config Damage="100" CollisionRange="300"/>
+		<ArrPos ArrCount="10">
+			<Pos X="500" Y="1900" Z="-500"/>
+			<Pos X="1200" Y="1900" Z="100"/>
+			<Pos X="300" Y="1900" Z="-400"/>
+			<Pos X="1500" Y="1900" Z="200"/>			
+			<Pos X="450" Y="1900" Z="0"/>
+			<Pos X="1150" Y="1900" Z="300"/>
+			<Pos X="500" Y="1900" Z="-600"/>
+			<Pos X="1300" Y="1900" Z="200"/>
+			<Pos X="700" Y="1900" Z="-500"/>
+			<Pos X="1250" Y="1900" Z="0"/>
+		</ArrPos>
+	</Trigger_Meteo>
+	<Trigger_QururuStage>
+		<Config ActionTime="20.0" BeamCheckTimeStart="1.25" 
+			BeamCheckTimeEnd="2.6" MissileCheckRadius="150.0"
+			BeamCheckRadius_MinX="-150"
+			BeamCheckRadius_MinY="0"
+			BeamCheckRadius_MinZ="-1200"
+			BeamCheckRadius_MaxX="150"
+			BeamCheckRadius_MaxY="300"
+			BeamCheckRadius_MaxZ="750"
+			WarningTime="2.0"/>
+		<TriggerModel>
+			<Model 	XmlFileName="Qururu_rader_A.xml"
+			      	Name="Qururu_rader_A" 				
+			      	Damage="0"
+		      	      	RefBoneName="Bone01"/>
+			<Model 	XmlFileName="Qururu_rader_B.xml"
+			      	Name="Qururu_rader_B" 				
+		      		Damage="100"
+		      		RefBoneName="Bone04"/>
+			<Model 	XmlFileName="Qururu_misail_ani.xml"
+		      		Name="Qururu_misail_ani" 				
+		      		Damage="100"
+		      		RefBoneName="Bone05"/>
+		</TriggerModel>
+	</Trigger_QururuStage>
+	<Trigger_SandCastle>
+		<Duck>
+			<Config DuckActionTimeMin="1.0" DuckActionTimeAddMillisecond="1000" DuckDuringTime = "0.5" />
+			<Model  XmlFileName="SandCastle_Obj_Giroro01.xml"
+			      	Name="Duck1"
+		      	      	RefBoneName="Bone01" PosX="0" PosY="775" PosZ="-2200" />
+			<Model  XmlFileName="SandCastle_Obj_Giroro02.xml"
+			      	Name="Duck2"
+		      	      	RefBoneName="Bone05" PosX="-545" PosY="775" PosZ="-2200"/>
+			<Model  XmlFileName="SandCastle_Obj_Kururu01.xml"
+			      	Name="Duck3"
+		      	      	RefBoneName="Bone03" PosX="545" PosY="775" PosZ="-2200" />
+			<Model  XmlFileName="SandCastle_Obj_Kururu02.xml"
+			      	Name="Duck4"
+		      	      	RefBoneName="Bone04" PosX="545" PosY="775" PosZ="-2200" />
+		</Duck>
+		<Floor123>
+			<Config FloorActionTimeMin="10.0" FloorActionTimeAddMillisecond="1000" FloorDuringTime = "10.0" />
+			<Floor Name1="SandCastle_1stFloor01.xml" Name2="SandCastle_1stFloor02.xml" Name3="SandCastle_1stFloorDestroy.xml" Name4="SandCastle_1stFloor01_Destroy.xml" Name5="SandCastle_1stFloor02_Destroy.xml" />
+			<Floor Name1="SandCastle_2ndFloor" Name2="SandCastle_2ndFloorDestroy.xml" />
+			<Floor Name1="SandCastle_3rdFloor" Name2="SandCastle_3rdFloorDestroy.xml" />
+		</Floor123>
+	</Trigger_SandCastle>
+  <Trigger_Subway>
+    <Config ActionTimeMin="15.0" ActionTimeAddMillisecond="15000"
+			MoveLength="1300"/>
+      <Train XmlFileName="Subway_subway.xml"
+				Name="Subway_Train"
+				Damage="100" CollisionRange="90"
+				PosX="0" PosY="0" PosZ="0"/>
+  </Trigger_Subway>
+</TriggerConfiguration>

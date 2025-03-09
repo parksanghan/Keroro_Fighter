@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="7">
+        <PROPERTYBAG NAME="EYE" FILENAME="Moa_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Moa_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP" FILENAME="Moa_Hair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Moa_Body_Top.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Moa_Body_Bottom.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Moa_Body_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Moa_Body_Foot.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="15" VSNAME="Human.VS">
+        <PROPERTYBAG NAME="Com_PICK_UP_01" FILENAME="Hum_Item_Get.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Com_PICK_UP_02" FILENAME="Hum_Item_PickUp.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Hum_WP_Machinegun_IDLE01" FILENAME="Hum_WP_Machinegun_IDLE01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Comb_K" FILENAME="Hum_WP_Machinegun_comb_k.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Comb_P" FILENAME="Hum_WP_Machinegun_comb_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Combat_Wait" FILENAME="Hum_WP_Machinegun_combat_wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Dash_01" FILENAME="Hum_WP_Machinegun_dash01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Dash_02" FILENAME="Hum_WP_Machinegun_dash02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Dash_P" FILENAME="Hum_WP_Machinegun_dash_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Down" FILENAME="Hum_WP_Machinegun_jump_down.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Land" FILENAME="Hum_WP_Machinegun_jump_landing.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Once" FILENAME="Hum_WP_Machinegun_jump_once.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_P" FILENAME="Hum_WP_Machinegun_jump_p.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Twice" FILENAME="Hum_WP_Machinegun_jump_twice.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Muchingun_Jump_Up" FILENAME="Hum_WP_Machinegun_jump_up.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="12">
+        <PROPERTYBAG NAME="CM_COMICGUN_DASH_ATK_X_01" FILENAME="CM_COMICGUN_DASH_ATK_X_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_COMMICHAMMER_COMBO_C_2" FILENAME="CM_COMMICHAMMER_COMBO_C_2.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_DASH_01" FILENAME="CM_DASH_01.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_DASH_02" FILENAME="CM_DASH_02.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_HOLD_ATK_B_1" FILENAME="CM_HOLD_ATK_B_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_JUMP_ONCE_1" FILENAME="CM_JUMP_ONCE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="CM_JUMP_TWICE_1" FILENAME="CM_JUMP_TWICE_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="KE_COMBO_BB_3" FILENAME="KE_COMBO_BB_3.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_JA_P_1" FILENAME="WP_MUCHINGUN_COMB_JA_P_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_P_1" FILENAME="WP_MUCHINGUN_COMB_P_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_P_2" FILENAME="WP_MUCHINGUN_COMB_P_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WP_MUCHINGUN_COMB_P_3" FILENAME="WP_MUCHINGUN_COMB_P_1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="11">
+        <PROPERTYBAG NAME="H_Muchingun_COMB_DP_E00" FILENAME="H_Muchingun_COMB_DP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_DP_E00" FILENAME="Muchingun_COMB_DP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_DP_E01" FILENAME="Muchingun_COMB_DP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_JP_E00" FILENAME="Muchingun_COMB_JP_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_JP_E01" FILENAME="Muchingun_COMB_JP_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_JP_E02" FILENAME="Muchingun_COMB_JP_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_K_E00" FILENAME="Muchingun_COMB_K_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_K_E01" FILENAME="Muchingun_COMB_K_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_P_E00" FILENAME="Muchingun_COMB_P_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_P_E01" FILENAME="Muchingun_COMB_P_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Muchingun_COMB_P_E02" FILENAME="Muchingun_COMB_P_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_H_Machinegun_Char_COMMANDS.XML" />
+</GAMEENTITY>

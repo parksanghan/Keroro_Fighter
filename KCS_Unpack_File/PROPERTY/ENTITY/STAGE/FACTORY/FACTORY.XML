@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="10">
+        <PROPERTYBAG NAME="Factory_Ground" FILENAME="Factory_Ground.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_box" FILENAME="Factory_box.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_danger" FILENAME="Factory_danger.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_drum_oil" FILENAME="Factory_drum_oil.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_light" FILENAME="Factory_light.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_ob" FILENAME="Factory_ob.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_pipe" FILENAME="Factory_pipe.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_wall" FILENAME="Factory_wall.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_shadow" FILENAME="Factory_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_Shadowmap" FILENAME="Factory_Shadowmap.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Factory_COMMANDS.XML" />
+</GAMEENTITY>

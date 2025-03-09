@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Saba_DP_P00" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.8" X="10" Y="10" Z="10" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="255" />
+            <Property Time="0.8" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.8" X="2" Y="2" Z="0.2" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Sphinx_Box_Die.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="3" Max="5" />
+        <RepeatCount Count="15" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="0.78" />
+        <RegenTime Min="0.01" Max="0.05" />
+        <RotScaleMin X="20" Y="20" Z="0" />
+        <RotScaleMax X="25" Y="25" Z="360" />
+        <RandPosMin X="0" Y="0" Z="0" />
+        <RandPosMax X="0" Y="0" Z="0" />
+        <ComboList RefOrder="6" ScaleType="0" PositionType="0" />
+        <Speed Min="10" Max="15" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90" Y="0" Z="0" />
+        <JetDirMax X="0" Y="0" Z="180" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="6" />
+    </CreaterInfo>
+    <ParticleSequence Count="26">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0" Y="0" Z="0" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.375" Y="0.375" Z="0.375" />
+            <Alpha Value="245.438" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.075" Y="0.075" Z="0.0075" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.75" Y="0.75" Z="0.75" />
+            <Alpha Value="235.875" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.15" Y="0.15" Z="0.015" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.125" Y="1.125" Z="1.125" />
+            <Alpha Value="226.313" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.225" Y="0.225" Z="0.0225" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.5" Y="1.5" Z="1.5" />
+            <Alpha Value="216.75" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.3" Y="0.3" Z="0.03" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.875" Y="1.875" Z="1.875" />
+            <Alpha Value="207.188" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.375" Y="0.375" Z="0.0375" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.25" Y="2.25" Z="2.25" />
+            <Alpha Value="197.625" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.45" Y="0.45" Z="0.045" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.625" Y="2.625" Z="2.625" />
+            <Alpha Value="188.063" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.525" Y="0.525" Z="0.0525" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3" Y="3" Z="3" />
+            <Alpha Value="178.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.6" Y="0.6" Z="0.06" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.375" Y="3.375" Z="3.375" />
+            <Alpha Value="168.938" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.675" Y="0.675" Z="0.0675" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.75" Y="3.75" Z="3.75" />
+            <Alpha Value="159.375" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.75" Y="0.75" Z="0.075" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.125" Y="4.125" Z="4.125" />
+            <Alpha Value="149.813" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.825" Y="0.825" Z="0.0825" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.5" Y="4.5" Z="4.5" />
+            <Alpha Value="140.25" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.9" Y="0.9" Z="0.09" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.875" Y="4.875" Z="4.875" />
+            <Alpha Value="130.688" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="0.975" Y="0.975" Z="0.0975" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.25" Y="5.25" Z="5.25" />
+            <Alpha Value="121.125" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.05" Y="1.05" Z="0.105" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.625" Y="5.625" Z="5.625" />
+            <Alpha Value="111.563" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.125" Y="1.125" Z="0.1125" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6" Y="6" Z="6" />
+            <Alpha Value="102" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.2" Y="1.2" Z="0.12" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.375" Y="6.375" Z="6.375" />
+            <Alpha Value="92.4375" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.275" Y="1.275" Z="0.1275" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.75" Y="6.75" Z="6.75" />
+            <Alpha Value="82.875" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.35" Y="1.35" Z="0.135" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.125" Y="7.125" Z="7.125" />
+            <Alpha Value="73.3125" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.425" Y="1.425" Z="0.1425" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.5" Y="7.5" Z="7.5" />
+            <Alpha Value="63.75" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.5" Y="1.5" Z="0.15" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.875" Y="7.875" Z="7.875" />
+            <Alpha Value="54.1875" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.575" Y="1.575" Z="0.1575" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.25" Y="8.25" Z="8.25" />
+            <Alpha Value="44.625" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.65" Y="1.65" Z="0.165" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.625" Y="8.625" Z="8.625" />
+            <Alpha Value="35.0625" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.725" Y="1.725" Z="0.1725" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9" Y="9" Z="9" />
+            <Alpha Value="25.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.8" Y="1.8" Z="0.18" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.375" Y="9.375" Z="9.375" />
+            <Alpha Value="15.9375" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1.875" Y="1.875" Z="0.1875" />
+            <Texture Texture="Sphinx_Box_Die.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

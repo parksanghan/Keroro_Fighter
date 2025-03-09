@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="Ukiki_Obj_Hand_L_Roof" LOOP="0" TOTALTIME="10.000000">
+            <ACTIONEVENT CLASSNAME="CActionEvent_LoopAni" EVENTNAME="Ukiki_Obj_Hand_L_01" TYPENAME="LoopAnimation" ANIMATIONNAME="Ukiki_Obj_Hand_L_01" WEIGHT="1.000000" DELAY="0.100000" EVENTTIME="0.000000" EVENTENDTIME="0.000000" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

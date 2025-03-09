@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Ship_sky.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Ship_background.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureTransform">
+            <Property name="UseAlpha" value="0" />
+            <Property name="MoveSpeedX" value="0.03" />
+            <Property name="MoveSpeedY" value="0.00" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

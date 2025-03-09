@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Colosseum_ground_01" FILENAME="Colosseum_ground_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_ground_02" FILENAME="Colosseum_ground_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Colosseum_ground_03" FILENAME="Colosseum_ground_03.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Orion_Stage_02_firecracker_E00" FILENAME="Orion_Stage_02_firecracker_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Orion_Stage_Run" FILENAME="Orion_Stage_Run.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Colosseum_ground_COMMANDS.XML" />
+</GAMEENTITY>

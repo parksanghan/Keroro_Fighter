@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="686" PosY="463" SizeX="108" SizeY="237" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<!--기본 배경-->
+        <Property Index="0" RenderStyle="0" Depth="0.650" Show="1">
+            <Element index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="150" TextPosY="297" TextSizeX="108" TextSizeY="237" PosX="0" PosY="0" SizeX="108" SizeY="237" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+<!--START - Button-->
+	<Property Name="GameMenu_BUTTON_KeySetting" ClassName="CKeroroUI_Button" PosX="25" PosY="14" SizeX="59" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="466" TextPosY="314" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="398" TextPosY="314" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="533" TextPosY="314" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="603" TextPosY="314" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GameMenu_BUTTON_Option" ClassName="CKeroroUI_Button" PosX="25" PosY="45" SizeX="59" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="466" TextPosY="346" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="398" TextPosY="346" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="533" TextPosY="346" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="603" TextPosY="346" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GameMenu_BUTTON_Coupon" ClassName="CKeroroUI_Button" PosX="25" PosY="76" SizeX="59" SizeY="20" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="466" TextPosY="377" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="398" TextPosY="377" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="533" TextPosY="377" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="603" TextPosY="377" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GameMenu_BUTTON_Server" ClassName="CKeroroUI_Button" PosX="25" PosY="107" SizeX="59" SizeY="20" Disable="1">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="466" TextPosY="408" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="398" TextPosY="408" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="533" TextPosY="408" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="603" TextPosY="408" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GameMenu_BUTTON_Channel" ClassName="CKeroroUI_Button" PosX="25" PosY="138" SizeX="59" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="466" TextPosY="439" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="398" TextPosY="439" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="533" TextPosY="439" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="603" TextPosY="439" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name="GameMenu_BUTTON_Exit" ClassName="CKeroroUI_Button" PosX="25" PosY="169" SizeX="59" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.610" Show="1">
+                    <Element ControlState="0" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="466" TextPosY="470" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="1" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="398" TextPosY="470" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="2" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="533" TextPosY="470" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                    <Element ControlState="3" index="0" TextName="kt_ui_Main_Icons.tga" TextPosX="603" TextPosY="470" TextSizeX="59" TextSizeY="20" PosX="0" PosY="0" SizeX="59" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--END - Button-->
+    </DialogControl>
+</RootNode>

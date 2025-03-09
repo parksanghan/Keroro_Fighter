@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sabin_OBJ_PAPER" FILENAME="Sabin_OBJ_PAPER.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="6" VSNAME="Sabin_Obj_Paper.VS">
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KPPP_PAPER_01" FILENAME="Sabin_Obj_Comb_KPPP_PAPER_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KPP_PAPER_01" FILENAME="Sabin_Obj_Comb_KPP_PAPER_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KP_PAPER_01" FILENAME="Sabin_Obj_Comb_KP_PAPER_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_IDLE_01_Paper" FILENAME="Sabin_Obj_IDLE_01_Paper.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_02_Paper" FILENAME="Sabin_Obj_SPE_02_Paper.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_03_Paper" FILENAME="Sabin_Obj_SPE_03_Paper.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sabin_Obj_Paper_01_COMMANDS.XML" />
+</GAMEENTITY>

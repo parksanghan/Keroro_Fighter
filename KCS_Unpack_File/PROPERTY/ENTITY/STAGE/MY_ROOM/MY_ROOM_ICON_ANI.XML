@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="My_Room_icon" FILENAME="My_Room_icon.xml" COMMENT="" />
+        <PROPERTYBAG NAME="OBJ" FILENAME="My_Room_icon_ani.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="CM_PICKUP_2" FILENAME="CM_PICKUP_2.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="My_Room_Icon_E00" FILENAME="My_Room_Icon_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="My_Room_Icon_E01" FILENAME="My_Room_Icon_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="My_Room_Icon_E02" FILENAME="My_Room_Icon_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="My_Room_Icon_E03" FILENAME="My_Room_Icon_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="My_Room_Icon_E04" FILENAME="My_Room_Icon_E04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="My_Room_Present" FILENAME="My_Room_Present.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="My_Room_icon_ani_COMMANDS.XML" />
+</GAMEENTITY>

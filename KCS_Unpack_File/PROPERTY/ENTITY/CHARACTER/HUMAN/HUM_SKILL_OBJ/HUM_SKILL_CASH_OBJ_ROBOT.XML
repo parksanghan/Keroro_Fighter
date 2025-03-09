@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="KURU_ROBOT" FILENAME="Kuru_Obj_Robot.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Kuru_Obj_Robot.VS">
+        <PROPERTYBAG NAME="KURU_ROBOT" FILENAME="Kuru_Obj_Robot.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_OBJ_KuruRobot" FILENAME="Skill_OBJ_KuruRobot.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="KRUR_SPE" FILENAME="Char_Kuru_SpeAtk_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Def_KuruRobot_E01" FILENAME="Skill_Def_KuruRobot_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_Cash_Obj_Robot_COMMANDS.XML" />
+</GAMEENTITY>

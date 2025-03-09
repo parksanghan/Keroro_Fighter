@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<GameMap>
+	<Stage1>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage1>
+	<Stage2>
+		<Trigger>			
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage2>
+	<Stage3>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage3>
+	<Stage4>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage4>
+	<Stage5>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage5>
+	<Stage6>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_ViperHammer" Name = "ViperHammer1" ID = "900600000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage6>
+	<Stage7>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage7>
+	<Stage8>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_Meteo" Name = "Meteo" ID = "900800000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage8>
+	<Stage9>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_QururuStage" Name = "QururuTrigger" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage9>
+	<Stage10>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage10>
+	<Stage11>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage11>
+	<Stage12>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage12>
+	<Stage13>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage13>
+	<Stage14>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_SandCastle" Name = "SandCastle" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage14>
+        <Stage15>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage15>
+        <Stage16>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage16>
+	<Stage17>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage17>
+        <Stage18>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage18>
+	<Stage19>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage19>
+	<Stage20>
+		<Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+		<Property Class = "CTrigger_Subway" Name = "Subway" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage20>
+	<Stage21>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage21>
+	<Stage22>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_GroundB" Name = "GroundB" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage22>
+	<Stage24>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_Horro" Name = "GroundB" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage24>
+	<Stage25>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage25>
+	<Stage26>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_Flame" Name = "Flame" ID = "901000000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage26>
+	<Stage27>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage27>
+	<Stage28>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_GhostShip" Name = "Flame" ID = "901000000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage28>
+        <Stage29>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_CloudVillage" Name = "CloudVillage" ID = "901000000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage29>
+        <Stage30>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_Circus" Name = "Circus" ID = "901000000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage30>
+	<Stage31>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage31>
+	<Stage32>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage32>
+	<Stage33>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_Mine" Name = "Mine" ID = "901000000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage33>
+	<Stage34>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage34>
+	<Stage101>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage101>
+	<Stage102>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage102>
+	<Stage105>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage105>
+	<Stage106>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_ViperHammer" Name = "ViperHammer1" ID = "900600000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage106>
+	<Stage107>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+		<RunMode_Data TargetGoalCount="1" TapeEntity1="Olympic_goallinetape01.xml" TapeEntity2="Olympic_goallinetape02.xml"/>
+		<RunMode_GoalLine>
+			<CrashMap LoadCrashMapName="tutorial_learning_bounding_finish.TF" />
+		</RunMode_GoalLine>
+		<RunMode_ObstacleBox>
+			<Box Name="red01"/>
+			<Box Name="blue01"/>
+			<Box Name="blue02"/>
+			<Box Name="blue03"/>
+			<Box Name="blue04"/>
+			<Box Name="blue05"/>
+		</RunMode_ObstacleBox>
+	</Stage107>
+	<Stage108>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_Meteo" Name = "Meteo" ID = "900800000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>	
+	</Stage108>
+	<Stage109>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_QururuStage" Name = "QururuTrigger" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage109>
+	<Stage110>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+		<RunMode_Data TargetGoalCount="3" TapeEntity1="Olympic_goallinetape_colosseum01.xml" TapeEntity2="Olympic_goallinetape_colosseum02.xml"/>
+		<RunMode_GoalLine>
+			<CrashMap LoadCrashMapName="Colosseum_Orion_learning_boundingbox.TF" />
+		</RunMode_GoalLine>
+		<RunMode_ObstacleBox>
+			<Box Name="red01"/>
+			<Box Name="red02"/>
+			<Box Name="red03"/>
+			<Box Name="blue01"/>
+			<Box Name="blue02"/>
+			<Box Name="blue03"/>
+			<Box Name="blue04"/>
+			<Box Name="blue05"/>
+			<Box Name="blue06"/>
+			<Box Name="blue07"/>
+			<Box Name="blue08"/>
+		</RunMode_ObstacleBox>
+	</Stage110>
+	<Stage111>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+		<RunMode_Data TargetGoalCount="1" TapeEntity1="Olympic_goallinetape01.xml" TapeEntity2="Olympic_goallinetape02.xml"/>
+		<RunMode_GoalLine>
+			<CrashMap LoadCrashMapName="boundbox_running_03.TF" />
+		</RunMode_GoalLine>
+		<RunMode_ObstacleBox>
+			<Box Name="red01"/>
+			<Box Name="red02"/>
+			<Box Name="red03"/>
+			<Box Name="red04"/>
+			<Box Name="red05"/>
+			<Box Name="blue01"/>
+			<Box Name="blue02"/>
+			<Box Name="blue03"/>
+			<Box Name="blue04"/>
+			<Box Name="blue05"/>
+			<Box Name="blue06"/>
+			<Box Name="blue07"/>
+			<Box Name="blue08"/>
+			<Box Name="blue09"/>
+		</RunMode_ObstacleBox>
+	</Stage111>
+	<Stage112>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage112>
+	<Stage113>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage113>
+  	<Stage115>
+    		<Trigger>
+      			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+    		</Trigger>
+	</Stage115>
+  	<Stage116>
+    		<Trigger>
+      			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+    		</Trigger>
+	</Stage116>
+  	<Stage117>
+    		<Trigger>
+      			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+    		</Trigger>
+	</Stage117>
+        <Stage118>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage118>
+	<Stage119>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage119>
+	<Stage121>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage121>
+	<Stage122>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_GroundB" Name = "GroundB" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage122>
+	<Stage122>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_Horro" Name = "GroundB" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage122>
+	<Stage124>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_Horro" Name = "GroundB" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage124>
+	<Stage125>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage125>
+	<Stage126>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_Flame" Name = "Flame" ID = "900900000" PosX = "0" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage126>
+	<Stage127>
+                <Trigger>
+                        <Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_EndScene" Name = "EndScene" PosX = "251" PosY = "0" PosZ = "0" />
+                </Trigger>
+        </Stage127>
+	<Stage131>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage131>
+	<Stage133>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+                        <Property Class = "CTrigger_Mine" Name = "Mine" ID = "901000000" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage133>
+	<Stage507>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+		<RunMode_Data TargetGoalCount="1" TapeEntity1="Olympic_goallinetape01.xml" TapeEntity2="Olympic_goallinetape02.xml"/>
+		<RunMode_GoalLine>
+			<CrashMap LoadCrashMapName="tutorial_learning_bounding_finish.TF" />
+		</RunMode_GoalLine>
+		<RunMode_ObstacleBox>
+			<Box Name="red01"/>
+			<Box Name="blue01"/>
+			<Box Name="blue02"/>
+			<Box Name="blue03"/>
+			<Box Name="blue04"/>
+			<Box Name="blue05"/>
+		</RunMode_ObstacleBox>
+	</Stage507>
+	<Stage510>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+		<RunMode_Data TargetGoalCount="3" TapeEntity1="Olympic_goallinetape_colosseum01.xml" TapeEntity2="Olympic_goallinetape_colosseum02.xml"/>
+		<RunMode_GoalLine>
+			<CrashMap LoadCrashMapName="Colosseum_Orion_learning_boundingbox.TF" />
+		</RunMode_GoalLine>
+		<RunMode_ObstacleBox>
+			<Box Name="red01"/>
+			<Box Name="red02"/>
+			<Box Name="red03"/>
+			<Box Name="blue01"/>
+			<Box Name="blue02"/>
+			<Box Name="blue03"/>
+			<Box Name="blue04"/>
+			<Box Name="blue05"/>
+			<Box Name="blue06"/>
+			<Box Name="blue07"/>
+			<Box Name="blue08"/>
+		</RunMode_ObstacleBox>
+	</Stage510>
+	<Stage511>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+		<RunMode_Data TargetGoalCount="1" TapeEntity1="Olympic_goallinetape01.xml" TapeEntity2="Olympic_goallinetape02.xml"/>
+		<RunMode_GoalLine>
+			<CrashMap LoadCrashMapName="boundbox_running_03.TF" />
+		</RunMode_GoalLine>
+		<RunMode_ObstacleBox>
+			<Box Name="red01"/>
+			<Box Name="red02"/>
+			<Box Name="red03"/>
+			<Box Name="red04"/>
+			<Box Name="red05"/>
+			<Box Name="blue01"/>
+			<Box Name="blue02"/>
+			<Box Name="blue03"/>
+			<Box Name="blue04"/>
+			<Box Name="blue05"/>
+			<Box Name="blue06"/>
+			<Box Name="blue07"/>
+			<Box Name="blue08"/>
+			<Box Name="blue09"/>
+		</RunMode_ObstacleBox>
+	</Stage511>
+	<Stage1001>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage1001>
+	<Stage1002>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage1002>	
+	<Stage1101>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage1101>
+	<Stage1102>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+		<RunMode_Data TargetGoalCount="3" TapeEntity1="Olympic_goallinetape_colosseum01.xml" TapeEntity2="Olympic_goallinetape_colosseum02.xml"/>
+		<RunMode_GoalLine>
+			<CrashMap LoadCrashMapName="Colosseum_Orion_learning_counter01.TF" />
+			<CrashMap LoadCrashMapName="Colosseum_Orion_learning_counter02.TF" />
+			<CrashMap LoadCrashMapName="Colosseum_Orion_learning_counter03.TF" />
+			<CrashMap LoadCrashMapName="Colosseum_Orion_learning_boundingbox_finish.TF" />
+		</RunMode_GoalLine> 
+		<RunMode_ObstacleBox>
+		 <Box Name="RED01"/>
+		 <Box Name="BLUE01"/>
+ 		 <Box Name="RED02"/>
+   		 <Box Name="BLUE03_01"/>
+		 <Box Name="BLUE40"/>
+  		 <Box Name="BLUE02"/>
+		 <Box Name="RED06"/>
+		 <Box Name="BLUE05"/>
+		 <Box Name="BLUE06"/>
+		 <Box Name="BLUE10"/>
+		 <Box Name="BLUE60"/>
+		</RunMode_ObstacleBox>
+	</Stage1102>
+	<Stage3000>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage3000>
+	<Stage200101>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200101>
+	<Stage200102>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200102>
+	<Stage200103>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200103>
+	<Stage200104>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200104>
+	<Stage200201>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200201>
+	<Stage200202>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200202>
+	<Stage200203>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200203>
+	<Stage200204>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200204>
+	<Stage200301>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200301>
+	<Stage200302>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200302>
+	<Stage200303>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200303>
+	<Stage200401>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200401>
+	<Stage200402>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200402>
+	<Stage200403>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200403>
+	<Stage200404>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200404>
+	<Stage200501>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200501>
+	<Stage200601>
+		<Trigger>
+			<Property Class = "CTrigger_StartScene_forEndlessWar" Name = "StartScene" ID = "250" PosX = "0" PosY = "0" PosZ = "0" />
+			<Property Class = "CTrigger_EndScene" Name = "EndScene" ID = "251" PosX = "0" PosY = "0" PosZ = "0" />
+		</Trigger>
+	</Stage200601>
+</GameMap>

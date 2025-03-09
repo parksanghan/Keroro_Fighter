@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="TR_PirateSuit_Bodyu_Mo.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND_H" FILENAME="Moa_Body_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP_H" FILENAME="TR_PirateSuit_Cap_1_Mo.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP01_H" FILENAME="TR_PirateSuit_Cap_2_W.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="TR_PirateSuit_Bodyd_Mo.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="TR_PirateSuit_Foot_Mo.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="TR_LuffySuit_Mo_COMMANDS.XML" />
+</GAMEENTITY>

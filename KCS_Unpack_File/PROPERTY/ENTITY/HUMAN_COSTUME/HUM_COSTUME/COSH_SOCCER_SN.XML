@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="CosH_Soccer_W_Bodyu_Sn.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="CosH_Soccer_Bodyd_Sn.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="CosH_Soccer_Foot_Sn.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="CosH_Soccer_Sn_COMMANDS.XML" />
+</GAMEENTITY>

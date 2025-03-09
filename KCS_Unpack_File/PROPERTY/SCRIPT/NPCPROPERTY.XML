@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NpcProperty>
+    <Npc Num="0" PropertyID="100000000" Name="NPC_NormalKeroro_01" ViewName="케로로" JobName="상점" NpcFileName="Keroro_Npc.xml" CostumeID="28200001" NPC_Type="0" Quest="1" Race="0" MapName="Stage10" Position_X="100" Position_Y="100" Position_Z="100" OpenMessageID="10000001" UICheck="0" UICheckValue="0" />
+</NpcProperty>

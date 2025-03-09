@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="19">
+        <PROPERTYBAG NAME="CAP" FILENAME="Orikiruru_cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Orikiruru_hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Orikiruru_head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Orikiruru_foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Orikiruru_Head01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Orikiruru_Head02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Orikiruru_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Orikiruru_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Orikiruru_Bodyu.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMB_SPE_01" FILENAME="Kiruru_Comb_SPE_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_SPE_02" FILENAME="Kiruru_Comb_SPE_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_SPE_03" FILENAME="Kiruru_Comb_SPE_03.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Dark_Kiruru_COMMANDS.XML" />
+</GAMEENTITY>

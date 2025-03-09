@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QuestScriptProperty>
+    <Npc Num="0" Script_ID="100000000" ViewName="정석권을 잡아라!" Text00="정병준에게 가보자" Text01="훈련 대기 장소에 가면 정병준이 있을꺼임" Text11="너 안바쁘면 나 좀 도와줘" Text12="퀘스트 부여시 대사 2" Text13="퀘스트 부여시 대사 3" Text21="수락 시 선택답변 1" Text22="수락 시 선택답변 2" Text23="수락 시 선택 답변 3" Text31="거절 시 선택 답변 1" Text32="거절 시 선택 답변 2" Text33="거절 시 선택 답변 3" Text41="퀘스트 완료 시 대사 1" Text42="퀘스트 완료 시 대사 2" Text43="퀘스트 완료 시 대사 3" Text51="퀘스트 미 완료시 대사 1" Text52="퀘스트 미 완료시 대사 2" Text61="문서 참조" Text62="문서 참조" Text63="문서 참조" Text64="문서 참조" Text65="문서 참조" Note="예시 입니다." />
+</QuestScriptProperty>

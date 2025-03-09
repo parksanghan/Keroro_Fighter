@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<StoreCameraInfo>
+	<CharPos>
+		<PosProperty PosX = "0" PosY = "-190" PosZ = "-500" RotX="0.0"/>
+		<PosProperty PosX = "-220" PosY = "-190" PosZ = "-385" RotX="-31.0"/>
+		<PosProperty PosX = "39" PosY = "-190" PosZ = "-193" RotX="-14.0"/>
+		<PosProperty PosX = "428" PosY = "-190" PosZ = "-213" RotX="-13.0"/>
+		<PosProperty PosX = "479" PosY = "-190" PosZ = "-303" RotX="-10.0"/>
+    <PosProperty PosX = "266" PosY = "-190" PosZ = "-653" RotX="-14.0"/>
+	</CharPos>
+	<CameraProperty PosX = "234" PosY = "632" PosZ = "-1799" EulerX = "0" EulerY = "21" EulerZ = "0"/>
+	<CameraProperty PosX = "90" PosY = "-10" PosZ = "-880" EulerX = "12.3" EulerY = "7.5" EulerZ = "0"/>
+	<CameraProperty PosX = "182" PosY = "0" PosZ = "-708" EulerX = "-4.9" EulerY = "10.8" EulerZ = "0"/>
+	<CameraProperty PosX = "360" PosY = "0" PosZ = "-556" EulerX = "330.9" EulerY = "3.0" EulerZ = "0"/>
+	<CameraProperty PosX = "639" PosY = "-29" PosZ = "-780" EulerX = "330.9" EulerY = "0.6" EulerZ = "0"/>
+  <CameraProperty PosX = "345" PosY = "63" PosZ = "-1158" EulerX = "-11.5" EulerY = "17.8" EulerZ = "0"/>
+</StoreCameraInfo>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="20">
+        <PROPERTYBAG NAME="CAP" FILENAME="Shurara_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="CAP01" FILENAME="Shurara_Head_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Shurara_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Shurara_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Shurara_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Shurara_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="TAIL" FILENAME="Shurara_Tail.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Shurara_Head_00.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Shurara_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="LOSE" FILENAME="Shurara_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Shurara_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Shurara_GAME_LOSE_V1" FILENAME="Shurara_GAME_LOSE_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Shurara_GAME_WIN_V1" FILENAME="Shurara_GAME_WIN_V1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="EVENT" FILENAME="Event.xml" COMMENT="" />
+        <PROPERTYBAG NAME="LEVEL_UP" FILENAME="Playground_Warp_Y00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Shurara_Win_B00" FILENAME="Shurara_Win_B00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Shurara_Result_COMMANDS.XML" />
+</GAMEENTITY>

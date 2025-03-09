@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="WP_HalloweenBall" FILENAME="Com_WP_HalloweenBall.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="8" VSNAME="Hum_WP_FootBall.VS">
+        <PROPERTYBAG NAME="WP_Obj_FootBall_DP" FILENAME="Hum_FootBall_Obj_COMB_DA_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_FootBall_DP_01" FILENAME="Hum_FootBall_Obj_COMB_DA_P_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_FootBall_Idle01" FILENAME="Hum_FootBall_Obj_IDLE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_FootBall_JP" FILENAME="Hum_FootBall_Obj_COMB_JA_P_02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_FootBall_JP_01" FILENAME="Hum_FootBall_Obj_COMB_JA_P01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_FootBall_P" FILENAME="Hum_FootBall_Obj_COMB_P.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_FootBall_P_01" FILENAME="Hum_FootBall_Obj_COMB_P_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WP_Obj_FootBall_Wait" FILENAME="Hum_FootBall_Obj_Combat_Wait.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="WP_H_HalloweenBall_COMMANDS.XML" />
+</GAMEENTITY>

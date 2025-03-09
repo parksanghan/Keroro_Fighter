@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Kid_Giro_Obj_Halfrifle" FILENAME="Kid_Giro_Obj_Halfrifle.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="KidGiro_Obj_HalfRifle.VS">
+        <PROPERTYBAG NAME="KidGiro_Obj_HalfRifle" FILENAME="KidGiro_Obj_HalfRifle.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="5">
+        <PROPERTYBAG NAME="KidGrio_comb_SPE2_E00" FILENAME="KidGrio_comb_SPE2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KidGrio_comb_SPE2_E01" FILENAME="KidGrio_comb_SPE2_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KidGrio_comb_SPE2_E02" FILENAME="KidGrio_comb_SPE2_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KidGrio_comb_SPE2_E03" FILENAME="KidGrio_comb_SPE2_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="KidGrio_comb_SPE2_E04" FILENAME="KidGrio_comb_SPE2_E04.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kid_Giro_HarfRifle_COMMANDS.XML" />
+</GAMEENTITY>

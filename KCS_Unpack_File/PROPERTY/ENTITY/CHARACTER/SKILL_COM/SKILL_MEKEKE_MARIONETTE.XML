@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="18">
+        <PROPERTYBAG NAME="CAP" FILENAME="Mekeke_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Mekeke_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Mekeke_foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Mekeke_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODY" FILENAME="Mekeke_Body.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Mekeke_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Mekeke_Puppet_01" FILENAME="Skill_Mekeke_Puppet_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Mekeke_Puppet_02" FILENAME="Skill_Mekeke_Puppet_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="Mekeke_Comb_KP_1" FILENAME="Mekeke_Comb_KP_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Mekeke_Comb_PK_1" FILENAME="Mekeke_Comb_PK_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Mekeke_IDLE_01_V1" FILENAME="Mekeke_IDLE_01_V1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Skill_Mekeke_Puppet_E00" FILENAME="Skill_Mekeke_Puppet_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Mekeke_Puppet_E01" FILENAME="Skill_Mekeke_Puppet_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Skill_Meke_Obj_Cross" FILENAME="Skill_Meke_Obj_Cross.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Skill_Mekeke_Marionette_COMMANDS.XML" />
+</GAMEENTITY>

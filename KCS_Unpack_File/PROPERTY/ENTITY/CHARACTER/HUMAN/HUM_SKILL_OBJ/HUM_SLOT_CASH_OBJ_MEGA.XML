@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="SLOT_MEGA" FILENAME="Slot_Atk_Mega.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Slot_Atk_Mega_Canon.VS">
+        <PROPERTYBAG NAME="SLOT_MEGA" FILENAME="Slot_Atk_Mega_Canon.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="SLOT_MEGA6" FILENAME="Skil_Atk_MegaAtk_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Dex_Mega_Plus_B00" FILENAME="Skill_Dex_Mega_Plus_B00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Hum_Slot_Cash_Obj_Mega_COMMANDS.XML" />
+</GAMEENTITY>

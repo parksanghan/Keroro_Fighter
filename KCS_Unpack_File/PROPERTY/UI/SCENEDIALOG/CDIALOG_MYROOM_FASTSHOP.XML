@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="EditDialog" PosX="20" PosY="84" SizeX="278" SizeY="158" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.899" Show="1">
+            <Element index="0" TextName="GUI_Fast_Shop.tga" TextPosX="0" TextPosY="0" TextSizeX="278" TextSizeY="158" PosX="0" PosY="0" SizeX="278" SizeY="158" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="CharShop_Button" ClassName="CKeroroUI_Button" PosX="34" PosY="60" SizeX="50" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="294" TextPosY="8" TextSizeX="97" TextSizeY="77" PosX="-20" PosY="-20" SizeX="97" SizeY="77" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="CharShop_PopUp" ClassName="CKeroroUI_Button" PosX="33" PosY="60" SizeX="50" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="30" TextPosY="464" TextSizeX="101" TextSizeY="45" PosX="-20" PosY="-51" SizeX="101" SizeY="42" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ItemShop_Button" ClassName="CKeroroUI_Button" PosX="109" PosY="57" SizeX="50" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="291" TextPosY="93" TextSizeX="102" TextSizeY="80" PosX="-20" PosY="-20" SizeX="102" SizeY="80" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="ItemShop_PopUp" ClassName="CKeroroUI_Button" PosX="109" PosY="57" SizeX="50" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="132" TextPosY="464" TextSizeX="101" TextSizeY="42" PosX="-20" PosY="-50" SizeX="101" SizeY="42" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillShop_Button" ClassName="CKeroroUI_Button" PosX="193" PosY="49" SizeX="50" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="408" TextPosY="42" TextSizeX="86" TextSizeY="93" PosX="-20" PosY="-20" SizeX="86" SizeY="93" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillShop_PopUp" ClassName="CKeroroUI_Button" PosX="186" PosY="49" SizeX="50" SizeY="50" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="2" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="234" TextPosY="464" TextSizeX="101" TextSizeY="42" PosX="-20" PosY="-42" SizeX="101" SizeY="42" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Cash_Button" ClassName="CKeroroUI_Button" PosX="57" PosY="126" SizeX="156" SizeY="22" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.898" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="1" TextPosY="159" TextSizeX="156" TextSizeY="22" PosX="0" PosY="0" SizeX="156" SizeY="22" />
+                    <Element ControlState="1" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="1" TextPosY="228" TextSizeX="156" TextSizeY="22" PosX="0" PosY="0" SizeX="156" SizeY="22" />
+		    <Element ControlState="2" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="1" TextPosY="182" TextSizeX="156" TextSizeY="22" PosX="0" PosY="0" SizeX="156" SizeY="22" />
+                    <Element ControlState="3" index="0" TextName="GUI_Fast_Shop.tga" TextPosX="1" TextPosY="205" TextSizeX="156" TextSizeY="22" PosX="0" PosY="0" SizeX="156" SizeY="22" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

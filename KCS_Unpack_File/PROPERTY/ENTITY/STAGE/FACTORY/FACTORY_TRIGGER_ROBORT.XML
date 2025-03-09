@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Factory_Trigger_Robort" FILENAME="Factory_Trigger_Robort.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="4" VSNAME="Factory_Trigger_Robort.VS">
+        <PROPERTYBAG NAME="wait_01" FILENAME="Factory_Trigger_Robort_wait01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="wait_02" FILENAME="Factory_Trigger_Robort_wait02.VA" COMMENT="" />
+        <PROPERTYBAG NAME="wait_03" FILENAME="Factory_Trigger_Robort_wait03.VA" COMMENT="" />
+        <PROPERTYBAG NAME="wait_04" FILENAME="Factory_Trigger_Robort_wait04.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Factory_Mechine" FILENAME="Factory_Mechine.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_Mechine2" FILENAME="Factory_Mechine.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_Mechine3" FILENAME="Factory_Mechine.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Factory_Mechine4" FILENAME="Factory_Mechine.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Factory_Trigger_Robort_COMMANDS.XML" />
+</GAMEENTITY>

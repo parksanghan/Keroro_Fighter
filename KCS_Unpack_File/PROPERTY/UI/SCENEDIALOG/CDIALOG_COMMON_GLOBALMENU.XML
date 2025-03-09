@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_GlobalMenu.xml" PosX="450" PosY="700" SizeX="574" SizeY="100" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.960" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="28" TextPosY="954" TextSizeX="12" TextSizeY="68" PosX="-450" PosY="0" SizeX="1024" SizeY="68" />
+        </Property>
+        <Property Index="1" RenderStyle="1" Depth="0.950" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="63" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="159" PosY="9" SizeX="395" SizeY="54" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_ItemShop.tga" TextPosX="49" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="146" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="5" TextName="GUI_ItemShop.tga" TextPosX="77" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="554" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.950" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="110" TextPosY="966" TextSizeX="204" TextSizeY="54" PosX="-75" PosY="9" SizeX="204" SizeY="54" />
+        </Property>
+        <Property Index="3" RenderStyle="1" Depth="0.950" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="63" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="289" PosY="9" SizeX="265" SizeY="54" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_ItemShop.tga" TextPosX="49" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="276" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="5" TextName="GUI_ItemShop.tga" TextPosX="77" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="554" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="4" RenderStyle="0" Depth="0.950" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="43" TextPosY="958" TextSizeX="2" TextSizeY="64" PosX="137" PosY="5" SizeX="2" SizeY="64" />
+        </Property>
+        <Property Index="5" RenderStyle="1" Depth="0.950" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="63" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="25" PosY="9" SizeX="533" SizeY="54" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_ItemShop.tga" TextPosX="49" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="12" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="5" TextName="GUI_ItemShop.tga" TextPosX="77" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="554" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+		<Property Index="6" RenderStyle="1" Depth="0.950" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="63" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="231" PosY="9" SizeX="323" SizeY="54" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_ItemShop.tga" TextPosX="49" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="218" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="5" TextName="GUI_ItemShop.tga" TextPosX="77" TextPosY="967" TextSizeX="13" TextSizeY="54" PosX="554" PosY="9" SizeX="13" SizeY="54" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Button_PlayGame" ClassName="CKeroroUI_Button" PosX="16" PosY="-5" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop.tga" TextPosX="1" TextPosY="716" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop.tga" TextPosX="2" TextPosY="871" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop.tga" TextPosX="1" TextPosY="792" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop.tga" TextPosX="2" TextPosY="871" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_BackTown" ClassName="CKeroroUI_Button" PosX="16" PosY="-7" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="228" TextPosY="806" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="356" TextPosY="806" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="292" TextPosY="806" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="356" TextPosY="806" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+		<Property Name="Button_BackTownMarket" ClassName="CKeroroUI_Button" PosX="160" PosY="-6" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="495" TextPosY="3" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="625" TextPosY="3" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="560" TextPosY="3" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="625" TextPosY="3" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+		<Property Name="Button_BackTownTraining" ClassName="CKeroroUI_Button" PosX="160" PosY="-6" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="504" TextPosY="354" TextSizeX="60" TextSizeY="72" PosX="0" PosY="0" SizeX="60" SizeY="72" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="634" TextPosY="354" TextSizeX="60" TextSizeY="72" PosX="0" PosY="0" SizeX="60" SizeY="72" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="569" TextPosY="354" TextSizeX="60" TextSizeY="72" PosX="0" PosY="0" SizeX="60" SizeY="72" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="634" TextPosY="354" TextSizeX="60" TextSizeY="72" PosX="0" PosY="0" SizeX="60" SizeY="72" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Training" ClassName="CKeroroUI_Button" PosX="86" PosY="-8" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="306" TextPosY="354" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="435" TextPosY="354" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="370" TextPosY="354" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop_Popup.TGA" TextPosX="435" TextPosY="354" TextSizeX="67" TextSizeY="72" PosX="0" PosY="0" SizeX="67" SizeY="72" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Marketplace" ClassName="CKeroroUI_Button" PosX="160" PosY="-6" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="232" TextPosY="878" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="362" TextPosY="878" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="297" TextPosY="878" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="362" TextPosY="878" TextSizeX="62" TextSizeY="69" PosX="0" PosY="0" SizeX="62" SizeY="69" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_MakeRoomTraining" ClassName="CKeroroUI_Button" PosX="75" PosY="-6" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="307" TextPosY="426" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="487" TextPosY="426" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="397" TextPosY="426" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="487" TextPosY="426" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+		<Property Name="Button_MakeRoomMarket" ClassName="CKeroroUI_Button" PosX="75" PosY="-6" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="472" TextPosY="495" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="652" TextPosY="495" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="562" TextPosY="495" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop_Popup.tga" TextPosX="652" TextPosY="495" TextSizeX="89" TextSizeY="69" PosX="0" PosY="0" SizeX="89" SizeY="69" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_MyInfo" ClassName="CKeroroUI_Button" PosX="226" PosY="-9" SizeX="60" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop.tga" TextPosX="138" TextPosY="712" TextSizeX="62" TextSizeY="73" PosX="0" PosY="0" SizeX="62" SizeY="73" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop.tga" TextPosX="139" TextPosY="867" TextSizeX="62" TextSizeY="73" PosX="0" PosY="0" SizeX="62" SizeY="73" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop.tga" TextPosX="138" TextPosY="788" TextSizeX="62" TextSizeY="73" PosX="0" PosY="0" SizeX="62" SizeY="73" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop.tga" TextPosX="139" TextPosY="867" TextSizeX="62" TextSizeY="73" PosX="0" PosY="0" SizeX="62" SizeY="73" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_MyBag" ClassName="CKeroroUI_Button" PosX="294" PosY="-17" SizeX="55" SizeY="79" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop.tga" TextPosX="204" TextPosY="703" TextSizeX="55" TextSizeY="79" PosX="0" PosY="0" SizeX="55" SizeY="79" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop.tga" TextPosX="205" TextPosY="860" TextSizeX="55" TextSizeY="79" PosX="0" PosY="0" SizeX="55" SizeY="79" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop.tga" TextPosX="204" TextPosY="781" TextSizeX="55" TextSizeY="79" PosX="0" PosY="0" SizeX="55" SizeY="79" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop.tga" TextPosX="205" TextPosY="860" TextSizeX="55" TextSizeY="79" PosX="0" PosY="0" SizeX="55" SizeY="79" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Community" ClassName="CKeroroUI_Button" PosX="352" PosY="-9" SizeX="70" SizeY="74" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop.tga" TextPosX="264" TextPosY="711" TextSizeX="70" TextSizeY="74" PosX="0" PosY="0" SizeX="70" SizeY="74" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop.tga" TextPosX="265" TextPosY="868" TextSizeX="70" TextSizeY="74" PosX="0" PosY="0" SizeX="70" SizeY="74" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop.tga" TextPosX="264" TextPosY="789" TextSizeX="70" TextSizeY="74" PosX="0" PosY="0" SizeX="70" SizeY="74" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop.tga" TextPosX="265" TextPosY="868" TextSizeX="70" TextSizeY="74" PosX="0" PosY="0" SizeX="70" SizeY="74" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_KeronShop" ClassName="CKeroroUI_Button" PosX="426" PosY="-6" SizeX="66" SizeY="69" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop.tga" TextPosX="69" TextPosY="715" TextSizeX="66" TextSizeY="69" PosX="0" PosY="0" SizeX="66" SizeY="69" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop.tga" TextPosX="70" TextPosY="871" TextSizeX="66" TextSizeY="69" PosX="0" PosY="0" SizeX="66" SizeY="69" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop.tga" TextPosX="69" TextPosY="792" TextSizeX="66" TextSizeY="69" PosX="0" PosY="0" SizeX="66" SizeY="69" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop.tga" TextPosX="70" TextPosY="871" TextSizeX="66" TextSizeY="69" PosX="0" PosY="0" SizeX="66" SizeY="69" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameMenu" ClassName="CKeroroUI_Button" PosX="494" PosY="-5" SizeX="67" SizeY="71" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop.tga" TextPosX="338" TextPosY="716" TextSizeX="67" TextSizeY="71" PosX="0" PosY="0" SizeX="67" SizeY="71" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop.tga" TextPosX="339" TextPosY="873" TextSizeX="67" TextSizeY="71" PosX="0" PosY="0" SizeX="67" SizeY="71" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop.tga" TextPosX="338" TextPosY="794" TextSizeX="67" TextSizeY="71" PosX="0" PosY="0" SizeX="67" SizeY="71" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop.tga" TextPosX="339" TextPosY="873" TextSizeX="67" TextSizeY="71" PosX="0" PosY="0" SizeX="67" SizeY="71" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_CashCharge" ClassName="CKeroroUI_Button" PosX="70" PosY="9" SizeX="58" SizeY="53" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_ItemShop.tga" TextPosX="482" TextPosY="721" TextSizeX="59" TextSizeY="54" PosX="0" PosY="0" SizeX="59" SizeY="54" />
+                    <Element ControlState="1" index="0" TextName="GUI_ItemShop.tga" TextPosX="482" TextPosY="831" TextSizeX="59" TextSizeY="54" PosX="0" PosY="0" SizeX="59" SizeY="54" />
+                    <Element ControlState="2" index="0" TextName="GUI_ItemShop.tga" TextPosX="482" TextPosY="776" TextSizeX="59" TextSizeY="54" PosX="0" PosY="0" SizeX="59" SizeY="54" />
+                    <Element ControlState="3" index="0" TextName="GUI_ItemShop.tga" TextPosX="482" TextPosY="831" TextSizeX="59" TextSizeY="54" PosX="0" PosY="0" SizeX="59" SizeY="54" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Static_GoormCash" ClassName="CKeroroUI_Static" PosX="65" PosY="13" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.935" FontTextureName="Static_GoormCash_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_KeroroCash" ClassName="CKeroroUI_Static" PosX="65" PosY="30" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.935" FontTextureName="Static_KeroroCash_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_KeroroCarot" ClassName="CKeroroUI_Static" PosX="65" PosY="47" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.935" FontTextureName="Static_KeroroCarot_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Button_GameOut" ClassName="CKeroroUI_Button" PosX="494" PosY="-3" SizeX="66" SizeY="66" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.940" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_waiting room2.TGA" TextPosX="1" TextPosY="132" TextSizeX="66" TextSizeY="66" PosX="0" PosY="0" SizeX="66" SizeY="66" />
+                    <Element ControlState="1" index="0" TextName="GUI_waiting room2.TGA" TextPosX="134" TextPosY="132" TextSizeX="66" TextSizeY="66" PosX="0" PosY="0" SizeX="66" SizeY="66" />
+                    <Element ControlState="2" index="0" TextName="GUI_waiting room2.TGA" TextPosX="67" TextPosY="132" TextSizeX="66" TextSizeY="66" PosX="0" PosY="0" SizeX="66" SizeY="66" />
+                    <Element ControlState="3" index="0" TextName="GUI_waiting room2.TGA" TextPosX="134" TextPosY="132" TextSizeX="66" TextSizeY="66" PosX="0" PosY="0" SizeX="66" SizeY="66" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+        <Property Name="Gauge_GlobalMenu_AllertChat" ClassName="CKeroroUI_Gauge2" PosX="345" PosY="-9" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="1" NowPoint="1" LineLimt="1" AnimationOn="1" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="1" GetShadowCount="0" AnimationTerm="0.300000" AnimationTime="0.005644">
+                <GaugeProperty TextureName="GUI_community.tga" RectLeft="360" RectTop="422" RectRight="32" RectBottom="28" ShowPosX="0" ShowPosY="0" Depth="0.939" AnimationFrame="2" NextTermX="0" NextTermY="200" />
+            </SubProperty>
+        </Property>
+        <Property Name="Gauge_GlobalMenu_AllertNote" ClassName="CKeroroUI_Gauge2" PosX="404" PosY="7" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="1" NowPoint="1" LineLimt="1" AnimationOn="1" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="1" GetShadowCount="0" AnimationTerm="0.300000" AnimationTime="0.005644">
+                <GaugeProperty TextureName="GUI_community.tga" RectLeft="412" RectTop="432" RectRight="23" RectBottom="26" ShowPosX="0" ShowPosY="0" Depth="0.939" AnimationFrame="2" NextTermX="0" NextTermY="200" />
+            </SubProperty>
+        </Property>
+    </DialogControl>
+</RootNode>

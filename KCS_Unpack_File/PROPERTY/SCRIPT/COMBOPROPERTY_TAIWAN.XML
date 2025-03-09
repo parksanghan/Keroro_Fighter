@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ComboProperty>
+	<Combo PropertyID="400000000" Code="0" Name="DDDㄤ思" Private="0" Combo="0" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400000001" Code="1" Name="DDDㄤ思" Private="0" Combo="0" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400000002" Code="2" Name="DDDㄤ思" Private="0" Combo="0" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400001000" Code="3" Name="DDSㄤ思" Private="0" Combo="1" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400001001" Code="4" Name="DDSㄤ思" Private="0" Combo="1" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400001002" Code="5" Name="DDSㄤ思" Private="0" Combo="1" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400002000" Code="6" Name="SSSㄤ思" Private="0" Combo="2" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400002001" Code="7" Name="SSSㄤ思" Private="0" Combo="2" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400002002" Code="8" Name="SSSㄤ思" Private="0" Combo="2" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400003000" Code="9" Name="SSDㄤ思" Private="0" Combo="3" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400003001" Code="10" Name="SSDㄤ思" Private="0" Combo="3" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400003002" Code="11" Name="SSDㄤ思" Private="0" Combo="3" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400101000" Code="12" Name="腌ㄤP" Private="0" Combo="101" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400101001" Code="13" Name="腌ㄤP" Private="0" Combo="101" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400101002" Code="14" Name="腌ㄤP" Private="0" Combo="101" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400102000" Code="15" Name="腌ㄤK" Private="0" Combo="102" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400102001" Code="16" Name="腌ㄤK" Private="0" Combo="102" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400102002" Code="17" Name="腌ㄤK" Private="0" Combo="102" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400201000" Code="18" Name="腌ㄤ腌ㄤ" Private="0" Combo="300" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400201001" Code="19" Name="腌ㄤ腌ㄤ" Private="0" Combo="300" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+	<Combo PropertyID="400201002" Code="20" Name="腌ㄤ腌ㄤ" Private="0" Combo="300" IconX="0" IconY="0" IconSizeX="0" IconSizeY="0"/>
+</ComboProperty>

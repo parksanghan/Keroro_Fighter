@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="69">
+        <PROPERTYBAG NAME="kt_bg_bench" FILENAME="kt_bg_bench.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Box09" FILENAME="kt_bg_Box09.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Box10" FILENAME="kt_bg_Box10.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Box21" FILENAME="kt_bg_Box21.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Box23" FILENAME="kt_bg_Box23.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Box24" FILENAME="kt_bg_Box24.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_cookie" FILENAME="kt_bg_cookie.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object01" FILENAME="kt_bg_Object01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object02" FILENAME="kt_bg_Object02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object05" FILENAME="kt_bg_Object05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_bird" FILENAME="kt_bg_Playground_bird.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_bird01" FILENAME="kt_bg_Playground_bird01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_bird02" FILENAME="kt_bg_Playground_bird02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_Car01" FILENAME="kt_bg_Playground_Car01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_Car02" FILENAME="kt_bg_Playground_Car02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_castle" FILENAME="kt_bg_Playground_castle.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_ground00_01" FILENAME="kt_bg_ground00_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_clover" FILENAME="kt_bg_Playground_clover.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_eyes01" FILENAME="kt_bg_Playground_eyes01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_eyes02" FILENAME="kt_bg_Playground_eyes02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_fountain" FILENAME="kt_bg_Playground_fountain.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_GateNE" FILENAME="kt_bg_Playground_GateNE.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_GateSW" FILENAME="kt_bg_Playground_GateSW.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_house" FILENAME="kt_bg_Playground_house.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_jump" FILENAME="kt_bg_Playground_jump.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_jump01" FILENAME="kt_bg_Playground_jump01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_Junglegym" FILENAME="kt_bg_Playground_Junglegym.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_light" FILENAME="kt_bg_Playground_light.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_light_A" FILENAME="kt_bg_Playground_light_A.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_mainland" FILENAME="kt_bg_Playground_mainland.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_road" FILENAME="kt_bg_Playground_road.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_seesaw" FILENAME="kt_bg_Playground_seesaw.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_signal" FILENAME="kt_bg_Playground_signal.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_slide01" FILENAME="kt_bg_Playground_slide01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_slide02" FILENAME="kt_bg_Playground_slide02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_swing01" FILENAME="kt_bg_Playground_swing01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_tree01" FILENAME="kt_bg_Playground_tree01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_tree03" FILENAME="kt_bg_Playground_tree03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_WarpNE" FILENAME="kt_bg_Playground_WarpNE.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Shop_Bigtree" FILENAME="kt_bg_Shop_Bigtree.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_WarpSW" FILENAME="kt_bg_Playground_WarpSW.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Shop_Guird02" FILENAME="kt_bg_Shop_Guird02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_tulip" FILENAME="kt_bg_tulip.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_Car03" FILENAME="kt_bg_Playground_Car03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kg_bg_grass00" FILENAME="kg_bg_grass00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_gate00" FILENAME="kt_bg_gate00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_gate01" FILENAME="kt_bg_gate01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object11_00" FILENAME="kt_bg_Object11_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_ground01_00" FILENAME="kt_bg_ground01_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_ground03_01" FILENAME="kt_bg_ground03_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_bottle_00" FILENAME="kt_bg_bottle_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_piano_cake_00" FILENAME="kt_bg_piano_cake_00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_Alpha02" FILENAME="kt_bg_Playground_Alpha02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_hhh_02" FILENAME="kt_bg_hhh_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane81" FILENAME="kt_bg_Plane81.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane79" FILENAME="kt_bg_Plane79.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane82" FILENAME="kt_bg_Plane82.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object47" FILENAME="kt_bg_Object47.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object45" FILENAME="kt_bg_Object45.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_CastleSha" FILENAME="kt_bg_Playground_CastleSha.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Object46" FILENAME="kt_bg_Object46.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_flower01" FILENAME="kt_bg_Playground_flower01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane14" FILENAME="kt_bg_Plane14.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane15" FILENAME="kt_bg_Plane15.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane34" FILENAME="kt_bg_Plane34.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Plane33" FILENAME="kt_bg_Plane33.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_Alpha01" FILENAME="kt_bg_Playground_Alpha01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_flower02" FILENAME="kt_bg_Playground_flower02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_bg_Playground_tree04" FILENAME="kt_bg_Playground_tree04.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="kt_ef_piano_cake" FILENAME="kt_ef_piano_cake.xml" COMMENT="" />
+        <PROPERTYBAG NAME="kt_ef_piano_cake_b" FILENAME="kt_ef_piano_cake_b.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="kt_bg_ani_balloon_small_a" FILENAME="kt_bg_ani_balloon_small_a.xml" />
+        <PROPERTYBAG NAME="kt_bg_ani_balloon_small_b" FILENAME="kt_bg_ani_balloon_small_b.xml" />
+        <PROPERTYBAG NAME="kt_bg_ani_windmill" FILENAME="kt_bg_ani_windmill.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="kt_bg_zone01_00_COMMANDS.XML" />
+</GAMEENTITY>

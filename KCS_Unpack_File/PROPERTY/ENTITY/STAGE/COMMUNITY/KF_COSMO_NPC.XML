@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="8">
+        <PROPERTYBAG NAME="FACE_H" FILENAME="CosH_Cosmo_Prist_Face.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU_H" FILENAME="CosH_Cosmo_Prist_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT_H" FILENAME="CosH_Cosmo_Prist_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD_H" FILENAME="CosH_Cosmo_Prist_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Cosmos_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAIR" FILENAME="Cosmos_Hair.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Cosmos_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Cosmos_Head01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Human.VS">
+        <PROPERTYBAG NAME="Cosmo_Combat_Wait" FILENAME="Cosmo_Combat_Wait.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="S_Jewelry" FILENAME="S_Jewelry.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Cosmos_Obj_Mable" FILENAME="Cosmos_Obj_Mable.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="KF_Cosmo_NPC_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Uki_SPE_P02" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="2.000000" X="10.000000" Y="10.000000" Z="10.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="200.000000" />
+            <Property Time="1.500000" Value="200.000000" />
+            <Property Time="0.500000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.500000" Y="0.500000" Z="0.000000" />
+            <Property Time="1.000000" X="1.000000" Y="1.000000" Z="0.200000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="WinterHouse_Blizzard_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="10.000000" Max="20.000000" />
+        <RepeatCount Count="30.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="1.980000" />
+        <RegenTime Min="0.100000" Max="0.050000" />
+        <RotScaleMin X="5.000000" Y="5.000000" Z="0.000000" />
+        <RotScaleMax X="15.000000" Y="15.000000" Z="360.000000" />
+        <RandPosMin X="500.000000" Y="500.000000" Z="500.000000" />
+        <RandPosMax X="-500.000000" Y="300.000000" Z="-500.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="30.000000" Max="50.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="180.000000" />
+        <JetDirMax X="20.000000" Y="0.000000" Z="20.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="66">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.000000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.150000" Y="0.150000" Z="0.150000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.515000" Y="0.515000" Z="0.006000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.300000" Y="0.300000" Z="0.300000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.530000" Y="0.530000" Z="0.012000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.545000" Y="0.545000" Z="0.018000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.600000" Y="0.600000" Z="0.600000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.560000" Y="0.560000" Z="0.024000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.750000" Y="0.750000" Z="0.750000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.575000" Y="0.575000" Z="0.030000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.590000" Y="0.590000" Z="0.036000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.050000" Y="1.050000" Z="1.050000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.605000" Y="0.605000" Z="0.042000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.200000" Y="1.200000" Z="1.200000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.620000" Y="0.620000" Z="0.048000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.635000" Y="0.635000" Z="0.054000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.500000" Y="1.500000" Z="1.500000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.650000" Y="0.650000" Z="0.060000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.650000" Y="1.650000" Z="1.650000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.665000" Y="0.665000" Z="0.066000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.680000" Y="0.680000" Z="0.072000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.950000" Y="1.950000" Z="1.950000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.695000" Y="0.695000" Z="0.078000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.100000" Y="2.100000" Z="2.100000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.710000" Y="0.710000" Z="0.084000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.725000" Y="0.725000" Z="0.090000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.400000" Y="2.400000" Z="2.400000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.740000" Y="0.740000" Z="0.096000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.550000" Y="2.550000" Z="2.550000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.755000" Y="0.755000" Z="0.102000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.770000" Y="0.770000" Z="0.108000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.850000" Y="2.850000" Z="2.850000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.785000" Y="0.785000" Z="0.114000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.000000" Y="3.000000" Z="3.000000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.120000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.815000" Y="0.815000" Z="0.126000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.300000" Y="3.300000" Z="3.300000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.830000" Y="0.830000" Z="0.132000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.450000" Y="3.450000" Z="3.450000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.845000" Y="0.845000" Z="0.138000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.860000" Y="0.860000" Z="0.144000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.750000" Y="3.750000" Z="3.750000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.875000" Y="0.875000" Z="0.150000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.900000" Y="3.900000" Z="3.900000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.890000" Y="0.890000" Z="0.156000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.905000" Y="0.905000" Z="0.162000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.200000" Y="4.200000" Z="4.200000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.920000" Y="0.920000" Z="0.168000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.350000" Y="4.350000" Z="4.350000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.935000" Y="0.935000" Z="0.174000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.950000" Y="0.950000" Z="0.180000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.650000" Y="4.650000" Z="4.650000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.965000" Y="0.965000" Z="0.186000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.800000" Y="4.800000" Z="4.800000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.980000" Y="0.980000" Z="0.192000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.950000" Y="4.950000" Z="4.950000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.100000" Y="5.100000" Z="5.100000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.250000" Y="5.250000" Z="5.250000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.550000" Y="5.550000" Z="5.550000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.700000" Y="5.700000" Z="5.700000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.850000" Y="5.850000" Z="5.850000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.000000" Y="6.000000" Z="6.000000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.150000" Y="6.150000" Z="6.150000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.300000" Y="6.300000" Z="6.300000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.450000" Y="6.450000" Z="6.450000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.599999" Y="6.599999" Z="6.599999" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.750000" Y="6.750000" Z="6.750000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.900000" Y="6.900000" Z="6.900000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.050000" Y="7.050000" Z="7.050000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.200000" Y="7.200000" Z="7.200000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.349999" Y="7.349999" Z="7.349999" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.500000" Y="7.500000" Z="7.500000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.650000" Y="7.650000" Z="7.650000" />
+            <Alpha Value="188.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.800000" Y="7.800000" Z="7.800000" />
+            <Alpha Value="176.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.950000" Y="7.950000" Z="7.950000" />
+            <Alpha Value="164.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.100000" Y="8.100000" Z="8.100000" />
+            <Alpha Value="152.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.250000" Y="8.250000" Z="8.250000" />
+            <Alpha Value="140.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.400000" Y="8.400000" Z="8.400000" />
+            <Alpha Value="128.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.549999" Y="8.549999" Z="8.549999" />
+            <Alpha Value="116.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.700000" Y="8.700000" Z="8.700000" />
+            <Alpha Value="104.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.850000" Y="8.850000" Z="8.850000" />
+            <Alpha Value="92.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.000000" Y="9.000000" Z="9.000000" />
+            <Alpha Value="80.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.150000" Y="9.150000" Z="9.150000" />
+            <Alpha Value="68.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.300000" Y="9.300000" Z="9.300000" />
+            <Alpha Value="56.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.450000" Y="9.450000" Z="9.450000" />
+            <Alpha Value="44.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.599999" Y="9.599999" Z="9.599999" />
+            <Alpha Value="32.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.750000" Y="9.750000" Z="9.750000" />
+            <Alpha Value="20.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.200000" />
+            <Texture Texture="WinterHouse_Blizzard_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

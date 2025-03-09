@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="0" />
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Summer_pool_E00" FILENAME="Summer_pool_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Summer_shadow_E00" FILENAME="Summer_shadow_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Summer_shadow_E01" FILENAME="Summer_shadow_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Summer_shadow_E02" FILENAME="Summer_shadow_E02.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Summer_wave_COMMANDS.XML" />
+</GAMEENTITY>

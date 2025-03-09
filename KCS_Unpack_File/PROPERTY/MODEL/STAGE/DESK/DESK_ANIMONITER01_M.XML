@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Desk_AniMoniter01.VM" />
+    <TextureInfo count="2">
+        <Texture filename="Desk_AniMoniter01.dds" />
+        <Texture filename="Desk_AniMoniter02.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureFader">
+            <Property name="UseAlpha" value="0" />
+            <Property name="TextureCount" value="2" />
+            <Property name="FadeSpeed" value="0.00" />
+            <Property name="FadeDelay" value="0.50" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+</VGEModelFile>

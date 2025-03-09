@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="15">
+        <PROPERTYBAG NAME="StarRoom_background" FILENAME="StarRoom_background.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_backstars01" FILENAME="StarRoom_backstars01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_badak01" FILENAME="StarRoom_badak01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_badak02" FILENAME="StarRoom_badak02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_moon" FILENAME="StarRoom_moon.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_pillar" FILENAME="StarRoom_pillar.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_shadow" FILENAME="StarRoom_shadow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_shadow03" FILENAME="StarRoom_shadow03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_star02" FILENAME="StarRoom_star02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_wall01" FILENAME="StarRoom_wall01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_shadow01" FILENAME="StarRoom_shadow01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_window" FILENAME="StarRoom_window.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_wire" FILENAME="StarRoom_wire.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_shadow02" FILENAME="StarRoom_shadow02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_backstar" FILENAME="StarRoom_backstar.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="StarRoom_Star_E00" FILENAME="StarRoom_Star_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="StarRoom_Star_E01" FILENAME="StarRoom_Star_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="a" FILENAME="StarRoom_Star_All.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="StarRoom_Room_COMMANDS.XML" />
+</GAMEENTITY>

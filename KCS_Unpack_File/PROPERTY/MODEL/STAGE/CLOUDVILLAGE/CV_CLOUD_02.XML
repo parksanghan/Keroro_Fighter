@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="CV_cloud_02.VM" />
+    <TextureInfo count="1">
+        <Texture filename="CV_cloud_02.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureTransform">
+            <Property name="UseAlpha" value="1" />
+            <Property name="MoveSpeedX" value="0.10" />
+            <Property name="MoveSpeedY" value="0.00" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

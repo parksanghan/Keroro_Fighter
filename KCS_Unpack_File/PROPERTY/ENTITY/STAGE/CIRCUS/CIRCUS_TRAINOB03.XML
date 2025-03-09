@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Circus_TrainOB03" FILENAME="Circus_TrainOB03.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Circus_TrainOB01.VS">
+        <PROPERTYBAG NAME="Circus_TrainOB01" FILENAME="Circus_TrainOB01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Circus_TrainOB03_A" FILENAME="Circus_TrainOB03_A.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Circus_TrainOB03_COMMANDS.XML" />
+</GAMEENTITY>

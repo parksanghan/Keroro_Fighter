@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="WaitRoom_BookCase.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Waitroom_Obj_Bookcase01_01.tga" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.00" />
+        </Shader>
+    </ShaderInfo>
+</VGEModelFile>

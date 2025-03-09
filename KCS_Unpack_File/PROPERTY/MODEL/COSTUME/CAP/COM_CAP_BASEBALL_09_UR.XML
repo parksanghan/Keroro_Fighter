@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Com_Cap_baseball_0011_Ur.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Com_Cap_baseball_09_Ur.DDS" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="ToonShading">
+            <Property name="UseAlpha" value="0" />
+            <Property name="LineWidth" value="1.80" />
+            <Property name="ColorR" value="0" />
+            <Property name="ColorG" value="0.207843" />
+            <Property name="ColorB" value="0" />
+            <Property name="ColorA" value="1" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="0" />
+    <AlphaSortGroupInfo Group="-1" />
+</VGEModelFile>

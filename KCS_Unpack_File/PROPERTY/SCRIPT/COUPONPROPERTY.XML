@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CouponProperty>
+	<Coupon Index = "1" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- -->
+	<Coupon Index = "2" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 샤니 -->
+	<Coupon Index = "3" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 천공 대결전 -->
+	<Coupon Index = "4" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- -->
+	<Coupon Index = "5" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 마술과학체험전-->
+	<Coupon Index = "6" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 오리온 -->
+	<Coupon Index = "7" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 틴캐쉬 -->
+	<Coupon Index = "8" SlotIndex = "1" InputType = "1" Enable = "1" /> <!-- 가이드북 -->
+	<Coupon Index = "9" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 프로모션-->
+	<Coupon Index = "10" SlotIndex = "2" InputType = "2" Enable = "1" /> <!-- 케로로 음료-->
+	<Coupon Index = "11" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 행텐-->
+	<Coupon Index = "12" SlotIndex = "0" InputType = "0" Enable = "0" /> <!-- 영어성적 올리자, 에듀박스 -->
+	<Coupon Index = "13" SlotIndex = "3" InputType = "0" Enable = "1" /> <!-- 투니페스티발 -->
+	<Coupon Index = "14" SlotIndex = "4" InputType = "0" Enable = "1" /> <!-- 투니랜드 쿠키샵, B2C 시작 20100801 종료 20110801-->
+</CouponProperty>
+
+<!--
+CouponIndex - 서버상의 인덱스
+SlotIndex - 게임상에 보일 위치 좌상 1, 우상 2, 좌하 3, 우하 4
+InputType - 쿠폰입력이 8자리수냐, 12자리수냐 16자리수냐
+0 - 16자리
+1 - 12자리
+2 - 8자리
+Enable - 보여줄꺼냐 말꺼냐, 사용할꺼냐 말꺼냐 / 0 false, 1 true
+-->
+

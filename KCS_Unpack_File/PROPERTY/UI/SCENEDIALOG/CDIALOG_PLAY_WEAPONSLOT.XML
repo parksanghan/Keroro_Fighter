@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<RootNode>
+	<Dialog>
+		<Property Name = "PlayWeaponSlotDialog" PosX = "375" PosY = "692" SizeX = "54" SizeY = "69" ClientLeft = "0" ClientTop = "0" ClientRight = "0" ClientBottom = "0" />
+	</Dialog>
+	<DialogSkin>
+		<Property Index = "0" RenderStyle = "0" Depth = "0.850" Show = "1">
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "453" TextPosY = "409" TextSizeX = "54" TextSizeY = "69" PosX = "0" PosY = "0" SizeX = "54" SizeY = "69" />
+		</Property>
+		<Property Index = "1" RenderStyle = "0" Depth = "0.800" Show = "1">
+			<!--weapon-->
+			<Element index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "385" TextSizeX = "45" TextSizeY = "8" PosX = "4" PosY = "56" SizeX = "45" SizeY = "8" />
+		</Property>
+	</DialogSkin>
+
+	<DialogControl>
+
+		<Property Name = "CONTROL_WeaponSlot_SLOT1" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<!--q-->
+				<Property Index = "0" RenderStyle = "0" Depth = "0.800" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "381" TextPosY = "481" TextSizeX = "12" TextSizeY = "15" PosX = "3" PosY = "3" SizeX = "12" SizeY = "15"/>
+				</Property>
+				<!--Skill Img-->
+				<Property Index = "1" RenderStyle = "0" Depth = "0.840" Show = "1" >
+					<Element ControlState = "0" index = "0" TextName = "GUI_Weapon_SlotIcon.tga" TextPosX = "384" TextPosY = "49" TextSizeX = "48" TextSizeY = "46" PosX = "3" PosY = "5" SizeX = "0" SizeY = "0" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_Weapon_SlotIcon.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "3" PosY = "5" SizeX = "0" SizeY = "0" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--X 표시인데 안쓸꺼 같지만 혹시 몰라서 추가해둠.. by zisk-->
+		<Property Name = "CONTROL_WeaponSlot_SLOT1_Enable" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0">
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.0" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "0" TextPosY = "0" TextSizeX = "0" TextSizeY = "0" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" />
+					<Element ControlState = "1" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "299" TextPosY = "337" TextSizeX = "46" TextSizeY = "46" PosX = "4" PosY = "4" SizeX = "46" SizeY = "46" />
+				</Property>
+			</ControlSkin>			
+		</Property>
+
+		<Property Name = "BUTTON_WeaponSlot_SLOT1_D" ClassName = "CKeroroUI_Button" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" >
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.630" Show = "1">
+					<Element ControlState = "0" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "346" TextPosY = "716" TextSizeX = "20" TextSizeY = "27" PosX = "15" PosY = "15" SizeX = "20" SizeY = "27" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "BUTTON_WeaponSlot_SLOT1_Q" ClassName = "CKeroroUI_Button" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" >
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.630" Show = "1">
+					<Element ControlState = "2" index = "0" TextName = "GUI_gameplay.tga" TextPosX = "372" TextPosY = "716" TextSizeX = "19" TextSizeY = "26" PosX = "15" PosY = "15" SizeX = "19" SizeY = "26" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<Property Name = "CONTROL_WeaponSlot_SLOT1_Visible" ClassName = "CKeroroUI_Control" PosX = "0" PosY = "0" SizeX = "0" SizeY = "0" Disable = "0" >
+			<ControlSkin>
+				<Property Index = "0" RenderStyle = "0" Depth = "0.837" Show = "1">
+					<Element ControlState = "1" index = "0" TextName = "GUI_SlotIcon_01.tga" TextPosX = "432" TextPosY = "432" TextSizeX = "48" TextSizeY = "48" PosX = "3" PosY = "3" SizeX = "48" SizeY = "48" />
+				</Property>
+			</ControlSkin>
+		</Property>
+
+		<Property Name = "NUMBER_WeaponSlot_SLOT1" ClassName = "CKeroroUI_Number" PosX = "25" PosY = "40" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+		<Property Name = "NUMBER_WeaponSlot_SLOT1_CoolTime" ClassName = "CKeroroUI_Number" PosX = "5" PosY = "17" SizeX = "0" SizeY = "0" Disable = "0" OverSound = "0">
+		</Property>
+
+
+	</DialogControl>
+</RootNode>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<ComboKey>
+	<ATTACK Type = "0">
+		<Combo Name = "ComboSet1">
+			<Property Key = "0" ComboMoveDist = "0.0" DamageMoveDist = "0.0" ComboCommand = "COMBO_A" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "0" ComboMoveDist = "0.0" DamageMoveDist = "0.0" ComboCommand = "COMBO_AA" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "0" ComboMoveDist = "0.0" DamageMoveDist = "0.0" ComboCommand = "COMBO_AAA" DamageCommand = "HIT_PUSH_A"/>
+		</Combo>
+		<Combo Name = "ComboSet2">
+			<Property Key = "1" ComboMoveDist = "65.0" DamageMoveDist = "55.0" ComboCommand = "COMBO_B" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "1" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "COMBO_BB" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>
+		<Combo Name = "ComboSet3">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "55.0" ComboCommand = "COMBO_A" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "55.0" ComboCommand = "COMBO_AA" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "1" ComboMoveDist = "85.0" DamageMoveDist = "100.0" ComboCommand = "COMBO_CCC" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>
+		<Combo Name = "ComboSet4">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "55.0" ComboCommand = "COMBO_A" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "1" ComboMoveDist = "85.0" DamageMoveDist = "55.0" ComboCommand = "COMBO_DD" DamageCommand = "HIT_PUSH_B"/>
+			<Property Key = "1" ComboMoveDist = "85.0" DamageMoveDist = "100.0" ComboCommand = "COMBO_DDD" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>
+	</ATTACK>
+
+	<DASHATTACKLARGE Type = "1">
+		<Combo Name = "ComboSet1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "DASH_ATK_C" DamageCommand = "NONE"/>
+		</Combo>
+	</DASHATTACKLARGE>
+
+	<DASHATTACKSMALL Type = "2">
+		<Combo Name = "ComboSet1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "DASH_ATK_X" DamageCommand = "NONE"/>
+		</Combo>
+	</DASHATTACKSMALL>
+
+	<JUMPATTACKLARGE Type = "3">
+		<Combo Name = "ComboSet1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "JUMP_ATK_C" DamageCommand = "NONE"/>
+		</Combo>
+	</JUMPATTACKLARGE>
+
+	<JUMPATTACKSMALL Type = "4">
+		<Combo Name = "ComboSet1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "JUMP_ATK_X" DamageCommand = "NONE"/>
+		</Combo>
+	</JUMPATTACKSMALL>
+
+	<SPECIALATTACK Type = "5">
+		<Combo Name = "ComboSet1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "SPECIAL_ATK" DamageCommand = "NONE"/>
+		</Combo>
+	</SPECIALATTACK>
+
+	<COUNTERATTACK Type = "6">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "COUNTER_ATK" DamageCommand = "NONE"/>
+		</Combo>
+	</COUNTERATTACK>
+
+	<ESCAPE Type = "7">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "ESCAPE_ATK" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>
+	</ESCAPE>
+
+  <JUMP Type ="8">
+    <Combo Name = "ComboSet1">
+      <Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "JUMP_ATK_X" DamageCommand = "HIT_PUSH_B"/>
+    </Combo>
+  </JUMP>
+        
+  
+  
+	<ITEMATTACKSMALL_COMICGUN Type ="8">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "COMICGUN_SHOT" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>		
+	</ITEMATTACKSMALL_COMICGUN>
+
+	<ITEMDASHATTACKSMALL_COMICGUN Type ="9">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "COMICGUN_DASH_ATK_X" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>		
+	</ITEMDASHATTACKSMALL_COMICGUN>
+
+	<ITEMJUMPATTACKSMALL_COMICGUN Type ="10">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "COMICGUN_JUMP_ATK_X" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>		
+	</ITEMJUMPATTACKSMALL_COMICGUN>
+
+	<ITEMDASHATTACKSMALL_COMICHAMMER Type ="11">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "COMICHAMMER_DASH_ATK_X" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>		
+	</ITEMDASHATTACKSMALL_COMICHAMMER>
+
+	<ITEMJUMPATTACKSMALL_COMICHAMMER Type ="12">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "65.0" DamageMoveDist = "100.0" ComboCommand = "COMICHAMMER_JUMP_ATK_X" DamageCommand = "HIT_PUSH_B"/>
+		</Combo>		
+	</ITEMJUMPATTACKSMALL_COMICHAMMER>
+
+	<ITEMATTACKSMALL_COMICHAMMER Type ="13">
+		<Combo Name ="Comboset1">
+			<Property Key = "0" ComboMoveDist = "0.0" DamageMoveDist = "0.0" ComboCommand = "COMICHAMMER_COMBO_A" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "0" ComboMoveDist = "0.0" DamageMoveDist = "0.0" ComboCommand = "COMICHAMMER_COMBO_B" DamageCommand = "HIT_PUSH_A"/>
+			<Property Key = "0" ComboMoveDist = "0.0" DamageMoveDist = "0.0" ComboCommand = "COMICHAMMER_COMBO_C" DamageCommand = "HIT_PUSH_A"/>
+		</Combo>
+	</ITEMATTACKSMALL_COMICHAMMER>
+</ComboKey>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sabin_Obj_Type" FILENAME="Sabin_Obj_Type.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Sabin_Obj_Type.VS">
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_02_Type" FILENAME="Sabin_Obj_SPE_02_Type.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_03_Type" FILENAME="Sabin_Obj_SPE_03_Type.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sabin_Obj_Type_COMMANDS.XML" />
+</GAMEENTITY>

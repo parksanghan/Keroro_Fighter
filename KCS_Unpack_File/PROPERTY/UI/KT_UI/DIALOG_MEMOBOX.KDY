@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<UIXMLFile>
+    <DialogCount DialogNum="1">
+        <DialogDetailInfo0 DialogName="Dialog_MemoBox" DialogChildCount="15">
+            <DialogSizeInfo DialogPosX="377" DialogPosY="183" DialogSizeX="320" DialogSizeY="370">
+                <CONTROLINFO0 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="1" NormalSkin="0" ListSperateNum="1" EventCount="2" CheckPass="0" EventParentName="NONE" DEPTHID="0.000000" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Skin_Base" CONTROLPOSX="0" CONTROLPOSY="0" CONTROLSIZEX="320" CONTROLSIZEY="370" ETCINFO="3">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="377.000000" POSTION_Y="183.000000" POSTION_Z="0.000100" SCALE_X="160.000000" SCLAE_Y="185.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="5" IDNAME="5" />
+                        <TEXDETAILINFO1 DRAW="1" ID="5" TextureFileName="GUI_Messenger.tga" RECT_LEFT="3" RECT_TOP="515" RECT_RIGHT="326" RECT_BOTTOM="907" POSTION_X="377.000000" POSTION_Y="182.000000" POSTION_Z="0.000100" SCALE_X="0.985000" SCLAE_Y="0.946000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="6" IDNAME="6" />
+                        <TEXDETAILINFO2 DRAW="1" ID="6" TextureFileName="GUI_Messenger.tga" RECT_LEFT="330" RECT_TOP="320" RECT_RIGHT="650" RECT_BOTTOM="467" POSTION_X="381.000000" POSTION_Y="216.000000" POSTION_Z="0.000100" SCALE_X="0.975000" SCLAE_Y="1.020000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO0>
+                <CONTROLINFO1 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_NewMemo" CONTROLPOSX="17" CONTROLPOSY="328" CONTROLSIZEX="83" CONTROLSIZEY="32" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="394.000000" POSTION_Y="511.000000" POSTION_Z="0.000100" SCALE_X="41.500000" SCLAE_Y="16.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="GUI_Messenger.tga" RECT_LEFT="330" RECT_TOP="620" RECT_RIGHT="414" RECT_BOTTOM="649" POSTION_X="393.000000" POSTION_Y="511.000000" POSTION_Z="0.000500" SCALE_X="0.985000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="GUI_Messenger.tga" RECT_LEFT="331" RECT_TOP="650" RECT_RIGHT="414" RECT_BOTTOM="680" POSTION_X="394.000000" POSTION_Y="510.000000" POSTION_Z="0.000400" SCALE_X="0.985000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="GUI_Messenger.tga" RECT_LEFT="331" RECT_TOP="682" RECT_RIGHT="414" RECT_BOTTOM="712" POSTION_X="394.000000" POSTION_Y="511.000000" POSTION_Z="0.000300" SCALE_X="0.985000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO1>
+                <CONTROLINFO2 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="4" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_AnswerMemo" CONTROLPOSX="106" CONTROLPOSY="328" CONTROLSIZEX="72" CONTROLSIZEY="32" ETCINFO="5">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="483.000000" POSTION_Y="511.000000" POSTION_Z="0.000100" SCALE_X="36.000000" SCLAE_Y="16.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="5" IDNAME="5" />
+                        <TEXDETAILINFO1 DRAW="1" ID="5" TextureFileName="GUI_Messenger.tga" RECT_LEFT="416" RECT_TOP="712" RECT_RIGHT="488" RECT_BOTTOM="742" POSTION_X="484.000000" POSTION_Y="511.000000" POSTION_Z="0.000500" SCALE_X="0.985000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO2 DRAW="1" ID="10001" TextureFileName="GUI_Messenger.tga" RECT_LEFT="416" RECT_TOP="620" RECT_RIGHT="488" RECT_BOTTOM="650" POSTION_X="483.000000" POSTION_Y="511.000000" POSTION_Z="0.000400" SCALE_X="0.985000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10002" TextureFileName="GUI_Messenger.tga" RECT_LEFT="416" RECT_TOP="651" RECT_RIGHT="488" RECT_BOTTOM="681" POSTION_X="483.000000" POSTION_Y="511.000000" POSTION_Z="0.000300" SCALE_X="0.985000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN4 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO4 DRAW="0" ID="10003" TextureFileName="GUI_Messenger.tga" RECT_LEFT="416" RECT_TOP="682" RECT_RIGHT="488" RECT_BOTTOM="712" POSTION_X="483.000000" POSTION_Y="511.000000" POSTION_Z="0.000200" SCALE_X="0.985000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO2>
+                <CONTROLINFO3 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="4" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_DeleteMemo" CONTROLPOSX="191" CONTROLPOSY="328" CONTROLSIZEX="55" CONTROLSIZEY="32" ETCINFO="5">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="568.000000" POSTION_Y="511.000000" POSTION_Z="0.000100" SCALE_X="27.500000" SCLAE_Y="16.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="GUI_Messenger.tga" RECT_LEFT="490" RECT_TOP="620" RECT_RIGHT="542" RECT_BOTTOM="649" POSTION_X="568.000000" POSTION_Y="511.000000" POSTION_Z="0.000500" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="GUI_Messenger.tga" RECT_LEFT="490" RECT_TOP="651" RECT_RIGHT="542" RECT_BOTTOM="680" POSTION_X="568.000000" POSTION_Y="511.000000" POSTION_Z="0.000400" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="GUI_Messenger.tga" RECT_LEFT="490" RECT_TOP="682" RECT_RIGHT="542" RECT_BOTTOM="711" POSTION_X="568.000000" POSTION_Y="511.000000" POSTION_Z="0.000300" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN4 TEXTUREID="1" CONTROLID="0" ID="5" IDNAME="5" />
+                        <TEXDETAILINFO4 DRAW="1" ID="5" TextureFileName="GUI_Messenger.tga" RECT_LEFT="490" RECT_TOP="713" RECT_RIGHT="542" RECT_BOTTOM="742" POSTION_X="568.000000" POSTION_Y="511.000000" POSTION_Z="0.000200" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO3>
+                <CONTROLINFO4 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="4" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_CloseMemo" CONTROLPOSX="252" CONTROLPOSY="328" CONTROLSIZEX="55" CONTROLSIZEY="32" ETCINFO="5">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="629.000000" POSTION_Y="511.000000" POSTION_Z="0.000100" SCALE_X="27.500000" SCLAE_Y="16.000000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="GUI_Messenger.tga" RECT_LEFT="544" RECT_TOP="620" RECT_RIGHT="596" RECT_BOTTOM="649" POSTION_X="629.000000" POSTION_Y="511.000000" POSTION_Z="0.000500" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="GUI_Messenger.tga" RECT_LEFT="544" RECT_TOP="651" RECT_RIGHT="596" RECT_BOTTOM="680" POSTION_X="629.000000" POSTION_Y="511.000000" POSTION_Z="0.000400" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="GUI_Messenger.tga" RECT_LEFT="544" RECT_TOP="682" RECT_RIGHT="596" RECT_BOTTOM="711" POSTION_X="629.000000" POSTION_Y="511.000000" POSTION_Z="0.000300" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN4 TEXTUREID="1" CONTROLID="0" ID="5" IDNAME="5" />
+                        <TEXDETAILINFO4 DRAW="1" ID="5" TextureFileName="GUI_Messenger.tga" RECT_LEFT="544" RECT_TOP="713" RECT_RIGHT="596" RECT_BOTTOM="742" POSTION_X="629.000000" POSTION_Y="511.000000" POSTION_Z="0.000200" SCALE_X="1.030000" SCLAE_Y="1.080000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO4>
+                <CONTROLINFO5 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_SliderUp" CONTROLPOSX="301" CONTROLPOSY="54" CONTROLSIZEX="15" CONTROLSIZEY="17" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="678.000000" POSTION_Y="237.000000" POSTION_Z="0.000100" SCALE_X="7.500000" SCLAE_Y="8.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="GUI_Messenger.tga" RECT_LEFT="347" RECT_TOP="194" RECT_RIGHT="361" RECT_BOTTOM="210" POSTION_X="678.000000" POSTION_Y="237.000000" POSTION_Z="0.300000" SCALE_X="1.030000" SCLAE_Y="1.050000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="GUI_Messenger.tga" RECT_LEFT="347" RECT_TOP="212" RECT_RIGHT="361" RECT_BOTTOM="228" POSTION_X="678.000000" POSTION_Y="237.000000" POSTION_Z="0.000400" SCALE_X="1.030000" SCLAE_Y="1.050000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="GUI_Messenger.tga" RECT_LEFT="347" RECT_TOP="230" RECT_RIGHT="361" RECT_BOTTOM="246" POSTION_X="678.000000" POSTION_Y="237.000000" POSTION_Z="0.000300" SCALE_X="1.030000" SCLAE_Y="1.050000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO5>
+                <CONTROLINFO6 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="3" CheckPass="0" EventParentName="NONE" DEPTHID="0.000100" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Button_SliderDown" CONTROLPOSX="301" CONTROLPOSY="163" CONTROLSIZEX="15" CONTROLSIZEY="17" ETCINFO="4">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="678.000000" POSTION_Y="346.000000" POSTION_Z="0.000100" SCALE_X="7.500000" SCLAE_Y="8.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="10001" IDNAME="10001" />
+                        <TEXDETAILINFO1 DRAW="1" ID="10001" TextureFileName="GUI_Messenger.tga" RECT_LEFT="331" RECT_TOP="194" RECT_RIGHT="345" RECT_BOTTOM="210" POSTION_X="678.000000" POSTION_Y="346.000000" POSTION_Z="0.000400" SCALE_X="1.030000" SCLAE_Y="1.050000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN2 TEXTUREID="1" CONTROLID="0" ID="10002" IDNAME="10002" />
+                        <TEXDETAILINFO2 DRAW="0" ID="10002" TextureFileName="GUI_Messenger.tga" RECT_LEFT="331" RECT_TOP="212" RECT_RIGHT="345" RECT_BOTTOM="228" POSTION_X="678.000000" POSTION_Y="346.000000" POSTION_Z="0.000400" SCALE_X="1.030000" SCLAE_Y="1.050000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN3 TEXTUREID="1" CONTROLID="0" ID="10003" IDNAME="10003" />
+                        <TEXDETAILINFO3 DRAW="0" ID="10003" TextureFileName="GUI_Messenger.tga" RECT_LEFT="331" RECT_TOP="230" RECT_RIGHT="345" RECT_BOTTOM="246" POSTION_X="678.000000" POSTION_Y="346.000000" POSTION_Z="0.000300" SCALE_X="1.030000" SCLAE_Y="1.050000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO6>
+                <CONTROLINFO7 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000300" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Memo1" CONTROLPOSX="30" CONTROLPOSY="56" CONTROLSIZEX="262" CONTROLSIZEY="21" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="407.000000" POSTION_Y="239.000000" POSTION_Z="0.000100" SCALE_X="131.000000" SCLAE_Y="10.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO7>
+                <CONTROLINFO8 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000300" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Memo2" CONTROLPOSX="30" CONTROLPOSY="82" CONTROLSIZEX="262" CONTROLSIZEY="20" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="407.000000" POSTION_Y="265.000000" POSTION_Z="0.000100" SCALE_X="131.000000" SCLAE_Y="10.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO8>
+                <CONTROLINFO9 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000300" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Memo3" CONTROLPOSX="30" CONTROLPOSY="107" CONTROLSIZEX="262" CONTROLSIZEY="21" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="407.000000" POSTION_Y="290.000000" POSTION_Z="0.000100" SCALE_X="131.000000" SCLAE_Y="10.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO9>
+                <CONTROLINFO10 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000300" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Memo4" CONTROLPOSX="30" CONTROLPOSY="133" CONTROLSIZEX="262" CONTROLSIZEY="20" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="407.000000" POSTION_Y="316.000000" POSTION_Z="0.000100" SCALE_X="131.000000" SCLAE_Y="10.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO10>
+                <CONTROLINFO11 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000300" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="Memo5" CONTROLPOSX="30" CONTROLPOSY="158" CONTROLSIZEX="262" CONTROLSIZEY="21" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="407.000000" POSTION_Y="341.000000" POSTION_Z="0.000100" SCALE_X="131.000000" SCLAE_Y="10.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO11>
+                <CONTROLINFO12 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000300" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="MemoDisplay" CONTROLPOSX="30" CONTROLPOSY="195" CONTROLSIZEX="262" CONTROLSIZEY="123" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="407.000000" POSTION_Y="378.000000" POSTION_Z="0.000100" SCALE_X="131.000000" SCLAE_Y="61.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO12>
+                <CONTROLINFO13 MoveControl="0" SkinControl="0" ButtonControl="1" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="0" ListSperateNum="1" EventCount="0" CheckPass="0" EventParentName="NONE" DEPTHID="0.000500" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="SliderBase" CONTROLPOSX="302" CONTROLPOSY="72" CONTROLSIZEX="13" CONTROLSIZEY="91" ETCINFO="1">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background2.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="679.000000" POSTION_Y="255.000000" POSTION_Z="0.000100" SCALE_X="6.500000" SCLAE_Y="45.500000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO13>
+                <CONTROLINFO14 MoveControl="0" SkinControl="1" ButtonControl="0" ListBoxControl="0" InputBoxControl="0" SliderBoxControl="0" Garo="0" Sero="1" DialogSkin="0" NormalSkin="1" ListSperateNum="1" EventCount="1" CheckPass="0" EventParentName="NONE" DEPTHID="0.000200" SoundMouseUp="NONE" SoundMouseDown="NONE">
+                    <CONTROLSKININFO CONTROLNAME="SelectSkin" CONTROLPOSX="12" CONTROLPOSY="56" CONTROLSIZEX="57" CONTROLSIZEY="21" ETCINFO="2">
+                        <CONTROLSKIN0 TEXTUREID="0" CONTROLID="0" ID="0" IDNAME="NONE" />
+                        <TEXDETAILINFO0 DRAW="1" ID="20000" TextureFileName="background7.JPG" RECT_LEFT="0" RECT_TOP="0" RECT_RIGHT="2" RECT_BOTTOM="2" POSTION_X="389.000000" POSTION_Y="239.000000" POSTION_Z="0.000100" SCALE_X="28.500000" SCLAE_Y="10.500000" ALPHAVALUE="1.000000" />
+                        <CONTROLSKIN1 TEXTUREID="1" CONTROLID="0" ID="5" IDNAME="5" />
+                        <TEXDETAILINFO1 DRAW="1" ID="5" TextureFileName="GUI_Messenger.tga" RECT_LEFT="331" RECT_TOP="467" RECT_RIGHT="635" RECT_BOTTOM="487" POSTION_X="389.000000" POSTION_Y="239.000000" POSTION_Z="0.000000" SCALE_X="1.000000" SCLAE_Y="1.000000" ALPHAVALUE="1.000000" />
+                    </CONTROLSKININFO>
+                </CONTROLINFO14>
+            </DialogSizeInfo>
+        </DialogDetailInfo0>
+    </DialogCount>
+    <DIALOGSOUNDINFO SOUNDCOUNT="2">
+        <SoundDetailInfo0 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="OK" />
+        <SoundDetailInfo1 SoundLoop="0" SoundfileName="UI_OK.wav" SoundName="ok" />
+    </DIALOGSOUNDINFO>
+</UIXMLFile>

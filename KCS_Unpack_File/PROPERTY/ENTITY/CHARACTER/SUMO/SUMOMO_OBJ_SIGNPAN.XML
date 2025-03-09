@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sumo_Obj_Signpan" FILENAME="Sumo_Obj_Signpan.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Sumo_Obj_Signpan.VS">
+        <PROPERTYBAG NAME="Sumo_Obj_PKK.VA" FILENAME="Sumo_Obj_PKK.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sumo_Obj_PPK.VA" FILENAME="Sumo_Obj_PPK.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="sumomo_Obj_Signpan_COMMANDS.XML" />
+</GAMEENTITY>

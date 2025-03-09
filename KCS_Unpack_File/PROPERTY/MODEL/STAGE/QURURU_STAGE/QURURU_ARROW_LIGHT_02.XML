@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<VGEModelFile>
+    <MeshInfo filename="Qururu_arrow_light_02.VM" />
+    <TextureInfo count="1">
+        <Texture filename="Qururu_arrow_light_02.dds" />
+    </TextureInfo>
+    <ShaderInfo>
+        <Shader type="TextureTransform">
+            <Property name="UseAlpha" value="1" />
+            <Property name="MoveSpeedX" value="0.00" />
+            <Property name="MoveSpeedY" value="-0.12" />
+        </Shader>
+    </ShaderInfo>
+    <AlphaSortInfo Enable="1" />
+</VGEModelFile>

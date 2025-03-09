@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Spa_Steam_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="2.220000" X="10.000000" Y="10.000000" Z="10.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="0.000000" />
+            <Property Time="1.000000" Value="255.000000" />
+            <Property Time="1.220000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="2.220000" X="3.000000" Y="3.000000" Z="1.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Spa_Steam_P00.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="5.000000" Max="8.000000" />
+        <RepeatCount Count="12.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="2.220000" />
+        <RegenTime Min="0.500000" Max="0.550000" />
+        <RotScaleMin X="100.000000" Y="100.000000" Z="0.000000" />
+        <RotScaleMax X="150.000000" Y="150.000000" Z="360.000000" />
+        <RandPosMin X="-600.000000" Y="-50.000000" Z="-300.000000" />
+        <RandPosMax X="600.000000" Y="50.000000" Z="300.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="5.000000" Max="10.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="74">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.135135" Y="0.135135" Z="0.135135" />
+            <Alpha Value="7.650000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.040541" Y="0.040541" Z="0.013514" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.270270" Y="0.270270" Z="0.270270" />
+            <Alpha Value="15.299999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.081081" Y="0.081081" Z="0.027027" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.405405" Y="0.405405" Z="0.405405" />
+            <Alpha Value="22.949999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.121622" Y="0.121622" Z="0.040541" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.540541" Y="0.540541" Z="0.540541" />
+            <Alpha Value="30.599998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.162162" Y="0.162162" Z="0.054054" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.675676" Y="0.675676" Z="0.675676" />
+            <Alpha Value="38.249996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.202703" Y="0.202703" Z="0.067568" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.810811" Y="0.810811" Z="0.810811" />
+            <Alpha Value="45.899998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.243243" Y="0.243243" Z="0.081081" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.945946" Y="0.945946" Z="0.945946" />
+            <Alpha Value="53.549999" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.283784" Y="0.283784" Z="0.094595" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.081081" Y="1.081081" Z="1.081081" />
+            <Alpha Value="61.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.324324" Y="0.324324" Z="0.108108" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.216216" Y="1.216216" Z="1.216216" />
+            <Alpha Value="68.849998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.364865" Y="0.364865" Z="0.121622" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.351351" Y="1.351351" Z="1.351351" />
+            <Alpha Value="76.499992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.405405" Y="0.405405" Z="0.135135" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.486486" Y="1.486486" Z="1.486486" />
+            <Alpha Value="84.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.445946" Y="0.445946" Z="0.148649" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.621622" Y="1.621622" Z="1.621622" />
+            <Alpha Value="91.799995" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.486486" Y="0.486486" Z="0.162162" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.756757" Y="1.756757" Z="1.756757" />
+            <Alpha Value="99.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.527027" Y="0.527027" Z="0.175676" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.891892" Y="1.891892" Z="1.891892" />
+            <Alpha Value="107.099998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.567568" Y="0.567568" Z="0.189189" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.027027" Y="2.027027" Z="2.027027" />
+            <Alpha Value="114.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.608108" Y="0.608108" Z="0.202703" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.162162" Y="2.162162" Z="2.162162" />
+            <Alpha Value="122.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.648649" Y="0.648649" Z="0.216216" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.297297" Y="2.297297" Z="2.297297" />
+            <Alpha Value="130.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.689189" Y="0.689189" Z="0.229730" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.432432" Y="2.432432" Z="2.432432" />
+            <Alpha Value="137.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.729730" Y="0.729730" Z="0.243243" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.567568" Y="2.567568" Z="2.567568" />
+            <Alpha Value="145.349991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.770270" Y="0.770270" Z="0.256757" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.702703" Y="2.702703" Z="2.702703" />
+            <Alpha Value="152.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.810811" Y="0.810811" Z="0.270270" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.837838" Y="2.837838" Z="2.837838" />
+            <Alpha Value="160.649994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.851351" Y="0.851351" Z="0.283784" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.972973" Y="2.972973" Z="2.972973" />
+            <Alpha Value="168.299988" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.891892" Y="0.891892" Z="0.297297" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.108108" Y="3.108108" Z="3.108108" />
+            <Alpha Value="175.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.932432" Y="0.932432" Z="0.310811" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.243243" Y="3.243243" Z="3.243243" />
+            <Alpha Value="183.599991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.972973" Y="0.972973" Z="0.324324" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.378378" Y="3.378378" Z="3.378378" />
+            <Alpha Value="191.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.013514" Y="1.013514" Z="0.337838" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.513513" Y="3.513513" Z="3.513513" />
+            <Alpha Value="198.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.054054" Y="1.054054" Z="0.351351" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.648649" Y="3.648649" Z="3.648649" />
+            <Alpha Value="206.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.094595" Y="1.094595" Z="0.364865" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.783784" Y="3.783784" Z="3.783784" />
+            <Alpha Value="214.199997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.135135" Y="1.135135" Z="0.378378" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.918919" Y="3.918919" Z="3.918919" />
+            <Alpha Value="221.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.175676" Y="1.175676" Z="0.391892" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.054054" Y="4.054054" Z="4.054054" />
+            <Alpha Value="229.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.216216" Y="1.216216" Z="0.405405" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.189189" Y="4.189189" Z="4.189189" />
+            <Alpha Value="237.150009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.256757" Y="1.256757" Z="0.418919" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.324324" Y="4.324324" Z="4.324324" />
+            <Alpha Value="244.799988" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.297297" Y="1.297297" Z="0.432432" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.459459" Y="4.459459" Z="4.459459" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.337838" Y="1.337838" Z="0.445946" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.594594" Y="4.594594" Z="4.594594" />
+            <Alpha Value="248.729507" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.378378" Y="1.378378" Z="0.459459" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.729730" Y="4.729730" Z="4.729730" />
+            <Alpha Value="242.459015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.418919" Y="1.418919" Z="0.472973" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.864864" Y="4.864864" Z="4.864864" />
+            <Alpha Value="236.188522" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.459459" Y="1.459459" Z="0.486486" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.000000" Y="5.000000" Z="5.000000" />
+            <Alpha Value="229.918030" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.500000" Y="1.500000" Z="0.500000" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.135135" Y="5.135135" Z="5.135135" />
+            <Alpha Value="223.647552" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.540540" Y="1.540540" Z="0.513514" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.270270" Y="5.270270" Z="5.270270" />
+            <Alpha Value="217.377045" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.581081" Y="1.581081" Z="0.527027" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.405405" Y="5.405405" Z="5.405405" />
+            <Alpha Value="211.106567" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.621622" Y="1.621622" Z="0.540541" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.540541" Y="5.540541" Z="5.540541" />
+            <Alpha Value="204.836060" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.662162" Y="1.662162" Z="0.554054" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.675675" Y="5.675675" Z="5.675675" />
+            <Alpha Value="198.565582" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.702703" Y="1.702703" Z="0.567568" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.810810" Y="5.810810" Z="5.810810" />
+            <Alpha Value="192.295090" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.743243" Y="1.743243" Z="0.581081" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.945945" Y="5.945945" Z="5.945945" />
+            <Alpha Value="186.024597" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.783784" Y="1.783784" Z="0.594595" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.081081" Y="6.081081" Z="6.081081" />
+            <Alpha Value="179.754105" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.824324" Y="1.824324" Z="0.608108" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.216216" Y="6.216216" Z="6.216216" />
+            <Alpha Value="173.483612" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.864865" Y="1.864865" Z="0.621622" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.351351" Y="6.351351" Z="6.351351" />
+            <Alpha Value="167.213120" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.905405" Y="1.905405" Z="0.635135" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.486486" Y="6.486486" Z="6.486486" />
+            <Alpha Value="160.942627" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.945946" Y="1.945946" Z="0.648649" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.621621" Y="6.621621" Z="6.621621" />
+            <Alpha Value="154.672134" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.986486" Y="1.986486" Z="0.662162" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.756757" Y="6.756757" Z="6.756757" />
+            <Alpha Value="148.401642" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.027027" Y="2.027027" Z="0.675676" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.891892" Y="6.891892" Z="6.891892" />
+            <Alpha Value="142.131165" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.067568" Y="2.067568" Z="0.689189" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.027026" Y="7.027026" Z="7.027026" />
+            <Alpha Value="135.860657" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.108108" Y="2.108108" Z="0.702703" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.162161" Y="7.162161" Z="7.162161" />
+            <Alpha Value="129.590179" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.148649" Y="2.148649" Z="0.716216" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.297297" Y="7.297297" Z="7.297297" />
+            <Alpha Value="123.319672" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.189189" Y="2.189189" Z="0.729730" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.432432" Y="7.432432" Z="7.432432" />
+            <Alpha Value="117.049194" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.229730" Y="2.229730" Z="0.743243" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.567567" Y="7.567567" Z="7.567567" />
+            <Alpha Value="110.778687" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.270270" Y="2.270270" Z="0.756757" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.702703" Y="7.702703" Z="7.702703" />
+            <Alpha Value="104.508209" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.310811" Y="2.310811" Z="0.770270" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.837838" Y="7.837838" Z="7.837838" />
+            <Alpha Value="98.237717" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.351351" Y="2.351351" Z="0.783784" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.972973" Y="7.972973" Z="7.972973" />
+            <Alpha Value="91.967224" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.391892" Y="2.391892" Z="0.797297" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.108109" Y="8.108109" Z="8.108109" />
+            <Alpha Value="85.696732" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.432432" Y="2.432432" Z="0.810811" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.243242" Y="8.243242" Z="8.243242" />
+            <Alpha Value="79.426239" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.472973" Y="2.472973" Z="0.824324" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.378378" Y="8.378378" Z="8.378378" />
+            <Alpha Value="73.155746" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.513514" Y="2.513514" Z="0.837838" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.513514" Y="8.513514" Z="8.513514" />
+            <Alpha Value="66.885254" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.554054" Y="2.554054" Z="0.851351" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.648648" Y="8.648648" Z="8.648648" />
+            <Alpha Value="60.614761" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.594594" Y="2.594594" Z="0.864865" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.783783" Y="8.783783" Z="8.783783" />
+            <Alpha Value="54.344269" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.635135" Y="2.635135" Z="0.878378" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.918919" Y="8.918919" Z="8.918919" />
+            <Alpha Value="48.073792" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.675675" Y="2.675675" Z="0.891892" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.054054" Y="9.054054" Z="9.054054" />
+            <Alpha Value="41.803284" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.716216" Y="2.716216" Z="0.905405" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.189189" Y="9.189189" Z="9.189189" />
+            <Alpha Value="35.532806" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.756757" Y="2.756757" Z="0.918919" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.324324" Y="9.324324" Z="9.324324" />
+            <Alpha Value="29.262314" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.797297" Y="2.797297" Z="0.932432" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.459459" Y="9.459459" Z="9.459459" />
+            <Alpha Value="22.991806" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.837838" Y="2.837838" Z="0.945946" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.594594" Y="9.594594" Z="9.594594" />
+            <Alpha Value="16.721329" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.878378" Y="2.878378" Z="0.959459" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.729729" Y="9.729729" Z="9.729729" />
+            <Alpha Value="10.450836" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.918919" Y="2.918919" Z="0.972973" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.864865" Y="9.864865" Z="9.864865" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.959460" Y="2.959460" Z="0.986486" />
+            <Texture Texture="Spa_Steam_P00.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

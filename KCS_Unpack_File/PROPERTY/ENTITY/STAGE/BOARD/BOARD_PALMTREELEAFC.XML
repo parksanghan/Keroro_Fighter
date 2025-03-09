@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Board_PalmTreeC" FILENAME="Board_PalmTreeC.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Board_PalmTreeLeafC" FILENAME="Board_PalmTreeLeafC.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Board_PalmTreeLeafC.VS">
+        <PROPERTYBAG NAME="Board_PalmTreeLeafC" FILENAME="Board_PalmTreeLeafC.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Board_PalmTreeLeafC_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Skil_Atk_ClayeAtk_P04" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="30.000000" Y="30.000000" Z="30.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="1.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.500000" Y="0.500000" Z="0.000000" />
+            <Property Time="1.000000" X="10.000000" Y="10.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Skil_Atk_ClayeAtk_P02.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="30.000000" Max="40.000000" />
+        <RepeatCount Count="1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="0.990000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="5.000000" Y="5.000000" Z="0.000000" />
+        <RotScaleMax X="20.000000" Y="20.000000" Z="360.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="30.000000" Max="30.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90.000000" Y="0.000000" Z="-0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="360.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="10.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="33">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.785000" Y="0.785000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.070000" Y="1.070000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.355000" Y="1.355000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.640000" Y="1.640000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.925000" Y="1.925000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.210000" Y="2.210000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.300000" Y="6.300000" Z="6.300000" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.495000" Y="2.495000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.200000" Y="7.200000" Z="7.200000" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.780000" Y="2.780000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.099999" Y="8.099999" Z="8.099999" />
+            <Alpha Value="186.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.065000" Y="3.065000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.999999" Y="8.999999" Z="8.999999" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.350000" Y="3.350000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.900000" Y="9.900000" Z="9.900000" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.635000" Y="3.635000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.799999" Y="10.799999" Z="10.799999" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.920000" Y="3.920000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.700000" Y="11.700000" Z="11.700000" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.205000" Y="4.205000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.599999" Y="12.599999" Z="12.599999" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.490000" Y="4.490000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.500000" Y="13.500000" Z="13.500000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.775000" Y="4.775000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.400000" Y="14.400000" Z="14.400000" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.060000" Y="5.060000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.299999" Y="15.299999" Z="15.299999" />
+            <Alpha Value="124.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.345000" Y="5.345000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.199999" Y="16.199999" Z="16.199999" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.630000" Y="5.630000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.100000" Y="17.100000" Z="17.100000" />
+            <Alpha Value="109.650009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.915000" Y="5.915000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.999998" Y="17.999998" Z="17.999998" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.200000" Y="6.200000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.900000" Y="18.900000" Z="18.900000" />
+            <Alpha Value="94.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.485000" Y="6.485000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.799999" Y="19.799999" Z="19.799999" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.770000" Y="6.770000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.700001" Y="20.700001" Z="20.700001" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="7.055000" Y="7.055000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.599998" Y="21.599998" Z="21.599998" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="7.340000" Y="7.340000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.500000" Y="22.500000" Z="22.500000" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="7.625000" Y="7.625000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.400000" Y="23.400000" Z="23.400000" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="7.910000" Y="7.910000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.299999" Y="24.299999" Z="24.299999" />
+            <Alpha Value="48.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="8.195000" Y="8.195000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.199999" Y="25.199999" Z="25.199999" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="8.480000" Y="8.480000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.100000" Y="26.100000" Z="26.100000" />
+            <Alpha Value="33.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="8.765000" Y="8.765000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.000000" Y="27.000000" Z="27.000000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="9.050000" Y="9.050000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.900000" Y="27.900000" Z="27.900000" />
+            <Alpha Value="17.849991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="9.335000" Y="9.335000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.799999" Y="28.799999" Z="28.799999" />
+            <Alpha Value="10.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="9.620000" Y="9.620000" Z="0.000000" />
+            <Texture Texture="Skil_Atk_ClayeAtk_P02.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

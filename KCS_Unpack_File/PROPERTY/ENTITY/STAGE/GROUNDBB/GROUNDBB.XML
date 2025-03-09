@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="41">
+        <PROPERTYBAG NAME="empty2_basket01" FILENAME="empty2_basket01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_refrigerator01" FILENAME="empty2_refrigerator01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_woodguard" FILENAME="empty2_woodguard.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_wallstone" FILENAME="empty2_wallstone.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tube01" FILENAME="empty2_tube01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_truck01" FILENAME="empty2_truck01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tire" FILENAME="empty2_tire.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tent_column01" FILENAME="empty2_tent_column01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_stone03" FILENAME="empty2_stone03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_signal" FILENAME="empty2_signal.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_sign" FILENAME="empty2_sign.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_maincar_obj01" FILENAME="empty2_maincar_obj01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_ground01" FILENAME="empty2_ground01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_drum02" FILENAME="empty2_drum02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_drum01" FILENAME="empty2_drum01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_control01" FILENAME="empty2_control01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_carwall01" FILENAME="empty2_carwall01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_carhole" FILENAME="empty2_carhole.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_carground02" FILENAME="empty2_carground02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_carground01" FILENAME="empty2_carground01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_car_object02" FILENAME="empty2_car_object02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_shadows" FILENAME="empty2_shadows.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tent01" FILENAME="empty2_tent01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_stealbridge" FILENAME="empty2_stealbridge.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_house01" FILENAME="empty2_house01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_house02" FILENAME="empty2_house02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_house03" FILENAME="empty2_house03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_house04" FILENAME="empty2_house04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_pillar01" FILENAME="empty2_pillar01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_sky01" FILENAME="empty2_sky01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_ground02" FILENAME="empty2_ground02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tree06" FILENAME="empty2_tree06.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tree05" FILENAME="empty2_tree05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tree04" FILENAME="empty2_tree04.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tree03" FILENAME="empty2_tree03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tree02" FILENAME="empty2_tree02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tree01" FILENAME="empty2_tree01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_tree" FILENAME="empty2_tree.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_elecline" FILENAME="empty2_elecline.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_ladder" FILENAME="empty2_ladder.xml" COMMENT="" />
+        <PROPERTYBAG NAME="empty2_grass01" FILENAME="empty2_grass01.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="4">
+        <PROPERTYBAG NAME="Ground2_Light_E00" FILENAME="Ground2_Light_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground2_Light_E01" FILENAME="Ground2_Light_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground2_eye_E00" FILENAME="Ground2_eye_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Ground_bird_E00" FILENAME="Ground_bird_E00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="GroundBB_COMMANDS.XML" />
+</GAMEENTITY>

@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="kt_ef_portal" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="8.000000" X="30.000000" Y="30.000000" Z="30.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="0.000000" />
+            <Property Time="0.800000" Value="255.000000" />
+            <Property Time="1.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.500000" X="1.000000" Y="1.000000" Z="1.000000" />
+            <Property Time="1.500000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="kt_ef_blue_jh.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="1.000000" Max="1.000000" />
+        <RepeatCount Count="-1.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="5.000000" Value="7.980000" />
+        <RegenTime Min="0.100000" Max="1.000000" />
+        <RotScaleMin X="30.000000" Y="30.000000" Z="0.000000" />
+        <RotScaleMax X="40.000000" Y="40.000000" Z="360.000000" />
+        <RandPosMin X="-100.000000" Y="100.000000" Z="-100.000000" />
+        <RandPosMax X="100.000000" Y="0.000000" Z="100.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="90.000000" Max="90.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="-0.000000" />
+        <JetDirMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="10.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="2.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="266">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.112500" Y="0.112500" Z="0.112500" />
+            <Alpha Value="9.562499" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.060000" Y="0.060000" Z="0.060000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.225000" Y="0.225000" Z="0.225000" />
+            <Alpha Value="19.124998" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.120000" Y="0.120000" Z="0.120000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.337500" Y="0.337500" Z="0.337500" />
+            <Alpha Value="28.687500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.180000" Y="0.180000" Z="0.180000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="38.249996" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.240000" Y="0.240000" Z="0.240000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.562500" Y="0.562500" Z="0.562500" />
+            <Alpha Value="47.812496" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.300000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.675000" Y="0.675000" Z="0.675000" />
+            <Alpha Value="57.375000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.360000" Y="0.360000" Z="0.360000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.787500" Y="0.787500" Z="0.787500" />
+            <Alpha Value="66.937500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="0.420000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="76.499992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.480000" Y="0.480000" Z="0.480000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.012500" Y="1.012500" Z="1.012500" />
+            <Alpha Value="86.062492" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.540000" Y="0.540000" Z="0.540000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.125000" Y="1.125000" Z="1.125000" />
+            <Alpha Value="95.624992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.600000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.237500" Y="1.237500" Z="1.237500" />
+            <Alpha Value="105.187492" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.660000" Y="0.660000" Z="0.660000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="114.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.720000" Y="0.720000" Z="0.720000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.462500" Y="1.462500" Z="1.462500" />
+            <Alpha Value="124.312492" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.780000" Y="0.780000" Z="0.780000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.575000" Y="1.575000" Z="1.575000" />
+            <Alpha Value="133.875000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="0.840000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.687500" Y="1.687500" Z="1.687500" />
+            <Alpha Value="143.437500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.900000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="152.999985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="1.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.912500" Y="1.912500" Z="1.912500" />
+            <Alpha Value="162.562500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.980000" Y="0.980000" Z="0.980000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.025000" Y="2.025000" Z="2.025000" />
+            <Alpha Value="172.124985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.960000" Y="0.960000" Z="0.960000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.137500" Y="2.137500" Z="2.137500" />
+            <Alpha Value="181.687500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.940000" Y="0.940000" Z="0.940000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="191.249985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.920000" Y="0.920000" Z="0.920000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.362500" Y="2.362500" Z="2.362500" />
+            <Alpha Value="200.812485" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.900000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.475000" Y="2.475000" Z="2.475000" />
+            <Alpha Value="210.374985" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.880000" Y="0.880000" Z="0.880000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.587500" Y="2.587500" Z="2.587500" />
+            <Alpha Value="219.937500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.860000" Y="0.860000" Z="0.860000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="229.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="0.840000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.812500" Y="2.812500" Z="2.812500" />
+            <Alpha Value="239.062500" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.820000" Y="0.820000" Z="0.820000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.925000" Y="2.925000" Z="2.925000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.800000" Y="0.800000" Z="0.800000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.037500" Y="3.037500" Z="3.037500" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.780000" Y="0.780000" Z="0.780000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.760000" Y="0.760000" Z="0.760000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.262500" Y="3.262500" Z="3.262500" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.740000" Y="0.740000" Z="0.740000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.375000" Y="3.375000" Z="3.375000" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.720000" Y="0.720000" Z="0.720000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.487500" Y="3.487500" Z="3.487500" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.700000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.680000" Y="0.680000" Z="0.680000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.712500" Y="3.712500" Z="3.712500" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.660000" Y="0.660000" Z="0.660000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.825000" Y="3.825000" Z="3.825000" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.640000" Y="0.640000" Z="0.640000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.937500" Y="3.937500" Z="3.937500" />
+            <Alpha Value="186.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.620000" Y="0.620000" Z="0.620000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.600000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.162500" Y="4.162500" Z="4.162500" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.580000" Y="0.580000" Z="0.580000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.275000" Y="4.275000" Z="4.275000" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.560000" Y="0.560000" Z="0.560000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.387500" Y="4.387500" Z="4.387500" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.540000" Y="0.540000" Z="0.540000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.520000" Y="0.520000" Z="0.520000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.612500" Y="4.612500" Z="4.612500" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.500000" Y="0.500000" Z="0.500000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.725000" Y="4.725000" Z="4.725000" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.480000" Y="0.480000" Z="0.480000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.837500" Y="4.837500" Z="4.837500" />
+            <Alpha Value="124.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.460000" Y="0.460000" Z="0.460000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.950000" Y="4.950000" Z="4.950000" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.440000" Y="0.440000" Z="0.440000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.062500" Y="5.062500" Z="5.062500" />
+            <Alpha Value="109.650009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="0.420000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.175000" Y="5.175000" Z="5.175000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.400000" Y="0.400000" Z="0.400000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.287500" Y="5.287500" Z="5.287500" />
+            <Alpha Value="94.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.380000" Y="0.380000" Z="0.380000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.360000" Y="0.360000" Z="0.360000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.512500" Y="5.512500" Z="5.512500" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.340000" Y="0.340000" Z="0.340000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.625000" Y="5.625000" Z="5.625000" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.320000" Y="0.320000" Z="0.320000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.737500" Y="5.737500" Z="5.737500" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.300000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.850000" Y="5.850000" Z="5.850000" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.280000" Y="0.280000" Z="0.280000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.962500" Y="5.962500" Z="5.962500" />
+            <Alpha Value="48.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.260000" Y="0.260000" Z="0.260000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.075000" Y="6.075000" Z="6.075000" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.240000" Y="0.240000" Z="0.240000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.187500" Y="6.187500" Z="6.187500" />
+            <Alpha Value="33.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.220000" Y="0.220000" Z="0.220000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.300000" Y="6.300000" Z="6.300000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.200000" Y="0.200000" Z="0.200000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.412500" Y="6.412500" Z="6.412500" />
+            <Alpha Value="17.849991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.180000" Y="0.180000" Z="0.180000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.525000" Y="6.525000" Z="6.525000" />
+            <Alpha Value="10.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.160000" Y="0.160000" Z="0.160000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.637500" Y="6.637500" Z="6.637500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.140000" Y="0.140000" Z="0.140000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.750000" Y="6.750000" Z="6.750000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.120000" Y="0.120000" Z="0.120000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.862500" Y="6.862500" Z="6.862500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.100000" Y="0.100000" Z="0.100000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.975000" Y="6.975000" Z="6.975000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.080000" Y="0.080000" Z="0.080000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.087500" Y="7.087500" Z="7.087500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.060000" Y="0.060000" Z="0.060000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.200000" Y="7.200000" Z="7.200000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.040000" Y="0.040000" Z="0.040000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.312500" Y="7.312500" Z="7.312500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.020000" Y="0.020000" Z="0.020000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.425000" Y="7.425000" Z="7.425000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.537500" Y="7.537500" Z="7.537500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.650000" Y="7.650000" Z="7.650000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.762500" Y="7.762500" Z="7.762500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.875000" Y="7.875000" Z="7.875000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.987500" Y="7.987500" Z="7.987500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.099999" Y="8.099999" Z="8.099999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.212501" Y="8.212501" Z="8.212501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.325000" Y="8.325000" Z="8.325000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.437500" Y="8.437500" Z="8.437500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.550000" Y="8.550000" Z="8.550000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.662499" Y="8.662499" Z="8.662499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.775000" Y="8.775000" Z="8.775000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.887500" Y="8.887500" Z="8.887500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.999999" Y="8.999999" Z="8.999999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.112499" Y="9.112499" Z="9.112499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.225000" Y="9.225000" Z="9.225000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.337500" Y="9.337500" Z="9.337500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.450000" Y="9.450000" Z="9.450000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.562500" Y="9.562500" Z="9.562500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.674999" Y="9.674999" Z="9.674999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.787499" Y="9.787499" Z="9.787499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.900000" Y="9.900000" Z="9.900000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.012500" Y="10.012500" Z="10.012500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.125000" Y="10.125000" Z="10.125000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.237500" Y="10.237500" Z="10.237500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.350000" Y="10.350000" Z="10.350000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.462500" Y="10.462500" Z="10.462500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.575000" Y="10.575000" Z="10.575000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.687500" Y="10.687500" Z="10.687500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.799999" Y="10.799999" Z="10.799999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.912499" Y="10.912499" Z="10.912499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.025000" Y="11.025000" Z="11.025000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.137500" Y="11.137500" Z="11.137500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.250000" Y="11.250000" Z="11.250000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.362500" Y="11.362500" Z="11.362500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.474999" Y="11.474999" Z="11.474999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.587500" Y="11.587500" Z="11.587500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.700000" Y="11.700000" Z="11.700000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.812499" Y="11.812499" Z="11.812499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.924999" Y="11.924999" Z="11.924999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.037500" Y="12.037500" Z="12.037500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.150000" Y="12.150000" Z="12.150000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.262500" Y="12.262500" Z="12.262500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.375000" Y="12.375000" Z="12.375000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.487499" Y="12.487499" Z="12.487499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.599999" Y="12.599999" Z="12.599999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.712500" Y="12.712500" Z="12.712500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.825000" Y="12.825000" Z="12.825000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.937499" Y="12.937499" Z="12.937499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.050000" Y="13.050000" Z="13.050000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.162500" Y="13.162500" Z="13.162500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.275000" Y="13.275000" Z="13.275000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.387500" Y="13.387500" Z="13.387500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.500000" Y="13.500000" Z="13.500000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.612499" Y="13.612499" Z="13.612499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.724999" Y="13.724999" Z="13.724999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.837500" Y="13.837500" Z="13.837500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.950000" Y="13.950000" Z="13.950000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.062500" Y="14.062500" Z="14.062500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.175000" Y="14.175000" Z="14.175000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.287499" Y="14.287499" Z="14.287499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.400000" Y="14.400000" Z="14.400000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.512500" Y="14.512500" Z="14.512500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.624999" Y="14.624999" Z="14.624999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.737499" Y="14.737499" Z="14.737499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.849999" Y="14.849999" Z="14.849999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.962500" Y="14.962500" Z="14.962500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.075000" Y="15.075000" Z="15.075000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.187499" Y="15.187499" Z="15.187499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.299999" Y="15.299999" Z="15.299999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.412500" Y="15.412500" Z="15.412500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.525000" Y="15.525000" Z="15.525000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.637501" Y="15.637501" Z="15.637501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.749999" Y="15.749999" Z="15.749999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.862500" Y="15.862500" Z="15.862500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.974999" Y="15.974999" Z="15.974999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.087500" Y="16.087500" Z="16.087500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.199999" Y="16.199999" Z="16.199999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.312500" Y="16.312500" Z="16.312500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.425001" Y="16.425001" Z="16.425001" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.537498" Y="16.537498" Z="16.537498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.650000" Y="16.650000" Z="16.650000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.762499" Y="16.762499" Z="16.762499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.875000" Y="16.875000" Z="16.875000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.987499" Y="16.987499" Z="16.987499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.100000" Y="17.100000" Z="17.100000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.212500" Y="17.212500" Z="17.212500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.324999" Y="17.324999" Z="17.324999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.437500" Y="17.437500" Z="17.437500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.549999" Y="17.549999" Z="17.549999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.662500" Y="17.662500" Z="17.662500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.775000" Y="17.775000" Z="17.775000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.887501" Y="17.887501" Z="17.887501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="17.999998" Y="17.999998" Z="17.999998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.112499" Y="18.112499" Z="18.112499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.224998" Y="18.224998" Z="18.224998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.337500" Y="18.337500" Z="18.337500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.450001" Y="18.450001" Z="18.450001" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.562500" Y="18.562500" Z="18.562500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.674999" Y="18.674999" Z="18.674999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.787498" Y="18.787498" Z="18.787498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="18.900000" Y="18.900000" Z="18.900000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.012499" Y="19.012499" Z="19.012499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.125000" Y="19.125000" Z="19.125000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.237501" Y="19.237501" Z="19.237501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.349998" Y="19.349998" Z="19.349998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.462500" Y="19.462500" Z="19.462500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.574999" Y="19.574999" Z="19.574999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.687500" Y="19.687500" Z="19.687500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.799999" Y="19.799999" Z="19.799999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.912500" Y="19.912500" Z="19.912500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.025000" Y="20.025000" Z="20.025000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.137499" Y="20.137499" Z="20.137499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.250000" Y="20.250000" Z="20.250000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.362499" Y="20.362499" Z="20.362499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.475000" Y="20.475000" Z="20.475000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.587500" Y="20.587500" Z="20.587500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.700001" Y="20.700001" Z="20.700001" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.812498" Y="20.812498" Z="20.812498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="20.924999" Y="20.924999" Z="20.924999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.037498" Y="21.037498" Z="21.037498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.150000" Y="21.150000" Z="21.150000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.262501" Y="21.262501" Z="21.262501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.375000" Y="21.375000" Z="21.375000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.487499" Y="21.487499" Z="21.487499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.599998" Y="21.599998" Z="21.599998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.712500" Y="21.712500" Z="21.712500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.824999" Y="21.824999" Z="21.824999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.937500" Y="21.937500" Z="21.937500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.049999" Y="22.049999" Z="22.049999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.162498" Y="22.162498" Z="22.162498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.275000" Y="22.275000" Z="22.275000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.387499" Y="22.387499" Z="22.387499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.500000" Y="22.500000" Z="22.500000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.612499" Y="22.612499" Z="22.612499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.725000" Y="22.725000" Z="22.725000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.837500" Y="22.837500" Z="22.837500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="22.949999" Y="22.949999" Z="22.949999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.062500" Y="23.062500" Z="23.062500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.174999" Y="23.174999" Z="23.174999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.287500" Y="23.287500" Z="23.287500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.400000" Y="23.400000" Z="23.400000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.512501" Y="23.512501" Z="23.512501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.624998" Y="23.624998" Z="23.624998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.737499" Y="23.737499" Z="23.737499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.849998" Y="23.849998" Z="23.849998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="23.962500" Y="23.962500" Z="23.962500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.075001" Y="24.075001" Z="24.075001" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.187500" Y="24.187500" Z="24.187500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.299999" Y="24.299999" Z="24.299999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.412498" Y="24.412498" Z="24.412498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.525000" Y="24.525000" Z="24.525000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.637499" Y="24.637499" Z="24.637499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.750000" Y="24.750000" Z="24.750000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.862499" Y="24.862499" Z="24.862499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24.974998" Y="24.974998" Z="24.974998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.087500" Y="25.087500" Z="25.087500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.199999" Y="25.199999" Z="25.199999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.312500" Y="25.312500" Z="25.312500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.424999" Y="25.424999" Z="25.424999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.537500" Y="25.537500" Z="25.537500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.650000" Y="25.650000" Z="25.650000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.762499" Y="25.762499" Z="25.762499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.874998" Y="25.874998" Z="25.874998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="25.987499" Y="25.987499" Z="25.987499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.100000" Y="26.100000" Z="26.100000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.212500" Y="26.212500" Z="26.212500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.325001" Y="26.325001" Z="26.325001" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.437498" Y="26.437498" Z="26.437498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.549999" Y="26.549999" Z="26.549999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.662498" Y="26.662498" Z="26.662498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.775000" Y="26.775000" Z="26.775000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.887501" Y="26.887501" Z="26.887501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.000000" Y="27.000000" Z="27.000000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.112499" Y="27.112499" Z="27.112499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.224998" Y="27.224998" Z="27.224998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.337500" Y="27.337500" Z="27.337500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.449999" Y="27.449999" Z="27.449999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.562500" Y="27.562500" Z="27.562500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.674999" Y="27.674999" Z="27.674999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.787498" Y="27.787498" Z="27.787498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="27.900000" Y="27.900000" Z="27.900000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.012499" Y="28.012499" Z="28.012499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.125000" Y="28.125000" Z="28.125000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.237499" Y="28.237499" Z="28.237499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.350000" Y="28.350000" Z="28.350000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.462500" Y="28.462500" Z="28.462500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.574999" Y="28.574999" Z="28.574999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.687498" Y="28.687498" Z="28.687498" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.799999" Y="28.799999" Z="28.799999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.912500" Y="28.912500" Z="28.912500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.025000" Y="29.025000" Z="29.025000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.137501" Y="29.137501" Z="29.137501" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.249998" Y="29.249998" Z="29.249998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.362499" Y="29.362499" Z="29.362499" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.474998" Y="29.474998" Z="29.474998" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.587500" Y="29.587500" Z="29.587500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.699999" Y="29.699999" Z="29.699999" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="29.812500" Y="29.812500" Z="29.812500" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="kt_ef_blue_jh.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

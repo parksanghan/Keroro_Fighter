@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Joriri_Obj_Shower" FILENAME="Joriri_Obj_Shower.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Joriri_Comb_SPE_Shower.VS">
+        <PROPERTYBAG NAME="Skill_Joriri_Bathtub_Obj_Shower_01" FILENAME="Skill_Joriri_Bathtub_Obj_Shower_01.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Joriri_Bathtub_Obj_Shower_02" FILENAME="Skill_Joriri_Bathtub_Obj_Shower_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_Joriri_Obj_Shower_COMMANDS.XML" />
+</GAMEENTITY>

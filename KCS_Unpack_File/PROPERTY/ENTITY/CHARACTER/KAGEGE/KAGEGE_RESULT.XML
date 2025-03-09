@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="19">
+        <PROPERTYBAG NAME="CAP" FILENAME="Kagege_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Kagege_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Kagege_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Kagege_Bodyu.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Kagege_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Kagege_Head_01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Kagege_Head_02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Kagege_Head_03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Kagege_Head.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Kagege_Head.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="COMBAT_WAIT" FILENAME="Kagege_Combat_Wait.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_SPE" FILENAME="Kagege_Comb_SPE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="LOSE" FILENAME="Kagege_Lose.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Kagege_GAME_LOSE" FILENAME="Kagege_GAME_LOSE_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Kagege_GAME_WIN" FILENAME="Kagege_GAME_WIN_V1.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="EVENT" FILENAME="Event.xml" COMMENT="" />
+        <PROPERTYBAG NAME="LEVEL_UP" FILENAME="Playground_Warp_Y00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="WKiru_PK_B00" FILENAME="WKiru_PK_B00.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Kagege_Obj_Lose" FILENAME="Kagege_Obj_Lose.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Kagege_Result_COMMANDS.XML" />
+</GAMEENTITY>

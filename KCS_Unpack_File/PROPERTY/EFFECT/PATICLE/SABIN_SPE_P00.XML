@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="SaBin_SPE_P00" />
+    <ParticleVer Ver="3" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+            <Property Time="0.7" X="0" Y="0" Z="0" />
+            <Property Time="0.5" X="40" Y="40" Z="40" />
+        </Speed>
+        <Alpha>
+            <Property Time="0" Value="255" />
+            <Property Time="1" Value="255" />
+            <Property Time="0.2" Value="0" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0" X="1" Y="1" Z="0" />
+            <Property Time="1.2" X="1" Y="1" Z="5" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0" Value="Char_Sabin_ComGhost_E02.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0" X="0" Y="0" Z="0" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="5" Max="10" />
+        <RepeatCount Count="3" />
+        <Gravity Value="0" />
+        <Life Life_Min="1" Value="1.2" />
+        <RegenTime Min="0.01" Max="0.05" />
+        <RotScaleMin X="10" Y="10" Z="0" />
+        <RotScaleMax X="20" Y="20" Z="360" />
+        <RandPosMin X="200" Y="400" Z="150" />
+        <RandPosMax X="-200" Y="0" Z="-150" />
+        <ComboList RefOrder="1" ScaleType="1" PositionType="0" />
+        <Speed Min="30" Max="50" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="90" Y="0" Z="0" />
+        <JetDirMax X="0" Y="0" Z="0" />
+        <Speed X="0" Y="0" Z="0" />
+        <SrcBlend Value="5" />
+        <DestBlend Value="7" />
+    </CreaterInfo>
+    <ParticleSequence Count="40">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0.125" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0.25" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0.375" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0.5" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0.625" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0.75" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="0.875" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1.125" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1.25" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1.375" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1.5" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1.625" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1.75" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="1.875" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2.125" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2.25" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2.375" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2.5" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2.625" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2.75" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="2.875" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.4" Y="2.4" Z="2.4" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.8" Y="4.8" Z="4.8" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3.125" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.2" Y="7.2" Z="7.2" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3.25" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.6" Y="9.6" Z="9.6" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3.375" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12" Y="12" Z="12" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3.5" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.4" Y="14.4" Z="14.4" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3.625" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="16.8" Y="16.8" Z="16.8" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3.75" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="19.2" Y="19.2" Z="19.2" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="3.875" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="21.6" Y="21.6" Z="21.6" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="24" Y="24" Z="24" />
+            <Alpha Value="255" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4.125" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="26.4" Y="26.4" Z="26.4" />
+            <Alpha Value="216.75" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4.25" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="28.8" Y="28.8" Z="28.8" />
+            <Alpha Value="178.5" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4.375" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="31.2" Y="31.2" Z="31.2" />
+            <Alpha Value="140.25" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4.5" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="33.6" Y="33.6" Z="33.6" />
+            <Alpha Value="102" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4.625" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="36" Y="36" Z="36" />
+            <Alpha Value="63.75" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4.75" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="40" Y="40" Z="40" />
+            <Alpha Value="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <SizeRot X="1" Y="1" Z="4.875" />
+            <Texture Texture="Char_Sabin_ComGhost_E02.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0" Y="0" Z="0" />
+            <MoveRot X="0" Y="0" Z="0" />
+            <JetDir X="0" Y="0" Z="0" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

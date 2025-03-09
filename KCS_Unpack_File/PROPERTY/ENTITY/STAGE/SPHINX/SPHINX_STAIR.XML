@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sphinx_Stair" FILENAME="Sphinx_Stair.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="BOX_END" FILENAME="Sphinx_BoxEnd_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BOX_END_01" FILENAME="Sphinx_BoxEnd_B01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sphinx_Stair_COMMANDS.XML" />
+</GAMEENTITY>

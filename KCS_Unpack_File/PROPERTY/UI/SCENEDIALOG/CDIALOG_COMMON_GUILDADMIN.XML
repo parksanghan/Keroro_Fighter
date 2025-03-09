@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_GuildAdmin.xml" PosX="163" PosY="80" SizeX="727" SizeY="578" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+	<!--길드 배경-->
+        <Property Index="0" RenderStyle="3" Depth="0.789" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="41" TextPosY="3" TextSizeX="1" TextSizeY="578" PosX="32" PosY="0" SizeX="663" SizeY="578" />
+            <Element index="1" TextName="GUI_guild.tga" TextPosX="3" TextPosY="3" TextSizeX="32" TextSizeY="578" PosX="0" PosY="0" SizeX="32" SizeY="578" />
+            <Element index="2" TextName="GUI_guild.tga" TextPosX="48" TextPosY="3" TextSizeX="32" TextSizeY="578" PosX="695" PosY="0" SizeX="32" SizeY="578" />
+        </Property>
+
+	<!--뒷배경 어둡게-->
+        <Property Index="1" RenderStyle="0" Depth="0.7891" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-163" PosY="-80" SizeX="1024" SizeY="768" />
+        </Property>
+	<!--마이길드/길드목록 탭 뒷 배경-->
+	<Property Index="2" RenderStyle="0" Depth="0.7889" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="611" TextSizeX="308" TextSizeY="33" PosX="27" PosY="64" SizeX="308" SizeY="33" />
+        </Property>
+	<!--길드 관리-->
+	<Property Index="3" RenderStyle="0" Depth="0.7889" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="789" TextPosY="340" TextSizeX="79" TextSizeY="20" PosX="340" PosY="16" SizeX="79" SizeY="20" />
+        </Property>
+	<!--리스트 배경-->
+	<Property Index="4" RenderStyle="1" Depth="0.7889" Show="1">
+		<Element index="0" TextName="GUI_guild.tga" TextPosX="120" TextPosY="6" TextSizeX="10" TextSizeY="402" PosX="45" PosY="103" SizeX="640" SizeY="402" />
+		<Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="4" TextName="GUI_guild.tga" TextPosX="91" TextPosY="6" TextSizeX="28" TextSizeY="402" PosX="17" PosY="103" SizeX="28" SizeY="402" />
+		<Element index="5" TextName="GUI_guild.tga" TextPosX="131" TextPosY="6" TextSizeX="28" TextSizeY="402" PosX="682" PosY="103" SizeX="28" SizeY="402" />
+		<Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		<Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+	 </Property>
+
+    </DialogSkin>
+
+    <DialogControl>
+<!--마우스 휠-->
+	<Property Name="WHEEL_GuildAdmin_DinWheel" ClassName="CKeroroUI_MessageDinWheel" PosX="26" PosY="172" SizeX="673" SizeY="293" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="1" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+	</Property>
+
+	<!--새로 고침-->
+	<Property Name="Button_GuildAdmin_GuildListRefresh" ClassName="CKeroroUI_Button" PosX="617" PosY="520" SizeX="96" SizeY="49" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="914" TextPosY="648" TextSizeX="96" TextSizeY="49" PosX="0" PosY="0" SizeX="96" SizeY="49" />
+		    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="914" TextPosY="756" TextSizeX="96" TextSizeY="49" PosX="0" PosY="0" SizeX="96" SizeY="49" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="914" TextPosY="702" TextSizeX="96" TextSizeY="49" PosX="0" PosY="0" SizeX="96" SizeY="49" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="914" TextPosY="756" TextSizeX="96" TextSizeY="49" PosX="0" PosY="0" SizeX="96" SizeY="49" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+	<!--리스트 이동 - 앞으로-->
+	<Property Name="Button_Guild_GuildAdmin_ListPre" ClassName="CKeroroUI_Button" PosX="280" PosY="478" SizeX="26" SizeY="19" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="88" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="142" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--리스트 이동 - 뒤로-->
+	<Property Name = "Button_Guild_GuildAdmin_ListNext" ClassName="CKeroroUI_Button" PosX="410" PosY="478" SizeX="26" SizeY="19" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="115" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="169" TextPosY="427" TextSizeX="26" TextSizeY="19" PosX="0" PosY="0" SizeX="26" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<!--페이지숫자-->
+        <Property Name="Number_Guild_GuildAdmin_ListPage" ClassName="CKeroroUI_Number" PosX="350" PosY="478" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        </Property>
+<!--나가기 버튼-->
+	<Property Name="Button_Guild_GuildAdmin_Close" ClassName="CKeroroUI_Button" PosX="688" PosY="13" SizeX="26" SizeY="26" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="91" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="120" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="149" TextPosY="470" TextSizeX="26" TextSizeY="26" PosX="0" PosY="0" SizeX="26" SizeY="26" />
+                </Property>
+            </ControlSkin>
+        </Property>
+<!--닫기-->
+	<Property Name="Button_Guild_GuildAdmin_Close2" ClassName="CKeroroUI_Button" PosX="318" PosY="522" SizeX="92" SizeY="44" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="856" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="910" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="654" TextPosY="964" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<!--길드원 구성 탭-->
+	<Property Name="Button_Guild_GuildAdmin_MemberListTab" ClassName="CKeroroUI_Button" PosX="27" PosY="56" SizeX="154" SizeY="40" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="443" TextPosY="647" TextSizeX="154" TextSizeY="40" PosX="0" PosY="0" SizeX="154" SizeY="40" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name = "Control_Guild_GuildAdmin_MemberListTab" ClassName = "CKeroroUI_Control" PosX="27" PosY="56" SizeX="154" SizeY="40" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="443" TextPosY="647" TextSizeX="154" TextSizeY="40" PosX="0" PosY="0" SizeX="154" SizeY="40" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+
+	<!--권한 부여 탭-->
+	<Property Name="Button_Guild_GuildAdmin_GiveAuthorityTab" ClassName="CKeroroUI_Button" PosX="181" PosY="56" SizeX="154" SizeY="40" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="599" TextPosY="647" TextSizeX="154" TextSizeY="40" PosX="0" PosY="0" SizeX="154" SizeY="40" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<Property Name = "Control_Guild_GuildAdmin_GiveAuthorityTab" ClassName = "CKeroroUI_Control" PosX="181" PosY="56" SizeX="154" SizeY="40" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="599" TextPosY="647" TextSizeX="154" TextSizeY="40" PosX="0" PosY="0" SizeX="154" SizeY="40" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+
+<!--마이 길드 랭킹-->
+	<Property Name = "Control_Guild_GuildAdmin_GuildRanking" ClassName = "CKeroroUI_Control" PosX="455" PosY="110" SizeX="154" SizeY="40" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.788" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="229" TextPosY="585" TextSizeX="130" TextSizeY="20" PosX="0" PosY="0" SizeX="130" SizeY="20" />
+	                </Property>
+			<Property Index="1" RenderStyle="0" Depth="0.788" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="363" TextPosY="585" TextSizeX="17" TextSizeY="20" PosX="230" PosY="0" SizeX="17" SizeY="20" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+
+<!--마이 길드 랭킹 숫자-->
+        <Property Name="Number_Guild_GuildAdmin_GuildRanking_Number" ClassName="CKeroroUI_Number" PosX="592" PosY="110" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+        </Property>
+	
+
+<!--길드원 구성 배경 스킨-->	
+	<Property Name="Control_Guild_GuildAdmin_MemberList" ClassName="CKeroroUI_Control" PosX="17" PosY="103" SizeX="48" SizeY="25" Disable="0">
+		<ControlSkin>
+			<!--좌측-->
+	                <Property Index="0" RenderStyle="1" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="141" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="1" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="195" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="2" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="296" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="3" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="345" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="4" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="350" PosY="71" SizeX="2" SizeY="290" />
+				<!--이름-->
+				<Element ControlState="0" index="5" TextName="GUI_guild.tga" TextPosX="228" TextPosY="609" TextSizeX="30" TextSizeY="17" PosX="70" PosY="45" SizeX="30" SizeY="17" />
+				<!--계급-->
+				<Element ControlState="0" index="6" TextName="GUI_guild.tga" TextPosX="261" TextPosY="609" TextSizeX="31" TextSizeY="17" PosX="155" PosY="45" SizeX="31" SizeY="17" />
+				<!--길드 기여도-->
+				<Element ControlState="0" index="7" TextName="GUI_guild.tga" TextPosX="226" TextPosY="688" TextSizeX="71" TextSizeY="17" PosX="215" PosY="45" SizeX="71" SizeY="17" />
+				<!--접속-->
+				<Element ControlState="0" index="8" TextName="GUI_guild.tga" TextPosX="303" TextPosY="688" TextSizeX="30" TextSizeY="17" PosX="310" PosY="45" SizeX="30" SizeY="17" />
+	                </Property>
+			<!--좌측-->
+	                <Property Index="1" RenderStyle="1" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="480" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="1" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="530" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="2" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="630" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<Element ControlState="0" index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<!--이름-->
+				<Element ControlState="0" index="5" TextName="GUI_guild.tga" TextPosX="228" TextPosY="609" TextSizeX="30" TextSizeY="17" PosX="410" PosY="45" SizeX="30" SizeY="17" />
+				<!--계급-->
+				<Element ControlState="0" index="6" TextName="GUI_guild.tga" TextPosX="261" TextPosY="609" TextSizeX="31" TextSizeY="17" PosX="490" PosY="45" SizeX="31" SizeY="17" />
+				<!--길드 기여도-->
+				<Element ControlState="0" index="7" TextName="GUI_guild.tga" TextPosX="226" TextPosY="688" TextSizeX="71" TextSizeY="17" PosX="550" PosY="45" SizeX="71" SizeY="17" />
+				<!--접속-->
+				<Element ControlState="0" index="8" TextName="GUI_guild.tga" TextPosX="303" TextPosY="688" TextSizeX="30" TextSizeY="17" PosX="640" PosY="45" SizeX="30" SizeY="17" />
+	                </Property>
+
+		</ControlSkin>
+	</Property>
+	
+<!--이름 - 좌측-->
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_1" ClassName="CKeroroUI_Static" PosX="95" PosY="180" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_1" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_2" ClassName="CKeroroUI_Static" PosX="95" PosY="208" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_2" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_3" ClassName="CKeroroUI_Static" PosX="95" PosY="238" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_3" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_4" ClassName="CKeroroUI_Static" PosX="95" PosY="268" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_4" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_5" ClassName="CKeroroUI_Static" PosX="95" X="40" PosY="297" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_5" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_6" ClassName="CKeroroUI_Static" PosX="95" PosY="325" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_6" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_7" ClassName="CKeroroUI_Static" PosX="95" PosY="355" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_7" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_8" ClassName="CKeroroUI_Static" PosX="95" PosY="384" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_8" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_9" ClassName="CKeroroUI_Static" PosX="95" PosY="412" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_9" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_10" ClassName="CKeroroUI_Static" PosX="95" PosY="442" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_10" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+<!--이름 - 우측-->
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_11" ClassName="CKeroroUI_Static" PosX="435" PosY="180" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_11" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_12" ClassName="CKeroroUI_Static" PosX="435" PosY="208" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_12" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_13" ClassName="CKeroroUI_Static" PosX="435" PosY="238" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_13" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_14" ClassName="CKeroroUI_Static" PosX="435" PosY="268" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_14" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_15" ClassName="CKeroroUI_Static" PosX="435" PosY="297" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_15" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_16" ClassName="CKeroroUI_Static" PosX="435" PosY="325" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_16" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_17" ClassName="CKeroroUI_Static" PosX="435" PosY="355" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_17" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_18" ClassName="CKeroroUI_Static" PosX="435" PosY="384" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_18" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_19" ClassName="CKeroroUI_Static" PosX="435" PosY="412" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_19" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberName_20" ClassName="CKeroroUI_Static" PosX="435" PosY="442" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="일이삼사오육칠팔" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberName_20" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+<!--계급 - 좌측-->
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_1" ClassName="CKeroroUI_Static" PosX="185" PosY="180" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장1" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_1" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_2" ClassName="CKeroroUI_Static" PosX="185" PosY="208" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장1" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_2" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_3" ClassName="CKeroroUI_Static" PosX="185" PosY="238" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장1" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_3" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_4" ClassName="CKeroroUI_Static" PosX="185" PosY="268" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장1" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_4" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_5" ClassName="CKeroroUI_Static" PosX="185" PosY="297" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장1" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_5" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_6" ClassName="CKeroroUI_Static" PosX="185" PosY="325" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_6" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_7" ClassName="CKeroroUI_Static" PosX="185" PosY="355" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_7" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_8" ClassName="CKeroroUI_Static" PosX="185" PosY="384" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_8" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_9" ClassName="CKeroroUI_Static" PosX="185" PosY="412" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_9" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_10" ClassName="CKeroroUI_Static" PosX="185" PosY="442" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_10" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+<!--계급 - 우측-->
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_11" ClassName="CKeroroUI_Static" PosX="525" PosY="180" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_11" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_12" ClassName="CKeroroUI_Static" PosX="525" PosY="208" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_12" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_13" ClassName="CKeroroUI_Static" PosX="525" PosY="238" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_13" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_14" ClassName="CKeroroUI_Static" PosX="525" PosY="268" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_14" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_15" ClassName="CKeroroUI_Static" PosX="525" PosY="297" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_15" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_16" ClassName="CKeroroUI_Static" PosX="525" PosY="325" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_16" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_17" ClassName="CKeroroUI_Static" PosX="525" PosY="355" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_17" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_18" ClassName="CKeroroUI_Static" PosX="525" PosY="384" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_18" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_19" ClassName="CKeroroUI_Static" PosX="525" PosY="412" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_19" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_MemberGrade_20" ClassName="CKeroroUI_Static" PosX="525" PosY="442" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="병장2" FontDepth="0.7885" FontTextureName= "GuildAdmin_MemberGrade_20" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+
+
+<!--길드 기여도 - 좌측-->
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_1" ClassName="CKeroroUI_Static" PosX="260" PosY="180" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_1" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_2" ClassName="CKeroroUI_Static" PosX="260" PosY="208" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_2" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_3" ClassName="CKeroroUI_Static" PosX="260" PosY="238" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_3" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_4" ClassName="CKeroroUI_Static" PosX="260" PosY="268" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_4" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_5" ClassName="CKeroroUI_Static" PosX="260" PosY="297" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_5" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_6" ClassName="CKeroroUI_Static" PosX="260" PosY="325" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_6" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_7" ClassName="CKeroroUI_Static" PosX="260" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_7" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_8" ClassName="CKeroroUI_Static" PosX="260" PosY="384" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_8" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_9" ClassName="CKeroroUI_Static" PosX="260" PosY="412" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_9" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_10" ClassName="CKeroroUI_Static" PosX="260" PosY="442" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_10" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+<!--길드 기여도 - 우측-->
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_11" ClassName="CKeroroUI_Static" PosX="595" PosY="180" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_11" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_12" ClassName="CKeroroUI_Static" PosX="595" PosY="208" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_12" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_13" ClassName="CKeroroUI_Static" PosX="595" PosY="238" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_13" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_14" ClassName="CKeroroUI_Static" PosX="595" PosY="268" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_14" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_15" ClassName="CKeroroUI_Static" PosX="595" PosY="297" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_15" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_16" ClassName="CKeroroUI_Static" PosX="595" PosY="325" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_16" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_17" ClassName="CKeroroUI_Static" PosX="595" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_17" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_18" ClassName="CKeroroUI_Static" PosX="595" PosY="384" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_18" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_19" ClassName="CKeroroUI_Static" PosX="595" PosY="412" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_19" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+	<Property Name = "Static_Guild_GuildAdmin_GivePoint_20" ClassName="CKeroroUI_Static" PosX="595" PosY="442" SizeX="0" SizeY="0" Disable="0" OverSound="0" >
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="9,999,999점" FontDepth="0.7885" FontTextureName= "GuildAdmin_GivePoint_20" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+
+<!-- 접속 여부 - 좌측-->
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_1" ClassName="CKeroroUI_Control" PosX="320" PosY="180" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_2" ClassName="CKeroroUI_Control" PosX="320" PosY="208" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_3" ClassName="CKeroroUI_Control" PosX="320" PosY="238" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_4" ClassName="CKeroroUI_Control" PosX="320" PosY="268" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_5" ClassName="CKeroroUI_Control" PosX="320" PosY="297" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_6" ClassName="CKeroroUI_Control" PosX="320" PosY="325" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_7" ClassName="CKeroroUI_Control" PosX="320" PosY="354" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_8" ClassName="CKeroroUI_Control" PosX="320" PosY="384" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_9" ClassName="CKeroroUI_Control" PosX="320" PosY="412" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_10" ClassName="CKeroroUI_Control" PosX="320" PosY="442" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+
+<!-- 접속 여부 - 우측-->
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_11" ClassName="CKeroroUI_Control" PosX="655" PosY="180" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_12" ClassName="CKeroroUI_Control" PosX="655" PosY="208" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_13" ClassName="CKeroroUI_Control" PosX="655" PosY="238" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_14" ClassName="CKeroroUI_Control" PosX="655" PosY="268" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_15" ClassName="CKeroroUI_Control" PosX="655" PosY="297" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_16" ClassName="CKeroroUI_Control" PosX="655" PosY="325" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_17" ClassName="CKeroroUI_Control" PosX="655" PosY="355" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_18" ClassName="CKeroroUI_Control" PosX="655" PosY="384" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_19" ClassName="CKeroroUI_Control" PosX="655" PosY="412" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+	<Property Name="Control_Guild_GuildAdmin_ConnectState_20" ClassName="CKeroroUI_Control" PosX="655" PosY="442" SizeX="48" SizeY="25" Disable="1">
+		<ControlSkin>
+	                <Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="338" TextPosY="688" TextSizeX="26" TextSizeY="16" PosX="5" PosY="0" SizeX="26" SizeY="16" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="371" TextPosY="688" TextSizeX="35" TextSizeY="16" PosX="0" PosY="0" SizeX="35" SizeY="16" />
+	                </Property>
+		</ControlSkin>
+	</Property>
+
+
+
+
+
+<!--권한 부여 배경 스킨-->	
+	<Property Name="Control_Guild_GuildAdmin_GiveAuthority" ClassName="CKeroroUI_Control" PosX="17" PosY="103" SizeX="48" SizeY="25" Disable="0">
+		<ControlSkin>
+			<!--좌측-->
+	                <Property Index="0" RenderStyle="1" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="141" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="1" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="195" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="2" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="270" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="3" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="345" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="4" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="350" PosY="71" SizeX="2" SizeY="290" />
+				<!--이름-->
+				<Element ControlState="0" index="5" TextName="GUI_guild.tga" TextPosX="228" TextPosY="609" TextSizeX="30" TextSizeY="17" PosX="70" PosY="45" SizeX="30" SizeY="17" />
+				<!--계급-->
+				<Element ControlState="0" index="6" TextName="GUI_guild.tga" TextPosX="261" TextPosY="609" TextSizeX="31" TextSizeY="17" PosX="155" PosY="45" SizeX="31" SizeY="17" />
+				<!--가입 권한-->
+				<Element ControlState="0" index="7" TextName="GUI_guild.tga" TextPosX="296" TextPosY="609" TextSizeX="61" TextSizeY="17" PosX="205" PosY="45" SizeX="61" SizeY="17" />
+				<!--추방 권한-->
+				<Element ControlState="0" index="8" TextName="GUI_guild.tga" TextPosX="362" TextPosY="609" TextSizeX="62" TextSizeY="17" PosX="280" PosY="45" SizeX="62" SizeY="17" />
+	                </Property>
+			<!--좌측-->
+	                <Property Index="1" RenderStyle="1" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="480" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="1" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="530" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="2" TextName="GUI_guild.tga" TextPosX="85" TextPosY="77" TextSizeX="2" TextSizeY="290" PosX="610" PosY="71" SizeX="2" SizeY="290" />
+				<Element ControlState="0" index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<Element ControlState="0" index="4" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+				<!--이름-->
+				<Element ControlState="0" index="5" TextName="GUI_guild.tga" TextPosX="228" TextPosY="609" TextSizeX="30" TextSizeY="17" PosX="410" PosY="45" SizeX="30" SizeY="17" />
+				<!--계급-->
+				<Element ControlState="0" index="6" TextName="GUI_guild.tga" TextPosX="261" TextPosY="609" TextSizeX="31" TextSizeY="17" PosX="490" PosY="45" SizeX="31" SizeY="17" />
+				<!--길드 기여도-->
+				<Element ControlState="0" index="7" TextName="GUI_guild.tga" TextPosX="296" TextPosY="609" TextSizeX="61" TextSizeY="17" PosX="540" PosY="45" SizeX="61" SizeY="17" />
+				<!--접속-->
+				<Element ControlState="0" index="8" TextName="GUI_guild.tga" TextPosX="362" TextPosY="609" TextSizeX="62" TextSizeY="17" PosX="615" PosY="45" SizeX="62" SizeY="17" />
+	                </Property>
+
+		</ControlSkin>
+	</Property>
+	
+	<!--가입 권한 체크 버튼-->
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_1" ClassName="CKeroroUI_Button" PosX="245" PosY="178" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_2" ClassName="CKeroroUI_Button" PosX="245" PosY="206" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_3" ClassName="CKeroroUI_Button" PosX="245" PosY="236" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_4" ClassName="CKeroroUI_Button" PosX="245" PosY="266" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_5" ClassName="CKeroroUI_Button" PosX="245" PosY="295" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_6" ClassName="CKeroroUI_Button" PosX="245" PosY="323" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_7" ClassName="CKeroroUI_Button" PosX="245" PosY="353" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_8" ClassName="CKeroroUI_Button" PosX="245" PosY="382" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_9" ClassName="CKeroroUI_Button" PosX="245" PosY="410" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_10" ClassName="CKeroroUI_Button" PosX="245" PosY="440" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+
+<!--가입 권한 체크 버튼-->
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_11" ClassName="CKeroroUI_Button" PosX="580" PosY="178" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_12" ClassName="CKeroroUI_Button" PosX="580" PosY="206" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_13" ClassName="CKeroroUI_Button" PosX="580" PosY="236" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_14" ClassName="CKeroroUI_Button" PosX="580" PosY="266" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_15" ClassName="CKeroroUI_Button" PosX="580" PosY="295" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_16" ClassName="CKeroroUI_Button" PosX="580" PosY="323" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_17" ClassName="CKeroroUI_Button" PosX="580" PosY="353" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_18" ClassName="CKeroroUI_Button" PosX="580" PosY="382" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_19" ClassName="CKeroroUI_Button" PosX="580" PosY="410" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_JoinAuthority_20" ClassName="CKeroroUI_Button" PosX="580" PosY="440" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<!--가입 권한 체크표시-->
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_1" ClassName="CKeroroUI_Control" PosX="245" PosY="178" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_2" ClassName="CKeroroUI_Control" PosX="245" PosY="206" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_3" ClassName="CKeroroUI_Control" PosX="245" PosY="236" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_4" ClassName="CKeroroUI_Control" PosX="245" PosY="266" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_5" ClassName="CKeroroUI_Control" PosX="245" PosY="295" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_6" ClassName="CKeroroUI_Control" PosX="245" PosY="323" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_7" ClassName="CKeroroUI_Control" PosX="245" PosY="353" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_8" ClassName="CKeroroUI_Control" PosX="245" PosY="382" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_9" ClassName="CKeroroUI_Control" PosX="245" PosY="410" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_10" ClassName="CKeroroUI_Control" PosX="245" PosY="440" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	
+
+	<!--가입 권한 체크표시-->
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_11" ClassName="CKeroroUI_Control" PosX="580" PosY="178" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_12" ClassName="CKeroroUI_Control" PosX="580" PosY="206" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_13" ClassName="CKeroroUI_Control" PosX="580" PosY="236" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_14" ClassName="CKeroroUI_Control" PosX="580" PosY="266" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_15" ClassName="CKeroroUI_Control" PosX="580" PosY="295" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_16" ClassName="CKeroroUI_Control" PosX="580" PosY="323" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_17" ClassName="CKeroroUI_Control" PosX="580" PosY="353" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_18" ClassName="CKeroroUI_Control" PosX="580" PosY="382" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_19" ClassName="CKeroroUI_Control" PosX="580" PosY="410" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_JoinAuthorityCheck_20" ClassName="CKeroroUI_Control" PosX="580" PosY="440" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+	
+<!--추방 권한 체크 버튼-->
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_1" ClassName="CKeroroUI_Button" PosX="320" PosY="178" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_2" ClassName="CKeroroUI_Button" PosX="320" PosY="206" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_3" ClassName="CKeroroUI_Button" PosX="320" PosY="236" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_4" ClassName="CKeroroUI_Button" PosX="320" PosY="266" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_5" ClassName="CKeroroUI_Button" PosX="320" PosY="295" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_6" ClassName="CKeroroUI_Button" PosX="320" PosY="323" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_7" ClassName="CKeroroUI_Button" PosX="320" PosY="353" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_8" ClassName="CKeroroUI_Button" PosX="320" PosY="382" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_9" ClassName="CKeroroUI_Button" PosX="320" PosY="410" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_10" ClassName="CKeroroUI_Button" PosX="320" PosY="440" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+
+<!--추방 권한 체크 버튼-->
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_11" ClassName="CKeroroUI_Button" PosX="655" PosY="178" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_12" ClassName="CKeroroUI_Button" PosX="655" PosY="206" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_13" ClassName="CKeroroUI_Button" PosX="655" PosY="236" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_14" ClassName="CKeroroUI_Button" PosX="655" PosY="266" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_15" ClassName="CKeroroUI_Button" PosX="655" PosY="295" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_16" ClassName="CKeroroUI_Button" PosX="655" PosY="323" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_17" ClassName="CKeroroUI_Button" PosX="655" PosY="353" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_18" ClassName="CKeroroUI_Button" PosX="655" PosY="382" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_19" ClassName="CKeroroUI_Button" PosX="655" PosY="410" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+	<Property Name = "Button_Guild_GuildAdmin_BanAuthority_20" ClassName="CKeroroUI_Button" PosX="655" PosY="440" SizeX="22" SizeY="20" Disable="0">
+		<ControlSkin>
+			<Property Index="0" RenderStyle="0" Depth="0.7888" Show="1">
+				<Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="444" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+				<Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+			</Property>
+		</ControlSkin>
+	</Property>
+
+<!--추방 권한 체크표시-->
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_1" ClassName="CKeroroUI_Control" PosX="320" PosY="178" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_2" ClassName="CKeroroUI_Control" PosX="320" PosY="206" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_3" ClassName="CKeroroUI_Control" PosX="320" PosY="236" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_4" ClassName="CKeroroUI_Control" PosX="320" PosY="266" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_5" ClassName="CKeroroUI_Control" PosX="320" PosY="295" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_6" ClassName="CKeroroUI_Control" PosX="320" PosY="323" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_7" ClassName="CKeroroUI_Control" PosX="320" PosY="353" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_8" ClassName="CKeroroUI_Control" PosX="320" PosY="382" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_9" ClassName="CKeroroUI_Control" PosX="320" PosY="410" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_10" ClassName="CKeroroUI_Control" PosX="320" PosY="440" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+<!--추방 권한 체크표시-->
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_11" ClassName="CKeroroUI_Control" PosX="655" PosY="178" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_12" ClassName="CKeroroUI_Control" PosX="655" PosY="206" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_13" ClassName="CKeroroUI_Control" PosX="655" PosY="236" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_14" ClassName="CKeroroUI_Control" PosX="655" PosY="266" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_15" ClassName="CKeroroUI_Control" PosX="655" PosY="295" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_16" ClassName="CKeroroUI_Control" PosX="655" PosY="323" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_17" ClassName="CKeroroUI_Control" PosX="655" PosY="353" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_18" ClassName="CKeroroUI_Control" PosX="655" PosY="382" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_19" ClassName="CKeroroUI_Control" PosX="655" PosY="410" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	<Property Name = "Control_Guild_GuildAdmin_BanAuthorityCheck_20" ClassName="CKeroroUI_Control" PosX="655" PosY="440" SizeX="22" SizeY="20" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.7887" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="468" TextPosY="495" TextSizeX="22" TextSizeY="20" PosX="0" PosY="0" SizeX="22" SizeY="20" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+
+     </DialogControl>
+</RootNode>

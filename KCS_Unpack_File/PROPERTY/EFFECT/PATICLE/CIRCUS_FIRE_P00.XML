@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Circus_fire_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="0.800000" X="9.000000" Y="9.000000" Z="9.000000" />
+            <Property Time="0.700000" X="15.000000" Y="15.000000" Z="15.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="200.000000" />
+            <Property Time="1.500000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.500000" X="7.000000" Y="7.000000" Z="0.200000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Ef_Tuto_Boom122.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="2.000000" Max="3.000000" />
+        <RepeatCount Count="150.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="1.500000" />
+        <RegenTime Min="0.100000" Max="0.050000" />
+        <RotScaleMin X="10.000000" Y="10.000000" Z="0.000000" />
+        <RotScaleMax X="30.000000" Y="30.000000" Z="360.000000" />
+        <RandPosMin X="-550.000000" Y="675.000000" Z="3700.000000" />
+        <RandPosMax X="-550.000000" Y="675.000000" Z="3700.000000" />
+        <ComboList RefOrder="0.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="50.000000" Max="60.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="75.000000" />
+        <JetDirMax X="10.000000" Y="0.000000" Z="10.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="50">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="200.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.337500" Y="0.337500" Z="0.337500" />
+            <Alpha Value="196.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.140000" Y="0.140000" Z="0.004000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.675000" Y="0.675000" Z="0.675000" />
+            <Alpha Value="192.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.280000" Y="0.280000" Z="0.008000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.012500" Y="1.012500" Z="1.012500" />
+            <Alpha Value="188.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="0.012000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="184.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.560000" Y="0.560000" Z="0.016000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.687500" Y="1.687500" Z="1.687500" />
+            <Alpha Value="180.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.700000" Y="0.700000" Z="0.020000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.025000" Y="2.025000" Z="2.025000" />
+            <Alpha Value="176.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="0.024000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.362500" Y="2.362500" Z="2.362500" />
+            <Alpha Value="172.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.980000" Y="0.980000" Z="0.028000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="168.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.120000" Y="1.120000" Z="0.032000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.037500" Y="3.037500" Z="3.037500" />
+            <Alpha Value="164.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.260000" Y="1.260000" Z="0.036000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.375000" Y="3.375000" Z="3.375000" />
+            <Alpha Value="160.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.400000" Y="1.400000" Z="0.040000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.712500" Y="3.712500" Z="3.712500" />
+            <Alpha Value="156.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.540000" Y="1.540000" Z="0.044000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="152.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.680000" Y="1.680000" Z="0.048000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.387500" Y="4.387500" Z="4.387500" />
+            <Alpha Value="148.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.820000" Y="1.820000" Z="0.052000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.725000" Y="4.725000" Z="4.725000" />
+            <Alpha Value="144.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.960000" Y="1.960000" Z="0.056000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.062500" Y="5.062500" Z="5.062500" />
+            <Alpha Value="140.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.100000" Y="2.100000" Z="0.060000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="136.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.240000" Y="2.240000" Z="0.064000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.737500" Y="5.737500" Z="5.737500" />
+            <Alpha Value="132.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.380000" Y="2.380000" Z="0.068000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.075000" Y="6.075000" Z="6.075000" />
+            <Alpha Value="128.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.520000" Y="2.520000" Z="0.072000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.412500" Y="6.412500" Z="6.412500" />
+            <Alpha Value="124.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.660000" Y="2.660000" Z="0.076000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="6.750000" Y="6.750000" Z="6.750000" />
+            <Alpha Value="120.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.800000" Y="2.800000" Z="0.080000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.087500" Y="7.087500" Z="7.087500" />
+            <Alpha Value="116.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="2.940000" Y="2.940000" Z="0.084000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.424999" Y="7.424999" Z="7.424999" />
+            <Alpha Value="112.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.080000" Y="3.080000" Z="0.088000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="7.762500" Y="7.762500" Z="7.762500" />
+            <Alpha Value="108.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.220000" Y="3.220000" Z="0.092000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.099999" Y="8.099999" Z="8.099999" />
+            <Alpha Value="104.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.360000" Y="3.360000" Z="0.096000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="8.437500" Y="8.437500" Z="8.437500" />
+            <Alpha Value="100.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.500000" Y="3.500000" Z="0.100000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.000000" Y="9.000000" Z="9.000000" />
+            <Alpha Value="96.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.640000" Y="3.640000" Z="0.104000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.257143" Y="9.257143" Z="9.257143" />
+            <Alpha Value="91.999992" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.780000" Y="3.780000" Z="0.108000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.514286" Y="9.514286" Z="9.514286" />
+            <Alpha Value="88.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="3.920000" Y="3.920000" Z="0.112000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="9.771428" Y="9.771428" Z="9.771428" />
+            <Alpha Value="84.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.060000" Y="4.060000" Z="0.116000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.028571" Y="10.028571" Z="10.028571" />
+            <Alpha Value="80.000008" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.200000" Y="4.200000" Z="0.120000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.285714" Y="10.285714" Z="10.285714" />
+            <Alpha Value="76.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.340000" Y="4.340000" Z="0.124000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.542857" Y="10.542857" Z="10.542857" />
+            <Alpha Value="72.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.480000" Y="4.480000" Z="0.128000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="10.800000" Y="10.800000" Z="10.800000" />
+            <Alpha Value="68.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.620000" Y="4.620000" Z="0.132000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.057143" Y="11.057143" Z="11.057143" />
+            <Alpha Value="64.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.760000" Y="4.760000" Z="0.136000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.314285" Y="11.314285" Z="11.314285" />
+            <Alpha Value="60.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="4.900000" Y="4.900000" Z="0.140000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.571428" Y="11.571428" Z="11.571428" />
+            <Alpha Value="56.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.040000" Y="5.040000" Z="0.144000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="11.828571" Y="11.828571" Z="11.828571" />
+            <Alpha Value="52.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.180000" Y="5.180000" Z="0.148000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.085714" Y="12.085714" Z="12.085714" />
+            <Alpha Value="48.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.320000" Y="5.320000" Z="0.152000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.342857" Y="12.342857" Z="12.342857" />
+            <Alpha Value="44.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.460000" Y="5.460000" Z="0.156000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.600000" Y="12.600000" Z="12.600000" />
+            <Alpha Value="40.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.599999" Y="5.599999" Z="0.160000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="12.857143" Y="12.857143" Z="12.857143" />
+            <Alpha Value="36.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.740000" Y="5.740000" Z="0.164000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.114286" Y="13.114286" Z="13.114286" />
+            <Alpha Value="32.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="5.880000" Y="5.880000" Z="0.168000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.371428" Y="13.371428" Z="13.371428" />
+            <Alpha Value="28.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.020000" Y="6.020000" Z="0.172000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.628571" Y="13.628571" Z="13.628571" />
+            <Alpha Value="24.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.159999" Y="6.159999" Z="0.176000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="13.885714" Y="13.885714" Z="13.885714" />
+            <Alpha Value="20.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.300000" Y="6.300000" Z="0.180000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.142857" Y="14.142857" Z="14.142857" />
+            <Alpha Value="16.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.440000" Y="6.440000" Z="0.184000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.400000" Y="14.400000" Z="14.400000" />
+            <Alpha Value="12.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.580000" Y="6.580000" Z="0.188000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="14.657143" Y="14.657143" Z="14.657143" />
+            <Alpha Value="8.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.720000" Y="6.720000" Z="0.192000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="15.000000" Y="15.000000" Z="15.000000" />
+            <Alpha Value="4.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="6.860000" Y="6.860000" Z="0.196000" />
+            <Texture Texture="Ef_Tuto_Boom122.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

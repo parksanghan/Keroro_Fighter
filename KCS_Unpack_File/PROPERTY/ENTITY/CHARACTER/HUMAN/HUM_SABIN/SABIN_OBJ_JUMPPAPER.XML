@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sabin_OBJ_WPAPER" FILENAME="Sabin_OBJ_WPAPER.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Sabin_Obj_WPaper_01.VS">
+        <PROPERTYBAG NAME="Sabin_Jump_Down_WPaper" FILENAME="Sabin_Jump_Down_WPaper.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Jump_Twice_WPaper" FILENAME="Sabin_Jump_Twice_WPaper.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sabin_Obj_JumpPaper_COMMANDS.XML" />
+</GAMEENTITY>

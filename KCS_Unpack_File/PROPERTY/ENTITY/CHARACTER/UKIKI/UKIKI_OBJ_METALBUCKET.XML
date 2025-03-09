@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="MetalBucket" FILENAME="Ukiki_Obj_MetalBucket.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="3" VSNAME="Ukiki_Obj_MetalBucket.VS">
+        <PROPERTYBAG NAME="COMB_KPP" FILENAME="Ukiki_Obj_Comb_KPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="COMB_KPPP" FILENAME="Ukiki_Obj_Comb_KPPP.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Ukiki_Obj_Idle01_MetalBucket" FILENAME="Ukiki_Obj_Idle01_MetalBucket.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Ukiki_Obj_MetalBucket_COMMANDS.XML" />
+</GAMEENTITY>

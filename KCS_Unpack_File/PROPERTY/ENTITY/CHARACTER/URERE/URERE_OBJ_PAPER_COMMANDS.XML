@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_KK" LOOP="0" TOTALTIME="1.33">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Urere_Obj_Paper_KK" TYPENAME="ActionAnimation" ANIMATIONNAME="Urere_Obj_Paper_KK" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_KKK" LOOP="0" TOTALTIME="0.73">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Urere_Obj_Paper_KKK" TYPENAME="ActionAnimation" ANIMATIONNAME="Urere_Obj_Paper_KKK" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_KKP" LOOP="0" TOTALTIME="1.83">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Urere_Obj_Paper_KKP" TYPENAME="ActionAnimation" ANIMATIONNAME="Urere_Obj_Paper_KKP" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_KP" LOOP="0" TOTALTIME="1.13">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Urere_Obj_Paper_KP" TYPENAME="ActionAnimation" ANIMATIONNAME="Urere_Obj_Paper_KP" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="Paper_Lose" LOOP="0" TOTALTIME="3.73">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Urere_Obj_Paper_Lose" TYPENAME="ActionAnimation" ANIMATIONNAME="Urere_Obj_Paper_Lose" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

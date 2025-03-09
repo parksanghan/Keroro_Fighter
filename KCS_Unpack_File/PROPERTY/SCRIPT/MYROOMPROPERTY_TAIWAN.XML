@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MyRoomProperty>
+	<MyRoom PropertyID="500000000" Code="0" Name="思骯腌" Slot="0" EntityFileName="思骯腌.xml"/>
+	<MyRoom PropertyID="500000001" Code="1" Name="思骯腌" Slot="0" EntityFileName="思骯腌2.xml"/>
+	<MyRoom PropertyID="500000002" Code="2" Name="思骯腌" Slot="0" EntityFileName="思骯腌3.xml"/>
+	<MyRoom PropertyID="501000000" Code="3" Name="思骯腌" Slot="1" EntityFileName="思骯腌11.xml"/>
+	<MyRoom PropertyID="501000001" Code="4" Name="思骯腌" Slot="1" EntityFileName="思骯腌12.xml"/>
+	<MyRoom PropertyID="501000002" Code="5" Name="思骯腌" Slot="1" EntityFileName="思骯腌13.xml"/>
+	<MyRoom PropertyID="502000000" Code="6" Name="思骯腌" Slot="2" EntityFileName="思骯腌21.xml"/>
+	<MyRoom PropertyID="502000001" Code="7" Name="思骯腌" Slot="2" EntityFileName="思骯腌22.xml"/>
+	<MyRoom PropertyID="502000002" Code="8" Name="思骯腌" Slot="2" EntityFileName="思骯腌23.xml"/>
+	<MyRoom PropertyID="50300000" Code="9" Name="思骯腌" Slot="3" EntityFileName="思骯腌31.xml"/>
+	<MyRoom PropertyID="503000001" Code="10" Name="思骯腌" Slot="3" EntityFileName="思骯腌32.xml"/>
+	<MyRoom PropertyID="503000002" Code="11" Name="思骯腌" Slot="3" EntityFileName="思骯腌33.xml"/>
+</MyRoomProperty>

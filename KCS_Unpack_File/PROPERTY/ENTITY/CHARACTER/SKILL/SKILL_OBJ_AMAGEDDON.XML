@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Skill_Obj_Amageddon" FILENAME="Skill_Obj_Amageddon.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Skill_Obj_Amageddon.VS">
+        <PROPERTYBAG NAME="Skill_Obj_Amageddon" FILENAME="Skill_Obj_Amageddon.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="6">
+        <PROPERTYBAG NAME="Skill_Cre_Amageddon_B00" FILENAME="Skill_Cre_Amageddon_B00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Amageddon_E00" FILENAME="Skill_Cre_Amageddon_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Amageddon_E01" FILENAME="Skill_Cre_Amageddon_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Amageddon_E02" FILENAME="Skill_Cre_Amageddon_E02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Amageddon_E03" FILENAME="Skill_Cre_Amageddon_E03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Skill_Cre_Amageddon_E04" FILENAME="Skill_Cre_Amageddon_E04.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Skill_Obj_Amageddon_COMMANDS.XML" />
+</GAMEENTITY>

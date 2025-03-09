@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Lobby_NewRoomList.xml" PosX="0" PosY="46" SizeX="800" SizeY="500" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.830" Show="1">
+            <Element index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="793" TextPosY="494" TextSizeX="228" TextSizeY="89" PosX="15" PosY="13" SizeX="228" SizeY="89" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.840" Show="1">
+            <Element index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="174" TextPosY="979" TextSizeX="720" TextSizeY="42" PosX="10" PosY="100" SizeX="720" SizeY="42" />
+        </Property>
+        <Property Index="2" RenderStyle="1" Depth="0.830" Show="1">
+            <Element index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="37" TextPosY="580" TextSizeX="10" TextSizeY="429" PosX="40" PosY="142" SizeX="661" SizeY="429" />
+            <Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="4" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="4" TextPosY="580" TextSizeX="31" TextSizeY="428" PosX="9" PosY="142" SizeX="31" SizeY="428" />
+            <Element index="5" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="49" TextPosY="580" TextSizeX="31" TextSizeY="428" PosX="700" PosY="142" SizeX="31" SizeY="428" />
+            <Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+            <Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Button_GameTypeAlign" ClassName="CKeroroUI_Button" PosX="133" PosY="105" SizeX="97" SizeY="35" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="297" TextPosY="984" TextSizeX="97" TextSizeY="35" PosX="0" PosY="0" SizeX="97" SizeY="35" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="598" TextPosY="734" TextSizeX="97" TextSizeY="35" PosX="0" PosY="0" SizeX="97" SizeY="35" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="598" TextPosY="775" TextSizeX="97" TextSizeY="35" PosX="0" PosY="0" SizeX="97" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_NumberAlgin" ClassName="CKeroroUI_Button" PosX="26" PosY="105" SizeX="63" SizeY="35" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="192" TextPosY="984" TextSizeX="63" TextSizeY="35" PosX="0" PosY="0" SizeX="63" SizeY="35" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="908" TextPosY="817" TextSizeX="63" TextSizeY="35" PosX="1" PosY="0" SizeX="63" SizeY="35" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="838" TextPosY="817" TextSizeX="63" TextSizeY="35" PosX="1" PosY="0" SizeX="63" SizeY="35" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RullAlign" ClassName="CKeroroUI_Button" PosX="235" PosY="105" SizeX="77" SizeY="34" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="399" TextPosY="984" TextSizeX="77" TextSizeY="34" PosX="0" PosY="0" SizeX="77" SizeY="34" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="703" TextPosY="735" TextSizeX="77" TextSizeY="34" PosX="0" PosY="1" SizeX="77" SizeY="34" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="703" TextPosY="776" TextSizeX="77" TextSizeY="34" PosX="0" PosY="1" SizeX="77" SizeY="34" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_TeamAlign" ClassName="CKeroroUI_Button" PosX="318" PosY="106" SizeX="42" SizeY="33" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="482" TextPosY="985" TextSizeX="42" TextSizeY="33" PosX="0" PosY="0" SizeX="42" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="789" TextPosY="735" TextSizeX="42" TextSizeY="33" PosX="0" PosY="0" SizeX="42" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="789" TextPosY="776" TextSizeX="42" TextSizeY="33" PosX="0" PosY="0" SizeX="42" SizeY="33" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomStateAlign" ClassName="CKeroroUI_Button" PosX="590" PosY="106" SizeX="94" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="753" TextPosY="985" TextSizeX="90" TextSizeY="33" PosX="0" PosY="0" SizeX="90" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="890" TextPosY="735" TextSizeX="90" TextSizeY="33" PosX="-1" PosY="0" SizeX="90" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="890" TextPosY="777" TextSizeX="90" TextSizeY="33" PosX="-1" PosY="0" SizeX="90" SizeY="33" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item1" ClassName="CKeroroUI_Button" PosX="25" PosY="152" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.800" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item2" ClassName="CKeroroUI_Button" PosX="25" PosY="191" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item3" ClassName="CKeroroUI_Button" PosX="25" PosY="230" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item4" ClassName="CKeroroUI_Button" PosX="25" PosY="269" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item5" ClassName="CKeroroUI_Button" PosX="25" PosY="308" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item6" ClassName="CKeroroUI_Button" PosX="25" PosY="347" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item7" ClassName="CKeroroUI_Button" PosX="25" PosY="386" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item8" ClassName="CKeroroUI_Button" PosX="25" PosY="425" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Loby_Item9" ClassName="CKeroroUI_Button" PosX="25" PosY="464" SizeX="664" SizeY="37" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.810" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="169" TextPosY="815" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="1" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="935" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="2" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="855" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="3" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="168" TextPosY="895" TextSizeX="664" TextSizeY="37" PosX="0" PosY="0" SizeX="664" SizeY="37" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_QuickJoin" ClassName="CKeroroUI_Button" PosX="390" PosY="510" SizeX="144" SizeY="49" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="160" TextPosY="7" TextSizeX="144" TextSizeY="49" PosX="0" PosY="0" SizeX="144" SizeY="49" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="160" TextPosY="65" TextSizeX="144" TextSizeY="49" PosX="0" PosY="0" SizeX="144" SizeY="49" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="160" TextPosY="123" TextSizeX="144" TextSizeY="49" PosX="0" PosY="0" SizeX="144" SizeY="49" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_MakeRoom" ClassName="CKeroroUI_Button" PosX="550" PosY="510" SizeX="144" SizeY="49" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="314" TextPosY="7" TextSizeX="144" TextSizeY="49" PosX="0" PosY="0" SizeX="144" SizeY="49" />
+                    <Element ControlState="1" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="314" TextPosY="65" TextSizeX="144" TextSizeY="49" PosX="0" PosY="0" SizeX="144" SizeY="49" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="314" TextPosY="123" TextSizeX="144" TextSizeY="49" PosX="0" PosY="0" SizeX="144" SizeY="49" />
+                    <Element ControlState="4" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                    <Element ControlState="5" index="0" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_1" ClassName="CKeroroUI_Static" PosX="35" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_1_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_2" ClassName="CKeroroUI_Static" PosX="35" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_2_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_3" ClassName="CKeroroUI_Static" PosX="35" PosY="239" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_3_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_4" ClassName="CKeroroUI_Static" PosX="35" PosY="279" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_4_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_5" ClassName="CKeroroUI_Static" PosX="35" PosY="319" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_5_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_6" ClassName="CKeroroUI_Static" PosX="35" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_6_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_7" ClassName="CKeroroUI_Static" PosX="35" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_7_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_8" ClassName="CKeroroUI_Static" PosX="35" PosY="434" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_8_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomNumber_9" ClassName="CKeroroUI_Static" PosX="35" PosY="474" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomNumber_9_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Button_Secret_1" ClassName="CKeroroUI_Button" PosX="101" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_2" ClassName="CKeroroUI_Button" PosX="101" PosY="198" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_3" ClassName="CKeroroUI_Button" PosX="101" PosY="237" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_4" ClassName="CKeroroUI_Button" PosX="101" PosY="276" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_5" ClassName="CKeroroUI_Button" PosX="101" PosY="315" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_6" ClassName="CKeroroUI_Button" PosX="101" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_7" ClassName="CKeroroUI_Button" PosX="101" PosY="393" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_8" ClassName="CKeroroUI_Button" PosX="101" PosY="432" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Secret_9" ClassName="CKeroroUI_Button" PosX="101" PosY="471" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="660" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="685" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="710" TextPosY="495" TextSizeX="23" TextSizeY="25" PosX="0" PosY="0" SizeX="23" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_1" ClassName="CKeroroUI_Button" PosX="140" PosY="162" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_2" ClassName="CKeroroUI_Button" PosX="140" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_3" ClassName="CKeroroUI_Button" PosX="140" PosY="239" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_4" ClassName="CKeroroUI_Button" PosX="140" PosY="278" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_5" ClassName="CKeroroUI_Button" PosX="140" PosY="318" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_6" ClassName="CKeroroUI_Button" PosX="140" PosY="356" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_7" ClassName="CKeroroUI_Button" PosX="140" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_8" ClassName="CKeroroUI_Button" PosX="140" PosY="434" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameType_9" ClassName="CKeroroUI_Button" PosX="140" PosY="472" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="559" TextPosY="587" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="558" TextPosY="524" TextSizeX="57" TextSizeY="18" PosX="15" PosY="0" SizeX="57" SizeY="18" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="524" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="618" TextPosY="586" TextSizeX="85" TextSizeY="19" PosX="0" PosY="0" SizeX="85" SizeY="19" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_1" ClassName="CKeroroUI_Button" PosX="240" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_2" ClassName="CKeroroUI_Button" PosX="240" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_3" ClassName="CKeroroUI_Button" PosX="240" PosY="236" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_4" ClassName="CKeroroUI_Button" PosX="240" PosY="276" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_5" ClassName="CKeroroUI_Button" PosX="240" PosY="316" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_6" ClassName="CKeroroUI_Button" PosX="240" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_7" ClassName="CKeroroUI_Button" PosX="240" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_8" ClassName="CKeroroUI_Button" PosX="240" PosY="432" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_GameRull_9" ClassName="CKeroroUI_Button" PosX="240" PosY="469" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="728" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="800" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="872" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="944" TextPosY="647" TextSizeX="70" TextSizeY="24" PosX="0" PosY="0" SizeX="70" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Static_TeamName_1" ClassName="CKeroroUI_Static" PosX="325" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_1_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_2" ClassName="CKeroroUI_Static" PosX="325" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_2_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_3" ClassName="CKeroroUI_Static" PosX="325" PosY="239" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_3_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_4" ClassName="CKeroroUI_Static" PosX="325" PosY="279" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_4_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_5" ClassName="CKeroroUI_Static" PosX="325" PosY="319" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_5_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_6" ClassName="CKeroroUI_Static" PosX="325" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_6_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_7" ClassName="CKeroroUI_Static" PosX="325" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_7_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_8" ClassName="CKeroroUI_Static" PosX="325" PosY="434" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_8_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_TeamName_9" ClassName="CKeroroUI_Static" PosX="325" PosY="474" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_TeamName_9_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_1" ClassName="CKeroroUI_Static" PosX="375" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_1_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_2" ClassName="CKeroroUI_Static" PosX="375" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_2_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_3" ClassName="CKeroroUI_Static" PosX="375" PosY="239" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_3_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_4" ClassName="CKeroroUI_Static" PosX="375" PosY="279" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_4_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_5" ClassName="CKeroroUI_Static" PosX="375" PosY="319" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_5_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_6" ClassName="CKeroroUI_Static" PosX="375" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_6_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_7" ClassName="CKeroroUI_Static" PosX="375" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_7_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_8" ClassName="CKeroroUI_Static" PosX="375" PosY="434" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_8_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_PersonNum_9" ClassName="CKeroroUI_Static" PosX="375" PosY="474" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_PersonNum_9_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_1" ClassName="CKeroroUI_Static" PosX="440" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_1_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_2" ClassName="CKeroroUI_Static" PosX="440" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_2_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_3" ClassName="CKeroroUI_Static" PosX="440" PosY="239" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_3_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_4" ClassName="CKeroroUI_Static" PosX="440" PosY="279" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_4_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_5" ClassName="CKeroroUI_Static" PosX="440" PosY="319" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_5_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_6" ClassName="CKeroroUI_Static" PosX="440" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_6_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_7" ClassName="CKeroroUI_Static" PosX="440" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_7_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_8" ClassName="CKeroroUI_Static" PosX="440" PosY="434" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_8_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_RoomName_9" ClassName="CKeroroUI_Static" PosX="440" PosY="474" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Static_RoomName_9_static" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_1" ClassName="CKeroroUI_Button" PosX="575" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_2" ClassName="CKeroroUI_Button" PosX="575" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_3" ClassName="CKeroroUI_Button" PosX="575" PosY="236" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_4" ClassName="CKeroroUI_Button" PosX="575" PosY="276" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_5" ClassName="CKeroroUI_Button" PosX="575" PosY="314" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_6" ClassName="CKeroroUI_Button" PosX="575" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_7" ClassName="CKeroroUI_Button" PosX="575" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_8" ClassName="CKeroroUI_Button" PosX="575" PosY="432" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_SuperRoom_9" ClassName="CKeroroUI_Button" PosX="575" PosY="472" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="661" TextPosY="495" TextSizeX="22" TextSizeY="24" PosX="0" PosY="0" SizeX="22" SizeY="24" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_1" ClassName="CKeroroUI_Button" PosX="610" PosY="159" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_2" ClassName="CKeroroUI_Button" PosX="610" PosY="199" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_3" ClassName="CKeroroUI_Button" PosX="610" PosY="236" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_4" ClassName="CKeroroUI_Button" PosX="610" PosY="276" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_5" ClassName="CKeroroUI_Button" PosX="610" PosY="316" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_6" ClassName="CKeroroUI_Button" PosX="610" PosY="354" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_7" ClassName="CKeroroUI_Button" PosX="610" PosY="394" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_8" ClassName="CKeroroUI_Button" PosX="610" PosY="432" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_RoomState_9" ClassName="CKeroroUI_Button" PosX="610" PosY="469" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="524" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="552" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="580" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.640" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_channel&amp;Lobby.TGA" TextPosX="707" TextPosY="608" TextSizeX="60" TextSizeY="25" PosX="0" PosY="0" SizeX="60" SizeY="25" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

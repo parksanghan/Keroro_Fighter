@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<Particle>
+    <ParticleName Name="Char_Sumo_SpeAtk_P00" />
+    <ParticleVer Ver="3.000000" />
+    <ParticleStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="2.000000" X="6.000000" Y="6.000000" Z="6.000000" />
+        </Speed>
+        <Alpha>
+            <Property Time="0.000000" Value="255.000000" />
+            <Property Time="0.500000" Value="255.000000" />
+            <Property Time="0.500000" Value="255.000000" />
+            <Property Time="1.000000" Value="0.000000" />
+        </Alpha>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <SizeRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+            <Property Time="1.000000" X="1.000000" Y="1.000000" Z="0.000000" />
+        </SizeRot>
+        <Texture>
+            <Property Time="0.000000" Value="Ef_Viper_Enjoy.tga" />
+        </Texture>
+    </ParticleStream>
+    <CreaterStream>
+        <Speed>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </Speed>
+        <MoveRot>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </MoveRot>
+        <JetDir>
+            <Property Time="0.000000" X="0.000000" Y="0.000000" Z="0.000000" />
+        </JetDir>
+    </CreaterStream>
+    <GenerationInfo>
+        <ParticleCount Min="2.000000" Max="3.000000" />
+        <RepeatCount Count="10.000000" />
+        <Gravity Value="0.000000" />
+        <Life Life_Min="1.000000" Value="1.980000" />
+        <RegenTime Min="0.100000" Max="0.100000" />
+        <RotScaleMin X="5.000000" Y="5.000000" Z="-20.000000" />
+        <RotScaleMax X="20.000000" Y="20.000000" Z="20.000000" />
+        <RandPosMin X="0.000000" Y="0.000000" Z="0.000000" />
+        <RandPosMax X="0.000000" Y="0.000000" Z="0.000000" />
+        <ComboList RefOrder="6.000000" ScaleType="1.000000" PositionType="0.000000" />
+        <Speed Min="30.000000" Max="30.000000" />
+    </GenerationInfo>
+    <CreaterInfo>
+        <JetDirMin X="0.000000" Y="0.000000" Z="-0.000000" />
+        <JetDirMax X="360.000000" Y="0.000000" Z="360.000000" />
+        <Speed X="0.000000" Y="0.000000" Z="10.000000" />
+        <SrcBlend Value="5.000000" />
+        <DestBlend Value="6.000000" />
+    </CreaterInfo>
+    <ParticleSequence Count="66">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.090000" Y="0.090000" Z="0.090000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.030000" Y="0.030000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.180000" Y="0.180000" Z="0.180000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.060000" Y="0.060000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.270000" Y="0.270000" Z="0.270000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.090000" Y="0.090000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.360000" Y="0.360000" Z="0.360000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.120000" Y="0.120000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.450000" Y="0.450000" Z="0.450000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.150000" Y="0.150000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.540000" Y="0.540000" Z="0.540000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.180000" Y="0.180000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.630000" Y="0.630000" Z="0.630000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.210000" Y="0.210000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.720000" Y="0.720000" Z="0.720000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.240000" Y="0.240000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.810000" Y="0.810000" Z="0.810000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.270000" Y="0.270000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.900000" Y="0.900000" Z="0.900000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.300000" Y="0.300000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="0.990000" Y="0.990000" Z="0.990000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.330000" Y="0.330000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.080000" Y="1.080000" Z="1.080000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.360000" Y="0.360000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.170000" Y="1.170000" Z="1.170000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.390000" Y="0.390000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.260000" Y="1.260000" Z="1.260000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.420000" Y="0.420000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.350000" Y="1.350000" Z="1.350000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.450000" Y="0.450000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.440000" Y="1.440000" Z="1.440000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.480000" Y="0.480000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.530000" Y="1.530000" Z="1.530000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.510000" Y="0.510000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.620000" Y="1.620000" Z="1.620000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.540000" Y="0.540000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.710000" Y="1.710000" Z="1.710000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.570000" Y="0.570000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.800000" Y="1.800000" Z="1.800000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.600000" Y="0.600000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.890000" Y="1.890000" Z="1.890000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.630000" Y="0.630000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="1.980000" Y="1.980000" Z="1.980000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.660000" Y="0.660000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.070000" Y="2.070000" Z="2.070000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.690000" Y="0.690000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.160000" Y="2.160000" Z="2.160000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.720000" Y="0.720000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.250000" Y="2.250000" Z="2.250000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.750000" Y="0.750000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.340000" Y="2.340000" Z="2.340000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.780000" Y="0.780000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.430000" Y="2.430000" Z="2.430000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.810000" Y="0.810000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.520000" Y="2.520000" Z="2.520000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.840000" Y="0.840000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.610000" Y="2.610000" Z="2.610000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.870000" Y="0.870000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.700000" Y="2.700000" Z="2.700000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.900000" Y="0.900000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.790000" Y="2.790000" Z="2.790000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.930000" Y="0.930000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.880000" Y="2.880000" Z="2.880000" />
+            <Alpha Value="255.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="0.960000" Y="0.960000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="2.970000" Y="2.970000" Z="2.970000" />
+            <Alpha Value="247.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.060000" Y="3.060000" Z="3.060000" />
+            <Alpha Value="239.699997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.150000" Y="3.150000" Z="3.150000" />
+            <Alpha Value="232.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.240000" Y="3.240000" Z="3.240000" />
+            <Alpha Value="224.399994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.330000" Y="3.330000" Z="3.330000" />
+            <Alpha Value="216.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.420000" Y="3.420000" Z="3.420000" />
+            <Alpha Value="209.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.510000" Y="3.510000" Z="3.510000" />
+            <Alpha Value="201.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.600000" Y="3.600000" Z="3.600000" />
+            <Alpha Value="193.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.690000" Y="3.690000" Z="3.690000" />
+            <Alpha Value="186.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.780000" Y="3.780000" Z="3.780000" />
+            <Alpha Value="178.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.870000" Y="3.870000" Z="3.870000" />
+            <Alpha Value="170.850006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="3.960000" Y="3.960000" Z="3.960000" />
+            <Alpha Value="163.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.050000" Y="4.050000" Z="4.050000" />
+            <Alpha Value="155.550003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.140000" Y="4.140000" Z="4.140000" />
+            <Alpha Value="147.899994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.230000" Y="4.230000" Z="4.230000" />
+            <Alpha Value="140.250000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.320000" Y="4.320000" Z="4.320000" />
+            <Alpha Value="132.600006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.410000" Y="4.410000" Z="4.410000" />
+            <Alpha Value="124.949997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.500000" Y="4.500000" Z="4.500000" />
+            <Alpha Value="117.300003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.590000" Y="4.590000" Z="4.590000" />
+            <Alpha Value="109.650009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.680000" Y="4.680000" Z="4.680000" />
+            <Alpha Value="102.000015" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.770000" Y="4.770000" Z="4.770000" />
+            <Alpha Value="94.350006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.860000" Y="4.860000" Z="4.860000" />
+            <Alpha Value="86.700012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="4.950000" Y="4.950000" Z="4.950000" />
+            <Alpha Value="79.050003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.040000" Y="5.040000" Z="5.040000" />
+            <Alpha Value="71.400009" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.130000" Y="5.130000" Z="5.130000" />
+            <Alpha Value="63.750000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.220000" Y="5.220000" Z="5.220000" />
+            <Alpha Value="56.100006" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.310000" Y="5.310000" Z="5.310000" />
+            <Alpha Value="48.449997" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.400000" Y="5.400000" Z="5.400000" />
+            <Alpha Value="40.800003" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.490000" Y="5.490000" Z="5.490000" />
+            <Alpha Value="33.149994" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.580000" Y="5.580000" Z="5.580000" />
+            <Alpha Value="25.500000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.670000" Y="5.670000" Z="5.670000" />
+            <Alpha Value="17.849991" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.760000" Y="5.760000" Z="5.760000" />
+            <Alpha Value="10.200012" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+        <Sequence>
+            <Speed X="5.850000" Y="5.850000" Z="5.850000" />
+            <Alpha Value="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <SizeRot X="1.000000" Y="1.000000" Z="0.000000" />
+            <Texture Texture="Ef_Viper_Enjoy.tga" />
+        </Sequence>
+    </ParticleSequence>
+    <CreaterSequence Count="1">
+        <Sequence>
+            <Speed X="0.000000" Y="0.000000" Z="0.000000" />
+            <MoveRot X="0.000000" Y="0.000000" Z="0.000000" />
+            <JetDir X="0.000000" Y="0.000000" Z="0.000000" />
+        </Sequence>
+    </CreaterSequence>
+</Particle>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExpTable>
+	<Table Lv="1" Name="思骯腌" AEXP="0" NEXP="1000"/>
+	<Table Lv="2" Name="思骯腌" AEXP="1000" NEXP="2500"/>
+	<Table Lv="3" Name="思骯腌" AEXP="3500" NEXP="4000"/>
+	<Table Lv="4" Name="思骯腌" AEXP="7500" NEXP="6000"/>
+	<Table Lv="5" Name="思骯腌" AEXP="13500" NEXP="8500"/>
+	<Table Lv="6" Name="思骯腌1" AEXP="22000" NEXP="20000"/>
+	<Table Lv="7" Name="思骯腌2" AEXP="42000" NEXP="20000"/>
+	<Table Lv="8" Name="思骯腌1" AEXP="62000" NEXP="30000"/>
+	<Table Lv="9" Name="思骯腌2" AEXP="92000" NEXP="30000"/>
+	<Table Lv="10" Name="思骯腌1" AEXP="122000" NEXP="45000"/>
+	<Table Lv="11" Name="思骯腌2" AEXP="167000" NEXP="45000"/>
+	<Table Lv="12" Name="思骯腌1" AEXP="212000" NEXP="80000"/>
+	<Table Lv="13" Name="思骯腌2" AEXP="292000" NEXP="80000"/>
+	<Table Lv="14" Name="思骯腌3" AEXP="372000" NEXP="80000"/>
+	<Table Lv="15" Name="思骯腌1" AEXP="452000" NEXP="120000"/>
+	<Table Lv="16" Name="思骯腌2" AEXP="572000" NEXP="120000"/>
+	<Table Lv="17" Name="思骯腌3" AEXP="692000" NEXP="120000"/>
+	<Table Lv="18" Name="思骯腌1" AEXP="812000" NEXP="180000"/>
+	<Table Lv="19" Name="思骯腌2" AEXP="992000" NEXP="180000"/>
+	<Table Lv="20" Name="思骯腌3" AEXP="1172000" NEXP="180000"/>
+	<Table Lv="21" Name="思骯腌1" AEXP="1352000" NEXP="350000"/>
+	<Table Lv="22" Name="思骯腌2" AEXP="1702000" NEXP="350000"/>
+	<Table Lv="23" Name="思骯腌3" AEXP="2052000" NEXP="350000"/>
+	<Table Lv="24" Name="思骯腌4" AEXP="2402000" NEXP="350000"/>
+	<Table Lv="25" Name="思骯腌1" AEXP="2752000" NEXP="500000"/>
+	<Table Lv="26" Name="思骯腌2" AEXP="3252000" NEXP="500000"/>
+	<Table Lv="27" Name="思骯腌3" AEXP="3752000" NEXP="500000"/>
+	<Table Lv="28" Name="思骯腌4" AEXP="4252000" NEXP="500000"/>
+	<Table Lv="29" Name="思骯腌1" AEXP="4752000" NEXP="800000"/>
+	<Table Lv="30" Name="思骯腌2" AEXP="5552000" NEXP="800000"/>
+	<Table Lv="31" Name="思骯腌3" AEXP="6352000" NEXP="800000"/>
+	<Table Lv="32" Name="思骯腌4" AEXP="7152000" NEXP="800000"/>
+	<Table Lv="33" Name="思骯腌" AEXP="7952000" NEXP="1000000"/>
+	<Table Lv="34" Name="思骯腌" AEXP="8952000" NEXP="1000000"/>
+	<Table Lv="35" Name="思骯腌" AEXP="9952000" NEXP="1000000"/>
+	<Table Lv="36" Name="思骯腌" AEXP="10952000" NEXP="0"/>
+</ExpTable>

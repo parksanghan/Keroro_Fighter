@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="23">
+        <PROPERTYBAG NAME="Playground_slide01" FILENAME="Playground_slide01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_road" FILENAME="Playground_road_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_mainland" FILENAME="Playground_mainland_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_bird" FILENAME="Playground_bird_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_Car01" FILENAME="Playground_Car01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_Car02" FILENAME="Playground_Car02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_tree01" FILENAME="Playground_tree01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_Car03" FILENAME="Playground_Car03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_flower01" FILENAME="Playground_flower01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_flower02" FILENAME="Playground_flower02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_fountain" FILENAME="Playground_fountain_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_GateNE" FILENAME="Playground_GateNE_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_GateSW" FILENAME="Playground_GateSW_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_house" FILENAME="Playground_house.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_Junglegym" FILENAME="Playground_Junglegym_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_light" FILENAME="Playground_light.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_light_A" FILENAME="Playground_light_A.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_seesaw" FILENAME="Playground_seesaw_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_slide02" FILENAME="Playground_slide02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_Alpha01" FILENAME="Playground_Alpha01_M.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_tree02" FILENAME="Playground_tree02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_clover" FILENAME="Playground_clover.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Playground_Alpha02" FILENAME="Playground_Alpha02_M.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Playground_COMMANDS.XML" />
+</GAMEENTITY>

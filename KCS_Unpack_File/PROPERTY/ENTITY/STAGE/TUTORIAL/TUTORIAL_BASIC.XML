@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="23">
+        <PROPERTYBAG NAME="tutorial_down_floor" FILENAME="tutorial_down_floor.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_cluld01" FILENAME="tutorial_cluld01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_cluld_big" FILENAME="tutorial_cluld_big.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_star" FILENAME="tutorial_star.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_mountain" FILENAME="tutorial_mountain.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_cluld02" FILENAME="tutorial_cluld02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_iotus" FILENAME="tutorial_iotus.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_iotus05" FILENAME="tutorial_iotus05.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_pond" FILENAME="tutorial_pond.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_rainbow" FILENAME="tutorial_rainbow.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_bridge" FILENAME="tutorial_bridge.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_down_wall02" FILENAME="tutorial_down_wall02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Tutorial_floor01" FILENAME="Tutorial_floor01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Tutorial_face" FILENAME="Tutorial_face.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Tutorial_footing" FILENAME="Tutorial_footing.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_main_floor" FILENAME="tutorial_main_floor.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_down_wall" FILENAME="tutorial_down_wall.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Tutorial_tree" FILENAME="Tutorial_tree.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_down_wall01" FILENAME="tutorial_down_wall01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_outside_wall" FILENAME="tutorial_outside_wall.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_outside_wall01" FILENAME="tutorial_outside_wall01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_bluewall" FILENAME="tutorial_bluewall.xml" COMMENT="" />
+        <PROPERTYBAG NAME="tutorial_sky" FILENAME="tutorial_sky.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="0" VSNAME="" />
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Tutorial_Basic_COMMANDS.XML" />
+</GAMEENTITY>

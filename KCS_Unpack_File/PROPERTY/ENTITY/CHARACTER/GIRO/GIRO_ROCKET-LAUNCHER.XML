@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="ANIOB_ROCKET-LAUNCHER" FILENAME="Giro_Aniob_Rocket-lanuncher.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Giro_Aniob_Rocket-launcher.VS">
+        <PROPERTYBAG NAME="ITM_SPECIAL_ATK" FILENAME="Giro_Itm_Special_Atk.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Giroro_Rocket-launcher_COMMANDS.XML" />
+</GAMEENTITY>

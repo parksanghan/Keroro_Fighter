@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="BEAM" LOOP="0" TOTALTIME="5.000000">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Qururu_big_face_dental_up_01" TYPENAME="ActionAnimation" ANIMATIONNAME="Qururu_big_face_dental_up_01" FADEIN="0.100000" FADEOUT="0.100000" WEIGHT="1.000000" EVENTTIME="0.000000" EVENTENDTIME="0.000000" />
+        </COMMAND>
+        <COMMAND NAME="FAKE" LOOP="0" TOTALTIME="3.330000">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Qururu_big_face_dental_up_02" TYPENAME="ActionAnimation" ANIMATIONNAME="Qururu_big_face_dental_up_02" FADEIN="0.100000" FADEOUT="0.100000" WEIGHT="1.000000" EVENTTIME="0.000000" EVENTENDTIME="0.000000" />
+        </COMMAND>
+        <COMMAND NAME="MISSILE" LOOP="0" TOTALTIME="3.330000">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Qururu_big_face_dental_up_03" TYPENAME="ActionAnimation" ANIMATIONNAME="Qururu_big_face_dental_up_03" FADEIN="0.100000" FADEOUT="0.100000" WEIGHT="1.000000" EVENTTIME="0.000000" EVENTENDTIME="0.000000" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="IDLE" LOOP="0" TOTALTIME="10">
+            <ACTIONEVENT CLASSNAME="CActionEvent_LoopAni" EVENTNAME="SD_wheel04" TYPENAME="LoopAnimation" ANIMATIONNAME="SD_wheel04" WEIGHT="1" DELAY="0.1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

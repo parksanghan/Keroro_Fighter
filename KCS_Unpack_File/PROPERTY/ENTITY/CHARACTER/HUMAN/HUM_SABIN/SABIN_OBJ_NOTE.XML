@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Sabin_OBJ_NOTE" FILENAME="Sabin_OBJ_NOTE.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="10" VSNAME="Sabin_Obj_Note.VS">
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KK_NOTE" FILENAME="Sabin_Obj_Comb_KK_NOTE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KPP_NOTE" FILENAME="Sabin_Obj_Comb_KPP_NOTE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_KP_NOTE" FILENAME="Sabin_Obj_Comb_KP_NOTE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Comb_K_NOTE" FILENAME="Sabin_Obj_Comb_K_NOTE.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_ESC_01_Note" FILENAME="Sabin_Obj_ESC_01_Note.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_IDLE_01_Note" FILENAME="Sabin_Obj_IDLE_01_Note.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_01_Note" FILENAME="Sabin_Obj_SPE_01_Note.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_02_Note" FILENAME="Sabin_Obj_SPE_02_Note.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_SPE_03_Note" FILENAME="Sabin_Obj_SPE_03_Note.VA" COMMENT="" />
+        <PROPERTYBAG NAME="Sabin_Obj_Win_Note" FILENAME="Sabin_Obj_Win_Note.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Sabin_Obj_Note_COMMANDS.XML" />
+</GAMEENTITY>

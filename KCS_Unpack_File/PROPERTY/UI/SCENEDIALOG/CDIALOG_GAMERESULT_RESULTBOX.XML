@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--참고 사항 
+1. Ranking List Static Control
+  1) Static Control 이름 명명법
+     NL(Normal Game Left) NR(Normal Game Right) GL(Guild Channel Left) GR(Guild Channel Right) LL(Ladder Game Left) LR(Ladder Game Right)
+  2) 10.10.01일인 현재까지의 결과 화면은 Ranking List는 좌우 5개씩 10개를 출력하지만, 코드 안에서 12(0~11)개를 허용하고 있으므로, 만약을 대비하여 6번째 Static Control들을 만들어 놓았다.
+     (현재 6번 Static Control들은 사용되지 않으며, 6번째 Static Control들의 위치는 현재 화면의 높이인 768을 넘어 출력하게 되어 있으므로 SetShow(true)를 하여도 화면에 출력 되지 않는다.)
+-->
+<RootNode>
+	<Dialog>
+		<Property Name="CDialog_GameResult_ResultBox.xml" PosX="0" PosY="0" SizeX="1024" SizeY="768" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+	</Dialog>
+	<DialogSkin>
+		<!--승리 패배 / 배경 이미지-->
+		<Property Index="0"  RenderStyle="0" Depth="0.880" Show="1">
+			<Element index="0" TextName="GUI_GameEnd.TGA" TextPosX="0" TextPosY="196" TextSizeX="1024" TextSizeY="316" PosX="0" PosY="452" SizeX="1024" SizeY="316" />
+		</Property>
+		<!--참 잘했어요 도장 이미지-->
+		<Property Index="1"  RenderStyle="0" Depth="0.880" Show="0">
+			<Element index="0" TextName="GUI_GameEnd_Stamp.TGA" TextPosX="0" TextPosY="0" TextSizeX="256" TextSizeY="256" PosX="270" PosY="283" SizeX="256" SizeY="256" />
+		</Property>
+	</DialogSkin>
+	<DialogControl>
+		<!--일반 게임 결과 화면 구성-->
+		<Property Name="Control_NormalGameDisplay" ClassName="CKeroroUI_Control" PosX="0" PosY="0" SizeX="280" SizeY="68" Disalbe="0" OverSound="0">
+			<ControlSkin>
+				<!--게임 결과 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.880" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="1" TextSizeX="247" TextSizeY="68" PosX="20" PosY="26" SizeX="247" SizeY="68" />
+				</Property>
+				<!--순위, 계급, 닉네임, 경험치, 케롯 이미지(왼쪽)-->
+				<Property Index="1"  RenderStyle="0" Depth="0.879" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="1" TextSizeX="426" TextSizeY="17" PosX="19" PosY="532" SizeX="426" SizeY="17" />
+				</Property>
+				<!--순위, 계급, 닉네임, 경험치, 케롯 이미지(오른쪽)-->
+				<Property Index="2"  RenderStyle="0" Depth="0.879" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="1" TextSizeX="426" TextSizeY="17" PosX="553" PosY="532" SizeX="426" SizeY="17" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름1(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_NL1" ClassName="CKeroroUI_Static" PosX="15" PosY="560" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름1(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_NR1" ClassName="CKeroroUI_Static" PosX="550" PosY="560" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름2(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_NL2" ClassName="CKeroroUI_Static" PosX="15" PosY="600" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름2(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_NR2" ClassName="CKeroroUI_Static" PosX="550" PosY="600" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름3(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_NL3" ClassName="CKeroroUI_Static" PosX="15" PosY="640" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름3(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_NR3" ClassName="CKeroroUI_Static" PosX="550" PosY="640" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름4(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_NL4" ClassName="CKeroroUI_Static" PosX="15" PosY="680" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름4(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_NR4" ClassName="CKeroroUI_Static" PosX="550" PosY="680" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름5(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_NL5" ClassName="CKeroroUI_Static" PosX="15" PosY="720" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름5(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_NR5" ClassName="CKeroroUI_Static" PosX="550" PosY="720" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름6(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_NL6" ClassName="CKeroroUI_Static" PosX="15" PosY="760" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Normal Game RankList 플레이어 이름6(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_NR6" ClassName="CKeroroUI_Static" PosX="550" PosY="760" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="39" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--길드 채널 결과 화면 구성-->
+		<Property Name="Control_GuildChannelDisplay" ClassName="CKeroroUI_Control" PosX="0" PosY="0" SizeX="280" SizeY="68" Disalbe="0" OverSound="0">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Levle="1" MAxPoint="0" NewPoint="0" LineLimt="0" AnimationOn="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShodowCount="0" AnmationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin>
+				<!--게임 결과 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.880" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="1" TextSizeX="247" TextSizeY="68" PosX="20" PosY="26" SizeX="247" SizeY="68" />
+				</Property>
+				<!--순위, 계급, 닉네임, 경험치, 케롯 이미지(왼쪽)-->
+				<Property Index="1"  RenderStyle="0" Depth="0.879" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="0" TextPosY="513" TextSizeX="427" TextSizeY="17" PosX="19" PosY="532" SizeX="426" SizeY="17" />
+				</Property>
+				<!--순위, 계급, 닉네임, 경험치, 케롯 이미지(오른쪽)-->
+				<Property Index="2"  RenderStyle="0" Depth="0.879" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="0" TextPosY="513" TextSizeX="427" TextSizeY="17" PosX="553" PosY="532" SizeX="426" SizeY="17" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름1(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_GL1" ClassName="CKeroroUI_Static" PosX="15" PosY="560" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름1(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_GR1" ClassName="CKeroroUI_Static" PosX="550" PosY="560" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름2(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_GL2" ClassName="CKeroroUI_Static" PosX="15" PosY="600" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름2(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_GR2" ClassName="CKeroroUI_Static" PosX="550" PosY="600" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름3(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_GL3" ClassName="CKeroroUI_Static" PosX="15" PosY="640" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름3(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_GR3" ClassName="CKeroroUI_Static" PosX="550" PosY="640" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름4(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_GL4" ClassName="CKeroroUI_Static" PosX="15" PosY="680" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름4(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_GR4" ClassName="CKeroroUI_Static" PosX="550" PosY="680" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름5(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_GL5" ClassName="CKeroroUI_Static" PosX="15" PosY="720" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름5(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_GR5" ClassName="CKeroroUI_Static" PosX="550" PosY="720" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름6(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_GL6" ClassName="CKeroroUI_Static" PosX="15" PosY="760" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Guild Channel Game RankList 플레이어 이름6(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_GR6" ClassName="CKeroroUI_Static" PosX="550" PosY="760" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="531" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--레더전 결과 화면 구성-->
+		<Property Name="Control_LadderGameDisplay" ClassName="CKeroroUI_Control" PosX="0" PosY="0" SizeX="280" SizeY="68" Disalbe="1" OverSound="0">
+			<ControlSkin>
+				<!--레더전 결과 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.879" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="357" TextPosY="122" TextSizeX="280" TextSizeY="68" PosX="20" PosY="26" SizeX="280" SizeY="68" />
+				</Property>
+				<!--순위, 계급, 닉네임, 레더점수, 획득점수, 최종점수, 케롯 이미지(왼쪽)-->
+				<Property Index="1"  RenderStyle="0" Depth="0.879" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="19" TextSizeX="434" TextSizeY="17" PosX="19" PosY="532" SizeX="434" SizeY="17" />
+				</Property>
+				<!--순위, 계급, 닉네임, 레더점수, 획득점수, 최종점수, 케롯 이미지(오른쪽)-->
+				<Property Index="2"  RenderStyle="0" Depth="0.879" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="250" TextPosY="19" TextSizeX="434" TextSizeY="17" PosX="553" PosY="532" SizeX="434" SizeY="17" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름1(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_LL1" ClassName="CKeroroUI_Static" PosX="15" PosY="560" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름1(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_LR1" ClassName="CKeroroUI_Static" PosX="550" PosY="560" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름2(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_LL2" ClassName="CKeroroUI_Static" PosX="15" PosY="600" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름2(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_LR2" ClassName="CKeroroUI_Static" PosX="550" PosY="600" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름3(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_LL3" ClassName="CKeroroUI_Static" PosX="15" PosY="640" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름3(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_LR3" ClassName="CKeroroUI_Static" PosX="550" PosY="640" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름4(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_LL4" ClassName="CKeroroUI_Static" PosX="15" PosY="680" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름4(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_LR4" ClassName="CKeroroUI_Static" PosX="550" PosY="680" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름5(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_LL5" ClassName="CKeroroUI_Static" PosX="15" PosY="720" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름5(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_LR5" ClassName="CKeroroUI_Static" PosX="550" PosY="720" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름6(왼쪽)-->
+		<Property Name = "Static_RankListPlayerName_LL6" ClassName="CKeroroUI_Static" PosX="15" PosY="760" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="123" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--Ladder Game RankList 플레이어 이름6(오른쪽)-->
+		<Property Name = "Static_RankListPlayerName_LR6" ClassName="CKeroroUI_Static" PosX="550" PosY="760" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<ControlSkin>
+				<!--플레이어 리스트 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.851" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="248" TextPosY="78" TextSizeX="420" TextSizeY="38" PosX="38" PosY="-3" SizeX="420" SizeY="38" />
+				</Property>
+				<!--순위 더미 이미지 : 코드에서 순위에 맞게 설정-->
+				<Property Index="1"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="6" TextPosY="155" TextSizeX="34" TextSizeY="31" PosX="0" PosY="0" SizeX="34" SizeY="31" />
+				</Property>
+				<!--PC방 이미지-->
+				<Property Index="2"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="60" TextPosY="76" TextSizeX="42" TextSizeY="42" PosX="438" PosY="-4" SizeX="42" SizeY="42" />
+				</Property>
+				<!--아이템 이미지-->
+				<Property Index="3"  RenderStyle="0" Depth="0.851" Show="0">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="164" TextPosY="76" TextSizeX="50" TextSizeY="42" PosX="438" PosY="-4" SizeX="50" SizeY="42" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--님의 경험치-->
+        <Property Name="Gauge2_ExpGauge" ClassName="CKeroroUI_Gauge2" PosX="641" PosY="22" SizeX="0" SizeY="0" Disable="0" OverSound="1">
+			<!--
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="100" NowPoint="0" LineLimt="100" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="1" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000">
+                <GaugeProperty TextureName="GUI_GameEnd.tga" RectLeft="703" RectTop="28" RectRight="191" RectBottom="28" ShowPosX="22" ShowPosY="52" Depth="0.860" AnimationFrame="0" NextTermX="0" NextTermY="0" />
+            </SubProperty>
+			-->
+			<ControlSkin>
+				<!--님의 경험치& 배경 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.880" Show="1">
+					<Element index="0" TextName="GUI_GameEnd.TGA" TextPosX="669" TextPosY="94" TextSizeX="354" TextSizeY="100" PosX="0" PosY="0" SizeX="354" SizeY="100" />
+				</Property>
+				<!--Gauge 배경 이미지-->
+				<Property Index="1"  RenderStyle="0" Depth="0.880" Show="1">
+					<Element index="0" TextName="GUI_GameEnd.TGA" TextPosX="700" TextPosY="59" TextSizeX="318" TextSizeY="34" PosX="19" PosY="49" SizeX="318" SizeY="34" />
+				</Property>
+			</ControlSkin>
+        </Property>
+		<!--경험치 위치의 플레이어 이름 표시-->
+		<Property Name = "Static_ExpDisplayPlayerName" ClassName="CKeroroUI_Static" PosX="756" PosY="41" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+			<FontSkin>
+				<Property FontText="Result_MyNick" FontDepth="0.850" FontTextureName="Result_MyNick_Text" FontSize="12" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+			</FontSkin>
+        </Property>
+		<!--경험치 숫자(%) 표시-->
+        <Property Name="Number_ExpDisplay" ClassName="CKeroroUI_Number" PosX="798" PosY="78" SizeX="50" SizeY="23" Disable="0" OverSound="1">
+			<ControlSkin>
+				<Property Index="0" RenderStyle="0" Depth="0.770" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="996" TextPosY="4" TextSizeX="17" TextSizeY="22" PosX="40" PosY="0" SizeX="17" SizeY="22" />
+				</Property>
+			</ControlSkin>
+        </Property>
+		<!--PC방 이미지-->
+		<Property Name="Control_PCRoomDisplay" ClassName="CKeroroUI_Control" PosX="903" PosY="27" SizeX="56" SizeY="36" Disalbe="0" OverSound="0">
+			<ControlSkin>
+				<Property Index="0"  RenderStyle="0" Depth="0.859" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="1" TextPosY="79" TextSizeX="56" TextSizeY="36" PosX="0" PosY="0" SizeX="56" SizeY="36" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--아이템 이미지-->
+		<Property Name="Control_ItemDisplay" ClassName="CKeroroUI_Control" PosX="903" PosY="27" SizeX="56" SizeY="36" Disalbe="0" OverSound="0">
+			<ControlSkin>
+				<Property Index="0"  RenderStyle="0" Depth="0.859" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_GameEnd.TGA" TextPosX="105" TextPosY="79" TextSizeX="56" TextSizeY="36" PosX="903" PosY="27" SizeX="56" SizeY="36" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--선물 상자의 현재 개수 표시-->
+		<Property Name="Number_NowTrainingPoint" ClassName="CKeroroUI_Number" PosX="840" PosY="130" SizeX="158" SizeY="37" Disalbe="0" OverSound="0">
+			<ControlSkin>
+				<!--선물 상자 이미지-->
+				<Property Index="0"  RenderStyle="0" Depth="0.660" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="98" TextPosY="854" TextSizeX="39" TextSizeY="37" PosX="0" PosY="0" SizeX="39" SizeY="37" />
+				</Property>
+				<!--/ 이미지-->
+				<Property Index="1"  RenderStyle="0" Depth="0.660" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="29" TextPosY="780" TextSizeX="23" TextSizeY="35" PosX="77" PosY="1" SizeX="23" SizeY="35" />
+				</Property>
+			</ControlSkin>
+		</Property>
+		<!--선물 상자의 최대 개수 표시-->
+		<Property Name="Number_MaxTrainingPoint" ClassName="CKeroroUI_Number" PosX="840" PosY="130" SizeX="158" SizeY="37" Disalbe="0" OverSound="0" />
+		<!--이번 게임을 통해 얻은 선물 상자의 개수 표시-->
+		<Property Name="Number_GetCurrentTrainingPoint" ClassName="CKeroroUI_Number" PosX="840" PosY="130" SizeX="158" SizeY="37" Disalbe="0" OverSound="0">
+			<ControlSkin>
+				<Property Index="0"  RenderStyle="0" Depth="0.660" Show="1">
+					<Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info.TGA" TextPosX="5" TextPosY="780" TextSizeX="23" TextSizeY="35" PosX="42" PosY="1" SizeX="23" SizeY="35" />
+				</Property>
+			</ControlSkin>
+		</Property>
+	</DialogControl>
+</RootNode>

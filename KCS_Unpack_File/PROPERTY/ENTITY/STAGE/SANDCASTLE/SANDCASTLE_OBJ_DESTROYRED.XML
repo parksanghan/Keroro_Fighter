@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="SandCastle_Obj_DestroyRedSha" FILENAME="SandCastle_Obj_DestroyRedSha.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_Obj_DestroyRed" FILENAME="SandCastle_Obj_DestroyRed.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="SandCastle_Obj_DestroyRed.VS">
+        <PROPERTYBAG NAME="SandCastle_Obj_DestroyRed.VA" FILENAME="SandCastle_Obj_DestroyRed.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="CM_HIT_PUSH_A_1.ogg" FILENAME="CM_HIT_PUSH_A_1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="Cm_Hit_Bomb.ogg" FILENAME="Cm_Hit_Bomb.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="3">
+        <PROPERTYBAG NAME="SandCastle_brick_E00.xml" FILENAME="SandCastle_brick_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_brick_E01.xml" FILENAME="SandCastle_brick_E01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="Sphinx_BoxEnd_B01.xml" FILENAME="Sphinx_BoxEnd_B01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="SandCastle_Obj_DestroyRed_COMMANDS.XML" />
+</GAMEENTITY>

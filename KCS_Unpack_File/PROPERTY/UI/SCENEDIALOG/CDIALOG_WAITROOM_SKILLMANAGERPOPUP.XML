@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="editdialog" PosX="185" PosY="152" SizeX="656" SizeY="460" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.750" Show="1">
+            <Element index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="0" TextPosY="0" TextSizeX="656" TextSizeY="460" PosX="0" PosY="0" SizeX="656" SizeY="460" />
+        </Property>
+        <Property Index="1" RenderStyle="0" Depth="0.750" Show="1">
+            <Element index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="199" TextPosY="108" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="2" RenderStyle="0" Depth="0.750" Show="1">
+            <Element index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="199" TextPosY="108" TextSizeX="48" TextSizeY="48" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+        </Property>
+        <Property Index="3" RenderStyle="0" Depth="0.755" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-185" PosY="-152" SizeX="1024" SizeY="768" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="SkillOK_Button" ClassName="CKeroroUI_Button" PosX="232" PosY="413" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="10" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="40" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="70" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillCancel_Button" ClassName="CKeroroUI_Button" PosX="356" PosY="413" SizeX="92" SizeY="29" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="769" TextPosY="10" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="769" TextPosY="40" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="769" TextPosY="70" TextSizeX="92" TextSizeY="29" PosX="0" PosY="0" SizeX="92" SizeY="29" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillpopupPrev_Button" ClassName="CKeroroUI_Button" PosX="413" PosY="367" SizeX="43" SizeY="21" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="173" TextSizeX="43" TextSizeY="21" PosX="0" PosY="0" SizeX="43" SizeY="21" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="195" TextSizeX="43" TextSizeY="21" PosX="0" PosY="0" SizeX="43" SizeY="21" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="217" TextSizeX="43" TextSizeY="21" PosX="0" PosY="0" SizeX="43" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillpopupNext_Button" ClassName="CKeroroUI_Button" PosX="508" PosY="367" SizeX="43" SizeY="21" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="759" TextPosY="173" TextSizeX="43" TextSizeY="21" PosX="0" PosY="0" SizeX="43" SizeY="21" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="759" TextPosY="195" TextSizeX="43" TextSizeY="21" PosX="0" PosY="0" SizeX="43" SizeY="21" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="759" TextPosY="217" TextSizeX="43" TextSizeY="21" PosX="0" PosY="0" SizeX="43" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillpopupPage_Button" ClassName="CKeroroUI_Button" PosX="464" PosY="365" SizeX="37" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.730" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="717" TextPosY="172" TextSizeX="37" TextSizeY="23" PosX="0" PosY="0" SizeX="37" SizeY="23" />
+                </Property>
+                <Property Index="1" RenderStyle="0" Depth="0.720" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="239" TextSizeX="12" TextSizeY="17" PosX="13" PosY="3" SizeX="12" SizeY="17" />
+                </Property>
+                <Property Index="2" RenderStyle="0" Depth="0.720" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="239" TextSizeX="12" TextSizeY="17" PosX="8" PosY="3" SizeX="12" SizeY="17" />
+                </Property>
+                <Property Index="3" RenderStyle="0" Depth="0.720" Show="0">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="669" TextPosY="239" TextSizeX="12" TextSizeY="17" PosX="17" PosY="3" SizeX="12" SizeY="17" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillpopupAllSkill_Button" ClassName="CKeroroUI_TabButton" PosX="333" PosY="46" SizeX="66" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.720" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="670" TextPosY="100" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="670" TextPosY="124" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="670" TextPosY="148" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillpopupCharSkill_Button" ClassName="CKeroroUI_TabButton" PosX="554" PosY="46" SizeX="66" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.720" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="742" TextPosY="100" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="742" TextPosY="124" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="742" TextPosY="148" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillpopupSystemSkill_Button" ClassName="CKeroroUI_TabButton" PosX="481" PosY="46" SizeX="66" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.720" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="814" TextPosY="100" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="814" TextPosY="124" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="814" TextPosY="148" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillpopupCommonSkill_Button" ClassName="CKeroroUI_TabButton" PosX="407" PosY="46" SizeX="66" SizeY="23" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.720" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="886" TextPosY="100" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="886" TextPosY="124" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="886" TextPosY="148" TextSizeX="66" TextSizeY="23" PosX="0" PosY="0" SizeX="66" SizeY="23" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="SkillClose_Button" ClassName="CKeroroUI_Button" PosX="622" PosY="12" SizeX="22" SizeY="21" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.720" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="862" TextPosY="14" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="2" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="885" TextPosY="14" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                    <Element ControlState="3" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="908" TextPosY="14" TextSizeX="22" TextSizeY="21" PosX="0" PosY="0" SizeX="22" SizeY="21" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Slot_1" ClassName="CKeroroUI_Button" PosX="38" PosY="108" SizeX="48" SizeY="48" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.710" Show="1">
+                    <Element ControlState="5" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="872" TextPosY="44" TextSizeX="46" TextSizeY="46" PosX="0" PosY="1" SizeX="46" SizeY="46" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Slot_2" ClassName="CKeroroUI_Button" PosX="92" PosY="108" SizeX="48" SizeY="48" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.710" Show="1">
+                    <Element ControlState="5" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="872" TextPosY="44" TextSizeX="46" TextSizeY="46" PosX="0" PosY="1" SizeX="46" SizeY="46" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Slot_3" ClassName="CKeroroUI_Button" PosX="146" PosY="108" SizeX="48" SizeY="48" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.710" Show="1">
+                    <Element ControlState="5" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="872" TextPosY="44" TextSizeX="46" TextSizeY="46" PosX="0" PosY="1" SizeX="46" SizeY="46" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Slot_4" ClassName="CKeroroUI_Button" PosX="200" PosY="108" SizeX="48" SizeY="48" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.710" Show="1">
+                    <Element ControlState="5" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="872" TextPosY="44" TextSizeX="46" TextSizeY="46" PosX="0" PosY="1" SizeX="46" SizeY="46" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Slot_5" ClassName="CKeroroUI_Button" PosX="254" PosY="108" SizeX="48" SizeY="48" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.710" Show="1">
+                    <Element ControlState="5" index="0" TextName="GUI_WaitingRoom_Skill.TGA" TextPosX="872" TextPosY="44" TextSizeX="46" TextSizeY="46" PosX="0" PosY="1" SizeX="46" SizeY="46" />
+                </Property>
+            </ControlSkin>
+        </Property>
+    </DialogControl>
+</RootNode>

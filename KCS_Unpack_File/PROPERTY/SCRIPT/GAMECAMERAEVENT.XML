@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+<GameCameraEvent>
+	<GameCameraConfig rcount = "11" EulerX = "0" EulerY = "18" EulerZ = "0"
+		DIstX = "0" DistY = "421.159" DistZ = "-852.191" />
+
+	<Event Name = "Wait" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "180.0" >
+		<DataCount rcount = "1"/>
+		<Data Event = "0" Work = "0"/>
+	</Event>
+
+	<Event Name = "Normal" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "280.0" >
+		<DataCount rcount = "4"/>
+		<Data Event = "1" Work = "1"/>
+		<Data Event = "8" Work = "0"/>
+		<Data Event = "7" Work = "0"/>
+		<Data Event = "9" Work = "0"/>
+	</Event>
+
+	<Event Name = "In" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "180.0" >
+		<DataCount rcount = "5"/>
+		<Data Event = "2" Work = "0"/>
+		<Data Event = "8" Work = "0"/>
+		<Data Event = "1" Work = "1"/>
+		<Data Event = "7" Work = "0"/>
+		<Data Event = "9" Work = "0"/>
+	</Event>
+
+	<Event Name = "SlowIn" ZoomLimitX = "0.0" ZoomLimitY = "195.0" ZoomLimitZ = "450.0" >
+		<DataCount rcount = "5"/>
+		<Data Event = "3" Work = "0"/>
+		<Data Event = "8" Work = "0"/>
+		<Data Event = "1" Work = "1"/>
+		<Data Event = "7" Work = "0"/>
+		<Data Event = "9" Work = "0"/>
+	</Event>
+
+	<Event Name = "Out" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "450.0" >
+		<DataCount rcount = "5"/>
+		<Data Event = "4" Work = "0"/>
+		<Data Event = "1" Work = "1"/>
+		<Data Event = "8" Work = "0"/>
+		<Data Event = "7" Work = "0"/>
+		<Data Event = "9" Work = "0"/>
+	</Event>
+
+	<Event Name = "SlowOut" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "450.0" >
+		<DataCount rcount = "5"/>
+		<Data Event = "5" Work = "0"/>
+		<Data Event = "1" Work = "1"/>
+		<Data Event = "8" Work = "0"/>
+		<Data Event = "7" Work = "0"/>
+		<Data Event = "9" Work = "0"/>
+	</Event>
+
+	<Event Name = "ResultZoomIn" ZoomLimitX = "300.0" ZoomLimitY = "135.0" ZoomLimitZ = "180.0" >
+		<DataCount rcount = "5"/>
+		<Data Event = "2" Work = "0"/>
+		<Data Event = "8" Work = "0"/>
+		<Data Event = "1" Work = "1"/>
+		<Data Event = "7" Work = "0"/>
+		<Data Event = "9" Work = "0"/>
+	</Event>
+
+	<Event Name = "Shake" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "180.0" >
+		<DataCount rcount = "1"/>
+		<Data Event = "0" Work = "0"/>
+	</Event>
+
+	<Event Name = "Spring" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "180.0" >
+		<DataCount rcount = "1"/>
+		<Data Event = "0" Work = "0"/>
+	</Event>
+
+	<Event Name = "Limit" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "180.0" >
+		<DataCount rcount = "1"/>
+		<Data Event = "0" Work = "0"/>
+	</Event>
+
+
+	<Event Name = "NoLimit" ZoomLimitX = "0.0" ZoomLimitY = "135.0" ZoomLimitZ = "280.0" >
+		<DataCount rcount = "4"/>
+		<Data Event = "1" Work = "1"/>
+		<Data Event = "8" Work = "0"/>
+		<Data Event = "7" Work = "0"/>
+		<Data Event = "10" Work = "0"/>
+	</Event>
+
+</GameCameraEvent>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Urere_Obj_Bag" FILENAME="Urere_Obj_Bag.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Urere_Obj_Bag.VS">
+        <PROPERTYBAG NAME="Urere_Obj_Bag_KKKP_02" FILENAME="Urere_Obj_Bag_KKKP_02.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Urere_Obj_Bag02_COMMANDS.XML" />
+</GAMEENTITY>

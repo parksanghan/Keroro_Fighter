@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyInfoToolTip>
+  <ToolTip PropertyID="701000003" Desc="수퍼 방장" />
+  <ToolTip PropertyID="702000000" Desc="계급 전적 숨기기" />
+  <ToolTip PropertyID="703000000" Desc="케롯 30%% 상승" />
+  <ToolTip PropertyID="703000001" Desc="경험치 30%% 상승" />
+  <ToolTip PropertyID="704000000" Desc="4번 슬롯 활성화" />
+  <ToolTip PropertyID="704000001" Desc="5번 슬롯 활성화" />
+</MyInfoToolTip>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="ANIOB_SATELLITE" FILENAME="Kuru_Aniob_Satellite.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Kuru_Aniob_Satellite.VS">
+        <PROPERTYBAG NAME="ITM_SPECIAL_ATK" FILENAME="Slot_Atk_Satellite.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kuru_Satellite_COMMANDS.XML" />
+</GAMEENTITY>

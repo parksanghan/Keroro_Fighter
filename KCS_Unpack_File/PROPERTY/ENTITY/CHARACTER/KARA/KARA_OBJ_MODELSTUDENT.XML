@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Kara_Obj_ModeStudent" FILENAME="Kara_Obj_ModelStudent.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="Kara_Obj_modelstudent.VS">
+        <PROPERTYBAG NAME="Kara_Idle" FILENAME="Kara_Obj_modelstudent.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="0" />
+    <EFFECT_RES_LIST COUNT="0" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="Kara_Obj_ModelStudent_COMMANDS.XML" />
+</GAMEENTITY>

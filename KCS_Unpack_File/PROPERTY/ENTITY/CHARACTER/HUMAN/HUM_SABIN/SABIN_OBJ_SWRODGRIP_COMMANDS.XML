@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_JA_K" LOOP="0" TOTALTIME="0.67">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Obj_Jump_K" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Obj_Jump_K" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_PPK" LOOP="0" TOTALTIME="0.63">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Obj_Comb_PPK_SwordGrip" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Obj_Comb_PPK_SwordGrip" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_PPKK" LOOP="0" TOTALTIME="0.43">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Obj_Comb_PPKK_SwordGrip" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Obj_Comb_PPKK_SwordGrip" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="COMB_PPKKK" LOOP="0" TOTALTIME="0.73">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sabin_Obj_Comb_PPKKK_SwordGrip" TYPENAME="ActionAnimation" ANIMATIONNAME="Sabin_Obj_Comb_PPKKK_SwordGrip" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

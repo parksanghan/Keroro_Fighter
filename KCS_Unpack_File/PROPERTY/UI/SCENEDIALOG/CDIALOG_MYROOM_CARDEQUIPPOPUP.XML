@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<RootNode>
+	<Dialog>
+		<Property Name = "CDialog_MyRoom_CardEquipPopup.xml" PosX = "0" PosY = "0" SizeX = "1024" SizeY = "768" ClientLeft = "0" ClientTop = "0" ClientRight = "0" ClientBottom = "0" />
+	</Dialog>
+	<DialogSkin>
+	<Property Index="0" RenderStyle="1" Depth="0.432" Show="1">
+			<Element index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="947" TextPosY="156" TextSizeX="13" TextSizeY="350" PosX="368" PosY="194" SizeX="282" SizeY="350" />
+			<Element index="1" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+			<Element index="2" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+			<Element index="3" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+			<Element index="4" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="919" TextPosY="156" TextSizeX="27" TextSizeY="350" PosX="344" PosY="194" SizeX="27" SizeY="350" />
+			<Element index="5" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="961" TextPosY="156" TextSizeX="27" TextSizeY="350" PosX="650" PosY="194" SizeX="27" SizeY="350" />
+			<Element index="6" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+			<Element index="7" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+			<Element index="8" TextName="" TextPosX="0" TextPosY="0" TextSizeX="0" TextSizeY="0" PosX="0" PosY="0" SizeX="0" SizeY="0" />
+		</Property>
+		<Property Index="1" RenderStyle="0" Depth="0.435" Show="1">
+			<Element index="0" TextName="GUI_BackBase.TGA" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="0" PosY = "0" SizeX = "1024" SizeY = "768" />
+		</Property>
+		<Property Index="2" RenderStyle="0" Depth="0.432" Show="1">
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="377" TextPosY="32" TextSizeX="38" TextSizeY="22" PosX="489" PosY="207" SizeX="38" SizeY="22" />
+		</Property>
+        <Property Index="3" RenderStyle="0" Depth="0.432" Show="1">
+            <Element index="0" TextName="GUI_Lobby_Popup.TGA" TextPosX="367" TextPosY="57" TextSizeX="76" TextSizeY="76" PosX="471" PosY="268" SizeX="76" SizeY="76" />
+        </Property>
+	</DialogSkin>
+	<DialogControl>
+		<Property Name="Static_NoticeCardEquip" ClassName="CKeroroUI_Static" PosX="370" PosY="258" SizeX="120" SizeY="20" Disable="0" OverSound="1">
+			<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+			<ControlSkin />
+		</Property>
+        <Property Name="Button_EquipLuckyStone_1" ClassName="CKeroroUI_Button" PosX="357" PosY="369" SizeX="307" SizeY="33" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="392" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="460" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="426" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="460" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+				</Property>
+            </ControlSkin>
+		</Property>
+        <Property Name="Button_EquipLuckyStone_2" ClassName="CKeroroUI_Button" PosX="357" PosY="403" SizeX="307" SizeY="33" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="392" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="460" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="426" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="460" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+				</Property>
+            </ControlSkin>
+		</Property>
+        <Property Name="Button_EquipLuckyStone_3" ClassName="CKeroroUI_Button" PosX="357" PosY="437" SizeX="307" SizeY="33" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="392" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="460" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="426" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="460" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+				</Property>
+            </ControlSkin>
+		</Property>
+        <Property Name="Button_ClearLuckyStone_1" ClassName="CKeroroUI_Button" PosX="357" PosY="369" SizeX="307" SizeY="33" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="496" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="564" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="530" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="564" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+				</Property>
+            </ControlSkin>
+		</Property>
+        <Property Name="Button_ClearLuckyStone_2" ClassName="CKeroroUI_Button" PosX="357" PosY="403" SizeX="307" SizeY="33" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="496" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="564" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="530" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="564" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+				</Property>
+            </ControlSkin>
+		</Property>
+        <Property Name="Button_ClearLuckyStone_3" ClassName="CKeroroUI_Button" PosX="357" PosY="437" SizeX="307" SizeY="33" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="496" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="1" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="564" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="2" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="530" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+                    <Element ControlState="3" index="0" TextName="GUI_Inventory&amp;info2.TGA" TextPosX="584" TextPosY="564" TextSizeX="307" TextSizeY="33" PosX="0" PosY="0" SizeX="307" SizeY="33" />
+				</Property>
+            </ControlSkin>
+		</Property>
+        <Property Name="Button_ExecuteCardEquip" ClassName="CKeroroUI_Button" PosX="415" PosY="488" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="238" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="108" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+        <Property Name="Button_Cancel" ClassName="CKeroroUI_Button" PosX="515" PosY="488" SizeX="92" SizeY="44" Disable="0" OverSound="1">
+            <SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.430" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="183" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="2" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="237" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                    <Element ControlState="3" index="0" TextName="GUI_button.tga" TextPosX="6" TextPosY="291" TextSizeX="92" TextSizeY="44" PosX="0" PosY="0" SizeX="92" SizeY="44" />
+                </Property>
+            </ControlSkin>
+        </Property>
+	</DialogControl>
+</RootNode>

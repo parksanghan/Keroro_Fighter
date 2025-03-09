@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="33">
+        <PROPERTYBAG NAME="HAIR" FILENAME="Joriri_Cap.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE01" FILENAME="Joriri_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE02" FILENAME="Joriri_Eye01.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE03" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE04" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE05" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE06" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE07" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE08" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE09" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE10" FILENAME="Joriri_Eye02.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE11" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE12" FILENAME="Joriri_Eye03.xml" COMMENT="" />
+        <PROPERTYBAG NAME="EYE13" FILENAME="Joriri_Eye.xml" COMMENT="" />
+        <PROPERTYBAG NAME="FOOT" FILENAME="Joriri_Foot.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HAND" FILENAME="Joriri_Hand.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD01" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD02" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD03" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD04" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD05" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD06" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD07" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD08" FILENAME="Joriri_Head02_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD09" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD10" FILENAME="Joriri_Head01_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD11" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD12" FILENAME="Joriri_Head03_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="HEAD13" FILENAME="Joriri_Head_1.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYD" FILENAME="Joriri_Bodyd.xml" COMMENT="" />
+        <PROPERTYBAG NAME="BODYU" FILENAME="Joriri_Bodyu.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="2" VSNAME="Keron.VS">
+        <PROPERTYBAG NAME="LOSE" FILENAME="Joriri_Lose.VA" COMMENT="" />
+        <PROPERTYBAG NAME="WIN" FILENAME="Joriri_Win.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="LOSES" FILENAME="Joriri_GAME_LOSE_V1.ogg" COMMENT="" />
+        <PROPERTYBAG NAME="WINS" FILENAME="Joriri_Addition_45.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="2" />
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="Joriri_Obj_FootHold01" FILENAME="Joriri_Obj_FootHold01.xml" />
+        <PROPERTYBAG NAME="Joriri_Obj_NewsPaper" FILENAME="Joriri_Obj_NewsPaper.xml" />
+    </EXTENTITY_RES_LIST>
+    <COMMANDS FILENAME="Joriri_Result_COMMANDS.XML" />
+</GAMEENTITY>

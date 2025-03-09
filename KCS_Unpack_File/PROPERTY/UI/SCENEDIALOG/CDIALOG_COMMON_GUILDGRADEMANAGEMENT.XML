@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_GuildGradeManagement.xml" PosX="363" PosY="140" SizeX="362" SizeY="440" ClientLeft="0" ClientTop="0" ClientRight="0" ClientBottom="0" />
+    </Dialog>
+
+    <DialogSkin>
+	<!--배경-->
+        <Property Index="0" RenderStyle="3" Depth="0.6350" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="193" TextPosY="414" TextSizeX="1" TextSizeY="438" PosX="26" PosY="0" SizeX="310" SizeY="438" />
+            <Element index="1" TextName="GUI_guild.tga" TextPosX="166" TextPosY="414" TextSizeX="26" TextSizeY="438" PosX="0" PosY="0" SizeX="26" SizeY="438" />
+            <Element index="2" TextName="GUI_guild.tga" TextPosX="194" TextPosY="414" TextSizeX="26" TextSizeY="438" PosX="336" PosY="0" SizeX="26" SizeY="438" />
+        </Property>
+	<!--뒷배경 어둡게-->
+        <Property Index="1" RenderStyle="0" Depth="0.6351" Show="1">
+            <Element index="0" TextName="GUI_BackBase.tga" TextPosX="0" TextPosY="0" TextSizeX="16" TextSizeY="16" PosX="-363" PosY="-140" SizeX="1024" SizeY="768" />
+        </Property>
+
+	<!--현재등급 배경-->
+	<Property Index="2" RenderStyle="0" Depth="0.6349" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="434" TextPosY="694" TextSizeX="332" TextSizeY="34" PosX="15" PosY="56" SizeX="332" SizeY="34" />
+        </Property>
+	<!--현재등급 글씨-->
+	<Property Index="3" RenderStyle="0" Depth="0.6348" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="227" TextPosY="711" TextSizeX="68" TextSizeY="20" PosX="30" PosY="62" SizeX="68" SizeY="20" />
+        </Property>
+
+	<!--길드점수 배경-->
+	<Property Index="4" RenderStyle="0" Depth="0.6349" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="434" TextPosY="694" TextSizeX="332" TextSizeY="34" PosX="15" PosY="92" SizeX="332" SizeY="34" />
+        </Property>
+	<!--길드점수 글씨-->
+	<Property Index="5" RenderStyle="0" Depth="0.6348" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="301" TextPosY="711" TextSizeX="68" TextSizeY="20" PosX="30" PosY="98" SizeX="68" SizeY="20" />
+        </Property>
+
+	<!--다음등급 배경-->
+	<Property Index="6" RenderStyle="0" Depth="0.6349" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="434" TextPosY="694" TextSizeX="332" TextSizeY="34" PosX="15" PosY="185" SizeX="332" SizeY="34" />
+        </Property>
+	<!--다음등급 글씨-->
+	<Property Index="7" RenderStyle="0" Depth="0.6348" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="227" TextPosY="734" TextSizeX="68" TextSizeY="20" PosX="30" PosY="191" SizeX="68" SizeY="20" />
+        </Property>
+
+	<!--필요점수 배경-->
+	<Property Index="8" RenderStyle="0" Depth="0.6349" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="434" TextPosY="694" TextSizeX="332" TextSizeY="34" PosX="15" PosY="220" SizeX="332" SizeY="34" />
+        </Property>
+	<!--필요점수 글씨-->
+	<Property Index="9" RenderStyle="0" Depth="0.6348" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="301" TextPosY="734" TextSizeX="68" TextSizeY="20" PosX="30" PosY="226" SizeX="68" SizeY="20" />
+        </Property>
+
+	<!--화살표-->
+	<Property Index="10" RenderStyle="0" Depth="0.6349" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="300" TextPosY="335" TextSizeX="88" TextSizeY="58" PosX="140" PosY="127" SizeX="88" SizeY="58" />
+        </Property>
+
+	<!--안내문-->
+	<Property Index="11" RenderStyle="0" Depth="0.6349" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="446" TextPosY="733" TextSizeX="304" TextSizeY="65" PosX="30" PosY="290" SizeX="304" SizeY="65" />
+        </Property>
+
+	<!--길드 등급 상승-->
+	<Property Index="12" RenderStyle="0" Depth="0.6349" Show="1">
+            <Element index="0" TextName="GUI_guild.tga" TextPosX="227" TextPosY="760" TextSizeX="130" TextSizeY="22" PosX="125" PosY="15" SizeX="130" SizeY="22" />
+        </Property>
+    </DialogSkin>
+
+    <DialogControl>
+	<!--등급상승 버튼-->
+	<Property Name="Button_GuildGradeManagement_UpGrade" ClassName="CKeroroUI_Button" PosX="70" PosY="383" SizeX="96" SizeY="48" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.6349" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="10" TextPosY="587" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="10" TextPosY="695" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="10" TextPosY="641" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="10" TextPosY="695" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+
+	<!--취소 버튼-->
+	<Property Name="Button_GuildGradeManagement_Cancel" ClassName="CKeroroUI_Button" PosX="200" PosY="383" SizeX="96" SizeY="48" Disable="0">
+            <ControlSkin>
+                <Property Index="0" RenderStyle="0" Depth="0.6349" Show="1">
+                    <Element ControlState="0" index="0" TextName="GUI_guild.tga" TextPosX="792" TextPosY="550" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                    <Element ControlState="1" index="0" TextName="GUI_guild.tga" TextPosX="792" TextPosY="658" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                    <Element ControlState="2" index="0" TextName="GUI_guild.tga" TextPosX="792" TextPosY="604" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                    <Element ControlState="3" index="0" TextName="GUI_guild.tga" TextPosX="792" TextPosY="658" TextSizeX="96" TextSizeY="48" PosX="0" PosY="0" SizeX="96" SizeY="48" />
+                </Property>
+            </ControlSkin>
+        </Property>
+		
+	<!--현재등급 static-->
+	<Property Name = "Static_GuildGradeManagement_CurrentGrade" ClassName="CKeroroUI_Static" PosX="140" PosY="65" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="현재 등급" FontDepth="0.6348" FontTextureName="Static_GuildGradeManagement_CurrentGrade" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--길드 점수 static-->
+	<Property Name = "Static_GuildGradeManagement_GuildScore" ClassName="CKeroroUI_Static" PosX="140" PosY="100" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="길드 점수" FontDepth="0.6348" FontTextureName="Static_GuildGradeManagement_GuildScore" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--다음등급 static-->
+	<Property Name = "Static_GuildGradeManagement_RequiredScore" ClassName="CKeroroUI_Static" PosX="140" PosY="193" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="다음 등급" FontDepth="0.6348" FontTextureName="Static_GuildGradeManagement_NextGrade" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+
+	<!--필요점수 static-->
+	<Property Name = "Static_GuildGradeManagement_NeedScore" ClassName="CKeroroUI_Static" PosX="140" PosY="230" SizeX="0" SizeY="0" Disable="0" OverSound="0">
+       		<SubProperty CheckControlArea="0" TargetMessage="NONE" TargetControl="NONE" Level="1" MaxPoint="0" NowPoint="0" LineLimt="0" AnimationOn="0" KeppListCount="0" RadioListCount="0" ComboListCount="0" GetGuageCount="0" GetShadowCount="0" AnimationTerm="0.000000" AnimationTime="0.000000" />
+		<ControlSkin />
+		<FontSkin>
+			<Property FontText="필요 점수" FontDepth="0.6348" FontTextureName="Static_GuildGradeManagement_RequiredScore" FontSize="14" FontSort="1" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+		</FontSkin>
+        </Property>
+    </DialogControl>
+
+</RootNode>

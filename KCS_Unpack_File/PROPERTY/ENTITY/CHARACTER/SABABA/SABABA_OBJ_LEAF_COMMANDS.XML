@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="COMB_PK" LOOP="0" TOTALTIME="1.16">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sababa_Obj_Comb_PK" TYPENAME="ActionAnimation" ANIMATIONNAME="Sababa_Obj_Comb_PK" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+        <COMMAND NAME="IDLE" LOOP="0" TOTALTIME="5">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Sababa_Obj_IDLE01_Leaf" TYPENAME="ActionAnimation" ANIMATIONNAME="Sababa_Obj_IDLE01_Leaf" FADEIN="0.1" FADEOUT="0.1" WEIGHT="1" EVENTTIME="0" EVENTENDTIME="0" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

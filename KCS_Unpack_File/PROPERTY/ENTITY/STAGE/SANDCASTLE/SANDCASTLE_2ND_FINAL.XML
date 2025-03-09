@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<GAMEENTITY>
+    <MODEL_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="SandCastle_2ndFloor" FILENAME="SandCastle_2ndFloor.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_2ndFloorDestroy.xml" FILENAME="SandCastle_2ndFloorDestroy.xml" COMMENT="" />
+    </MODEL_RES_LIST>
+    <ANIM_RES_LIST COUNT="1" VSNAME="SandCastle_1stFloor01.VS">
+        <PROPERTYBAG NAME="SandCastle_1stFloor01" FILENAME="SandCastle_1stFloor01.VA" COMMENT="" />
+    </ANIM_RES_LIST>
+    <SOUND_RES_LIST COUNT="1">
+        <PROPERTYBAG NAME="Factory_Mechine.ogg" FILENAME="Factory_Mechine.ogg" COMMENT="" />
+    </SOUND_RES_LIST>
+    <EFFECT_RES_LIST COUNT="2">
+        <PROPERTYBAG NAME="SandCastle_F2_E00.xml" FILENAME="SandCastle_F2_E00.xml" COMMENT="" />
+        <PROPERTYBAG NAME="SandCastle_F2_E01.xml" FILENAME="SandCastle_F2_E01.xml" COMMENT="" />
+    </EFFECT_RES_LIST>
+    <PARTICLE_RES_LIST COUNT="0" />
+    <EXTENTITY_RES_LIST COUNT="0" />
+    <COMMANDS FILENAME="SandCastle_2nd_FINAL_COMMANDS.XML" />
+</GAMEENTITY>

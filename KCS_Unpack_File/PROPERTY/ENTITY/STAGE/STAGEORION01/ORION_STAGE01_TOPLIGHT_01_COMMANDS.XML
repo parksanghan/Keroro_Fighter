@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<CHARACTER>
+    <COMMAND_LIST>
+        <COMMAND NAME="IDLE" LOOP="1" TOTALTIME="10.000000">
+            <ACTIONEVENT CLASSNAME="CActionEvent_ActionAni" EVENTNAME="Orion_stage01_toplight_01.VA" TYPENAME="ActionAnimation" ANIMATIONNAME="Orion_stage01_toplight_01.VA" FADEIN="0.100000" FADEOUT="0.100000" WEIGHT="1.000000" EVENTTIME="0.000000" EVENTENDTIME="0.000000" />
+        </COMMAND>
+    </COMMAND_LIST>
+</CHARACTER>

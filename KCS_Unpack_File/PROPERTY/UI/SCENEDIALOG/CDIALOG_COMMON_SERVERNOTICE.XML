@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ks_c_5601_1987" ?>
+<!--다이얼로그 세이브테스트 파일입니다-->
+<RootNode>
+    <Dialog>
+        <Property Name="CDialog_Common_ServeNotice" PosX="220" PosY="0" SizeX="561" SizeY="46" ClientLeft="-220" ClientTop="0" ClientRight="-781" ClientBottom="-46" />
+    </Dialog>
+    <DialogSkin>
+        <Property Index="0" RenderStyle="0" Depth="0.640" Show="1">
+            <Element index="0" TextName="GUI_ItemShop.tga" TextPosX="340" TextPosY="973" TextSizeX="561" TextSizeY="46" PosX="0" PosY="0" SizeX="561" SizeY="46" />
+        </Property>
+    </DialogSkin>
+    <DialogControl>
+        <Property Name="Static_Notice" ClassName="CKeroroUI_Static" PosX="80" PosY="13" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Test" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+        <Property Name="Static_ServerInfo" ClassName="CKeroroUI_Static" PosX="415" PosY="13" SizeX="0" SizeY="0" Disable="0">
+            <ControlSkin />
+            <FontSkin>
+                <Property FontText="Test" FontDepth="0.640" FontTextureName="Test" FontSize="14" FontSort="0" FontColor="16777215.000000" FontOutColor="0.000000" FontPosX="0" FontPosY="1" />
+            </FontSkin>
+        </Property>
+    </DialogControl>
+</RootNode>
